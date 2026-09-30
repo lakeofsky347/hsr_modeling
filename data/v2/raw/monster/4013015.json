@@ -1,0 +1,287 @@
+{
+  "id": 4013015,
+  "name": "巨剑守护•陷坚挫锐的先锋将",
+  "desc": "曾经是由「纷争」雕琢的泰坦眷属，流淌着尼卡多利的金血，能承载泰坦灵魂的强大造物，如今却堕落成只知道杀戮的机器。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 3720,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4013010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 1800,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4013015,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401301501,
+          "skill_name": "从天帷斩向黎明",
+          "skill_desc": "从我方队伍左侧起横扫攻击我方3个连续目标，造成少量虚数属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401301502,
+          "skill_name": "从黎明杀往天帷",
+          "skill_desc": "从我方队伍右侧起横扫攻击我方3个连续目标，造成少量虚数属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401301503,
+          "skill_name": "快从坟墓中苏生",
+          "skill_desc": "召唤【泰坦眷属】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401301504,
+          "skill_name": "军威锐不可当",
+          "skill_desc": "对我方和敌方全体目标施加<u>【生命计数】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "70000216": {
+              "name": "生命计数",
+              "desc": "拥有【生命计数】的目标受到攻击时不会损失生命值，但是会减少【生命计数】。【生命计数】归零时将陷入无法战斗状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401301505,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401301506,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401301507,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401301508,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401301509,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4013015,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4013015,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4013015,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4013015,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4013015,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4013015,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4013015,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    }
+  ]
+}

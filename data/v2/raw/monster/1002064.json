@@ -1,0 +1,253 @@
+{
+  "id": 1002064,
+  "name": "公司组长幻象",
+  "desc": "「星际和平公司」的资深员工，级别至少是项目组的小组长。驾驶的机甲属于公有资产，一旦损坏需要自费赔偿。工资尚可，足够在公司旗下的企业舰上租下一室一厅的单间。",
+  "monster_camp_id": null,
+  "attack_base": 6,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 4185,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1002013.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 120,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 1002064,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100206401,
+          "skill_name": "永冬余响",
+          "skill_desc": "对我方全体造成少量冰属性伤害，并使我方行动延后",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100206401,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100206401,
+          "skill_name": "永冬余响",
+          "skill_desc": "对我方全体造成少量冰属性伤害，并使我方行动延后",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1002064,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002064,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002064,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002064,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002064,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002064,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002064,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    }
+  ]
+}

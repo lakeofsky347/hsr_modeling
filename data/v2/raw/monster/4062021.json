@@ -1,0 +1,160 @@
+{
+  "id": 4062021,
+  "name": "复仇者战队•犬形",
+  "desc": "流光忆庭的模因生命遭遇「毁灭」金血糅合而成的扭曲怪物。初具犬形。\\n它咄咄逼人，可见即便人性已经蒸发，遵循着「毁灭」的本能便是如此模样。",
+  "monster_camp_id": 18,
+  "attack_base": 40.008891,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 360.003,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4062020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 120,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 4062021,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406202101,
+          "skill_name": "罪血啃噬",
+          "skill_desc": "对指定我方单体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4062021,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062021,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062021,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062021,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062021,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062021,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062021,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    }
+  ]
+}

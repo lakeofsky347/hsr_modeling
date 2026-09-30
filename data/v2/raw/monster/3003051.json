@@ -1,0 +1,676 @@
+{
+  "id": 3003051,
+  "name": "「醉于盛会的此刻」",
+  "desc": "美梦剧团中取悦宾客的酒侍。本应于「谐乐大典」之中献杯，如今却被「秩序」所缚，上演着关于「当下」的剧目。此刻是彻夜的欢宴，喜乐的渴望在杯中荡漾，以佳酿进献设宴的主人。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1023,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3003050.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 110,
+  "stance_base": 180,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 3003051,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300305101,
+          "skill_name": "为你倾流宝血",
+          "skill_desc": "大概率使指定我方单体陷入【<u>荒宴醉</u>】或【<u>欢宴罪</u>】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 5,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305102,
+          "skill_name": "为你摆设筵席",
+          "skill_desc": "大概率使我方全体陷入【<u>荒宴醉</u>】或【<u>欢宴罪</u>】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305103,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 300305104,
+          "skill_name": "使你福杯满溢",
+          "skill_desc": "进入蓄力状态，大概率使我方全体陷入【<u>荒宴醉</u>】和【<u>欢宴罪</u>】状态。下次行动施放【为你洗去一切罪】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305105,
+          "skill_name": "为你洗去一切罪",
+          "skill_desc": "使我方全体当前承受的所有持续伤害效果立即产生一次伤害，并解除我方全体的持续伤害效果。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 300305106,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300305107,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300305101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.590909,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300305101,
+          "skill_name": "为你倾流宝血",
+          "skill_desc": "大概率使指定我方单体陷入【<u>荒宴醉</u>】或【<u>欢宴罪</u>】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 5,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305102,
+          "skill_name": "为你摆设筵席",
+          "skill_desc": "大概率使我方全体陷入【<u>荒宴醉</u>】或【<u>欢宴罪</u>】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305103,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 300305104,
+          "skill_name": "使你福杯满溢",
+          "skill_desc": "进入蓄力状态，大概率使我方全体陷入【<u>荒宴醉</u>】和【<u>欢宴罪</u>】状态。下次行动施放【为你洗去一切罪】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305105,
+          "skill_name": "为你洗去一切罪",
+          "skill_desc": "使我方全体当前承受的所有持续伤害效果立即产生一次伤害，并解除我方全体的持续伤害效果。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 300305106,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300305107,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300305102,
+      "attack_modify_ratio": 0.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300305101,
+          "skill_name": "为你倾流宝血",
+          "skill_desc": "大概率使指定我方单体陷入【<u>荒宴醉</u>】或【<u>欢宴罪</u>】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 5,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305102,
+          "skill_name": "为你摆设筵席",
+          "skill_desc": "大概率使我方全体陷入【<u>荒宴醉</u>】或【<u>欢宴罪</u>】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305103,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 300305104,
+          "skill_name": "使你福杯满溢",
+          "skill_desc": "进入蓄力状态，大概率使我方全体陷入【<u>荒宴醉</u>】和【<u>欢宴罪</u>】状态。下次行动施放【为你洗去一切罪】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305105,
+          "skill_name": "为你洗去一切罪",
+          "skill_desc": "使我方全体当前承受的所有持续伤害效果立即产生一次伤害，并解除我方全体的持续伤害效果。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 300305106,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300305107,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300305103,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.590909,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300305101,
+          "skill_name": "为你倾流宝血",
+          "skill_desc": "大概率使指定我方单体陷入【<u>荒宴醉</u>】或【<u>欢宴罪</u>】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 5,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305102,
+          "skill_name": "为你摆设筵席",
+          "skill_desc": "大概率使我方全体陷入【<u>荒宴醉</u>】或【<u>欢宴罪</u>】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305103,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 300305104,
+          "skill_name": "使你福杯满溢",
+          "skill_desc": "进入蓄力状态，大概率使我方全体陷入【<u>荒宴醉</u>】和【<u>欢宴罪</u>】状态。下次行动施放【为你洗去一切罪】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "23003051": {
+              "name": "荒宴醉",
+              "desc": "一定回合内，每回合开始时受到风属性伤害，该效果可叠加。",
+              "param": []
+            },
+            "23003052": {
+              "name": "欢宴罪",
+              "desc": "一定回合内，每回合开始时受到雷属性伤害，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300305105,
+          "skill_name": "为你洗去一切罪",
+          "skill_desc": "使我方全体当前承受的所有持续伤害效果立即产生一次伤害，并解除我方全体的持续伤害效果。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 300305106,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300305107,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3003051,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003051,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003051,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003051,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003051,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003051,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003051,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    }
+  ]
+}

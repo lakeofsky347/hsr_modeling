@@ -1,0 +1,232 @@
+{
+  "id": 4044011,
+  "name": "第一位天才，隐德来希，赞达尔",
+  "desc": "以吕枯耳戈斯之名静观千百万次轮回的神礼观众，承载天才俱乐部#1赞达尔•壹•桑原的意志。以最初的「天才」权柄，执掌超越神话的伟力，试将漫长的实验导向「毁灭」的宿命。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 9300,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4044010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 160,
+  "stance_base": 600,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4044011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 404401101,
+          "skill_name": "天球偏移论",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 404401102,
+          "skill_name": "潜能实现猜想",
+          "skill_desc": "使指定敌方单体目标获得<u>【潜能实现】</u>效果并立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240440102": {
+              "name": "潜能实现",
+              "desc": "造成伤害提高，回合开始时回复生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 404401103,
+          "skill_name": "智识的二律背反",
+          "skill_desc": "对指定我方目标造成少量量子属性伤害，将目标行动提前并解除其控制状态。同时对其施加<u>【二律背反】</u>效果。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "240440101": {
+              "name": "二律背反",
+              "desc": "终结技被激活，施放终结技时损失生命值，该伤害优先消耗护盾且不致命。在效果持续期间未施放终结技则在效果解除时将能量还原。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 404401104,
+          "skill_name": "虚数几何演绎法",
+          "skill_desc": "连续对我方随机单体目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 404401105,
+          "skill_name": "SET 论证方法=黑潮",
+          "skill_desc": "切换为【论证形态】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 404401106,
+          "skill_name": "DEL 入侵变量",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 404401107,
+          "skill_name": "DEFRAG 生命优化",
+          "skill_desc": "使除自身外的敌方全体目标在自身处于【论证形态】时，永久获得<u>【风行】</u>和<u>【「律法」的惩戒】</u>效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240220101": {
+              "name": "风行",
+              "desc": "处于【风行】效果的目标在回合结束时会立即行动，因【风行】效果触发的回合无法再次触发此效果，陷入弱点击破状态后解除。",
+              "param": []
+            },
+            "240440103": {
+              "name": "「律法」的惩戒",
+              "desc": "每次行动后损失生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 404401108,
+          "skill_name": "创生&&毁灭",
+          "skill_desc": "对我方2个目标造成少量量子属性伤害，将目标行动提前并解除其控制状态。同时对目标施加<u>【二律背反】</u>效果。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "240440101": {
+              "name": "二律背反",
+              "desc": "终结技被激活，施放终结技时损失生命值，该伤害优先消耗护盾且不致命。在效果持续期间未施放终结技则在效果解除时将能量还原。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 404401109,
+          "skill_name": "FORMAT 故障空间",
+          "skill_desc": "连续对我方随机单体目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 404401110,
+          "skill_name": "求解：第一因之果",
+          "skill_desc": "对我方全体造成大量量子属性伤害，伤害由目标<u>平均分摊</u>，且伤害会根据强化的次数提升，并使等同于强化次数数量的我方目标大概率陷入纠缠状态。同时切换为【演化形态】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {
+            "401301001": {
+              "name": "平均分摊",
+              "desc": "本次攻击结算前的伤害和负面效果由所有受击目标平均承受。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 404401111,
+          "skill_name": "秘所思公理",
+          "skill_desc": "当前处于【演化形态】。在行动序列上生成【神话生命演化系统】，每次【神话生命演化系统】行动时在场上生成【泰坦眷属】。敌方目标从场上生成或我方忆灵被召唤累计达到一定数量后，赞达尔将施放【SET 论证方法=黑潮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 404401112,
+          "skill_name": "逻各斯ALG",
+          "skill_desc": "当前处于【论证形态】，场上会不断生成【黑潮造物】。同时在行动序列上生成【CALL _毁灭论证法】，每次【CALL _毁灭论证法】行动时，使下次赞达尔施放的【求解：第一因之果】获得强化。敌方目标被消灭、我方角色陷入无法战斗状态或忆灵消失累计达到一定数量后，赞达尔施放【求解：第一因之果】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 404401113,
+          "skill_name": "化形公式",
+          "skill_desc": "每次切换形态时使自身受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4044011,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4044011,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4044011,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4044011,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4044011,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4044011,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4044011,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

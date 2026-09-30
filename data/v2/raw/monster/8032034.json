@@ -1,0 +1,362 @@
+{
+  "id": 8032034,
+  "name": "「所有或一无所有•双倍好运」",
+  "desc": "「孤注一掷的掷骰者」所化博弈之骰，于赌局中裁断博徒们的命运。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 232.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8032034.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 60,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 8032034,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803203401,
+          "skill_name": "限时好运",
+          "skill_desc": "行动时，自身离开战斗。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803203402,
+          "skill_name": "双倍投注",
+          "skill_desc": "被消灭后，使我方【点数】翻倍，同时削减【孤注一掷的掷骰者】的韧性，并使其失去一定量的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803203401,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803203401,
+          "skill_name": "限时好运",
+          "skill_desc": "行动时，自身离开战斗。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803203402,
+          "skill_name": "双倍投注",
+          "skill_desc": "被消灭后，使我方【点数】翻倍，同时削减【孤注一掷的掷骰者】的韧性，并使其失去一定量的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803203402,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803203401,
+          "skill_name": "限时好运",
+          "skill_desc": "行动时，自身离开战斗。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803203402,
+          "skill_name": "双倍投注",
+          "skill_desc": "被消灭后，使我方【点数】翻倍，同时削减【孤注一掷的掷骰者】的韧性，并使其失去一定量的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803203403,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803203401,
+          "skill_name": "限时好运",
+          "skill_desc": "行动时，自身离开战斗。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803203402,
+          "skill_name": "双倍投注",
+          "skill_desc": "被消灭后，使我方【点数】翻倍，同时削减【孤注一掷的掷骰者】的韧性，并使其失去一定量的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803203404,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803203401,
+          "skill_name": "限时好运",
+          "skill_desc": "行动时，自身离开战斗。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803203402,
+          "skill_name": "双倍投注",
+          "skill_desc": "被消灭后，使我方【点数】翻倍，同时削减【孤注一掷的掷骰者】的韧性，并使其失去一定量的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8032034,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032034,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032034,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032034,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032034,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032034,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032034,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    }
+  ]
+}

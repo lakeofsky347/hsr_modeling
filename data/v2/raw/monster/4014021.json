@@ -1,0 +1,442 @@
+{
+  "id": 4014021,
+  "name": "颁赐者，千军首，天谴之矛",
+  "desc": "不败者，一切战场的领主，悬锋城与废墟的王，\\n战车大匠，尸山王座，胜利父，\\n荣耀僭主，裂地惊海的雷，翁法罗斯的守护者，\\n纷争的泰坦，天谴之矛，尼卡多利。\\n全体世间应听遣的将领，永恒且锋利的兵戈，纷争与断绝纷争的法则。\\n礼赞尼卡多利，最伟大的征服者，最伟大的守护者。",
+  "monster_camp_id": 12,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 5580,
+  "initial_delay_ratio": 0.5,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4014020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 60,
+  "stance_base": null,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4014021,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401402101,
+          "skill_name": "或被征服，或死",
+          "skill_desc": "召唤4个【被征服者】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401402103,
+          "skill_name": "天谴降，皆奠纷争昂藏",
+          "skill_desc": "控制【兵戈扰攘的常胜军】对我方全体造成大量虚数属性伤害。场上每有一个【被征服者】的<u>【百炼战甲】</u>未被破坏，则该技能的伤害倍率提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {
+            "240140134": {
+              "name": "百炼战甲",
+              "desc": "受到的伤害降低。受到攻击后根据攻击者的【荣耀】层数减少自身【百炼战甲】，减少到0层时，【百炼战甲】被破坏，对自身造成大量虚数属性伤害，削减自身大量韧性，并使自身行动延后，使我方恢复战技点，并使攻击者获得一定层数的【荣耀】。【百炼战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【百炼战甲】在自身回合结束时如果层数为0，则恢复到最大层数。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401402104,
+          "skill_name": "畏怖溃军皆成铠仗",
+          "skill_desc": "吸收剩余的【被征服者】，并解除【兵戈扰攘的常胜军】身上的控制类负面状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401402101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401402101,
+          "skill_name": "或被征服，或死",
+          "skill_desc": "召唤4个【被征服者】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401402103,
+          "skill_name": "天谴降，皆奠纷争昂藏",
+          "skill_desc": "控制【兵戈扰攘的常胜军】对我方全体造成大量虚数属性伤害。场上每有一个【被征服者】的<u>【百炼战甲】</u>未被破坏，则该技能的伤害倍率提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {
+            "240140134": {
+              "name": "百炼战甲",
+              "desc": "受到的伤害降低。受到攻击后根据攻击者的【荣耀】层数减少自身【百炼战甲】，减少到0层时，【百炼战甲】被破坏，对自身造成大量虚数属性伤害，削减自身大量韧性，并使自身行动延后，使我方恢复战技点，并使攻击者获得一定层数的【荣耀】。【百炼战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【百炼战甲】在自身回合结束时如果层数为0，则恢复到最大层数。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401402104,
+          "skill_name": "畏怖溃军皆成铠仗",
+          "skill_desc": "吸收剩余的【被征服者】，并解除【兵戈扰攘的常胜军】身上的控制类负面状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401402102,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401402101,
+          "skill_name": "或被征服，或死",
+          "skill_desc": "召唤4个【被征服者】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401402103,
+          "skill_name": "天谴降，皆奠纷争昂藏",
+          "skill_desc": "控制【兵戈扰攘的常胜军】对我方全体造成大量虚数属性伤害。场上每有一个【被征服者】的<u>【百炼战甲】</u>未被破坏，则该技能的伤害倍率提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {
+            "240140134": {
+              "name": "百炼战甲",
+              "desc": "受到的伤害降低。受到攻击后根据攻击者的【荣耀】层数减少自身【百炼战甲】，减少到0层时，【百炼战甲】被破坏，对自身造成大量虚数属性伤害，削减自身大量韧性，并使自身行动延后，使我方恢复战技点，并使攻击者获得一定层数的【荣耀】。【百炼战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【百炼战甲】在自身回合结束时如果层数为0，则恢复到最大层数。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401402104,
+          "skill_name": "畏怖溃军皆成铠仗",
+          "skill_desc": "吸收剩余的【被征服者】，并解除【兵戈扰攘的常胜军】身上的控制类负面状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401402103,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401402101,
+          "skill_name": "或被征服，或死",
+          "skill_desc": "召唤4个【被征服者】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401402103,
+          "skill_name": "天谴降，皆奠纷争昂藏",
+          "skill_desc": "控制【兵戈扰攘的常胜军】对我方全体造成大量虚数属性伤害。场上每有一个【被征服者】的<u>【百炼战甲】</u>未被破坏，则该技能的伤害倍率提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {
+            "240140134": {
+              "name": "百炼战甲",
+              "desc": "受到的伤害降低。受到攻击后根据攻击者的【荣耀】层数减少自身【百炼战甲】，减少到0层时，【百炼战甲】被破坏，对自身造成大量虚数属性伤害，削减自身大量韧性，并使自身行动延后，使我方恢复战技点，并使攻击者获得一定层数的【荣耀】。【百炼战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【百炼战甲】在自身回合结束时如果层数为0，则恢复到最大层数。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401402104,
+          "skill_name": "畏怖溃军皆成铠仗",
+          "skill_desc": "吸收剩余的【被征服者】，并解除【兵戈扰攘的常胜军】身上的控制类负面状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401402104,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401402101,
+          "skill_name": "或被征服，或死",
+          "skill_desc": "召唤4个【被征服者】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401402103,
+          "skill_name": "天谴降，皆奠纷争昂藏",
+          "skill_desc": "控制【兵戈扰攘的常胜军】对我方全体造成大量虚数属性伤害。场上每有一个【被征服者】的<u>【百炼战甲】</u>未被破坏，则该技能的伤害倍率提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {
+            "240140134": {
+              "name": "百炼战甲",
+              "desc": "受到的伤害降低。受到攻击后根据攻击者的【荣耀】层数减少自身【百炼战甲】，减少到0层时，【百炼战甲】被破坏，对自身造成大量虚数属性伤害，削减自身大量韧性，并使自身行动延后，使我方恢复战技点，并使攻击者获得一定层数的【荣耀】。【百炼战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【百炼战甲】在自身回合结束时如果层数为0，则恢复到最大层数。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401402104,
+          "skill_name": "畏怖溃军皆成铠仗",
+          "skill_desc": "吸收剩余的【被征服者】，并解除【兵戈扰攘的常胜军】身上的控制类负面状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4014021,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014021,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014021,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014021,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014021,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014021,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014021,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

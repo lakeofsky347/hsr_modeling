@@ -1,0 +1,253 @@
+{
+  "id": 3011010,
+  "name": "忆域迷因「视线无处不在」",
+  "desc": "蕴含特定认知的实体，由忆域中的潜意识碎片堆积而成。\\n注目、回望、审视…在生命的生存行为和对自身生存的领悟中，「视」与「看」的记忆如影随形，最终成为生命本身。",
+  "monster_camp_id": 11,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 93,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3011010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Minion",
+  "speed_base": 100,
+  "stance_base": 30,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 3011010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301101001,
+          "skill_name": "他者凝视",
+          "skill_desc": "对指定我方单体造成少量量子属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 301101001,
+      "attack_modify_ratio": 0.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301101001,
+          "skill_name": "他者凝视",
+          "skill_desc": "对指定我方单体造成少量量子属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3011010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 180011
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3011010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 180011
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3011010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 180011
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3011010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 180011
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3011010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 180011
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3011010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 180011
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3011010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 180011
+        }
+      ]
+    }
+  ]
+}

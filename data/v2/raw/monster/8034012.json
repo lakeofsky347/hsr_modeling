@@ -1,0 +1,1117 @@
+{
+  "id": 8034012,
+  "name": "孤注一掷的掷骰者",
+  "desc": "星际和平公司「战略投资部」的高级干部，「石心十人」之一。借由基石分得「存护」令使的权能，以身作骰，置之死地而后生。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 8137.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8034010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 120,
+  "stance_base": 570,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 8034012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803401201,
+          "skill_name": "押以重注",
+          "skill_desc": "对指定我方单体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803401202,
+          "skill_name": "分散投资",
+          "skill_desc": "连续对我方随机单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 803401203,
+          "skill_name": "收益抽成",
+          "skill_desc": "对我方全体造成少量虚数属性伤害，并减少我方全体的能量；在第二阶段时，额外减少我方【点数】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401204,
+          "skill_name": "对赌时刻",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方单体进入赌局，每个【「所有或一无所有」】每次受到进入赌局的我方目标攻击时，会使其获得1个随机1到6的点数。进入赌局的我方单体回合结束时，点数低于诡弈砂金视为输掉赌局并受到攻击；点数高于诡弈砂金视为赢得赌局且终结技被激活。同时使没有进入赌局的我方目标陷入【观局勿语】状态，赌局结束后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401205,
+          "skill_name": "豪赌盛宴",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方全体进入赌局，每个【「所有或一无所有」】每次受到攻击时会使进行攻击的我方目标获得1个随机1到6的点数。下次诡弈砂金行动时，点数低于诡弈砂金的我方目标视为输掉赌局并受到攻击；点数高于诡弈砂金的我方目标视为赢得赌局且终结技被激活。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401206,
+          "skill_name": "败者退席",
+          "skill_desc": "对输掉赌局的我方单体造成虚数属性伤害，并大概率使受到攻击的我方单体陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401207,
+          "skill_name": "胜者通杀",
+          "skill_desc": "对所有输掉赌局的我方目标造成大量虚数属性伤害，并大概率使受到攻击的我方目标陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401208,
+          "skill_name": "诡弈赌约",
+          "skill_desc": "每次赢得赌局的我方目标获得【鸿运当头】效果，造成的伤害提高；每次输掉赌局的我方目标获得【时运不济】效果，受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401210,
+          "skill_name": "开牌下注",
+          "skill_desc": "激活两个【「所有或一无所有」】，并锁定我方单体，下次行动对其施放【孤注一掷】。消灭所有被激活的【「所有或一无所有」】可以阻止【孤注一掷】的施放，并使随机我方单体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401211,
+          "skill_name": "全部押进",
+          "skill_desc": "激活所有【「所有或一无所有」】，下次行动施放【逢赌必输】。消灭所有被激活的【「所有或一无所有」】可以阻止【逢赌必输】的施放，并使我方全体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401212,
+          "skill_name": "孤注一掷",
+          "skill_desc": "对锁定的我方单体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401213,
+          "skill_name": "逢赌必输",
+          "skill_desc": "对我方全体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401217,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401218,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401219,
+          "skill_name": "点数",
+          "skill_desc": "战斗中，使所有单位获得一定量的【点数】，转阶段时重置。我方【点数】小于敌方目标时，敌方目标受到的伤害大幅降低，并获得韧性保护；我方【点数】大于等于敌方目标时，敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401220,
+          "skill_name": "跟注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401221,
+          "skill_name": "盲注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】或【「所有或一无所有•双倍好运」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803401201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -60,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803401201,
+          "skill_name": "押以重注",
+          "skill_desc": "对指定我方单体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803401202,
+          "skill_name": "分散投资",
+          "skill_desc": "连续对我方随机单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 803401203,
+          "skill_name": "收益抽成",
+          "skill_desc": "对我方全体造成少量虚数属性伤害，并减少我方全体的能量；在第二阶段时，额外减少我方【点数】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401204,
+          "skill_name": "对赌时刻",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方单体进入赌局，每个【「所有或一无所有」】每次受到进入赌局的我方目标攻击时，会使其获得1个随机1到6的点数。进入赌局的我方单体回合结束时，点数低于诡弈砂金视为输掉赌局并受到攻击；点数高于诡弈砂金视为赢得赌局且终结技被激活。同时使没有进入赌局的我方目标陷入【观局勿语】状态，赌局结束后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401205,
+          "skill_name": "豪赌盛宴",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方全体进入赌局，每个【「所有或一无所有」】每次受到攻击时会使进行攻击的我方目标获得1个随机1到6的点数。下次诡弈砂金行动时，点数低于诡弈砂金的我方目标视为输掉赌局并受到攻击；点数高于诡弈砂金的我方目标视为赢得赌局且终结技被激活。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401206,
+          "skill_name": "败者退席",
+          "skill_desc": "对输掉赌局的我方单体造成虚数属性伤害，并大概率使受到攻击的我方单体陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401207,
+          "skill_name": "胜者通杀",
+          "skill_desc": "对所有输掉赌局的我方目标造成大量虚数属性伤害，并大概率使受到攻击的我方目标陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401208,
+          "skill_name": "诡弈赌约",
+          "skill_desc": "每次赢得赌局的我方目标获得【鸿运当头】效果，造成的伤害提高；每次输掉赌局的我方目标获得【时运不济】效果，受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401210,
+          "skill_name": "开牌下注",
+          "skill_desc": "激活两个【「所有或一无所有」】，并锁定我方单体，下次行动对其施放【孤注一掷】。消灭所有被激活的【「所有或一无所有」】可以阻止【孤注一掷】的施放，并使随机我方单体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401211,
+          "skill_name": "全部押进",
+          "skill_desc": "激活所有【「所有或一无所有」】，下次行动施放【逢赌必输】。消灭所有被激活的【「所有或一无所有」】可以阻止【逢赌必输】的施放，并使我方全体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401212,
+          "skill_name": "孤注一掷",
+          "skill_desc": "对锁定的我方单体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401213,
+          "skill_name": "逢赌必输",
+          "skill_desc": "对我方全体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401217,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401218,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401219,
+          "skill_name": "点数",
+          "skill_desc": "战斗中，使所有单位获得一定量的【点数】，转阶段时重置。我方【点数】小于敌方目标时，敌方目标受到的伤害大幅降低，并获得韧性保护；我方【点数】大于等于敌方目标时，敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401220,
+          "skill_name": "跟注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401221,
+          "skill_name": "盲注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】或【「所有或一无所有•双倍好运」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803401202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -60,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803401201,
+          "skill_name": "押以重注",
+          "skill_desc": "对指定我方单体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803401202,
+          "skill_name": "分散投资",
+          "skill_desc": "连续对我方随机单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 803401203,
+          "skill_name": "收益抽成",
+          "skill_desc": "对我方全体造成少量虚数属性伤害，并减少我方全体的能量；在第二阶段时，额外减少我方【点数】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401204,
+          "skill_name": "对赌时刻",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方单体进入赌局，每个【「所有或一无所有」】每次受到进入赌局的我方目标攻击时，会使其获得1个随机1到6的点数。进入赌局的我方单体回合结束时，点数低于诡弈砂金视为输掉赌局并受到攻击；点数高于诡弈砂金视为赢得赌局且终结技被激活。同时使没有进入赌局的我方目标陷入【观局勿语】状态，赌局结束后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401205,
+          "skill_name": "豪赌盛宴",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方全体进入赌局，每个【「所有或一无所有」】每次受到攻击时会使进行攻击的我方目标获得1个随机1到6的点数。下次诡弈砂金行动时，点数低于诡弈砂金的我方目标视为输掉赌局并受到攻击；点数高于诡弈砂金的我方目标视为赢得赌局且终结技被激活。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401206,
+          "skill_name": "败者退席",
+          "skill_desc": "对输掉赌局的我方单体造成虚数属性伤害，并大概率使受到攻击的我方单体陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401207,
+          "skill_name": "胜者通杀",
+          "skill_desc": "对所有输掉赌局的我方目标造成大量虚数属性伤害，并大概率使受到攻击的我方目标陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401208,
+          "skill_name": "诡弈赌约",
+          "skill_desc": "每次赢得赌局的我方目标获得【鸿运当头】效果，造成的伤害提高；每次输掉赌局的我方目标获得【时运不济】效果，受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401210,
+          "skill_name": "开牌下注",
+          "skill_desc": "激活两个【「所有或一无所有」】，并锁定我方单体，下次行动对其施放【孤注一掷】。消灭所有被激活的【「所有或一无所有」】可以阻止【孤注一掷】的施放，并使随机我方单体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401211,
+          "skill_name": "全部押进",
+          "skill_desc": "激活所有【「所有或一无所有」】，下次行动施放【逢赌必输】。消灭所有被激活的【「所有或一无所有」】可以阻止【逢赌必输】的施放，并使我方全体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401212,
+          "skill_name": "孤注一掷",
+          "skill_desc": "对锁定的我方单体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401213,
+          "skill_name": "逢赌必输",
+          "skill_desc": "对我方全体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401217,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401218,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401219,
+          "skill_name": "点数",
+          "skill_desc": "战斗中，使所有单位获得一定量的【点数】，转阶段时重置。我方【点数】小于敌方目标时，敌方目标受到的伤害大幅降低，并获得韧性保护；我方【点数】大于等于敌方目标时，敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401220,
+          "skill_name": "跟注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401221,
+          "skill_name": "盲注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】或【「所有或一无所有•双倍好运」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803401203,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -60,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803401201,
+          "skill_name": "押以重注",
+          "skill_desc": "对指定我方单体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803401202,
+          "skill_name": "分散投资",
+          "skill_desc": "连续对我方随机单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 803401203,
+          "skill_name": "收益抽成",
+          "skill_desc": "对我方全体造成少量虚数属性伤害，并减少我方全体的能量；在第二阶段时，额外减少我方【点数】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401204,
+          "skill_name": "对赌时刻",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方单体进入赌局，每个【「所有或一无所有」】每次受到进入赌局的我方目标攻击时，会使其获得1个随机1到6的点数。进入赌局的我方单体回合结束时，点数低于诡弈砂金视为输掉赌局并受到攻击；点数高于诡弈砂金视为赢得赌局且终结技被激活。同时使没有进入赌局的我方目标陷入【观局勿语】状态，赌局结束后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401205,
+          "skill_name": "豪赌盛宴",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方全体进入赌局，每个【「所有或一无所有」】每次受到攻击时会使进行攻击的我方目标获得1个随机1到6的点数。下次诡弈砂金行动时，点数低于诡弈砂金的我方目标视为输掉赌局并受到攻击；点数高于诡弈砂金的我方目标视为赢得赌局且终结技被激活。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401206,
+          "skill_name": "败者退席",
+          "skill_desc": "对输掉赌局的我方单体造成虚数属性伤害，并大概率使受到攻击的我方单体陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401207,
+          "skill_name": "胜者通杀",
+          "skill_desc": "对所有输掉赌局的我方目标造成大量虚数属性伤害，并大概率使受到攻击的我方目标陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401208,
+          "skill_name": "诡弈赌约",
+          "skill_desc": "每次赢得赌局的我方目标获得【鸿运当头】效果，造成的伤害提高；每次输掉赌局的我方目标获得【时运不济】效果，受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401210,
+          "skill_name": "开牌下注",
+          "skill_desc": "激活两个【「所有或一无所有」】，并锁定我方单体，下次行动对其施放【孤注一掷】。消灭所有被激活的【「所有或一无所有」】可以阻止【孤注一掷】的施放，并使随机我方单体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401211,
+          "skill_name": "全部押进",
+          "skill_desc": "激活所有【「所有或一无所有」】，下次行动施放【逢赌必输】。消灭所有被激活的【「所有或一无所有」】可以阻止【逢赌必输】的施放，并使我方全体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401212,
+          "skill_name": "孤注一掷",
+          "skill_desc": "对锁定的我方单体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401213,
+          "skill_name": "逢赌必输",
+          "skill_desc": "对我方全体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401217,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401218,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401219,
+          "skill_name": "点数",
+          "skill_desc": "战斗中，使所有单位获得一定量的【点数】，转阶段时重置。我方【点数】小于敌方目标时，敌方目标受到的伤害大幅降低，并获得韧性保护；我方【点数】大于等于敌方目标时，敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401220,
+          "skill_name": "跟注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401221,
+          "skill_name": "盲注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】或【「所有或一无所有•双倍好运」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803401204,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803401201,
+          "skill_name": "押以重注",
+          "skill_desc": "对指定我方单体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803401202,
+          "skill_name": "分散投资",
+          "skill_desc": "连续对我方随机单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 803401203,
+          "skill_name": "收益抽成",
+          "skill_desc": "对我方全体造成少量虚数属性伤害，并减少我方全体的能量；在第二阶段时，额外减少我方【点数】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401204,
+          "skill_name": "对赌时刻",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方单体进入赌局，每个【「所有或一无所有」】每次受到进入赌局的我方目标攻击时，会使其获得1个随机1到6的点数。进入赌局的我方单体回合结束时，点数低于诡弈砂金视为输掉赌局并受到攻击；点数高于诡弈砂金视为赢得赌局且终结技被激活。同时使没有进入赌局的我方目标陷入【观局勿语】状态，赌局结束后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401205,
+          "skill_name": "豪赌盛宴",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方全体进入赌局，每个【「所有或一无所有」】每次受到攻击时会使进行攻击的我方目标获得1个随机1到6的点数。下次诡弈砂金行动时，点数低于诡弈砂金的我方目标视为输掉赌局并受到攻击；点数高于诡弈砂金的我方目标视为赢得赌局且终结技被激活。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401206,
+          "skill_name": "败者退席",
+          "skill_desc": "对输掉赌局的我方单体造成虚数属性伤害，并大概率使受到攻击的我方单体陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401207,
+          "skill_name": "胜者通杀",
+          "skill_desc": "对所有输掉赌局的我方目标造成大量虚数属性伤害，并大概率使受到攻击的我方目标陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401208,
+          "skill_name": "诡弈赌约",
+          "skill_desc": "每次赢得赌局的我方目标获得【鸿运当头】效果，造成的伤害提高；每次输掉赌局的我方目标获得【时运不济】效果，受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401210,
+          "skill_name": "开牌下注",
+          "skill_desc": "激活两个【「所有或一无所有」】，并锁定我方单体，下次行动对其施放【孤注一掷】。消灭所有被激活的【「所有或一无所有」】可以阻止【孤注一掷】的施放，并使随机我方单体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401211,
+          "skill_name": "全部押进",
+          "skill_desc": "激活所有【「所有或一无所有」】，下次行动施放【逢赌必输】。消灭所有被激活的【「所有或一无所有」】可以阻止【逢赌必输】的施放，并使我方全体激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401212,
+          "skill_name": "孤注一掷",
+          "skill_desc": "对锁定的我方单体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401213,
+          "skill_name": "逢赌必输",
+          "skill_desc": "对我方全体造成虚数属性伤害，并大概率使其陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401217,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401218,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401219,
+          "skill_name": "点数",
+          "skill_desc": "战斗中，使所有单位获得一定量的【点数】，转阶段时重置。我方【点数】小于敌方目标时，敌方目标受到的伤害大幅降低，并获得韧性保护；我方【点数】大于等于敌方目标时，敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401220,
+          "skill_name": "跟注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401221,
+          "skill_name": "盲注",
+          "skill_desc": "阶段开始或召唤物被消灭时，召唤【「所有或一无所有」】或【「所有或一无所有•双倍好运」】，最多<unbreak>#1[i]</unbreak>个。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8034012,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034012,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034012,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034012,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034012,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034012,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034012,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.1
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "id": 5013012,
+  "name": "摇滚狂徒（错误）",
+  "desc": "代码受到影响后的错误投影。参照本体为摇滚狂徒，狂热的摇滚乐票友。为了追寻音乐梦想，不惜踏入魔道。但终归是个票友。\\n最讨厌「贝斯手笑话」。\\n有些三流媒体根据他的造型推测「贝斯才是他的本体」，但这纯属谣言，实际上贝斯是被胁迫的。",
+  "monster_camp_id": 17,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1674,
+  "initial_delay_ratio": 0.25,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5013010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 132,
+  "stance_base": 450,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 5013012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501301201,
+          "skill_name": "左扫弦！",
+          "skill_desc": "从我方队伍左侧起横扫攻击我方3个连续目标，造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501301202,
+          "skill_name": "右扫弦！",
+          "skill_desc": "从我方队伍右侧起横扫攻击我方3个连续目标，造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501301203,
+          "skill_name": "演出彩排",
+          "skill_desc": "进入蓄力状态，下次行动时施放【摇滚时刻！】。阿哈时刻发动时立即解除蓄力状态，获得<u>笑点</u>并使自身受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501301204,
+          "skill_name": "摇滚时刻！",
+          "skill_desc": "对我方全体目标造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 501301205,
+          "skill_name": "燥起来吧！",
+          "skill_desc": "若自身未处于【狂奏】状态，则使自身以外的敌方目标速度提高并立即行动，同时提高造成的伤害；若自身处于【狂奏】状态，则会对自身以外的敌方目标造成虚数属性伤害，并有概率使其陷入【<u>陶醉</u>】状态，获得<u>笑点</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "501301001": {
+              "name": "陶醉",
+              "desc": "无法行动，回合开始时若施加者不处于蓄力状态，则由施加者发起横扫攻击。",
+              "param": []
+            },
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501301206,
+          "skill_name": "我为乐狂",
+          "skill_desc": "阿哈时刻发动时，自身获得【狂奏】状态，使【燥起来吧！】产生更欢愉的效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5013012,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013012,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013012,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013012,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013012,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013012,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013012,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    }
+  ]
+}

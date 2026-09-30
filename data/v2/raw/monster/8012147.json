@@ -1,0 +1,612 @@
+{
+  "id": 8012147,
+  "name": "黎明的左手",
+  "desc": "在末日来临之前的最后一个黎明，明洁的朝阳也会颤抖着悄然退场。\\n黎明的左手善于使用量子属性的力量，针对单个个体发起攻击。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/BossIconTemporary.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 90,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8012147,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801214701,
+          "skill_name": "陨落的锤锻",
+          "skill_desc": "对我方单体造成少量量子属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214702,
+          "skill_name": "坠星的叩问",
+          "skill_desc": "对我方单体造成量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214703,
+          "skill_name": "曙光黯然之时",
+          "skill_desc": "对我方单体造成大量量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214704,
+          "skill_name": "湮灭碰撞",
+          "skill_desc": "自身施放技能令我方单体同时处于【量子附魔】与【虚数附魔】状态时，解除该目标的【量子附魔】与【虚数附魔】状态，并对其造成少量量子属性伤害与虚数属性伤害，同时大概率使其陷入【<u>缠禁</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {
+            "280150121": {
+              "name": "缠禁",
+              "desc": "行动延后，同时速度降低。下个回合开始时受到量子属性附加伤害。\\n【缠禁】状态下的目标每次受到攻击后，都会使该附加伤害提高，该效果最多叠加5层。该状态同时视为量子纠缠状态与禁锢状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801214705,
+          "skill_name": "假死",
+          "skill_desc": "受到致命攻击后进入【假死】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214706,
+          "skill_name": "守备",
+          "skill_desc": "进入【守备】状态，弱点未被击破时受到的伤害降低，被击破时行动额外延后，被击破后受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801214701,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801214701,
+          "skill_name": "陨落的锤锻",
+          "skill_desc": "对我方单体造成少量量子属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214702,
+          "skill_name": "坠星的叩问",
+          "skill_desc": "对我方单体造成量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214703,
+          "skill_name": "曙光黯然之时",
+          "skill_desc": "对我方单体造成大量量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214704,
+          "skill_name": "湮灭碰撞",
+          "skill_desc": "自身施放技能令我方单体同时处于【量子附魔】与【虚数附魔】状态时，解除该目标的【量子附魔】与【虚数附魔】状态，并对其造成少量量子属性伤害与虚数属性伤害，同时大概率使其陷入【<u>缠禁</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {
+            "280150121": {
+              "name": "缠禁",
+              "desc": "行动延后，同时速度降低。下个回合开始时受到量子属性附加伤害。\\n【缠禁】状态下的目标每次受到攻击后，都会使该附加伤害提高，该效果最多叠加5层。该状态同时视为量子纠缠状态与禁锢状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801214705,
+          "skill_name": "假死",
+          "skill_desc": "受到致命攻击后进入【假死】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214706,
+          "skill_name": "守备",
+          "skill_desc": "进入【守备】状态，弱点未被击破时受到的伤害降低，被击破时行动额外延后，被击破后受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801214702,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801214701,
+          "skill_name": "陨落的锤锻",
+          "skill_desc": "对我方单体造成少量量子属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214702,
+          "skill_name": "坠星的叩问",
+          "skill_desc": "对我方单体造成量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214703,
+          "skill_name": "曙光黯然之时",
+          "skill_desc": "对我方单体造成大量量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214704,
+          "skill_name": "湮灭碰撞",
+          "skill_desc": "自身施放技能令我方单体同时处于【量子附魔】与【虚数附魔】状态时，解除该目标的【量子附魔】与【虚数附魔】状态，并对其造成少量量子属性伤害与虚数属性伤害，同时大概率使其陷入【<u>缠禁</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {
+            "280150121": {
+              "name": "缠禁",
+              "desc": "行动延后，同时速度降低。下个回合开始时受到量子属性附加伤害。\\n【缠禁】状态下的目标每次受到攻击后，都会使该附加伤害提高，该效果最多叠加5层。该状态同时视为量子纠缠状态与禁锢状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801214705,
+          "skill_name": "假死",
+          "skill_desc": "受到致命攻击后进入【假死】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214706,
+          "skill_name": "守备",
+          "skill_desc": "进入【守备】状态，弱点未被击破时受到的伤害降低，被击破时行动额外延后，被击破后受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801214703,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801214701,
+          "skill_name": "陨落的锤锻",
+          "skill_desc": "对我方单体造成少量量子属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214702,
+          "skill_name": "坠星的叩问",
+          "skill_desc": "对我方单体造成量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214703,
+          "skill_name": "曙光黯然之时",
+          "skill_desc": "对我方单体造成大量量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214704,
+          "skill_name": "湮灭碰撞",
+          "skill_desc": "自身施放技能令我方单体同时处于【量子附魔】与【虚数附魔】状态时，解除该目标的【量子附魔】与【虚数附魔】状态，并对其造成少量量子属性伤害与虚数属性伤害，同时大概率使其陷入【<u>缠禁</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {
+            "280150121": {
+              "name": "缠禁",
+              "desc": "行动延后，同时速度降低。下个回合开始时受到量子属性附加伤害。\\n【缠禁】状态下的目标每次受到攻击后，都会使该附加伤害提高，该效果最多叠加5层。该状态同时视为量子纠缠状态与禁锢状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801214705,
+          "skill_name": "假死",
+          "skill_desc": "受到致命攻击后进入【假死】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214706,
+          "skill_name": "守备",
+          "skill_desc": "进入【守备】状态，弱点未被击破时受到的伤害降低，被击破时行动额外延后，被击破后受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801214704,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801214701,
+          "skill_name": "陨落的锤锻",
+          "skill_desc": "对我方单体造成少量量子属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214702,
+          "skill_name": "坠星的叩问",
+          "skill_desc": "对我方单体造成量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214703,
+          "skill_name": "曙光黯然之时",
+          "skill_desc": "对我方单体造成大量量子属性伤害，并使其陷入【量子附魔】状态。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801214704,
+          "skill_name": "湮灭碰撞",
+          "skill_desc": "自身施放技能令我方单体同时处于【量子附魔】与【虚数附魔】状态时，解除该目标的【量子附魔】与【虚数附魔】状态，并对其造成少量量子属性伤害与虚数属性伤害，同时大概率使其陷入【<u>缠禁</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {
+            "280150121": {
+              "name": "缠禁",
+              "desc": "行动延后，同时速度降低。下个回合开始时受到量子属性附加伤害。\\n【缠禁】状态下的目标每次受到攻击后，都会使该附加伤害提高，该效果最多叠加5层。该状态同时视为量子纠缠状态与禁锢状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801214705,
+          "skill_name": "假死",
+          "skill_desc": "受到致命攻击后进入【假死】状态。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801214706,
+          "skill_name": "守备",
+          "skill_desc": "进入【守备】状态，弱点未被击破时受到的伤害降低，被击破时行动额外延后，被击破后受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8012147,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012147,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012147,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012147,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012147,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012147,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012147,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "id": 5012100,
+  "name": "魔法少女急袭剧团",
+  "desc": "二相乐园的治安部队与偶像团体，魔法少女急袭剧团。\\n在古弁才天国时代，女巫用除魔的舞蹈与歌曲，消灭隐藏在世上的黑暗。\\n时移世易，这些女巫在如今的二相乐园，成为了集除灵、镇暴、反恐、艺能为一体化的职业——「魔法少女」。\\n与可爱的表象不同，魔法少女常常要面对二相乐园最邪恶的事物，因而私下里的性格大多不太好。",
+  "monster_camp_id": 17,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 279,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5012100.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 5012100,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501210001,
+          "skill_name": "恋爱❤雷暴天",
+          "skill_desc": "对指定我方单体目标造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501210002,
+          "skill_name": "柔雨❤好想你",
+          "skill_desc": "受到致命攻击时若处于【雨天】状态，则连续对我方随机单体目标造成少量雷属性伤害，每段攻击后大概率使受到攻击的目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501210003,
+          "skill_name": "初吻❤天气晴",
+          "skill_desc": "受到致命攻击时若处于【晴天】状态，则使我方全体目标的暴击伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501210004,
+          "skill_name": "倾心❤雨转晴",
+          "skill_desc": "进入战斗时处于【雨天】状态，受到欢愉伤害或任意单位施放欢愉技后，进入【晴天】状态，行动延后并使我方获得<u>笑点</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 501210001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501210001,
+          "skill_name": "恋爱❤雷暴天",
+          "skill_desc": "对指定我方单体目标造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501210002,
+          "skill_name": "柔雨❤好想你",
+          "skill_desc": "受到致命攻击时若处于【雨天】状态，则连续对我方随机单体目标造成少量雷属性伤害，每段攻击后大概率使受到攻击的目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501210003,
+          "skill_name": "初吻❤天气晴",
+          "skill_desc": "受到致命攻击时若处于【晴天】状态，则使我方全体目标的暴击伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501210004,
+          "skill_name": "倾心❤雨转晴",
+          "skill_desc": "进入战斗时处于【雨天】状态，受到欢愉伤害或任意单位施放欢愉技后，进入【晴天】状态，行动延后并使我方获得<u>笑点</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5012100,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012100,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012100,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012100,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012100,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012100,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012100,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    }
+  ]
+}

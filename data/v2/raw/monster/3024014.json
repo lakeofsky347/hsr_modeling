@@ -1,0 +1,176 @@
+{
+  "id": 3024014,
+  "name": "银枝",
+  "desc": "「纯美骑士团」的古典骑士，虔诚地仰慕着已失踪的「纯美」星神伊德莉拉。\\n为人正直、光明磊落，于宇宙中漫游，宣扬伊德莉拉美名。",
+  "monster_camp_id": null,
+  "attack_base": 7.2,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 9300,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3024010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 144,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3024014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401401,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401402,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401403,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401404,
+          "skill_name": "爱之灵如是说",
+          "skill_desc": "升华一个雕塑中纯美的灵魂，使被灵魂升华的雕塑技能效果增强并立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401405,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401406,
+          "skill_name": "罪与净化",
+          "skill_desc": "升华敌方全体雕塑中纯美的灵魂，使被灵魂升华的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401407,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401408,
+          "skill_name": "骑士团",
+          "skill_desc": "召唤4个【枪尖】。如果场上已经有雕塑，回复其全部生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401410,
+          "skill_name": "堂皇的殉身",
+          "skill_desc": "每次使用【纯美的勇气赞歌】后，使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3024014,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024014,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024014,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024014,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024014,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024014,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024014,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "id": 4033031,
+  "name": "黑日狮鹫",
+  "desc": "遭到黑潮侵蚀的正阳狮鹫。对杀戮的渴求成为了空洞躯壳中仅存的意志。\\n虽然失去了艾格勒的赐福，但黑潮中取之不竭的能量令它成为了更加恐怖的存在。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1860,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4033030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 140,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4033031,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403303101,
+          "skill_name": "黑光透射",
+          "skill_desc": "对我方全体目标造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 403303101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403303101,
+          "skill_name": "黑光透射",
+          "skill_desc": "对我方全体目标造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4033031,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033031,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033031,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033031,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033031,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033031,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033031,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    }
+  ]
+}

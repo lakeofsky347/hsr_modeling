@@ -1,0 +1,295 @@
+{
+  "id": 3002014,
+  "name": "斯科特•量产型",
+  "desc": "被Assassin的力量拆分成无数个体的斯科特，每台量产机都拥有匹敌原型机的力量。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 255.75,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3002014.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 3002014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201401,
+          "skill_name": "狼的怜悯",
+          "skill_desc": "使指定我方单体恢复能量。只能在【怜悯】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201402,
+          "skill_name": "狼的诅咒",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【诅咒】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201403,
+          "skill_name": "孤狼永不言弃",
+          "skill_desc": "将【怜悯】状态转变为【诅咒】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201404,
+          "skill_name": "孤狼的跑路",
+          "skill_desc": "在受到攻击后，会从【怜悯】状态转变为【诅咒】状态，或从【诅咒】状态转变为【怜悯】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201401,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 9.090909,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201401,
+          "skill_name": "狼的怜悯",
+          "skill_desc": "使指定我方单体恢复能量。只能在【怜悯】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201402,
+          "skill_name": "狼的诅咒",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【诅咒】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201403,
+          "skill_name": "孤狼永不言弃",
+          "skill_desc": "将【怜悯】状态转变为【诅咒】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201404,
+          "skill_name": "孤狼的跑路",
+          "skill_desc": "在受到攻击后，会从【怜悯】状态转变为【诅咒】状态，或从【诅咒】状态转变为【怜悯】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3002014,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002014,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002014,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002014,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002014,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002014,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002014,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    }
+  ]
+}

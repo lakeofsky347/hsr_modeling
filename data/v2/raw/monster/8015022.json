@@ -1,0 +1,1157 @@
+{
+  "id": 8015022,
+  "name": "乘间抵隙的煽动者",
+  "desc": "兼具「毁灭」与「丰饶」之力，生灭循环的肉体。也是建木复生后结出的第一颗「果实」。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 7440,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8015020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 120,
+  "stance_base": 1140,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 8015022,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801502201,
+          "skill_name": "弹指•成风",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502202,
+          "skill_name": "扫尽尘云",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502203,
+          "skill_name": "虬根•丰饶之势",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【丰饶玄莲】发动攻击。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502204,
+          "skill_name": "虬根•破灭之势",
+          "skill_desc": "对指定我方单体造成雷属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【破灭玄莲】发动攻击。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502205,
+          "skill_name": "弹指•鸣雷",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502206,
+          "skill_name": "悬星碎月•丰饶之势",
+          "skill_desc": "对我方全体造成风属性伤害，并切换至【丰饶形态】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502207,
+          "skill_name": "悬星碎月•毁灭之势",
+          "skill_desc": "对我方全体造成雷属性伤害，并切换至【毁灭形态】。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502208,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502209,
+          "skill_name": "盛怒",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502210,
+          "skill_name": "玄根化生",
+          "skill_desc": "对我方全体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502211,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502212,
+          "skill_name": "虬根•万曲",
+          "skill_desc": "对我方全体造成虚数属性伤害，并使我方全体行动延后，同时使场上可行动的【玄莲】发动攻击。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502213,
+          "skill_name": "空劫",
+          "skill_desc": "锁定我方全体，【玄莲】下次行动施放【万劫不复】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502214,
+          "skill_name": "万劫不复",
+          "skill_desc": "对被锁定的目标造成虚数属性伤害，锁定目标越多伤害越高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 30,
+          "extra": {}
+        },
+        {
+          "id": 801502215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502216,
+          "skill_name": "毁灭增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502217,
+          "skill_name": "丰饶增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502218,
+          "skill_name": "坚防守备",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502219,
+          "skill_name": "移花接木",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502220,
+          "skill_name": "枯木逢春",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502221,
+          "skill_name": "空花阳焰",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502223,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801502201,
+      "attack_modify_ratio": 1.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801502201,
+          "skill_name": "弹指•成风",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502202,
+          "skill_name": "扫尽尘云",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502203,
+          "skill_name": "虬根•丰饶之势",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【丰饶玄莲】发动攻击。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502204,
+          "skill_name": "虬根•破灭之势",
+          "skill_desc": "对指定我方单体造成雷属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【破灭玄莲】发动攻击。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502205,
+          "skill_name": "弹指•鸣雷",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502206,
+          "skill_name": "悬星碎月•丰饶之势",
+          "skill_desc": "对我方全体造成风属性伤害，并切换至【丰饶形态】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502207,
+          "skill_name": "悬星碎月•毁灭之势",
+          "skill_desc": "对我方全体造成雷属性伤害，并切换至【毁灭形态】。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502208,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502209,
+          "skill_name": "盛怒",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502210,
+          "skill_name": "玄根化生",
+          "skill_desc": "对我方全体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502211,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502212,
+          "skill_name": "虬根•万曲",
+          "skill_desc": "对我方全体造成虚数属性伤害，并使我方全体行动延后，同时使场上可行动的【玄莲】发动攻击。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502213,
+          "skill_name": "空劫",
+          "skill_desc": "锁定我方全体，【玄莲】下次行动施放【万劫不复】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502214,
+          "skill_name": "万劫不复",
+          "skill_desc": "对被锁定的目标造成虚数属性伤害，锁定目标越多伤害越高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 30,
+          "extra": {}
+        },
+        {
+          "id": 801502215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502216,
+          "skill_name": "毁灭增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502217,
+          "skill_name": "丰饶增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502218,
+          "skill_name": "坚防守备",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502219,
+          "skill_name": "移花接木",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502220,
+          "skill_name": "枯木逢春",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502221,
+          "skill_name": "空花阳焰",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502223,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801502202,
+      "attack_modify_ratio": 1.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801502201,
+          "skill_name": "弹指•成风",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502202,
+          "skill_name": "扫尽尘云",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502203,
+          "skill_name": "虬根•丰饶之势",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【丰饶玄莲】发动攻击。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502204,
+          "skill_name": "虬根•破灭之势",
+          "skill_desc": "对指定我方单体造成雷属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【破灭玄莲】发动攻击。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502205,
+          "skill_name": "弹指•鸣雷",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502206,
+          "skill_name": "悬星碎月•丰饶之势",
+          "skill_desc": "对我方全体造成风属性伤害，并切换至【丰饶形态】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502207,
+          "skill_name": "悬星碎月•毁灭之势",
+          "skill_desc": "对我方全体造成雷属性伤害，并切换至【毁灭形态】。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502208,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502209,
+          "skill_name": "盛怒",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502210,
+          "skill_name": "玄根化生",
+          "skill_desc": "对我方全体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502211,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502212,
+          "skill_name": "虬根•万曲",
+          "skill_desc": "对我方全体造成虚数属性伤害，并使我方全体行动延后，同时使场上可行动的【玄莲】发动攻击。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502213,
+          "skill_name": "空劫",
+          "skill_desc": "锁定我方全体，【玄莲】下次行动施放【万劫不复】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502214,
+          "skill_name": "万劫不复",
+          "skill_desc": "对被锁定的目标造成虚数属性伤害，锁定目标越多伤害越高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 30,
+          "extra": {}
+        },
+        {
+          "id": 801502215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502216,
+          "skill_name": "毁灭增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502217,
+          "skill_name": "丰饶增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502218,
+          "skill_name": "坚防守备",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502219,
+          "skill_name": "移花接木",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502220,
+          "skill_name": "枯木逢春",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502221,
+          "skill_name": "空花阳焰",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502223,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801502203,
+      "attack_modify_ratio": 1.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801502201,
+          "skill_name": "弹指•成风",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502202,
+          "skill_name": "扫尽尘云",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502203,
+          "skill_name": "虬根•丰饶之势",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【丰饶玄莲】发动攻击。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502204,
+          "skill_name": "虬根•破灭之势",
+          "skill_desc": "对指定我方单体造成雷属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【破灭玄莲】发动攻击。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502205,
+          "skill_name": "弹指•鸣雷",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502206,
+          "skill_name": "悬星碎月•丰饶之势",
+          "skill_desc": "对我方全体造成风属性伤害，并切换至【丰饶形态】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502207,
+          "skill_name": "悬星碎月•毁灭之势",
+          "skill_desc": "对我方全体造成雷属性伤害，并切换至【毁灭形态】。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502208,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502209,
+          "skill_name": "盛怒",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502210,
+          "skill_name": "玄根化生",
+          "skill_desc": "对我方全体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502211,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502212,
+          "skill_name": "虬根•万曲",
+          "skill_desc": "对我方全体造成虚数属性伤害，并使我方全体行动延后，同时使场上可行动的【玄莲】发动攻击。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502213,
+          "skill_name": "空劫",
+          "skill_desc": "锁定我方全体，【玄莲】下次行动施放【万劫不复】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502214,
+          "skill_name": "万劫不复",
+          "skill_desc": "对被锁定的目标造成虚数属性伤害，锁定目标越多伤害越高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 30,
+          "extra": {}
+        },
+        {
+          "id": 801502215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502216,
+          "skill_name": "毁灭增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502217,
+          "skill_name": "丰饶增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502218,
+          "skill_name": "坚防守备",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502219,
+          "skill_name": "移花接木",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502220,
+          "skill_name": "枯木逢春",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502221,
+          "skill_name": "空花阳焰",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502223,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801502204,
+      "attack_modify_ratio": 1.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801502201,
+          "skill_name": "弹指•成风",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502202,
+          "skill_name": "扫尽尘云",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502203,
+          "skill_name": "虬根•丰饶之势",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【丰饶玄莲】发动攻击。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502204,
+          "skill_name": "虬根•破灭之势",
+          "skill_desc": "对指定我方单体造成雷属性伤害，并使受到攻击的我方目标行动延后，同时使场上可行动的【破灭玄莲】发动攻击。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502205,
+          "skill_name": "弹指•鸣雷",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801502206,
+          "skill_name": "悬星碎月•丰饶之势",
+          "skill_desc": "对我方全体造成风属性伤害，并切换至【丰饶形态】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502207,
+          "skill_name": "悬星碎月•毁灭之势",
+          "skill_desc": "对我方全体造成雷属性伤害，并切换至【毁灭形态】。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502208,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502209,
+          "skill_name": "盛怒",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502210,
+          "skill_name": "玄根化生",
+          "skill_desc": "对我方全体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801502211,
+          "skill_name": "双生",
+          "skill_desc": "召唤【丰饶玄莲】和【破灭玄莲】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502212,
+          "skill_name": "虬根•万曲",
+          "skill_desc": "对我方全体造成虚数属性伤害，并使我方全体行动延后，同时使场上可行动的【玄莲】发动攻击。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502213,
+          "skill_name": "空劫",
+          "skill_desc": "锁定我方全体，【玄莲】下次行动施放【万劫不复】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502214,
+          "skill_name": "万劫不复",
+          "skill_desc": "对被锁定的目标造成虚数属性伤害，锁定目标越多伤害越高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 30,
+          "extra": {}
+        },
+        {
+          "id": 801502215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502216,
+          "skill_name": "毁灭增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502217,
+          "skill_name": "丰饶增益",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502218,
+          "skill_name": "坚防守备",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502219,
+          "skill_name": "移花接木",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502220,
+          "skill_name": "枯木逢春",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502221,
+          "skill_name": "空花阳焰",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502222,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801502223,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8015022,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015022,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015022,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015022,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015022,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015022,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015022,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

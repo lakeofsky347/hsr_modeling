@@ -1,0 +1,106 @@
+{
+  "id": 3022011,
+  "name": "旧梦的回声",
+  "desc": "某人对至亲记忆之余音。迢迢长夜里，它们与他同在——昔在、今在，以后永在。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 465,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3022010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 120,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3022011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302201101,
+          "skill_name": "受折磨的",
+          "skill_desc": "对我方单体造成少量虚数属性伤害，并使行动少量延后。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302201102,
+          "skill_name": "如魇",
+          "skill_desc": "自身受到的伤害全部视为由「万籁齐响的指挥家」承受。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3022011,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3022011,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3022011,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3022011,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3022011,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3022011,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3022011,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

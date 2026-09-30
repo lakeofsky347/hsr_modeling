@@ -1,0 +1,372 @@
+{
+  "id": 2033022,
+  "name": "蛊言妄念的蚀心兽",
+  "desc": "挑动其心魔，窃据其威灵，幻化其形貌，「赤月」会根据宿主的弱点展开针对性的狩猎。\\n在这场无尽的猎杀中，飞霄的身份究竟是猎手还是猎物。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 35805,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2033020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 2033022,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203302201,
+          "skill_name": "通灵",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】共享血量。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203302202,
+          "skill_name": "连心",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】陷入弱点击破状态时会削减【蛊言妄念的蚀心兽】的韧性。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 203302201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203302201,
+          "skill_name": "通灵",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】共享血量。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203302202,
+          "skill_name": "连心",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】陷入弱点击破状态时会削减【蛊言妄念的蚀心兽】的韧性。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 203302202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203302201,
+          "skill_name": "通灵",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】共享血量。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203302202,
+          "skill_name": "连心",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】陷入弱点击破状态时会削减【蛊言妄念的蚀心兽】的韧性。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 203302203,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203302201,
+          "skill_name": "通灵",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】共享血量。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203302202,
+          "skill_name": "连心",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】陷入弱点击破状态时会削减【蛊言妄念的蚀心兽】的韧性。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 203302204,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203302201,
+          "skill_name": "通灵",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】共享血量。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203302202,
+          "skill_name": "连心",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【业火焚心的影将军】陷入弱点击破状态时会削减【蛊言妄念的蚀心兽】的韧性。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2033022,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033022,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033022,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033022,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033022,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033022,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033022,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "id": 4033011,
+  "name": "蚀心影魔•浑流奔涌的腐坏者",
+  "desc": "从黑潮中诞生的扭曲造物，对杀戮的渴求成为了空洞躯壳中仅存的意志，此时获得强大力量的它，已经没有任何人可以阻挡。",
+  "monster_camp_id": null,
+  "attack_base": 72,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 93,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4033010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 210,
+  "stance_base": 720,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4033011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403301101,
+          "skill_name": "凋敝岩流",
+          "skill_desc": "对指定我方单体目标造成物理属性伤害，目标生命值越高造成的伤害越高。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403301102,
+          "skill_name": "腐败骤陨",
+          "skill_desc": "连续对我方随机单体目标造成物理属性伤害，目标生命值越高造成的伤害越高。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403301103,
+          "skill_name": "蚀心噬骨",
+          "skill_desc": "为我方和敌方其他目标施加【可负载】状态。处于【可负载】状态的单位会将受到伤害超出当前生命值的部分转化为<u>【负载生命值】</u>，且不会因此陷入无法战斗状态。同时行动序列上出现【负载清算】，当【负载清算】行动时，将进行生命值结算，当前生命值为0以下的单位会受到致命伤害。【负载清算】会随着敌方召唤物数量的减少而提高行动速度，当敌方召唤物被全部消灭时【负载清算】移除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "401403602": {
+              "name": "负载生命值",
+              "desc": "【负载生命值】是受到的伤害超出当前生命值的部分，且会不断累积。受到治疗时会优先回复【负载生命值】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403301105,
+          "skill_name": "浑流奔涌",
+          "skill_desc": "对我方全体目标造成基于目标生命上限的真实伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 403301106,
+          "skill_name": "摄取污秽",
+          "skill_desc": "每个当前生命值为0以下的目标使【蚀心影魔】造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403301107,
+          "skill_name": "黑潮降临",
+          "skill_desc": "召唤【黑潮造物】，当【黑潮造物】未被全部消灭时，敌方全体目标受到的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403301108,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 403301101,
+      "attack_modify_ratio": 1.470588,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403301102,
+          "skill_name": "腐败骤陨",
+          "skill_desc": "连续对我方随机单体目标造成物理属性伤害，目标生命值越高造成的伤害越高。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403301105,
+          "skill_name": "浑流奔涌",
+          "skill_desc": "对我方全体目标造成基于目标生命上限的真实伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 403301101,
+          "skill_name": "凋敝岩流",
+          "skill_desc": "对指定我方单体目标造成物理属性伤害，目标生命值越高造成的伤害越高。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403301103,
+          "skill_name": "蚀心噬骨",
+          "skill_desc": "为我方和敌方其他目标施加【可负载】状态。处于【可负载】状态的单位会将受到伤害超出当前生命值的部分转化为<u>【负载生命值】</u>，且不会因此陷入无法战斗状态。同时行动序列上出现【负载清算】，当【负载清算】行动时，将进行生命值结算，当前生命值为0以下的单位会受到致命伤害。【负载清算】会随着敌方召唤物数量的减少而提高行动速度，当敌方召唤物被全部消灭时【负载清算】移除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "401403602": {
+              "name": "负载生命值",
+              "desc": "【负载生命值】是受到的伤害超出当前生命值的部分，且会不断累积。受到治疗时会优先回复【负载生命值】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403301106,
+          "skill_name": "摄取污秽",
+          "skill_desc": "每个当前生命值为0以下的目标使【蚀心影魔】造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403301107,
+          "skill_name": "黑潮降临",
+          "skill_desc": "召唤【黑潮造物】，当【黑潮造物】未被全部消灭时，敌方全体目标受到的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403301108,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4033011,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033011,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033011,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033011,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033011,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033011,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033011,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 0.5
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

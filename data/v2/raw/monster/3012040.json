@@ -1,0 +1,221 @@
+{
+  "id": 3012040,
+  "name": "忆域迷因「虚荣永无餍足」",
+  "desc": "蕴含特定认知的实体，由忆域中的潜意识碎片堆积而成。\\n旁人的夸饰、弱者的攀附、佞臣的谄媚…无休的虚荣之心化作模因生命，寻求着贪求名利的宿主。",
+  "monster_camp_id": 11,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 116.25,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3012040.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 150,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 3012040,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301204001,
+          "skill_name": "浮名加封",
+          "skill_desc": "附身于指定敌方单体，为其施加【虚骄冠冕】状态，解除其控制状态，并恢复该目标的韧性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301204002,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301204003,
+          "skill_name": "本真沉沦",
+          "skill_desc": "处于【虚骄冠冕】状态的敌方受到攻击后回复生命值，但会额外获得物理属性和火属性弱点，且受到的击破伤害提高。当该目标被消灭或弱点被击破时，解除其【虚骄冠冕】状态，且「虚荣永无餍足」也会被消灭。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3012040,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012040,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012040,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012040,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012040,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012040,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012040,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    }
+  ]
+}

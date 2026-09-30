@@ -1,0 +1,279 @@
+{
+  "id": 5012092,
+  "name": "喀尔刻的机铠",
+  "desc": "二相乐园的泛用型机铠。「SD」一词的意思是「【S】orry, I 【d】on't know.」",
+  "monster_camp_id": 17,
+  "attack_base": 40.008891,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 720.006,
+  "initial_delay_ratio": null,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5012090.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 80,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 5012092,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501209201,
+          "skill_name": "力量强化中",
+          "skill_desc": "进入【力量强化！】状态，下回合施放【风车破颜拳】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501209202,
+          "skill_name": "风车破颜拳",
+          "skill_desc": "对指定单体目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501209203,
+          "skill_name": "敌我识别失灵",
+          "skill_desc": "每次受到我方攻击后会在敌我间切换攻击目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 501209201,
+      "attack_modify_ratio": 0.999778,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.166688,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501209201,
+          "skill_name": "力量强化中",
+          "skill_desc": "进入【力量强化！】状态，下回合施放【风车破颜拳】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501209202,
+          "skill_name": "风车破颜拳",
+          "skill_desc": "对指定单体目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501209203,
+          "skill_name": "敌我识别失灵",
+          "skill_desc": "每次受到我方攻击后会在敌我间切换攻击目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5012092,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012092,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012092,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012092,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012092,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012092,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012092,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    }
+  ]
+}

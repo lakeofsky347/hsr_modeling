@@ -1,0 +1,125 @@
+{
+  "id": 8002082,
+  "name": "存护扑满",
+  "desc": "迷失在群星中的跨维度生物，性温，味甘，不可食用。一生中大部分时间花在进食和逃跑上。偶遇它的旅行者视之为吉兆。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 315,
+  "hp_base": 167.4,
+  "initial_delay_ratio": 0.5,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8002050.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 83,
+  "stance_base": 30,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 8002082,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800208201,
+          "skill_name": "害…害怕",
+          "skill_desc": "扑满被惊动了，即将在2个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800208202,
+          "skill_name": "跑…跑啊",
+          "skill_desc": "扑满陷入恐慌，即将在1个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800208203,
+          "skill_name": "呼…逃走了",
+          "skill_desc": "扑满拔腿就跑，瞬间失去了踪影。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800208204,
+          "skill_name": "保…保护你",
+          "skill_desc": "进入战斗时，为敌方全体提供【保…保护你】，每层【保…保护你】可抵抗1次除持续伤害外的所有伤害。敌方全体共享【保…保护你】层数。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8002082,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002082,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002082,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002082,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002082,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002082,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002082,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

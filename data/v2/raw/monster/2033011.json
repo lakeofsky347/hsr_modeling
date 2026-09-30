@@ -1,0 +1,405 @@
+{
+  "id": 2033011,
+  "name": "咆哮灵柩（错误）",
+  "desc": "代码受到影响后的错误投影。参照本体为博识学会研发的战斗机器。以步离人的生物组织为部件，兼具长生种顽强的生命力与无数岁月进化所得的「杀戮算法」。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1674,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2033010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 2033011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203301101,
+          "skill_name": "仿生利爪",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【<u>恐惧萦绕</u>】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220330101": {
+              "name": "月狂",
+              "desc": "此状态下，咆哮灵柩的速度提高，可以施放【合成狼毒】和【杀戮算法】，咆哮灵柩被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301102,
+          "skill_name": "电震咆哮",
+          "skill_desc": "对指定我方单体及相邻目标造成少量物理属性伤害，并大概率使受到攻击的我方目标陷入【<u>恐惧萦绕</u>】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220330101": {
+              "name": "月狂",
+              "desc": "此状态下，咆哮灵柩的速度提高，可以施放【合成狼毒】和【杀戮算法】，咆哮灵柩被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301103,
+          "skill_name": "拟态月狂",
+          "skill_desc": "进入【<u>月狂</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220330101": {
+              "name": "月狂",
+              "desc": "此状态下，咆哮灵柩的速度提高，可以施放【合成狼毒】和【杀戮算法】，咆哮灵柩被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301104,
+          "skill_name": "合成狼毒",
+          "skill_desc": "对我方全体造成少量物理属性伤害，大概率使我方全体陷入【<u>恐惧萦绕</u>】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {
+            "220330102": {
+              "name": "恐惧萦绕",
+              "desc": "第二个回合开始时陷入【恐惧】状态，在此之前对施加者发起一次攻击可解除【恐惧萦绕】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301105,
+          "skill_name": "杀戮算法",
+          "skill_desc": "对指定我方单体及相邻目标造成物理属性伤害，目标陷入【<u>恐惧萦绕</u>】或【<u>恐惧</u>】时造成额外伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {
+            "220330102": {
+              "name": "恐惧萦绕",
+              "desc": "第二个回合开始时陷入【恐惧】状态，在此之前对施加者发起一次攻击可解除【恐惧萦绕】。",
+              "param": []
+            },
+            "220330103": {
+              "name": "恐惧",
+              "desc": "无法行动，持续至自身下个回合开始。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301106,
+          "skill_name": "步离本能",
+          "skill_desc": "进入战斗时，减少进入【<u>月狂</u>】状态需要的【<u>嗜血</u>】层数。当敌方施放攻击后，为<u>能够进入【月狂】状态的敌方单位</u>附加1层【<u>嗜血</u>】，当【<u>嗜血</u>】达到指定层数时，将使其进入【<u>月狂</u>】状态。\\n行动序列上出现【月狂】倒计时，倒计时回合开始时所有敌方单位解除【<u>月狂</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220320101": {
+              "name": "能够进入【月狂】状态的敌方单位",
+              "desc": "能够进入【月狂】状态的敌方单位：玄爪狼卒、 蚀月狼卒、咆哮灵柩、咆哮灵柩（错误）、步离战首•呼雷、步离战首•呼雷（完整）。",
+              "param": []
+            },
+            "220320103": {
+              "name": "嗜血",
+              "desc": "所有能够进入【月狂】的敌方单位共享【嗜血】层数。当有能够进入【月狂】的敌方单位进入战斗时，将附加相同层数的【嗜血】。回合结束时，若场上所有能够进入【月狂】的敌方单位均被击败，清除所有【嗜血】层数。",
+              "param": []
+            },
+            "220330101": {
+              "name": "月狂",
+              "desc": "此状态下，咆哮灵柩的速度提高，可以施放【合成狼毒】和【杀戮算法】，咆哮灵柩被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 203301101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.361111,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203301101,
+          "skill_name": "仿生利爪",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【<u>恐惧萦绕</u>】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220330101": {
+              "name": "月狂",
+              "desc": "此状态下，咆哮灵柩的速度提高，可以施放【合成狼毒】和【杀戮算法】，咆哮灵柩被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301102,
+          "skill_name": "电震咆哮",
+          "skill_desc": "对指定我方单体及相邻目标造成少量物理属性伤害，并大概率使受到攻击的我方目标陷入【<u>恐惧萦绕</u>】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220330101": {
+              "name": "月狂",
+              "desc": "此状态下，咆哮灵柩的速度提高，可以施放【合成狼毒】和【杀戮算法】，咆哮灵柩被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301103,
+          "skill_name": "拟态月狂",
+          "skill_desc": "进入【<u>月狂</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220330101": {
+              "name": "月狂",
+              "desc": "此状态下，咆哮灵柩的速度提高，可以施放【合成狼毒】和【杀戮算法】，咆哮灵柩被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301104,
+          "skill_name": "合成狼毒",
+          "skill_desc": "对我方全体造成少量物理属性伤害，大概率使我方全体陷入【<u>恐惧萦绕</u>】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {
+            "220330102": {
+              "name": "恐惧萦绕",
+              "desc": "第二个回合开始时陷入【恐惧】状态，在此之前对施加者发起一次攻击可解除【恐惧萦绕】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301105,
+          "skill_name": "杀戮算法",
+          "skill_desc": "对指定我方单体及相邻目标造成物理属性伤害，目标陷入【<u>恐惧萦绕</u>】或【<u>恐惧</u>】时造成额外伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {
+            "220330102": {
+              "name": "恐惧萦绕",
+              "desc": "第二个回合开始时陷入【恐惧】状态，在此之前对施加者发起一次攻击可解除【恐惧萦绕】。",
+              "param": []
+            },
+            "220330103": {
+              "name": "恐惧",
+              "desc": "无法行动，持续至自身下个回合开始。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203301106,
+          "skill_name": "步离本能",
+          "skill_desc": "进入战斗时，减少进入【<u>月狂</u>】状态需要的【<u>嗜血</u>】层数。当敌方施放攻击后，为<u>能够进入【月狂】状态的敌方单位</u>附加1层【<u>嗜血</u>】，当【<u>嗜血</u>】达到指定层数时，将使其进入【<u>月狂</u>】状态。\\n行动序列上出现【月狂】倒计时，倒计时回合开始时所有敌方单位解除【<u>月狂</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220320101": {
+              "name": "能够进入【月狂】状态的敌方单位",
+              "desc": "能够进入【月狂】状态的敌方单位：玄爪狼卒、 蚀月狼卒、咆哮灵柩、咆哮灵柩（错误）、步离战首•呼雷、步离战首•呼雷（完整）。",
+              "param": []
+            },
+            "220320103": {
+              "name": "嗜血",
+              "desc": "所有能够进入【月狂】的敌方单位共享【嗜血】层数。当有能够进入【月狂】的敌方单位进入战斗时，将附加相同层数的【嗜血】。回合结束时，若场上所有能够进入【月狂】的敌方单位均被击败，清除所有【嗜血】层数。",
+              "param": []
+            },
+            "220330101": {
+              "name": "月狂",
+              "desc": "此状态下，咆哮灵柩的速度提高，可以施放【合成狼毒】和【杀戮算法】，咆哮灵柩被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2033011,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182008
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2033011,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182008
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2033011,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182008
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2033011,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182008
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2033011,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182008
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2033011,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182008
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2033011,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182008
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    }
+  ]
+}

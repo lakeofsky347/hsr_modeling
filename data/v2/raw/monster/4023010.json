@@ -1,0 +1,717 @@
+{
+  "id": 4023010,
+  "name": "正阳狮鹫",
+  "desc": "在遥远的造物世，艾格勒打造黎明机器后，它又在刻法勒协助下创造了代表各种泰坦的奇兽。据信，正阳狮鹫象征着睁开眼睛后为世界带来光明的艾格勒。",
+  "monster_camp_id": 13,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1209,
+  "initial_delay_ratio": 0.5,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4023010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4023010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 402301001,
+          "skill_name": "穿透黑暗",
+          "skill_desc": "对指定我方单体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 402301002,
+          "skill_name": "降示黎明",
+          "skill_desc": "从我方队伍左侧起横扫攻击我方3个连续目标，造成少量火属性伤害，击中目标时对其施加<u>【艾格勒印记】</u>，同时召唤「流星铁鹰」。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301003,
+          "skill_name": "点亮未来",
+          "skill_desc": "锁定1个我方目标，进入【点亮未来】状态，下次行动施放【赞美艾格勒】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301004,
+          "skill_name": "赞美艾格勒",
+          "skill_desc": "对锁定目标及其相邻目标造成火属性伤害，同时对击中目标附加<u>【艾格勒印记】</u>。",
+          "damage_type": "Fire",
+          "sp_hit_base": 20,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 402301001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.384615,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 402301001,
+          "skill_name": "穿透黑暗",
+          "skill_desc": "对指定我方单体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 402301002,
+          "skill_name": "降示黎明",
+          "skill_desc": "从我方队伍左侧起横扫攻击我方3个连续目标，造成少量火属性伤害，击中目标时对其施加<u>【艾格勒印记】</u>，同时召唤「流星铁鹰」。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301003,
+          "skill_name": "点亮未来",
+          "skill_desc": "锁定1个我方目标，进入【点亮未来】状态，下次行动施放【赞美艾格勒】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301004,
+          "skill_name": "赞美艾格勒",
+          "skill_desc": "对锁定目标及其相邻目标造成火属性伤害，同时对击中目标附加<u>【艾格勒印记】</u>。",
+          "damage_type": "Fire",
+          "sp_hit_base": 20,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 402301002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 6.346154,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 402301001,
+          "skill_name": "穿透黑暗",
+          "skill_desc": "对指定我方单体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 402301002,
+          "skill_name": "降示黎明",
+          "skill_desc": "从我方队伍左侧起横扫攻击我方3个连续目标，造成少量火属性伤害，击中目标时对其施加<u>【艾格勒印记】</u>，同时召唤「流星铁鹰」。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301003,
+          "skill_name": "点亮未来",
+          "skill_desc": "锁定1个我方目标，进入【点亮未来】状态，下次行动施放【赞美艾格勒】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301004,
+          "skill_name": "赞美艾格勒",
+          "skill_desc": "对锁定目标及其相邻目标造成火属性伤害，同时对击中目标附加<u>【艾格勒印记】</u>。",
+          "damage_type": "Fire",
+          "sp_hit_base": 20,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 402301003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.326923,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 402301001,
+          "skill_name": "穿透黑暗",
+          "skill_desc": "对指定我方单体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 402301002,
+          "skill_name": "降示黎明",
+          "skill_desc": "从我方队伍左侧起横扫攻击我方3个连续目标，造成少量火属性伤害，击中目标时对其施加<u>【艾格勒印记】</u>，同时召唤「流星铁鹰」。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301003,
+          "skill_name": "点亮未来",
+          "skill_desc": "锁定1个我方目标，进入【点亮未来】状态，下次行动施放【赞美艾格勒】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301004,
+          "skill_name": "赞美艾格勒",
+          "skill_desc": "对锁定目标及其相邻目标造成火属性伤害，同时对击中目标附加<u>【艾格勒印记】</u>。",
+          "damage_type": "Fire",
+          "sp_hit_base": 20,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 402301004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.769231,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 402301001,
+          "skill_name": "穿透黑暗",
+          "skill_desc": "对指定我方单体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 402301002,
+          "skill_name": "降示黎明",
+          "skill_desc": "从我方队伍左侧起横扫攻击我方3个连续目标，造成少量火属性伤害，击中目标时对其施加<u>【艾格勒印记】</u>，同时召唤「流星铁鹰」。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301003,
+          "skill_name": "点亮未来",
+          "skill_desc": "锁定1个我方目标，进入【点亮未来】状态，下次行动施放【赞美艾格勒】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301004,
+          "skill_name": "赞美艾格勒",
+          "skill_desc": "对锁定目标及其相邻目标造成火属性伤害，同时对击中目标附加<u>【艾格勒印记】</u>。",
+          "damage_type": "Fire",
+          "sp_hit_base": 20,
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "402301001": {
+              "name": "艾格勒印记",
+              "desc": "我方任意目标在消灭敌方目标后，可解除此印记，优先解除造成致命伤害的目标。\\n当目标拥有2层【艾格勒印记】时，会解除所有印记，受到火属性伤害并减少能量。\\n当目标同时拥有【艾格勒印记】和【欧洛尼斯印记】时，会解除所有印记，受到基于自身生命上限的真实伤害，减少能量并大概率陷入纠缠状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 402301006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4023010,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4023010,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4023010,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4023010,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4023010,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4023010,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4023010,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    }
+  ]
+}

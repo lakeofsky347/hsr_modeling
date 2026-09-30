@@ -1,0 +1,117 @@
+{
+  "id": 3021042,
+  "name": "「盾」",
+  "desc": "「盾」的雕塑；萦绕着纯美灵魂，枪与盾相依，盾是捍卫生灵的决心。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 418.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3021040.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Minion",
+  "speed_base": 90,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3021042,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302104201,
+          "skill_name": "捍卫的冕旒",
+          "skill_desc": "对自身施加护盾。【灵魂释放】状态下，护盾值提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302104202,
+          "skill_name": "飞速欲念摹本",
+          "skill_desc": "受到致命攻击时，对我方全体施加护盾，护盾可以叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3021042,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3021042,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3021042,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3021042,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3021042,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3021042,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3021042,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

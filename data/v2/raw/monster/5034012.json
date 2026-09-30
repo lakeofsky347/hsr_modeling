@@ -1,0 +1,185 @@
+{
+  "id": 5034012,
+  "name": "堕神之血•亚婆离",
+  "desc": "暗中掌控博识学会的技术研发部主管，抛弃了脆弱的人类躯壳，将意识置入庞大的「树状脑」，只为窥探古兽的奥秘。\\n亚婆离对超越人类之力的执念最终将其引向了终局。她被「贪饕」彻底同化，重回胚胎，并蜕变为了不可名状的怪物。",
+  "monster_camp_id": 19,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 697.5,
+  "initial_delay_ratio": null,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5034010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 180,
+  "stance_base": 1080,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 5034012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 503401201,
+          "skill_name": "猎食标记",
+          "skill_desc": "对指定我方单体角色造成少量量子属性伤害，并使其陷入1层<u>【堕神衰腐】</u>状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "503401001": {
+              "name": "堕神衰腐",
+              "desc": "每次施放技能后减少1层，当到达一定层数后角色陷入【幻身】状态，持续时间结束或受到致命攻击时解除【幻身】状态。【幻身】状态下的我方角色及其召唤物<u>离场</u>，同时召唤【狂兽的胚芽】代替该离场角色继续战斗，【狂兽的胚芽】视为我方角色。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503401202,
+          "skill_name": "饥饿的鸣响",
+          "skill_desc": "对我方全体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 503401203,
+          "skill_name": "宏观生态系统",
+          "skill_desc": "吞噬【狂兽的胚芽】，使自身造成的伤害提高，并回复生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 503401204,
+          "skill_name": "万物于我之中",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害，并大概率使我方全体陷入<u>【源质吞噬】</u>状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {
+            "503401002": {
+              "name": "源质吞噬",
+              "desc": "可回复的生命上限降低，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503401205,
+          "skill_name": "集群连带应激",
+          "skill_desc": "仪式中受到攻击会使【狂兽的胚芽】行动提前，且【堕神之血】不受行动提前效果的影响。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 503401206,
+          "skill_name": "兽瞳百相",
+          "skill_desc": "每次行动后增加1个「贪饕之眼」，回合结束时「贪饕之眼」达到一定数量则立刻施放【万物于我之中】。获得【血脑屏障】时速度大幅提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 503401207,
+          "skill_name": "胎儿之梦",
+          "skill_desc": "在行动序列上添加【破胞分生】，每次【破胞分生】行动时召唤【狂兽的胚芽】。【堕神之血】在场时，【狂兽的胚芽】的攻击会额外附加<u>【堕神衰腐】</u>和<u>【源质吞噬】</u>，【狂兽的胚芽】被击杀后会使【堕神之血】的生命值降低。受到攻击后会使【狂兽的胚芽】锁定发起攻击的角色。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "503401001": {
+              "name": "堕神衰腐",
+              "desc": "每次施放技能后减少1层，当到达一定层数后角色陷入【幻身】状态，持续时间结束或受到致命攻击时解除【幻身】状态。【幻身】状态下的我方角色及其召唤物<u>离场</u>，同时召唤【狂兽的胚芽】代替该离场角色继续战斗，【狂兽的胚芽】视为我方角色。",
+              "param": []
+            },
+            "503401002": {
+              "name": "源质吞噬",
+              "desc": "可回复的生命上限降低，该效果可叠加。",
+              "param": []
+            },
+            "10000016": {
+              "name": "离场",
+              "desc": "处于离场状态的目标无法成为技能目标，且不会出现在行动序列上。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503401208,
+          "skill_name": "血脑屏障",
+          "skill_desc": "当生命值降低到一定值时使自身获得【血脑屏障】，韧性无法被削减，并使自身受到所有伤害大幅降低，欢愉伤害破除【血脑屏障】的效率大幅提高。获得【血脑屏障】时，在行动序列上添加【稳态失衡】，击杀【狂兽的胚芽】可以增加【稳态失衡】的充能值，【稳态失衡】行动时根据获得的充能值对【血脑屏障】造成伤害。【血脑屏障】解除时自身受到大量伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5034012,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5034012,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5034012,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5034012,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5034012,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5034012,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5034012,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

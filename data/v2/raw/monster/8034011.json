@@ -1,0 +1,255 @@
+{
+  "id": 8034011,
+  "name": "「石心十人」诡弈砂金（完整）",
+  "desc": "代码受到影响后的完整投影。参照本体为星际和平公司「战略投资部」的高级干部，「石心十人」之一。借由基石分得「存护」令使的权能，以身作骰，置之死地而后生。",
+  "monster_camp_id": 9,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8034010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 144,
+  "stance_base": 600,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 8034011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803401101,
+          "skill_name": "押以重注",
+          "skill_desc": "对指定我方单体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803401102,
+          "skill_name": "分散投资",
+          "skill_desc": "连续对我方随机单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 803401103,
+          "skill_name": "点数喷泉",
+          "skill_desc": "对我方全体造成少量虚数属性伤害，并减少我方全体的能量。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803401104,
+          "skill_name": "对赌时刻",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方单体进入赌局，每个【「所有或一无所有」】每次受到进入赌局的我方目标攻击时，会使其获得1个随机1到6的点数，并在生命值降为1后获得【<u>时来</u>】效果，首个【「所有或一无所有」】每次受到攻击时会使赌局的赔率翻倍。进入赌局的我方单体回合结束时，点数低于诡弈砂金视为输掉赌局并受到攻击；点数高于诡弈砂金视为赢得赌局且终结技被激活。同时使没有进入赌局的我方目标陷入【观局勿语】状态，赌局结束后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280340111": {
+              "name": "时来",
+              "desc": "受到进入赌局的目标攻击时必定产生6的点数，并在赌局结束时施放【败罚】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 803401105,
+          "skill_name": "豪赌盛宴",
+          "skill_desc": "召唤【「所有或一无所有」】并使我方全体进入赌局，每个【「所有或一无所有」】每次受到攻击时会使进行攻击的我方目标获得1个随机1到6的点数，并在生命值降为1后获得【<u>时来</u>】效果，首个【「所有或一无所有」】每次受到攻击时会使赌局的赔率翻倍。下次诡弈砂金行动时，点数低于诡弈砂金的我方目标视为输掉赌局并受到攻击；点数高于诡弈砂金的我方目标视为赢得赌局且终结技被激活。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280340111": {
+              "name": "时来",
+              "desc": "受到进入赌局的目标攻击时必定产生6的点数，并在赌局结束时施放【败罚】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 803401106,
+          "skill_name": "狂热深渊",
+          "skill_desc": "召唤【「所有或一无所有」】并成倍获得点数，使我方全体进入赌局，每个【「所有或一无所有」】每次受到攻击时会使进行攻击的我方目标获得1个随机1到6的点数，并在生命值降为1后获得【<u>时来</u>】效果，首个【「所有或一无所有」】每次受到攻击时会使赌局的赔率翻倍。下次诡弈砂金行动时，我方的总点数低于诡弈砂金时视为全体输掉赌局并受到攻击；总点数高于诡弈砂金时视为全体赢得赌局且终结技被激活。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280340111": {
+              "name": "时来",
+              "desc": "受到进入赌局的目标攻击时必定产生6的点数，并在赌局结束时施放【败罚】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 803401107,
+          "skill_name": "败者退席",
+          "skill_desc": "对输掉赌局的我方单体造成虚数属性伤害，并大概率使受到攻击的我方单体陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401108,
+          "skill_name": "胜者通杀",
+          "skill_desc": "对所有输掉赌局的我方目标造成大量虚数属性伤害，并大概率使受到攻击的我方目标陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 803401109,
+          "skill_name": "一度阖眼的谎言",
+          "skill_desc": "赌局的初始赔率为1，上限为4。每次赢得赌局的我方目标获得赔率层数的【<u>芬戈的礼物</u>】效果；每次输掉赌局的我方目标获得赔率层数的【<u>芬戈的诅咒</u>】效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280340112": {
+              "name": "芬戈的礼物",
+              "desc": "每层使造成的伤害提高。",
+              "param": []
+            },
+            "280340113": {
+              "name": "芬戈的诅咒",
+              "desc": "每层使受到的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 803401110,
+          "skill_name": "二度阖眼的骗术",
+          "skill_desc": "赌局的初始赔率为1，上限为8。每次赢得赌局的我方目标获得赔率层数的【<u>芬戈的礼物</u>】效果；每次输掉赌局的我方目标获得赔率层数的【<u>芬戈的诅咒</u>】效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280340112": {
+              "name": "芬戈的礼物",
+              "desc": "每层使造成的伤害提高。",
+              "param": []
+            },
+            "280340113": {
+              "name": "芬戈的诅咒",
+              "desc": "每层使受到的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 803401111,
+          "skill_name": "三度阖眼的诡计",
+          "skill_desc": "赌局的初始赔率为1，上限为<unbreak>16</unbreak>。每次赢得赌局的我方全体获得赔率层数的【<u>芬戈的礼物</u>】效果；每次输掉赌局的我方全体获得赔率层数的【<u>芬戈的诅咒</u>】效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280340112": {
+              "name": "芬戈的礼物",
+              "desc": "每层使造成的伤害提高。",
+              "param": []
+            },
+            "280340113": {
+              "name": "芬戈的诅咒",
+              "desc": "每层使受到的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 803401112,
+          "skill_name": "债台高筑",
+          "skill_desc": "每开启1次赌局，诡弈砂金的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8034011,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034011,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034011,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034011,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034011,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034011,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8034011,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 1.5
+    }
+  ]
+}

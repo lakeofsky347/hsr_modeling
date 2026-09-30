@@ -1,0 +1,572 @@
+{
+  "id": 2023012,
+  "name": "仙人童子",
+  "desc": "渴求复兴古老的丰饶之秘，并引领仙舟人再度踏上解脱登仙大道的修炼者。\\n如今，他们的愿望得遂。受赐于古老神迹的力量，以其为甲胄、为武器，并触及了长生不死的秘密。",
+  "monster_camp_id": 2,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 3022.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2023010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 720,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 2023012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202301201,
+          "skill_name": "震击",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202301202,
+          "skill_name": "霆罚",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202301203,
+          "skill_name": "劫雷",
+          "skill_desc": "对指定我方单体造成大量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202301204,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202301201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202301201,
+          "skill_name": "震击",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202301202,
+          "skill_name": "霆罚",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202301203,
+          "skill_name": "劫雷",
+          "skill_desc": "对指定我方单体造成大量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202301204,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202301202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202301201,
+          "skill_name": "震击",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202301202,
+          "skill_name": "霆罚",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202301203,
+          "skill_name": "劫雷",
+          "skill_desc": "对指定我方单体造成大量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202301204,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202301203,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202301201,
+          "skill_name": "震击",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202301202,
+          "skill_name": "霆罚",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202301203,
+          "skill_name": "劫雷",
+          "skill_desc": "对指定我方单体造成大量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202301204,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202301204,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.538462,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202301201,
+          "skill_name": "震击",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202301202,
+          "skill_name": "霆罚",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202301203,
+          "skill_name": "劫雷",
+          "skill_desc": "对指定我方单体造成大量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202301204,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2023012,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023012,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023012,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023012,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023012,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023012,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023012,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    }
+  ]
+}

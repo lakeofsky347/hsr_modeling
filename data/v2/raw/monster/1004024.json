@@ -1,0 +1,189 @@
+{
+  "id": 1004024,
+  "name": "杰帕德（幻象）",
+  "desc": "银鬃铁卫的戍卫长。\\n杰帕德会为士兵提供抵挡攻击伤害的护盾。出现于此的是基于你的记忆模拟出的幻影。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 2325,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1004020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 119,
+  "stance_base": 450,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 1004024,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100402401,
+          "skill_name": "一意之拳",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100402402,
+          "skill_name": "霜之惩击",
+          "skill_desc": "对指定我方单体造成冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 100402403,
+          "skill_name": "戍卫气场",
+          "skill_desc": "施放【全体护盾】吸收敌方全体受到的伤害，并使敌方全体的韧性无法被削减。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100402404,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 100402405,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100402407,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100402408,
+          "skill_name": "以牙还牙",
+          "skill_desc": "进入反击状态，持续1回合。在该状态下受到我方目标攻击后，立即对该目标施放【霜之惩击】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100402409,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100402410,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100402411,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100402412,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100402413,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1004024,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004024,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004024,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004024,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004024,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004024,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004024,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

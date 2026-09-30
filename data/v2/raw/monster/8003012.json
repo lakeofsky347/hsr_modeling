@@ -1,0 +1,597 @@
+{
+  "id": 8003012,
+  "name": "外宇宙之冰",
+  "desc": "不属此世的怪异生命，自星核带来的裂界中成长，寄生在世界的根基结构中汲取能量，其甲胄外壳上倒映着幽深黯淡的星空。\\n战斗中，外宇宙之冰能轻易将敌人冻结凝固。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 744,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8003010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 100,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8003012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301201,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301202,
+          "skill_name": "霜晶凝华",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】，并使自身获得1层【凝晶】效果。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301203,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。施放该技能，对我方全体造成冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态，且使其行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301204,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301206,
+          "skill_name": "碎冰裂寒",
+          "skill_desc": "对陷入冻结状态的我方目标造成冰属性伤害，同时使其冻结状态解除，并对其相邻目标造成冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301201,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301202,
+          "skill_name": "霜晶凝华",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】，并使自身获得1层【凝晶】效果。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301203,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。施放该技能，对我方全体造成冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态，且使其行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301204,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301206,
+          "skill_name": "碎冰裂寒",
+          "skill_desc": "对陷入冻结状态的我方目标造成冰属性伤害，同时使其冻结状态解除，并对其相邻目标造成冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301201,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301202,
+          "skill_name": "霜晶凝华",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】，并使自身获得1层【凝晶】效果。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301203,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。施放该技能，对我方全体造成冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态，且使其行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301204,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301206,
+          "skill_name": "碎冰裂寒",
+          "skill_desc": "对陷入冻结状态的我方目标造成冰属性伤害，同时使其冻结状态解除，并对其相邻目标造成冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301203,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301201,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301202,
+          "skill_name": "霜晶凝华",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】，并使自身获得1层【凝晶】效果。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301203,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。施放该技能，对我方全体造成冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态，且使其行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301204,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301206,
+          "skill_name": "碎冰裂寒",
+          "skill_desc": "对陷入冻结状态的我方目标造成冰属性伤害，同时使其冻结状态解除，并对其相邻目标造成冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301204,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301201,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301202,
+          "skill_name": "霜晶凝华",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】，并使自身获得1层【凝晶】效果。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301203,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。施放该技能，对我方全体造成冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态，且使其行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301204,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301206,
+          "skill_name": "碎冰裂寒",
+          "skill_desc": "对陷入冻结状态的我方目标造成冰属性伤害，同时使其冻结状态解除，并对其相邻目标造成冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8003012,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003012,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003012,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003012,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003012,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003012,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003012,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    }
+  ]
+}

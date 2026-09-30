@@ -1,0 +1,244 @@
+{
+  "id": 4034019,
+  "name": "至黑之剑，盗火行者（污染）",
+  "desc": "伴随黑潮而来、狩猎泰坦火种的无名剑士，无人知晓其真身。\\n身负不可思议的力量，剑技也近乎无懈可击。疯狂与执着交织于它的锋刃，神悟树庭与哀丽秘榭皆毁于其手。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 930,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4034010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 132,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4034019,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403401901,
+          "skill_name": "亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403401902,
+          "skill_name": "将尽的命数",
+          "skill_desc": "对我方全体目标造成物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403401903,
+          "skill_name": "相混的道途",
+          "skill_desc": "使【残破容器】进入【共祭】状态，在数次行动内施放【幽冥的悼念】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403401904,
+          "skill_name": "幽冥的悼念",
+          "skill_desc": "与【残破容器】一同施放【亡死的黑云】或【将尽的命数】，随后吸收【残破容器】治疗自身，并获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403401905,
+          "skill_name": "沉默的悲叹",
+          "skill_desc": "获得<u>【灾难之力】</u>并进入【沉默的悲叹】状态，下次行动时施放【莫因舍弃而哭泣】。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403401906,
+          "skill_name": "却是必要的苦难",
+          "skill_desc": "消耗所有<u>【灾难之力】</u>对我方全体造成数次少量物理属性伤害，消耗的【灾难之力】层数越多，伤害的段数越多，随后对我方全体造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 20,
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403401907,
+          "skill_name": "莫因舍弃而哭泣",
+          "skill_desc": "对我方全体造成物理属性伤害，消耗所有<u>【灾难之力】</u>额外造成数次少量物理属性伤害，消耗的【灾难之力】层数越多，伤害的段数越多。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403401908,
+          "skill_name": "分离的哀痛",
+          "skill_desc": "施放【亡死的黑云】或【将尽的命数】时，消耗生命值召唤【残破容器】，并使消耗的生命值转化为<u>【苦痛缠绕】</u>。若该攻击召唤的【残破容器】被消灭，则额外对自身造成物理属性伤害。当自身再次施放【亡死的黑云】或【将尽的命数】时，曾被该攻击召唤的【残破容器】将一同发起攻击，随后被自身吸收， 回复转化为<u>【苦痛缠绕】</u>的生命值并使自身获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "403401002": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【残破容器】后回复召唤该【残破容器】时消耗的生命值，【残破容器】被消灭后，无法再回复召唤该【残破容器】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403401909,
+          "skill_name": "迷失的共祭",
+          "skill_desc": "施放【沉默的悲叹】时，消耗生命值召唤【残破容器】，并使消耗的生命值转化为<u>【苦痛缠绕】</u>。当拥有的<u>【灾难之力】</u>层数不为0时，若【残破容器】受到致命攻击，则立即消耗1层<u>【灾难之力】</u>和一定比例的生命值，重新召唤【残破容器】。施放【莫因舍弃而哭泣】时，吸收【残破容器】并回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "403401002": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【残破容器】后回复召唤该【残破容器】时消耗的生命值，【残破容器】被消灭后，无法再回复召唤该【残破容器】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403401910,
+          "skill_name": "永别的决绝",
+          "skill_desc": "获得一定层数的【减伤】，使自身受到的伤害降低，每有1个【残破容器】被消灭后失去1层。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403401911,
+          "skill_name": "残火将熄",
+          "skill_desc": "战斗中会出现黑泥对首领进行强化。强化后【至黑之剑，盗火行者（污染）】会立刻施放【却是必要的苦难】或【沉默的悲叹】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4034019,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4034019,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4034019,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4034019,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4034019,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4034019,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4034019,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

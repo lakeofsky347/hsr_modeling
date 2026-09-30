@@ -1,0 +1,3212 @@
+{
+  "id": 1506,
+  "slug": "silver_wolf_lv999",
+  "source_url": "https://hsr.nanoka.cc/character/1506",
+  "data_url_zh": "https://static.nanoka.cc/hsr/4.6.51/zh/character/1506.json",
+  "names": {
+    "zh": "银狼LV.999",
+    "en": "Silver Wolf LV.999",
+    "ja": "銀狼LV.999",
+    "ko": "은랑 LV.999"
+  },
+  "rarity": {
+    "code": "CombatPowerAvatarRarityType5",
+    "stars": 5
+  },
+  "path": {
+    "code": "Elation",
+    "zh": "欢愉"
+  },
+  "element": {
+    "code": "Imaginary",
+    "zh": "虚数"
+  },
+  "max_energy": 60,
+  "release": {
+    "ts": 1776848400,
+    "date": "2026-04-22"
+  },
+  "icon": "silverwolflv999",
+  "desc_zh": "新一轮欢愉赛季，无敌玩家「银狼LV.999」限时回归中！\n成为宇宙大赢家，银河通关全成就，接下来还要怎么玩？\n「走上『欢愉』巅峰？无聊到爆好嘛…既然卡带到手，就我说了算咯~」",
+  "desc_en": "A new season of Elation begins, featuring the limited-time return of the invincible player \"Silver Wolf LV.999\"!\nShe's conquered the universe, unlocked every cosmic achievement... What's left to play?\n\"Reach the peak of 'Elation'? Boring... Since I've got the cartridge now, I make the rules~\"",
+  "stats": [
+    {
+      "phase": 0,
+      "level_cap": 20,
+      "atk": 103.0,
+      "hp": 278.0,
+      "def": 173.7,
+      "speed": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 52.8,
+      "atk_add": 2.64,
+      "hp_base": 142.56,
+      "hp_add": 7.128,
+      "def_base": 89.1,
+      "def_add": 4.455,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "level_cap": 30,
+      "atk": 150.5,
+      "hp": 406.3,
+      "def": 253.9,
+      "speed": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 73.92,
+      "atk_add": 2.64,
+      "hp_base": 199.584,
+      "hp_add": 7.128,
+      "def_base": 124.74,
+      "def_add": 4.455,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "level_cap": 40,
+      "atk": 198.0,
+      "hp": 534.6,
+      "def": 334.1,
+      "speed": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 95.04,
+      "atk_add": 2.64,
+      "hp_base": 256.608,
+      "hp_add": 7.128,
+      "def_base": 160.38,
+      "def_add": 4.455,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "level_cap": 50,
+      "atk": 245.5,
+      "hp": 662.9,
+      "def": 414.3,
+      "speed": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 116.16,
+      "atk_add": 2.64,
+      "hp_base": 313.632,
+      "hp_add": 7.128,
+      "def_base": 196.02,
+      "def_add": 4.455,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "level_cap": 60,
+      "atk": 293.0,
+      "hp": 791.2,
+      "def": 494.5,
+      "speed": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 137.28,
+      "atk_add": 2.64,
+      "hp_base": 370.656,
+      "hp_add": 7.128,
+      "def_base": 231.66,
+      "def_add": 4.455,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "level_cap": 70,
+      "atk": 340.6,
+      "hp": 919.5,
+      "def": 574.7,
+      "speed": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 158.4,
+      "atk_add": 2.64,
+      "hp_base": 427.68,
+      "hp_add": 7.128,
+      "def_base": 267.3,
+      "def_add": 4.455,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "level_cap": 80,
+      "atk": 388.1,
+      "hp": 1047.8,
+      "def": 654.9,
+      "speed": 110,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 179.52,
+      "atk_add": 2.64,
+      "hp_base": 484.704,
+      "hp_add": 7.128,
+      "def_base": 302.94,
+      "def_add": 4.455,
+      "ascension_cost": []
+    }
+  ],
+  "skills": [
+    {
+      "id": 150601,
+      "name": "拳头硬了！",
+      "name_en": "One Punch!",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "SingleAttack",
+      "tag_zh": "单攻",
+      "stance_break": [
+        30,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": 1,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.5
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1.4
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "140%",
+          "by_level": [
+            "50%",
+            "60%",
+            "70%",
+            "80%",
+            "90%",
+            "100%",
+            "110%",
+            "120%",
+            "130%",
+            "140%"
+          ]
+        }
+      ],
+      "simple_desc": "对指定敌方单体造成少量虚数属性伤害。",
+      "desc_max": "对指定敌方单体造成等同于「银狼LV.999」140%攻击力的虚数属性伤害。",
+      "desc_lv1": "对指定敌方单体造成等同于「银狼LV.999」50%攻击力的虚数属性伤害。",
+      "desc_en": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK to one designated enemy.",
+      "extra": {}
+    },
+    {
+      "id": 150608,
+      "name": "奖励关：「狼尊时刻」",
+      "name_en": "Bonus Stage: αWolf Instant",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "Bounce",
+      "tag_zh": "弹射",
+      "stance_break": [
+        30,
+        30,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            1.2,
+            0,
+            100,
+            0.5,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            1.44,
+            0,
+            100,
+            0.6,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            1.68,
+            0,
+            100,
+            0.7,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            1.92,
+            0,
+            100,
+            0.8,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            2.16,
+            0,
+            100,
+            0.9,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            2.4,
+            0,
+            100,
+            1,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            2.64,
+            0,
+            100,
+            1.1,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            2.88,
+            0,
+            100,
+            1.2,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            3.12,
+            0,
+            100,
+            1.3,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            3.36,
+            0,
+            100,
+            1.4,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "336%",
+          "by_level": [
+            "120%",
+            "144%",
+            "168%",
+            "192%",
+            "216%",
+            "240%",
+            "264%",
+            "288%",
+            "312%",
+            "336%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "0",
+          "by_level": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "100",
+          "by_level": [
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": true,
+          "value": "140%",
+          "by_level": [
+            "50%",
+            "60%",
+            "70%",
+            "80%",
+            "90%",
+            "100%",
+            "110%",
+            "120%",
+            "130%",
+            "140%"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": false,
+          "value": "3",
+          "by_level": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "index": 6,
+          "is_percent": false,
+          "value": "60",
+          "by_level": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        },
+        {
+          "index": 7,
+          "is_percent": false,
+          "value": "2",
+          "by_level": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "index": 8,
+          "is_percent": true,
+          "value": "15%",
+          "by_level": [
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%"
+          ]
+        }
+      ],
+      "simple_desc": "造成虚数属性伤害，共弹射大量次数，期间可触发3次【头号补给盲盒】。若对所有敌方造成了致命伤害，保留剩余效果对新入场的敌方目标继续施放。最后造成虚数属性伤害，由敌方全体均分。\n【隐藏分】每达到一定点数，可额外提高强化普攻的伤害。",
+      "desc_max": "造成总计等同于「银狼LV.999」336%攻击力的虚数属性伤害，均分为100段伤害弹射至敌方随机单体。每弹射一定段数，暂停弹射并触发1次【头号补给盲盒】，总计可触发3次。\n若对场上所有敌方造成了致命伤害则结束本次技能，当存在可攻击的敌方目标后获得1个额外回合并基于剩余弹射段数和【头号补给盲盒】次数再次施放。每回合首次触发该效果时，使自身所有增益效果延长1回合。\n上述伤害全部结算后发动最后一击，造成等同于「银狼LV.999」140%攻击力的虚数属性伤害，由敌方全体均分。\n强化普攻无法恢复战技点。每拥有60点【隐藏分】，强化普攻期间造成的伤害提高原伤害的15%，最多叠加2层。",
+      "desc_lv1": "造成总计等同于「银狼LV.999」120%攻击力的虚数属性伤害，均分为100段伤害弹射至敌方随机单体。每弹射一定段数，暂停弹射并触发1次【头号补给盲盒】，总计可触发3次。\n若对场上所有敌方造成了致命伤害则结束本次技能，当存在可攻击的敌方目标后获得1个额外回合并基于剩余弹射段数和【头号补给盲盒】次数再次施放。每回合首次触发该效果时，使自身所有增益效果延长1回合。\n上述伤害全部结算后发动最后一击，造成等同于「银狼LV.999」50%攻击力的虚数属性伤害，由敌方全体均分。\n强化普攻无法恢复战技点。每拥有60点【隐藏分】，强化普攻期间造成的伤害提高原伤害的15%，最多叠加2层。",
+      "desc_en": "Deals Imaginary DMG equal to a total of <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK, split evenly into <unbreak>#3[i]</unbreak> hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the <u>Top Loot Box</u> triggers 1 time. Can trigger up to <unbreak>#5[i]</unbreak> time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 <u>extra turn</u> and uses this ability again based on the remaining number of bounces and <u>Top Loot Box</u> triggers. The first time this effect triggers in each turn, extends the duration of all <u>buffs</u> on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every <unbreak>#6[i]</unbreak> points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by <unbreak>#8[i]%</unbreak> of the original DMG, stacking up to <unbreak>#7[i]</unbreak> time(s).",
+      "extra": {
+        "10015061": {
+          "name": "头号补给盲盒",
+          "desc": "「银狼LV.<unbreak>999</unbreak>」持有【好活当赏】时，我方目标在「银狼LV.<unbreak>999</unbreak>」结界中可触发的特殊攻击。也可在【奖励关：「狼尊时刻」】中主动触发，此方式触发不视为造成了1次攻击。\\n施放时造成大量虚数属性欢愉伤害，由敌方全体均分，并随机触发以下3种效果中的一种：\\n【超超超大剑】：对生命值最高的目标基于本次总伤害值造成真实伤害；\\n【爆爆爆炸蛋】：恢复战技点（战技点较少时，触发概率提高。战技点较多时，触发概率降低）；\\n【怪怪怪味豆】：获得笑点（【隐藏分】较少时，触发概率提高，【隐藏分】较多时，触发概率降低）。",
+          "param": []
+        },
+        "10000000": {
+          "name": "额外回合",
+          "desc": "获得1个不消耗回合数的额外回合，在此回合中无法插入施放终结技。",
+          "param": []
+        },
+        "10000009": {
+          "name": "增益效果",
+          "desc": "对战斗有增益效果的所有持续状态，若无特殊说明则可以被解除。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150610,
+      "name": "超超超大剑",
+      "name_en": "Big Flipping Sword",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        0,
+        30,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": []
+        },
+        {
+          "level": 2,
+          "params": []
+        },
+        {
+          "level": 3,
+          "params": []
+        },
+        {
+          "level": 4,
+          "params": []
+        },
+        {
+          "level": 5,
+          "params": []
+        },
+        {
+          "level": 6,
+          "params": []
+        },
+        {
+          "level": 7,
+          "params": []
+        },
+        {
+          "level": 8,
+          "params": []
+        },
+        {
+          "level": 9,
+          "params": []
+        },
+        {
+          "level": 10,
+          "params": []
+        }
+      ],
+      "param_table": [],
+      "simple_desc": "对敌方全体造成大量虚数属性欢愉伤害，由敌方全体均分。对生命值最高的目标基于总伤害值造成真实伤害。",
+      "desc_max": null,
+      "desc_lv1": null,
+      "desc_en": null,
+      "extra": {}
+    },
+    {
+      "id": 150612,
+      "name": "爆爆爆炸蛋",
+      "name_en": "Kaboom Eggsplosion",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        0,
+        30,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": []
+        },
+        {
+          "level": 2,
+          "params": []
+        },
+        {
+          "level": 3,
+          "params": []
+        },
+        {
+          "level": 4,
+          "params": []
+        },
+        {
+          "level": 5,
+          "params": []
+        },
+        {
+          "level": 6,
+          "params": []
+        },
+        {
+          "level": 7,
+          "params": []
+        },
+        {
+          "level": 8,
+          "params": []
+        },
+        {
+          "level": 9,
+          "params": []
+        },
+        {
+          "level": 10,
+          "params": []
+        }
+      ],
+      "param_table": [],
+      "simple_desc": "对敌方全体造成大量虚数属性欢愉伤害，由敌方全体均分。恢复战技点。",
+      "desc_max": null,
+      "desc_lv1": null,
+      "desc_en": null,
+      "extra": {}
+    },
+    {
+      "id": 150618,
+      "name": "怪怪怪味豆",
+      "name_en": "Funky Munch Bean",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        0,
+        30,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": []
+        },
+        {
+          "level": 2,
+          "params": []
+        },
+        {
+          "level": 3,
+          "params": []
+        },
+        {
+          "level": 4,
+          "params": []
+        },
+        {
+          "level": 5,
+          "params": []
+        },
+        {
+          "level": 6,
+          "params": []
+        },
+        {
+          "level": 7,
+          "params": []
+        },
+        {
+          "level": 8,
+          "params": []
+        },
+        {
+          "level": 9,
+          "params": []
+        },
+        {
+          "level": 10,
+          "params": []
+        }
+      ],
+      "param_table": [],
+      "simple_desc": "对敌方全体造成大量虚数属性欢愉伤害，由敌方全体均分。获得笑点。",
+      "desc_max": null,
+      "desc_lv1": null,
+      "desc_en": null,
+      "extra": {}
+    },
+    {
+      "id": 150602,
+      "name": "Shoot属性大爆发",
+      "name_en": "Trigger Happy",
+      "type_name": "战技",
+      "type": "BPSkill",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        0,
+        30,
+        0
+      ],
+      "bp_need": 1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point02",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.8,
+            5
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.88,
+            5
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.96,
+            5
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            1.04,
+            5
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            1.12,
+            5
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1.2,
+            5
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.3,
+            5
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.4,
+            5
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.5,
+            5
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1.6,
+            5
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            1.68,
+            5
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            1.76,
+            5
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            1.84,
+            5
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            1.92,
+            5
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            2,
+            5
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "200%",
+          "by_level": [
+            "80%",
+            "88%",
+            "96%",
+            "104%",
+            "112%",
+            "120%",
+            "130%",
+            "140%",
+            "150%",
+            "160%",
+            "168%",
+            "176%",
+            "184%",
+            "192%",
+            "200%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "5",
+          "by_level": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+          ]
+        }
+      ],
+      "simple_desc": "获得笑点，对敌方全体造成虚数属性伤害。",
+      "desc_max": "获得5个笑点，对敌方全体造成等同于「银狼LV.999」200%攻击力的虚数属性伤害。",
+      "desc_lv1": "获得5个笑点，对敌方全体造成等同于「银狼LV.999」80%攻击力的虚数属性伤害。",
+      "desc_en": "Gains <unbreak>#2[i]</unbreak> <u>Punchline</u> point(s) and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK to all enemies.",
+      "extra": {
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150603,
+      "name": "无敌玩家，启动！",
+      "name_en": "God Mode: ON!",
+      "type_name": "终结技",
+      "type": "Ultra",
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point03",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            60,
+            0,
+            0.45,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            60,
+            0,
+            0.495,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            60,
+            0,
+            0.54,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            60,
+            0,
+            0.585,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            60,
+            0,
+            0.63,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            60,
+            0,
+            0.675,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            60,
+            0,
+            0.73125,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            60,
+            0,
+            0.7875,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            60,
+            0,
+            0.84375,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            60,
+            0,
+            0.9,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            60,
+            0,
+            0.945,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            60,
+            0,
+            0.99,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            60,
+            0,
+            1.035,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            60,
+            0,
+            1.08,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            60,
+            0,
+            1.125,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "60",
+          "by_level": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "0",
+          "by_level": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": true,
+          "value": "112.5%",
+          "by_level": [
+            "45%",
+            "49.5%",
+            "54%",
+            "58.5%",
+            "63%",
+            "67.5%",
+            "73.12%",
+            "78.75%",
+            "84.38%",
+            "90%",
+            "94.5%",
+            "99%",
+            "103.5%",
+            "108%",
+            "112.5%"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": true,
+          "value": "20%",
+          "by_level": [
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": true,
+          "value": "20%",
+          "by_level": [
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%"
+          ]
+        },
+        {
+          "index": 6,
+          "is_percent": false,
+          "value": "3",
+          "by_level": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "index": 7,
+          "is_percent": false,
+          "value": "2",
+          "by_level": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ]
+        }
+      ],
+      "simple_desc": "变身并且行动提前100%。\n变身期间展开结界。持有【好活当赏】时，我方每消耗1个战技点，大概率触发1次【头号补给盲盒】：造成大量虚数属性欢愉伤害，由敌方全体均分，并随机触发1种效果：\n对生命值最高的目标基于总伤害值造成真实伤害；\n恢复战技点；\n获得笑点。\n每次触发后概率会按比例递减。",
+      "desc_max": "进入【无敌玩家】状态并且行动提前100%。\n【无敌玩家】状态下展开结界。「银狼LV.999」持有【好活当赏】时，结界内我方目标每消耗1个战技点，有概率触发1次「银狼LV.999」的【头号补给盲盒】：造成112.5%的虚数属性欢愉伤害，由敌方全体均分，并随机触发1种效果：\n【超超超大剑】：对生命值最高的敌方目标额外造成等同于本次总伤害值20%的真实伤害；\n【爆爆爆炸蛋】：恢复2个战技点；\n【怪怪怪味豆】：获得3个笑点。\n触发该效果的初始固定概率为100%，成功触发后下一次触发的固定概率降低至当前概率的20%。若触发前目标被消灭则对新入场的敌方目标触发。",
+      "desc_lv1": "进入【无敌玩家】状态并且行动提前100%。\n【无敌玩家】状态下展开结界。「银狼LV.999」持有【好活当赏】时，结界内我方目标每消耗1个战技点，有概率触发1次「银狼LV.999」的【头号补给盲盒】：造成45%的虚数属性欢愉伤害，由敌方全体均分，并随机触发1种效果：\n【超超超大剑】：对生命值最高的敌方目标额外造成等同于本次总伤害值20%的真实伤害；\n【爆爆爆炸蛋】：恢复2个战技点；\n【怪怪怪味豆】：获得3个笑点。\n触发该效果的初始固定概率为100%，成功触发后下一次触发的固定概率降低至当前概率的20%。若触发前目标被消灭则对新入场的敌方目标触发。",
+      "desc_en": "Enters the \"Godmode Player\" state, and <u>advances action</u> by <unbreak>100%</unbreak>.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.<unbreak>999</unbreak> holds \"<u>Certified Banger</u>,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.<unbreak>999</unbreak>'s \"<u>Top Loot Box</u>\": Deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Imaginary <u>Elation DMG</u> that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals <u>True DMG</u> equal to <unbreak>#5[i]%</unbreak> of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers <unbreak>#7[i]</unbreak> Skill Point(s).\\n\"Funky Munch Bean\": Gains <unbreak>#6[i]</unbreak> <u>Punchline</u> point(s).\\nThe initial <u>fixed chance</u> to trigger the effect is <unbreak>100%</unbreak>. After a successfully trigger, the <u>fixed chance</u> for the next trigger is reduced to <unbreak>#4[i]%</unbreak> of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target.",
+      "extra": {
+        "10000001": {
+          "name": "行动提前",
+          "desc": "使目标在下次行动前的等待间隔缩短。",
+          "param": []
+        },
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        },
+        "30000002": {
+          "name": "固定概率",
+          "desc": "不会被任何因素影响的固定概率。",
+          "param": []
+        },
+        "10015061": {
+          "name": "头号补给盲盒",
+          "desc": "「银狼LV.<unbreak>999</unbreak>」持有【好活当赏】时，我方目标在「银狼LV.<unbreak>999</unbreak>」结界中可触发的特殊攻击。也可在【奖励关：「狼尊时刻」】中主动触发，此方式触发不视为造成了1次攻击。\\n施放时造成大量虚数属性欢愉伤害，由敌方全体均分，并随机触发以下3种效果中的一种：\\n【超超超大剑】：对生命值最高的目标基于本次总伤害值造成真实伤害；\\n【爆爆爆炸蛋】：恢复战技点（战技点较少时，触发概率提高。战技点较多时，触发概率降低）；\\n【怪怪怪味豆】：获得笑点（【隐藏分】较少时，触发概率提高，【隐藏分】较多时，触发概率降低）。",
+          "param": []
+        },
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        },
+        "10000017": {
+          "name": "真实伤害",
+          "desc": "不受任何效果所影响的无属性伤害，本次伤害不视为造成了1次攻击。",
+          "param": []
+        },
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150604,
+      "name": "有我在，把把都是顺风局",
+      "name_en": "I Carry, We Win",
+      "type_name": "天赋",
+      "type": null,
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point04",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            60,
+            240,
+            0.2,
+            0.002,
+            3,
+            0.004
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            60,
+            240,
+            0.22,
+            0.0022,
+            3,
+            0.0044
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            60,
+            240,
+            0.24,
+            0.0024,
+            3,
+            0.0048
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            60,
+            240,
+            0.26,
+            0.0026,
+            3,
+            0.0052
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            60,
+            240,
+            0.28,
+            0.0028,
+            3,
+            0.0056
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            60,
+            240,
+            0.3,
+            0.003,
+            3,
+            0.006
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            60,
+            240,
+            0.325,
+            0.00325,
+            3,
+            0.0065
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            60,
+            240,
+            0.35,
+            0.0035,
+            3,
+            0.007
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            60,
+            240,
+            0.375,
+            0.00375,
+            3,
+            0.0075
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            60,
+            240,
+            0.4,
+            0.004,
+            3,
+            0.008
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            60,
+            240,
+            0.42,
+            0.0042,
+            3,
+            0.0084
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            60,
+            240,
+            0.44,
+            0.0044,
+            3,
+            0.0088
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            60,
+            240,
+            0.46,
+            0.0046,
+            3,
+            0.0092
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            60,
+            240,
+            0.48,
+            0.0048,
+            3,
+            0.0096
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            60,
+            240,
+            0.5,
+            0.005,
+            3,
+            0.01
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "60",
+          "by_level": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "240",
+          "by_level": [
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240",
+            "240"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": true,
+          "value": "50%",
+          "by_level": [
+            "20%",
+            "22%",
+            "24%",
+            "26%",
+            "28%",
+            "30%",
+            "32.5%",
+            "35%",
+            "37.5%",
+            "40%",
+            "42%",
+            "44%",
+            "46%",
+            "48%",
+            "50%"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": true,
+          "value": "0.5%",
+          "by_level": [
+            "0.2%",
+            "0.22%",
+            "0.24%",
+            "0.26%",
+            "0.28%",
+            "0.3%",
+            "0.33%",
+            "0.35%",
+            "0.38%",
+            "0.4%",
+            "0.42%",
+            "0.44%",
+            "0.46%",
+            "0.48%",
+            "0.5%"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": false,
+          "value": "3",
+          "by_level": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "index": 6,
+          "is_percent": true,
+          "value": "1%",
+          "by_level": [
+            "0.4%",
+            "0.44%",
+            "0.48%",
+            "0.52%",
+            "0.56%",
+            "0.6%",
+            "0.65%",
+            "0.7%",
+            "0.75%",
+            "0.8%",
+            "0.84%",
+            "0.88%",
+            "0.92%",
+            "0.96%",
+            "1%"
+          ]
+        }
+      ],
+      "simple_desc": "【隐藏分】达到60点后可激活终结技。获得笑点时获得等量【隐藏分】。【隐藏分】越高暴击率越高，暴击率达到100%后改为提高暴击伤害。\n变身期间，「银狼LV.999」免疫控制类负面状态，普攻和欢愉技得到强化，施放3次强化普攻后退出变身。\n持有【好活当赏】时，施放普攻、战技额外造成虚数属性欢愉伤害，强化普攻的技能伤害改为欢愉伤害。",
+      "desc_max": "【隐藏分】达到60点后可激活终结技，达到上限后还可溢出240点。\n获得笑点时，「银狼LV.999」获得等量【隐藏分】。每点【隐藏分】使暴击率提高0.5%。暴击率达到100%后，其余每点【隐藏分】改为使暴击伤害提高1%。\n【无敌玩家】状态下，「银狼LV.999」免疫控制类负面状态，无法施放终结技，拥有强化普攻和强化欢愉技，完整施放3次强化普攻后退出【无敌玩家】状态。退出【无敌玩家】状态时【隐藏分】会被清空。\n持有【好活当赏】时，施放普攻、战技对受到攻击的敌方目标造成50%的虚数属性欢愉伤害，强化普攻的技能伤害改为相同倍率的欢愉伤害。",
+      "desc_lv1": "【隐藏分】达到60点后可激活终结技，达到上限后还可溢出240点。\n获得笑点时，「银狼LV.999」获得等量【隐藏分】。每点【隐藏分】使暴击率提高0.2%。暴击率达到100%后，其余每点【隐藏分】改为使暴击伤害提高0.4%。\n【无敌玩家】状态下，「银狼LV.999」免疫控制类负面状态，无法施放终结技，拥有强化普攻和强化欢愉技，完整施放3次强化普攻后退出【无敌玩家】状态。退出【无敌玩家】状态时【隐藏分】会被清空。\n持有【好活当赏】时，施放普攻、战技对受到攻击的敌方目标造成20%的虚数属性欢愉伤害，强化普攻的技能伤害改为相同倍率的欢愉伤害。",
+      "desc_en": "After \"Hidden MMR\" reaches <unbreak>#1[i]</unbreak>, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional <unbreak>#2[i]</unbreak> point(s).\\nWhen gaining <u>Punchline</u>, Silver Wolf LV.<unbreak>999</unbreak> gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by <color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>. Once CRIT Rate reaches <unbreak>100%</unbreak>, each additional point of \"Hidden MMR\" instead increases CRIT DMG by <color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.<unbreak>999</unbreak> becomes immune to <u>Crowd Control debuffs</u>, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK <unbreak>#5[i]</unbreak> time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"<u>Certified Banger</u>,\" using Basic ATK or Skill deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Imaginary <u>Elation DMG</u> to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to <u>Elation DMG</u> at the same multiplier.",
+      "extra": {
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+          "param": []
+        },
+        "10000011": {
+          "name": "控制类负面状态",
+          "desc": "冻结，纠缠，禁锢，支配，怒噪，强烈震荡，异梦，缠禁，恐惧，行动锁定，幸福傀儡，怨火灼身，麻痹。",
+          "param": []
+        },
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        },
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150607,
+      "name": "朋友，这才是T0级秘技",
+      "name_en": "This? Absolute Meta!",
+      "type_name": "秘技",
+      "type": "Maze",
+      "tag": "Summon",
+      "tag_zh": "召唤",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point05",
+        "point_type": 2,
+        "max_level": 1
+      },
+      "max_level": 1,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            99
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "99",
+          "by_level": [
+            "99"
+          ]
+        }
+      ],
+      "simple_desc": "召唤【怪怪怪味豆】，再次使用则解除召唤。使用时不消耗秘技点。\n【怪怪怪味豆】会自动搜寻并攻击普通敌人，消耗1个秘技点立即将其消灭，不会进入战斗。\n进入战斗后，每个波次开始时触发【怪怪怪味豆】对应的【头号补给盲盒】。",
+      "desc_max": "召唤【怪怪怪味豆】，再次使用则解除召唤。使用秘技不消耗秘技点，秘技点为0时解除召唤且无法使用秘技。\n【怪怪怪味豆】会使一定范围内的普通敌人陷入恐惧状态，同时自动搜寻并攻击普通敌人，消耗1个秘技点立即将其消灭，不会进入战斗。\n【怪怪怪味豆】在场时，进入战斗后每个波次开始时触发1次【怪怪怪味豆】对应的【头号补给盲盒】，本次造成的欢愉伤害固定计入99点【好活当赏】。",
+      "desc_lv1": "召唤【怪怪怪味豆】，再次使用则解除召唤。使用秘技不消耗秘技点，秘技点为0时解除召唤且无法使用秘技。\n【怪怪怪味豆】会使一定范围内的普通敌人陷入恐惧状态，同时自动搜寻并攻击普通敌人，消耗1个秘技点立即将其消灭，不会进入战斗。\n【怪怪怪味豆】在场时，进入战斗后每个波次开始时触发1次【怪怪怪味豆】对应的【头号补给盲盒】，本次造成的欢愉伤害固定计入99点【好活当赏】。",
+      "desc_en": "Summons \"Funky Munch Bean.\" Use again to dismiss. Using Technique does not consume Technique Points. When Technique Points reach 0, the summon is dismissed and Technique cannot be used.\\n\"Funky Munch Bean\" causes Normal Enemies within a certain range to enter a Terrified state. It will also automatically search for and attack Normal Enemies, consuming 1 Technique Point to instantly defeat them without entering combat.\\nWhile \"Funky Munch Bean\" is present, after entering combat, 1 instance of \"<u>Top Loot Box</u>\" from \"Funky Munch Bean\" is triggered at the start of each wave. A fixed amount of <unbreak>#1[i]</unbreak> \"<u>Certified Banger</u>\" is taken into account for the <u>Elation DMG</u> dealt in this instance.",
+      "extra": {
+        "10015061": {
+          "name": "头号补给盲盒",
+          "desc": "「银狼LV.<unbreak>999</unbreak>」持有【好活当赏】时，我方目标在「银狼LV.<unbreak>999</unbreak>」结界中可触发的特殊攻击。也可在【奖励关：「狼尊时刻」】中主动触发，此方式触发不视为造成了1次攻击。\\n施放时造成大量虚数属性欢愉伤害，由敌方全体均分，并随机触发以下3种效果中的一种：\\n【超超超大剑】：对生命值最高的目标基于本次总伤害值造成真实伤害；\\n【爆爆爆炸蛋】：恢复战技点（战技点较少时，触发概率提高。战技点较多时，触发概率降低）；\\n【怪怪怪味豆】：获得笑点（【隐藏分】较少时，触发概率提高，【隐藏分】较多时，触发概率降低）。",
+          "param": []
+        },
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        },
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150620,
+      "name": "殿堂级操作回放",
+      "name_en": "Pro-Gamer Move",
+      "type_name": "欢愉技",
+      "type": "ElationDamage",
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": 999,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point22",
+        "point_type": 4,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            15
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            15
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "15",
+          "by_level": [
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15"
+          ]
+        }
+      ],
+      "simple_desc": "获得【隐藏分】。",
+      "desc_max": "获得15点【隐藏分】。",
+      "desc_lv1": "获得15点【隐藏分】。",
+      "desc_en": "Gains <unbreak>#1[i]</unbreak> \"Hidden MMR\" point(s).",
+      "extra": {}
+    },
+    {
+      "id": 150621,
+      "name": "崩坏级伤害演示",
+      "name_en": "Honkai-DMG Demo",
+      "type_name": "欢愉技",
+      "type": "ElationDamage",
+      "tag": "Bounce",
+      "tag_zh": "弹射",
+      "stance_break": [
+        30,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": 999,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point22",
+        "point_type": 4,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.45,
+            6
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.495,
+            6
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.54,
+            6
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.585,
+            6
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.63,
+            6
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.675,
+            6
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.73125,
+            6
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.7875,
+            6
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.84375,
+            6
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.9,
+            6
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.945,
+            6
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            0.99,
+            6
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            1.035,
+            6
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            1.08,
+            6
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            1.125,
+            6
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "112.5%",
+          "by_level": [
+            "45%",
+            "49.5%",
+            "54%",
+            "58.5%",
+            "63%",
+            "67.5%",
+            "73.12%",
+            "78.75%",
+            "84.38%",
+            "90%",
+            "94.5%",
+            "99%",
+            "103.5%",
+            "108%",
+            "112.5%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "6",
+          "by_level": [
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+          ]
+        }
+      ],
+      "simple_desc": "对敌方单体造成大量虚数属性欢愉伤害，共弹射6次。重置【头号补给盲盒】的触发概率。",
+      "desc_max": "造成6次伤害，每次对敌方随机单体造成112.5%的虚数属性欢愉伤害。将触发【头号补给盲盒】的固定概率重置为初始值。",
+      "desc_lv1": "造成6次伤害，每次对敌方随机单体造成45%的虚数属性欢愉伤害。将触发【头号补给盲盒】的固定概率重置为初始值。",
+      "desc_en": "Deals <unbreak>#2[i]</unbreak> instances of DMG, with each instance dealing <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Imaginary <u>Elation DMG</u> to one random enemy. Then, resets the <u>fixed chance</u> to trigger \"<u>Top Loot Box</u>\" to its initial value.",
+      "extra": {
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        },
+        "10015061": {
+          "name": "头号补给盲盒",
+          "desc": "「银狼LV.<unbreak>999</unbreak>」持有【好活当赏】时，我方目标在「银狼LV.<unbreak>999</unbreak>」结界中可触发的特殊攻击。也可在【奖励关：「狼尊时刻」】中主动触发，此方式触发不视为造成了1次攻击。\\n施放时造成大量虚数属性欢愉伤害，由敌方全体均分，并随机触发以下3种效果中的一种：\\n【超超超大剑】：对生命值最高的目标基于本次总伤害值造成真实伤害；\\n【爆爆爆炸蛋】：恢复战技点（战技点较少时，触发概率提高。战技点较多时，触发概率降低）；\\n【怪怪怪味豆】：获得笑点（【隐藏分】较少时，触发概率提高，【隐藏分】较多时，触发概率降低）。",
+          "param": []
+        },
+        "30000002": {
+          "name": "固定概率",
+          "desc": "不会被任何因素影响的固定概率。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150629,
+      "name": "欢愉万相★全息幻象",
+      "name_en": "Faces of Elation ★ Holographic Mirage",
+      "type_name": "固有行迹",
+      "type": null,
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": false,
+      "tree": null,
+      "max_level": 2,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            360,
+            0.2,
+            0.4
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            999,
+            0.4,
+            0.4
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "999",
+          "by_level": [
+            "360",
+            "999"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "40%",
+          "by_level": [
+            "20%",
+            "40%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": true,
+          "value": "40%",
+          "by_level": [
+            "40%",
+            "40%"
+          ]
+        }
+      ],
+      "simple_desc": "当「欢愉」命途升格时，【隐藏分】达到上限后可额外溢出，暴击伤害提高，获得【绝活共赏】时为「银狼LV.999」提供【隐藏分】。",
+      "desc_max": "当「欢愉」命途升格时，【隐藏分】达到上限后可溢出至999，暴击伤害提高40%，获得【绝活共赏】时为「银狼LV.999」提供40%的【隐藏分】。",
+      "desc_lv1": "当「欢愉」命途升格时，【隐藏分】达到上限后可溢出至360，暴击伤害提高40%，获得【绝活共赏】时为「银狼LV.999」提供20%的【隐藏分】。",
+      "desc_en": "When <color=#cb2f2f>the <u>Path of Elation ascends</u></color>, \"Hidden MMR\" can output up to <color=#f29e38ff><unbreak>#1[i]</unbreak></color> overflow when it reaches its max limit. Increases CRIT DMG by <unbreak>#3[i]%</unbreak>, and when gaining \"<u>Party Trick</u>\" provides Silver Wolf LV.<unbreak>999</unbreak> with <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of \"Hidden MMR.\"",
+      "extra": {
+        "10015111": {
+          "name": "「欢愉」命途升格",
+          "desc": "星神★阿哈持有【欢愉万相】状态时，【笑点】与【好活当赏】强化为【爽点】和【绝活共赏】，我方「欢愉」命途角色将激活【固有行迹】效果。",
+          "param": []
+        },
+        "10015113": {
+          "name": "绝活共赏",
+          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方欢愉命途角色的【固有行迹】效果。",
+          "param": []
+        },
+        "10015112": {
+          "name": "爽点",
+          "desc": "获得爽点时视为获得笑点，爽点会在【阿哈时刻】回合结束时，重新获得计入值的一部分。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150606,
+      "name": "攻击",
+      "name_en": "Attack",
+      "type_name": "",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "tag_zh": "秘技攻击",
+      "stance_break": [
+        30,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": false,
+      "tree": null,
+      "max_level": 1,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": []
+        }
+      ],
+      "param_table": [],
+      "simple_desc": null,
+      "desc_max": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+      "desc_lv1": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+      "desc_en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "extra": {}
+    }
+  ],
+  "traces": {
+    "abilities": [
+      {
+        "anchor": "Point06",
+        "point_type": 3,
+        "name": "假结局速通攻略",
+        "desc": "速度大于等于160时，使自身欢愉度提高50%，之后每超过1点速度使自身欢愉度提高2%，最多计入100点超出的速度。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point07",
+        "point_type": 3,
+        "name": "真结局解锁条件",
+        "desc": "若施放欢愉技计入的笑点大于等于20个，额外获得20点【隐藏分】（若大于等于40个，再额外获得20点）。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point08",
+        "point_type": 3,
+        "name": "隐藏关卡全成就",
+        "desc": "进入【无敌玩家】状态后，获得20点【隐藏分】。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "elation_skill": [
+      {
+        "anchor": "Point22",
+        "point_type": 4,
+        "name": "欢愉技",
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "stat_nodes": [
+      {
+        "anchor": "Point09",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.027,
+            "text": "+2.7%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ]
+      },
+      {
+        "anchor": "Point10",
+        "point_type": 1,
+        "name": "速度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "SpeedDelta",
+            "name": "速度",
+            "value": 2,
+            "text": "+2"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ]
+      },
+      {
+        "anchor": "Point11",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.027,
+            "text": "+2.7%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point12",
+        "point_type": 1,
+        "name": "欢愉度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "ElationDamageAddedRatioBase",
+            "name": "欢愉度",
+            "value": 0.04,
+            "text": "+4%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point13",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.04,
+            "text": "+4%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 18000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point14",
+        "point_type": 1,
+        "name": "速度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "SpeedDelta",
+            "name": "速度",
+            "value": 3,
+            "text": "+3"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point15",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.04,
+            "text": "+4%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point16",
+        "point_type": 1,
+        "name": "欢愉度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "ElationDamageAddedRatioBase",
+            "name": "欢愉度",
+            "value": 0.06,
+            "text": "+6%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point17",
+        "point_type": 1,
+        "name": "速度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "SpeedDelta",
+            "name": "速度",
+            "value": 4,
+            "text": "+4"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point18",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.053,
+            "text": "+5.3%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "skill_level_nodes": [
+      {
+        "anchor": "Point01",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 6,
+        "level_up_skill_id": [
+          150601,
+          150608,
+          150610,
+          150612,
+          150618
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point02",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150602
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point03",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150603
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point04",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150604
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point05",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [
+          150607
+        ],
+        "status_add": [],
+        "materials": []
+      }
+    ],
+    "other": []
+  },
+  "eidolons": [
+    {
+      "rank": 1,
+      "id": 150601,
+      "name": "以太编辑：星魂+1",
+      "desc": "结界中的敌方目标受到的伤害提高20%。\n退出【无敌玩家】状态时不会清空【隐藏分】，改为保留20%的【隐藏分】。",
+      "params": [
+        0.2,
+        0.2
+      ],
+      "icon": "SkillIcon_1506_Rank1.png"
+    },
+    {
+      "rank": 2,
+      "id": 150602,
+      "name": "是机制，不是BUG",
+      "desc": "进入【无敌玩家】状态后，使自身所有增益效果延长1回合。本次【无敌玩家】状态下每使【隐藏分】提高120点（含初始【隐藏分】），「银狼LV.999」获得1个额外回合并恢复1次强化普攻的可施放次数。",
+      "params": [
+        120
+      ],
+      "icon": "SkillIcon_1506_Rank2.png"
+    },
+    {
+      "rank": 3,
+      "id": 150603,
+      "name": "只有15级？谁填的",
+      "desc": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+      "params": [],
+      "icon": "SkillIcon_1506_BP.png"
+    },
+    {
+      "rank": 4,
+      "id": 150604,
+      "name": "我来，我见，我..秒了",
+      "desc": "【崩坏级伤害演示】造成的欢愉伤害额外计入5倍的笑点。",
+      "params": [
+        5
+      ],
+      "icon": "SkillIcon_1506_Rank4.png"
+    },
+    {
+      "rank": 5,
+      "id": 150605,
+      "name": "平A即是大招",
+      "desc": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+      "params": [],
+      "icon": "SkillIcon_1506_Ultra.png"
+    },
+    {
+      "rank": 6,
+      "id": 150606,
+      "name": "我独自满级！",
+      "desc": "强化普攻期间造成的欢愉伤害增笑50%。\n敌方目标进入战斗时，会被植入【禁限弱点】：拥有全属性弱点并且全属性基础抗性降低至0（若基础抗性为0则改为对应属性抗性降低20%）。",
+      "params": [
+        0.2,
+        0.5
+      ],
+      "icon": "SkillIcon_1506_Rank6.png"
+    }
+  ],
+  "unique": [
+    {
+      "key": "150604",
+      "tag": "辅助",
+      "name": "999安全卫士",
+      "desc": "获取「银狼LV.999」后或当前队伍存在「银狼LV.999」时获得效果：战斗中，若敌方目标对我方施加了控制类负面状态，则使我方全体获得【防火墙】，持续1回合。【防火墙】状态下，我方目标免疫敌方目标施加的控制类负面状态。该效果每个波次最多触发1次。",
+      "param": [],
+      "exclusive": true,
+      "glossary": {
+        "10000011": {
+          "name": "控制类负面状态",
+          "desc": "冻结，纠缠，禁锢，支配，怒噪，强烈震荡，异梦，缠禁，恐惧，行动锁定，幸福傀儡，怨火灼身，麻痹。"
+        }
+      }
+    }
+  ],
+  "enhanced": {},
+  "memosprite": {},
+  "chara_info": {
+    "camp": null,
+    "va": {
+      "chinese": null,
+      "japanese": null,
+      "korean": null,
+      "english": null
+    },
+    "stories": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null
+    },
+    "voicelines": []
+  },
+  "skin": {},
+  "build": {
+    "relic_set_ids": [
+      129,
+      126,
+      112
+    ],
+    "planar_set_ids": [
+      325,
+      313,
+      324
+    ],
+    "main_stats": [
+      {
+        "slot": "躯干",
+        "prop": "暴击率",
+        "prop_code": "CriticalChanceBase"
+      },
+      {
+        "slot": "脚部",
+        "prop": "速度",
+        "prop_code": "SpeedDelta"
+      },
+      {
+        "slot": "位面球",
+        "prop": "生命值百分比",
+        "prop_code": "HPAddedRatio"
+      },
+      {
+        "slot": "连结绳",
+        "prop": "防御力百分比",
+        "prop_code": "DefenceAddedRatio"
+      }
+    ],
+    "sub_stats": [
+      "速度",
+      "暴击率",
+      "暴击伤害"
+    ],
+    "score_rank_list": [
+      240,
+      184
+    ],
+    "relic_sets": [
+      {
+        "id": 129,
+        "name": "闪耀功勋的魔法少女",
+        "name_en": "Ever-Glorious Magical Girl",
+        "pieces": 4,
+        "effects": {
+          "2": "暴击伤害提高16%。",
+          "4": "装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。"
+        }
+      },
+      {
+        "id": 126,
+        "name": "恶海逐波的船长",
+        "name_en": "Wavestrider Captain",
+        "pieces": 4,
+        "effects": {
+          "2": "暴击伤害提高16%。",
+          "4": "装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。"
+        }
+      },
+      {
+        "id": 112,
+        "name": "盗匪荒漠的废土客",
+        "name_en": "Wastelander of Banditry Desert",
+        "pieces": 4,
+        "effects": {
+          "2": "虚数属性伤害提高10%。",
+          "4": "装备者对陷入负面效果的敌方目标造成伤害时暴击率提高10%，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高20%。"
+        }
+      }
+    ],
+    "planar_sets": [
+      {
+        "id": 325,
+        "name": "零号关卡朋克洛德",
+        "name_en": "Punklorde Stage Zero",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的欢愉度提高8%。战斗中欢愉度首次达到40%/80%时，使装备者暴击伤害提高20%/32%。"
+        }
+      },
+      {
+        "id": 313,
+        "name": "无主荒星茨冈尼亚",
+        "name_en": "Sigonia, the Unclaimed Desolation",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的暴击率提高4%。当敌方目标被消灭时，装备者暴击伤害提高4%，最多叠加10层。"
+        }
+      },
+      {
+        "id": 324,
+        "name": "天国@直播间",
+        "name_en": "Tengoku@Livestream",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的暴击伤害提高16%，若在同一回合内消耗大于等于3点战技点，额外使装备者暴击伤害提高32%，持续3回合。"
+        }
+      }
+    ],
+    "lightcones": [
+      {
+        "id": 23057,
+        "name": "欢迎来到银河城",
+        "name_en": "Welcome to the Cosmic City",
+        "rarity": 5,
+        "path": "欢愉",
+        "atk": 476
+      },
+      {
+        "id": 21065,
+        "name": "今日好手气",
+        "name_en": "Today's Good Luck",
+        "rarity": 4,
+        "path": "欢愉",
+        "atk": 529
+      },
+      {
+        "id": 22009,
+        "name": "在世界尽头相会吧！",
+        "name_en": "See You at the World's End!",
+        "rarity": 4,
+        "path": "欢愉",
+        "atk": 476
+      }
+    ],
+    "teams": [
+      {
+        "team_id": 1,
+        "members": [
+          "火花",
+          "爻光",
+          "真珠"
+        ],
+        "member_ids": [
+          1501,
+          1502,
+          1503
+        ],
+        "position": 1,
+        "backup": [
+          "爻光"
+        ]
+      }
+    ]
+  },
+  "ascension_materials": []
+}

@@ -1,0 +1,1063 @@
+{
+  "id": 8032010,
+  "name": "基层员工•外勤",
+  "desc": "「星际和平公司」的基层员工，主要负责处理上不得台面的「业务疏漏」。工资不高，只能在公司旗下的企业舰上合租房间。",
+  "monster_camp_id": 9,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 148.8,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8032010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 118,
+  "stance_base": 60,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 8032010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 3.75,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 42,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 90,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.4375,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201005,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.25,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 25,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201008,
+      "attack_modify_ratio": 0.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5625,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201009,
+      "attack_modify_ratio": 0.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5625,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201010,
+      "attack_modify_ratio": 1.25,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 60,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201011,
+      "attack_modify_ratio": 0.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5625,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.0625,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5625,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803201014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803201001,
+          "skill_name": "打卡",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803201002,
+          "skill_name": "提升业绩",
+          "skill_desc": "每次施放攻击后获得1个【绩效点】。【绩效点】可在自身弱点被击破或受到致命攻击时被攻击者夺取。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803201003,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8032010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    }
+  ]
+}

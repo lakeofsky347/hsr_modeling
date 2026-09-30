@@ -1,0 +1,300 @@
+{
+  "id": 8002052,
+  "name": "扑老二",
+  "desc": "迷失在群星中的跨维度生物，性温，味甘，不可食用。一生中大部分时间花在进食和逃跑上。偶遇它的旅行者视之为吉兆。",
+  "monster_camp_id": 4,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 315,
+  "hp_base": 334.8,
+  "initial_delay_ratio": 0.75,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8002050.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 83,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 8002052,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800205201,
+          "skill_name": "害…害怕",
+          "skill_desc": "扑满被惊动了，即将在2个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800205202,
+          "skill_name": "跑…跑啊",
+          "skill_desc": "扑满陷入恐慌，即将在1个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800205203,
+          "skill_name": "呼…逃走了",
+          "skill_desc": "扑满拔腿就跑，瞬间失去了踪影。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800205201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800205201,
+          "skill_name": "害…害怕",
+          "skill_desc": "扑满被惊动了，即将在2个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800205202,
+          "skill_name": "跑…跑啊",
+          "skill_desc": "扑满陷入恐慌，即将在1个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800205203,
+          "skill_name": "呼…逃走了",
+          "skill_desc": "扑满拔腿就跑，瞬间失去了踪影。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800205202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.8,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800205201,
+          "skill_name": "害…害怕",
+          "skill_desc": "扑满被惊动了，即将在2个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800205202,
+          "skill_name": "跑…跑啊",
+          "skill_desc": "扑满陷入恐慌，即将在1个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800205203,
+          "skill_name": "呼…逃走了",
+          "skill_desc": "扑满拔腿就跑，瞬间失去了踪影。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800205203,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.8,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800205201,
+          "skill_name": "害…害怕",
+          "skill_desc": "扑满被惊动了，即将在2个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800205202,
+          "skill_name": "跑…跑啊",
+          "skill_desc": "扑满陷入恐慌，即将在1个回合后逃离。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800205203,
+          "skill_name": "呼…逃走了",
+          "skill_desc": "扑满拔腿就跑，瞬间失去了踪影。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8002052,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002052,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002052,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002052,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002052,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002052,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8002052,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

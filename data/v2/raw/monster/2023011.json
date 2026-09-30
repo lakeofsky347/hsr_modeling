@@ -1,0 +1,427 @@
+{
+  "id": 2023011,
+  "name": "「药王秘传」炼形者（错误）",
+  "desc": "代码受到影响后的错误投影。参照本体为渴求复兴古老的丰饶之秘，并引领仙舟人再度踏上解脱登仙大道的修炼者。\\n如今，他们的愿望得遂。受赐于古老神迹的力量，以其为甲胄、为武器，并触及了长生不死的秘密。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1581,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2023010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 2023011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202301101,
+          "skill_name": "震击",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202301102,
+          "skill_name": "霆罚",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202301103,
+          "skill_name": "劫雷",
+          "skill_desc": "对指定我方单体造成大量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202301104,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301105,
+          "skill_name": "交感",
+          "skill_desc": "消耗自身生命值，召唤魔阴身士卒与「药王秘传」内丹士。同时锁定我方当前生命值百分比最低的目标，使敌方全体集中攻击该目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301106,
+          "skill_name": "采气",
+          "skill_desc": "当场上其它敌方目标带有【重生】时，其自身具有【击中回复】。当击中我方目标后，回复其自身生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202301101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202301101,
+          "skill_name": "震击",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202301102,
+          "skill_name": "霆罚",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202301103,
+          "skill_name": "劫雷",
+          "skill_desc": "对指定我方单体造成大量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202301104,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301105,
+          "skill_name": "交感",
+          "skill_desc": "消耗自身生命值，召唤魔阴身士卒与「药王秘传」内丹士。同时锁定我方当前生命值百分比最低的目标，使敌方全体集中攻击该目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301106,
+          "skill_name": "采气",
+          "skill_desc": "当场上其它敌方目标带有【重生】时，其自身具有【击中回复】。当击中我方目标后，回复其自身生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202301102,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.794118,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202301101,
+          "skill_name": "震击",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202301102,
+          "skill_name": "霆罚",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202301103,
+          "skill_name": "劫雷",
+          "skill_desc": "对指定我方单体造成大量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202301104,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301105,
+          "skill_name": "交感",
+          "skill_desc": "消耗自身生命值，召唤魔阴身士卒与「药王秘传」内丹士。同时锁定我方当前生命值百分比最低的目标，使敌方全体集中攻击该目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202301106,
+          "skill_name": "采气",
+          "skill_desc": "当场上其它敌方目标带有【重生】时，其自身具有【击中回复】。当击中我方目标后，回复其自身生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2023011,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023011,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023011,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023011,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023011,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023011,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023011,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    }
+  ]
+}

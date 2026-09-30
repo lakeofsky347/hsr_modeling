@@ -1,0 +1,1267 @@
+{
+  "id": 3024013,
+  "name": "芒寒色正的银骑士",
+  "desc": "「纯美骑士团」的古典骑士，虔诚地仰慕着已失踪的「纯美」星神伊德莉拉。\\n为人正直、光明磊落，于宇宙中漫游，宣扬伊德莉拉美名。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 5812.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3024010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 105,
+  "stance_base": 810,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3024013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401301,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401302,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401303,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401304,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401305,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401306,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401307,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401308,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401310,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401311,
+          "skill_name": "枪之召唤",
+          "skill_desc": "召唤4个【枪尖】的雕塑。如果场上已经存在4个【枪尖】的雕塑，则会施放【枪之横扫】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401312,
+          "skill_name": "盾之召唤",
+          "skill_desc": "召唤4个【盾】的雕塑。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401313,
+          "skill_name": "授勋云集",
+          "skill_desc": "召唤4个【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401314,
+          "skill_name": "枪之横扫",
+          "skill_desc": "释放【枪尖】的雕塑中的力量，对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 40,
+          "extra": {}
+        },
+        {
+          "id": 302401315,
+          "skill_name": "盾之奉还",
+          "skill_desc": "释放【盾】的雕塑中的力量，命令【盾】的雕塑嘲讽对位我方角色，并根据目标调整自身弱点属性。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401316,
+          "skill_name": "授勋之力",
+          "skill_desc": "进入不可选中状态，下次行动时释放【不可抵挡的命运】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401317,
+          "skill_name": "灵魂回收",
+          "skill_desc": "收回所有雕塑中的【灵魂释放】，并基于【灵魂释放】的数量强化自身，持续1回合。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401318,
+          "skill_name": "灵魂释放",
+          "skill_desc": "芒寒色正的银骑士会为召唤的雕塑施加【灵魂释放】，被施加的单位被消灭时，会为我方全体附加【灵魂强化】，提高造成的伤害；如果被芒寒色正的银骑士回收，则会提高芒寒色正的银骑士本回合造成的伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401319,
+          "skill_name": "不可抵挡的命运",
+          "skill_desc": "对我方全体造成物理属性伤害。每有一层【桂冠】，额外追加一次物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401320,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401321,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401322,
+          "skill_name": "破竹之势",
+          "skill_desc": "芒寒色正的银骑士受到的伤害大幅降低，但在被弱点击破后，行动额外延后，受到的伤害额外提高，同时使我方全体恢复战技点并激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401323,
+          "skill_name": "攻守易型",
+          "skill_desc": "芒寒色正的银骑士会在战斗中切换自身<u>战斗姿态</u>，召唤不同雕塑进行战斗；我方消灭【灵魂释放】状态的雕塑时，会使本次战斗中我方全体造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "70000303": {
+              "name": "战斗姿态",
+              "desc": "芒寒色正的银骑士会随着战斗改变自身的状态：\\n【骑士之怒】：召唤【枪尖】的雕塑，自身受到的所有伤害降低，有4个雕塑在场时自身进入韧性保护状态。\\n【黄金奉还】：召唤【盾】的雕塑，自身造成的所有伤害提高。\\n【瑰丽之勋】：召唤【授勋】的雕塑，有雕塑存在时，自身不可被选中。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 302401324,
+          "skill_name": "绝境逆转",
+          "skill_desc": "芒寒色正的银骑士二阶段释放【灵魂释放】时，会选择所有雕塑作为目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401325,
+          "skill_name": "众星拱卫",
+          "skill_desc": "除芒寒色正的银骑士外，每多存在1个敌方单位，敌方全体受到的伤害降低，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401326,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401301,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -390,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401301,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401302,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401303,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401304,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401305,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401306,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401307,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401308,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401310,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401311,
+          "skill_name": "枪之召唤",
+          "skill_desc": "召唤4个【枪尖】的雕塑。如果场上已经存在4个【枪尖】的雕塑，则会施放【枪之横扫】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401312,
+          "skill_name": "盾之召唤",
+          "skill_desc": "召唤4个【盾】的雕塑。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401313,
+          "skill_name": "授勋云集",
+          "skill_desc": "召唤4个【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401314,
+          "skill_name": "枪之横扫",
+          "skill_desc": "释放【枪尖】的雕塑中的力量，对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 40,
+          "extra": {}
+        },
+        {
+          "id": 302401315,
+          "skill_name": "盾之奉还",
+          "skill_desc": "释放【盾】的雕塑中的力量，命令【盾】的雕塑嘲讽对位我方角色，并根据目标调整自身弱点属性。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401316,
+          "skill_name": "授勋之力",
+          "skill_desc": "进入不可选中状态，下次行动时释放【不可抵挡的命运】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401317,
+          "skill_name": "灵魂回收",
+          "skill_desc": "收回所有雕塑中的【灵魂释放】，并基于【灵魂释放】的数量强化自身，持续1回合。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401318,
+          "skill_name": "灵魂释放",
+          "skill_desc": "芒寒色正的银骑士会为召唤的雕塑施加【灵魂释放】，被施加的单位被消灭时，会为我方全体附加【灵魂强化】，提高造成的伤害；如果被芒寒色正的银骑士回收，则会提高芒寒色正的银骑士本回合造成的伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401319,
+          "skill_name": "不可抵挡的命运",
+          "skill_desc": "对我方全体造成物理属性伤害。每有一层【桂冠】，额外追加一次物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401320,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401321,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401322,
+          "skill_name": "破竹之势",
+          "skill_desc": "芒寒色正的银骑士受到的伤害大幅降低，但在被弱点击破后，行动额外延后，受到的伤害额外提高，同时使我方全体恢复战技点并激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401323,
+          "skill_name": "攻守易型",
+          "skill_desc": "芒寒色正的银骑士会在战斗中切换自身<u>战斗姿态</u>，召唤不同雕塑进行战斗；我方消灭【灵魂释放】状态的雕塑时，会使本次战斗中我方全体造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "70000303": {
+              "name": "战斗姿态",
+              "desc": "芒寒色正的银骑士会随着战斗改变自身的状态：\\n【骑士之怒】：召唤【枪尖】的雕塑，自身受到的所有伤害降低，有4个雕塑在场时自身进入韧性保护状态。\\n【黄金奉还】：召唤【盾】的雕塑，自身造成的所有伤害提高。\\n【瑰丽之勋】：召唤【授勋】的雕塑，有雕塑存在时，自身不可被选中。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 302401324,
+          "skill_name": "绝境逆转",
+          "skill_desc": "芒寒色正的银骑士二阶段释放【灵魂释放】时，会选择所有雕塑作为目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401325,
+          "skill_name": "众星拱卫",
+          "skill_desc": "除芒寒色正的银骑士外，每多存在1个敌方单位，敌方全体受到的伤害降低，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401326,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401302,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -270,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401301,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401302,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401303,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401304,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401305,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401306,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401307,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401308,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401310,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401311,
+          "skill_name": "枪之召唤",
+          "skill_desc": "召唤4个【枪尖】的雕塑。如果场上已经存在4个【枪尖】的雕塑，则会施放【枪之横扫】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401312,
+          "skill_name": "盾之召唤",
+          "skill_desc": "召唤4个【盾】的雕塑。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401313,
+          "skill_name": "授勋云集",
+          "skill_desc": "召唤4个【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401314,
+          "skill_name": "枪之横扫",
+          "skill_desc": "释放【枪尖】的雕塑中的力量，对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 40,
+          "extra": {}
+        },
+        {
+          "id": 302401315,
+          "skill_name": "盾之奉还",
+          "skill_desc": "释放【盾】的雕塑中的力量，命令【盾】的雕塑嘲讽对位我方角色，并根据目标调整自身弱点属性。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401316,
+          "skill_name": "授勋之力",
+          "skill_desc": "进入不可选中状态，下次行动时释放【不可抵挡的命运】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401317,
+          "skill_name": "灵魂回收",
+          "skill_desc": "收回所有雕塑中的【灵魂释放】，并基于【灵魂释放】的数量强化自身，持续1回合。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401318,
+          "skill_name": "灵魂释放",
+          "skill_desc": "芒寒色正的银骑士会为召唤的雕塑施加【灵魂释放】，被施加的单位被消灭时，会为我方全体附加【灵魂强化】，提高造成的伤害；如果被芒寒色正的银骑士回收，则会提高芒寒色正的银骑士本回合造成的伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401319,
+          "skill_name": "不可抵挡的命运",
+          "skill_desc": "对我方全体造成物理属性伤害。每有一层【桂冠】，额外追加一次物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401320,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401321,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401322,
+          "skill_name": "破竹之势",
+          "skill_desc": "芒寒色正的银骑士受到的伤害大幅降低，但在被弱点击破后，行动额外延后，受到的伤害额外提高，同时使我方全体恢复战技点并激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401323,
+          "skill_name": "攻守易型",
+          "skill_desc": "芒寒色正的银骑士会在战斗中切换自身<u>战斗姿态</u>，召唤不同雕塑进行战斗；我方消灭【灵魂释放】状态的雕塑时，会使本次战斗中我方全体造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "70000303": {
+              "name": "战斗姿态",
+              "desc": "芒寒色正的银骑士会随着战斗改变自身的状态：\\n【骑士之怒】：召唤【枪尖】的雕塑，自身受到的所有伤害降低，有4个雕塑在场时自身进入韧性保护状态。\\n【黄金奉还】：召唤【盾】的雕塑，自身造成的所有伤害提高。\\n【瑰丽之勋】：召唤【授勋】的雕塑，有雕塑存在时，自身不可被选中。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 302401324,
+          "skill_name": "绝境逆转",
+          "skill_desc": "芒寒色正的银骑士二阶段释放【灵魂释放】时，会选择所有雕塑作为目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401325,
+          "skill_name": "众星拱卫",
+          "skill_desc": "除芒寒色正的银骑士外，每多存在1个敌方单位，敌方全体受到的伤害降低，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401326,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401303,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -150,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401301,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401302,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401303,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401304,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401305,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401306,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401307,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401308,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401310,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401311,
+          "skill_name": "枪之召唤",
+          "skill_desc": "召唤4个【枪尖】的雕塑。如果场上已经存在4个【枪尖】的雕塑，则会施放【枪之横扫】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401312,
+          "skill_name": "盾之召唤",
+          "skill_desc": "召唤4个【盾】的雕塑。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401313,
+          "skill_name": "授勋云集",
+          "skill_desc": "召唤4个【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401314,
+          "skill_name": "枪之横扫",
+          "skill_desc": "释放【枪尖】的雕塑中的力量，对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 40,
+          "extra": {}
+        },
+        {
+          "id": 302401315,
+          "skill_name": "盾之奉还",
+          "skill_desc": "释放【盾】的雕塑中的力量，命令【盾】的雕塑嘲讽对位我方角色，并根据目标调整自身弱点属性。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401316,
+          "skill_name": "授勋之力",
+          "skill_desc": "进入不可选中状态，下次行动时释放【不可抵挡的命运】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401317,
+          "skill_name": "灵魂回收",
+          "skill_desc": "收回所有雕塑中的【灵魂释放】，并基于【灵魂释放】的数量强化自身，持续1回合。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401318,
+          "skill_name": "灵魂释放",
+          "skill_desc": "芒寒色正的银骑士会为召唤的雕塑施加【灵魂释放】，被施加的单位被消灭时，会为我方全体附加【灵魂强化】，提高造成的伤害；如果被芒寒色正的银骑士回收，则会提高芒寒色正的银骑士本回合造成的伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401319,
+          "skill_name": "不可抵挡的命运",
+          "skill_desc": "对我方全体造成物理属性伤害。每有一层【桂冠】，额外追加一次物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401320,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401321,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401322,
+          "skill_name": "破竹之势",
+          "skill_desc": "芒寒色正的银骑士受到的伤害大幅降低，但在被弱点击破后，行动额外延后，受到的伤害额外提高，同时使我方全体恢复战技点并激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401323,
+          "skill_name": "攻守易型",
+          "skill_desc": "芒寒色正的银骑士会在战斗中切换自身<u>战斗姿态</u>，召唤不同雕塑进行战斗；我方消灭【灵魂释放】状态的雕塑时，会使本次战斗中我方全体造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "70000303": {
+              "name": "战斗姿态",
+              "desc": "芒寒色正的银骑士会随着战斗改变自身的状态：\\n【骑士之怒】：召唤【枪尖】的雕塑，自身受到的所有伤害降低，有4个雕塑在场时自身进入韧性保护状态。\\n【黄金奉还】：召唤【盾】的雕塑，自身造成的所有伤害提高。\\n【瑰丽之勋】：召唤【授勋】的雕塑，有雕塑存在时，自身不可被选中。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 302401324,
+          "skill_name": "绝境逆转",
+          "skill_desc": "芒寒色正的银骑士二阶段释放【灵魂释放】时，会选择所有雕塑作为目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401325,
+          "skill_name": "众星拱卫",
+          "skill_desc": "除芒寒色正的银骑士外，每多存在1个敌方单位，敌方全体受到的伤害降低，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401326,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401304,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 90,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401301,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401302,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401303,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401304,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401305,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401306,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401307,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401308,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401310,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401311,
+          "skill_name": "枪之召唤",
+          "skill_desc": "召唤4个【枪尖】的雕塑。如果场上已经存在4个【枪尖】的雕塑，则会施放【枪之横扫】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401312,
+          "skill_name": "盾之召唤",
+          "skill_desc": "召唤4个【盾】的雕塑。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401313,
+          "skill_name": "授勋云集",
+          "skill_desc": "召唤4个【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401314,
+          "skill_name": "枪之横扫",
+          "skill_desc": "释放【枪尖】的雕塑中的力量，对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 40,
+          "extra": {}
+        },
+        {
+          "id": 302401315,
+          "skill_name": "盾之奉还",
+          "skill_desc": "释放【盾】的雕塑中的力量，命令【盾】的雕塑嘲讽对位我方角色，并根据目标调整自身弱点属性。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401316,
+          "skill_name": "授勋之力",
+          "skill_desc": "进入不可选中状态，下次行动时释放【不可抵挡的命运】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401317,
+          "skill_name": "灵魂回收",
+          "skill_desc": "收回所有雕塑中的【灵魂释放】，并基于【灵魂释放】的数量强化自身，持续1回合。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401318,
+          "skill_name": "灵魂释放",
+          "skill_desc": "芒寒色正的银骑士会为召唤的雕塑施加【灵魂释放】，被施加的单位被消灭时，会为我方全体附加【灵魂强化】，提高造成的伤害；如果被芒寒色正的银骑士回收，则会提高芒寒色正的银骑士本回合造成的伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401319,
+          "skill_name": "不可抵挡的命运",
+          "skill_desc": "对我方全体造成物理属性伤害。每有一层【桂冠】，额外追加一次物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401320,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401321,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401322,
+          "skill_name": "破竹之势",
+          "skill_desc": "芒寒色正的银骑士受到的伤害大幅降低，但在被弱点击破后，行动额外延后，受到的伤害额外提高，同时使我方全体恢复战技点并激活终结技。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401323,
+          "skill_name": "攻守易型",
+          "skill_desc": "芒寒色正的银骑士会在战斗中切换自身<u>战斗姿态</u>，召唤不同雕塑进行战斗；我方消灭【灵魂释放】状态的雕塑时，会使本次战斗中我方全体造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "70000303": {
+              "name": "战斗姿态",
+              "desc": "芒寒色正的银骑士会随着战斗改变自身的状态：\\n【骑士之怒】：召唤【枪尖】的雕塑，自身受到的所有伤害降低，有4个雕塑在场时自身进入韧性保护状态。\\n【黄金奉还】：召唤【盾】的雕塑，自身造成的所有伤害提高。\\n【瑰丽之勋】：召唤【授勋】的雕塑，有雕塑存在时，自身不可被选中。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 302401324,
+          "skill_name": "绝境逆转",
+          "skill_desc": "芒寒色正的银骑士二阶段释放【灵魂释放】时，会选择所有雕塑作为目标。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401325,
+          "skill_name": "众星拱卫",
+          "skill_desc": "除芒寒色正的银骑士外，每多存在1个敌方单位，敌方全体受到的伤害降低，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401326,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3024013,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024013,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024013,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024013,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024013,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024013,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024013,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

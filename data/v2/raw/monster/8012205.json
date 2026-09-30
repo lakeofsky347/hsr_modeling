@@ -1,0 +1,223 @@
+{
+  "id": 8012205,
+  "name": "丰饶玄莲",
+  "desc": "无根自开、凭空生就的幻花。乘间抵隙的煽动者托体「建木」，炼成肉身，也触及了丰饶的权柄。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 465,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8012201.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 120,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8012205,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801220501,
+          "skill_name": "不生",
+          "skill_desc": "对指定我方单体能量减少。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801220502,
+          "skill_name": "不灭",
+          "skill_desc": "受到致命攻击后，全队恢复能量，同时对乘间抵隙的煽动者造成固定数值的伤害，并提升我方【丰饶增益】等级，【丰饶增益】使角色造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801220503,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801220504,
+          "skill_name": "万劫不复",
+          "skill_desc": "对被锁定的目标造成虚数属性伤害，锁定目标越多伤害越高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 30,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8012205,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012205,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012205,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012205,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012205,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012205,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012205,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    }
+  ]
+}

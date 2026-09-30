@@ -1,0 +1,2312 @@
+{
+  "id": 8013010,
+  "name": "虚卒•践踏者",
+  "desc": "「反物质军团」利用「战争熔炉」将战士与古兽的残片融合重铸后的产物。\\n 虽数量相对稀少，但兼具战士的智能与古兽的力量与机动性，其嘶鸣能够将大量虚卒召唤而来。",
+  "monster_camp_id": 6,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1023,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8013010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 100,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8013010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.818182,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 5.454545,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.295455,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301005,
+      "attack_modify_ratio": 0.454545,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.454545,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301009,
+      "attack_modify_ratio": 0.454545,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.727273,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301010,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.477273,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301011,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.045455,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301012,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.045455,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301013,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301014,
+      "attack_modify_ratio": 0.555556,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301015,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.681818,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -30,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301017,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 240,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301018,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.227273,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301019,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301021,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.545455,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -90,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301022,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 240,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301023,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.636364,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301024,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 140,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301025,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 7.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301026,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.068182,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Wind",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301027,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.272727,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301028,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.454545,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801301029,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 3.181818,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801301001,
+          "skill_name": "虚实的投影",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301002,
+          "skill_name": "侵略的铁蹄",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801301003,
+          "skill_name": "战争的践踏",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801301004,
+          "skill_name": "螺旋的弓矢",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【强弩的终结】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801301005,
+          "skill_name": "强弩的终结",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 25,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8013010,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 182001
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8013010,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 182001
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8013010,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 182001
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8013010,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 182001
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8013010,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 182001
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8013010,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 182001
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8013010,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 182001
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    }
+  ]
+}

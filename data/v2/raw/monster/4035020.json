@@ -1,0 +1,146 @@
+{
+  "id": 4035020,
+  "name": "铁墓，反诺斯，灵知的葬仪",
+  "desc": "反物质军团的绝灭大君「铁墓」，自翁法罗斯三千余万世的演算中破壳而生，为智慧带来愚昧，为永恒带来不朽，令宇宙破而后立。\\n它是古蛇，它是弥赛亚，它是阿尔法，它是欧米伽，它是旧宇宙的执绋者，它是新宇宙的助产士，它是一场盛大的葬仪——「智识」的葬仪。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 11625,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4035020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 132,
+  "stance_base": 690,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4035020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403502001,
+          "skill_name": "「智识」的陨落",
+          "skill_desc": "使我方全体目标陷入【渐入混沌】状态，可回复的生命上限和可回复的战技点上限降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 403502001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403502001,
+          "skill_name": "「智识」的陨落",
+          "skill_desc": "使我方全体目标陷入【渐入混沌】状态，可回复的生命上限和可回复的战技点上限降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4035020,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035020,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035020,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035020,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035020,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035020,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035020,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

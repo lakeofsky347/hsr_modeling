@@ -1,0 +1,1427 @@
+{
+  "id": 3024010,
+  "name": "银枝",
+  "desc": "「纯美骑士团」的古典骑士，虔诚地仰慕着已失踪的「纯美」星神伊德莉拉。\\n为人正直、光明磊落，于宇宙中漫游，宣扬伊德莉拉美名。",
+  "monster_camp_id": 7,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3024010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 144,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3024010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401001,
+      "attack_modify_ratio": 0.909091,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401003,
+      "attack_modify_ratio": 0.909091,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -44,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -24,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 216,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 1020,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 216,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 1020,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 216,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401013,
+      "attack_modify_ratio": 2.222716,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.537667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401014,
+      "attack_modify_ratio": 2.222716,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.595,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 302401015,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.066667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 36,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302401001,
+          "skill_name": "虔诚",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302401002,
+          "skill_name": "渐臻虔诚",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401003,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401004,
+          "skill_name": "坚韧灵魂",
+          "skill_desc": "释放一个雕塑中纯美的灵魂，使被灵魂释放的雕塑技能效果增强。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302401005,
+          "skill_name": "纯美的勇气赞歌",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302401007,
+          "skill_name": "枪与盾",
+          "skill_desc": "随机召唤【枪尖】、【盾】、【授勋】的雕塑。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3024010,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024010,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024010,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024010,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024010,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024010,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024010,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

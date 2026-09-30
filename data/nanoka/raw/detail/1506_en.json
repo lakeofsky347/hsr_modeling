@@ -1,0 +1,4112 @@
+{
+  "name": "Silver Wolf LV.<unbreak>999</unbreak>",
+  "desc": "A new season of Elation begins, featuring the limited-time return of the invincible player \"Silver Wolf LV.<unbreak>999</unbreak>\"!\\nShe's conquered the universe, unlocked every cosmic achievement... What's left to play?\\n<i>\"Reach the peak of 'Elation'? Boring... Since I've got the cartridge now, I make the rules~\"</i>",
+  "chara_info": {
+    "camp": null,
+    "va": {
+      "chinese": null,
+      "japanese": null,
+      "korean": null,
+      "english": null
+    },
+    "stories": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null
+    },
+    "voicelines": []
+  },
+  "rarity": "CombatPowerAvatarRarityType5",
+  "avatar_vo_tag": "silverwolflv999",
+  "sp_need": 60,
+  "base_type": "Elation",
+  "damage_type": "Imaginary",
+  "ranks": {
+    "1": {
+      "id": 150601,
+      "name": "Aether Editing: Eidolon +1",
+      "desc": "Enemy targets in the Zone take <unbreak>#2[i]%</unbreak> increased DMG.\\nWhen exiting the \"Godmode Player\" state, \"Hidden MMR\" will not be cleared. Instead, <unbreak>#1[i]%</unbreak> of \"Hidden MMR\" will be retained.",
+      "icon": "SkillIcon_1506_Rank1.png",
+      "param_list": [
+        0.2,
+        0.2
+      ],
+      "extra": {}
+    },
+    "2": {
+      "id": 150602,
+      "name": "It's a Feature, Not a Bug",
+      "desc": "After entering the \"Godmode Player\" state, extends the duration of all <u>buffs</u> on this unit by 1 turn. In the current \"Godmode Player\" state, for every <unbreak>#1[i]</unbreak> point(s) of \"Hidden MMR\" increased (including the initial \"Hidden MMR\"), Silver Wolf LV.<unbreak>999</unbreak> gains 1 <u>extra turn</u> and regains 1 use of Enhanced Basic ATK.",
+      "icon": "SkillIcon_1506_Rank2.png",
+      "param_list": [
+        120
+      ],
+      "extra": {
+        "10000009": {
+          "name": "Buff",
+          "desc": "All status effects that provide beneficial combat buffs, can be dispelled unless stated otherwise.",
+          "param": []
+        },
+        "10000000": {
+          "name": "Extra Turn",
+          "desc": "Gain 1 extra turn that won't expend your remaining turns when taking action. During this extra turn, no Ultimate can be used.",
+          "param": []
+        }
+      }
+    },
+    "3": {
+      "id": 150603,
+      "name": "Max Lv. <unbreak>15</unbreak>? Says who?",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.\\nElation Skill Lv. +1, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1506_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 150604,
+      "name": "I Came. I Saw. I One-Shot.",
+      "desc": "<u>Elation DMG</u> dealt by \"Honkai-DMG Demo\" additionally takes into account <u>Punchline</u>, equal to the original amount multiplied by <unbreak>#1[i]</unbreak>.",
+      "icon": "SkillIcon_1506_Rank4.png",
+      "param_list": [
+        5
+      ],
+      "extra": {
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        },
+        "10000027": {
+          "name": "Punchline",
+          "desc": "Punchline is shared by the whole team. When dealing Elation DMG, the more Punchline taken into account, the higher the Elation DMG.",
+          "param": []
+        }
+      }
+    },
+    "5": {
+      "id": 150605,
+      "name": "Basic ATK Is the New Ultimate",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nElation Skill Lv. +1, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1506_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 150606,
+      "name": "Solo Maxxing!",
+      "desc": "<u>Elation DMG</u> dealt during Enhanced Basic ATK <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>.\\nWhen enemy targets enter combat, they are implanted with \"Absolute Weakness\": Has All-Type Weakness, and reduces their All-Type <u>Base RES</u> to 0. (If <u>Base RES</u> is already at 0, then the corresponding Type RES decreases by <unbreak>#1[i]%</unbreak> instead).",
+      "icon": "SkillIcon_1506_Rank6.png",
+      "param_list": [
+        0.2,
+        0.5
+      ],
+      "extra": {
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        },
+        "30000011": {
+          "name": "Merrymake",
+          "desc": "A special effect that affects Elation DMG and can additionally boost Elation DMG dealt.",
+          "param": []
+        },
+        "30000012": {
+          "name": "Base RES",
+          "desc": "The fixed DMG Type RES a target has when entering combat. Under normal circumstances, it cannot be modified.",
+          "param": []
+        }
+      }
+    }
+  },
+  "skills": {
+    "150601": {
+      "id": 150601,
+      "name": "One Punch!",
+      "desc": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK to one designated enemy.",
+      "simple_desc": "Deals minor Imaginary DMG to one designated enemy.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "SingleAttack",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.6
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.7
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.8
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.9
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.1
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.4
+          ]
+        }
+      }
+    },
+    "150602": {
+      "id": 150602,
+      "name": "Trigger Happy",
+      "desc": "Gains <unbreak>#2[i]</unbreak> <u>Punchline</u> point(s) and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK to all enemies.",
+      "simple_desc": "Gains <u>Punchline</u>. Deals Imaginary DMG to all enemies.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "AoEAttack",
+      "sp_base": null,
+      "bp_need": 1,
+      "bp_add": null,
+      "show_stance_list": [
+        0,
+        30,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {
+        "10000027": {
+          "name": "Punchline",
+          "desc": "Punchline is shared by the whole team. When dealing Elation DMG, the more Punchline taken into account, the higher the Elation DMG.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.8,
+            5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.88,
+            5
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.96,
+            5
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.04,
+            5
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.12,
+            5
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1.2,
+            5
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.3,
+            5
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.4,
+            5
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.5,
+            5
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.6,
+            5
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            1.68,
+            5
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            1.76,
+            5
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1.84,
+            5
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1.92,
+            5
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            2,
+            5
+          ]
+        }
+      }
+    },
+    "150603": {
+      "id": 150603,
+      "name": "God Mode: ON!",
+      "desc": "Enters the \"Godmode Player\" state, and <u>advances action</u> by <unbreak>100%</unbreak>.\\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.<unbreak>999</unbreak> holds \"<u>Certified Banger</u>,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.<unbreak>999</unbreak>'s \"<u>Top Loot Box</u>\": Deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Imaginary <u>Elation DMG</u> that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\n\"Big Flipping Sword\": Additionally deals <u>True DMG</u> equal to <unbreak>#5[i]%</unbreak> of the total DMG dealt this time to the enemy target with the highest HP.\\n\"Kaboom Eggsplosion\": Recovers <unbreak>#7[i]</unbreak> Skill Point(s).\\n\"Funky Munch Bean\": Gains <unbreak>#6[i]</unbreak> <u>Punchline</u> point(s).\\nThe initial <u>fixed chance</u> to trigger the effect is <unbreak>100%</unbreak>. After a successfully trigger, the <u>fixed chance</u> for the next trigger is reduced to <unbreak>#4[i]%</unbreak> of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target.",
+      "simple_desc": "Transforms and <u>advances action</u> by <unbreak>100%</unbreak>.\\nDeploys a Zone during Transformation. While holding \"<u>Certified Banger</u>,\" for every <color=#f29e38ff>1 Skill Point consumed</color> by allies, there is a high chance to <color=#f29e38ff>trigger 1 \"Top Loot Box\"</color>: Deals massive Imaginary <u>Elation DMG</u> that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\\nDeals <color=#f29e38ff><u>True DMG</u></color> to the target with the highest HP based on total DMG dealt.\\nRecovers <color=#f29e38ff>Skill Points</color>.\\nGains <color=#f29e38ff><u>Punchline</u></color>.\\nThe trigger chance decreases proportionally after each trigger.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "Enhance",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {
+        "10000001": {
+          "name": "Action Advance",
+          "desc": "Reduces the target's waiting interval before the next action.",
+          "param": []
+        },
+        "10000029": {
+          "name": "Certified Banger",
+          "desc": "Characters participating in the Aha Instant gain the \"Certified Banger\" state. And the Punchline points from the current Aha Instant are taken into account for this state, lasting for 2 turns. Ability effects and Elation DMG produced by the \"Certified Banger\" state are calculated based on the Punchline points taken into account.\\nPunchline points taken into account for multiple \"Certified Banger\" states are combined for the calculation.\\nThe duration of each \"Certified Banger\" state is tracked independently.",
+          "param": []
+        },
+        "30000002": {
+          "name": "Fixed Chance",
+          "desc": "Fixed chance will not be affected by any factor.",
+          "param": []
+        },
+        "10015061": {
+          "name": "Top Loot Box",
+          "desc": "Special Attack that ally targets can trigger while in Silver Wolf LV.<unbreak>999</unbreak>'s Zone when Silver Wolf LV.<unbreak>999</unbreak> has \"Certified Banger.\" Can also be actively triggered in \"Bonus Stage: αWolf Instant.\" Triggering via this method is not considered as launching 1 attack.\\nWhen used, deals massive Imaginary Elation DMG split evenly among all enemies and randomly triggers one of the following 3 effects:\\n\"Big Flipping Sword\": Deals True DMG to the target with the highest HP based on the total DMG dealt this time.\\n\"Kaboom Eggsplosion\": Restores Skill Points (Trigger rate increases when Skill Points are low. Trigger rate decreases when Skill Points are high).\\n\"Funky Munch Bean\": Gains Punchline (Trigger rate increases when \"Hidden MMR\" is low. Trigger rate decreases when \"Hidden MMR\" is high).",
+          "param": []
+        },
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        },
+        "10000017": {
+          "name": "True DMG",
+          "desc": "Non-Type DMG that is not affected by any effects. This DMG is not considered as launching 1 attack.",
+          "param": []
+        },
+        "10000027": {
+          "name": "Punchline",
+          "desc": "Punchline is shared by the whole team. When dealing Elation DMG, the more Punchline taken into account, the higher the Elation DMG.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            60,
+            0,
+            0.45,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            60,
+            0,
+            0.495,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            60,
+            0,
+            0.54,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            60,
+            0,
+            0.585,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            60,
+            0,
+            0.63,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            60,
+            0,
+            0.675,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            60,
+            0,
+            0.73125,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            60,
+            0,
+            0.7875,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            60,
+            0,
+            0.84375,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            60,
+            0,
+            0.9,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            60,
+            0,
+            0.945,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            60,
+            0,
+            0.99,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            60,
+            0,
+            1.035,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            60,
+            0,
+            1.08,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            60,
+            0,
+            1.125,
+            0.2,
+            0.2,
+            3,
+            2
+          ]
+        }
+      }
+    },
+    "150604": {
+      "id": 150604,
+      "name": "I Carry, We Win",
+      "desc": "After \"Hidden MMR\" reaches <unbreak>#1[i]</unbreak>, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional <unbreak>#2[i]</unbreak> point(s).\\nWhen gaining <u>Punchline</u>, Silver Wolf LV.<unbreak>999</unbreak> gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by <color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>. Once CRIT Rate reaches <unbreak>100%</unbreak>, each additional point of \"Hidden MMR\" instead increases CRIT DMG by <color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>.\\nWhile in the \"Godmode Player\" state, Silver Wolf LV.<unbreak>999</unbreak> becomes immune to <u>Crowd Control debuffs</u>, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK <unbreak>#5[i]</unbreak> time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\\nWhile holding \"<u>Certified Banger</u>,\" using Basic ATK or Skill deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Imaginary <u>Elation DMG</u> to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to <u>Elation DMG</u> at the same multiplier.",
+      "simple_desc": "After \"Hidden MMR\" reaches <color=#f29e38ff><unbreak>#1[i]</unbreak></color>, the Ultimate can be activated. <color=#f29e38ff>When gaining <u>Punchline</u>, gains an equal amount of \"Hidden MMR\"</color>. The higher the \"Hidden MMR\", the higher the CRIT Rate. Once CRIT Rate reaches <unbreak>100%</unbreak>, increases CRIT DMG instead.\\nDuring Transformation, Silver Wolf LV.<unbreak>999</unbreak> becomes immune to <u>Crowd Control debuffs</u>, and her Basic ATK and Elation Skill get enhanced. She exits the Transformation after using Enhanced Basic ATK <color=#f29e38ff><unbreak>#5[i]</unbreak></color> time(s).\\nWhile holding \"<u>Certified Banger</u>,\" using Basic ATK or Skill additionally deals Imaginary <u>Elation DMG</u>. And the Enhanced Basic ATK's ability DMG changes to <u>Elation DMG</u>.",
+      "type": null,
+      "type_name": "Talent",
+      "tag": "Enhance",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {
+        "10000027": {
+          "name": "Punchline",
+          "desc": "Punchline is shared by the whole team. When dealing Elation DMG, the more Punchline taken into account, the higher the Elation DMG.",
+          "param": []
+        },
+        "10000011": {
+          "name": "Crowd Control debuff",
+          "desc": "Freeze, Entanglement, Imprisonment, Dominance, Outrage, Strong Reverberation, Alien Dream, Snarelock, Terrified, Action Lock, Happiness Puppet, Grudge Ablaze, Paralysis.",
+          "param": []
+        },
+        "10000029": {
+          "name": "Certified Banger",
+          "desc": "Characters participating in the Aha Instant gain the \"Certified Banger\" state. And the Punchline points from the current Aha Instant are taken into account for this state, lasting for 2 turns. Ability effects and Elation DMG produced by the \"Certified Banger\" state are calculated based on the Punchline points taken into account.\\nPunchline points taken into account for multiple \"Certified Banger\" states are combined for the calculation.\\nThe duration of each \"Certified Banger\" state is tracked independently.",
+          "param": []
+        },
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            60,
+            240,
+            0.2,
+            0.002,
+            3,
+            0.004
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            60,
+            240,
+            0.22,
+            0.0022,
+            3,
+            0.0044
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            60,
+            240,
+            0.24,
+            0.0024,
+            3,
+            0.0048
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            60,
+            240,
+            0.26,
+            0.0026,
+            3,
+            0.0052
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            60,
+            240,
+            0.28,
+            0.0028,
+            3,
+            0.0056
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            60,
+            240,
+            0.3,
+            0.003,
+            3,
+            0.006
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            60,
+            240,
+            0.325,
+            0.00325,
+            3,
+            0.0065
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            60,
+            240,
+            0.35,
+            0.0035,
+            3,
+            0.007
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            60,
+            240,
+            0.375,
+            0.00375,
+            3,
+            0.0075
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            60,
+            240,
+            0.4,
+            0.004,
+            3,
+            0.008
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            60,
+            240,
+            0.42,
+            0.0042,
+            3,
+            0.0084
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            60,
+            240,
+            0.44,
+            0.0044,
+            3,
+            0.0088
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            60,
+            240,
+            0.46,
+            0.0046,
+            3,
+            0.0092
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            60,
+            240,
+            0.48,
+            0.0048,
+            3,
+            0.0096
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            60,
+            240,
+            0.5,
+            0.005,
+            3,
+            0.01
+          ]
+        }
+      }
+    },
+    "150606": {
+      "id": 150606,
+      "name": "Attack",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "simple_desc": null,
+      "type": "MazeNormal",
+      "type_name": null,
+      "tag": "MazeAttack",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "150607": {
+      "id": 150607,
+      "name": "This? Absolute Meta!",
+      "desc": "Summons \"Funky Munch Bean.\" Use again to dismiss. Using Technique does not consume Technique Points. When Technique Points reach 0, the summon is dismissed and Technique cannot be used.\\n\"Funky Munch Bean\" causes Normal Enemies within a certain range to enter a Terrified state. It will also automatically search for and attack Normal Enemies, consuming 1 Technique Point to instantly defeat them without entering combat.\\nWhile \"Funky Munch Bean\" is present, after entering combat, 1 instance of \"<u>Top Loot Box</u>\" from \"Funky Munch Bean\" is triggered at the start of each wave. A fixed amount of <unbreak>#1[i]</unbreak> \"<u>Certified Banger</u>\" is taken into account for the <u>Elation DMG</u> dealt in this instance.",
+      "simple_desc": "Summons \"Funky Munch Bean.\" Use again to dismiss. Using Technique <color=#f29e38ff>does not consume Technique Points</color>.\\n\"Funky Munch Bean\" will automatically seek out and attack Normal Enemies, consuming 1 Technique Point to <color=#f29e38ff>instantly defeat them without entering combat</color>.\\nAfter entering combat, triggers the Top Loot Box corresponding to \"Funky Munch Bean\" at the start of each wave.",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "Summon",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {
+        "10015061": {
+          "name": "Top Loot Box",
+          "desc": "Special Attack that ally targets can trigger while in Silver Wolf LV.<unbreak>999</unbreak>'s Zone when Silver Wolf LV.<unbreak>999</unbreak> has \"Certified Banger.\" Can also be actively triggered in \"Bonus Stage: αWolf Instant.\" Triggering via this method is not considered as launching 1 attack.\\nWhen used, deals massive Imaginary Elation DMG split evenly among all enemies and randomly triggers one of the following 3 effects:\\n\"Big Flipping Sword\": Deals True DMG to the target with the highest HP based on the total DMG dealt this time.\\n\"Kaboom Eggsplosion\": Restores Skill Points (Trigger rate increases when Skill Points are low. Trigger rate decreases when Skill Points are high).\\n\"Funky Munch Bean\": Gains Punchline (Trigger rate increases when \"Hidden MMR\" is low. Trigger rate decreases when \"Hidden MMR\" is high).",
+          "param": []
+        },
+        "10000029": {
+          "name": "Certified Banger",
+          "desc": "Characters participating in the Aha Instant gain the \"Certified Banger\" state. And the Punchline points from the current Aha Instant are taken into account for this state, lasting for 2 turns. Ability effects and Elation DMG produced by the \"Certified Banger\" state are calculated based on the Punchline points taken into account.\\nPunchline points taken into account for multiple \"Certified Banger\" states are combined for the calculation.\\nThe duration of each \"Certified Banger\" state is tracked independently.",
+          "param": []
+        },
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            99
+          ]
+        }
+      }
+    },
+    "150608": {
+      "id": 150608,
+      "name": "Bonus Stage: αWolf Instant",
+      "desc": "Deals Imaginary DMG equal to a total of <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK, split evenly into <unbreak>#3[i]</unbreak> hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the <u>Top Loot Box</u> triggers 1 time. Can trigger up to <unbreak>#5[i]</unbreak> time(s) in total.\\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 <u>extra turn</u> and uses this ability again based on the remaining number of bounces and <u>Top Loot Box</u> triggers. The first time this effect triggers in each turn, extends the duration of all <u>buffs</u> on this unit by 1 turn.\\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK, split evenly among all enemies.\\nEnhanced Basic ATK cannot recover Skill Points. For every <unbreak>#6[i]</unbreak> points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by <unbreak>#8[i]%</unbreak> of the original DMG, stacking up to <unbreak>#7[i]</unbreak> time(s).",
+      "simple_desc": "Deals Imaginary DMG, bouncing a large number of times, during which \"Top Loot Box\" can trigger <color=#f29e38ff><unbreak>#5[i]</unbreak></color> time(s). If <color=#f29e38ff>fatal damage is dealt to all enemies, the remaining effect is reserved</color> and can continue to be used on newly entering enemy targets. Finally, deals Imaginary DMG, split evenly among all enemies.\\nEach time \"Hidden MMR\" reaches a set number, can additionally increase the DMG of Enhanced Basic ATK.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "Bounce",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        30,
+        30,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {
+        "10015061": {
+          "name": "Top Loot Box",
+          "desc": "Special Attack that ally targets can trigger while in Silver Wolf LV.<unbreak>999</unbreak>'s Zone when Silver Wolf LV.<unbreak>999</unbreak> has \"Certified Banger.\" Can also be actively triggered in \"Bonus Stage: αWolf Instant.\" Triggering via this method is not considered as launching 1 attack.\\nWhen used, deals massive Imaginary Elation DMG split evenly among all enemies and randomly triggers one of the following 3 effects:\\n\"Big Flipping Sword\": Deals True DMG to the target with the highest HP based on the total DMG dealt this time.\\n\"Kaboom Eggsplosion\": Restores Skill Points (Trigger rate increases when Skill Points are low. Trigger rate decreases when Skill Points are high).\\n\"Funky Munch Bean\": Gains Punchline (Trigger rate increases when \"Hidden MMR\" is low. Trigger rate decreases when \"Hidden MMR\" is high).",
+          "param": []
+        },
+        "10000000": {
+          "name": "Extra Turn",
+          "desc": "Gain 1 extra turn that won't expend your remaining turns when taking action. During this extra turn, no Ultimate can be used.",
+          "param": []
+        },
+        "10000009": {
+          "name": "Buff",
+          "desc": "All status effects that provide beneficial combat buffs, can be dispelled unless stated otherwise.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1.2,
+            0,
+            100,
+            0.5,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.44,
+            0,
+            100,
+            0.6,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.68,
+            0,
+            100,
+            0.7,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.92,
+            0,
+            100,
+            0.8,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            2.16,
+            0,
+            100,
+            0.9,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            2.4,
+            0,
+            100,
+            1,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            2.64,
+            0,
+            100,
+            1.1,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            2.88,
+            0,
+            100,
+            1.2,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            3.12,
+            0,
+            100,
+            1.3,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            3.36,
+            0,
+            100,
+            1.4,
+            3,
+            60,
+            2,
+            0.15
+          ]
+        }
+      }
+    },
+    "150610": {
+      "id": 150610,
+      "name": "Big Flipping Sword",
+      "desc": null,
+      "simple_desc": "Deals massive Imaginary <u>Elation DMG</u> to all enemies, split evenly among them. And deals <u>True DMG</u> to the target with the highest HP based on the total DMG dealt.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "AoEAttack",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        0,
+        30,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        },
+        "2": {
+          "level": 2,
+          "param_list": []
+        },
+        "3": {
+          "level": 3,
+          "param_list": []
+        },
+        "4": {
+          "level": 4,
+          "param_list": []
+        },
+        "5": {
+          "level": 5,
+          "param_list": []
+        },
+        "6": {
+          "level": 6,
+          "param_list": []
+        },
+        "7": {
+          "level": 7,
+          "param_list": []
+        },
+        "8": {
+          "level": 8,
+          "param_list": []
+        },
+        "9": {
+          "level": 9,
+          "param_list": []
+        },
+        "10": {
+          "level": 10,
+          "param_list": []
+        }
+      }
+    },
+    "150612": {
+      "id": 150612,
+      "name": "Kaboom Eggsplosion",
+      "desc": null,
+      "simple_desc": "Deals massive Imaginary <u>Elation DMG</u> to all enemies, split evenly among them. And recovers Skill Points.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "AoEAttack",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        0,
+        30,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        },
+        "2": {
+          "level": 2,
+          "param_list": []
+        },
+        "3": {
+          "level": 3,
+          "param_list": []
+        },
+        "4": {
+          "level": 4,
+          "param_list": []
+        },
+        "5": {
+          "level": 5,
+          "param_list": []
+        },
+        "6": {
+          "level": 6,
+          "param_list": []
+        },
+        "7": {
+          "level": 7,
+          "param_list": []
+        },
+        "8": {
+          "level": 8,
+          "param_list": []
+        },
+        "9": {
+          "level": 9,
+          "param_list": []
+        },
+        "10": {
+          "level": 10,
+          "param_list": []
+        }
+      }
+    },
+    "150618": {
+      "id": 150618,
+      "name": "Funky Munch Bean",
+      "desc": null,
+      "simple_desc": "Deals massive Imaginary <u>Elation DMG</u> to all enemies, split evenly among them. And gains <u>Punchline</u>.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "AoEAttack",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        0,
+        30,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        },
+        "2": {
+          "level": 2,
+          "param_list": []
+        },
+        "3": {
+          "level": 3,
+          "param_list": []
+        },
+        "4": {
+          "level": 4,
+          "param_list": []
+        },
+        "5": {
+          "level": 5,
+          "param_list": []
+        },
+        "6": {
+          "level": 6,
+          "param_list": []
+        },
+        "7": {
+          "level": 7,
+          "param_list": []
+        },
+        "8": {
+          "level": 8,
+          "param_list": []
+        },
+        "9": {
+          "level": 9,
+          "param_list": []
+        },
+        "10": {
+          "level": 10,
+          "param_list": []
+        }
+      }
+    },
+    "150620": {
+      "id": 150620,
+      "name": "Pro-Gamer Move",
+      "desc": "Gains <unbreak>#1[i]</unbreak> \"Hidden MMR\" point(s).",
+      "simple_desc": "Gains \"Hidden MMR.\"",
+      "type": "ElationDamage",
+      "type_name": "Elation Skill",
+      "tag": "Enhance",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            15
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            15
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            15
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            15
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            15
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            15
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            15
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            15
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            15
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            15
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            15
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            15
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            15
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            15
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            15
+          ]
+        }
+      },
+      "elation_priority_value": 999
+    },
+    "150621": {
+      "id": 150621,
+      "name": "Honkai-DMG Demo",
+      "desc": "Deals <unbreak>#2[i]</unbreak> instances of DMG, with each instance dealing <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Imaginary <u>Elation DMG</u> to one random enemy. Then, resets the <u>fixed chance</u> to trigger \"<u>Top Loot Box</u>\" to its initial value.",
+      "simple_desc": "Deals massive Imaginary <u>Elation DMG</u> to one enemy, bouncing a total of <color=#f29e38ff><unbreak>#2[i]</unbreak></color> times. <color=#f29e38ff>Resets the trigger chance of \"Top Loot Box\"</color>.",
+      "type": "ElationDamage",
+      "type_name": "Elation Skill",
+      "tag": "Bounce",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        },
+        "10015061": {
+          "name": "Top Loot Box",
+          "desc": "Special Attack that ally targets can trigger while in Silver Wolf LV.<unbreak>999</unbreak>'s Zone when Silver Wolf LV.<unbreak>999</unbreak> has \"Certified Banger.\" Can also be actively triggered in \"Bonus Stage: αWolf Instant.\" Triggering via this method is not considered as launching 1 attack.\\nWhen used, deals massive Imaginary Elation DMG split evenly among all enemies and randomly triggers one of the following 3 effects:\\n\"Big Flipping Sword\": Deals True DMG to the target with the highest HP based on the total DMG dealt this time.\\n\"Kaboom Eggsplosion\": Restores Skill Points (Trigger rate increases when Skill Points are low. Trigger rate decreases when Skill Points are high).\\n\"Funky Munch Bean\": Gains Punchline (Trigger rate increases when \"Hidden MMR\" is low. Trigger rate decreases when \"Hidden MMR\" is high).",
+          "param": []
+        },
+        "30000002": {
+          "name": "Fixed Chance",
+          "desc": "Fixed chance will not be affected by any factor.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.45,
+            6
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.495,
+            6
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.54,
+            6
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.585,
+            6
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.63,
+            6
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.675,
+            6
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.73125,
+            6
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.7875,
+            6
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.84375,
+            6
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.9,
+            6
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.945,
+            6
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.99,
+            6
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1.035,
+            6
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1.08,
+            6
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            1.125,
+            6
+          ]
+        }
+      },
+      "elation_priority_value": 999
+    },
+    "150629": {
+      "id": 150629,
+      "name": "Faces of Elation ★ Holographic Mirage",
+      "desc": "When <color=#cb2f2f>the <u>Path of Elation ascends</u></color>, \"Hidden MMR\" can output up to <color=#f29e38ff><unbreak>#1[i]</unbreak></color> overflow when it reaches its max limit. Increases CRIT DMG by <unbreak>#3[i]%</unbreak>, and when gaining \"<u>Party Trick</u>\" provides Silver Wolf LV.<unbreak>999</unbreak> with <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of \"Hidden MMR.\"",
+      "simple_desc": "When <color=#cb2f2f><u>the Elation Path ascends</u></color>, \"Hidden MMR\" will output additional overflow when it reaches its max limit. Increases CRIT DMG, and when gaining \"<u>Party Trick</u>\" provides Silver Wolf LV.<unbreak>999</unbreak> with \"Hidden MMR.\"",
+      "type": null,
+      "type_name": "Innate Trace",
+      "tag": "Enhance",
+      "sp_base": null,
+      "bp_need": -1,
+      "bp_add": null,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": null,
+      "extra": {
+        "10015111": {
+          "name": "Path of Elation Ascension",
+          "desc": "When Aeon ★ Aha has the \"Faces of Elation\" state, \"Punchline\" and \"Certified Banger\" are enhanced to \"Bliss\" and \"Party Trick,\" and ally characters on the Path of Elation will activate their \"Innate Trace\" effects.",
+          "param": []
+        },
+        "10015113": {
+          "name": "Party Trick",
+          "desc": "When gaining the \"Party Trick\" state, it is considered the same as gaining the \"Certified Banger\" state. The \"Party Trick\" will affect the \"Innate Trace\" effects of ally Elation characters.",
+          "param": []
+        },
+        "10015112": {
+          "name": "Bliss",
+          "desc": "Gaining Bliss is considered the same as gaining Punchline. At the end of the \"Aha Instant\" turn, a portion of the value taken into account is regained as Bliss.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            360,
+            0.2,
+            0.4
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            999,
+            0.4,
+            0.4
+          ]
+        }
+      }
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": null,
+        "avatar_level_limit": null,
+        "default_unlock": true,
+        "icon": "SkillIcon_1506_Normal.png",
+        "level_up_skill_id": [
+          150601,
+          150608,
+          150610,
+          150612,
+          150618
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1506001,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Normal.png",
+        "level_up_skill_id": [
+          150601,
+          150608,
+          150610,
+          150612,
+          150618
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1506001,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Normal.png",
+        "level_up_skill_id": [
+          150601,
+          150608,
+          150610,
+          150612,
+          150618
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1506001,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Normal.png",
+        "level_up_skill_id": [
+          150601,
+          150608,
+          150610,
+          150612,
+          150618
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1506001,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Normal.png",
+        "level_up_skill_id": [
+          150601,
+          150608,
+          150610,
+          150612,
+          150618
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1506001,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Normal.png",
+        "level_up_skill_id": [
+          150601,
+          150608,
+          150610,
+          150612,
+          150618
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1506001,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": null,
+        "avatar_level_limit": null,
+        "default_unlock": true,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 15000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 65000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_BP.png",
+        "level_up_skill_id": [
+          150602
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506002,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": null,
+        "avatar_level_limit": null,
+        "default_unlock": true,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 15000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 65000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Ultra.png",
+        "level_up_skill_id": [
+          150603
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506003,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": null,
+        "avatar_level_limit": null,
+        "default_unlock": true,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 15000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 65000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Passive.png",
+        "level_up_skill_id": [
+          150604
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506004,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "avatar_promotion_limit": null,
+        "avatar_level_limit": null,
+        "default_unlock": true,
+        "icon": "SkillIcon_1506_Maze.png",
+        "level_up_skill_id": [
+          150607
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506007,
+        "point_name": null,
+        "point_desc": null,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          160,
+          0.5,
+          1,
+          0.02,
+          100
+        ],
+        "point_id": 1506101,
+        "point_name": "False Ending Speedrun",
+        "point_desc": "When SPD is <unbreak>#1[i]</unbreak> or higher, increases this unit's Elation by <unbreak>#2[i]%</unbreak>. For every <unbreak>#3[i]</unbreak> SPD exceeded, increases this unit's Elation by <unbreak>#4[i]%</unbreak>. Up to a max of <unbreak>#5[i]</unbreak> excess SPD can be taken into account for this effect.",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          20,
+          40,
+          20,
+          20
+        ],
+        "point_id": 1506102,
+        "point_name": "True Ending Unlocked",
+        "point_desc": "If the number of <u>Punchline</u> points taken into account when using Elation Skill is <unbreak>#1[i]</unbreak> or more, additionally gains <unbreak>#3[i]</unbreak> \"Hidden MMR\" points (And if it's <unbreak>#2[i]</unbreak> or more, then gains <unbreak>#4[i]</unbreak> more points on top of that).",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000027": {
+            "name": "Punchline",
+            "desc": "Punchline is shared by the whole team. When dealing Elation DMG, the more Punchline taken into account, the higher the Elation DMG.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          20
+        ],
+        "point_id": 1506103,
+        "point_name": "Secret Level Maxed",
+        "point_desc": "After entering the \"Godmode Player\" state, gains <unbreak>#1[i]</unbreak> \"Hidden MMR\" point(s).",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_promotion_limit": null,
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506201,
+        "point_name": "CRIT Rate Boost",
+        "point_desc": null,
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506202,
+        "point_name": "SPD Boost",
+        "point_desc": null,
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 2,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506203,
+        "point_name": "CRIT Rate Boost",
+        "point_desc": null,
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1506101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "IconJoy.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506204,
+        "point_name": "Elation Boost",
+        "point_desc": null,
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [
+          1506101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "ElationDamageAddedRatioBase",
+            "value": 0.04,
+            "name": "Elation"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 18000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506205,
+        "point_name": "CRIT Rate Boost",
+        "point_desc": null,
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1506102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506206,
+        "point_name": "SPD Boost",
+        "point_desc": null,
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1506205
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 3,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506207,
+        "point_name": "CRIT Rate Boost",
+        "point_desc": null,
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [
+          1506206
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "IconJoy.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506208,
+        "point_name": "Elation Boost",
+        "point_desc": null,
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1506103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "ElationDamageAddedRatioBase",
+            "value": 0.06,
+            "name": "Elation"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_promotion_limit": null,
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506209,
+        "point_name": "SPD Boost",
+        "point_desc": null,
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1506208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 4,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_promotion_limit": null,
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1506210,
+        "point_name": "CRIT Rate Boost",
+        "point_desc": null,
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [
+          1506209
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.053,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point22": {
+      "1": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": null,
+        "avatar_level_limit": null,
+        "default_unlock": true,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 1,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 2,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 3,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 15000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 4,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 5,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 65000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 6,
+        "avatar_level_limit": null,
+        "default_unlock": false,
+        "icon": "SkillIcon_1506_Elation.png",
+        "level_up_skill_id": [
+          150620,
+          150621
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1506420,
+        "point_name": "Elation Skill",
+        "point_desc": null,
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {},
+  "unique": {
+    "150604": {
+      "tag": "Support",
+      "name": "McAwolfee <unbreak>999</unbreak>",
+      "desc": "After obtaining \"Silver Wolf LV.<unbreak>999</unbreak>\" or when \"Silver Wolf LV.<unbreak>999</unbreak>\" is present in the current team, gains the following effect: During combat, if an enemy target inflicts a <u>Crowd Control debuff</u> on an ally, all allies gain \"Firewall\" for 1 turn. While in the \"Firewall\" state, ally targets are immune to <u>Crowd Control debuffs</u> inflicted by enemy targets. This effect can trigger at most 1 time per wave.",
+      "param": [],
+      "extra": {
+        "10000011": {
+          "name": "Crowd Control debuff",
+          "desc": "Freeze, Entanglement, Imprisonment, Dominance, Outrage, Strong Reverberation, Alien Dream, Snarelock, Terrified, Action Lock, Happiness Puppet, Grudge Ablaze, Paralysis.",
+          "param": []
+        }
+      },
+      "exclusive": true
+    }
+  },
+  "stats": {
+    "0": {
+      "attack_base": 52.8,
+      "attack_add": 2.64,
+      "defence_base": 89.1,
+      "defence_add": 4.455,
+      "hp_base": 142.56,
+      "hp_add": 7.128,
+      "speed_base": 110,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 73.92,
+      "attack_add": 2.64,
+      "defence_base": 124.74,
+      "defence_add": 4.455,
+      "hp_base": 199.584,
+      "hp_add": 7.128,
+      "speed_base": 110,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 95.04,
+      "attack_add": 2.64,
+      "defence_base": 160.38,
+      "defence_add": 4.455,
+      "hp_base": 256.608,
+      "hp_add": 7.128,
+      "speed_base": 110,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 116.16,
+      "attack_add": 2.64,
+      "defence_base": 196.02,
+      "defence_add": 4.455,
+      "hp_base": 313.632,
+      "hp_add": 7.128,
+      "speed_base": 110,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 137.28,
+      "attack_add": 2.64,
+      "defence_base": 231.66,
+      "defence_add": 4.455,
+      "hp_base": 370.656,
+      "hp_add": 7.128,
+      "speed_base": 110,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 158.4,
+      "attack_add": 2.64,
+      "defence_base": 267.3,
+      "defence_add": 4.455,
+      "hp_base": 427.68,
+      "hp_add": 7.128,
+      "speed_base": 110,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 179.52,
+      "attack_add": 2.64,
+      "defence_base": 302.94,
+      "defence_add": 4.455,
+      "hp_base": 484.704,
+      "hp_add": 7.128,
+      "speed_base": 110,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1506,
+    "set4_id_list": [
+      129,
+      126,
+      112
+    ],
+    "set2_id_list": [
+      325,
+      313,
+      324
+    ],
+    "property_list3": [
+      "CriticalChanceBase",
+      "CriticalDamageBase"
+    ],
+    "property_list4": [
+      "SpeedDelta"
+    ],
+    "property_list5": [
+      "HPAddedRatio",
+      "DefenceAddedRatio"
+    ],
+    "property_list6": [
+      "DefenceAddedRatio",
+      "HPAddedRatio"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "CriticalChanceBase"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "SpeedDelta"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "HPAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "DefenceAddedRatio"
+      }
+    ],
+    "sub_affix_property_list": [
+      "SpeedDelta",
+      "CriticalChanceBase",
+      "CriticalDamageBase"
+    ],
+    "score_rank_list": [
+      240,
+      184
+    ]
+  },
+  "lightcones": [
+    23057,
+    21065,
+    22009
+  ],
+  "teams": [
+    {
+      "avatar_id": 1506,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1501,
+        1502,
+        1503
+      ],
+      "backup_list1": [
+        1502
+      ],
+      "backup_list2": [
+        8009,
+        1403,
+        1415,
+        1313,
+        1306,
+        1406,
+        1218,
+        1202,
+        1106
+      ],
+      "backup_list3": [
+        1409,
+        1414,
+        1222,
+        1304,
+        1217,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        119,
+        118
+      ],
+      "backup_group_list2": [
+        119,
+        118
+      ],
+      "backup_group_list3": [
+        130,
+        101
+      ]
+    }
+  ],
+  "skin": {}
+}

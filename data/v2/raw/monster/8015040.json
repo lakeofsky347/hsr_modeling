@@ -1,0 +1,417 @@
+{
+  "id": 8015040,
+  "name": "万色返空主，归寂•「住」",
+  "desc": "名为「我见」的领航员，为解救「欢愉」踏上开拓之旅。\\n他帮助星球摆脱危机，为寰宇排忧解难，只为寻得欢愉的解药。\\n然而旅途愈久，他目睹愈多熟悉的世界走向堕落与灭亡——甚至曾有世界，试图以一同毁灭去回报列车组的拯救。\\n最终，在「开拓」之神陨落之后，亲眼见证「亚德丽芬」终结的他，终于领悟到「欢愉」唯一的解药——「毁灭」。",
+  "monster_camp_id": 6,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 14880,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8015040.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 140,
+  "stance_base": 1080,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 8015040,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801504001,
+          "skill_name": "存在的闹剧",
+          "skill_desc": "对我方全体目标造成伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504002,
+          "skill_name": "讥讽的目光",
+          "skill_desc": "对指定我方单体目标造成伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504003,
+          "skill_name": "收束命运的博弈",
+          "skill_desc": "掷出数个骰子，从中选择一个为我方生效，剩余的效果则为敌方生效。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504005,
+          "skill_name": "三面化身",
+          "skill_desc": "本场战斗中，「万色返空主，归寂」拥有【成】、【住】、【坏】三面，每个面有自己的独特技能。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504006,
+          "skill_name": "笑话来自地狱",
+          "skill_desc": "在行动序列上添加【好戏开场】，每次【好戏开场】行动时，解除「万色返空主，归寂」的<u>控制类负面状态</u>与弱点击破状态，并施放【愿此行终抵毁灭】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000011": {
+              "name": "控制类负面状态",
+              "desc": "冻结，纠缠，禁锢，支配，怒噪，强烈震荡，异梦，缠禁，恐惧，行动锁定，幸福傀儡，怨火灼身，麻痹。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801504007,
+          "skill_name": "三面合一",
+          "skill_desc": "此阶段内，【成】【住】【坏】将共享生命值，且【成】、【住】面将处于不可被选中状态。每次【好戏开场】行动时，解除「万色返空主，归寂」的<u>控制类负面状态</u>与弱点击破状态，并施放【令欢愉终归死寂】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000011": {
+              "name": "控制类负面状态",
+              "desc": "冻结，纠缠，禁锢，支配，怒噪，强烈震荡，异梦，缠禁，恐惧，行动锁定，幸福傀儡，怨火灼身，麻痹。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801504008,
+          "skill_name": "热场嘉宾",
+          "skill_desc": "在行动序列上添加【粉墨登场】，每次【粉墨登场】行动时，召唤【喜剧学家】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801504009,
+          "skill_name": "埋梗时刻",
+          "skill_desc": "进入蓄力状态。为我方角色附加共计4层【<u>爆梗</u>】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "280150301": {
+              "name": "爆梗",
+              "desc": "当我方角色施放【爆梗】时，归寂将对我方全体目标造成大量伤害，大概率使我方目标陷入【强烈震荡】，同时移除1层【爆梗】。若我方目标未持有护盾或【屏障】，则额外附加1层【噬命】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801504010,
+          "skill_name": "爆梗狂欢",
+          "skill_desc": "引爆所有【<u>爆梗</u>】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "280150301": {
+              "name": "爆梗",
+              "desc": "当我方角色施放【爆梗】时，归寂将对我方全体目标造成大量伤害，大概率使我方目标陷入【强烈震荡】，同时移除1层【爆梗】。若我方目标未持有护盾或【屏障】，则额外附加1层【噬命】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801504011,
+          "skill_name": "愿此行终抵毁灭",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504012,
+          "skill_name": "令欢愉终归死寂",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504013,
+          "skill_name": "虚无的愉悦",
+          "skill_desc": "对我方全体目标造成伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504014,
+          "skill_name": "三重的蔑视",
+          "skill_desc": "对我方全体目标造成伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801504001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.328125,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801504001,
+          "skill_name": "存在的闹剧",
+          "skill_desc": "对我方全体目标造成伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504002,
+          "skill_name": "讥讽的目光",
+          "skill_desc": "对指定我方单体目标造成伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504003,
+          "skill_name": "收束命运的博弈",
+          "skill_desc": "掷出数个骰子，从中选择一个为我方生效，剩余的效果则为敌方生效。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504005,
+          "skill_name": "三面化身",
+          "skill_desc": "本场战斗中，「万色返空主，归寂」拥有【成】、【住】、【坏】三面，每个面有自己的独特技能。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504006,
+          "skill_name": "笑话来自地狱",
+          "skill_desc": "在行动序列上添加【好戏开场】，每次【好戏开场】行动时，解除「万色返空主，归寂」的<u>控制类负面状态</u>与弱点击破状态，并施放【愿此行终抵毁灭】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000011": {
+              "name": "控制类负面状态",
+              "desc": "冻结，纠缠，禁锢，支配，怒噪，强烈震荡，异梦，缠禁，恐惧，行动锁定，幸福傀儡，怨火灼身，麻痹。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801504007,
+          "skill_name": "三面合一",
+          "skill_desc": "此阶段内，【成】【住】【坏】将共享生命值，且【成】、【住】面将处于不可被选中状态。每次【好戏开场】行动时，解除「万色返空主，归寂」的<u>控制类负面状态</u>与弱点击破状态，并施放【令欢愉终归死寂】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000011": {
+              "name": "控制类负面状态",
+              "desc": "冻结，纠缠，禁锢，支配，怒噪，强烈震荡，异梦，缠禁，恐惧，行动锁定，幸福傀儡，怨火灼身，麻痹。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801504008,
+          "skill_name": "热场嘉宾",
+          "skill_desc": "在行动序列上添加【粉墨登场】，每次【粉墨登场】行动时，召唤【喜剧学家】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801504009,
+          "skill_name": "埋梗时刻",
+          "skill_desc": "进入蓄力状态。为我方角色附加共计4层【<u>爆梗</u>】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "280150301": {
+              "name": "爆梗",
+              "desc": "当我方角色施放【爆梗】时，归寂将对我方全体目标造成大量伤害，大概率使我方目标陷入【强烈震荡】，同时移除1层【爆梗】。若我方目标未持有护盾或【屏障】，则额外附加1层【噬命】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801504010,
+          "skill_name": "爆梗狂欢",
+          "skill_desc": "引爆所有【<u>爆梗</u>】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "280150301": {
+              "name": "爆梗",
+              "desc": "当我方角色施放【爆梗】时，归寂将对我方全体目标造成大量伤害，大概率使我方目标陷入【强烈震荡】，同时移除1层【爆梗】。若我方目标未持有护盾或【屏障】，则额外附加1层【噬命】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801504011,
+          "skill_name": "愿此行终抵毁灭",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504012,
+          "skill_name": "令欢愉终归死寂",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504013,
+          "skill_name": "虚无的愉悦",
+          "skill_desc": "对我方全体目标造成伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801504014,
+          "skill_name": "三重的蔑视",
+          "skill_desc": "对我方全体目标造成伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8015040,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015040,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015040,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015040,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015040,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015040,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015040,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 2.5
+    }
+  ]
+}

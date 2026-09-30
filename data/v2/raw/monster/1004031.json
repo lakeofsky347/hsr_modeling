@@ -1,0 +1,332 @@
+{
+  "id": 1004031,
+  "name": "布洛妮娅（完整）",
+  "desc": "代码受到影响后的完整投影。参照本体为贝洛伯格守护者的继任者，银鬃铁卫的统帅。\\n布洛妮娅（完整）会使用多种战术攻击敌人，并大幅提升友军的作战能力。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 558,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1004030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 143,
+  "stance_base": 210,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 1004031,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100403101,
+          "skill_name": "驭风的子弹",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100403102,
+          "skill_name": "作战再部署",
+          "skill_desc": "解除指定除布洛妮娅外的敌方单体的全部负面效果，并使该目标立即行动，造成的伤害小幅提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403103,
+          "skill_name": "增援协同",
+          "skill_desc": "召唤【银鬃近卫】或【银鬃射手】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403104,
+          "skill_name": "压制射击",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100403101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4.166667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 90,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100403101,
+          "skill_name": "驭风的子弹",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100403102,
+          "skill_name": "作战再部署",
+          "skill_desc": "解除指定除布洛妮娅外的敌方单体的全部负面效果，并使该目标立即行动，造成的伤害小幅提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403103,
+          "skill_name": "增援协同",
+          "skill_desc": "召唤【银鬃近卫】或【银鬃射手】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403104,
+          "skill_name": "压制射击",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100403102,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 8.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100403101,
+          "skill_name": "驭风的子弹",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100403102,
+          "skill_name": "作战再部署",
+          "skill_desc": "解除指定除布洛妮娅外的敌方单体的全部负面效果，并使该目标立即行动，造成的伤害小幅提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403103,
+          "skill_name": "增援协同",
+          "skill_desc": "召唤【银鬃近卫】或【银鬃射手】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403104,
+          "skill_name": "压制射击",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100403103,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100403101,
+          "skill_name": "驭风的子弹",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100403102,
+          "skill_name": "作战再部署",
+          "skill_desc": "解除指定除布洛妮娅外的敌方单体的全部负面效果，并使该目标立即行动，造成的伤害小幅提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403103,
+          "skill_name": "增援协同",
+          "skill_desc": "召唤【银鬃近卫】或【银鬃射手】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403104,
+          "skill_name": "压制射击",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1004031,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004031,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004031,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004031,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004031,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004031,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004031,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

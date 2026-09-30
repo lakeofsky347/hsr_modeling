@@ -1,0 +1,279 @@
+{
+  "id": 4012075,
+  "name": "哀悯长臂",
+  "desc": "一切妄图逃离终局的生者，皆要面对来自冥土的追索。",
+  "monster_camp_id": null,
+  "attack_base": 40.008891,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 120.0165,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4012070.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 144,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4012075,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401207501,
+          "skill_name": "生者不应逃离",
+          "skill_desc": "对我方单体造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 401207502,
+          "skill_name": "死者不应躲避",
+          "skill_desc": "对我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 401207503,
+          "skill_name": "生死之间",
+          "skill_desc": "处于【迟到的死讯】状态下，【生者不应逃离】强化为【死者不应躲避】。被击杀后使我方回复生命值并抽卡，随后复活。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401207501,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401207501,
+          "skill_name": "生者不应逃离",
+          "skill_desc": "对我方单体造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 401207502,
+          "skill_name": "死者不应躲避",
+          "skill_desc": "对我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 401207503,
+          "skill_name": "生死之间",
+          "skill_desc": "处于【迟到的死讯】状态下，【生者不应逃离】强化为【死者不应躲避】。被击杀后使我方回复生命值并抽卡，随后复活。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4012075,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012075,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012075,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012075,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012075,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012075,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012075,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    }
+  ]
+}

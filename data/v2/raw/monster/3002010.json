@@ -1,0 +1,985 @@
+{
+  "id": 3002010,
+  "name": "惊梦剧团的圆幕先生",
+  "desc": "匹诺康尼的服务器械，因梦境中的情绪干扰而陷入失控。\\n原本是电视节目中的娱乐演员，失控后仍在演绎自己多变的身份，为观众带来惊喜或是惊吓。",
+  "monster_camp_id": 10,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 255.75,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3002010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 3002010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201001,
+      "attack_modify_ratio": 0.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 36.363636,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 1410,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201002,
+      "attack_modify_ratio": 0.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 36.363636,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 1410,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.454545,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201005,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.363636,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201006,
+      "attack_modify_ratio": 0.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 36.363636,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 1410,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201007,
+      "attack_modify_ratio": 0.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 36.363636,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 1410,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201008,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.909091,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201011,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201001,
+          "skill_name": "惊喜综艺",
+          "skill_desc": "使指定我方单体恢复能量。只能在【惊喜频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201002,
+          "skill_name": "惊吓播报",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【惊吓频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201003,
+          "skill_name": "频道切换",
+          "skill_desc": "将【惊喜频道】状态转变为【惊吓频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201004,
+          "skill_name": "串台",
+          "skill_desc": "在受到攻击后，会从【惊喜频道】状态转变为【惊吓频道】状态，或从【惊吓频道】状态转变为【惊喜频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3002010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "id": 8033020,
+  "name": "「灯塔」",
+  "desc": "千星城的超级英雄，武装着博识学会最先进的科技成果，不遗余力地惩奸除恶，维护城市的和平。五年来，他数次拯救千星城的人民于大小灾难中。\\n有人指出，这些壮举绝不可能靠一人完成，而所谓「灯塔」也不过是由娱乐工业复合体包装打造出的虚假偶像。但人们已经全心期盼着有人能在他们陷入危机时扛起一切——只是他们并不知晓，「灯塔」的铠甲之下藏着某些更为幽暗的秘密……",
+  "monster_camp_id": 9,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1302,
+  "initial_delay_ratio": null,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8033020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8033020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803302001,
+          "skill_name": "光辉扫击",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 803302003,
+          "skill_name": "不屈正义",
+          "skill_desc": "进入【除恶】状态，自身获得一定层数【众愿】并使敌方全体获得【弱点无效】效果，下次行动施放【除恶务尽】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803302004,
+          "skill_name": "除恶务尽",
+          "skill_desc": "对我方全体造成大量物理属性伤害并使受到攻击的我方目标行动延后。施放该技能时，自身每持有1层【众愿】效果，使【除恶务尽】的伤害倍率提高一定比例，随后清空【众愿】层数，移除敌方全体的【弱点无效】和【鼓舞】效果。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 803302005,
+          "skill_name": "指引航向",
+          "skill_desc": "处于【除恶】状态时，敌方全体目标获得等同于「灯塔」【众愿】层数的【鼓舞】效果，每层使持有者受到的伤害降低。「灯塔」受到我方目标攻击后减少1层【众愿】，任意敌方目标对我方目标施放攻击后增加1层【众愿】。「灯塔」的【众愿】层数为0时，解除自身的控制类负面状态和【除恶】状态，行动延后并对敌方全体目标施加【失堕】效果，同时移除敌方全体目标的【鼓舞】效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803302002,
+          "skill_name": "正道战线",
+          "skill_desc": "召唤【千星戍卫】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803302001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4.642857,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803302001,
+          "skill_name": "光辉扫击",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 803302003,
+          "skill_name": "不屈正义",
+          "skill_desc": "进入【除恶】状态，自身获得一定层数【众愿】并使敌方全体获得【弱点无效】效果，下次行动施放【除恶务尽】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803302004,
+          "skill_name": "除恶务尽",
+          "skill_desc": "对我方全体造成大量物理属性伤害并使受到攻击的我方目标行动延后。施放该技能时，自身每持有1层【众愿】效果，使【除恶务尽】的伤害倍率提高一定比例，随后清空【众愿】层数，移除敌方全体的【弱点无效】和【鼓舞】效果。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 803302005,
+          "skill_name": "指引航向",
+          "skill_desc": "处于【除恶】状态时，敌方全体目标获得等同于「灯塔」【众愿】层数的【鼓舞】效果，每层使持有者受到的伤害降低。「灯塔」受到我方目标攻击后减少1层【众愿】，任意敌方目标对我方目标施放攻击后增加1层【众愿】。「灯塔」的【众愿】层数为0时，解除自身的控制类负面状态和【除恶】状态，行动延后并对敌方全体目标施加【失堕】效果，同时移除敌方全体目标的【鼓舞】效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803302002,
+          "skill_name": "正道战线",
+          "skill_desc": "召唤【千星戍卫】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803302002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.535714,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -4,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803302001,
+          "skill_name": "光辉扫击",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 803302003,
+          "skill_name": "不屈正义",
+          "skill_desc": "进入【除恶】状态，自身获得一定层数【众愿】并使敌方全体获得【弱点无效】效果，下次行动施放【除恶务尽】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803302004,
+          "skill_name": "除恶务尽",
+          "skill_desc": "对我方全体造成大量物理属性伤害并使受到攻击的我方目标行动延后。施放该技能时，自身每持有1层【众愿】效果，使【除恶务尽】的伤害倍率提高一定比例，随后清空【众愿】层数，移除敌方全体的【弱点无效】和【鼓舞】效果。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 803302005,
+          "skill_name": "指引航向",
+          "skill_desc": "处于【除恶】状态时，敌方全体目标获得等同于「灯塔」【众愿】层数的【鼓舞】效果，每层使持有者受到的伤害降低。「灯塔」受到我方目标攻击后减少1层【众愿】，任意敌方目标对我方目标施放攻击后增加1层【众愿】。「灯塔」的【众愿】层数为0时，解除自身的控制类负面状态和【除恶】状态，行动延后并对敌方全体目标施加【失堕】效果，同时移除敌方全体目标的【鼓舞】效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803302002,
+          "skill_name": "正道战线",
+          "skill_desc": "召唤【千星戍卫】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803302003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.714286,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803302001,
+          "skill_name": "光辉扫击",
+          "skill_desc": "对指定我方单体及其相邻目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 803302003,
+          "skill_name": "不屈正义",
+          "skill_desc": "进入【除恶】状态，自身获得一定层数【众愿】并使敌方全体获得【弱点无效】效果，下次行动施放【除恶务尽】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803302004,
+          "skill_name": "除恶务尽",
+          "skill_desc": "对我方全体造成大量物理属性伤害并使受到攻击的我方目标行动延后。施放该技能时，自身每持有1层【众愿】效果，使【除恶务尽】的伤害倍率提高一定比例，随后清空【众愿】层数，移除敌方全体的【弱点无效】和【鼓舞】效果。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 803302005,
+          "skill_name": "指引航向",
+          "skill_desc": "处于【除恶】状态时，敌方全体目标获得等同于「灯塔」【众愿】层数的【鼓舞】效果，每层使持有者受到的伤害降低。「灯塔」受到我方目标攻击后减少1层【众愿】，任意敌方目标对我方目标施放攻击后增加1层【众愿】。「灯塔」的【众愿】层数为0时，解除自身的控制类负面状态和【除恶】状态，行动延后并对敌方全体目标施加【失堕】效果，同时移除敌方全体目标的【鼓舞】效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803302002,
+          "skill_name": "正道战线",
+          "skill_desc": "召唤【千星戍卫】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8033020,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182004
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8033020,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182004
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8033020,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182004
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8033020,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182004
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8033020,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182004
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8033020,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182004
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8033020,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182004
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    }
+  ]
+}

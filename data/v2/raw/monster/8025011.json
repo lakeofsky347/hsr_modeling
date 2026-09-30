@@ -1,0 +1,877 @@
+{
+  "id": 8025011,
+  "name": "遮天蔽日的噬星蠹",
+  "desc": "阮•梅培育的「繁育」令使复制体，以残缺的姿态短暂现世。原型为继承虫皇之颚的巨蠹，能以口器凝聚裂解天体的死光，将破碎的群星作为诞育子嗣的温床，曾是寰宇蝗灾中的诸界噩梦之一。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 14880,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8025010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 120,
+  "stance_base": 600,
+  "stance_count": 3,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 8025011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802501101,
+          "skill_name": "王虫炮",
+          "skill_desc": "对指定我方单体造成量子属性伤害",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501102,
+          "skill_name": "辐裂蛰毒",
+          "skill_desc": "对指定我方单体造成量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态，同时召唤1只【蚀蛰虫】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 802501103,
+          "skill_name": "热解死光",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501104,
+          "skill_name": "同类相食",
+          "skill_desc": "消耗【虫卵】强化虫群召唤物。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501105,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501106,
+          "skill_name": "坍星之卵",
+          "skill_desc": "对我方全体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802501107,
+          "skill_name": "筑巢育卵",
+          "skill_desc": "进入蓄力状态，获得韧性保护，并获得一定数量的【虫卵】，持续直到下次行动。下次行动时对我方全体施放【坍星之卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501108,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501109,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501110,
+          "skill_name": "虫海吞噬",
+          "skill_desc": "受到攻击后，召唤虫群召唤物。弱点被击破时，对敌方全体造成量子属性伤害，使自身以外的敌方目标受到的伤害提高，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501111,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501112,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501113,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501114,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501115,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501116,
+          "skill_name": "无限繁殖",
+          "skill_desc": "每回合结束时获得一定数量的【虫卵】。受到【蛰亡语】或【蚀亡语】攻击时，失去1点【虫卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802501101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802501101,
+          "skill_name": "王虫炮",
+          "skill_desc": "对指定我方单体造成量子属性伤害",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501102,
+          "skill_name": "辐裂蛰毒",
+          "skill_desc": "对指定我方单体造成量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态，同时召唤1只【蚀蛰虫】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 802501103,
+          "skill_name": "热解死光",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501104,
+          "skill_name": "同类相食",
+          "skill_desc": "消耗【虫卵】强化虫群召唤物。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501105,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501106,
+          "skill_name": "坍星之卵",
+          "skill_desc": "对我方全体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802501107,
+          "skill_name": "筑巢育卵",
+          "skill_desc": "进入蓄力状态，获得韧性保护，并获得一定数量的【虫卵】，持续直到下次行动。下次行动时对我方全体施放【坍星之卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501108,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501109,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501110,
+          "skill_name": "虫海吞噬",
+          "skill_desc": "受到攻击后，召唤虫群召唤物。弱点被击破时，对敌方全体造成量子属性伤害，使自身以外的敌方目标受到的伤害提高，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501111,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501112,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501113,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501114,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501115,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501116,
+          "skill_name": "无限繁殖",
+          "skill_desc": "每回合结束时获得一定数量的【虫卵】。受到【蛰亡语】或【蚀亡语】攻击时，失去1点【虫卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802501102,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802501101,
+          "skill_name": "王虫炮",
+          "skill_desc": "对指定我方单体造成量子属性伤害",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501102,
+          "skill_name": "辐裂蛰毒",
+          "skill_desc": "对指定我方单体造成量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态，同时召唤1只【蚀蛰虫】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 802501103,
+          "skill_name": "热解死光",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501104,
+          "skill_name": "同类相食",
+          "skill_desc": "消耗【虫卵】强化虫群召唤物。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501105,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501106,
+          "skill_name": "坍星之卵",
+          "skill_desc": "对我方全体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802501107,
+          "skill_name": "筑巢育卵",
+          "skill_desc": "进入蓄力状态，获得韧性保护，并获得一定数量的【虫卵】，持续直到下次行动。下次行动时对我方全体施放【坍星之卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501108,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501109,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501110,
+          "skill_name": "虫海吞噬",
+          "skill_desc": "受到攻击后，召唤虫群召唤物。弱点被击破时，对敌方全体造成量子属性伤害，使自身以外的敌方目标受到的伤害提高，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501111,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501112,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501113,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501114,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501115,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501116,
+          "skill_name": "无限繁殖",
+          "skill_desc": "每回合结束时获得一定数量的【虫卵】。受到【蛰亡语】或【蚀亡语】攻击时，失去1点【虫卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802501103,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802501101,
+          "skill_name": "王虫炮",
+          "skill_desc": "对指定我方单体造成量子属性伤害",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501102,
+          "skill_name": "辐裂蛰毒",
+          "skill_desc": "对指定我方单体造成量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态，同时召唤1只【蚀蛰虫】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 802501103,
+          "skill_name": "热解死光",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501104,
+          "skill_name": "同类相食",
+          "skill_desc": "消耗【虫卵】强化虫群召唤物。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501105,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501106,
+          "skill_name": "坍星之卵",
+          "skill_desc": "对我方全体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802501107,
+          "skill_name": "筑巢育卵",
+          "skill_desc": "进入蓄力状态，获得韧性保护，并获得一定数量的【虫卵】，持续直到下次行动。下次行动时对我方全体施放【坍星之卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501108,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501109,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501110,
+          "skill_name": "虫海吞噬",
+          "skill_desc": "受到攻击后，召唤虫群召唤物。弱点被击破时，对敌方全体造成量子属性伤害，使自身以外的敌方目标受到的伤害提高，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501111,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501112,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501113,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501114,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501115,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501116,
+          "skill_name": "无限繁殖",
+          "skill_desc": "每回合结束时获得一定数量的【虫卵】。受到【蛰亡语】或【蚀亡语】攻击时，失去1点【虫卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802501104,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802501101,
+          "skill_name": "王虫炮",
+          "skill_desc": "对指定我方单体造成量子属性伤害",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501102,
+          "skill_name": "辐裂蛰毒",
+          "skill_desc": "对指定我方单体造成量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态，同时召唤1只【蚀蛰虫】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 802501103,
+          "skill_name": "热解死光",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501104,
+          "skill_name": "同类相食",
+          "skill_desc": "消耗【虫卵】强化虫群召唤物。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501105,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501106,
+          "skill_name": "坍星之卵",
+          "skill_desc": "对我方全体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802501107,
+          "skill_name": "筑巢育卵",
+          "skill_desc": "进入蓄力状态，获得韧性保护，并获得一定数量的【虫卵】，持续直到下次行动。下次行动时对我方全体施放【坍星之卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501108,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501109,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501110,
+          "skill_name": "虫海吞噬",
+          "skill_desc": "受到攻击后，召唤虫群召唤物。弱点被击破时，对敌方全体造成量子属性伤害，使自身以外的敌方目标受到的伤害提高，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501111,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501112,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501113,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501114,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501115,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501116,
+          "skill_name": "无限繁殖",
+          "skill_desc": "每回合结束时获得一定数量的【虫卵】。受到【蛰亡语】或【蚀亡语】攻击时，失去1点【虫卵】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8025011,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025011,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025011,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025011,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025011,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025011,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025011,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

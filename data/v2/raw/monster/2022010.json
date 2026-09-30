@@ -1,0 +1,1428 @@
+{
+  "id": 2022010,
+  "name": "魔阴身士卒",
+  "desc": "不知何故陷入狂乱的仙舟士兵，躯壳已不见人形，只余无穷的增生变异。相传无量寿中，仙舟人会堕入名为「魔阴身」的状态。",
+  "monster_camp_id": 2,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 111.6,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2022010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 83,
+  "stance_base": 60,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 2022010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201001,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 61,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201007,
+      "attack_modify_ratio": 0.555556,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.75,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 100,
+      "hp_modify_ratio": 16.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Wind",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201015,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201016,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.083333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201017,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4.166667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 17,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201018,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4.166667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 17,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201019,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4.166667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 17,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202201020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 6.25,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 17,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202201001,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202201002,
+          "skill_name": "复起",
+          "skill_desc": "受到致命攻击时回复一定生命值。该效果无时间限制，但可以被解除。该效果在单场战斗中仅能触发1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202201003,
+          "skill_name": "梢杀",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2022010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    }
+  ]
+}

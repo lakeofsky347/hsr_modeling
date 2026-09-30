@@ -1,0 +1,557 @@
+{
+  "id": 2022082,
+  "name": "缃叶之杪",
+  "desc": "随玄鹿足迹而生的建木枝梢。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 325.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2022080.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 144,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 2022082,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202208201,
+          "skill_name": "繁生",
+          "skill_desc": "强化【弗有垂暮的不老仙】，使其攻击力提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208202,
+          "skill_name": "复还",
+          "skill_desc": "进入反击状态，在被我方单体击中后立即对该目标施放【折叶】技能。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208203,
+          "skill_name": "折叶",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使该目标陷入【触电】状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202208204,
+          "skill_name": "机敏图腾",
+          "skill_desc": "当自身在场时，【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208205,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭该单位后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202208201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202208201,
+          "skill_name": "繁生",
+          "skill_desc": "强化【弗有垂暮的不老仙】，使其攻击力提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208202,
+          "skill_name": "复还",
+          "skill_desc": "进入反击状态，在被我方单体击中后立即对该目标施放【折叶】技能。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208203,
+          "skill_name": "折叶",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使该目标陷入【触电】状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202208204,
+          "skill_name": "机敏图腾",
+          "skill_desc": "当自身在场时，【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208205,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭该单位后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202208202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202208201,
+          "skill_name": "繁生",
+          "skill_desc": "强化【弗有垂暮的不老仙】，使其攻击力提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208202,
+          "skill_name": "复还",
+          "skill_desc": "进入反击状态，在被我方单体击中后立即对该目标施放【折叶】技能。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208203,
+          "skill_name": "折叶",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使该目标陷入【触电】状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202208204,
+          "skill_name": "机敏图腾",
+          "skill_desc": "当自身在场时，【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208205,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭该单位后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202208203,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202208201,
+          "skill_name": "繁生",
+          "skill_desc": "强化【弗有垂暮的不老仙】，使其攻击力提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208202,
+          "skill_name": "复还",
+          "skill_desc": "进入反击状态，在被我方单体击中后立即对该目标施放【折叶】技能。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208203,
+          "skill_name": "折叶",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使该目标陷入【触电】状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202208204,
+          "skill_name": "机敏图腾",
+          "skill_desc": "当自身在场时，【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208205,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭该单位后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202208204,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.571429,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202208201,
+          "skill_name": "繁生",
+          "skill_desc": "强化【弗有垂暮的不老仙】，使其攻击力提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208202,
+          "skill_name": "复还",
+          "skill_desc": "进入反击状态，在被我方单体击中后立即对该目标施放【折叶】技能。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208203,
+          "skill_name": "折叶",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使该目标陷入【触电】状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202208204,
+          "skill_name": "机敏图腾",
+          "skill_desc": "当自身在场时，【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202208205,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭该单位后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2022082,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022082,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022082,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022082,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022082,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022082,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022082,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,667 @@
+{
+  "id": 3002012,
+  "name": "蕉研组的助蕉",
+  "desc": "原本是搭载了通用教材的「圆幕先生」，受到模因病毒的影响，教材变成了蕉材。在蕉石般的严厉与蕉阳般的热情间转换，必不可少的猿工，值得蕉往的猴友。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3002011.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 110,
+  "stance_base": 450,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 3002012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201201,
+          "skill_name": "因材施蕉",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使随机我方单体恢复能量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201202,
+          "skill_name": "蕉吓学期",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【课堂频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201201,
+          "skill_name": "因材施蕉",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使随机我方单体恢复能量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201202,
+          "skill_name": "蕉吓学期",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【课堂频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201201,
+          "skill_name": "因材施蕉",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使随机我方单体恢复能量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201202,
+          "skill_name": "蕉吓学期",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【课堂频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201203,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201201,
+          "skill_name": "因材施蕉",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使随机我方单体恢复能量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201202,
+          "skill_name": "蕉吓学期",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【课堂频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201204,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201201,
+          "skill_name": "因材施蕉",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使随机我方单体恢复能量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201202,
+          "skill_name": "蕉吓学期",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【课堂频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300201205,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.166667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -270,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300201201,
+          "skill_name": "因材施蕉",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使随机我方单体恢复能量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201202,
+          "skill_name": "蕉吓学期",
+          "skill_desc": "对我方全体造成少量量子属性伤害，并使我方全体能量减少。只能在【课堂频道】状态下使用。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300201206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3002012,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002012,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002012,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002012,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002012,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002012,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002012,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    }
+  ]
+}

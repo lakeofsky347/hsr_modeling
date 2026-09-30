@@ -1,0 +1,205 @@
+{
+  "id": 5012061,
+  "name": "助手涂鸦•催稿",
+  "desc": "如果没有外力逼迫，很多富有才华的创作者，终其一生也憋不出一个字。助手涂鸦便是为解决这一社会问题而诞生的幻造种。\\n只不过，它们时不时会采取一些过于激烈的手段，令创作者不得不出手反抗，这又演变成了全新的社会问题。\\n这只助手涂鸦最擅长执行催稿工作——好了，不要藏了，你玩失踪也没有用。我数到三……",
+  "monster_camp_id": 17,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 232.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5012060.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 144,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 5012061,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.5
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501206101,
+          "skill_name": "动！动起来！",
+          "skill_desc": "对指定我方单体目标造成雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5012061,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012061,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012061,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012061,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012061,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012061,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5012061,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    }
+  ]
+}

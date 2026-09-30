@@ -1,0 +1,305 @@
+{
+  "id": 5013031,
+  "name": "画板孔雀（错误）",
+  "desc": "代码受到影响后的错误投影。参照本体为画板孔雀，诞生于绘师学校的异常，来自于「笔自己动起来画画」这个流言。\\n集合了无才能绘师的自怨自艾、对上学的恐惧，人类的怠惰心…最终变成了现在这个样子。",
+  "monster_camp_id": 17,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1674,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5013030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 450,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 5013031,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 501303101,
+          "skill_name": "妙手",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 501303102,
+          "skill_name": "扫色",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并消耗1点<u>【颜料】</u>造成对应属性的附加伤害。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {
+            "250130303": {
+              "name": "颜料",
+              "desc": "【画板孔雀】处于【色彩】状态施放技能时，会消耗【颜料】造成对应属性的附加伤害。每种属性对应一种【颜料】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501303103,
+          "skill_name": "挥舞斑斓",
+          "skill_desc": "对我方全体造成物理属性伤害，并消耗1点<u>【颜料】</u>造成对应属性的附加伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {
+            "250130303": {
+              "name": "颜料",
+              "desc": "【画板孔雀】处于【色彩】状态施放技能时，会消耗【颜料】造成对应属性的附加伤害。每种属性对应一种【颜料】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501303104,
+          "skill_name": "调色盘溃流",
+          "skill_desc": "对我方全体造成物理属性伤害，并消耗剩余所有<u>【颜料】</u>造成对应属性的附加伤害。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {
+            "250130303": {
+              "name": "颜料",
+              "desc": "【画板孔雀】处于【色彩】状态施放技能时，会消耗【颜料】造成对应属性的附加伤害。每种属性对应一种【颜料】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501303105,
+          "skill_name": "色相溢出",
+          "skill_desc": "<u>【无色】</u>状态下受到我方目标攻击后，根据攻击者的属性，获得1点<u>【颜料】</u>，如果在受到攻击时受到了欢愉伤害，则额外获得一定数量的<u>【颜料】</u>。\\n当<u>【颜料】</u>达到6点时，进入<u>【色彩】</u>状态。\\n处于<u>【无色】</u>状态时，韧性不会低于1点。\\n全属性抗性提高，弱点被击破时移除。从弱点击破状态恢复时重新获得。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "250130301": {
+              "name": "无色",
+              "desc": "受到我方目标攻击后，根据攻击者的属性，获得1点【颜料】，如果在受到攻击时受到了欢愉伤害，则额外获得一定数量的【颜料】。当【颜料】达到6点时，进入【色彩】状态，此时根据已获得的【颜料】的种类，获得对应属性的弱点并降低对应属性抗性。处于【无色】状态时，韧性不会低于1点。",
+              "param": []
+            },
+            "250130302": {
+              "name": "色彩",
+              "desc": "施放技能时，会消耗【颜料】造成对应属性的附加伤害，回合结束时若已消耗所有【颜料】，则进入【无色】状态，并移除由【颜料】带来的弱点和属性抗性降低。被击破时，消耗所有【颜料】对自身造成最大生命值一定百分比的附加伤害。",
+              "param": []
+            },
+            "250130303": {
+              "name": "颜料",
+              "desc": "【画板孔雀】处于【色彩】状态施放技能时，会消耗【颜料】造成对应属性的附加伤害。每种属性对应一种【颜料】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501303106,
+          "skill_name": "色差临界",
+          "skill_desc": "消耗<u>【颜料】</u>对我方目标造成附加伤害时，若我方目标的属性与附加伤害的属性不同，则该附加伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "250130303": {
+              "name": "颜料",
+              "desc": "【画板孔雀】处于【色彩】状态施放技能时，会消耗【颜料】造成对应属性的附加伤害。每种属性对应一种【颜料】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501303107,
+          "skill_name": "调色艺术",
+          "skill_desc": "进入<u>【色彩】</u>状态时，根据当前数量最多的<u>【颜料】</u>的数量，令我方获得一定数量的<u>笑点</u>，然后根据已获得的<u>【颜料】</u>的种类，获得对应属性的弱点，并根据<u>【颜料】</u>的数量降低对应属性抗性。\\n处于<u>【色彩】</u>状态下回合结束时，若已消耗所有<u>【颜料】</u>，则进入<u>【无色】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "250130301": {
+              "name": "无色",
+              "desc": "受到我方目标攻击后，根据攻击者的属性，获得1点【颜料】，如果在受到攻击时受到了欢愉伤害，则额外获得一定数量的【颜料】。当【颜料】达到6点时，进入【色彩】状态，此时根据已获得的【颜料】的种类，获得对应属性的弱点并降低对应属性抗性。处于【无色】状态时，韧性不会低于1点。",
+              "param": []
+            },
+            "250130302": {
+              "name": "色彩",
+              "desc": "施放技能时，会消耗【颜料】造成对应属性的附加伤害，回合结束时若已消耗所有【颜料】，则进入【无色】状态，并移除由【颜料】带来的弱点和属性抗性降低。被击破时，消耗所有【颜料】对自身造成最大生命值一定百分比的附加伤害。",
+              "param": []
+            },
+            "250130303": {
+              "name": "颜料",
+              "desc": "【画板孔雀】处于【色彩】状态施放技能时，会消耗【颜料】造成对应属性的附加伤害。每种属性对应一种【颜料】。",
+              "param": []
+            },
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5013031,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013031,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013031,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013031,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013031,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013031,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013031,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    }
+  ]
+}

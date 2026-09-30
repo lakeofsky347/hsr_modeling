@@ -1,0 +1,1066 @@
+{
+  "id": 1022010,
+  "name": "永冬灾影",
+  "desc": "寒潮降临后逡巡在裂界中的虚影。它扭曲地模仿着银鬃铁卫的身形，其甲胄着装与贝洛伯格的战士们同样严整，头颅却被没有五官的冰棱所取代。\\n战斗中永冬灾影会挥舞冰造的斧刃，延缓敌人的行动。",
+  "monster_camp_id": 3,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 139.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1022010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 60,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 1022010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201002,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.6,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201003,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.933333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 90,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201004,
+      "attack_modify_ratio": 1.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.4,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.3,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 33,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201008,
+      "attack_modify_ratio": 0.8,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.6,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201010,
+      "attack_modify_ratio": 0.25,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.183333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201011,
+      "attack_modify_ratio": 2,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.166667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.066667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201014,
+      "attack_modify_ratio": 0.4,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.633333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -50,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201015,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201016,
+      "attack_modify_ratio": 0.4,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201017,
+      "attack_modify_ratio": 0.4,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201018,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 102201019,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 102201001,
+          "skill_name": "霜冻重击",
+          "skill_desc": "对指定我方单体造成冰属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1022010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1022010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1022010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1022010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1022010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1022010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1022010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    }
+  ]
+}

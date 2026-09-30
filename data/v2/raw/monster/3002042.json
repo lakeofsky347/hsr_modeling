@@ -1,0 +1,697 @@
+{
+  "id": 3002042,
+  "name": "蕉研组的筑梦蕉师",
+  "desc": "原本是搭载了筑梦学院教材的「发条暴徒」，受到模因病毒的影响，教材变成了蕉材。工地中蕉美的身姿有如铁壁，不时发出猴亮的铃声，蕉醒沉眠的猴生与猴友。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": null,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3002041.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 270,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 3002042,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300204201,
+          "skill_name": "下课铃响，赶紧散场！",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使我方全体行动提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204202,
+          "skill_name": "上课铃，都坐好！",
+          "skill_desc": "使敌方全体行动提前。只能在【课堂频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204207,
+          "skill_name": "提问环节",
+          "skill_desc": "对指定我方单体目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300204201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300204201,
+          "skill_name": "下课铃响，赶紧散场！",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使我方全体行动提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204202,
+          "skill_name": "上课铃，都坐好！",
+          "skill_desc": "使敌方全体行动提前。只能在【课堂频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204207,
+          "skill_name": "提问环节",
+          "skill_desc": "对指定我方单体目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300204202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300204201,
+          "skill_name": "下课铃响，赶紧散场！",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使我方全体行动提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204202,
+          "skill_name": "上课铃，都坐好！",
+          "skill_desc": "使敌方全体行动提前。只能在【课堂频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204207,
+          "skill_name": "提问环节",
+          "skill_desc": "对指定我方单体目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300204203,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300204201,
+          "skill_name": "下课铃响，赶紧散场！",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使我方全体行动提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204202,
+          "skill_name": "上课铃，都坐好！",
+          "skill_desc": "使敌方全体行动提前。只能在【课堂频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204207,
+          "skill_name": "提问环节",
+          "skill_desc": "对指定我方单体目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300204204,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300204201,
+          "skill_name": "下课铃响，赶紧散场！",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使我方全体行动提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204202,
+          "skill_name": "上课铃，都坐好！",
+          "skill_desc": "使敌方全体行动提前。只能在【课堂频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204207,
+          "skill_name": "提问环节",
+          "skill_desc": "对指定我方单体目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300204205,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.166667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -90,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300204201,
+          "skill_name": "下课铃响，赶紧散场！",
+          "skill_desc": "从【课堂频道】状态转变为【课间频道】状态时，使我方全体行动提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204202,
+          "skill_name": "上课铃，都坐好！",
+          "skill_desc": "使敌方全体行动提前。只能在【课堂频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204203,
+          "skill_name": "更换蕉程",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204204,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态，并陷入弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204206,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300204207,
+          "skill_name": "提问环节",
+          "skill_desc": "对指定我方单体目标造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3002042,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002042,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002042,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002042,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002042,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002042,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002042,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    }
+  ]
+}

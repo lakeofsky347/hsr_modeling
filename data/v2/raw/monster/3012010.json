@@ -1,0 +1,263 @@
+{
+  "id": 3012010,
+  "name": "忆域迷因「何物藏于镜中」",
+  "desc": "蕴含特定认知的实体，由忆域中的潜意识碎片堆积而成。\\n生命通过镜像认知世界，建构自我的认知。无形的模因在镜中倒映，留下千变万化的迷影。",
+  "monster_camp_id": 11,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 148.8,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3012010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 120,
+  "stance_base": 60,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 3012010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301201001,
+          "skill_name": "镜像认同",
+          "skill_desc": "变身为其他敌方单位，并复制其技能。变身后继承自身的基础属性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301201002,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 301201001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301201001,
+          "skill_name": "镜像认同",
+          "skill_desc": "变身为其他敌方单位，并复制其技能。变身后继承自身的基础属性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301201002,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3012010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    }
+  ]
+}

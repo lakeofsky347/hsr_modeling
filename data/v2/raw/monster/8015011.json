@@ -1,0 +1,96 @@
+{
+  "id": 8015011,
+  "name": "末日兽",
+  "desc": "「反物质军团」以黄昏古兽的残片为基「战争熔炉」的万骸哀怨为引所铸炼而成「末日兽」之一。怨灵的痴缠化作有形之手，旧日的灾影凝为掩映诸天之尾。「末日兽」拘禁了未释然亦未死灭的众生意志。或嗔怒，或忧恸，或妄喜——迷相既露，诸邪肆动。「末日兽」的核心为一颗暗物质驱动的引擎。",
+  "monster_camp_id": 6,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 697.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8015010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": null,
+  "stance_base": null,
+  "stance_count": null,
+  "status_resistance_base": 1,
+  "child": [
+    {
+      "id": 8015011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 801501101,
+          "skill_name": "古兽余威",
+          "skill_desc": "当【反物质引擎】、【灾虐的右手】、【黎明的左手】未被全部击溃时，无法攻击末日兽。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8015011,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015011,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015011,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015011,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015011,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015011,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8015011,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

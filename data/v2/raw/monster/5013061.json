@@ -1,0 +1,225 @@
+{
+  "id": 5013061,
+  "name": "破晓战队•曙光",
+  "desc": "性格张扬的战士，虽然是队伍里年纪最大的姐姐，但其实并不太聪明，自认为有责任监护队伍里的小屁孩，最终却总是扮演耍宝的搞笑角色。\\n「虽然我确实说过会从蚊虫手中保护你们的但这个蚊虫是不是有点过于巨大了…不要靠近我啊啊啊啊啊啊！！！！」\\n驱散永夜！光芒如炬！辉耀的祈愿，曙光战士！\\n暗夜终尽，黎明降临！破晓战队，登场！",
+  "monster_camp_id": 17,
+  "attack_base": 3,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 465,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5013060.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 600,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 5013061,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.5
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501306101,
+          "skill_name": "破晓战刃",
+          "skill_desc": "对指定我方单体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501306102,
+          "skill_name": "破晓飞轮",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5013061,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013061,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013061,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013061,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013061,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013061,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013061,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    }
+  ]
+}

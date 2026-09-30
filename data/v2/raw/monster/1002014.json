@@ -1,0 +1,205 @@
+{
+  "id": 1002014,
+  "name": "无尽寒冬之槊",
+  "desc": "可可利亚召唤出的巨大冰矛，环绕着能如刀刃般撕裂肉身的极寒气流。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 148.8,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1002014.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 1002014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100201401,
+          "skill_name": "永冬余响",
+          "skill_desc": "对我方全体造成少量冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1002014,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002014,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002014,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002014,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002014,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002014,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002014,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    }
+  ]
+}

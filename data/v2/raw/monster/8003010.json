@@ -1,0 +1,1551 @@
+{
+  "id": 8003010,
+  "name": "外宇宙之冰",
+  "desc": "不属此世的怪异生命，自星核带来的裂界中成长，寄生在世界的根基结构中汲取能量，其甲胄外壳上倒映着幽深黯淡的星空。\\n战斗中，外宇宙之冰能轻易将敌人冻结凝固。",
+  "monster_camp_id": 3,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 930,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8003010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 100,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8003010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -60,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301002,
+      "attack_modify_ratio": 1.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.8,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -60,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.65,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301004,
+      "attack_modify_ratio": 1.111111,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 3.6,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 33,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301007,
+      "attack_modify_ratio": 0.8,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.45,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -60,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301008,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 24,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 180,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301009,
+      "attack_modify_ratio": 0.8,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301010,
+      "attack_modify_ratio": 0.8,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.75,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -60,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -10,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301012,
+      "attack_modify_ratio": 0.625,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -10,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -60,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.6,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 60,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 8.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301015,
+      "attack_modify_ratio": 1.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.75,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 50,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -60,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301016,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.7,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 300,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301018,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.6,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 8.25,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800301021,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800301001,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成少量冰属性伤害。若自身处于【冰点】状态，对冻结状态的我方单体施放攻击后造成额外的冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800301002,
+          "skill_name": "汲取霜晶",
+          "skill_desc": "使自身进入【冰点】状态，之后的攻击可以施放【永冬之雨】。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800301003,
+          "skill_name": "永冬之雨",
+          "skill_desc": "只有在【冰点】状态下才会施放该技能。对我方全体造成少量冰属性伤害，并有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800301004,
+          "skill_name": "叹息之寒",
+          "skill_desc": "对指定我方单体造成冰属性伤害。若自身处于【冰点】状态，则有概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8003010,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003010,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003010,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003010,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003010,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003010,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003010,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    }
+  ]
+}

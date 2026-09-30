@@ -1,0 +1,2675 @@
+{
+  "id": 1013020,
+  "name": "自动机兵•齿狼",
+  "desc": "以旧世界遗留的科技拼凑制造的自动机器单元，少见的人形机械，其右臂部分统一装置着链锯，似乎曾用于采集或建造作业。\\n战斗中，自动机兵「齿狼」的链锯会造成裂伤，令对手持续损失生命值。",
+  "monster_camp_id": 1,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1023,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1013020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 1013020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302001,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.818182,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302002,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.181818,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 56,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302003,
+      "attack_modify_ratio": 1.25,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.090909,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -34,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 60,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.636364,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 3.636364,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 60,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302007,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -54,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302008,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.463636,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.909091,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 60,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Wind",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.818182,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.954545,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.427273,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302015,
+      "attack_modify_ratio": 0.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.272727,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -22,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -150,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302016,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.840909,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302017,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.181818,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 56,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302020,
+      "attack_modify_ratio": 3.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.709091,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -24,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302021,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302022,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -90,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302023,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.25,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302024,
+      "attack_modify_ratio": 0.4,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.136364,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -44,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302025,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.727273,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302026,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.409091,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -24,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302027,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -90,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302028,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302029,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -90,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302030,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.909091,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302031,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 16.363636,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 36,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 1200,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302032,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 7.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302033,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302034,
+      "attack_modify_ratio": 0.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.818182,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -44,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302035,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302036,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101302037,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.909091,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302001,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。若施放本技能时该目标未持有护盾，则再对我方随机单体施放1次【解体拆除】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302002,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302003,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302004,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1013020,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013020,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013020,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013020,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013020,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013020,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013020,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    }
+  ]
+}

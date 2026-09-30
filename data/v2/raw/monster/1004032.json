@@ -1,0 +1,176 @@
+{
+  "id": 1004032,
+  "name": "布洛妮娅（幻象）",
+  "desc": "贝洛伯格守护者的继任者，银鬃铁卫的统帅。\\n布洛妮娅会使用多种战术攻击敌人，并大幅提升友军的作战能力。出现于此的是基于你的记忆模拟出的幻影。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 3952.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1004030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 119,
+  "stance_base": 540,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 1004032,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100403201,
+          "skill_name": "驭风的子弹",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100403202,
+          "skill_name": "作战再部署",
+          "skill_desc": "解除指定除布洛妮娅外的敌方单体的全部负面效果，并使该目标立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403203,
+          "skill_name": "增援协同",
+          "skill_desc": "召唤【银鬃炮手】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403204,
+          "skill_name": "压制射击",
+          "skill_desc": "对指定我方单体造成风属性伤害，并使受到攻击的我方目标行动延后。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 100403205,
+          "skill_name": "行军号令",
+          "skill_desc": "使敌方全体的速度提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100403206,
+          "skill_name": "一鼓作气",
+          "skill_desc": "当布洛妮娅的回合开始时，小幅提高自身的速度和攻击力，此效果可叠加。该效果在布洛妮娅被击破时会被清除。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 100403207,
+          "skill_name": "同仇敌忾",
+          "skill_desc": "当杰帕德陷入无法战斗的状态时，将立即行动，进入强化状态，提高自身的速度。此状态下，布洛妮娅将会召唤更多的【银鬃炮手】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 100403208,
+          "skill_name": "默契搭档",
+          "skill_desc": "杰帕德和布洛妮娅会轮流进入主攻状态和辅助状态。当处于主攻状态时，自身会解除韧性保护并正常行动。当处于辅助状态时，降低自身的速度，获得韧性保护并仅施放【增援协同】或【作战再部署】。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 100403209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1004032,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004032,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004032,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004032,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004032,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004032,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1004032,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

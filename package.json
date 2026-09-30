@@ -1,0 +1,14 @@
+{
+  "name": "hsr-elation-team-sim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "银狼LV.999 / 火花 / 真珠 / 星神★阿哈 欢愉四人队完美轴伤害模拟器（数据源 hsr.nanoka.cc 4.6.51）",
+  "scripts": {
+    "test": "node --test tests/",
+    "sim": "node bin/hsr-sim.mjs",
+    "build": "node scripts/build-ui.mjs",
+    "all": "npm run test && npm run build"
+  },
+  "engines": { "node": ">=18" }
+}

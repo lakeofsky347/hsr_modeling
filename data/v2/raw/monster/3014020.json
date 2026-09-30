@@ -1,0 +1,939 @@
+{
+  "id": 3014020,
+  "name": "忆域迷因「何物朝向死亡」",
+  "desc": "蕴含特定认知的实体，由忆域中的潜意识碎片堆积而成。\\n神秘危险的忆域迷因，被视作梦中不应存在的「死亡」。它的邪影游荡于十二时分，所及之处必有不测之祸，以利刃散布噩耗，以死荫笼罩美梦。",
+  "monster_camp_id": 11,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 2046,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3014020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 144,
+  "stance_base": 720,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3014020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301402001,
+          "skill_name": "葬仪之吻",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 301402002,
+          "skill_name": "沦没黑雨",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 301402003,
+          "skill_name": "锋锐悼词",
+          "skill_desc": "大幅提升自身造成的伤害，持续1回合，陷入弱点击破状态后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402004,
+          "skill_name": "光明消歇",
+          "skill_desc": "进入【白日西沉】状态。每当我方施放普攻、战技、终结技时叠加1层，当【白日西沉】叠加至3层时，立即对上一个行动的我方施放【已在黄昏失色】。施放过一次【已在黄昏失色】或被弱点击破后解除该状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402005,
+          "skill_name": "已在黄昏失色",
+          "skill_desc": "立即对上一名施放普攻、战技、终结技的我方目标发动致命攻击，使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402006,
+          "skill_name": "步入良夜",
+          "skill_desc": "进入【夜幕将临】状态，为我方全体恢复能量，期间会锁定2名最先行动的我方目标。下次行动时使用【如水逝于水中】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402007,
+          "skill_name": "如水逝于水中",
+          "skill_desc": "立即对所有被锁定的我方目标发动致命攻击，使其陷入【梦死】状态。如果没有被锁定的目标，则随机对2名我方目标发动致命攻击并使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402009,
+          "skill_name": "无从凭吊的荒场",
+          "skill_desc": "每当我方目标陷入【梦死】状态时，召唤一个对应的【永眠墓碣】；当我方全体陷入【梦死】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 301402001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.909091,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301402001,
+          "skill_name": "葬仪之吻",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 301402002,
+          "skill_name": "沦没黑雨",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 301402003,
+          "skill_name": "锋锐悼词",
+          "skill_desc": "大幅提升自身造成的伤害，持续1回合，陷入弱点击破状态后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402004,
+          "skill_name": "光明消歇",
+          "skill_desc": "进入【白日西沉】状态。每当我方施放普攻、战技、终结技时叠加1层，当【白日西沉】叠加至3层时，立即对上一个行动的我方施放【已在黄昏失色】。施放过一次【已在黄昏失色】或被弱点击破后解除该状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402005,
+          "skill_name": "已在黄昏失色",
+          "skill_desc": "立即对上一名施放普攻、战技、终结技的我方目标发动致命攻击，使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402006,
+          "skill_name": "步入良夜",
+          "skill_desc": "进入【夜幕将临】状态，为我方全体恢复能量，期间会锁定2名最先行动的我方目标。下次行动时使用【如水逝于水中】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402007,
+          "skill_name": "如水逝于水中",
+          "skill_desc": "立即对所有被锁定的我方目标发动致命攻击，使其陷入【梦死】状态。如果没有被锁定的目标，则随机对2名我方目标发动致命攻击并使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402009,
+          "skill_name": "无从凭吊的荒场",
+          "skill_desc": "每当我方目标陷入【梦死】状态时，召唤一个对应的【永眠墓碣】；当我方全体陷入【梦死】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 301402002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.136364,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301402001,
+          "skill_name": "葬仪之吻",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 301402002,
+          "skill_name": "沦没黑雨",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 301402003,
+          "skill_name": "锋锐悼词",
+          "skill_desc": "大幅提升自身造成的伤害，持续1回合，陷入弱点击破状态后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402004,
+          "skill_name": "光明消歇",
+          "skill_desc": "进入【白日西沉】状态。每当我方施放普攻、战技、终结技时叠加1层，当【白日西沉】叠加至3层时，立即对上一个行动的我方施放【已在黄昏失色】。施放过一次【已在黄昏失色】或被弱点击破后解除该状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402005,
+          "skill_name": "已在黄昏失色",
+          "skill_desc": "立即对上一名施放普攻、战技、终结技的我方目标发动致命攻击，使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402006,
+          "skill_name": "步入良夜",
+          "skill_desc": "进入【夜幕将临】状态，为我方全体恢复能量，期间会锁定2名最先行动的我方目标。下次行动时使用【如水逝于水中】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402007,
+          "skill_name": "如水逝于水中",
+          "skill_desc": "立即对所有被锁定的我方目标发动致命攻击，使其陷入【梦死】状态。如果没有被锁定的目标，则随机对2名我方目标发动致命攻击并使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402009,
+          "skill_name": "无从凭吊的荒场",
+          "skill_desc": "每当我方目标陷入【梦死】状态时，召唤一个对应的【永眠墓碣】；当我方全体陷入【梦死】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 301402003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301402001,
+          "skill_name": "葬仪之吻",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 301402002,
+          "skill_name": "沦没黑雨",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 301402003,
+          "skill_name": "锋锐悼词",
+          "skill_desc": "大幅提升自身造成的伤害，持续1回合，陷入弱点击破状态后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402004,
+          "skill_name": "光明消歇",
+          "skill_desc": "进入【白日西沉】状态。每当我方施放普攻、战技、终结技时叠加1层，当【白日西沉】叠加至3层时，立即对上一个行动的我方施放【已在黄昏失色】。施放过一次【已在黄昏失色】或被弱点击破后解除该状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402005,
+          "skill_name": "已在黄昏失色",
+          "skill_desc": "立即对上一名施放普攻、战技、终结技的我方目标发动致命攻击，使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402006,
+          "skill_name": "步入良夜",
+          "skill_desc": "进入【夜幕将临】状态，为我方全体恢复能量，期间会锁定2名最先行动的我方目标。下次行动时使用【如水逝于水中】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402007,
+          "skill_name": "如水逝于水中",
+          "skill_desc": "立即对所有被锁定的我方目标发动致命攻击，使其陷入【梦死】状态。如果没有被锁定的目标，则随机对2名我方目标发动致命攻击并使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402009,
+          "skill_name": "无从凭吊的荒场",
+          "skill_desc": "每当我方目标陷入【梦死】状态时，召唤一个对应的【永眠墓碣】；当我方全体陷入【梦死】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 301402004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301402001,
+          "skill_name": "葬仪之吻",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 301402002,
+          "skill_name": "沦没黑雨",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 301402003,
+          "skill_name": "锋锐悼词",
+          "skill_desc": "大幅提升自身造成的伤害，持续1回合，陷入弱点击破状态后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402004,
+          "skill_name": "光明消歇",
+          "skill_desc": "进入【白日西沉】状态。每当我方施放普攻、战技、终结技时叠加1层，当【白日西沉】叠加至3层时，立即对上一个行动的我方施放【已在黄昏失色】。施放过一次【已在黄昏失色】或被弱点击破后解除该状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402005,
+          "skill_name": "已在黄昏失色",
+          "skill_desc": "立即对上一名施放普攻、战技、终结技的我方目标发动致命攻击，使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402006,
+          "skill_name": "步入良夜",
+          "skill_desc": "进入【夜幕将临】状态，为我方全体恢复能量，期间会锁定2名最先行动的我方目标。下次行动时使用【如水逝于水中】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402007,
+          "skill_name": "如水逝于水中",
+          "skill_desc": "立即对所有被锁定的我方目标发动致命攻击，使其陷入【梦死】状态。如果没有被锁定的目标，则随机对2名我方目标发动致命攻击并使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402009,
+          "skill_name": "无从凭吊的荒场",
+          "skill_desc": "每当我方目标陷入【梦死】状态时，召唤一个对应的【永眠墓碣】；当我方全体陷入【梦死】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 301402005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.272727,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301402001,
+          "skill_name": "葬仪之吻",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 301402002,
+          "skill_name": "沦没黑雨",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 301402003,
+          "skill_name": "锋锐悼词",
+          "skill_desc": "大幅提升自身造成的伤害，持续1回合，陷入弱点击破状态后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402004,
+          "skill_name": "光明消歇",
+          "skill_desc": "进入【白日西沉】状态。每当我方施放普攻、战技、终结技时叠加1层，当【白日西沉】叠加至3层时，立即对上一个行动的我方施放【已在黄昏失色】。施放过一次【已在黄昏失色】或被弱点击破后解除该状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402005,
+          "skill_name": "已在黄昏失色",
+          "skill_desc": "立即对上一名施放普攻、战技、终结技的我方目标发动致命攻击，使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402006,
+          "skill_name": "步入良夜",
+          "skill_desc": "进入【夜幕将临】状态，为我方全体恢复能量，期间会锁定2名最先行动的我方目标。下次行动时使用【如水逝于水中】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402007,
+          "skill_name": "如水逝于水中",
+          "skill_desc": "立即对所有被锁定的我方目标发动致命攻击，使其陷入【梦死】状态。如果没有被锁定的目标，则随机对2名我方目标发动致命攻击并使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402009,
+          "skill_name": "无从凭吊的荒场",
+          "skill_desc": "每当我方目标陷入【梦死】状态时，召唤一个对应的【永眠墓碣】；当我方全体陷入【梦死】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 301402006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301402001,
+          "skill_name": "葬仪之吻",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 301402002,
+          "skill_name": "沦没黑雨",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 301402003,
+          "skill_name": "锋锐悼词",
+          "skill_desc": "大幅提升自身造成的伤害，持续1回合，陷入弱点击破状态后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402004,
+          "skill_name": "光明消歇",
+          "skill_desc": "进入【白日西沉】状态。每当我方施放普攻、战技、终结技时叠加1层，当【白日西沉】叠加至3层时，立即对上一个行动的我方施放【已在黄昏失色】。施放过一次【已在黄昏失色】或被弱点击破后解除该状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402005,
+          "skill_name": "已在黄昏失色",
+          "skill_desc": "立即对上一名施放普攻、战技、终结技的我方目标发动致命攻击，使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402006,
+          "skill_name": "步入良夜",
+          "skill_desc": "进入【夜幕将临】状态，为我方全体恢复能量，期间会锁定2名最先行动的我方目标。下次行动时使用【如水逝于水中】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402007,
+          "skill_name": "如水逝于水中",
+          "skill_desc": "立即对所有被锁定的我方目标发动致命攻击，使其陷入【梦死】状态。如果没有被锁定的目标，则随机对2名我方目标发动致命攻击并使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402009,
+          "skill_name": "无从凭吊的荒场",
+          "skill_desc": "每当我方目标陷入【梦死】状态时，召唤一个对应的【永眠墓碣】；当我方全体陷入【梦死】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 301402007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.136364,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301402001,
+          "skill_name": "葬仪之吻",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 301402002,
+          "skill_name": "沦没黑雨",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 301402003,
+          "skill_name": "锋锐悼词",
+          "skill_desc": "大幅提升自身造成的伤害，持续1回合，陷入弱点击破状态后解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402004,
+          "skill_name": "光明消歇",
+          "skill_desc": "进入【白日西沉】状态。每当我方施放普攻、战技、终结技时叠加1层，当【白日西沉】叠加至3层时，立即对上一个行动的我方施放【已在黄昏失色】。施放过一次【已在黄昏失色】或被弱点击破后解除该状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402005,
+          "skill_name": "已在黄昏失色",
+          "skill_desc": "立即对上一名施放普攻、战技、终结技的我方目标发动致命攻击，使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402006,
+          "skill_name": "步入良夜",
+          "skill_desc": "进入【夜幕将临】状态，为我方全体恢复能量，期间会锁定2名最先行动的我方目标。下次行动时使用【如水逝于水中】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402007,
+          "skill_name": "如水逝于水中",
+          "skill_desc": "立即对所有被锁定的我方目标发动致命攻击，使其陷入【梦死】状态。如果没有被锁定的目标，则随机对2名我方目标发动致命攻击并使其陷入【梦死】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301402009,
+          "skill_name": "无从凭吊的荒场",
+          "skill_desc": "每当我方目标陷入【梦死】状态时，召唤一个对应的【永眠墓碣】；当我方全体陷入【梦死】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3014020,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3014020,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3014020,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3014020,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3014020,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3014020,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3014020,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

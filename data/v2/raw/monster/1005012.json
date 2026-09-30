@@ -1,0 +1,184 @@
+{
+  "id": 1005012,
+  "name": "可可利亚，虚妄之母",
+  "desc": "受「星核」漫溢的裂界能量同化之后，大守护者幻化为操控虚数能量的歌者，亦是祂所承诺的「新世界」的代言人。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1767,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1005010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 120,
+  "stance_base": 540,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 1005012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100501201,
+          "skill_name": "碎骨寒流",
+          "skill_desc": "对指定我方单体造成冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100501202,
+          "skill_name": "裂魂寒流",
+          "skill_desc": "对指定我方单体造成大量冰属性伤害，并大概率使受到攻击的我方目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 100501203,
+          "skill_name": "灭世冰雨",
+          "skill_desc": "对我方全体造成冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100501204,
+          "skill_name": "冷酷灭世者之唤",
+          "skill_desc": "召唤【无尽寒冬之槊】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100501205,
+          "skill_name": "创世和弦",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，并大概率使受到攻击的我方目标陷入禁锢状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100501206,
+          "skill_name": "创世纪的前奏",
+          "skill_desc": "进入蓄力状态。下次行动对我方全体施放【创世绝响】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100501207,
+          "skill_name": "创世绝响",
+          "skill_desc": "对我方全体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 100501208,
+          "skill_name": "灭世纪的预兆",
+          "skill_desc": "锁定我方单体，下次行动对该目标施放【裂魂寒流】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100501209,
+          "skill_name": "灭世者的决意",
+          "skill_desc": "对指定我方单体施放【裂魂寒流】大概率使该目标陷入冻结状态。",
+          "damage_type": "Ice",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100501210,
+          "skill_name": "创世者的决意",
+          "skill_desc": "阶段转换后速度提高且攻击造成的伤害转变为虚数属性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1005012,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1005012,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1005012,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1005012,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1005012,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1005012,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 1005012,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 0.75
+    }
+  ]
+}

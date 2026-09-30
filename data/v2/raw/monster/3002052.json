@@ -1,0 +1,237 @@
+{
+  "id": 3002052,
+  "name": "王下一桶",
+  "desc": "于虚构中诞生的古怪之物，它的故事记录于无名的史书：孤高悍勇的一桶承载着垃圾之王的使命，寻觅强而有力的战士，扫除危害世间的废料。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 13950,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3002052.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 144,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 3002052,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 300205201,
+          "skill_name": "桶的锤炼",
+          "skill_desc": "对我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300205202,
+          "skill_name": "桶的磨砺",
+          "skill_desc": "提高自身的攻击力。该效果可叠加，且不可被解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300205203,
+          "skill_name": "桶的信条",
+          "skill_desc": "当自身被弱点击破时将会离开战斗。当自身受到我方攻击时，将会被添加此次攻击对应的属性弱点，至多添加2个弱点。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300205201,
+      "attack_modify_ratio": 0.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.583333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 24,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 300205201,
+          "skill_name": "桶的锤炼",
+          "skill_desc": "对我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300205202,
+          "skill_name": "桶的磨砺",
+          "skill_desc": "提高自身的攻击力。该效果可叠加，且不可被解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300205203,
+          "skill_name": "桶的信条",
+          "skill_desc": "当自身被弱点击破时将会离开战斗。当自身受到我方攻击时，将会被添加此次攻击对应的属性弱点，至多添加2个弱点。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3002052,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002052,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002052,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002052,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002052,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002052,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3002052,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 181016
+        }
+      ]
+    }
+  ]
+}

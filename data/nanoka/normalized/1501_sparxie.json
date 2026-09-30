@@ -1,0 +1,3031 @@
+{
+  "id": 1501,
+  "slug": "sparxie",
+  "source_url": "https://hsr.nanoka.cc/character/1501",
+  "data_url_zh": "https://static.nanoka.cc/hsr/4.6.51/zh/character/1501.json",
+  "names": {
+    "zh": "火花",
+    "en": "Sparxie",
+    "ja": "火花",
+    "ko": "스파키"
+  },
+  "rarity": {
+    "code": "CombatPowerAvatarRarityType5",
+    "stars": 5
+  },
+  "path": {
+    "code": "Elation",
+    "zh": "欢愉"
+  },
+  "element": {
+    "code": "Fire",
+    "zh": "火"
+  },
+  "max_energy": 160,
+  "release": {
+    "ts": 1770976800,
+    "date": "2026-02-13"
+  },
+  "icon": "Sparxie",
+  "desc_zh": "点赞！关注！直播！流量！狂欢直到世界尽头！\n火花和花火，假面与愚者本无不同——\n谁被看见，谁被喜欢，谁就是正确答案！",
+  "desc_en": "Like! Follow! Stream! Views! Party till the world ends!\nSparxie and Sparkle, the Mask and the Fool are fundamentally the same.\nWhoever is seen, whoever is liked, is the correct answer!",
+  "stats": [
+    {
+      "phase": 0,
+      "level_cap": 20,
+      "atk": 169.9,
+      "hp": 278.0,
+      "def": 122.3,
+      "speed": 107,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 87.12,
+      "atk_add": 4.356,
+      "hp_base": 142.56,
+      "hp_add": 7.128,
+      "def_base": 62.7,
+      "def_add": 3.135,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "level_cap": 30,
+      "atk": 248.3,
+      "hp": 406.3,
+      "def": 178.7,
+      "speed": 107,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 121.968,
+      "atk_add": 4.356,
+      "hp_base": 199.584,
+      "hp_add": 7.128,
+      "def_base": 87.78,
+      "def_add": 3.135,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "level_cap": 40,
+      "atk": 326.7,
+      "hp": 534.6,
+      "def": 235.1,
+      "speed": 107,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 156.816,
+      "atk_add": 4.356,
+      "hp_base": 256.608,
+      "hp_add": 7.128,
+      "def_base": 112.86,
+      "def_add": 3.135,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110432,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "level_cap": 50,
+      "atk": 405.1,
+      "hp": 662.9,
+      "def": 291.6,
+      "speed": 107,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 191.664,
+      "atk_add": 4.356,
+      "hp_base": 313.632,
+      "hp_add": 7.128,
+      "def_base": 137.94,
+      "def_add": 3.135,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110432,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "level_cap": 60,
+      "atk": 483.5,
+      "hp": 791.2,
+      "def": 348.0,
+      "speed": 107,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 226.512,
+      "atk_add": 4.356,
+      "hp_base": 370.656,
+      "hp_add": 7.128,
+      "def_base": 163.02,
+      "def_add": 3.135,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110432,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "level_cap": 70,
+      "atk": 561.9,
+      "hp": 919.5,
+      "def": 404.4,
+      "speed": 107,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 261.36,
+      "atk_add": 4.356,
+      "hp_base": 427.68,
+      "hp_add": 7.128,
+      "def_base": 188.1,
+      "def_add": 3.135,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110432,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "level_cap": 80,
+      "atk": 640.3,
+      "hp": 1047.8,
+      "def": 460.8,
+      "speed": 107,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 296.208,
+      "atk_add": 4.356,
+      "hp_base": 484.704,
+      "hp_add": 7.128,
+      "def_base": 213.18,
+      "def_add": 3.135,
+      "ascension_cost": []
+    }
+  ],
+  "skills": [
+    {
+      "id": 150101,
+      "name": "哑火了吗",
+      "name_en": "Cat Got Your Flametongue?",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "SingleAttack",
+      "tag_zh": "单攻",
+      "stance_break": [
+        30,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": 1,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.5
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1.4
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "140%",
+          "by_level": [
+            "50%",
+            "60%",
+            "70%",
+            "80%",
+            "90%",
+            "100%",
+            "110%",
+            "120%",
+            "130%",
+            "140%"
+          ]
+        }
+      ],
+      "simple_desc": "对敌方单体造成少量火属性伤害。",
+      "desc_max": "对指定敌方单体造成等同于火花140%攻击力的火属性伤害。",
+      "desc_lv1": "对指定敌方单体造成等同于火花50%攻击力的火属性伤害。",
+      "desc_en": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Sparxie's ATK to one designated enemy.",
+      "extra": {}
+    },
+    {
+      "id": 150108,
+      "name": "百花齐放，胜者独享！",
+      "name_en": "Bloom! Winner Takes All",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "Blast",
+      "tag_zh": "扩散",
+      "stance_break": [
+        30,
+        0,
+        15
+      ],
+      "bp_need": -1,
+      "bp_add": 1,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6,
+            0.3
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7,
+            0.35
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8,
+            0.4
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9,
+            0.45
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1,
+            0.5
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1,
+            0.55
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2,
+            0.6
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3,
+            0.65
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1.4,
+            0.7
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "140%",
+          "by_level": [
+            "50%",
+            "60%",
+            "70%",
+            "80%",
+            "90%",
+            "100%",
+            "110%",
+            "120%",
+            "130%",
+            "140%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "70%",
+          "by_level": [
+            "25%",
+            "30%",
+            "35%",
+            "40%",
+            "45%",
+            "50%",
+            "55%",
+            "60%",
+            "65%",
+            "70%"
+          ]
+        }
+      ],
+      "simple_desc": "对敌方单体造成少量火属性伤害，对相邻目标造成少量火属性伤害。",
+      "desc_max": "结算直播连线结果，对指定敌方单体造成等同于火花140%攻击力的火属性伤害，并对其相邻目标造成等同于火花70%攻击力的火属性伤害。",
+      "desc_lv1": "结算直播连线结果，对指定敌方单体造成等同于火花50%攻击力的火属性伤害，并对其相邻目标造成等同于火花25%攻击力的火属性伤害。",
+      "desc_en": "Finalizes the livestream. Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Sparxie's ATK to one designated enemy, and Fire DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Sparxie's ATK to adjacent targets.",
+      "extra": {}
+    },
+    {
+      "id": 150110,
+      "name": "百花齐放，胜者独享！",
+      "name_en": "Bloom! Winner Takes All",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "Blast",
+      "tag_zh": "扩散",
+      "stance_break": [
+        30,
+        0,
+        15
+      ],
+      "bp_need": -1,
+      "bp_add": 1,
+      "elation_priority_value": null,
+      "is_primary": false,
+      "tree": null,
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6,
+            0.3
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7,
+            0.35
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8,
+            0.4
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9,
+            0.45
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1,
+            0.5
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1,
+            0.55
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2,
+            0.6
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3,
+            0.65
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1.4,
+            0.7
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "1.4",
+          "by_level": [
+            "0.5",
+            "0.6",
+            "0.7",
+            "0.8",
+            "0.9",
+            "1",
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "0.7",
+          "by_level": [
+            "0.25",
+            "0.3",
+            "0.35",
+            "0.4",
+            "0.45",
+            "0.5",
+            "0.55",
+            "0.6",
+            "0.65",
+            "0.7"
+          ]
+        }
+      ],
+      "simple_desc": null,
+      "desc_max": null,
+      "desc_lv1": null,
+      "desc_en": null,
+      "extra": {}
+    },
+    {
+      "id": 150102,
+      "name": "尖叫！火花花连线中",
+      "name_en": "Boom! Sparxicle's Poppin'",
+      "type_name": "战技",
+      "type": "BPSkill",
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": 1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point02",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            20,
+            28,
+            3,
+            7,
+            4
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "20",
+          "by_level": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "28",
+          "by_level": [
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28",
+            "28"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "3",
+          "by_level": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": false,
+          "value": "7",
+          "by_level": [
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7",
+            "7"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": false,
+          "value": "4",
+          "by_level": [
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ]
+        }
+      ],
+      "simple_desc": "开启直播连线，使普攻变为【百花齐放，胜者独享！】并发动1次【互动陷阱】，本次技能内可以重复发动【互动陷阱】。",
+      "desc_max": "开启直播连线，使普攻变为【百花齐放，胜者独享！】并发动1次【互动陷阱】，本次技能内可以重复发动【互动陷阱】，最多发动20次。施放本技能不视为使用战技。",
+      "desc_lv1": "开启直播连线，使普攻变为【百花齐放，胜者独享！】并发动1次【互动陷阱】，本次技能内可以重复发动【互动陷阱】，最多发动20次。施放本技能不视为使用战技。",
+      "desc_en": "Start a livestream to turn Basic ATK into \"Bloom! Winner Takes All\" and trigger \"Engagement Farming\" 1 time. During this ability, \"Engagement Farming\" can be triggered repeatedly, up to <unbreak>#1[i]</unbreak> time(s). Using this ability is not considered as using a Skill.",
+      "extra": {}
+    },
+    {
+      "id": 150109,
+      "name": "互动陷阱",
+      "name_en": "Engagement Farming",
+      "type_name": "战技",
+      "type": "BPSkill",
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": 1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point02",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            2,
+            1,
+            2,
+            0.1,
+            0.05
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            2,
+            1,
+            2,
+            0.11,
+            0.055
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            2,
+            1,
+            2,
+            0.12,
+            0.06
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            2,
+            1,
+            2,
+            0.13,
+            0.065
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            2,
+            1,
+            2,
+            0.14,
+            0.07
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            2,
+            1,
+            2,
+            0.15,
+            0.075
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            2,
+            1,
+            2,
+            0.1625,
+            0.08125
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            2,
+            1,
+            2,
+            0.175,
+            0.0875
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            2,
+            1,
+            2,
+            0.1875,
+            0.09375
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            2,
+            1,
+            2,
+            0.2,
+            0.1
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            2,
+            1,
+            2,
+            0.21,
+            0.105
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            2,
+            1,
+            2,
+            0.22,
+            0.11
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            2,
+            1,
+            2,
+            0.23,
+            0.115
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            2,
+            1,
+            2,
+            0.24,
+            0.12
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            2,
+            1,
+            2,
+            0.25,
+            0.125
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "2",
+          "by_level": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "2",
+          "by_level": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": true,
+          "value": "25%",
+          "by_level": [
+            "10%",
+            "11%",
+            "12%",
+            "13%",
+            "14%",
+            "15%",
+            "16.25%",
+            "17.5%",
+            "18.75%",
+            "20%",
+            "21%",
+            "22%",
+            "23%",
+            "24%",
+            "25%"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": true,
+          "value": "12.5%",
+          "by_level": [
+            "5%",
+            "5.5%",
+            "6%",
+            "6.5%",
+            "7%",
+            "7.5%",
+            "8.12%",
+            "8.75%",
+            "9.38%",
+            "10%",
+            "10.5%",
+            "11%",
+            "11.5%",
+            "12%",
+            "12.5%"
+          ]
+        }
+      ],
+      "simple_desc": "提高【百花齐放，胜者独享！】的伤害倍率，随机获得一种礼物：【红红火火】或【恍恍惚惚】。",
+      "desc_max": "使【百花齐放，胜者独享！】对指定敌方单体的伤害倍率提高25%，对其相邻目标的伤害倍率提高12.5%，并随机获得一种礼物：\n【红红火火】：2个笑点和2个战技点。\n【恍恍惚惚】：1个笑点。\n施放本技能不视为使用战技。",
+      "desc_lv1": "使【百花齐放，胜者独享！】对指定敌方单体的伤害倍率提高10%，对其相邻目标的伤害倍率提高5%，并随机获得一种礼物：\n【红红火火】：2个笑点和2个战技点。\n【恍恍惚惚】：1个笑点。\n施放本技能不视为使用战技。",
+      "desc_en": "Causes \"Bloom! Winner Takes All\" to increase the DMG multiplier against one designated enemy by <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> and the DMG multiplier against adjacent targets by <color=#f29e38ff><unbreak>#5[f1]%</unbreak></color>. Randomly gains one of the following gifts:\\n\"Straight Fire\": <unbreak>#3[i]</unbreak> <u>Punchline</u> point(s) and <unbreak>#1[i]</unbreak> Skill point(s).\\n\"Unreal Banger\": <unbreak>#2[i]</unbreak> <u>Punchline</u> point(s).\\nUsing this ability is not considered as using a Skill.",
+      "extra": {
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150103,
+      "name": "万我狂欢，镜头不要停",
+      "name_en": "Party's Wildin' and Camera's Rollin'",
+      "type_name": "终结技",
+      "type": "Ultra",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        0,
+        60,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point03",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            2,
+            0.3,
+            0.6
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            2,
+            0.32,
+            0.6
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            2,
+            0.34,
+            0.6
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            2,
+            0.36,
+            0.6
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            2,
+            0.38,
+            0.6
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            2,
+            0.4,
+            0.6
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            2,
+            0.425,
+            0.6
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            2,
+            0.45,
+            0.6
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            2,
+            0.475,
+            0.6
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            2,
+            0.5,
+            0.6
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            2,
+            0.52,
+            0.6
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            2,
+            0.54,
+            0.6
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            2,
+            0.56,
+            0.6
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            2,
+            0.58,
+            0.6
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            2,
+            0.6,
+            0.6
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "2",
+          "by_level": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "60%",
+          "by_level": [
+            "30%",
+            "32%",
+            "34%",
+            "36%",
+            "38%",
+            "40%",
+            "42.5%",
+            "45%",
+            "47.5%",
+            "50%",
+            "52%",
+            "54%",
+            "56%",
+            "58%",
+            "60%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "0.6",
+          "by_level": [
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6",
+            "0.6"
+          ]
+        }
+      ],
+      "simple_desc": "获得笑点。对敌方全体造成火属性伤害。",
+      "desc_max": "获得2个笑点。对敌方全体造成等同于火花（0.6*欢愉度+60%）攻击力的火属性伤害。",
+      "desc_lv1": "获得2个笑点。对敌方全体造成等同于火花（0.6*欢愉度+30%）攻击力的火属性伤害。",
+      "desc_en": "Gains <unbreak>#1[i]</unbreak> <u>Punchline</u> point(s). Deals Fire DMG equal to (<unbreak>#3[f1]</unbreak> × Elation + <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>) of Sparxie's ATK to all enemies.",
+      "extra": {
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150104,
+      "name": "幕后花手",
+      "name_en": "Sleight of Sparx Hand",
+      "type_name": "天赋",
+      "type": null,
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        15,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point04",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.1,
+            0.24,
+            0.2,
+            0.1
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.11,
+            0.264,
+            0.22,
+            0.11
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.12,
+            0.288,
+            0.24,
+            0.12
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.13,
+            0.312,
+            0.26,
+            0.13
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.14,
+            0.336,
+            0.28,
+            0.14
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.15,
+            0.36,
+            0.3,
+            0.15
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.1625,
+            0.39,
+            0.325,
+            0.1625
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.175,
+            0.42,
+            0.35,
+            0.175
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.1875,
+            0.45,
+            0.375,
+            0.1875
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.2,
+            0.48,
+            0.4,
+            0.2
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.21,
+            0.504,
+            0.42,
+            0.21
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            0.22,
+            0.528,
+            0.44,
+            0.22
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            0.23,
+            0.552,
+            0.46,
+            0.23
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            0.24,
+            0.576,
+            0.48,
+            0.24
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            0.25,
+            0.6,
+            0.5,
+            0.25
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "25%",
+          "by_level": [
+            "10%",
+            "11%",
+            "12%",
+            "13%",
+            "14%",
+            "15%",
+            "16.25%",
+            "17.5%",
+            "18.75%",
+            "20%",
+            "21%",
+            "22%",
+            "23%",
+            "24%",
+            "25%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "60%",
+          "by_level": [
+            "24%",
+            "26.4%",
+            "28.8%",
+            "31.2%",
+            "33.6%",
+            "36%",
+            "39%",
+            "42%",
+            "45%",
+            "48%",
+            "50.4%",
+            "52.8%",
+            "55.2%",
+            "57.6%",
+            "60%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": true,
+          "value": "50%",
+          "by_level": [
+            "20%",
+            "22%",
+            "24%",
+            "26%",
+            "28%",
+            "30%",
+            "32.5%",
+            "35%",
+            "37.5%",
+            "40%",
+            "42%",
+            "44%",
+            "46%",
+            "48%",
+            "50%"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": true,
+          "value": "25%",
+          "by_level": [
+            "10%",
+            "11%",
+            "12%",
+            "13%",
+            "14%",
+            "15%",
+            "16.25%",
+            "17.5%",
+            "18.75%",
+            "20%",
+            "21%",
+            "22%",
+            "23%",
+            "24%",
+            "25%"
+          ]
+        }
+      ],
+      "simple_desc": "火花持有【好活当赏】时，施放强化普攻和终结技可对敌方造成火属性欢愉伤害。",
+      "desc_max": "火花持有【好活当赏】时：\n施放强化普攻可对指定敌方单体造成50%的火属性欢愉伤害，并对其相邻目标造成25%的火属性欢愉伤害。且每发动1次【互动陷阱】会使强化普攻攻击时，额外对随机1个受到攻击的敌方目标造成1次25%的火属性欢愉伤害。\n施放终结技可对敌方全体造成60%的火属性欢愉伤害。",
+      "desc_lv1": "火花持有【好活当赏】时：\n施放强化普攻可对指定敌方单体造成20%的火属性欢愉伤害，并对其相邻目标造成10%的火属性欢愉伤害。且每发动1次【互动陷阱】会使强化普攻攻击时，额外对随机1个受到攻击的敌方目标造成1次10%的火属性欢愉伤害。\n施放终结技可对敌方全体造成24%的火属性欢愉伤害。",
+      "desc_en": "While Sparxie holds \"<u>Certified Banger</u>\":\\nUsing Enhanced Basic ATK deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Fire <u>Elation DMG</u> to one designated enemy, and <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> Fire <u>Elation DMG</u> to their adjacent targets. Additionally, for every 1 instance of \"Engagement Farming\" triggered, the Enhanced Basic ATK deals 1 extra instance of <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> Fire <u>Elation DMG</u> to 1 random attacked enemy target.\\nUsing Ultimate deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Fire <u>Elation DMG</u> to all enemies.",
+      "extra": {
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        },
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150107,
+      "name": "流量变现",
+      "name_en": "Content Monetization",
+      "type_name": "秘技",
+      "type": "Maze",
+      "tag": "Impair",
+      "tag_zh": "Impair",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point05",
+        "point_type": 2,
+        "max_level": 1
+      },
+      "max_level": 1,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "2",
+          "by_level": [
+            "2"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "50%",
+          "by_level": [
+            "50%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "10",
+          "by_level": [
+            "10"
+          ]
+        }
+      ],
+      "simple_desc": "使一定区域内敌人陷入【拉黑】状态。攻击陷入【拉黑】状态敌人，进战后对敌方全体造成少量火属性伤害，恢复战技点。",
+      "desc_max": "使用秘技后使一定区域内的敌人陷入10秒的【拉黑】状态，【拉黑】状态下的敌人无法发现我方目标。\n若主动攻击陷入【拉黑】状态的敌人，进入战斗后，对敌方全体造成等同于火花50%攻击力的火属性伤害，并为我方恢复2个战技点。",
+      "desc_lv1": "使用秘技后使一定区域内的敌人陷入10秒的【拉黑】状态，【拉黑】状态下的敌人无法发现我方目标。\n若主动攻击陷入【拉黑】状态的敌人，进入战斗后，对敌方全体造成等同于火花50%攻击力的火属性伤害，并为我方恢复2个战技点。",
+      "desc_en": "After using the Technique, inflicts enemies within a set area with \"Block\" for <unbreak>#3[i]</unbreak> second(s). \"Blocked\" enemies cannot detect ally targets.\\nAfter entering combat via actively attacking a \"Blocked\" enemy, deals Fire DMG to all enemies equal to <unbreak>#2[i]%</unbreak> of Sparxie's ATK and recovers <unbreak>#1[i]</unbreak> Skill Point(s) for allies.",
+      "extra": {}
+    },
+    {
+      "id": 150120,
+      "name": "信号溢出：好戏返场！",
+      "name_en": "Signal Overflow: The Great Encore!",
+      "type_name": "欢愉技",
+      "type": "ElationDamage",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        5,
+        20,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": 144,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point22",
+        "point_type": 4,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.125,
+            0.25,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.1375,
+            0.275,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.15,
+            0.3,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.1625,
+            0.325,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.175,
+            0.35,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.1875,
+            0.375,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.203125,
+            0.40625,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.21875,
+            0.4375,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.234375,
+            0.46875,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.25,
+            0.5,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.2625,
+            0.525,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            0.275,
+            0.55,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            0.2875,
+            0.575,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            0.3,
+            0.6,
+            20,
+            2
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            0.3125,
+            0.625,
+            20,
+            2
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "31.25%",
+          "by_level": [
+            "12.5%",
+            "13.75%",
+            "15%",
+            "16.25%",
+            "17.5%",
+            "18.75%",
+            "20.31%",
+            "21.88%",
+            "23.44%",
+            "25%",
+            "26.25%",
+            "27.5%",
+            "28.75%",
+            "30%",
+            "31.25%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "62.5%",
+          "by_level": [
+            "25%",
+            "27.5%",
+            "30%",
+            "32.5%",
+            "35%",
+            "37.5%",
+            "40.62%",
+            "43.75%",
+            "46.88%",
+            "50%",
+            "52.5%",
+            "55%",
+            "57.5%",
+            "60%",
+            "62.5%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "20",
+          "by_level": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": false,
+          "value": "2",
+          "by_level": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ]
+        }
+      ],
+      "simple_desc": "对敌方全体造成火属性欢愉伤害。随后对敌方单体造成少量火属性欢愉伤害，弹射20次。获得【爆点】，可抵扣战技点消耗。",
+      "desc_max": "对敌方全体造成62.5%的火属性欢愉伤害，并额外造成20次伤害。每次伤害对随机敌方单体造成31.25%的火属性欢愉伤害。使火花获得2个【爆点】，可用来抵扣火花的战技点消耗。消耗【爆点】视为消耗战技点。",
+      "desc_lv1": "对敌方全体造成25%的火属性欢愉伤害，并额外造成20次伤害。每次伤害对随机敌方单体造成12.5%的火属性欢愉伤害。使火花获得2个【爆点】，可用来抵扣火花的战技点消耗。消耗【爆点】视为消耗战技点。",
+      "desc_en": "Deals <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> Fire <u>Elation DMG</u> to all enemies and deals <unbreak>#3[i]</unbreak> additional instance(s) of DMG. Each instance deals <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> Fire <u>Elation DMG</u> to one random enemy. Grants <unbreak>#4[i]</unbreak> \"Thrill\" point(s) to Sparxie, which can be used to offset Sparxie's Skill Point consumption. Consuming \"Thrill\" is considered as consuming Skill Points.",
+      "extra": {
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150129,
+      "name": "欢愉万相★兔子戏法",
+      "name_en": "Faces of Elation ★ Hat Trick",
+      "type_name": "固有行迹",
+      "type": null,
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": false,
+      "tree": null,
+      "max_level": 2,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.15,
+            10,
+            1,
+            8,
+            0.3
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.2,
+            10,
+            1,
+            10,
+            1.2
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "20%",
+          "by_level": [
+            "15%",
+            "20%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "10",
+          "by_level": [
+            "10",
+            "10"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": false,
+          "value": "10",
+          "by_level": [
+            "8",
+            "10"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": true,
+          "value": "120%",
+          "by_level": [
+            "30%",
+            "120%"
+          ]
+        }
+      ],
+      "simple_desc": "当「欢愉」命途升格时，暴击伤害提高，我方目标造成伤害时无视敌方目标部分防御力，【红红火火】触发时基于持有的【绝活共赏】点数额外提供爽点。",
+      "desc_max": "当「欢愉」命途升格时，暴击伤害提高120%，我方目标造成伤害时无视敌方目标20%防御力，每持有10点【绝活共赏】，【红红火火】触发时额外提供1点爽点，最多额外提高10点。",
+      "desc_lv1": "当「欢愉」命途升格时，暴击伤害提高30%，我方目标造成伤害时无视敌方目标15%防御力，每持有10点【绝活共赏】，【红红火火】触发时额外提供1点爽点，最多额外提高8点。",
+      "desc_en": "When the <color=#cb2f2f><u>Path of Elation ascends</u></color>, CRIT DMG increases by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>, and ally targets ignore <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of enemy targets' DEF when dealing DMG. For every <unbreak>#2[i]</unbreak> point(s) of \"<u>Party Trick</u>\" held, triggering \"Straight Fire\" additionally provides <unbreak>#3[i]</unbreak> point(s) of <u>Bliss</u>, up to a max additional increase of <color=#f29e38ff><unbreak>#4[i]</unbreak></color> point(s).",
+      "extra": {
+        "10015111": {
+          "name": "「欢愉」命途升格",
+          "desc": "星神★阿哈持有【欢愉万相】状态时，【笑点】与【好活当赏】强化为【爽点】和【绝活共赏】，我方「欢愉」命途角色将激活【固有行迹】效果。",
+          "param": []
+        },
+        "10015113": {
+          "name": "绝活共赏",
+          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方欢愉命途角色的【固有行迹】效果。",
+          "param": []
+        },
+        "10015112": {
+          "name": "爽点",
+          "desc": "获得爽点时视为获得笑点，爽点会在【阿哈时刻】回合结束时，重新获得计入值的一部分。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150106,
+      "name": "攻击",
+      "name_en": "Attack",
+      "type_name": "",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "tag_zh": "秘技攻击",
+      "stance_break": [
+        30,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": false,
+      "tree": null,
+      "max_level": 1,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": []
+        }
+      ],
+      "param_table": [],
+      "simple_desc": null,
+      "desc_max": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+      "desc_lv1": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+      "desc_en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "extra": {}
+    }
+  ],
+  "traces": {
+    "abilities": [
+      {
+        "anchor": "Point06",
+        "point_type": 3,
+        "name": "甜蜜！笑点签售会",
+        "desc": "若火花攻击力高于2000点，每超过100点攻击力可使自身欢愉度提高5%，最多提高80%。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point07",
+        "point_type": 3,
+        "name": "炫目！人设万花筒",
+        "desc": "队伍中「欢愉」命途角色数量等于1/2/3或以上时，火花施放终结技额外获得2/4/8个笑点及1/1/4个【爆点】。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point08",
+        "point_type": 3,
+        "name": "沸腾！真伪调色盘",
+        "desc": "当前每拥有1个笑点，使我方全体暴击伤害提高8%，最多提高80%。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "elation_skill": [
+      {
+        "anchor": "Point22",
+        "point_type": 4,
+        "name": "欢愉技",
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150120
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "stat_nodes": [
+      {
+        "anchor": "Point09",
+        "point_type": 1,
+        "name": "欢愉度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "ElationDamageAddedRatioBase",
+            "name": "欢愉度",
+            "value": 0.04,
+            "text": "+4%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ]
+      },
+      {
+        "anchor": "Point10",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.027,
+            "text": "+2.7%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ]
+      },
+      {
+        "anchor": "Point11",
+        "point_type": 1,
+        "name": "欢愉度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "ElationDamageAddedRatioBase",
+            "name": "欢愉度",
+            "value": 0.04,
+            "text": "+4%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point12",
+        "point_type": 1,
+        "name": "暴击伤害强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalDamageBase",
+            "name": "暴击伤害",
+            "value": 0.053,
+            "text": "+5.3%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point13",
+        "point_type": 1,
+        "name": "欢愉度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "ElationDamageAddedRatioBase",
+            "name": "欢愉度",
+            "value": 0.06,
+            "text": "+6%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 18000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point14",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.04,
+            "text": "+4%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point15",
+        "point_type": 1,
+        "name": "欢愉度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "ElationDamageAddedRatioBase",
+            "name": "欢愉度",
+            "value": 0.06,
+            "text": "+6%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point16",
+        "point_type": 1,
+        "name": "暴击伤害强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalDamageBase",
+            "name": "暴击伤害",
+            "value": 0.08,
+            "text": "+8%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point17",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.053,
+            "text": "+5.3%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point18",
+        "point_type": 1,
+        "name": "欢愉度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "ElationDamageAddedRatioBase",
+            "name": "欢愉度",
+            "value": 0.08,
+            "text": "+8%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "skill_level_nodes": [
+      {
+        "anchor": "Point01",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 6,
+        "level_up_skill_id": [
+          150101,
+          150108
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point02",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150102,
+          150109
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point03",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150103
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point04",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150104
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point05",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [
+          150107
+        ],
+        "status_add": [],
+        "materials": []
+      }
+    ],
+    "other": []
+  },
+  "eidolons": [
+    {
+      "rank": 1,
+      "id": 150101,
+      "name": "#全网热搜：她是谁？",
+      "desc": "阿哈时刻结束时获得5个笑点。当前每拥有1个笑点，使我方全体全属性抗性穿透提高1.5%，最多提高15%。",
+      "params": [
+        5,
+        0.015,
+        0.15
+      ],
+      "icon": "SkillIcon_1501_Rank1.png"
+    },
+    {
+      "rank": 2,
+      "id": 150102,
+      "name": "#观众的眼睛是雪亮的",
+      "desc": "阿哈时刻结束时使火花获得1个额外回合和2个【爆点】。每消耗1个【爆点】使自身暴击伤害提高10%，持续2回合，最多叠加4层。",
+      "params": [
+        2,
+        0.1,
+        2,
+        4
+      ],
+      "icon": "SkillIcon_1501_Rank2.png"
+    },
+    {
+      "rank": 3,
+      "id": 150103,
+      "name": "#请点击：心跳超链接",
+      "desc": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+      "params": [],
+      "icon": "SkillIcon_1501_BP.png"
+    },
+    {
+      "rank": 4,
+      "id": 150104,
+      "name": "#硬控！顶级表情管理",
+      "desc": "施放终结技时额外获得5个笑点，使自身欢愉度提高36%，持续3回合。",
+      "params": [
+        5,
+        0.36,
+        3
+      ],
+      "icon": "SkillIcon_1501_Rank4.png"
+    },
+    {
+      "rank": 5,
+      "id": 150105,
+      "name": "#世界破烂，小花缝补",
+      "desc": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+      "params": [],
+      "icon": "SkillIcon_1501_Ultra.png"
+    },
+    {
+      "rank": 6,
+      "id": 150106,
+      "name": "#锵锵，即将绝版的我",
+      "desc": "全属性抗性穿透提高20%。欢愉技每计入1个笑点使其造成的额外伤害次数增加1次，最多增加至40次。",
+      "params": [
+        1,
+        40,
+        0.2
+      ],
+      "icon": "SkillIcon_1501_Rank6.png"
+    }
+  ],
+  "unique": [],
+  "enhanced": {},
+  "memosprite": {},
+  "chara_info": {
+    "camp": null,
+    "va": {
+      "chinese": null,
+      "japanese": null,
+      "korean": null,
+      "english": null
+    },
+    "stories": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null
+    },
+    "voicelines": []
+  },
+  "skin": {
+    "1150101": ""
+  },
+  "build": {
+    "relic_set_ids": [
+      129,
+      126
+    ],
+    "planar_set_ids": [
+      324,
+      318,
+      309
+    ],
+    "main_stats": [
+      {
+        "slot": "躯干",
+        "prop": "暴击率",
+        "prop_code": "CriticalChanceBase"
+      },
+      {
+        "slot": "脚部",
+        "prop": "攻击力百分比",
+        "prop_code": "AttackAddedRatio"
+      },
+      {
+        "slot": "位面球",
+        "prop": "攻击力百分比",
+        "prop_code": "AttackAddedRatio"
+      },
+      {
+        "slot": "连结绳",
+        "prop": "攻击力百分比",
+        "prop_code": "AttackAddedRatio"
+      }
+    ],
+    "sub_stats": [
+      "暴击率",
+      "暴击伤害",
+      "攻击力百分比"
+    ],
+    "score_rank_list": [
+      280,
+      220
+    ],
+    "relic_sets": [
+      {
+        "id": 129,
+        "name": "闪耀功勋的魔法少女",
+        "name_en": "Ever-Glorious Magical Girl",
+        "pieces": 4,
+        "effects": {
+          "2": "暴击伤害提高16%。",
+          "4": "装备者及其忆灵造成的欢愉伤害无视目标10%的防御力，我方每累计获得5点笑点，造成的欢愉伤害额外无视目标1%的防御力，最多叠加10层。"
+        }
+      },
+      {
+        "id": 126,
+        "name": "恶海逐波的船长",
+        "name_en": "Wavestrider Captain",
+        "pieces": 4,
+        "effects": {
+          "2": "暴击伤害提高16%。",
+          "4": "装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加2层。施放终结技时，若持有2层【助力】，消耗所有【助力】，使装备者攻击力提高48%，持续1回合。"
+        }
+      }
+    ],
+    "planar_sets": [
+      {
+        "id": 324,
+        "name": "天国@直播间",
+        "name_en": "Tengoku@Livestream",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的暴击伤害提高16%，若在同一回合内消耗大于等于3点战技点，额外使装备者暴击伤害提高32%，持续3回合。"
+        }
+      },
+      {
+        "id": 318,
+        "name": "奇想蕉乐园",
+        "name_en": "The Wondrous BananAmusement Park",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的暴击伤害提高16%，当存在装备者召唤的目标时，暴击伤害额外提高32%。"
+        }
+      },
+      {
+        "id": 309,
+        "name": "繁星竞技场",
+        "name_en": "Rutilant Arena",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的暴击率提高8%。当装备者的当前暴击率大于等于70%时，普攻和战技造成的伤害提高20%。"
+        }
+      }
+    ],
+    "lightcones": [
+      {
+        "id": 23053,
+        "name": "花花世界迷人眼",
+        "name_en": "Dazzled by a Flowery World",
+        "rarity": 5,
+        "path": "欢愉",
+        "atk": 582
+      },
+      {
+        "id": 21065,
+        "name": "今日好手气",
+        "name_en": "Today's Good Luck",
+        "rarity": 4,
+        "path": "欢愉",
+        "atk": 529
+      },
+      {
+        "id": 22009,
+        "name": "在世界尽头相会吧！",
+        "name_en": "See You at the World's End!",
+        "rarity": 4,
+        "path": "欢愉",
+        "atk": 476
+      }
+    ],
+    "teams": [
+      {
+        "team_id": 1,
+        "members": [
+          "爻光",
+          "花火",
+          "真珠"
+        ],
+        "member_ids": [
+          1502,
+          1306,
+          1503
+        ],
+        "position": 1,
+        "backup": [
+          "花火",
+          "缇宝",
+          "{NICKNAME}"
+        ]
+      },
+      {
+        "team_id": 2,
+        "members": [
+          "银狼LV.999",
+          "爻光",
+          "真珠"
+        ],
+        "member_ids": [
+          1506,
+          1502,
+          1503
+        ],
+        "position": 1,
+        "backup": []
+      }
+    ]
+  },
+  "ascension_materials": []
+}

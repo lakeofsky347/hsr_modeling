@@ -1,0 +1,238 @@
+{
+  "id": 4032041,
+  "name": "黑潮参议",
+  "desc": "从黑潮中诞生的扭曲造物，对杀戮的渴求成为了空洞躯壳中仅存的意志。\\n原本可用来经世济民的学识反转为文明的恶敌，擅长潜伏与博弈的它们如同贪婪的秃鹫，渴望为黑潮不断奉上新的牺牲。",
+  "monster_camp_id": null,
+  "attack_base": 66.666667,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 0.465,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4032040.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 180,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4032041,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403204101,
+          "skill_name": "潜伏",
+          "skill_desc": "使自身进入<u>【潜伏】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320401": {
+              "name": "潜伏",
+              "desc": "无法成为主动选择类技能的主目标，弱点被击破或场上除自身以外的全部敌方单位都处于【潜伏】状态，则自身解除【潜伏】状态。场上没有其他敌方单位时，自身解除【潜伏】状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403204102,
+          "skill_name": "破灭的理性",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403204103,
+          "skill_name": "阴谋的躁动",
+          "skill_desc": "对指定我方单体造成物理属性伤害，然后解除<u>【潜伏】</u>状态。仅可在<u>【潜伏】</u>状态下施放。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320401": {
+              "name": "潜伏",
+              "desc": "无法成为主动选择类技能的主目标，弱点被击破或场上除自身以外的全部敌方单位都处于【潜伏】状态，则自身解除【潜伏】状态。场上没有其他敌方单位时，自身解除【潜伏】状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403204104,
+          "skill_name": "黑色侵入血肉",
+          "skill_desc": "当目标生命值低于0时，会解除自身控制类负面状态和弱点击破状态并获得【弱点无效】效果，同时施放【潜伏】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4032041,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032041,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032041,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032041,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032041,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032041,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032041,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    }
+  ]
+}

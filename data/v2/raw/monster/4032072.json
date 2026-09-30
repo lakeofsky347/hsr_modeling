@@ -1,0 +1,219 @@
+{
+  "id": 4032072,
+  "name": "被操弄的逻各斯",
+  "desc": "世界的形态，求索的欲望，以及赋予他们形体的无垠空间，从中诞生一切智慧的知性。它不再是傀儡，将死于灵知的葬仪，留一座铁铸的墓碑。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1488,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4032070.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 132,
+  "stance_base": null,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4032072,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 403207203,
+          "skill_name": "抹除谬误虚妄",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403207207,
+          "skill_name": "无生不灭",
+          "skill_desc": "免疫除【反造物主】外的行动条变化效果影响。【逻各斯】无法被消灭，受到致命攻击后陷入【重创】状态，使我方全体恢复能量并解除【<u>行动锁定</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403501001": {
+              "name": "行动锁定",
+              "desc": "目标行动值不会因任意目标回合结束而改变。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403207204,
+          "skill_name": "大破大立",
+          "skill_desc": "对我方全体目标造成量子属性伤害，并使我方战技点减少1个。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403207205,
+          "skill_name": "一场愚者的忤逆",
+          "skill_desc": "进入【将掀起反叛】状态，【反造物主】下次行动施放【神的冠冕将要粉碎】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403207206,
+          "skill_name": "永劫回归",
+          "skill_desc": "自身陷入【重创】状态时，下次行动回复所有生命值并解除【重创】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4032072,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032072,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032072,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032072,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032072,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032072,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032072,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    }
+  ]
+}

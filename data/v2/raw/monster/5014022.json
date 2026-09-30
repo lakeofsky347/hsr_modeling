@@ -1,0 +1,237 @@
+{
+  "id": 5014022,
+  "name": "合金机铠•帕姆王",
+  "desc": "谁能驾驭星穹列车的洪荒之力？！失控的帕姆变成了「合金机铠•帕姆王」。\\n帕姆王是一台对干净整洁极为执着的强大机铠，按照它的标准，这里不干净了，必须进行全！面！打！扫！帕！",
+  "monster_camp_id": 17,
+  "attack_base": 40.008891,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 480.0195,
+  "initial_delay_ratio": 0.5,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5014020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 120,
+  "stance_base": 720,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 5014022,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501402201,
+          "skill_name": "灵魂修正剪",
+          "skill_desc": "对指定我方单体目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501402203,
+          "skill_name": "高温消毒模式",
+          "skill_desc": "进入【蒸汽洗涤】状态，使自身造成的伤害提高，并获得一定层数的【长效抗菌】效果，使自身受到的伤害降低。【长效抗菌】效果被全部移除时，退出【蒸汽洗涤】状态并受到大量伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501402202,
+          "skill_name": "无死角洗涤",
+          "skill_desc": "对我方全体目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 501402204,
+          "skill_name": "强效肥皂泡",
+          "skill_desc": "对我方全体目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 501402205,
+          "skill_name": "值日准备中…",
+          "skill_desc": "进入【摩拳擦掌】状态，下次行动时施放【饱和式大扫除！】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501402206,
+          "skill_name": "饱和式大扫除！",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 501402201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.833285,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501402201,
+          "skill_name": "灵魂修正剪",
+          "skill_desc": "对指定我方单体目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501402203,
+          "skill_name": "高温消毒模式",
+          "skill_desc": "进入【蒸汽洗涤】状态，使自身造成的伤害提高，并获得一定层数的【长效抗菌】效果，使自身受到的伤害降低。【长效抗菌】效果被全部移除时，退出【蒸汽洗涤】状态并受到大量伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501402202,
+          "skill_name": "无死角洗涤",
+          "skill_desc": "对我方全体目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 501402204,
+          "skill_name": "强效肥皂泡",
+          "skill_desc": "对我方全体目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 501402205,
+          "skill_name": "值日准备中…",
+          "skill_desc": "进入【摩拳擦掌】状态，下次行动时施放【饱和式大扫除！】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501402206,
+          "skill_name": "饱和式大扫除！",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5014022,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014022,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014022,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014022,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014022,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014022,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014022,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

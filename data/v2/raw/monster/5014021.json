@@ -1,0 +1,193 @@
+{
+  "id": 5014021,
+  "name": "合金机铠•帕姆王",
+  "desc": "谁能驾驭星穹列车的洪荒之力？！失控的帕姆变成了「合金机铠•帕姆王」。\\n帕姆王是一台对干净整洁极为执着的强大机铠，按照它的标准，这里不干净了，必须进行全！面！打！扫！帕！",
+  "monster_camp_id": 17,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1162.5,
+  "initial_delay_ratio": 0.5,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5014020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 120,
+  "stance_base": 720,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 5014021,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501402101,
+          "skill_name": "灵魂修正剪",
+          "skill_desc": "对指定我方单体目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501402103,
+          "skill_name": "高温消毒模式",
+          "skill_desc": "进入【蒸汽洗涤】状态，使自身造成的伤害提高，并获得一定层数的【长效抗菌】效果，使自身受到的伤害降低。【长效抗菌】效果被全部移除时，退出【蒸汽洗涤】状态并受到大量伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501402102,
+          "skill_name": "无死角洗涤",
+          "skill_desc": "对我方全体目标造成量子属性伤害，并使我方获得<u>笑点</u>。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501402104,
+          "skill_name": "强效肥皂泡",
+          "skill_desc": "对我方全体目标造成量子属性伤害并施加【<u>劳动最快乐！</u>】效果，同时使我方获得<u>笑点</u>。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "501402001": {
+              "name": "劳动最快乐！",
+              "desc": "施放普攻后触发【锃亮】效果，对攻击目标额外造成真实伤害并获得笑点；施放战技后触发【洁净】效果，恢复战技点。该效果在【劳动最快乐！】效果持续时间内最多触发1次。",
+              "param": []
+            },
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501402105,
+          "skill_name": "值日准备中…",
+          "skill_desc": "进入【摩拳擦掌】状态，获得【弱点无效】效果，下次行动时施放【饱和式大扫除！】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501402106,
+          "skill_name": "饱和式大扫除！",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害，并使我方获得<u>笑点</u>。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501402108,
+          "skill_name": "洗地机之乱",
+          "skill_desc": "在行动序列上添加【会场秩序维持】，每次【会场秩序维持】行动时，为敌我双方召唤「合金保姆」。我方每获得1个笑点时我方的「合金保姆」积累1点充能值，充能值达到<unbreak>#1[i]</unbreak>时可施放强化普攻移除1层【合金机铠•帕姆王】的【长效抗菌】效果。我方的「合金保姆」最多存在1个，且不会被敌我双方选中。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5014021,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014021,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014021,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014021,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014021,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014021,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5014021,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 2032052,
+  "name": "裂维之爪",
+  "desc": "心兽之爪，决天维，裂地纪。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 4650,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/BossIconTemporary.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 118,
+  "stance_base": 660,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 2032052,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203205201,
+          "skill_name": "裂维",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203205202,
+          "skill_name": "裂决天维",
+          "skill_desc": "处于共鸣状态时施放，对指定我方单体及其相邻目标造成大量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2032052,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032052,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032052,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032052,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032052,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032052,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032052,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

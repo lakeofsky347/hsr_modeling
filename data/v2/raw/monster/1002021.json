@@ -1,0 +1,266 @@
+{
+  "id": 1002021,
+  "name": "流浪者",
+  "desc": "困居于下层区的人们为了生存，往往会不惜铤而走险深入裂界寻找任何可用的物资，其中被他们掘出的古代机器成了他们最好的帮手。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 139.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1002020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 60,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 1002021,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100202101,
+          "skill_name": "铲击",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100202102,
+          "skill_name": "鼓舞",
+          "skill_desc": "使指定敌方单体攻击力提高并立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100202101,
+      "attack_modify_ratio": 0.2,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.433333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 14,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100202101,
+          "skill_name": "铲击",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100202102,
+          "skill_name": "鼓舞",
+          "skill_desc": "使指定敌方单体攻击力提高并立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1002021,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002021,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002021,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002021,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002021,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002021,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002021,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    }
+  ]
+}

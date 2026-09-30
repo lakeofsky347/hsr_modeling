@@ -1,0 +1,358 @@
+{
+  "id": 4032030,
+  "name": "黑潮蚀斧",
+  "desc": "从黑潮中诞生的扭曲造物，对杀戮的渴求成为了空洞躯壳中仅存的意志。\\n手持千斤重的巨斧，蓄力一击甚至可以击碎坚硬的磐石。任何挡在它面前的活物，皆避免不了被碾碎和侵蚀的结局。",
+  "monster_camp_id": 14,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 316.2,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4032030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 120,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4032030,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403203001,
+          "skill_name": "怒潮炽斧",
+          "skill_desc": "对指定我方单体目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403203002,
+          "skill_name": "仇心忿火",
+          "skill_desc": "对我方全体目标造成火属性伤害，伤害由目标<u>平均分摊</u>。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {
+            "401301001": {
+              "name": "平均分摊",
+              "desc": "本次攻击结算前的伤害和负面效果由所有受击目标平均承受。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403203003,
+          "skill_name": "仇隙",
+          "skill_desc": "当其他敌方单位被消灭时，自身立即行动，施放一次【仇心忿火】。场上存在多个【黑潮蚀斧】时，同时最多只能触发1个【黑潮蚀斧】的【仇隙】天赋。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 403203001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.735294,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403203001,
+          "skill_name": "怒潮炽斧",
+          "skill_desc": "对指定我方单体目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403203002,
+          "skill_name": "仇心忿火",
+          "skill_desc": "对我方全体目标造成火属性伤害，伤害由目标<u>平均分摊</u>。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {
+            "401301001": {
+              "name": "平均分摊",
+              "desc": "本次攻击结算前的伤害和负面效果由所有受击目标平均承受。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403203003,
+          "skill_name": "仇隙",
+          "skill_desc": "当其他敌方单位被消灭时，自身立即行动，施放一次【仇心忿火】。场上存在多个【黑潮蚀斧】时，同时最多只能触发1个【黑潮蚀斧】的【仇隙】天赋。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 403203002,
+      "attack_modify_ratio": 0.714286,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403203001,
+          "skill_name": "怒潮炽斧",
+          "skill_desc": "对指定我方单体目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403203002,
+          "skill_name": "仇心忿火",
+          "skill_desc": "对我方全体目标造成火属性伤害，伤害由目标<u>平均分摊</u>。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {
+            "401301001": {
+              "name": "平均分摊",
+              "desc": "本次攻击结算前的伤害和负面效果由所有受击目标平均承受。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403203003,
+          "skill_name": "仇隙",
+          "skill_desc": "当其他敌方单位被消灭时，自身立即行动，施放一次【仇心忿火】。场上存在多个【黑潮蚀斧】时，同时最多只能触发1个【黑潮蚀斧】的【仇隙】天赋。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4032030,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032030,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032030,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032030,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032030,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032030,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032030,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    }
+  ]
+}

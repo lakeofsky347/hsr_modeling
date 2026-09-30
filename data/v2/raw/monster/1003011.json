@@ -1,0 +1,403 @@
+{
+  "id": 1003011,
+  "name": "银鬃尉官（错误）",
+  "desc": "代码受到影响后的错误投影。参照本体为贝洛伯格的戍卫部队「银鬃铁卫」分队的领导者。\\n战斗中，只要敌方还有队友存在，银鬃尉官会一直架起巨盾。攻击架盾状态下的银鬃尉官，会立即遭到强力的反击。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1488,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1003010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 1003011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100301101,
+          "skill_name": "突击",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100301102,
+          "skill_name": "穿刺",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 100301103,
+          "skill_name": "盾反",
+          "skill_desc": "进入反击状态，在受到我方单体攻击后获得1个额外回合，对该目标造成物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100301104,
+          "skill_name": "增援",
+          "skill_desc": "召唤【银鬃近卫】或【银鬃射手】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100301105,
+          "skill_name": "鼓劲",
+          "skill_desc": "使敌方除【银鬃尉官（错误）】外的目标攻击力提高并立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100301101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 180,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100301101,
+          "skill_name": "突击",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100301102,
+          "skill_name": "穿刺",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 100301103,
+          "skill_name": "盾反",
+          "skill_desc": "进入反击状态，在受到我方单体攻击后获得1个额外回合，对该目标造成物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100301104,
+          "skill_name": "增援",
+          "skill_desc": "召唤【银鬃近卫】或【银鬃射手】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100301105,
+          "skill_name": "鼓劲",
+          "skill_desc": "使敌方除【银鬃尉官（错误）】外的目标攻击力提高并立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100301102,
+      "attack_modify_ratio": 0.4,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 9.375,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 540,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100301101,
+          "skill_name": "突击",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100301102,
+          "skill_name": "穿刺",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 100301103,
+          "skill_name": "盾反",
+          "skill_desc": "进入反击状态，在受到我方单体攻击后获得1个额外回合，对该目标造成物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100301104,
+          "skill_name": "增援",
+          "skill_desc": "召唤【银鬃近卫】或【银鬃射手】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100301105,
+          "skill_name": "鼓劲",
+          "skill_desc": "使敌方除【银鬃尉官（错误）】外的目标攻击力提高并立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1003011,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1003011,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1003011,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1003011,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1003011,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1003011,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1003011,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": 8012142,
+  "name": "黎明的左手",
+  "desc": "在末日来临之前的最后一个黎明，明洁的朝阳也会颤抖着悄然退场。\\n黎明的左手善于使用量子属性的力量，针对单个个体发起攻击。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 465,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/BossIconTemporary.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 120,
+  "stance_base": 120,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 8012142,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801214201,
+          "skill_name": "陨落的锤锻",
+          "skill_desc": "对我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801214202,
+          "skill_name": "坠星的叩问",
+          "skill_desc": "对我方单体造成量子属性伤害，同时有小概率使该目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801214203,
+          "skill_name": "曙光黯然之时",
+          "skill_desc": "对我方单体造成量子属性伤害，同时有概率使该目标陷入纠缠状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8012142,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012142,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012142,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012142,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012142,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012142,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012142,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

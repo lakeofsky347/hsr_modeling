@@ -1,0 +1,390 @@
+{
+  "id": 8003051,
+  "name": "兴风者（错误）",
+  "desc": "代码受到影响后的错误投影。参照本体为在裂界延展中遭遇侵蚀的怪物，在力量的本源发生畸变后拥有了更为灵活的战斗方式。\\n兴风者会利用风的力量协助自己战斗，借助风向射出更为迅猛的箭矢。并会在战斗中召唤巽风造物，与自己合作战斗。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8003050.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8003051,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800305101,
+          "skill_name": "巡风光陨",
+          "skill_desc": "对指定我方单体造成风属性伤害，并大概率使其陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800305102,
+          "skill_name": "踏风而行",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量风属性伤害，并有概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800305103,
+          "skill_name": "拈风张弩",
+          "skill_desc": "进入蓄力状态，并锁定陷入风化状态的所有我方目标，下次行动施放【风落暴矢】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800305104,
+          "skill_name": "风落暴矢",
+          "skill_desc": "对陷入风化状态的我方目标造成风属性伤害，并有概率使受到攻击的我方目标再次陷入风化状态。若场上没有陷入风化状态的我方目标，则本技能施放失败。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800305105,
+          "skill_name": "风浪急旋",
+          "skill_desc": "攻击陷入风化状态的我方目标后，自身攻击力小幅提高。当弱点被击破时，该效果解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800305106,
+          "skill_name": "风落暴矢",
+          "skill_desc": "对处于风化状态的我方目标造成风属性伤害。若场上没有处于风化状态的我方目标，则本技能施放失败。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800305107,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800305108,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800305109,
+          "skill_name": "即来之风",
+          "skill_desc": "召唤【巽风造物】。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800305101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800305101,
+          "skill_name": "巡风光陨",
+          "skill_desc": "对指定我方单体造成风属性伤害，并大概率使其陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800305102,
+          "skill_name": "踏风而行",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量风属性伤害，并有概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800305103,
+          "skill_name": "拈风张弩",
+          "skill_desc": "进入蓄力状态，并锁定陷入风化状态的所有我方目标，下次行动施放【风落暴矢】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800305104,
+          "skill_name": "风落暴矢",
+          "skill_desc": "对陷入风化状态的我方目标造成风属性伤害，并有概率使受到攻击的我方目标再次陷入风化状态。若场上没有陷入风化状态的我方目标，则本技能施放失败。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800305105,
+          "skill_name": "风浪急旋",
+          "skill_desc": "攻击陷入风化状态的我方目标后，自身攻击力小幅提高。当弱点被击破时，该效果解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800305106,
+          "skill_name": "风落暴矢",
+          "skill_desc": "对处于风化状态的我方目标造成风属性伤害。若场上没有处于风化状态的我方目标，则本技能施放失败。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800305107,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800305108,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800305109,
+          "skill_name": "即来之风",
+          "skill_desc": "召唤【巽风造物】。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8003051,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003051,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003051,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003051,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003051,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003051,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003051,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    }
+  ]
+}

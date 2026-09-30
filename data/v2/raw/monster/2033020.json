@@ -1,0 +1,124 @@
+{
+  "id": 2033020,
+  "name": "蚀月心兽&「飞霄」之影",
+  "desc": "挑动其心魔，窃据其威灵，幻化其形貌，潜伏在飞霄体内的孽物展开了对她的狩猎。\\n这场猎杀的尾声，存活的一方将以天击将军的身份行于世间。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1627.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2033020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 100,
+  "stance_base": null,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 2033020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203302001,
+          "skill_name": "通灵",
+          "skill_desc": "【喰云之首】、【裂维之爪】、【辟尘之尾】与【「飞霄」之影】共享血量。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2033020,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033020,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033020,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033020,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033020,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033020,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2033020,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

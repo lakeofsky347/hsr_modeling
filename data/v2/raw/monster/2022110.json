@@ -1,0 +1,873 @@
+{
+  "id": 2022110,
+  "name": "魔阴武弁",
+  "desc": "堕入魔阴身的十王司武卫。\\n只要还是血肉凡胎，仙舟人终不能斩断宿命。",
+  "monster_camp_id": 2,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 186,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2022110.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 2022110,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.75,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Wind",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Wind",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202211011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.25,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202211001,
+          "skill_name": "锯恶•斫",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 202211002,
+          "skill_name": "锯恶•斩",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202211003,
+          "skill_name": "嗔恚",
+          "skill_desc": "战斗开始时处于【嗔恚】状态。处于【嗔恚】状态时，改为施放【锯恶•斩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2022110,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022110,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022110,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022110,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022110,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022110,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2022110,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 181004
+        }
+      ]
+    }
+  ]
+}

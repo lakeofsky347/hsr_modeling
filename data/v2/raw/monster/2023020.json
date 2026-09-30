@@ -1,0 +1,1689 @@
+{
+  "id": 2023020,
+  "name": "丰饶灵兽•长右",
+  "desc": "高如山岩的苍猿，破坏力惊人。\\n在「建木」上一次伫立时，仙舟人曾以奇术繁育众多异兽珍禽。长右即为伴随军阵行进的战兽之一。",
+  "monster_camp_id": 2,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1116,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2023020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 2023020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302001,
+      "attack_modify_ratio": 1.25,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.75,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.75,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.8,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302005,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.25,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 56,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 180,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Wind",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.041667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 240,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.458333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -44,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -90,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302011,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -240,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 6.875,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 60,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302015,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302016,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302017,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 8.125,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202302018,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202302001,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302002,
+          "skill_name": "猱击",
+          "skill_desc": "消耗1层【元气】，并对被标记为监视目标的我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202302003,
+          "skill_name": "奋威",
+          "skill_desc": "使自身造成的伤害提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302004,
+          "skill_name": "怒啸",
+          "skill_desc": "获得3层【元气】，将随机我方单体标记为监视目标。每当我方目标施放战技时，会转为标记最新施放战技的目标，直到【元气】耗尽。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302005,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202302006,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2023020,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023020,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023020,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023020,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113001
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023020,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023020,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2023020,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113002
+        },
+        {
+          "item_id": 113003
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    }
+  ]
+}

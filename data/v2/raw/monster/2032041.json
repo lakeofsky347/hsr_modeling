@@ -1,0 +1,123 @@
+{
+  "id": 2032041,
+  "name": "喰云之首",
+  "desc": "心兽之首，饮星辉，喰云埃。",
+  "monster_camp_id": null,
+  "attack_base": 15,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 325.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/BossIconTemporary.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 86,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 2032041,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203204101,
+          "skill_name": "喰云",
+          "skill_desc": "对我方全体目标造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203204102,
+          "skill_name": "吐纳太虚",
+          "skill_desc": "处于共鸣状态时施放，对我方全体目标造成风属性伤害，并大概率使受到攻击的我方目标陷入<u>怒噪</u>状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "220350101": {
+              "name": "怒噪",
+              "desc": "无法操控，自动攻击随机敌方目标。若该目标被施放技能解除负面效果，将会优先被解除【怒噪】状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203204103,
+          "skill_name": "守备",
+          "skill_desc": "进入【守备】状态，弱点未被击破时受到的伤害降低，被击破时行动额外延后，被击破后受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2032041,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032041,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032041,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032041,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032041,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032041,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032041,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

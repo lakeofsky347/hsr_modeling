@@ -1,0 +1,328 @@
+{
+  "id": 8032040,
+  "name": "千星戍卫",
+  "desc": "千星城随处可见的量产型安保机器人，负责维持和平稳定。\\n冷酷无情的正义机器，执法有温度、出拳有力度。",
+  "monster_camp_id": 9,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 139.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8032040.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 110,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 8032040,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803204001,
+          "skill_name": "何物从天而降？",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 803204002,
+          "skill_name": "正义！正义！正义！",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。仅在【正义执行】状态下可以施放。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803204003,
+          "skill_name": "不屈的，无情的",
+          "skill_desc": "施放【何物从天而降？】后，若不处于【正义执行】状态，则自身进入【正义执行】状态；若处于【正义执行】状态，则立即对相同目标施放【正义！正义！正义！】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803204004,
+          "skill_name": "何物从天而降？",
+          "skill_desc": null,
+          "damage_type": "Physical",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803204001,
+      "attack_modify_ratio": 0.4,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -30,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803204001,
+          "skill_name": "何物从天而降？",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 803204002,
+          "skill_name": "正义！正义！正义！",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。仅在【正义执行】状态下可以施放。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803204003,
+          "skill_name": "不屈的，无情的",
+          "skill_desc": "施放【何物从天而降？】后，若不处于【正义执行】状态，则自身进入【正义执行】状态；若处于【正义执行】状态，则立即对相同目标施放【正义！正义！正义！】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803204004,
+          "skill_name": "何物从天而降？",
+          "skill_desc": null,
+          "damage_type": "Physical",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 803204002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 803204001,
+          "skill_name": "何物从天而降？",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 803204002,
+          "skill_name": "正义！正义！正义！",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。仅在【正义执行】状态下可以施放。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 803204003,
+          "skill_name": "不屈的，无情的",
+          "skill_desc": "施放【何物从天而降？】后，若不处于【正义执行】状态，则自身进入【正义执行】状态；若处于【正义执行】状态，则立即对相同目标施放【正义！正义！正义！】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 803204004,
+          "skill_name": "何物从天而降？",
+          "skill_desc": null,
+          "damage_type": "Physical",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8032040,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032040,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032040,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032040,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032040,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032040,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8032040,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181010
+        }
+      ]
+    }
+  ]
+}

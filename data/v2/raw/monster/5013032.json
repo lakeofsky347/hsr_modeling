@@ -1,0 +1,228 @@
+{
+  "id": 5013032,
+  "name": "魔法使魔",
+  "desc": "诞生于绘师学校的异常，来自于「笔自己动起来画画」这个流言。\\n集合了无才能绘师的自怨自艾、对上学的恐惧，人类的怠惰心…最终变成了现在这个样子。",
+  "monster_camp_id": 17,
+  "attack_base": 40.008891,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 560.046,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5013030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 5013032,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 501303202,
+          "skill_name": "扫色",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 501303203,
+          "skill_name": "挥舞斑斓",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 501303204,
+          "skill_name": "调色盘溃流",
+          "skill_desc": "对我方全体造成大量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 501303205,
+          "skill_name": "强化",
+          "skill_desc": "使自身造成的伤害永久提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 501303201,
+          "skill_name": "妙手",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5013032,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013032,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013032,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013032,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013032,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013032,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013032,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    }
+  ]
+}

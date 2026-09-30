@@ -1,0 +1,172 @@
+{
+  "id": 8001032,
+  "name": "借力球",
+  "desc": "黑塔召唤的法球，可以被攻击。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 93,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8001030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Minion",
+  "speed_base": 100,
+  "stance_base": null,
+  "stance_count": 1,
+  "status_resistance_base": null,
+  "child": [
+    {
+      "id": 8001032,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": []
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8001032,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 180004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8001032,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 180004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8001032,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 180004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8001032,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 180004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8001032,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 180004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8001032,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 180004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8001032,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 180004
+        }
+      ]
+    }
+  ]
+}

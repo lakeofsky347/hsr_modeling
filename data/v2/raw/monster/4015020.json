@@ -1,0 +1,386 @@
+{
+  "id": 4015020,
+  "name": "绝灭者，阳雷的业果，晨昏之眼",
+  "desc": "以霸道统治天空的征服者，被黑潮裹挟后的样貌。往昔的是非功过或许难以评说，但此刻饱含杀意的，只是一团破坏一切的无明业火。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 23250,
+  "initial_delay_ratio": 0.5,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4015020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 144,
+  "stance_base": 960,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4015020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401502001,
+          "skill_name": "自灰烬彼岸",
+          "skill_desc": "<u>修复</u>【枯槁的筛骨】，并对指定我方单体目标造成大量固定数值虚数属性伤害，并使其陷入【<u>腐化</u>】，【<u>腐化</u>】数值可叠加。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {
+            "240150202": {
+              "name": "腐化",
+              "desc": "可回复的生命上限降低。",
+              "param": []
+            },
+            "240150105": {
+              "name": "修复",
+              "desc": "解除指定敌方目标的控制类负面状态与弱点击破状态，若此时指定敌方目标处于不可选中状态，则使其重新进入可选中状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502002,
+          "skill_name": "落灭死残星",
+          "skill_desc": "<u>修复</u>【干涸的泪骨】，并对我方全体目标造成大量固定数值虚数属性伤害，伤害由目标<u>平均分摊</u>。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {
+            "401301001": {
+              "name": "平均分摊",
+              "desc": "本次攻击结算前的伤害和负面效果由所有受击目标平均承受。",
+              "param": []
+            },
+            "240150105": {
+              "name": "修复",
+              "desc": "解除指定敌方目标的控制类负面状态与弱点击破状态，若此时指定敌方目标处于不可选中状态，则使其重新进入可选中状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502003,
+          "skill_name": "张怖寂魔眼",
+          "skill_desc": "进入【暗潮将至】状态，下次行动施放【烬灰死寂•诸神屠灭】，并<u>修复</u>【枯槁的筛骨】和【干涸的泪骨】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240150105": {
+              "name": "修复",
+              "desc": "解除指定敌方目标的控制类负面状态与弱点击破状态，若此时指定敌方目标处于不可选中状态，则使其重新进入可选中状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502004,
+          "skill_name": "烬灰死寂•诸神屠灭",
+          "skill_desc": "对我方全体目标造成大量固定数值虚数属性伤害，并<u>修复</u>【枯槁的筛骨】和【干涸的泪骨】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {
+            "240150105": {
+              "name": "修复",
+              "desc": "解除指定敌方目标的控制类负面状态与弱点击破状态，若此时指定敌方目标处于不可选中状态，则使其重新进入可选中状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502005,
+          "skill_name": "遗骨",
+          "skill_desc": "本次战斗中，对【枯槁的筛骨】或【干涸的泪骨】造成伤害时，【绝灭者，阳雷的业果，晨昏之眼】也会损失相等的生命值。当【枯槁的筛骨】或【干涸的泪骨】受到致命攻击时，【绝灭者，阳雷的业果，晨昏之眼】会受到韧性伤害，且【枯槁的筛骨】或【干涸的泪骨】回复生命值并进入不可被选中状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401502006,
+          "skill_name": "黑潮",
+          "skill_desc": "在行动序列上添加【黑潮】，每次【黑潮】行动时，将使我方全体目标陷入【<u>腐化</u>】，【<u>腐化</u>】数值可叠加。当我方角色受到致命伤害时，将陷入【<u>黑蚀</u>】状态；当我方全体目标陷入【<u>黑蚀</u>】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240150201": {
+              "name": "黑蚀",
+              "desc": "处于【黑蚀】状态下的目标无法被选中，无法行动。",
+              "param": []
+            },
+            "240150202": {
+              "name": "腐化",
+              "desc": "可回复的生命上限降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502007,
+          "skill_name": "至暗潮汐",
+          "skill_desc": "本场战斗中，【绝灭者，阳雷的业果，晨昏之眼】造成的所有伤害会基于【黑潮同步率】造成固定数值伤害，我方目标攻击后，会再基于【黑潮同步率】造成<u>真实伤害</u>，该伤害<u>【不致命】</u>。当【绝灭者，阳雷的业果，晨昏之眼】和【黑潮】行动时，将增加【黑潮同步率】，当【枯槁的筛骨】或【干涸的泪骨】被击杀时，会减少【黑潮同步率】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "10000017": {
+              "name": "真实伤害",
+              "desc": "不受任何效果所影响的无属性伤害，本次伤害不视为造成了1次攻击。",
+              "param": []
+            },
+            "401403001": {
+              "name": "不致命",
+              "desc": "目标受到伤害时，若目标生命值不足，则会将生命值降低至1点。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401502009,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401502001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401502001,
+          "skill_name": "自灰烬彼岸",
+          "skill_desc": "<u>修复</u>【枯槁的筛骨】，并对指定我方单体目标造成大量固定数值虚数属性伤害，并使其陷入【<u>腐化</u>】，【<u>腐化</u>】数值可叠加。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {
+            "240150202": {
+              "name": "腐化",
+              "desc": "可回复的生命上限降低。",
+              "param": []
+            },
+            "240150105": {
+              "name": "修复",
+              "desc": "解除指定敌方目标的控制类负面状态与弱点击破状态，若此时指定敌方目标处于不可选中状态，则使其重新进入可选中状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502002,
+          "skill_name": "落灭死残星",
+          "skill_desc": "<u>修复</u>【干涸的泪骨】，并对我方全体目标造成大量固定数值虚数属性伤害，伤害由目标<u>平均分摊</u>。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {
+            "401301001": {
+              "name": "平均分摊",
+              "desc": "本次攻击结算前的伤害和负面效果由所有受击目标平均承受。",
+              "param": []
+            },
+            "240150105": {
+              "name": "修复",
+              "desc": "解除指定敌方目标的控制类负面状态与弱点击破状态，若此时指定敌方目标处于不可选中状态，则使其重新进入可选中状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502003,
+          "skill_name": "张怖寂魔眼",
+          "skill_desc": "进入【暗潮将至】状态，下次行动施放【烬灰死寂•诸神屠灭】，并<u>修复</u>【枯槁的筛骨】和【干涸的泪骨】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240150105": {
+              "name": "修复",
+              "desc": "解除指定敌方目标的控制类负面状态与弱点击破状态，若此时指定敌方目标处于不可选中状态，则使其重新进入可选中状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502004,
+          "skill_name": "烬灰死寂•诸神屠灭",
+          "skill_desc": "对我方全体目标造成大量固定数值虚数属性伤害，并<u>修复</u>【枯槁的筛骨】和【干涸的泪骨】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {
+            "240150105": {
+              "name": "修复",
+              "desc": "解除指定敌方目标的控制类负面状态与弱点击破状态，若此时指定敌方目标处于不可选中状态，则使其重新进入可选中状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502005,
+          "skill_name": "遗骨",
+          "skill_desc": "本次战斗中，对【枯槁的筛骨】或【干涸的泪骨】造成伤害时，【绝灭者，阳雷的业果，晨昏之眼】也会损失相等的生命值。当【枯槁的筛骨】或【干涸的泪骨】受到致命攻击时，【绝灭者，阳雷的业果，晨昏之眼】会受到韧性伤害，且【枯槁的筛骨】或【干涸的泪骨】回复生命值并进入不可被选中状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401502006,
+          "skill_name": "黑潮",
+          "skill_desc": "在行动序列上添加【黑潮】，每次【黑潮】行动时，将使我方全体目标陷入【<u>腐化</u>】，【<u>腐化</u>】数值可叠加。当我方角色受到致命伤害时，将陷入【<u>黑蚀</u>】状态；当我方全体目标陷入【<u>黑蚀</u>】状态或无法战斗状态时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240150201": {
+              "name": "黑蚀",
+              "desc": "处于【黑蚀】状态下的目标无法被选中，无法行动。",
+              "param": []
+            },
+            "240150202": {
+              "name": "腐化",
+              "desc": "可回复的生命上限降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502007,
+          "skill_name": "至暗潮汐",
+          "skill_desc": "本场战斗中，【绝灭者，阳雷的业果，晨昏之眼】造成的所有伤害会基于【黑潮同步率】造成固定数值伤害，我方目标攻击后，会再基于【黑潮同步率】造成<u>真实伤害</u>，该伤害<u>【不致命】</u>。当【绝灭者，阳雷的业果，晨昏之眼】和【黑潮】行动时，将增加【黑潮同步率】，当【枯槁的筛骨】或【干涸的泪骨】被击杀时，会减少【黑潮同步率】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "10000017": {
+              "name": "真实伤害",
+              "desc": "不受任何效果所影响的无属性伤害，本次伤害不视为造成了1次攻击。",
+              "param": []
+            },
+            "401403001": {
+              "name": "不致命",
+              "desc": "目标受到伤害时，若目标生命值不足，则会将生命值降低至1点。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401502008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401502009,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4015020,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4015020,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4015020,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4015020,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4015020,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4015020,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4015020,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

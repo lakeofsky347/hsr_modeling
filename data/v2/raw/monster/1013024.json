@@ -1,0 +1,296 @@
+{
+  "id": 1013024,
+  "name": "自动机兵•齿狼（完整）",
+  "desc": "代码受到影响后的完整投影。参照本体为以旧世界遗留的科技拼凑制造的自动机器单元，少见的人形机械，其右臂部分统一装置着链锯，似乎曾用于采集或建造作业。\\n战斗中，自动机兵「齿狼」（完整）的链锯会造成裂伤，令对手持续损失生命值。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 465,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1013020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 172,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 1013024,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101302401,
+          "skill_name": "砍伐指令",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，每次击中该目标都有概率使其陷入裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101302402,
+          "skill_name": "目标锁定",
+          "skill_desc": "锁定指定我方单体，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302403,
+          "skill_name": "瞄准指令",
+          "skill_desc": "锁定2个我方目标，下次行动对其施放【砍伐指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302404,
+          "skill_name": "协力指令",
+          "skill_desc": "锁定2个我方单体，下次行动对其施放【砍伐指令】。同时使【自动机兵·灰熊】进入蓄力状态，下次行动对我方全体施放【剿灭指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302405,
+          "skill_name": "解体指令",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302406,
+          "skill_name": "解体拆除",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率对其增加1层裂伤状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302407,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101302408,
+          "skill_name": "作战加速",
+          "skill_desc": "使自身速度大幅提高。每次施放【协力指令】时使自身速度进一步小幅提高，速度提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101302409,
+          "skill_name": "速率重构",
+          "skill_desc": "被击倒后进入【速率修复】状态，在一定回合后起身，并使自身速度进一步小幅提高，速度提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1013024,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013024,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013024,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013024,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013024,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013024,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013024,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 2.0
+    }
+  ]
+}

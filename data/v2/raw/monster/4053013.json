@@ -1,0 +1,222 @@
+{
+  "id": 4053013,
+  "name": "哀歌塞壬•无情无餍的深海妖",
+  "desc": "传说中的海妖掠夺者，能以歌声勾引意志动荡的船员。迷狂者将纵身跃入洋面，成为深海的肴馔。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 3487.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4053010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 180,
+  "stance_base": 540,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4053013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 405301301,
+          "skill_name": "摆袖醉意袭人",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405301302,
+          "skill_name": "蜜酿泼洒如星",
+          "skill_desc": "对我方全体造成少量冰属性伤害，并大概率降低目标的防御力和全属性抗性。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405301303,
+          "skill_name": "致幻哀歌",
+          "skill_desc": "我方可选择1名角色，随后对选定的我方角色造成冰属性伤害并使其陷入【幻身】状态，【幻身】状态下的我方角色及其召唤物<u>离场</u>。同时召唤【致幻人鱼】，代替该离场角色继续战斗，【致幻人鱼】视为我方角色。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "10000016": {
+              "name": "离场",
+              "desc": "处于离场状态的目标无法成为技能目标，且不会出现在行动序列上。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 405301306,
+          "skill_name": "在毁灭中狂欢",
+          "skill_desc": "造成伤害时使受到攻击的我方目标陷入【冰蚀】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "70000218": {
+              "name": "冰蚀",
+              "desc": "【冰蚀】属于持续伤害类负面状态。【冰蚀】状态下，目标每回合开始时受到等同于自身生命上限一定比例的冰属性持续伤害。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 405301307,
+          "skill_name": "请泊舟暂歇",
+          "skill_desc": "受到我方一定次数的攻击后立刻施放【致幻哀歌】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4053013,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053013,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053013,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053013,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053013,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053013,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053013,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    }
+  ]
+}

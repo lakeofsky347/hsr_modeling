@@ -1,0 +1,211 @@
+{
+  "id": 4032062,
+  "name": "被囚禁的秘所思",
+  "desc": "史诗的记述，传说的浪漫，以及赋予他们价值的万千岁月，从中诞生一切信仰的灵性。它不再是囚徒，它将死于灵知的葬仪，留一座铁铸的墓碑。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1488,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4032060.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 132,
+  "stance_base": null,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4032062,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 403206203,
+          "skill_name": "徒留悲剧残响",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，并使其行动延后。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403206204,
+          "skill_name": "亿年苦厄燃放",
+          "skill_desc": "锁定2个我方目标，进入【将带来解脱】状态，【反造物主】下次行动施放【灵的囚笼必遭焚毁】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403206205,
+          "skill_name": "",
+          "skill_desc": "自身陷入【重创】状态时，下次行动回复所有生命值并解除【重创】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403206206,
+          "skill_name": "",
+          "skill_desc": "免疫除【反造物主】外的行动条变化效果影响。【秘所思】无法被消灭，受到致命攻击后陷入【重创】状态，使我方全体行动提前并解除【<u>行动锁定</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403501001": {
+              "name": "行动锁定",
+              "desc": "目标行动值不会因任意目标回合结束而改变。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4032062,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032062,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032062,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032062,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032062,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032062,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032062,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    }
+  ]
+}

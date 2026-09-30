@@ -1,0 +1,326 @@
+{
+  "id": 5023022,
+  "name": "吞神子嗣（错误）",
+  "desc": "代码受到影响后的错误投影。参照本体为吞神子嗣，归寂分裂「贪饕」力量所生成的怪物军团，如今「幻造种」的原型。他自哈托彼亚沉睡的核心中感应到「贪饕」永不停歇的吞噬渴望，其力量的脉动与「毁灭」命途十分合拍。这份躁动令他感到有趣，因此他开始自己的黑暗创造——抹去人类的头颅，留下发笑和吞噬的嘴，永不满足地向外界咆哮、索要、吞吃。",
+  "monster_camp_id": 17,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1674,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5023020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 540,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 5023022,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 502302201,
+          "skill_name": "暴食祭",
+          "skill_desc": "对指定我方单体造成少量火属性伤害，并大概率使受到攻击的目标的防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 502302202,
+          "skill_name": "生贽的饱食",
+          "skill_desc": "使指定我方角色陷入【吞噬】状态，可回复的生命上限降低，并夺取该角色一定比例的攻击力。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 502302203,
+          "skill_name": "赎愆祭",
+          "skill_desc": "自身施加的【吞噬】状态被解除时，使解除【吞噬】状态的我方单位的攻击力提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 502302204,
+          "skill_name": "群兽的飨宴",
+          "skill_desc": "对我方全体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 502302205,
+          "skill_name": "神圣反刍",
+          "skill_desc": "每次受到我方单位攻击后，使被自身施加【吞噬】状态的我方角色可回复的生命上限提高，并归还一定比例的攻击力。受到我方单位一定次数的攻击后、或弱点被击破时，解除自身施加的【吞噬】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 502302201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 502302201,
+          "skill_name": "暴食祭",
+          "skill_desc": "对指定我方单体造成少量火属性伤害，并大概率使受到攻击的目标的防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 502302202,
+          "skill_name": "生贽的饱食",
+          "skill_desc": "使指定我方角色陷入【吞噬】状态，可回复的生命上限降低，并夺取该角色一定比例的攻击力。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 502302203,
+          "skill_name": "赎愆祭",
+          "skill_desc": "自身施加的【吞噬】状态被解除时，使解除【吞噬】状态的我方单位的攻击力提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 502302204,
+          "skill_name": "群兽的飨宴",
+          "skill_desc": "对我方全体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 502302205,
+          "skill_name": "神圣反刍",
+          "skill_desc": "每次受到我方单位攻击后，使被自身施加【吞噬】状态的我方角色可回复的生命上限提高，并归还一定比例的攻击力。受到我方单位一定次数的攻击后、或弱点被击破时，解除自身施加的【吞噬】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5023022,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023022,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023022,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023022,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023022,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023022,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023022,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    }
+  ]
+}

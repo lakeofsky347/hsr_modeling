@@ -1,0 +1,296 @@
+{
+  "id": 1013014,
+  "name": "自动机兵•灰熊（完整）",
+  "desc": "代码受到影响后的完整投影。参照本体为以旧世界遗留的科技拼凑制造的自动机器单元，加装了厚重的铠甲，用于冲锋陷阵保护银鬃铁卫。\\n战斗中，自动机兵「灰熊」（完整）会发出信号召来「蜘蛛」合作战斗，同时会积蓄动能发出强力一击。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 930,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1013010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 1013014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101301401,
+          "skill_name": "破坏指令",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 101301402,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101301403,
+          "skill_name": "爆裂指令",
+          "skill_desc": "召唤【自动机兵•蜘蛛】或【自动机兵•甲虫】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101301404,
+          "skill_name": "愤怒指令",
+          "skill_desc": "有概率使我方每个单体目标陷入嘲讽状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101301405,
+          "skill_name": "过载指令",
+          "skill_desc": "进入蓄力状态。下次行动对我方全体施放【剿灭指令】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101301406,
+          "skill_name": "剿灭指令",
+          "skill_desc": "对我方全体造成大量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 101301407,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101301408,
+          "skill_name": "毁灭指令",
+          "skill_desc": "使自身造成伤害大幅提高。每次进入蓄力状态时使自身造成的伤害进一步提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101301409,
+          "skill_name": "火力重构",
+          "skill_desc": "被击倒后进入【火力修复】状态，在一定回合后起身，并使自身造成的伤害进一步提高，伤害提高效果可叠加。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1013014,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013014,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013014,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013014,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013014,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013014,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1013014,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 182006
+        },
+        {
+          "item_id": 183002
+        }
+      ]
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 2.0
+    }
+  ]
+}

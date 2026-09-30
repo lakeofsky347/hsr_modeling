@@ -1,0 +1,385 @@
+{
+  "id": 3004020,
+  "name": "奇想林中的蕉研组",
+  "desc": "被「源究森林」的树荫遮蔽理智的美梦剧团。它们携带着「奇想林」中结出的模因病毒，于梦中蕉横地宣扬睡蕉小猴的蕉旨与原始博士的蕉诲。",
+  "monster_camp_id": 10,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 3720,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3004020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 80,
+  "stance_base": null,
+  "stance_count": null,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 3004020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 300402001,
+          "skill_name": "猴群荣誉感",
+          "skill_desc": "本次战斗中，「奇想林中的蕉研组」与所有「蕉研组」成员共享血量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402002,
+          "skill_name": "蕉学课程表",
+          "skill_desc": "在行动序列上添加【期末晚会】，每次【期末晚会】行动时，解除场上所有「蕉研组」成员的控制类负面状态与弱点击破状态，将全体「蕉研组」的【课间频道】状态转变为【课堂频道】状态，并施放【致博士：蕉学成果汇演】。每当有一名「蕉研组」成员的弱点被击破时，【期末晚会】的行动将小幅延后。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402003,
+          "skill_name": "致博士：蕉学成果汇演",
+          "skill_desc": "使敌方全体的攻击力提高，使我方全体能量、战技点减少，并对我方全体造成量子属性伤害和火属性伤害，有概率对我方全体施加减速状态，大概率使我方全体陷入【灼烧】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300402001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.8125,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 300402001,
+          "skill_name": "猴群荣誉感",
+          "skill_desc": "本次战斗中，「奇想林中的蕉研组」与所有「蕉研组」成员共享血量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402002,
+          "skill_name": "蕉学课程表",
+          "skill_desc": "在行动序列上添加【期末晚会】，每次【期末晚会】行动时，解除场上所有「蕉研组」成员的控制类负面状态与弱点击破状态，将全体「蕉研组」的【课间频道】状态转变为【课堂频道】状态，并施放【致博士：蕉学成果汇演】。每当有一名「蕉研组」成员的弱点被击破时，【期末晚会】的行动将小幅延后。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402003,
+          "skill_name": "致博士：蕉学成果汇演",
+          "skill_desc": "使敌方全体的攻击力提高，使我方全体能量、战技点减少，并对我方全体造成量子属性伤害和火属性伤害，有概率对我方全体施加减速状态，大概率使我方全体陷入【灼烧】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300402002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.8125,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 300402001,
+          "skill_name": "猴群荣誉感",
+          "skill_desc": "本次战斗中，「奇想林中的蕉研组」与所有「蕉研组」成员共享血量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402002,
+          "skill_name": "蕉学课程表",
+          "skill_desc": "在行动序列上添加【期末晚会】，每次【期末晚会】行动时，解除场上所有「蕉研组」成员的控制类负面状态与弱点击破状态，将全体「蕉研组」的【课间频道】状态转变为【课堂频道】状态，并施放【致博士：蕉学成果汇演】。每当有一名「蕉研组」成员的弱点被击破时，【期末晚会】的行动将小幅延后。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402003,
+          "skill_name": "致博士：蕉学成果汇演",
+          "skill_desc": "使敌方全体的攻击力提高，使我方全体能量、战技点减少，并对我方全体造成量子属性伤害和火属性伤害，有概率对我方全体施加减速状态，大概率使我方全体陷入【灼烧】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300402003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.8125,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 300402001,
+          "skill_name": "猴群荣誉感",
+          "skill_desc": "本次战斗中，「奇想林中的蕉研组」与所有「蕉研组」成员共享血量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402002,
+          "skill_name": "蕉学课程表",
+          "skill_desc": "在行动序列上添加【期末晚会】，每次【期末晚会】行动时，解除场上所有「蕉研组」成员的控制类负面状态与弱点击破状态，将全体「蕉研组」的【课间频道】状态转变为【课堂频道】状态，并施放【致博士：蕉学成果汇演】。每当有一名「蕉研组」成员的弱点被击破时，【期末晚会】的行动将小幅延后。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402003,
+          "skill_name": "致博士：蕉学成果汇演",
+          "skill_desc": "使敌方全体的攻击力提高，使我方全体能量、战技点减少，并对我方全体造成量子属性伤害和火属性伤害，有概率对我方全体施加减速状态，大概率使我方全体陷入【灼烧】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300402004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.0625,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 300402001,
+          "skill_name": "猴群荣誉感",
+          "skill_desc": "本次战斗中，「奇想林中的蕉研组」与所有「蕉研组」成员共享血量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402002,
+          "skill_name": "蕉学课程表",
+          "skill_desc": "在行动序列上添加【期末晚会】，每次【期末晚会】行动时，解除场上所有「蕉研组」成员的控制类负面状态与弱点击破状态，将全体「蕉研组」的【课间频道】状态转变为【课堂频道】状态，并施放【致博士：蕉学成果汇演】。每当有一名「蕉研组」成员的弱点被击破时，【期末晚会】的行动将小幅延后。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402003,
+          "skill_name": "致博士：蕉学成果汇演",
+          "skill_desc": "使敌方全体的攻击力提高，使我方全体能量、战技点减少，并对我方全体造成量子属性伤害和火属性伤害，有概率对我方全体施加减速状态，大概率使我方全体陷入【灼烧】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300402005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 300402001,
+          "skill_name": "猴群荣誉感",
+          "skill_desc": "本次战斗中，「奇想林中的蕉研组」与所有「蕉研组」成员共享血量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402002,
+          "skill_name": "蕉学课程表",
+          "skill_desc": "在行动序列上添加【期末晚会】，每次【期末晚会】行动时，解除场上所有「蕉研组」成员的控制类负面状态与弱点击破状态，将全体「蕉研组」的【课间频道】状态转变为【课堂频道】状态，并施放【致博士：蕉学成果汇演】。每当有一名「蕉研组」成员的弱点被击破时，【期末晚会】的行动将小幅延后。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402003,
+          "skill_name": "致博士：蕉学成果汇演",
+          "skill_desc": "使敌方全体的攻击力提高，使我方全体能量、战技点减少，并对我方全体造成量子属性伤害和火属性伤害，有概率对我方全体施加减速状态，大概率使我方全体陷入【灼烧】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3004020,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004020,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004020,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004020,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004020,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004020,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004020,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

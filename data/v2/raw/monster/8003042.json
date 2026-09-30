@@ -1,0 +1,265 @@
+{
+  "id": 8003042,
+  "name": "蚕食者之影",
+  "desc": "由星核力量幻造而成的虚影，执行着令裂界不断扩张的意志。\\n智慧生命的欲求在裂界中投影形成的活体能量，犹如一颗沙砾在蚌壳中凝成了珠贝。然而驱动它的这股欲望早已扭曲，模糊不清。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 744,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8003040.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 172,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8003042,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800304201,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800304202,
+          "skill_name": "流年金刺",
+          "skill_desc": "对指定我方单体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800304203,
+          "skill_name": "流年谴罚",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800304204,
+          "skill_name": "黄金年代的绸缪",
+          "skill_desc": "使自身进入蓄力状态并获得9层【追忆刻度】，下次行动施放【黄金年代的解放】。每次受到攻击后失去1层【追忆刻度】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800304205,
+          "skill_name": "黄金年代的解放",
+          "skill_desc": "连续对我方随机单体造成少量虚数属性伤害，造成伤害的次数与自身剩余【追忆刻度】层数一致。若没有【追忆刻度】则本技能施放失败。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 800304206,
+          "skill_name": "流年盾纱",
+          "skill_desc": "自身受到的普攻、战技、终结技、追加攻击伤害小幅降低，并有小概率使受到蚕食者之影攻击的我方目标陷入禁锢状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 800304207,
+          "skill_name": "黄金年代的解放",
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8003042,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003042,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003042,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003042,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003042,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003042,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8003042,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 182007
+        },
+        {
+          "item_id": 183004
+        }
+      ]
+    }
+  ]
+}

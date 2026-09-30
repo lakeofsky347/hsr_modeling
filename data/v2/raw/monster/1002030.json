@@ -1,0 +1,1674 @@
+{
+  "id": 1002030,
+  "name": "银鬃炮手",
+  "desc": "银鬃铁卫中的炮手，使用便携的手炮进行战斗。\\n 在战斗中，银鬃炮手会和其它目标发动猛烈的连携攻击。",
+  "monster_camp_id": 1,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 195.3,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1002030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 1002030,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203001,
+      "attack_modify_ratio": 1.111111,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203002,
+      "attack_modify_ratio": 1.111111,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203003,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203004,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.47619,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -30,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203005,
+      "attack_modify_ratio": 1.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203006,
+      "attack_modify_ratio": 1.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203007,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.261905,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -30,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203008,
+      "attack_modify_ratio": 0.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.190476,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 33,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203010,
+      "attack_modify_ratio": 5.555556,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.857143,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -30,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203011,
+      "attack_modify_ratio": 5.555556,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.857143,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -30,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.314286,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203016,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203017,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.309524,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 40,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203018,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203019,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203020,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.904762,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203021,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203022,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203023,
+      "attack_modify_ratio": 1.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.714286,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 60,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203024,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203025,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.190476,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 100203026,
+      "attack_modify_ratio": 2.222716,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.53619,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 100203001,
+          "skill_name": "炮击",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 100203002,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 100203003,
+          "skill_name": "掩护支援",
+          "skill_desc": "为指定敌方单体提供支援，在被支援的敌方目标攻击我方目标后施放1次追加攻击，对受到攻击的我方目标及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 12,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1002030,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002030,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002030,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002030,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002030,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002030,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1002030,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112001
+        },
+        {
+          "item_id": 112002
+        },
+        {
+          "item_id": 112003
+        },
+        {
+          "item_id": 181005
+        }
+      ]
+    }
+  ]
+}

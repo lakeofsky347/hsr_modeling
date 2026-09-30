@@ -1,0 +1,1165 @@
+{
+  "id": 1012021,
+  "name": "自动机兵•蜘蛛",
+  "desc": "以旧世界遗留的科技拼凑制造的自动机器单元，负责替代人类进行最基础的体力劳动。\\n战斗中，自动机兵「蜘蛛」的动力非常不稳定，极易在损毁时发生殉爆事故。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 69.75,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_1012020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 83,
+  "stance_base": 60,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 1012021,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202102,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.6,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202103,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202104,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 0.428571,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.866667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 37,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -30,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202105,
+      "attack_modify_ratio": 1.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202106,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202107,
+      "attack_modify_ratio": 0.769231,
+      "defence_modify_ratio": 0.111111,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.08,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 27,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -30,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202108,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202109,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202110,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202111,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202112,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 101202113,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 3.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 101202101,
+          "skill_name": "冲撞",
+          "skill_desc": "对指定我方单体造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202102,
+          "skill_name": "定时模块",
+          "skill_desc": "下次行动施放【自爆模块】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 101202103,
+          "skill_name": "自爆模块",
+          "skill_desc": "引爆自身，对指定我方单体及其相邻目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 101202104,
+          "skill_name": "毁灭连锁",
+          "skill_desc": "受到致命攻击后，对相邻的敌方目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 1012021,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 181001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1012021,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 181001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1012021,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 181001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1012021,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 181001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1012021,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 181001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1012021,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 181001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 1012021,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 112011
+        },
+        {
+          "item_id": 112012
+        },
+        {
+          "item_id": 112013
+        },
+        {
+          "item_id": 181001
+        }
+      ]
+    }
+  ]
+}

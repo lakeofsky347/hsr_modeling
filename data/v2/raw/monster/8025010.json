@@ -1,0 +1,500 @@
+{
+  "id": 8025010,
+  "name": "碎星王虫•斯喀拉卡巴兹（拟造）",
+  "desc": "阮•梅培育的「繁育」令使复制体，以残缺的姿态短暂现世。原型为继承虫皇之颚的巨蠹，能以口器凝聚裂解天体的死光，将破碎的群星作为诞育子嗣的温床，曾是寰宇蝗灾中的诸界噩梦之一。",
+  "monster_camp_id": 8,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 2232,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8025010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 120,
+  "stance_base": 540,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 8025010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802501001,
+          "skill_name": "王虫炮",
+          "skill_desc": "对指定我方单体造成量子属性伤害",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501002,
+          "skill_name": "辐裂蛰毒",
+          "skill_desc": "对指定我方单体造成量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态，同时召唤1只【蚀蛰虫】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 802501003,
+          "skill_name": "热解死光",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501005,
+          "skill_name": "孳孽虫甲",
+          "skill_desc": "进入【增殖】状态，持续直到下次行动。期间受到伤害大幅降低，并且每次受到攻击时召唤【蚀蛰虫】。【增殖】状态下被击破弱点，会对敌方全体造成等同自身韧性上限的削韧值，并使自身以外的敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501006,
+          "skill_name": "坍星之卵",
+          "skill_desc": "对我方全体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802501007,
+          "skill_name": "孕灾虫甲",
+          "skill_desc": "蓄力并进入【增殖】状态，持续直到下次行动。下次行动时对我方全体施放【坍星之卵】。状态持续期间受到伤害大幅降低，并且每次受到攻击时召唤【蚀蛰虫】或【次蛰虫】。【增殖】状态下被击破弱点，会对敌方全体造成等同自身韧性上限的削韧值，并使自身以外的敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501009,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802501001,
+      "attack_modify_ratio": 0.909091,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.75,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802501001,
+          "skill_name": "王虫炮",
+          "skill_desc": "对指定我方单体造成量子属性伤害",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501002,
+          "skill_name": "辐裂蛰毒",
+          "skill_desc": "对指定我方单体造成量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态，同时召唤1只【蚀蛰虫】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 802501003,
+          "skill_name": "热解死光",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501005,
+          "skill_name": "孳孽虫甲",
+          "skill_desc": "进入【增殖】状态，持续直到下次行动。期间受到伤害大幅降低，并且每次受到攻击时召唤【蚀蛰虫】。【增殖】状态下被击破弱点，会对敌方全体造成等同自身韧性上限的削韧值，并使自身以外的敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501006,
+          "skill_name": "坍星之卵",
+          "skill_desc": "对我方全体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802501007,
+          "skill_name": "孕灾虫甲",
+          "skill_desc": "蓄力并进入【增殖】状态，持续直到下次行动。下次行动时对我方全体施放【坍星之卵】。状态持续期间受到伤害大幅降低，并且每次受到攻击时召唤【蚀蛰虫】或【次蛰虫】。【增殖】状态下被击破弱点，会对敌方全体造成等同自身韧性上限的削韧值，并使自身以外的敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501009,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802501002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.770833,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802501001,
+          "skill_name": "王虫炮",
+          "skill_desc": "对指定我方单体造成量子属性伤害",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501002,
+          "skill_name": "辐裂蛰毒",
+          "skill_desc": "对指定我方单体造成量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态，同时召唤1只【蚀蛰虫】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 802501003,
+          "skill_name": "热解死光",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501005,
+          "skill_name": "孳孽虫甲",
+          "skill_desc": "进入【增殖】状态，持续直到下次行动。期间受到伤害大幅降低，并且每次受到攻击时召唤【蚀蛰虫】。【增殖】状态下被击破弱点，会对敌方全体造成等同自身韧性上限的削韧值，并使自身以外的敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501006,
+          "skill_name": "坍星之卵",
+          "skill_desc": "对我方全体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802501007,
+          "skill_name": "孕灾虫甲",
+          "skill_desc": "蓄力并进入【增殖】状态，持续直到下次行动。下次行动时对我方全体施放【坍星之卵】。状态持续期间受到伤害大幅降低，并且每次受到攻击时召唤【蚀蛰虫】或【次蛰虫】。【增殖】状态下被击破弱点，会对敌方全体造成等同自身韧性上限的削韧值，并使自身以外的敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501009,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802501003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.979167,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 15,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 300,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802501001,
+          "skill_name": "王虫炮",
+          "skill_desc": "对指定我方单体造成量子属性伤害",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501002,
+          "skill_name": "辐裂蛰毒",
+          "skill_desc": "对指定我方单体造成量子属性伤害，并大概率使受到攻击的我方目标陷入纠缠状态，同时召唤1只【蚀蛰虫】。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 802501003,
+          "skill_name": "热解死光",
+          "skill_desc": "对指定我方单体及相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802501004,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501005,
+          "skill_name": "孳孽虫甲",
+          "skill_desc": "进入【增殖】状态，持续直到下次行动。期间受到伤害大幅降低，并且每次受到攻击时召唤【蚀蛰虫】。【增殖】状态下被击破弱点，会对敌方全体造成等同自身韧性上限的削韧值，并使自身以外的敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501006,
+          "skill_name": "坍星之卵",
+          "skill_desc": "对我方全体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802501007,
+          "skill_name": "孕灾虫甲",
+          "skill_desc": "蓄力并进入【增殖】状态，持续直到下次行动。下次行动时对我方全体施放【坍星之卵】。状态持续期间受到伤害大幅降低，并且每次受到攻击时召唤【蚀蛰虫】或【次蛰虫】。【增殖】状态下被击破弱点，会对敌方全体造成等同自身韧性上限的削韧值，并使自身以外的敌方目标受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501008,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802501009,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8025010,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025010,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025010,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025010,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025010,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025010,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8025010,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.4
+    }
+  ]
+}

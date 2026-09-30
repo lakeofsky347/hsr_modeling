@@ -1,0 +1,1528 @@
+{
+  "id": 2013020,
+  "name": "金人勾魂使",
+  "desc": "刻录着《十王武经》，听命于十王司的执法金人。\\n血肉易受五阴之苦所执，唯有金铁不动其心，奉行十王敕令不渝。\\n这些金人执法者以力降伏脱离生命秩序的邪物，将之带入幽府，接受判罚，其权限有时甚于判官。",
+  "monster_camp_id": 2,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1116,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2013020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 2013020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302002,
+      "attack_modify_ratio": 0.909091,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302003,
+      "attack_modify_ratio": 0.909091,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302004,
+      "attack_modify_ratio": 0.588235,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.75,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.458333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.541667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 1,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 60,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 140,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 6.875,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302015,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201302016,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -40,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201302001,
+          "skill_name": "剖判",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302002,
+          "skill_name": "镇魂",
+          "skill_desc": "对指定我方单体造成物理属性伤害，并大概率使受到攻击的我方目标陷入【震荡】状态。【震荡】状态下的目标受到攻击后，陷入【强烈震荡】状态，然后解除【震荡】状态。【强烈震荡】状态下的目标无法行动。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302003,
+          "skill_name": "转阴阳",
+          "skill_desc": "对我方全体造成物理属性伤害，并有概率使受到攻击的我方目标陷入【震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 201302004,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 201302005,
+          "skill_name": "拘魂令",
+          "skill_desc": "场上有我方目标陷入【强烈震荡】状态时，锁定该目标，下次行动对其施放【天坠】。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 201302006,
+          "skill_name": "天坠",
+          "skill_desc": "对指定我方单体造成大量物理属性伤害，如果该目标处于【强烈震荡】状态，则额外对该目标造成物理属性伤害，同时解除该目标的【强烈震荡】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2013020,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2013020,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2013020,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2013020,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2013020,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 113013
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2013020,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 113013
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2013020,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 113013
+        },
+        {
+          "item_id": 182002
+        },
+        {
+          "item_id": 183001
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": 4012090,
+  "name": "百眼之梢",
+  "desc": "融合神游离的单眼。不具有成像能力，主要功能是辅助主眼极化天气。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1116,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4012090.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 144,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4012090,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401209001,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401209001,
+      "attack_modify_ratio": 2.222716,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.089625,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401209001,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4012090,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012090,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012090,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012090,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012090,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012090,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012090,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    }
+  ]
+}

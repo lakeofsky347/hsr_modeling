@@ -1,0 +1,333 @@
+{
+  "id": 3024023,
+  "name": "「星核猎手」萨姆（完整）",
+  "desc": "代码受到影响后的完整投影。参照本体为「星核猎手」的一员，身着沉重装甲的神秘战士。他的铁甲能够释放炽焰，点燃战场，发动烈火般的攻势。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1488,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3024020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 120,
+  "stance_base": 720,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3024023,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302402301,
+          "skill_name": "BHF-轰炎推进",
+          "skill_desc": "对指定我方单体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302402302,
+          "skill_name": "BHF-轰炎推进",
+          "skill_desc": "对指定我方单体造成少量火属性伤害，并锁定目标，下次行动对其施放【DHGDR-流火飞烬】。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302402303,
+          "skill_name": "BHF-天火",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302402304,
+          "skill_name": "BBHF-焦土作战",
+          "skill_desc": "对我方全体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302402305,
+          "skill_name": "DHGDR-次级燃烧",
+          "skill_desc": "消耗自身生命值，进入【次级燃烧】并解除【弱点无效】效果。进入【次级燃烧】后自身大幅增强，但所有攻击会消耗自身生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402306,
+          "skill_name": "DHGDR-超新星过载",
+          "skill_desc": "对我方全体造成火属性伤害，并大概率使受到攻击的我方目标陷入灼烧状态。",
+          "damage_type": "Fire",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 302402307,
+          "skill_name": "SGE-熔火垓心",
+          "skill_desc": "进入【次级燃烧】后使场地燃烧，同时燃烧我方的战技点；我方消耗燃烧的战技点时会消耗生命值，同时额外造成等同于原伤害一定比例的固定数值火属性伤害，并且接受自身之外的治疗时，生命值回复量大幅降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402308,
+          "skill_name": "SGE-熔火引擎",
+          "skill_desc": "萨姆在【次级燃烧】下拥有【熔火能量】，被攻击时若此次攻击消耗了战技点则削减对应数量的【熔火能量】，【熔火能量】耗尽或被弱点击破时解除【次级燃烧】。解除【次级燃烧】时，萨姆受到的伤害提高，并恢复我方所有战技点。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402309,
+          "skill_name": "DHGDR-流火飞烬",
+          "skill_desc": "对我方单体造成火属性伤害。释放技能时【熔火能量】层数越高，伤害越高。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402310,
+          "skill_name": "SEG-聚热升级",
+          "skill_desc": "每当萨姆因为【次级燃烧】的效果，在攻击时损失生命值时，自身造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402311,
+          "skill_name": "SEG-温压力场",
+          "skill_desc": "我方角色使用燃烧战技点或受到【灼烧】伤害后，将使我方陷入【<u>焚身</u>】状态。当萨姆解除【次级燃烧】时，【<u>焚身</u>】效果将被移除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "230240231": {
+              "name": "焚身",
+              "desc": "可回复的生命上限降低。由燃烧战技点或【灼烧】造成的生命值变化值将转化为【焚身】降低可回复的生命上限。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 302402301,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.9375,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302402301,
+          "skill_name": "BHF-轰炎推进",
+          "skill_desc": "对指定我方单体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302402302,
+          "skill_name": "BHF-轰炎推进",
+          "skill_desc": "对指定我方单体造成少量火属性伤害，并锁定目标，下次行动对其施放【DHGDR-流火飞烬】。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302402303,
+          "skill_name": "BHF-天火",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302402304,
+          "skill_name": "BBHF-焦土作战",
+          "skill_desc": "对我方全体造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302402305,
+          "skill_name": "DHGDR-次级燃烧",
+          "skill_desc": "消耗自身生命值，进入【次级燃烧】并解除【弱点无效】效果。进入【次级燃烧】后自身大幅增强，但所有攻击会消耗自身生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402306,
+          "skill_name": "DHGDR-超新星过载",
+          "skill_desc": "对我方全体造成火属性伤害，并大概率使受到攻击的我方目标陷入灼烧状态。",
+          "damage_type": "Fire",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 302402307,
+          "skill_name": "SGE-熔火垓心",
+          "skill_desc": "进入【次级燃烧】后使场地燃烧，同时燃烧我方的战技点；我方消耗燃烧的战技点时会消耗生命值，同时额外造成等同于原伤害一定比例的固定数值火属性伤害，并且接受自身之外的治疗时，生命值回复量大幅降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402308,
+          "skill_name": "SGE-熔火引擎",
+          "skill_desc": "萨姆在【次级燃烧】下拥有【熔火能量】，被攻击时若此次攻击消耗了战技点则削减对应数量的【熔火能量】，【熔火能量】耗尽或被弱点击破时解除【次级燃烧】。解除【次级燃烧】时，萨姆受到的伤害提高，并恢复我方所有战技点。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402309,
+          "skill_name": "DHGDR-流火飞烬",
+          "skill_desc": "对我方单体造成火属性伤害。释放技能时【熔火能量】层数越高，伤害越高。",
+          "damage_type": "Fire",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402310,
+          "skill_name": "SEG-聚热升级",
+          "skill_desc": "每当萨姆因为【次级燃烧】的效果，在攻击时损失生命值时，自身造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302402311,
+          "skill_name": "SEG-温压力场",
+          "skill_desc": "我方角色使用燃烧战技点或受到【灼烧】伤害后，将使我方陷入【<u>焚身</u>】状态。当萨姆解除【次级燃烧】时，【<u>焚身</u>】效果将被移除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "230240231": {
+              "name": "焚身",
+              "desc": "可回复的生命上限降低。由燃烧战技点或【灼烧】造成的生命值变化值将转化为【焚身】降低可回复的生命上限。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3024023,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024023,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024023,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024023,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024023,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024023,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024023,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 1.3
+    }
+  ]
+}

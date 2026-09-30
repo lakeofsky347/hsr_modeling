@@ -1,0 +1,80 @@
+{
+  "id": 3012033,
+  "name": "灵魂",
+  "desc": "",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 93,
+  "initial_delay_ratio": null,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3012030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": null,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 3012033,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 301203301,
+          "skill_name": "灵魂伤害传递",
+          "skill_desc": "受到伤害的一部分会传递给本体。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3012033,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3012033,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3012033,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3012033,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3012033,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3012033,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3012033,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

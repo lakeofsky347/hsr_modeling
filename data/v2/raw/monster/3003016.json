@@ -1,0 +1,416 @@
+{
+  "id": 3003016,
+  "name": "蕉研组的谐乐蕉师（完整）",
+  "desc": "代码受到影响后的完整投影。参照本体为原本是搭载了谐乐学院教材的「十七分熟」，受到模因病毒的影响，教材变成了蕉材。舞台上的蕉燥之心酝酿炽焰的蕉响乐，誓要将不听从蕉诲的坏猴生烤为蕉碳。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 2092.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3003013.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 720,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3003016,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300301601,
+          "skill_name": "体罚，尝尝蕉训！",
+          "skill_desc": "对我方单体及相邻目标造成少量火属性伤害，并大概率使其陷入【灼烧】状态。只能在【课堂频道】状态下使用。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300301602,
+          "skill_name": "连坐，尝尝焦训！",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使我方全体陷入【灼烧】状态。只能在【课堂频道】状态下使用。",
+          "damage_type": "Fire",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 300301603,
+          "skill_name": "不猴，突击考试！",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 300301604,
+          "skill_name": "猴啊，临时放假！",
+          "skill_desc": "使我方全体目标攻击力提高，并削减「奇想林中的蕉研组（完整）」的韧性。只能在【课间频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300301605,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301606,
+          "skill_name": "蕉泥做猴",
+          "skill_desc": "自身在攻击时有概率对目标施加减速状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301607,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301608,
+          "skill_name": "火上蕉油",
+          "skill_desc": "每次施放【连坐，尝尝焦训！】时，将使所有「蕉研组」成员造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301609,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301610,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301611,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300301601,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300301601,
+          "skill_name": "体罚，尝尝蕉训！",
+          "skill_desc": "对我方单体及相邻目标造成少量火属性伤害，并大概率使其陷入【灼烧】状态。只能在【课堂频道】状态下使用。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300301602,
+          "skill_name": "连坐，尝尝焦训！",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使我方全体陷入【灼烧】状态。只能在【课堂频道】状态下使用。",
+          "damage_type": "Fire",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 300301603,
+          "skill_name": "不猴，突击考试！",
+          "skill_desc": "将【课间频道】状态转变为【课堂频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 300301604,
+          "skill_name": "猴啊，临时放假！",
+          "skill_desc": "使我方全体目标攻击力提高，并削减「奇想林中的蕉研组（完整）」的韧性。只能在【课间频道】状态下使用。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300301605,
+          "skill_name": "蕉学事故",
+          "skill_desc": "在受到一定次数攻击后，会从【课堂频道】状态转变为【课间频道】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301606,
+          "skill_name": "蕉泥做猴",
+          "skill_desc": "自身在攻击时有概率对目标施加减速状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301607,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301608,
+          "skill_name": "火上蕉油",
+          "skill_desc": "每次施放【连坐，尝尝焦训！】时，将使所有「蕉研组」成员造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301609,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301610,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300301611,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3003016,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003016,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003016,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003016,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003016,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003016,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003016,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    }
+  ]
+}

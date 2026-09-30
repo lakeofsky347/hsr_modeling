@@ -1,0 +1,226 @@
+{
+  "id": 4043010,
+  "name": "黑塔#错误型号",
+  "desc": "受到忆域迷因污染的黑塔人偶，得益于完美的原型，即使参数错误，仍然显得如此精致实用。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1116,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4043010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 100,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4043010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 404301001,
+          "skill_name": "复写变换",
+          "skill_desc": "变身为至多5个其他敌方单位。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 404301001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 404301001,
+          "skill_name": "复写变换",
+          "skill_desc": "变身为至多5个其他敌方单位。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4043010,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 182009
+        },
+        {
+          "item_id": 183005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4043010,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 182009
+        },
+        {
+          "item_id": 183005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4043010,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 182009
+        },
+        {
+          "item_id": 183005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4043010,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 182009
+        },
+        {
+          "item_id": 183005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4043010,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 182009
+        },
+        {
+          "item_id": 183005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4043010,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 182009
+        },
+        {
+          "item_id": 183005
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4043010,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 182009
+        },
+        {
+          "item_id": 183005
+        }
+      ]
+    }
+  ]
+}

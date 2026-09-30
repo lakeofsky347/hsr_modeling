@@ -1,0 +1,952 @@
+{
+  "id": 2012010,
+  "name": "入魔机巧 • 灯昼龙鱼",
+  "desc": "工造司匠人随手造就的机巧发明。原本是不具灵智，用以烛照黑暗的灯具，如今却因为某些异变被赋予了短暂的「生命」。",
+  "monster_camp_id": 2,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 139.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2012010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 60,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 2012010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 33,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.8,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 240,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 240,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.4,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 201201015,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 201201001,
+          "skill_name": "宵明",
+          "skill_desc": "对我方全体造成少量火属性伤害，并大概率使受到攻击的我方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 201201002,
+          "skill_name": "烛花",
+          "skill_desc": "受到致命攻击时对敌方全体造成火属性伤害，并大概率使受到攻击的敌方目标防御力降低。",
+          "damage_type": "Fire",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2012010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 181002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2012010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 181002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2012010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 181002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2012010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 181002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2012010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 113013
+        },
+        {
+          "item_id": 181002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2012010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 113013
+        },
+        {
+          "item_id": 181002
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2012010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 113011
+        },
+        {
+          "item_id": 113012
+        },
+        {
+          "item_id": 113013
+        },
+        {
+          "item_id": 181002
+        }
+      ]
+    }
+  ]
+}

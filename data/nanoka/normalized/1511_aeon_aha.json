@@ -1,0 +1,2849 @@
+{
+  "id": 1511,
+  "slug": "aeon_aha",
+  "source_url": "https://hsr.nanoka.cc/character/1511",
+  "data_url_zh": "https://static.nanoka.cc/hsr/4.6.51/zh/character/1511.json",
+  "names": {
+    "zh": "星神★阿哈",
+    "en": "Aeon ★ Aha",
+    "ja": "星神★アッハ",
+    "ko": "에이언즈★아하"
+  },
+  "rarity": {
+    "code": "CombatPowerAvatarRarityType5",
+    "stars": 5
+  },
+  "path": {
+    "code": "Elation",
+    "zh": "欢愉"
+  },
+  "element": {
+    "code": "Quantum",
+    "zh": "量子"
+  },
+  "max_energy": 8,
+  "release": {
+    "ts": null,
+    "date": null
+  },
+  "icon": "nihilux",
+  "desc_zh": "啼哭与欢笑交织，死寂的银河在闹剧中破晓。\n再次登上命途的舞台，撕下神的面具，谁是阿哈？我才阿哈！\n去游戏，去愚弄，去狩猎，敬请见证——人神共舞的即兴巡演！",
+  "desc_en": "Cries and comedy intertwine, and the deathly still cosmos awakens to daybreak in a farce.\nStepping back onto the stage of the Path, I tear off the god's mask. Who is Aha? I am Aha!\nTo play, to trick, to hunt... Please bear witness to an improv tour where humans and gods dance as one!",
+  "stats": [
+    {
+      "phase": 0,
+      "level_cap": 20,
+      "atk": 180.2,
+      "hp": 278.0,
+      "def": 135.1,
+      "speed": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 92.4,
+      "atk_add": 4.62,
+      "hp_base": 142.56,
+      "hp_add": 7.128,
+      "def_base": 69.3,
+      "def_add": 3.465,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "level_cap": 30,
+      "atk": 263.3,
+      "hp": 406.3,
+      "def": 197.5,
+      "speed": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 129.36,
+      "atk_add": 4.62,
+      "hp_base": 199.584,
+      "hp_add": 7.128,
+      "def_base": 97.02,
+      "def_add": 3.465,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "level_cap": 40,
+      "atk": 346.5,
+      "hp": 534.6,
+      "def": 259.9,
+      "speed": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 166.32,
+      "atk_add": 4.62,
+      "hp_base": 256.608,
+      "hp_add": 7.128,
+      "def_base": 124.74,
+      "def_add": 3.465,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110443,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "level_cap": 50,
+      "atk": 429.7,
+      "hp": 662.9,
+      "def": 322.2,
+      "speed": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 203.28,
+      "atk_add": 4.62,
+      "hp_base": 313.632,
+      "hp_add": 7.128,
+      "def_base": 152.46,
+      "def_add": 3.465,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110443,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "level_cap": 60,
+      "atk": 512.8,
+      "hp": 791.2,
+      "def": 384.6,
+      "speed": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 240.24,
+      "atk_add": 4.62,
+      "hp_base": 370.656,
+      "hp_add": 7.128,
+      "def_base": 180.18,
+      "def_add": 3.465,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110443,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "level_cap": 70,
+      "atk": 596.0,
+      "hp": 919.5,
+      "def": 447.0,
+      "speed": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 277.2,
+      "atk_add": 4.62,
+      "hp_base": 427.68,
+      "hp_add": 7.128,
+      "def_base": 207.9,
+      "def_add": 3.465,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110443,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "level_cap": 80,
+      "atk": 679.1,
+      "hp": 1047.8,
+      "def": 509.4,
+      "speed": 94,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 314.16,
+      "atk_add": 4.62,
+      "hp_base": 484.704,
+      "hp_add": 7.128,
+      "def_base": 235.62,
+      "def_add": 3.465,
+      "ascension_cost": []
+    }
+  ],
+  "skills": [
+    {
+      "id": 151101,
+      "name": "点星，开幕！",
+      "name_en": "Starfrost, Showtime!",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "SingleAttack",
+      "tag_zh": "单攻",
+      "stance_break": [
+        30,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": 1,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.25,
+            1
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.3,
+            1
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.35,
+            1
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.4,
+            1
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.45,
+            1
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.5,
+            1
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.55,
+            1
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.6,
+            1
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.65,
+            1
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.7,
+            1
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "70%",
+          "by_level": [
+            "25%",
+            "30%",
+            "35%",
+            "40%",
+            "45%",
+            "50%",
+            "55%",
+            "60%",
+            "65%",
+            "70%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "simple_desc": "对敌方单体造成少量量子属性欢愉伤害。",
+      "desc_max": "对指定敌方单体造成70%的量子属性欢愉伤害。",
+      "desc_lv1": "对指定敌方单体造成25%的量子属性欢愉伤害。",
+      "desc_en": "Deals <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Quantum <u>Elation DMG</u> to one designated enemy target.",
+      "extra": {
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 151102,
+      "name": "此乃令使，阿哈认证™",
+      "name_en": "This Emanator Was Certified by Aha™",
+      "type_name": "战技",
+      "type": "BPSkill",
+      "tag": "Support",
+      "tag_zh": "辅助",
+      "stance_break": [
+        0,
+        30,
+        0
+      ],
+      "bp_need": 1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point02",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.1,
+            0.25,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.11,
+            0.275,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.12,
+            0.3,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.13,
+            0.325,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.14,
+            0.35,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.15,
+            0.375,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.1625,
+            0.40625,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.175,
+            0.4375,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.1875,
+            0.46875,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.2,
+            0.5,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.21,
+            0.525,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            0.22,
+            0.55,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            0.23,
+            0.575,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            0.24,
+            0.6,
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            0.25,
+            0.625,
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "25%",
+          "by_level": [
+            "10%",
+            "11%",
+            "12%",
+            "13%",
+            "14%",
+            "15%",
+            "16.25%",
+            "17.5%",
+            "18.75%",
+            "20%",
+            "21%",
+            "22%",
+            "23%",
+            "24%",
+            "25%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "62.5%",
+          "by_level": [
+            "25%",
+            "27.5%",
+            "30%",
+            "32.5%",
+            "35%",
+            "37.5%",
+            "40.62%",
+            "43.75%",
+            "46.88%",
+            "50%",
+            "52.5%",
+            "55%",
+            "57.5%",
+            "60%",
+            "62.5%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "0",
+          "by_level": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": false,
+          "value": "0",
+          "by_level": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "index": 6,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "simple_desc": "使指定我方单体获得「欢愉」令使状态，随后立即发动追加攻击，对敌方全体造成量子属性欢愉伤害。持有「欢愉」令使状态的目标欢愉度提高并在回合开始时使星神★阿哈获得【愿力】。",
+      "desc_max": "使指定我方单体获得【「欢愉」令使】状态，随后立即发动追加攻击，对敌方全体造成62.5%的量子属性欢愉伤害。【「欢愉」令使】状态持续整场战斗直至切换到下一个目标，持有【「欢愉」令使】状态的目标欢愉度提高25%并在回合开始时使星神★阿哈获得1点【愿力】。",
+      "desc_lv1": "使指定我方单体获得【「欢愉」令使】状态，随后立即发动追加攻击，对敌方全体造成25%的量子属性欢愉伤害。【「欢愉」令使】状态持续整场战斗直至切换到下一个目标，持有【「欢愉」令使】状态的目标欢愉度提高10%并在回合开始时使星神★阿哈获得1点【愿力】。",
+      "desc_en": "Causes one designated ally to gain the \"Emanator of Elation\" state, then immediately launches a <u>Follow-up ATK</u>, dealing <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies. \"Emanator of Elation\" state lasts for the entire battle until switching to the next target. The target with the \"Emanator of Elation\" state has their Elation stat increased by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and, at the start of their turn, causes Aeon ★ Aha to gain <unbreak>#6[i]</unbreak> point(s) of \"Wishpower.\"",
+      "extra": {
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        },
+        "10000004": {
+          "name": "追加攻击",
+          "desc": "满足条件时自动触发的效果，对目标施放1次额外的攻击。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 151103,
+      "name": "啊哈！宇宙笑点大爆炸",
+      "name_en": "Aha! Let There Be Laughter",
+      "type_name": "终结技",
+      "type": "Ultra",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        15,
+        60,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point03",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            8,
+            1.2,
+            5,
+            0.36,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            8,
+            1.28,
+            5,
+            0.384,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            8,
+            1.36,
+            5,
+            0.408,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            8,
+            1.44,
+            5,
+            0.432,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            8,
+            1.52,
+            5,
+            0.456,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            8,
+            1.6,
+            5,
+            0.48,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            8,
+            1.7,
+            5,
+            0.51,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            8,
+            1.8,
+            5,
+            0.54,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            8,
+            1.9,
+            5,
+            0.57,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            8,
+            2,
+            5,
+            0.6,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            8,
+            2.08,
+            5,
+            0.624,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            8,
+            2.16,
+            5,
+            0.648,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            8,
+            2.24,
+            5,
+            0.672,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            8,
+            2.32,
+            5,
+            0.696,
+            0,
+            3
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            8,
+            2.4,
+            5,
+            0.72,
+            0,
+            3
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "8",
+          "by_level": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "240%",
+          "by_level": [
+            "120%",
+            "128%",
+            "136%",
+            "144%",
+            "152%",
+            "160%",
+            "170%",
+            "180%",
+            "190%",
+            "200%",
+            "208%",
+            "216%",
+            "224%",
+            "232%",
+            "240%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "5",
+          "by_level": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": true,
+          "value": "72%",
+          "by_level": [
+            "36%",
+            "38.4%",
+            "40.8%",
+            "43.2%",
+            "45.6%",
+            "48%",
+            "51%",
+            "54%",
+            "57%",
+            "60%",
+            "62.4%",
+            "64.8%",
+            "67.2%",
+            "69.6%",
+            "72%"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": false,
+          "value": "0",
+          "by_level": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "index": 6,
+          "is_percent": false,
+          "value": "3",
+          "by_level": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        }
+      ],
+      "simple_desc": "星神★阿哈获得【欢愉万相】状态。对敌方全体造成量子属性欢愉伤害，随后对敌方随机单体造成量子属性欢愉伤害，共弹射5次。",
+      "desc_max": "星神★阿哈获得【欢愉万相】状态，持续3回合，星神★阿哈每回合开始时持续时间-1。对敌方全体造成240%的量子属性欢愉伤害，随后造成5次伤害，每次伤害对敌方随机单体造成72%的量子属性欢愉伤害。",
+      "desc_lv1": "星神★阿哈获得【欢愉万相】状态，持续3回合，星神★阿哈每回合开始时持续时间-1。对敌方全体造成120%的量子属性欢愉伤害，随后造成5次伤害，每次伤害对敌方随机单体造成36%的量子属性欢愉伤害。",
+      "desc_en": "Aeon ★ Aha gains the \"Faces of Elation\" state, lasting for <unbreak>#6[i]</unbreak> turn(s). At the start of each Aeon ★ Aha's turn, duration decreases by 1. Deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies, then deals <unbreak>#3[i]</unbreak> instance(s) of DMG. Each instance deals <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> Quantum <u>Elation DMG</u> to one random enemy.",
+      "extra": {
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 151104,
+      "name": "与祂共演，奇迹新篇",
+      "name_en": "Work Wonders with THEM",
+      "type_name": "天赋",
+      "type": null,
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point04",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.12,
+            3
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.132,
+            3
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.144,
+            3
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.156,
+            3
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.168,
+            3
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.18,
+            3
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.195,
+            3
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.21,
+            3
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.225,
+            3
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.24,
+            3
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.252,
+            3
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.264,
+            3
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.276,
+            3
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.288,
+            3
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            1,
+            40,
+            1,
+            0,
+            20,
+            8,
+            1,
+            8,
+            0.3,
+            3
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "40",
+          "by_level": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": false,
+          "value": "0",
+          "by_level": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": false,
+          "value": "20",
+          "by_level": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "index": 6,
+          "is_percent": false,
+          "value": "8",
+          "by_level": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+          ]
+        },
+        {
+          "index": 7,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "index": 8,
+          "is_percent": false,
+          "value": "8",
+          "by_level": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+          ]
+        },
+        {
+          "index": 9,
+          "is_percent": true,
+          "value": "30%",
+          "by_level": [
+            "12%",
+            "13.2%",
+            "14.4%",
+            "15.6%",
+            "16.8%",
+            "18%",
+            "19.5%",
+            "21%",
+            "22.5%",
+            "24%",
+            "25.2%",
+            "26.4%",
+            "27.6%",
+            "28.8%",
+            "30%"
+          ]
+        },
+        {
+          "index": 10,
+          "is_percent": false,
+          "value": "3",
+          "by_level": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        }
+      ],
+      "simple_desc": "【愿力】达到8点后可激活终结技。星神★阿哈在施放普攻、战技、欢愉技后获得【愿力】。我方笑点首次达到一定值后，星神★阿哈将立即获得【愿力】并使我方全体暴击伤害提高，阿哈回合结束后可再次触发。",
+      "desc_max": "【愿力】达到8点后可激活终结技。星神★阿哈在施放普攻、战技、欢愉技后获得1点【愿力】。我方笑点首次达到40点后，星神★阿哈将立即获得1点【愿力】，随后使我方全体暴击伤害提高30%，持续3回合，阿哈回合结束后可再次触发。",
+      "desc_lv1": "【愿力】达到8点后可激活终结技。星神★阿哈在施放普攻、战技、欢愉技后获得1点【愿力】。我方笑点首次达到40点后，星神★阿哈将立即获得1点【愿力】，随后使我方全体暴击伤害提高12%，持续3回合，阿哈回合结束后可再次触发。",
+      "desc_en": "The Ultimate can be activated once \"Wishpower\" reaches <unbreak>#8[i]</unbreak> points. Aeon ★ Aha gains <unbreak>#7[i]</unbreak> point(s) of \"Wishpower\" after using Basic ATK, Skill, or Elation Skill. Once the team's <u>Punchline</u> reach <unbreak>#2[i]</unbreak> points for the first time, Aeon ★ Aha will immediately gain <unbreak>#3[i]</unbreak> points of \"Wishpower,\" then increase all allies' CRIT DMG by <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> for <unbreak>#10[i]</unbreak> turn(s). This can be triggered again after <u>Aha's</u> turn ends.",
+      "extra": {
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 151131,
+      "name": "阿哈正传",
+      "name_en": "The True Story of Aha",
+      "type_name": "天赋",
+      "type": null,
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point23",
+        "point_type": 6,
+        "max_level": 1
+      },
+      "max_level": 1,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.25,
+            1,
+            0.1
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "25%",
+          "by_level": [
+            "25%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": true,
+          "value": "10%",
+          "by_level": [
+            "10%"
+          ]
+        }
+      ],
+      "simple_desc": "星神★阿哈与队友造成伤害时，对敌方目标额外造成【欢愉负债】效果，敌方目标阶段转换时会保留【欢愉负债】。",
+      "desc_max": "星神★阿哈与队友造成伤害时，对敌方目标额外造成等同于伤害值25%的【欢愉负债】效果，敌方目标阶段转换时会保留【欢愉负债】，最高不超过目标生命上限的10%。",
+      "desc_lv1": "星神★阿哈与队友造成伤害时，对敌方目标额外造成等同于伤害值25%的【欢愉负债】效果，敌方目标阶段转换时会保留【欢愉负债】，最高不超过目标生命上限的10%。",
+      "desc_en": "When Aeon ★ Aha and teammates deal DMG, additionally deal <u>\"Elation Debt\"</u> effect equal to <unbreak>#1[i]%</unbreak> of the DMG to the enemy target. During the enemy target's phase transition, they maintain the <u>\"Elation Debt\"</u> value, with a maximum not exceeding <unbreak>#3[i]%</unbreak> of the target's Max HP.",
+      "extra": {
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        },
+        "10015114": {
+          "name": "欢愉负债",
+          "desc": "欢愉负债会占据生命上限，占据部分若包含当前生命值，则该部分当前生命值立即流失。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 151107,
+      "name": "ABRACADABRA！",
+      "name_en": "ABRACADABRA!",
+      "type_name": "秘技",
+      "type": "Maze",
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point05",
+        "point_type": 2,
+        "max_level": 1
+      },
+      "max_level": 1,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            20,
+            20
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "20",
+          "by_level": [
+            "20"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "20",
+          "by_level": [
+            "20"
+          ]
+        }
+      ],
+      "simple_desc": "使用秘技后，在自身周围制造1片特殊领域，处于特殊领域内的敌人陷入【视错】状态，【视错】状态下的敌人无法发现我方目标，进入战斗后使阿哈立即获得1个固定计入笑点的额外回合。",
+      "desc_max": "使用秘技后，在自身周围制造1片持续20秒的特殊领域，处于特殊领域内的敌人陷入【视错】状态，【视错】状态下的敌人无法发现我方目标，进入战斗后使阿哈立即获得1个固定计入20笑点的额外回合。",
+      "desc_lv1": "使用秘技后，在自身周围制造1片持续20秒的特殊领域，处于特殊领域内的敌人陷入【视错】状态，【视错】状态下的敌人无法发现我方目标，进入战斗后使阿哈立即获得1个固定计入20笑点的额外回合。",
+      "desc_en": "After using the Technique, creates a special zone around this unit lasting <unbreak>#2[i]</unbreak> seconds. Enemies within the special zone are inflicted with \"Misjudgment.\" Enemies under \"Misjudgment\" cannot detect our targets. Upon entering combat, <u>Aha</u> immediately gains 1 <u>extra turn</u> that adds a fixed <unbreak>#1[i]</unbreak> <u>Punchline</u> to the count.",
+      "extra": {
+        "10000026": {
+          "name": "阿哈",
+          "desc": "行动时，发动阿哈时刻，并使可施放欢愉技的单位各自施放1次欢愉技。若阿哈行动时不存在可施放欢愉技的单位，则阿哈施放【要有笑声】。\\n阿哈时刻持续至本次最后一个欢愉技施放结束。\\n阿哈时刻结束时，使参演的角色获得本次计入笑点的【好活当赏】状态，持续2回合。阿哈行动后会消耗全部笑点。",
+          "param": []
+        },
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+          "param": []
+        },
+        "10000000": {
+          "name": "额外回合",
+          "desc": "获得1个不消耗回合数的额外回合，在此回合中无法插入施放终结技。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 151120,
+      "name": "满月，是神在的时间",
+      "name_en": "Yes Aha At Full Moon",
+      "type_name": "欢愉技",
+      "type": "ElationDamage",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        0,
+        30,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point22",
+        "point_type": 4,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.3,
+            0.2
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.33,
+            0.2
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.36,
+            0.2
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.39,
+            0.2
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.42,
+            0.2
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.45,
+            0.2
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.4875,
+            0.2
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.525,
+            0.2
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.5625,
+            0.2
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.6,
+            0.2
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.63,
+            0.2
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            0.66,
+            0.2
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            0.69,
+            0.2
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            0.72,
+            0.2
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            0.75,
+            0.2
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "75%",
+          "by_level": [
+            "30%",
+            "33%",
+            "36%",
+            "39%",
+            "42%",
+            "45%",
+            "48.75%",
+            "52.5%",
+            "56.25%",
+            "60%",
+            "63%",
+            "66%",
+            "69%",
+            "72%",
+            "75%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "20%",
+          "by_level": [
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%"
+          ]
+        }
+      ],
+      "simple_desc": "对敌方全体造成量子属性欢愉伤害，并基于本次阿哈时刻造成的伤害总和造成真实伤害，由敌方全体均分。",
+      "desc_max": "对敌方全体造成75%的量子属性欢愉伤害，并基于本次阿哈时刻造成的伤害总和的20%造成真实伤害，由敌方全体均分。",
+      "desc_lv1": "对敌方全体造成30%的量子属性欢愉伤害，并基于本次阿哈时刻造成的伤害总和的20%造成真实伤害，由敌方全体均分。",
+      "desc_en": "Deals <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>Quantum <u>Elation DMG</u> to all enemies, then deals <u>True DMG</u> based on <unbreak>#2[i]%</unbreak> of the total DMG dealt by this Aha Instant, equally distributed among all enemies.",
+      "extra": {
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        },
+        "10000017": {
+          "name": "真实伤害",
+          "desc": "不受任何效果所影响的无属性伤害，本次伤害不视为造成了1次攻击。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 151129,
+      "name": "欢愉万相★无中生有",
+      "name_en": "Faces of Elation ★ Ex Nihilo",
+      "type_name": "固有行迹",
+      "type": null,
+      "tag": "Enhance",
+      "tag_zh": "强化",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": false,
+      "tree": null,
+      "max_level": 2,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.1,
+            0.3
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.1,
+            0.6
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "10%",
+          "by_level": [
+            "10%",
+            "10%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "60%",
+          "by_level": [
+            "30%",
+            "60%"
+          ]
+        }
+      ],
+      "simple_desc": "持有【欢愉万相】状态时，将使我方「欢愉」命途升格，笑点与【好活当赏】状态强化为爽点和【绝活共赏】状态。爽点会在阿哈时刻回合结束时，重新获得消耗笑点的一部分。【欢愉万相】期间，星神★阿哈造成的伤害无视敌方目标部分防御力。",
+      "desc_max": "持有【欢愉万相】状态时，星神★阿哈使我方「欢愉」命途升格，笑点与【好活当赏】状态强化为爽点和【绝活共赏】状态。爽点会在阿哈时刻回合结束时，重新获得消耗笑点的10%。【欢愉万相】期间，星神★阿哈造成的伤害无视敌方目标60%的防御力。",
+      "desc_lv1": "持有【欢愉万相】状态时，星神★阿哈使我方「欢愉」命途升格，笑点与【好活当赏】状态强化为爽点和【绝活共赏】状态。爽点会在阿哈时刻回合结束时，重新获得消耗笑点的10%。【欢愉万相】期间，星神★阿哈造成的伤害无视敌方目标30%的防御力。",
+      "desc_en": "While possessing the \"Faces of Elation\" state, Aeon ★ Aha causes allies' <color=#cb2f2f><u>Path of Elation to ascend</u></color>, enhancing <u>Punchline</u> and the \"<u>Certified Banger</u>\" state into <u>Bliss</u> and the \"<u>Party Trick</u>\" state. <u>Bliss </u> recovers <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of the consumed Punchline at the end of the \"Aha Instant\" turn. During \"Faces of Elation,\" DMG dealt by Aeon ★ Aha ignores <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the enemy target's DEF.",
+      "extra": {
+        "10015111": {
+          "name": "「欢愉」命途升格",
+          "desc": "星神★阿哈持有【欢愉万相】状态时，【笑点】与【好活当赏】强化为【爽点】和【绝活共赏】，我方「欢愉」命途角色将激活【固有行迹】效果。",
+          "param": []
+        },
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+          "param": []
+        },
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        },
+        "10015112": {
+          "name": "爽点",
+          "desc": "获得爽点时视为获得笑点，爽点会在【阿哈时刻】回合结束时，重新获得计入值的一部分。",
+          "param": []
+        },
+        "10015113": {
+          "name": "绝活共赏",
+          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方欢愉命途角色的【固有行迹】效果。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 151106,
+      "name": "攻击",
+      "name_en": "Attack",
+      "type_name": "",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "tag_zh": "秘技攻击",
+      "stance_break": [
+        30,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": false,
+      "tree": null,
+      "max_level": 1,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": []
+        }
+      ],
+      "param_table": [],
+      "simple_desc": null,
+      "desc_max": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+      "desc_lv1": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+      "desc_en": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "extra": {}
+    }
+  ],
+  "traces": {
+    "abilities": [
+      {
+        "anchor": "Point06",
+        "point_type": 3,
+        "name": "愚弄众神的玩笑",
+        "desc": "战技的追加攻击额外造成持有【「欢愉」令使】状态的目标20%的对应属性欢愉伤害并恢复1点战技点。本次额外造成的欢愉伤害不视为1次攻击。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point07",
+        "point_type": 3,
+        "name": "戏中人的异想国",
+        "desc": "受到队友提供的治疗效果或护盾时，获得1点【愿力】，最多触发1次，施放终结技后重置可触发次数。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point08",
+        "point_type": 3,
+        "name": "盒中蕴藏的世界",
+        "desc": "当星神★阿哈的速度大于等于125/150点时，欢愉度提高120%/150%。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point23",
+        "point_type": 6,
+        "name": "阿哈正传",
+        "desc": "星神★阿哈与队友造成伤害时，对敌方目标额外造成等同于伤害值25%的【欢愉负债】效果，敌方目标阶段转换时会保留【欢愉负债】，最高不超过目标生命上限的10%。",
+        "max_level": 1,
+        "level_up_skill_id": [
+          151131
+        ],
+        "status_add": [],
+        "materials": []
+      }
+    ],
+    "elation_skill": [
+      {
+        "anchor": "Point22",
+        "point_type": 4,
+        "name": "欢愉技",
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          151120
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "stat_nodes": [
+      {
+        "anchor": "Point09",
+        "point_type": 1,
+        "name": "暴击伤害强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalDamageBase",
+            "name": "暴击伤害",
+            "value": 0.053,
+            "text": "+5.3%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ]
+      },
+      {
+        "anchor": "Point10",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.027,
+            "text": "+2.7%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ]
+      },
+      {
+        "anchor": "Point11",
+        "point_type": 1,
+        "name": "暴击伤害强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalDamageBase",
+            "name": "暴击伤害",
+            "value": 0.053,
+            "text": "+5.3%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point12",
+        "point_type": 1,
+        "name": "速度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "SpeedDelta",
+            "name": "速度",
+            "value": 2,
+            "text": "+2"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point13",
+        "point_type": 1,
+        "name": "暴击伤害强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalDamageBase",
+            "name": "暴击伤害",
+            "value": 0.08,
+            "text": "+8%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 18000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point14",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.04,
+            "text": "+4%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point15",
+        "point_type": 1,
+        "name": "暴击伤害强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalDamageBase",
+            "name": "暴击伤害",
+            "value": 0.08,
+            "text": "+8%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point16",
+        "point_type": 1,
+        "name": "速度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "SpeedDelta",
+            "name": "速度",
+            "value": 3,
+            "text": "+3"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point17",
+        "point_type": 1,
+        "name": "暴击率强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalChanceBase",
+            "name": "暴击率",
+            "value": 0.053,
+            "text": "+5.3%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point18",
+        "point_type": 1,
+        "name": "暴击伤害强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "CriticalDamageBase",
+            "name": "暴击伤害",
+            "value": 0.107,
+            "text": "+10.7%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "skill_level_nodes": [
+      {
+        "anchor": "Point01",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 6,
+        "level_up_skill_id": [
+          151101
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point02",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          151102
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point03",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          151103
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point04",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          151104
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point05",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [
+          151107
+        ],
+        "status_add": [],
+        "materials": []
+      }
+    ],
+    "other": []
+  },
+  "eidolons": [
+    {
+      "rank": 1,
+      "id": 151101,
+      "name": "谁在太初噤声时笑场",
+      "desc": "进入战斗时，立即获得4点【愿力】，我方全体目标造成的欢愉伤害增笑15%。",
+      "params": [
+        4,
+        0.15
+      ],
+      "icon": "SkillIcon_1511_Rank1.png"
+    },
+    {
+      "rank": 2,
+      "id": 151102,
+      "name": "在祂的眼睛和你之间",
+      "desc": "使「欢愉」命途升格效果获得加强：\n#{series_ref_skill_desc:UIText_SeriesSkillDescFormat,151129,2}\n",
+      "params": [],
+      "icon": "SkillIcon_1511_Rank2.png"
+    },
+    {
+      "rank": 3,
+      "id": 151103,
+      "name": "牌叠起，令悲喜轮回",
+      "desc": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+      "params": [],
+      "icon": "SkillIcon_1511_Ultra.png"
+    },
+    {
+      "rank": 4,
+      "id": 151104,
+      "name": "黑箱一个玩笑的命运",
+      "desc": "欢愉技造成的真实伤害倍率提高原倍率的25%。星神★阿哈造成的欢愉伤害，会额外计入队友持有的【好活当赏】总和的100%。",
+      "params": [
+        1,
+        0.25
+      ],
+      "icon": "SkillIcon_1511_Rank4.png"
+    },
+    {
+      "rank": 5,
+      "id": 151105,
+      "name": "台前幕后，是我非我",
+      "desc": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+      "params": [],
+      "icon": "SkillIcon_1511_BP.png"
+    },
+    {
+      "rank": 6,
+      "id": 151106,
+      "name": "因为神说：你就是欢愉",
+      "desc": "敌方目标始终拥有至少等同于该目标生命上限20%的【欢愉负债】效果。星神★阿哈首次施放终结技时，立即使阿哈获得1个固定计入40笑点的额外回合，之后每次施放终结技，可使阿哈行动提前20%。",
+      "params": [
+        0.2,
+        40,
+        0.2
+      ],
+      "icon": "SkillIcon_1511_Rank6.png"
+    }
+  ],
+  "unique": [
+    {
+      "key": "151104",
+      "tag": "辅助",
+      "name": "阿哈时刻在",
+      "desc": "获取星神★阿哈后或当前队伍存在星神★阿哈时获得效果：战斗中，星神★阿哈将亲自领演【阿哈时刻】，并可以快进施放中的欢愉技。【阿哈时刻】的基础速度从80提高至星神★阿哈的基础速度。",
+      "param": [
+        30
+      ],
+      "exclusive": null,
+      "glossary": {}
+    }
+  ],
+  "enhanced": {},
+  "memosprite": {},
+  "chara_info": {
+    "camp": null,
+    "va": {
+      "chinese": null,
+      "japanese": null,
+      "korean": null,
+      "english": null
+    },
+    "stories": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null
+    },
+    "voicelines": []
+  },
+  "skin": {},
+  "build": {
+    "relic_set_ids": [
+      133,
+      130,
+      121
+    ],
+    "planar_set_ids": [
+      329,
+      308,
+      310
+    ],
+    "main_stats": [
+      {
+        "slot": "躯干",
+        "prop": "暴击率",
+        "prop_code": "CriticalChanceBase"
+      },
+      {
+        "slot": "脚部",
+        "prop": "速度",
+        "prop_code": "SpeedDelta"
+      },
+      {
+        "slot": "位面球",
+        "prop": "生命值百分比",
+        "prop_code": "HPAddedRatio"
+      },
+      {
+        "slot": "连结绳",
+        "prop": "防御力百分比",
+        "prop_code": "DefenceAddedRatio"
+      }
+    ],
+    "sub_stats": [
+      "暴击率",
+      "暴击伤害",
+      "速度"
+    ],
+    "score_rank_list": [
+      218,
+      160
+    ],
+    "relic_sets": [
+      {
+        "id": 133,
+        "name": "戏梦点星的伶人",
+        "name_en": "Dreamlit Actor",
+        "pieces": 4,
+        "effects": {
+          "2": "速度提高6%。",
+          "4": "当装备者对我方其他单体目标施放战技或终结技时，使技能目标的欢愉度提高16%，持续3回合，若装备者持有的好活当赏大于等于10点，则额外使我方全体目标的暴击伤害提高12%，持续3回合。"
+        }
+      },
+      {
+        "id": 130,
+        "name": "应天涉远的卜者",
+        "name_en": "Diviner of Distant Reach",
+        "pieces": 4,
+        "effects": {
+          "2": "速度提高6%。",
+          "4": "进入战斗前，若装备者的速度大于等于120/160，使装备者的暴击率提高10%/18%。装备者每场战斗首次施放欢愉技时，使我方全体欢愉度提高10%，该效果无法叠加。"
+        }
+      },
+      {
+        "id": 121,
+        "name": "重循苦旅的司铎",
+        "name_en": "Sacerdos' Relived Ordeal",
+        "pieces": 4,
+        "effects": {
+          "2": "速度提高6%。",
+          "4": "对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高18%，持续2回合，该效果最多叠加2次。"
+        }
+      }
+    ],
+    "planar_sets": [
+      {
+        "id": 329,
+        "name": "神的瞬息欢愉",
+        "name_en": "God's Moment of Joy",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的速度提高6%。当装备者的欢愉度大于等于40%时，进入战斗时立刻使行动提前40%。"
+        }
+      },
+      {
+        "id": 308,
+        "name": "生命的翁瓦克",
+        "name_en": "Sprightly Vonwacq",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。"
+        }
+      },
+      {
+        "id": 310,
+        "name": "折断的龙骨",
+        "name_en": "Broken Keel",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。"
+        }
+      }
+    ],
+    "lightcones": [
+      {
+        "id": 23065,
+        "name": "当第一声「阿哈」响起",
+        "name_en": "Upon the First Echo of \"Aha\"",
+        "rarity": 5,
+        "path": "欢愉",
+        "atk": 582
+      },
+      {
+        "id": 22007,
+        "name": "未来，有我们一起",
+        "name_en": "Tomorrow, Together",
+        "rarity": 4,
+        "path": "欢愉",
+        "atk": 476
+      },
+      {
+        "id": 21064,
+        "name": "菇菇嘎嘎历险记",
+        "name_en": "Mushy Shroomy's Adventures",
+        "rarity": 4,
+        "path": "欢愉",
+        "atk": 476
+      }
+    ],
+    "teams": []
+  },
+  "ascension_materials": []
+}

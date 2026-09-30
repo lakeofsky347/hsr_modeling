@@ -1,0 +1,328 @@
+{
+  "id": 8022012,
+  "name": "幼蛰虫",
+  "desc": "真蛰虫幼体；「真蛰虫」幼体依据生长程度可被划分为「幼蛰虫」与「次蛰虫」。",
+  "monster_camp_id": 8,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 651,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8022010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 132,
+  "stance_base": 180,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8022012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802201201,
+          "skill_name": "振翅",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802201202,
+          "skill_name": "次分裂",
+          "skill_desc": "繁殖出1名自身的繁衍体，该效果在2回合后可再次触发。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802201203,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802201204,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802201201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.357143,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -30,
+      "stance_weak_list": [
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802201201,
+          "skill_name": "振翅",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802201202,
+          "skill_name": "次分裂",
+          "skill_desc": "繁殖出1名自身的繁衍体，该效果在2回合后可再次触发。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802201203,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802201204,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802201202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.321429,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802201201,
+          "skill_name": "振翅",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802201202,
+          "skill_name": "次分裂",
+          "skill_desc": "繁殖出1名自身的繁衍体，该效果在2回合后可再次触发。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802201203,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802201204,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8022012,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022012,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022012,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022012,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022012,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022012,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022012,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    }
+  ]
+}

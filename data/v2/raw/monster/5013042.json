@@ -1,0 +1,255 @@
+{
+  "id": 5013042,
+  "name": "破晓战队•苍翼",
+  "desc": "理智、冷静的代表——吗？总是做出一副处变不惊的样子，仿佛很有学问和知识，但本质是个擅长吐槽的倒霉蛋。\\n「我只负责想怎么做，至于能不能做到，那是你们需要考虑的——我去，你们还真干啊。」\\n划破长空！翼展如电！碧蓝的苍穹，苍翼战士！\\n暗夜终尽，黎明降临！破晓战队，登场！",
+  "monster_camp_id": 17,
+  "attack_base": 15,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 5115,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5013040.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 120,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 5013042,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.8
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 501304201,
+          "skill_name": "破晓战刃",
+          "skill_desc": "对指定我方单体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501304202,
+          "skill_name": "破晓飞轮",
+          "skill_desc": "对指定我方单体及其相邻目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 501304203,
+          "skill_name": "破晓意志",
+          "skill_desc": "为自身附加【破晓力场】。此状态下，破晓战队会免疫自身属性的伤害并持续施放【破晓剑影舞】，同时免疫控制类负面状态，自身的韧性无法被削减。当破晓战队处于【破晓力场】状态时，受到一定次数的攻击后会施放【破晓退散】，若攻击造成了<u>欢愉伤害</u>，则本次攻击改为增加<unbreak>#3[i]</unbreak>点计数。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "10000028": {
+              "name": "欢愉伤害",
+              "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 501304204,
+          "skill_name": "破晓剑影舞",
+          "skill_desc": "对指定我方单体造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 501304205,
+          "skill_name": "破晓退散",
+          "skill_desc": "解除【破晓力场】，损失一定生命值并为自身附加【失意】，受到的伤害提高，且自身量子属性抗性降低。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5013042,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013042,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013042,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013042,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013042,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013042,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5013042,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": 4064014,
+  "name": "金血忆灵•裁定忘却之形",
+  "desc": "那众多金血忆灵的残躯中一丝尚存的疯狂，被长夜月抽取提炼，融合成了更为扭曲怪异的怪物。\\n它将遵守造物主的指示，裁定何物应被记起，何物应被忘却，它会吞噬掉徒劳无功的冗余记忆，使它们在岁月中沉默。\\n「新的生命若要萌芽，它的种子须是死的。」",
+  "monster_camp_id": 18,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 7672.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4064010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 150,
+  "stance_base": 720,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4064014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406401401,
+          "skill_name": "罪血嚼齿",
+          "skill_desc": "对指定我方单体目标造成大量虚数属性伤害，若目标持有护盾则削减自身韧性，该削韧效果不会使韧性低于1点。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406401403,
+          "skill_name": "罪血眈视",
+          "skill_desc": "锁定指定我方角色，使自身的速度提高，并在数个回合内对该目标施放【罪血嚼齿】和【罪血锯刑】。施放该技能后再行动1次。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 406401404,
+          "skill_name": "罪血锯刑",
+          "skill_desc": "对指定我方单体目标造成大量虚数属性伤害，使目标降低生命值的一部分转化为【<u>侵蚀</u>】，若目标持有护盾则削减自身韧性，该削韧效果不会使韧性低于1点。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 406401405,
+          "skill_name": "罪血钳刑",
+          "skill_desc": "对我方全体目标造成大量虚数属性伤害，使目标降低生命值的一部分转化为【<u>侵蚀</u>】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 406401406,
+          "skill_name": "指名祸首",
+          "skill_desc": "进入蓄力状态，下次行动时施放【罪血枭首】，选择1名我方角色承受【罪血枭首】的最高伤害和【<u>罪血腐蚀</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620202": {
+              "name": "罪血腐蚀",
+              "desc": "回合开始时受到固定数值虚数属性伤害。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 406401407,
+          "skill_name": "罪血枭首",
+          "skill_desc": "对被【指名祸首】选中的角色以外的我方角色造成虚数属性伤害，对被【指名祸首】选中的我方角色造成大量虚数属性伤害，并根据该角色受到的未被护盾抵消的伤害的数值，对其施加【<u>罪血腐蚀</u>】。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {
+            "240620202": {
+              "name": "罪血腐蚀",
+              "desc": "回合开始时受到固定数值虚数属性伤害。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 406401408,
+          "skill_name": "决狱从速",
+          "skill_desc": "未被弱点击破时，受到的伤害降低，被弱点击破时行动额外延后，并对自身造成大量虚数属性伤害，被弱点击破后，受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4064014,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4064014,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4064014,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4064014,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4064014,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4064014,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4064014,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

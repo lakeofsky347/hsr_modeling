@@ -1,0 +1,321 @@
+{
+  "id": 8024012,
+  "name": "虫群•真蛰虫（完整）",
+  "desc": "代码受到影响后的完整投影。参照本体为成熟体的真蛰虫；博识学会的杜卢伊爵士遨游星海，曾写下三十卷《诸界异虫札记》。书中详实记载了迄今为止被确认的十几种蠹虫种类，以及星系间数之不尽的亚种。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8024010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 144,
+  "stance_base": 540,
+  "stance_count": 1,
+  "status_resistance_base": 0.4,
+  "child": [
+    {
+      "id": 8024012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802401201,
+          "skill_name": "作战时刻",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入2层风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401202,
+          "skill_name": "战争兵器",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。如受到攻击的目标正处于风化状态，则直接造成1次风化伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802401203,
+          "skill_name": "飓风",
+          "skill_desc": "对我方全体造成风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401204,
+          "skill_name": "繁殖",
+          "skill_desc": "繁殖真蛰虫群。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802401205,
+          "skill_name": "指挥准备",
+          "skill_desc": "进入蓄力状态，下次行动施放【虫群突袭】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802401206,
+          "skill_name": "虫群突袭",
+          "skill_desc": "解除场上所有真蛰虫群的控制类负面状态与弱点击破状态，并对我方目标造成风属性伤害，使我方目标每次受到攻击时大概率陷入1层风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401207,
+          "skill_name": "虫群突袭",
+          "skill_desc": "解除场上所有真蛰虫群的控制类负面状态与弱点击破状态，并对我方目标造成风属性伤害，使我方目标每次受到攻击时大概率陷入1层风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401208,
+          "skill_name": "传衍信息素",
+          "skill_desc": "场上每繁殖出1个真蛰虫群，所有真蛰虫群获得1层伤害提高。场上仅能有1个【传衍信息素】效果生效。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802401209,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802401210,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401211,
+          "skill_name": "繁殖",
+          "skill_desc": "繁殖真蛰虫群。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802401201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.533333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802401201,
+          "skill_name": "作战时刻",
+          "skill_desc": "对指定我方单体造成少量风属性伤害，并大概率使受到攻击的我方目标陷入2层风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401202,
+          "skill_name": "战争兵器",
+          "skill_desc": "对指定我方单体造成少量风属性伤害。如受到攻击的目标正处于风化状态，则直接造成1次风化伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 802401203,
+          "skill_name": "飓风",
+          "skill_desc": "对我方全体造成风属性伤害，并大概率使受到攻击的我方目标陷入风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401204,
+          "skill_name": "繁殖",
+          "skill_desc": "繁殖真蛰虫群。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802401205,
+          "skill_name": "指挥准备",
+          "skill_desc": "进入蓄力状态，下次行动施放【虫群突袭】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802401206,
+          "skill_name": "虫群突袭",
+          "skill_desc": "解除场上所有真蛰虫群的控制类负面状态与弱点击破状态，并对我方目标造成风属性伤害，使我方目标每次受到攻击时大概率陷入1层风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401207,
+          "skill_name": "虫群突袭",
+          "skill_desc": "解除场上所有真蛰虫群的控制类负面状态与弱点击破状态，并对我方目标造成风属性伤害，使我方目标每次受到攻击时大概率陷入1层风化状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401208,
+          "skill_name": "传衍信息素",
+          "skill_desc": "场上每繁殖出1个真蛰虫群，所有真蛰虫群获得1层伤害提高。场上仅能有1个【传衍信息素】效果生效。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802401209,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802401210,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802401211,
+          "skill_name": "繁殖",
+          "skill_desc": "繁殖真蛰虫群。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8024012,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8024012,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8024012,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8024012,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8024012,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8024012,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 8024012,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

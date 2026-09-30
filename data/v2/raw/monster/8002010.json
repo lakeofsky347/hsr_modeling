@@ -1,0 +1,1256 @@
+{
+  "id": 8002010,
+  "name": "虚数织叶者",
+  "desc": "不属此世的怪异生命，自深黯星空的彼端，透过重重帷幕而来。其身躯犹如病态的枝叶探入现实中，使用虚数的力量肆意改造现实。",
+  "monster_camp_id": 3,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 176.7,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8002010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 120,
+  "stance_base": 60,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 8002010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201001,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.789474,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201002,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Wind",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201005,
+      "attack_modify_ratio": 1.333333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.263158,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 30,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201008,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.315789,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 3,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201012,
+      "attack_modify_ratio": 0.555556,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201015,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201016,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201017,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.184211,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -30,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201018,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.394737,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 800201022,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.315789,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 800201001,
+          "skill_name": "颂歌光束",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201002,
+          "skill_name": "颂歌爆发",
+          "skill_desc": "对指定我方单体造成大量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 800201003,
+          "skill_name": "颂歌震荡",
+          "skill_desc": "对指定我方单体及其相邻目标造成虚数属性伤害，并进入【后手】状态，下次行动时施放【颂歌爆发】且使自身造成的伤害大幅提高。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 800201004,
+          "skill_name": "虚数护甲",
+          "skill_desc": "非弱点属性的攻击对自身造成的伤害降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8002010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 181008
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8002010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 181008
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8002010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 181008
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8002010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 181008
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8002010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 181008
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8002010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 181008
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8002010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111001
+        },
+        {
+          "item_id": 111002
+        },
+        {
+          "item_id": 111003
+        },
+        {
+          "item_id": 181008
+        }
+      ]
+    }
+  ]
+}

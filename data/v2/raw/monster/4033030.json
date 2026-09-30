@@ -1,0 +1,736 @@
+{
+  "id": 4033030,
+  "name": "黑日狮鹫",
+  "desc": "遭到黑潮侵蚀的正阳狮鹫。对杀戮的渴求成为了空洞躯壳中仅存的意志。\\n虽然失去了艾格勒的赐福，但黑潮中取之不竭的能量令它成为了更加恐怖的存在。",
+  "monster_camp_id": 14,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4033030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4033030,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403303001,
+          "skill_name": "黑光透射",
+          "skill_desc": "对全体我方单位造成风属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403303002,
+          "skill_name": "永夜颁示",
+          "skill_desc": "召唤【黑日弓手】，【黑日弓手】被消灭时，会使自身损失部分生命值。【黑日弓手】不会主动行动，自身施放攻击后，所召唤的【黑日弓手】会施放一次攻击。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303003,
+          "skill_name": "日蚀预言",
+          "skill_desc": "进入【死风将至】状态，下次行动施放【热寂颂歌】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303004,
+          "skill_name": "热寂颂歌",
+          "skill_desc": "对全体我方单位造成风属性伤害，目标<u>【侵蚀】</u>部分的生命值越高，造成的伤害越高，并立刻失去所有<u>【侵蚀】</u>部分的生命值。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403303001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403303001,
+          "skill_name": "黑光透射",
+          "skill_desc": "对全体我方单位造成风属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403303002,
+          "skill_name": "永夜颁示",
+          "skill_desc": "召唤【黑日弓手】，【黑日弓手】被消灭时，会使自身损失部分生命值。【黑日弓手】不会主动行动，自身施放攻击后，所召唤的【黑日弓手】会施放一次攻击。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303003,
+          "skill_name": "日蚀预言",
+          "skill_desc": "进入【死风将至】状态，下次行动施放【热寂颂歌】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303004,
+          "skill_name": "热寂颂歌",
+          "skill_desc": "对全体我方单位造成风属性伤害，目标<u>【侵蚀】</u>部分的生命值越高，造成的伤害越高，并立刻失去所有<u>【侵蚀】</u>部分的生命值。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403303002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403303001,
+          "skill_name": "黑光透射",
+          "skill_desc": "对全体我方单位造成风属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403303002,
+          "skill_name": "永夜颁示",
+          "skill_desc": "召唤【黑日弓手】，【黑日弓手】被消灭时，会使自身损失部分生命值。【黑日弓手】不会主动行动，自身施放攻击后，所召唤的【黑日弓手】会施放一次攻击。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303003,
+          "skill_name": "日蚀预言",
+          "skill_desc": "进入【死风将至】状态，下次行动施放【热寂颂歌】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303004,
+          "skill_name": "热寂颂歌",
+          "skill_desc": "对全体我方单位造成风属性伤害，目标<u>【侵蚀】</u>部分的生命值越高，造成的伤害越高，并立刻失去所有<u>【侵蚀】</u>部分的生命值。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403303003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.266667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 56,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403303001,
+          "skill_name": "黑光透射",
+          "skill_desc": "对全体我方单位造成风属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403303002,
+          "skill_name": "永夜颁示",
+          "skill_desc": "召唤【黑日弓手】，【黑日弓手】被消灭时，会使自身损失部分生命值。【黑日弓手】不会主动行动，自身施放攻击后，所召唤的【黑日弓手】会施放一次攻击。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303003,
+          "skill_name": "日蚀预言",
+          "skill_desc": "进入【死风将至】状态，下次行动施放【热寂颂歌】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303004,
+          "skill_name": "热寂颂歌",
+          "skill_desc": "对全体我方单位造成风属性伤害，目标<u>【侵蚀】</u>部分的生命值越高，造成的伤害越高，并立刻失去所有<u>【侵蚀】</u>部分的生命值。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403303004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403303001,
+          "skill_name": "黑光透射",
+          "skill_desc": "对全体我方单位造成风属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403303002,
+          "skill_name": "永夜颁示",
+          "skill_desc": "召唤【黑日弓手】，【黑日弓手】被消灭时，会使自身损失部分生命值。【黑日弓手】不会主动行动，自身施放攻击后，所召唤的【黑日弓手】会施放一次攻击。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303003,
+          "skill_name": "日蚀预言",
+          "skill_desc": "进入【死风将至】状态，下次行动施放【热寂颂歌】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303004,
+          "skill_name": "热寂颂歌",
+          "skill_desc": "对全体我方单位造成风属性伤害，目标<u>【侵蚀】</u>部分的生命值越高，造成的伤害越高，并立刻失去所有<u>【侵蚀】</u>部分的生命值。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403303005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.466667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -19,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403303001,
+          "skill_name": "黑光透射",
+          "skill_desc": "对全体我方单位造成风属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403303002,
+          "skill_name": "永夜颁示",
+          "skill_desc": "召唤【黑日弓手】，【黑日弓手】被消灭时，会使自身损失部分生命值。【黑日弓手】不会主动行动，自身施放攻击后，所召唤的【黑日弓手】会施放一次攻击。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303003,
+          "skill_name": "日蚀预言",
+          "skill_desc": "进入【死风将至】状态，下次行动施放【热寂颂歌】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303004,
+          "skill_name": "热寂颂歌",
+          "skill_desc": "对全体我方单位造成风属性伤害，目标<u>【侵蚀】</u>部分的生命值越高，造成的伤害越高，并立刻失去所有<u>【侵蚀】</u>部分的生命值。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403303006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -54,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403303001,
+          "skill_name": "黑光透射",
+          "skill_desc": "对全体我方单位造成风属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403303002,
+          "skill_name": "永夜颁示",
+          "skill_desc": "召唤【黑日弓手】，【黑日弓手】被消灭时，会使自身损失部分生命值。【黑日弓手】不会主动行动，自身施放攻击后，所召唤的【黑日弓手】会施放一次攻击。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303003,
+          "skill_name": "日蚀预言",
+          "skill_desc": "进入【死风将至】状态，下次行动施放【热寂颂歌】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403303004,
+          "skill_name": "热寂颂歌",
+          "skill_desc": "对全体我方单位造成风属性伤害，目标<u>【侵蚀】</u>部分的生命值越高，造成的伤害越高，并立刻失去所有<u>【侵蚀】</u>部分的生命值。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4033030,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033030,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033030,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033030,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033030,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033030,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4033030,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    }
+  ]
+}

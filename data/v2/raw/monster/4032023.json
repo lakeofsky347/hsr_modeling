@@ -1,0 +1,1127 @@
+{
+  "id": 4032023,
+  "name": "魔王爪牙",
+  "desc": "黑斗篷魔王忠实的扈从，继承了魔王的部分力量和残暴性格，各个星球都有他们为非作歹的事迹。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 558,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4032020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": null,
+  "stance_base": 360,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4032023,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403202301,
+      "attack_modify_ratio": 2.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 11.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 360,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403202302,
+      "attack_modify_ratio": 2.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 11.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 360,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403202303,
+      "attack_modify_ratio": 2.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 11.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 360,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403202304,
+      "attack_modify_ratio": 2.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 10,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403202305,
+      "attack_modify_ratio": 2.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 10,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403202306,
+      "attack_modify_ratio": 2.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403202307,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403202308,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 3.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 403202309,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 3.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -180,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403202301,
+          "skill_name": "共祭•亡死的黑云",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 403202302,
+          "skill_name": "共祭•将尽的命数",
+          "skill_desc": "对我方全体造成少量物理属性伤害，被击中目标降低生命值的一部分转化为<u>【侵蚀】</u>。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "240320101": {
+              "name": "侵蚀",
+              "desc": "攻击后回复侵蚀部分的生命值，击中的目标数量越多，回复的生命值越高。受到伤害时，降低生命值的一部分转化为侵蚀。消耗生命值时，降低的生命值会全部转化为侵蚀。通过回复生命值的方式解除侵蚀时，使自身获得【焕新】效果。【焕新】：下次攻击造成的伤害提高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202303,
+          "skill_name": "为我祷咏",
+          "skill_desc": "抵抗控制类负面状态。当【黑斗篷魔王】再次施放【亡死的黑云】或【将尽的命数】时，若自身曾被该攻击召唤且处于【共祭】状态，则与【黑斗篷魔王】一同发起攻击。随后被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值，并使其获得<u>【灾难之力】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403202304,
+          "skill_name": "为我设奠",
+          "skill_desc": "处于【镣锁】状态下受到致命攻击，若【黑斗篷魔王】的<u>【灾难之力】</u>层数不为0，立即被其重新召唤并进入【镣锁】状态，但会使【黑斗篷魔王】失去1层<u>【灾难之力】</u>和一定比例的生命值。【黑斗篷魔王】施放【莫因舍弃而哭泣】时，被其吸收，回复转化为<u>【苦痛缠绕】</u>的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "403401001": {
+              "name": "灾难之力",
+              "desc": "施放特定技能时，消耗【灾难之力】的所有层数追加攻击段数。",
+              "param": []
+            },
+            "70000215": {
+              "name": "苦痛缠绕",
+              "desc": "吸收【魔王爪牙】后回复召唤该【魔王爪牙】时消耗的生命值，【魔王爪牙】被消灭后，无法再回复召唤该【魔王爪牙】时消耗的生命值。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4032023,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032023,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032023,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032023,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032023,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032023,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4032023,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115011
+        },
+        {
+          "item_id": 115012
+        },
+        {
+          "item_id": 115013
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    }
+  ]
+}

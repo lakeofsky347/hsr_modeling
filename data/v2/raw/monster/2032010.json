@@ -1,0 +1,580 @@
+{
+  "id": 2032010,
+  "name": "玄爪狼卒",
+  "desc": "来自玄爪猎群的步离人士兵，擅长在无声息中猎杀目标。",
+  "monster_camp_id": 2,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 186,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2032010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 120,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 2032010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203201001,
+          "skill_name": "厮杀",
+          "skill_desc": "对指定我方单体目标及其相邻目标造成少量物理属性伤害，若自身处于【<u>月狂</u>】状态，则大概率为目标附上【裂伤】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203201002,
+          "skill_name": "狼吞",
+          "skill_desc": "当敌方施放攻击后，为<u>能够进入【月狂】状态的敌方单位</u>附加1层【<u>嗜血</u>】，当【<u>嗜血</u>】达到指定层数时，将使其进入【<u>月狂</u>】状态。\\n行动序列上出现【月狂】倒计时，倒计时回合开始时所有敌方单位解除【<u>月狂</u>】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {
+            "220320101": {
+              "name": "能够进入【月狂】状态的敌方单位",
+              "desc": "能够进入【月狂】状态的敌方单位：玄爪狼卒、 蚀月狼卒、咆哮灵柩、咆哮灵柩（错误）、步离战首•呼雷、步离战首•呼雷（完整）。",
+              "param": []
+            },
+            "220320103": {
+              "name": "嗜血",
+              "desc": "所有能够进入【月狂】的敌方单位共享【嗜血】层数。当有能够进入【月狂】的敌方单位进入战斗时，将附加相同层数的【嗜血】。回合结束时，若场上所有能够进入【月狂】的敌方单位均被击败，清除所有【嗜血】层数。",
+              "param": []
+            },
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 203201001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203201001,
+          "skill_name": "厮杀",
+          "skill_desc": "对指定我方单体目标及其相邻目标造成少量物理属性伤害，若自身处于【<u>月狂</u>】状态，则大概率为目标附上【裂伤】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203201002,
+          "skill_name": "狼吞",
+          "skill_desc": "当敌方施放攻击后，为<u>能够进入【月狂】状态的敌方单位</u>附加1层【<u>嗜血</u>】，当【<u>嗜血</u>】达到指定层数时，将使其进入【<u>月狂</u>】状态。\\n行动序列上出现【月狂】倒计时，倒计时回合开始时所有敌方单位解除【<u>月狂</u>】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {
+            "220320101": {
+              "name": "能够进入【月狂】状态的敌方单位",
+              "desc": "能够进入【月狂】状态的敌方单位：玄爪狼卒、 蚀月狼卒、咆哮灵柩、咆哮灵柩（错误）、步离战首•呼雷、步离战首•呼雷（完整）。",
+              "param": []
+            },
+            "220320103": {
+              "name": "嗜血",
+              "desc": "所有能够进入【月狂】的敌方单位共享【嗜血】层数。当有能够进入【月狂】的敌方单位进入战斗时，将附加相同层数的【嗜血】。回合结束时，若场上所有能够进入【月狂】的敌方单位均被击败，清除所有【嗜血】层数。",
+              "param": []
+            },
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 203201002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203201001,
+          "skill_name": "厮杀",
+          "skill_desc": "对指定我方单体目标及其相邻目标造成少量物理属性伤害，若自身处于【<u>月狂</u>】状态，则大概率为目标附上【裂伤】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203201002,
+          "skill_name": "狼吞",
+          "skill_desc": "当敌方施放攻击后，为<u>能够进入【月狂】状态的敌方单位</u>附加1层【<u>嗜血</u>】，当【<u>嗜血</u>】达到指定层数时，将使其进入【<u>月狂</u>】状态。\\n行动序列上出现【月狂】倒计时，倒计时回合开始时所有敌方单位解除【<u>月狂</u>】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {
+            "220320101": {
+              "name": "能够进入【月狂】状态的敌方单位",
+              "desc": "能够进入【月狂】状态的敌方单位：玄爪狼卒、 蚀月狼卒、咆哮灵柩、咆哮灵柩（错误）、步离战首•呼雷、步离战首•呼雷（完整）。",
+              "param": []
+            },
+            "220320103": {
+              "name": "嗜血",
+              "desc": "所有能够进入【月狂】的敌方单位共享【嗜血】层数。当有能够进入【月狂】的敌方单位进入战斗时，将附加相同层数的【嗜血】。回合结束时，若场上所有能够进入【月狂】的敌方单位均被击败，清除所有【嗜血】层数。",
+              "param": []
+            },
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 203201003,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203201001,
+          "skill_name": "厮杀",
+          "skill_desc": "对指定我方单体目标及其相邻目标造成少量物理属性伤害，若自身处于【<u>月狂</u>】状态，则大概率为目标附上【裂伤】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203201002,
+          "skill_name": "狼吞",
+          "skill_desc": "当敌方施放攻击后，为<u>能够进入【月狂】状态的敌方单位</u>附加1层【<u>嗜血</u>】，当【<u>嗜血</u>】达到指定层数时，将使其进入【<u>月狂</u>】状态。\\n行动序列上出现【月狂】倒计时，倒计时回合开始时所有敌方单位解除【<u>月狂</u>】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {
+            "220320101": {
+              "name": "能够进入【月狂】状态的敌方单位",
+              "desc": "能够进入【月狂】状态的敌方单位：玄爪狼卒、 蚀月狼卒、咆哮灵柩、咆哮灵柩（错误）、步离战首•呼雷、步离战首•呼雷（完整）。",
+              "param": []
+            },
+            "220320103": {
+              "name": "嗜血",
+              "desc": "所有能够进入【月狂】的敌方单位共享【嗜血】层数。当有能够进入【月狂】的敌方单位进入战斗时，将附加相同层数的【嗜血】。回合结束时，若场上所有能够进入【月狂】的敌方单位均被击败，清除所有【嗜血】层数。",
+              "param": []
+            },
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 203201004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203201001,
+          "skill_name": "厮杀",
+          "skill_desc": "对指定我方单体目标及其相邻目标造成少量物理属性伤害，若自身处于【<u>月狂</u>】状态，则大概率为目标附上【裂伤】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203201002,
+          "skill_name": "狼吞",
+          "skill_desc": "当敌方施放攻击后，为<u>能够进入【月狂】状态的敌方单位</u>附加1层【<u>嗜血</u>】，当【<u>嗜血</u>】达到指定层数时，将使其进入【<u>月狂</u>】状态。\\n行动序列上出现【月狂】倒计时，倒计时回合开始时所有敌方单位解除【<u>月狂</u>】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {
+            "220320101": {
+              "name": "能够进入【月狂】状态的敌方单位",
+              "desc": "能够进入【月狂】状态的敌方单位：玄爪狼卒、 蚀月狼卒、咆哮灵柩、咆哮灵柩（错误）、步离战首•呼雷、步离战首•呼雷（完整）。",
+              "param": []
+            },
+            "220320103": {
+              "name": "嗜血",
+              "desc": "所有能够进入【月狂】的敌方单位共享【嗜血】层数。当有能够进入【月狂】的敌方单位进入战斗时，将附加相同层数的【嗜血】。回合结束时，若场上所有能够进入【月狂】的敌方单位均被击败，清除所有【嗜血】层数。",
+              "param": []
+            },
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 203201005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.25,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203201001,
+          "skill_name": "厮杀",
+          "skill_desc": "对指定我方单体目标及其相邻目标造成少量物理属性伤害，若自身处于【<u>月狂</u>】状态，则大概率为目标附上【裂伤】。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203201002,
+          "skill_name": "狼吞",
+          "skill_desc": "当敌方施放攻击后，为<u>能够进入【月狂】状态的敌方单位</u>附加1层【<u>嗜血</u>】，当【<u>嗜血</u>】达到指定层数时，将使其进入【<u>月狂</u>】状态。\\n行动序列上出现【月狂】倒计时，倒计时回合开始时所有敌方单位解除【<u>月狂</u>】状态。",
+          "damage_type": "Physical",
+          "sp_hit_base": "",
+          "extra": {
+            "220320101": {
+              "name": "能够进入【月狂】状态的敌方单位",
+              "desc": "能够进入【月狂】状态的敌方单位：玄爪狼卒、 蚀月狼卒、咆哮灵柩、咆哮灵柩（错误）、步离战首•呼雷、步离战首•呼雷（完整）。",
+              "param": []
+            },
+            "220320103": {
+              "name": "嗜血",
+              "desc": "所有能够进入【月狂】的敌方单位共享【嗜血】层数。当有能够进入【月狂】的敌方单位进入战斗时，将附加相同层数的【嗜血】。回合结束时，若场上所有能够进入【月狂】的敌方单位均被击败，清除所有【嗜血】层数。",
+              "param": []
+            },
+            "220320102": {
+              "name": "月狂",
+              "desc": "此状态下，玄爪狼卒的速度提高，且攻击时大概率为目标附上【裂伤】，玄爪狼卒被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2032010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181013
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2032010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181013
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2032010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181013
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2032010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181013
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2032010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181013
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2032010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181013
+        }
+      ]
+    },
+    {
+      "monster_template_id": 2032010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181013
+        }
+      ]
+    }
+  ]
+}

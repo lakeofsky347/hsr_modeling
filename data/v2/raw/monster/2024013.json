@@ -1,0 +1,232 @@
+{
+  "id": 2024013,
+  "name": "丰饶玄鹿（幻象）",
+  "desc": "由「建木」化生，拱卫其根系的灵瑞之兽，履迹所之，和泽滋生，枝杪郁敷。\\n自毁于太古时代的战争后，「建木」终于在星核的修补下再度生长。彼时仙人们所造的珍禽奇兽纷至沓来，宛如旧梦重临。出现于此的是基于你的记忆模拟出的幻影。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 4882.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2024010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 144,
+  "stance_base": 420,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 2024013,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.6
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202401301,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401302,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401303,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401304,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401305,
+          "skill_name": "呦鸣",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202401306,
+          "skill_name": "绾风",
+          "skill_desc": "对我方全体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202401307,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401308,
+          "skill_name": "斑龙触",
+          "skill_desc": "当场上存在2个【嘉实】时立即施放该技能，对我方全体造成雷属性伤害。场上【建木枝梢（幻象）】数量越多，造成的伤害越高。施放技能后，清除场上所有的【嘉实之杪（幻象）】。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202401309,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401310,
+          "skill_name": "衔枝 • 芳芷",
+          "skill_desc": "召唤2个建木枝梢【缃叶之杪（幻象）】，1个建木枝梢【繁花之杪（幻象）】，1个建木枝梢【肃风之杪（幻象）】。丰饶玄鹿的弱点被击破时，会清除场上所有的建木枝梢。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401311,
+          "skill_name": "衔枝 • 荫泽",
+          "skill_desc": "召唤2个建木枝梢【缃叶之杪（幻象）】，1个建木枝梢【嘉实之杪（幻象）】，1个建木枝梢【肃风之杪（幻象）】。丰饶玄鹿的弱点被击破时，会清除场上所有的建木枝梢。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401312,
+          "skill_name": "繁花",
+          "skill_desc": "召唤1个建木枝梢【繁花之抄（幻象）】。【繁花之抄（幻象）】可以使其他敌方的韧性无法被削减，【繁花之抄（幻象）】被消灭后解除所有韧性无法被削减的效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401313,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401314,
+          "skill_name": "生机充盈",
+          "skill_desc": "每当丰饶玄鹿获得来自敌方目标的增益效果时，丰饶玄鹿和所有建木枝梢造成的伤害小幅提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401315,
+          "skill_name": "觅长生",
+          "skill_desc": "召唤建木枝梢【缃叶之杪（幻象）】时，使其获得【培植】，提高【复还】造成的伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401316,
+          "skill_name": "拱卫",
+          "skill_desc": "当场上存在4个建木枝梢时，丰饶玄鹿的韧性无法被削减，消灭任意建木枝梢可解除该效果。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2024013,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024013,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024013,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024013,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024013,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024013,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024013,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

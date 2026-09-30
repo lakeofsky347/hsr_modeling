@@ -1,0 +1,234 @@
+{
+  "id": 8012212,
+  "name": "破灭玄莲",
+  "desc": "无根自开、凭空生就的幻花。幻胧托体「建木」，炼成肉身，却不曾放下毁灭的权柄。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 697.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8012210.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 180,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 8012212,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801221201,
+          "skill_name": "玄气噬身",
+          "skill_desc": "大概率使指定我方单体陷入【噬命】状态。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 801221202,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801221203,
+          "skill_name": "破灭",
+          "skill_desc": "对指定我方单体造成基于其生命上限百分比的雷属性伤害，该伤害无视目标的防御力。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 801221204,
+          "skill_name": "绽放",
+          "skill_desc": "【绽放】状态下，下次行动施放【破灭】。当【破灭玄莲】处于【绽放】状态下被弱点击破、消灭或【绽放】状态被解除时，【不死神实•幻胧】受到的伤害提高并且行动延后。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 801221205,
+          "skill_name": "休眠",
+          "skill_desc": "受到致命攻击后进入【休眠】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8012212,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012212,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012212,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012212,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012212,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012212,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012212,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    }
+  ]
+}

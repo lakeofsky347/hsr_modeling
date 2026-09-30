@@ -1,0 +1,120 @@
+{
+  "id": 3004024,
+  "name": "千面斯科特（污染）",
+  "desc": "集中了所有拍摄资源，成为大咖中的大咖的主角斯科特。意识和灵魂被从者分散后，以千般面相展开了对开拓者的复仇。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1627.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3004023.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 80,
+  "stance_base": null,
+  "stance_count": null,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 3004024,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 300402401,
+          "skill_name": "狼的坚韧",
+          "skill_desc": "本次战斗中，「千面斯科特」与所有「斯科特」共享血量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402402,
+          "skill_name": "狼的诱惑",
+          "skill_desc": "在行动序列上添加【孤狼之哮】，每次【孤狼之哮】行动时，解除场上所有「斯科特」的控制类负面状态与弱点击破状态，将全体「斯科特」的【讥讽】状态转变为【狂乱】状态，并施放【致孤狼：卑劣人生】。每当有一名「斯科特」的弱点被击破时，【孤狼之哮】的行动将小幅延后。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402403,
+          "skill_name": "致孤狼：卑劣人生",
+          "skill_desc": "使敌方全体的攻击力提高，使我方全体能量、战技点减少，并对我方全体造成量子属性伤害和火属性伤害，有概率对我方全体施加减速状态，大概率使我方全体陷入【灼烧】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300402404,
+          "skill_name": "付费上班",
+          "skill_desc": "战斗中会出现黑泥对首领进行强化。强化后【暴怒斯科特（污染）】会立刻施放【狼的加班】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3004024,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004024,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004024,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004024,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004024,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004024,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3004024,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

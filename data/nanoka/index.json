@@ -1,0 +1,110 @@
+{
+  "source": {
+    "site": "https://hsr.nanoka.cc",
+    "cdn": "https://static.nanoka.cc/hsr/4.6.51",
+    "version": "4.6.51",
+    "fetched_at": "2026-09-29"
+  },
+  "characters": [
+    {
+      "id": 1506,
+      "slug": "silver_wolf_lv999",
+      "names": {
+        "zh": "银狼LV.999",
+        "en": "Silver Wolf LV.999",
+        "ja": "銀狼LV.999",
+        "ko": "은랑 LV.999"
+      },
+      "path": {
+        "code": "Elation",
+        "zh": "欢愉"
+      },
+      "element": {
+        "code": "Imaginary",
+        "zh": "虚数"
+      },
+      "stars": 5,
+      "release": {
+        "ts": 1776848400,
+        "date": "2026-04-22"
+      },
+      "skill_count": 13,
+      "normalized_file": "data/nanoka/normalized/1506_silver_wolf_lv999.json"
+    },
+    {
+      "id": 1501,
+      "slug": "sparxie",
+      "names": {
+        "zh": "火花",
+        "en": "Sparxie",
+        "ja": "火花",
+        "ko": "스파키"
+      },
+      "path": {
+        "code": "Elation",
+        "zh": "欢愉"
+      },
+      "element": {
+        "code": "Fire",
+        "zh": "火"
+      },
+      "stars": 5,
+      "release": {
+        "ts": 1770976800,
+        "date": "2026-02-13"
+      },
+      "skill_count": 11,
+      "normalized_file": "data/nanoka/normalized/1501_sparxie.json"
+    },
+    {
+      "id": 1503,
+      "slug": "pearl",
+      "names": {
+        "zh": "真珠",
+        "en": "Pearl",
+        "ja": "パール",
+        "ko": "펄"
+      },
+      "path": {
+        "code": "Elation",
+        "zh": "欢愉"
+      },
+      "element": {
+        "code": "Ice",
+        "zh": "冰"
+      },
+      "stars": 5,
+      "release": {
+        "ts": null,
+        "date": null
+      },
+      "skill_count": 10,
+      "normalized_file": "data/nanoka/normalized/1503_pearl.json"
+    },
+    {
+      "id": 1511,
+      "slug": "aeon_aha",
+      "names": {
+        "zh": "星神★阿哈",
+        "en": "Aeon ★ Aha",
+        "ja": "星神★アッハ",
+        "ko": "에이언즈★아하"
+      },
+      "path": {
+        "code": "Elation",
+        "zh": "欢愉"
+      },
+      "element": {
+        "code": "Quantum",
+        "zh": "量子"
+      },
+      "stars": 5,
+      "release": {
+        "ts": null,
+        "date": null
+      },
+      "skill_count": 9,
+      "normalized_file": "data/nanoka/normalized/1511_aeon_aha.json"
+    }
+  ]
+}

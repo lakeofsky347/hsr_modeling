@@ -1,0 +1,3028 @@
+{
+  "id": 1503,
+  "slug": "pearl",
+  "source_url": "https://hsr.nanoka.cc/character/1503",
+  "data_url_zh": "https://static.nanoka.cc/hsr/4.6.51/zh/character/1503.json",
+  "names": {
+    "zh": "真珠",
+    "en": "Pearl",
+    "ja": "パール",
+    "ko": "펄"
+  },
+  "rarity": {
+    "code": "CombatPowerAvatarRarityType5",
+    "stars": 5
+  },
+  "path": {
+    "code": "Elation",
+    "zh": "欢愉"
+  },
+  "element": {
+    "code": "Ice",
+    "zh": "冰"
+  },
+  "max_energy": 180,
+  "release": {
+    "ts": null,
+    "date": null
+  },
+  "icon": "pearl",
+  "desc_zh": "点染星月，描摹万象，文明的遗珠重焕光彩。\n因解析艺术而诞生，她追寻美的极境，却从未失却「存护」的底色：\n历经洗礼，她会收获怎样的「真珠」？",
+  "desc_en": "Color the stars, trace the myriad phenomena, and the lost pearls of civilization regain their luster.\nBorn from the art of analysis, she pursues the pinnacle of beauty, yet has never lost her underlying hue of the Preservation:\nAfter her trial by fire, what kind of \"Pearl\" will she harvest?",
+  "stats": [
+    {
+      "phase": 0,
+      "level_cap": 20,
+      "atk": 123.6,
+      "hp": 319.2,
+      "def": 193.1,
+      "speed": 99,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 63.36,
+      "atk_add": 3.168,
+      "hp_base": 163.68,
+      "hp_add": 8.184,
+      "def_base": 99,
+      "def_add": 4.95,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "level_cap": 30,
+      "atk": 180.6,
+      "hp": 466.5,
+      "def": 282.1,
+      "speed": 99,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 88.704,
+      "atk_add": 3.168,
+      "hp_base": 229.152,
+      "hp_add": 8.184,
+      "def_base": 138.6,
+      "def_add": 4.95,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "level_cap": 40,
+      "atk": 237.6,
+      "hp": 613.8,
+      "def": 371.2,
+      "speed": 99,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 114.048,
+      "atk_add": 3.168,
+      "hp_base": 294.624,
+      "hp_add": 8.184,
+      "def_base": 178.2,
+      "def_add": 4.95,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110433,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "level_cap": 50,
+      "atk": 294.6,
+      "hp": 761.1,
+      "def": 460.4,
+      "speed": 99,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 139.392,
+      "atk_add": 3.168,
+      "hp_base": 360.096,
+      "hp_add": 8.184,
+      "def_base": 217.8,
+      "def_add": 4.95,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110433,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "level_cap": 60,
+      "atk": 351.6,
+      "hp": 908.4,
+      "def": 549.5,
+      "speed": 99,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 164.736,
+      "atk_add": 3.168,
+      "hp_base": 425.568,
+      "hp_add": 8.184,
+      "def_base": 257.4,
+      "def_add": 4.95,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110433,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "level_cap": 70,
+      "atk": 408.7,
+      "hp": 1055.7,
+      "def": 638.5,
+      "speed": 99,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 190.08,
+      "atk_add": 3.168,
+      "hp_base": 491.04,
+      "hp_add": 8.184,
+      "def_base": 297,
+      "def_add": 4.95,
+      "ascension_cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110433,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "level_cap": 80,
+      "atk": 465.7,
+      "hp": 1203.0,
+      "def": 727.7,
+      "speed": 99,
+      "crit_rate": 0.05,
+      "crit_dmg": 0.5,
+      "aggro": 100,
+      "atk_base": 215.424,
+      "atk_add": 3.168,
+      "hp_base": 556.512,
+      "hp_add": 8.184,
+      "def_base": 336.6,
+      "def_add": 4.95,
+      "ascension_cost": []
+    }
+  ],
+  "skills": [
+    {
+      "id": 150301,
+      "name": "行笔，临摹断水",
+      "name_en": "Brushstroke: Trace the Severed Stream",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "SingleAttack",
+      "tag_zh": "单攻",
+      "stance_break": [
+        30,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": 1,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.45
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.54
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.63
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.72
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.81
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.9
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.99
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.08
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.17
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1.26
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "126%",
+          "by_level": [
+            "45%",
+            "54%",
+            "63%",
+            "72%",
+            "81%",
+            "90%",
+            "99%",
+            "108%",
+            "117%",
+            "126%"
+          ]
+        }
+      ],
+      "simple_desc": "对敌方单体造成少量冰属性伤害。",
+      "desc_max": "对指定敌方单体造成等同于真珠126%防御力的冰属性伤害。",
+      "desc_lv1": "对指定敌方单体造成等同于真珠45%防御力的冰属性伤害。",
+      "desc_en": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Pearl's DEF to one designated enemy.",
+      "extra": {}
+    },
+    {
+      "id": 150308,
+      "name": "行笔，幻造星月",
+      "name_en": "Brushstroke: Imagenate the Starry Night",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        0,
+        90,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": 1,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.5,
+            0.04,
+            1,
+            80,
+            0.1
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6,
+            0.048,
+            1,
+            96,
+            0.11
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7,
+            0.056,
+            1,
+            112,
+            0.12
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8,
+            0.064,
+            1,
+            128,
+            0.13
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9,
+            0.072,
+            1,
+            144,
+            0.14
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1,
+            0.08,
+            1,
+            160,
+            0.15
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1,
+            0.088,
+            1,
+            176,
+            0.1625
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2,
+            0.096,
+            1,
+            192,
+            0.175
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3,
+            0.104,
+            1,
+            208,
+            0.1875
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1.4,
+            0.112,
+            1,
+            224,
+            0.2
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "140%",
+          "by_level": [
+            "50%",
+            "60%",
+            "70%",
+            "80%",
+            "90%",
+            "100%",
+            "110%",
+            "120%",
+            "130%",
+            "140%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "11.2%",
+          "by_level": [
+            "4%",
+            "4.8%",
+            "5.6%",
+            "6.4%",
+            "7.2%",
+            "8%",
+            "8.8%",
+            "9.6%",
+            "10.4%",
+            "11.2%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": false,
+          "value": "224",
+          "by_level": [
+            "80",
+            "96",
+            "112",
+            "128",
+            "144",
+            "160",
+            "176",
+            "192",
+            "208",
+            "224"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": true,
+          "value": "20%",
+          "by_level": [
+            "10%",
+            "11%",
+            "12%",
+            "13%",
+            "14%",
+            "15%",
+            "16.25%",
+            "17.5%",
+            "18.75%",
+            "20%"
+          ]
+        }
+      ],
+      "simple_desc": "对敌方全体造成冰属性伤害，为我方全体回复生命值。持有【好活当赏】时，额外造成冰属性欢愉伤害。",
+      "desc_max": "对敌方全体造成等同于真珠140%防御力的冰属性伤害，为我方全体目标回复等同于真珠11.2%防御力+224的生命值，额外为当前生命值百分比最低的我方目标回复等同于真珠11.2%防御力+224的生命值。持有【好活当赏】时，额外造成20%的冰属性欢愉伤害。",
+      "desc_lv1": "对敌方全体造成等同于真珠50%防御力的冰属性伤害，为我方全体目标回复等同于真珠4%防御力+80的生命值，额外为当前生命值百分比最低的我方目标回复等同于真珠4%防御力+80的生命值。持有【好活当赏】时，额外造成10%的冰属性欢愉伤害。",
+      "desc_en": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Pearl's DEF to all enemies, restores HP for all ally targets equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>. While holding \"<u>Certified Banger</u>\", additionally deals <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> Ice <u>Elation DMG</u>.",
+      "extra": {
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        },
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150310,
+      "name": "行笔，绘制末浪",
+      "name_en": "Brushstroke: Render the Great Wave",
+      "type_name": "普攻",
+      "type": "Normal",
+      "tag": "AoEAttack",
+      "tag_zh": "群攻",
+      "stance_break": [
+        0,
+        90,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": 1,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point01",
+        "point_type": 2,
+        "max_level": 6
+      },
+      "max_level": 10,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.5,
+            0.04,
+            1,
+            80
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6,
+            0.048,
+            1,
+            96
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.7,
+            0.056,
+            1,
+            112
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.8,
+            0.064,
+            1,
+            128
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.9,
+            0.072,
+            1,
+            144
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            1,
+            0.08,
+            1,
+            160
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            1.1,
+            0.088,
+            1,
+            176
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            1.2,
+            0.096,
+            1,
+            192
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            1.3,
+            0.104,
+            1,
+            208
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            1.4,
+            0.112,
+            1,
+            224
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "140%",
+          "by_level": [
+            "50%",
+            "60%",
+            "70%",
+            "80%",
+            "90%",
+            "100%",
+            "110%",
+            "120%",
+            "130%",
+            "140%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "11.2%",
+          "by_level": [
+            "4%",
+            "4.8%",
+            "5.6%",
+            "6.4%",
+            "7.2%",
+            "8%",
+            "8.8%",
+            "9.6%",
+            "10.4%",
+            "11.2%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "1",
+          "by_level": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": false,
+          "value": "224",
+          "by_level": [
+            "80",
+            "96",
+            "112",
+            "128",
+            "144",
+            "160",
+            "176",
+            "192",
+            "208",
+            "224"
+          ]
+        }
+      ],
+      "simple_desc": "对敌方全体造成冰属性伤害，为我方全体回复生命值。",
+      "desc_max": "对敌方全体造成等同于真珠140%防御力的冰属性伤害，为我方全体目标回复等同于真珠11.2%防御力+224的生命值，额外为当前生命值百分比最低的我方目标回复等同于真珠11.2%防御力+224的生命值。",
+      "desc_lv1": "对敌方全体造成等同于真珠50%防御力的冰属性伤害，为我方全体目标回复等同于真珠4%防御力+80的生命值，额外为当前生命值百分比最低的我方目标回复等同于真珠4%防御力+80的生命值。",
+      "desc_en": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Pearl's DEF to all enemies. Restores HP for all ally targets equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, and additionally restores HP for the ally with the lowest current HP percentage by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>.",
+      "extra": {}
+    },
+    {
+      "id": 150302,
+      "name": "补缀生命的柔光",
+      "name_en": "Relume Life's Light",
+      "type_name": "战技",
+      "type": "BPSkill",
+      "tag": "Defence",
+      "tag_zh": "Defence",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": 1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point02",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            15,
+            0.06,
+            120
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            15,
+            0.066,
+            132
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            15,
+            0.072,
+            144
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            15,
+            0.078,
+            156
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            15,
+            0.084,
+            168
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            15,
+            0.09,
+            180
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            15,
+            0.0975,
+            195
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            15,
+            0.105,
+            210
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            15,
+            0.1125,
+            225
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            15,
+            0.12,
+            240
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            15,
+            0.126,
+            252
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            15,
+            0.132,
+            264
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            15,
+            0.138,
+            276
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            15,
+            0.144,
+            288
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            15,
+            0.15,
+            300
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "15",
+          "by_level": [
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "15%",
+          "by_level": [
+            "6%",
+            "6.6%",
+            "7.2%",
+            "7.8%",
+            "8.4%",
+            "9%",
+            "9.75%",
+            "10.5%",
+            "11.25%",
+            "12%",
+            "12.6%",
+            "13.2%",
+            "13.8%",
+            "14.4%",
+            "15%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "300",
+          "by_level": [
+            "120",
+            "132",
+            "144",
+            "156",
+            "168",
+            "180",
+            "195",
+            "210",
+            "225",
+            "240",
+            "252",
+            "264",
+            "276",
+            "288",
+            "300"
+          ]
+        }
+      ],
+      "simple_desc": "获得【好活当赏】，并为我方全体回复生命值。",
+      "desc_max": "获得15点【好活当赏】，为我方全体目标回复等同于真珠15%防御力+300的生命值，额外为当前生命值百分比最低的我方目标回复等同于真珠15%防御力+300的生命值。",
+      "desc_lv1": "获得15点【好活当赏】，为我方全体目标回复等同于真珠6%防御力+120的生命值，额外为当前生命值百分比最低的我方目标回复等同于真珠6%防御力+120的生命值。",
+      "desc_en": "Gains <unbreak>#1[i]</unbreak> point(s) of \"<u>Certified Banger</u>,\" restores HP for all ally targets equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#3[i]</unbreak></color>, and additionally restores HP for the ally target with the lowest current HP percentage by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#3[i]</unbreak></color>.",
+      "extra": {
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150303,
+      "name": "鉴映灵魂的底色",
+      "name_en": "Appraise Soul's Ground",
+      "type_name": "终结技",
+      "type": "Ultra",
+      "tag": "Support",
+      "tag_zh": "辅助",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point03",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            3,
+            0.3,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            3,
+            0.33,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            3,
+            0.36,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            3,
+            0.39,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            3,
+            0.42,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            3,
+            0.45,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            3,
+            0.4875,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            3,
+            0.525,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            3,
+            0.5625,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            3,
+            0.6,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            3,
+            0.63,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            3,
+            0.66,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            3,
+            0.69,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            3,
+            0.72,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            3,
+            0.75,
+            20,
+            0.1,
+            0.15,
+            0.3,
+            60,
+            30
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "3",
+          "by_level": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "75%",
+          "by_level": [
+            "30%",
+            "33%",
+            "36%",
+            "39%",
+            "42%",
+            "45%",
+            "48.75%",
+            "52.5%",
+            "56.25%",
+            "60%",
+            "63%",
+            "66%",
+            "69%",
+            "72%",
+            "75%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "20",
+          "by_level": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": true,
+          "value": "10%",
+          "by_level": [
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%",
+            "10%"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": true,
+          "value": "15%",
+          "by_level": [
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%"
+          ]
+        },
+        {
+          "index": 6,
+          "is_percent": true,
+          "value": "30%",
+          "by_level": [
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%",
+            "30%"
+          ]
+        },
+        {
+          "index": 7,
+          "is_percent": false,
+          "value": "60",
+          "by_level": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        },
+        {
+          "index": 8,
+          "is_percent": false,
+          "value": "30",
+          "by_level": [
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30"
+          ]
+        }
+      ],
+      "simple_desc": "获得【好活当赏】。【深度学习】指定我方单体，使其成为【美学底本】。使【美学底本】行动提前，队伍中「欢愉」命途角色越多，行动提前越多。队伍中「欢愉」命途角色数量为4及以上时，使【美学底本】获得1个额外回合，并在额外回合中获得笑点和【好活当赏】，额外回合结束时移除。真珠的普攻获得强化。若【美学底本】为「欢愉」命途，则普攻进一步强化，且攻击后，额外造成冰属性欢愉伤害，该次欢愉伤害使用【美学底本】的属性值计算。",
+      "desc_max": "获得20点【好活当赏】。【深度学习】除自身以外的指定我方单体角色，使目标成为【美学底本】。\n队伍中「欢愉」命途角色数量等于1/2/3或以上时，使【美学底本】行动提前10%/15%/30%。队伍中「欢愉」命途角色数量等于4或以上时，使【美学底本】获得1个额外回合。该额外回合开始时，【美学底本】获得30点【好活当赏】，并获得60点笑点，额外回合结束时移除。\n【深度学习】时，普攻【行笔，临摹断水】强化为【行笔，绘制末浪】。若【美学底本】为「欢愉」命途，则强化为【行笔，幻造星月】，且攻击后，额外造成75%的冰属性欢愉伤害，该次欢愉伤害使用【美学底本】的属性值计算。【深度学习】具有3点充能，真珠施放强化普攻后消耗1点充能，行动后若无充能则结束【深度学习】。",
+      "desc_lv1": "获得20点【好活当赏】。【深度学习】除自身以外的指定我方单体角色，使目标成为【美学底本】。\n队伍中「欢愉」命途角色数量等于1/2/3或以上时，使【美学底本】行动提前10%/15%/30%。队伍中「欢愉」命途角色数量等于4或以上时，使【美学底本】获得1个额外回合。该额外回合开始时，【美学底本】获得30点【好活当赏】，并获得60点笑点，额外回合结束时移除。\n【深度学习】时，普攻【行笔，临摹断水】强化为【行笔，绘制末浪】。若【美学底本】为「欢愉」命途，则强化为【行笔，幻造星月】，且攻击后，额外造成30%的冰属性欢愉伤害，该次欢愉伤害使用【美学底本】的属性值计算。【深度学习】具有3点充能，真珠施放强化普攻后消耗1点充能，行动后若无充能则结束【深度学习】。",
+      "desc_en": "Gains <unbreak>#3[i]</unbreak> point(s) of \"<u>Certified Banger</u>\". Uses \"Deep Learning\" on one designated ally character other than this unit, making the target the \"Aesthetic Archetype.\"\\nWhen there are 1/2/3 or more Elation characters on the team, advances the \"Aesthetic Archetype's\" action by <unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak>/<unbreak>#6[i]%</unbreak>. When there are 4 or more Elation characters on the team, the \"Aesthetic Archetype\" gains 1 <u>extra turn</u>. At the start of this extra turn, the \"Aesthetic Archetype\" gains <unbreak>#8[i]</unbreak> point(s) of \"<u>Certified Banger</u>\" and <unbreak>#7[i]</unbreak> point(s) of <u>Punchline</u>, which are removed at the end of the extra turn.\\nWhile \"Deep Learning,\" Basic ATK \"Brushstroke: Trace the Severed Stream\" gets enhanced to \"Brushstroke: Render the Great Wave.\" If the \"Aesthetic Archetype\" is on the Path of Elation, it is instead enhanced to \"Brushstroke: Imagenate the Starry Night.\" And after attacking, additionally deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Ice <u>Elation DMG</u>. This <u>Elation DMG</u> is calculated based on the \"Aesthetic Archetype's\" stats. \"Deep Learning\" has <unbreak>#1[i]</unbreak> point(s) of Charge. After Pearl uses an Enhanced Basic ATK, 1 point of Charge is consumed. If no Charge remains after taking action, \"Deep Learning\" ends.",
+      "extra": {
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+          "param": []
+        },
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        },
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        },
+        "10000000": {
+          "name": "额外回合",
+          "desc": "获得1个不消耗回合数的额外回合，在此回合中无法插入施放终结技。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150304,
+      "name": "吞纳沙砾，重塑生机",
+      "name_en": "Grow Grace from Grit",
+      "type_name": "天赋",
+      "type": null,
+      "tag": "Defence",
+      "tag_zh": "Defence",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point04",
+        "point_type": 2,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.15,
+            200
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.165,
+            200
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.18,
+            200
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.195,
+            200
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.21,
+            200
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.225,
+            200
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.24375,
+            200
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.2625,
+            200
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.28125,
+            200
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.3,
+            200
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.315,
+            200
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.33,
+            200
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.345,
+            200
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.36,
+            200
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            0.5,
+            0.6,
+            50,
+            0.375,
+            200
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "50%",
+          "by_level": [
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%",
+            "50%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "60%",
+          "by_level": [
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": false,
+          "value": "50",
+          "by_level": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": true,
+          "value": "37.5%",
+          "by_level": [
+            "15%",
+            "16.5%",
+            "18%",
+            "19.5%",
+            "21%",
+            "22.5%",
+            "24.38%",
+            "26.25%",
+            "28.12%",
+            "30%",
+            "31.5%",
+            "33%",
+            "34.5%",
+            "36%",
+            "37.5%"
+          ]
+        },
+        {
+          "index": 5,
+          "is_percent": false,
+          "value": "200",
+          "by_level": [
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200"
+          ]
+        }
+      ],
+      "simple_desc": "真珠持有【好活当赏】时，可消耗【好活当赏】为我方全体承担部分伤害。我方目标当前生命值百分比小于等于一定比例时，受到的伤害降低。",
+      "desc_max": "真珠可使用【好活当赏】作为抵御值，每点【好活当赏】等同于200点抵御值，我方目标受到伤害时，真珠可消耗抵御值为我方目标抵挡60%的伤害。真珠的【好活当赏】持续时间无限，且持有上限为50点。\n我方目标当前生命值百分比小于等于50%时，受到的伤害降低37.5%。",
+      "desc_lv1": "真珠可使用【好活当赏】作为抵御值，每点【好活当赏】等同于200点抵御值，我方目标受到伤害时，真珠可消耗抵御值为我方目标抵挡60%的伤害。真珠的【好活当赏】持续时间无限，且持有上限为50点。\n我方目标当前生命值百分比小于等于50%时，受到的伤害降低15%。",
+      "desc_en": "Pearl can use \"<u>Certified Banger</u>\" as <u>Repellency</u>. Each point of \"<u>Certified Banger</u>\" is equivalent to <unbreak>#5[i]</unbreak> point(s) of <u>Repellency</u>. When an ally target takes DMG, Pearl can consume Repellency to offset <unbreak>#2[i]%</unbreak> of that DMG for the ally target. Pearl's \"<u>Certified Banger</u>\" lasts indefinitely and has a max limit of <unbreak>#3[i]</unbreak>.\\nWhen an ally target's current HP percentage is <unbreak>#1[i]%</unbreak> or lower, their DMG taken gets reduced by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>.",
+      "extra": {
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        },
+        "10000033": {
+          "name": "抵御值",
+          "desc": "我方目标受到伤害时，消耗抵御值抵挡一定比例的伤害。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150307,
+      "name": "凝润珠光，复刻真迹",
+      "name_en": "Recast Masterwork in Nacre",
+      "type_name": "秘技",
+      "type": "Maze",
+      "tag": "Support",
+      "tag_zh": "辅助",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point05",
+        "point_type": 2,
+        "max_level": 1
+      },
+      "max_level": 1,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            2,
+            20
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "2",
+          "by_level": [
+            "2"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": false,
+          "value": "20",
+          "by_level": [
+            "20"
+          ]
+        }
+      ],
+      "simple_desc": "使当前行动角色获得【美学底本】，下一次战斗开始时，获得【好活当赏】，并【深度学习】持有【美学底本】的角色。真珠只能【深度学习】除自身以外的角色。",
+      "desc_max": "使用秘技后获得【美学底本】，切换行动角色时【美学底本】转移至当前行动角色。下一次战斗开始时，真珠获得20点【好活当赏】，并【深度学习】持有【美学底本】的角色，该【深度学习】具有2点充能。真珠只能【深度学习】除自身以外的角色。",
+      "desc_lv1": "使用秘技后获得【美学底本】，切换行动角色时【美学底本】转移至当前行动角色。下一次战斗开始时，真珠获得20点【好活当赏】，并【深度学习】持有【美学底本】的角色，该【深度学习】具有2点充能。真珠只能【深度学习】除自身以外的角色。",
+      "desc_en": "After using Technique, gains \"Aesthetic Archetype.\" When switching active characters, \"Aesthetic Archetype\" transfers to the currently active character. At the start of the next battle, Pearl gains <unbreak>#2[i]</unbreak> \"<u>Certified Banger</u>\" and applies \"Deep Learning\" on the character with \"Aesthetic Archetype.\" This \"Deep Learning\" has <unbreak>#1[i]</unbreak> Charge. Pearl can only apply \"Deep Learning\" on characters other than herself.",
+      "extra": {
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150320,
+      "name": "渲染理性，解构欢愉",
+      "name_en": "Dissolve Reason into Elation",
+      "type_name": "欢愉技",
+      "type": "ElationDamage",
+      "tag": "Support",
+      "tag_zh": "辅助",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": 104,
+      "is_primary": true,
+      "tree": {
+        "anchor": "Point22",
+        "point_type": 4,
+        "max_level": 10
+      },
+      "max_level": 15,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.05,
+            0.075,
+            0.1,
+            0.2
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.055,
+            0.0825,
+            0.11,
+            0.22
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.06,
+            0.09,
+            0.12,
+            0.24
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.065,
+            0.0975,
+            0.13,
+            0.26
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.07,
+            0.105,
+            0.14,
+            0.28
+          ]
+        },
+        {
+          "level": 6,
+          "params": [
+            0.075,
+            0.1125,
+            0.15,
+            0.3
+          ]
+        },
+        {
+          "level": 7,
+          "params": [
+            0.08125,
+            0.121875,
+            0.1625,
+            0.325
+          ]
+        },
+        {
+          "level": 8,
+          "params": [
+            0.0875,
+            0.13125,
+            0.175,
+            0.35
+          ]
+        },
+        {
+          "level": 9,
+          "params": [
+            0.09375,
+            0.140625,
+            0.1875,
+            0.375
+          ]
+        },
+        {
+          "level": 10,
+          "params": [
+            0.1,
+            0.15,
+            0.2,
+            0.4
+          ]
+        },
+        {
+          "level": 11,
+          "params": [
+            0.105,
+            0.1575,
+            0.21,
+            0.42
+          ]
+        },
+        {
+          "level": 12,
+          "params": [
+            0.11,
+            0.165,
+            0.22,
+            0.44
+          ]
+        },
+        {
+          "level": 13,
+          "params": [
+            0.115,
+            0.1725,
+            0.23,
+            0.46
+          ]
+        },
+        {
+          "level": 14,
+          "params": [
+            0.12,
+            0.18,
+            0.24,
+            0.48
+          ]
+        },
+        {
+          "level": 15,
+          "params": [
+            0.125,
+            0.1875,
+            0.25,
+            0.5
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": true,
+          "value": "12.5%",
+          "by_level": [
+            "5%",
+            "5.5%",
+            "6%",
+            "6.5%",
+            "7%",
+            "7.5%",
+            "8.12%",
+            "8.75%",
+            "9.38%",
+            "10%",
+            "10.5%",
+            "11%",
+            "11.5%",
+            "12%",
+            "12.5%"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "18.75%",
+          "by_level": [
+            "7.5%",
+            "8.25%",
+            "9%",
+            "9.75%",
+            "10.5%",
+            "11.25%",
+            "12.19%",
+            "13.12%",
+            "14.06%",
+            "15%",
+            "15.75%",
+            "16.5%",
+            "17.25%",
+            "18%",
+            "18.75%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": true,
+          "value": "25%",
+          "by_level": [
+            "10%",
+            "11%",
+            "12%",
+            "13%",
+            "14%",
+            "15%",
+            "16.25%",
+            "17.5%",
+            "18.75%",
+            "20%",
+            "21%",
+            "22%",
+            "23%",
+            "24%",
+            "25%"
+          ]
+        },
+        {
+          "index": 4,
+          "is_percent": true,
+          "value": "50%",
+          "by_level": [
+            "20%",
+            "22%",
+            "24%",
+            "26%",
+            "28%",
+            "30%",
+            "32.5%",
+            "35%",
+            "37.5%",
+            "40%",
+            "42%",
+            "44%",
+            "46%",
+            "48%",
+            "50%"
+          ]
+        }
+      ],
+      "simple_desc": "我方全体目标下一次攻击后，造成对应属性的欢愉伤害。队伍中「欢愉」命途角色越多，该次欢愉伤害越高。",
+      "desc_max": "队伍中「欢愉」命途角色数量等于1/2/3/4或以上时，使我方全体目标下一次攻击后，对攻击目标额外造成12.5%/18.75%/25%/50%的对应属性欢愉伤害。",
+      "desc_lv1": "队伍中「欢愉」命途角色数量等于1/2/3/4或以上时，使我方全体目标下一次攻击后，对攻击目标额外造成5%/7.5%/10%/20%的对应属性欢愉伤害。",
+      "desc_en": "When there are 1/2/3/4 or more Elation characters in the team, then after all ally targets use their next attack, enables them to additionally deal <u>Elation DMG</u> of their corresponding Type to the attack target, equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> respectively.",
+      "extra": {
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150329,
+      "name": "欢愉万相★跃然纸上",
+      "name_en": "Faces of Elation ★ Leaping Off the Page",
+      "type_name": "固有行迹",
+      "type": null,
+      "tag": "Support",
+      "tag_zh": "辅助",
+      "stance_break": [
+        0,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": false,
+      "tree": null,
+      "max_level": 2,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            75,
+            0.1,
+            0.1
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            75,
+            0.2,
+            0.2
+          ]
+        }
+      ],
+      "param_table": [
+        {
+          "index": 1,
+          "is_percent": false,
+          "value": "75",
+          "by_level": [
+            "75",
+            "75"
+          ]
+        },
+        {
+          "index": 2,
+          "is_percent": true,
+          "value": "20%",
+          "by_level": [
+            "10%",
+            "20%"
+          ]
+        },
+        {
+          "index": 3,
+          "is_percent": true,
+          "value": "20%",
+          "by_level": [
+            "10%",
+            "20%"
+          ]
+        }
+      ],
+      "simple_desc": "当「欢愉」命途升格时，真珠的【绝活共赏】持有上限提高。终结技提供的额外回合开始时获得的【好活当赏】和笑点提高效果，在额外回合结束时会保留部分。",
+      "desc_max": "当「欢愉」命途升格时，真珠的【绝活共赏】持有上限提高至75点。终结技提供的额外回合开始时获得的【好活当赏】和笑点提高效果，在额外回合结束时会保留20%和20%。",
+      "desc_lv1": "当「欢愉」命途升格时，真珠的【绝活共赏】持有上限提高至75点。终结技提供的额外回合开始时获得的【好活当赏】和笑点提高效果，在额外回合结束时会保留10%和10%。",
+      "desc_en": "When the <color=#cb2f2f><u>Path of Elation ascends</u></color>, Pearl's max \"<u>Party Trick</u>\" limit increases to <unbreak>#1[i]</unbreak>. At the end of the extra turn provided by the Ultimate, <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of \"Certified Banger\" and <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of the Punchline increment effect gained at the start of the extra turn are retained.",
+      "extra": {
+        "10015111": {
+          "name": "「欢愉」命途升格",
+          "desc": "星神★阿哈持有【欢愉万相】状态时，【笑点】与【好活当赏】强化为【爽点】和【绝活共赏】，我方「欢愉」命途角色将激活【固有行迹】效果。",
+          "param": []
+        },
+        "10015113": {
+          "name": "绝活共赏",
+          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方欢愉命途角色的【固有行迹】效果。",
+          "param": []
+        }
+      }
+    },
+    {
+      "id": 150306,
+      "name": "攻击",
+      "name_en": "Attack",
+      "type_name": "",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "tag_zh": "秘技攻击",
+      "stance_break": [
+        30,
+        0,
+        0
+      ],
+      "bp_need": -1,
+      "bp_add": null,
+      "elation_priority_value": null,
+      "is_primary": false,
+      "tree": null,
+      "max_level": 1,
+      "min_level": 1,
+      "levels": [
+        {
+          "level": 1,
+          "params": []
+        }
+      ],
+      "param_table": [],
+      "simple_desc": null,
+      "desc_max": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+      "desc_lv1": "攻击敌人，进入战斗后削弱敌方目标对应属性韧性。",
+      "desc_en": "Attacks an enemy, and after the battle starts, reduces their Toughness of the corresponding Type.",
+      "extra": {}
+    }
+  ],
+  "traces": {
+    "abilities": [
+      {
+        "anchor": "Point06",
+        "point_type": 3,
+        "name": "洞察万物",
+        "desc": "真珠的防御力大于等于2400时，使自身欢愉度提高32%，之后每超过100点防御力使自身欢愉度提高3%，最多计入3600点超出的防御力。真珠获得等同于自身欢愉度20%的治疗量加成。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point07",
+        "point_type": 3,
+        "name": "感知容差",
+        "desc": "持有【好活当赏】时，我方全体目标的效果抵抗提高50%。我方目标回合开始时，真珠获得5点【好活当赏】，最多获得50点【好活当赏】，真珠回合开始时重置可获得【好活当赏】数量。施放强化普攻和战技时，解除我方全体目标的1个负面效果。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point08",
+        "point_type": 3,
+        "name": "艺术壁垒",
+        "desc": "进入战斗和施放终结技后，若【美学底本】为「欢愉」命途角色，使其下一次施放终结技时，为真珠固定恢复90点能量。该效果无法叠加。",
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "elation_skill": [
+      {
+        "anchor": "Point22",
+        "point_type": 4,
+        "name": "欢愉技",
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150320
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "stat_nodes": [
+      {
+        "anchor": "Point09",
+        "point_type": 1,
+        "name": "防御强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "DefenceAddedRatio",
+            "name": "防御力",
+            "value": 0.05,
+            "text": "+5%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ]
+      },
+      {
+        "anchor": "Point10",
+        "point_type": 1,
+        "name": "速度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "SpeedDelta",
+            "name": "速度",
+            "value": 2,
+            "text": "+2"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ]
+      },
+      {
+        "anchor": "Point11",
+        "point_type": 1,
+        "name": "效果抵抗强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "StatusResistanceBase",
+            "name": "效果抵抗",
+            "value": 0.04,
+            "text": "+4%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point12",
+        "point_type": 1,
+        "name": "欢愉度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "ElationDamageAddedRatioBase",
+            "name": "欢愉度",
+            "value": 0.04,
+            "text": "+4%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point13",
+        "point_type": 1,
+        "name": "防御强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "DefenceAddedRatio",
+            "name": "防御力",
+            "value": 0.075,
+            "text": "+7.5%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 18000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point14",
+        "point_type": 1,
+        "name": "速度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "SpeedDelta",
+            "name": "速度",
+            "value": 3,
+            "text": "+3"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point15",
+        "point_type": 1,
+        "name": "效果抵抗强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "StatusResistanceBase",
+            "name": "效果抵抗",
+            "value": 0.06,
+            "text": "+6%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point16",
+        "point_type": 1,
+        "name": "欢愉度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "ElationDamageAddedRatioBase",
+            "name": "欢愉度",
+            "value": 0.06,
+            "text": "+6%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point17",
+        "point_type": 1,
+        "name": "速度强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "SpeedDelta",
+            "name": "速度",
+            "value": 4,
+            "text": "+4"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point18",
+        "point_type": 1,
+        "name": "防御强化",
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [],
+        "status_add": [
+          {
+            "prop": "DefenceAddedRatio",
+            "name": "防御力",
+            "value": 0.1,
+            "text": "+10%"
+          }
+        ],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ]
+      }
+    ],
+    "skill_level_nodes": [
+      {
+        "anchor": "Point01",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 6,
+        "level_up_skill_id": [
+          150301,
+          150308,
+          150310
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point02",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150302
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point03",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150303
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point04",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 10,
+        "level_up_skill_id": [
+          150304
+        ],
+        "status_add": [],
+        "materials": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ]
+      },
+      {
+        "anchor": "Point05",
+        "point_type": 2,
+        "name": null,
+        "desc": null,
+        "max_level": 1,
+        "level_up_skill_id": [
+          150307
+        ],
+        "status_add": [],
+        "materials": []
+      }
+    ],
+    "other": []
+  },
+  "eidolons": [
+    {
+      "rank": 1,
+      "id": 150301,
+      "name": "珍珠，藏在海的留白处",
+      "desc": "队伍中「欢愉」命途角色数量等于2/3/4或以上时，使我方全体欢愉度提高10%/20%/60%。若我方目标受到致命伤害，不会陷入无法战斗状态，并立即回复等同于其生命上限50%的生命值。该效果单场战斗中可以触发2次。",
+      "params": [
+        0.1,
+        0.2,
+        0.6,
+        0.5,
+        2
+      ],
+      "icon": "SkillIcon_1503_Rank1.png"
+    },
+    {
+      "rank": 2,
+      "id": 150302,
+      "name": "截取，顷刻破晓的光斑",
+      "desc": "我方全体目标的欢愉伤害增笑15%。施放终结技时，使除真珠和【美学底本】外的其他我方「欢愉」命途角色也触发行动提前效果，并使终结技提供的额外回合开始时获得的【好活当赏】和笑点提高100%。",
+      "params": [
+        0.15,
+        1
+      ],
+      "icon": "SkillIcon_1503_Rank2.png"
+    },
+    {
+      "rank": 3,
+      "id": 150303,
+      "name": "速写，惊涛悬停的刹那",
+      "desc": "终结技等级+2，最多不超过15级；普攻等级+1，最多不超过10级；欢愉技等级+1，最多不超过15级。",
+      "params": [],
+      "icon": "SkillIcon_1503_Ultra.png"
+    },
+    {
+      "rank": 4,
+      "id": 150304,
+      "name": "解译，唇角模糊的笑意",
+      "desc": "欢愉技为我方全体目标提供的欢愉伤害倍率提高原倍率的100%。",
+      "params": [
+        1
+      ],
+      "icon": "SkillIcon_1503_Rank4.png"
+    },
+    {
+      "rank": 5,
+      "id": 150305,
+      "name": "透视，笔端星夜的肌理",
+      "desc": "战技等级+2，最多不超过15级；天赋等级+2，最多不超过15级；欢愉技等级+1，最多不超过15级。",
+      "params": [],
+      "icon": "SkillIcon_1503_BP.png"
+    },
+    {
+      "rank": 6,
+      "id": 150306,
+      "name": "用一副躯壳，演算生命",
+      "desc": "【深度学习】时，我方全体目标的全属性抗性穿透提高20%。真珠的强化普攻额外造成240%的冰属性欢愉伤害，该次欢愉伤害使用【美学底本】的属性值计算。",
+      "params": [
+        0.2,
+        2.4
+      ],
+      "icon": "SkillIcon_1503_Rank6.png"
+    }
+  ],
+  "unique": [],
+  "enhanced": {},
+  "memosprite": {},
+  "chara_info": {
+    "camp": null,
+    "va": {
+      "chinese": null,
+      "japanese": null,
+      "korean": null,
+      "english": null
+    },
+    "stories": {
+      "0": null,
+      "1": null,
+      "2": null,
+      "3": null,
+      "4": null
+    },
+    "voicelines": []
+  },
+  "skin": {},
+  "build": {
+    "relic_set_ids": [
+      133,
+      130,
+      114
+    ],
+    "planar_set_ids": [
+      308,
+      317,
+      310
+    ],
+    "main_stats": [
+      {
+        "slot": "躯干",
+        "prop": "治疗量加成",
+        "prop_code": "HealRatioBase"
+      },
+      {
+        "slot": "脚部",
+        "prop": "速度",
+        "prop_code": "SpeedDelta"
+      },
+      {
+        "slot": "位面球",
+        "prop": "防御力百分比",
+        "prop_code": "DefenceAddedRatio"
+      },
+      {
+        "slot": "连结绳",
+        "prop": "能量恢复效率",
+        "prop_code": "SPRatioBase"
+      }
+    ],
+    "sub_stats": [
+      "防御力百分比",
+      "速度"
+    ],
+    "score_rank_list": [
+      260,
+      202
+    ],
+    "relic_sets": [
+      {
+        "id": 133,
+        "name": "戏梦点星的伶人",
+        "name_en": "Dreamlit Actor",
+        "pieces": 4,
+        "effects": {
+          "2": "速度提高6%。",
+          "4": "当装备者对我方其他单体目标施放战技或终结技时，使技能目标的欢愉度提高16%，持续3回合，若装备者持有的好活当赏大于等于10点，则额外使我方全体目标的暴击伤害提高12%，持续3回合。"
+        }
+      },
+      {
+        "id": 130,
+        "name": "应天涉远的卜者",
+        "name_en": "Diviner of Distant Reach",
+        "pieces": 4,
+        "effects": {
+          "2": "速度提高6%。",
+          "4": "进入战斗前，若装备者的速度大于等于120/160，使装备者的暴击率提高10%/18%。装备者每场战斗首次施放欢愉技时，使我方全体欢愉度提高10%，该效果无法叠加。"
+        }
+      },
+      {
+        "id": 114,
+        "name": "骇域漫游的信使",
+        "name_en": "Messenger Traversing Hackerspace",
+        "pieces": 4,
+        "effects": {
+          "2": "速度提高6%。",
+          "4": "当装备者对我方目标施放终结技时，我方全体速度提高12%，持续1回合，该效果无法叠加。"
+        }
+      }
+    ],
+    "planar_sets": [
+      {
+        "id": 308,
+        "name": "生命的翁瓦克",
+        "name_en": "Sprightly Vonwacq",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的能量恢复效率提高5%。当装备者的速度大于等于120时，进入战斗时立刻使行动提前40%。"
+        }
+      },
+      {
+        "id": 317,
+        "name": "沉陆海域露莎卡",
+        "name_en": "Lushaka, the Sunken Seas",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的能量恢复效率提高5%，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高12%。"
+        }
+      },
+      {
+        "id": 310,
+        "name": "折断的龙骨",
+        "name_en": "Broken Keel",
+        "pieces": 2,
+        "effects": {
+          "2": "使装备者的效果抵抗提高10%。当装备者的效果抵抗大于等于30%时，我方全体暴击伤害提高10%。"
+        }
+      }
+    ],
+    "lightcones": [
+      {
+        "id": 23055,
+        "name": "献给明日的色彩",
+        "name_en": "Colors for Tomorrow",
+        "rarity": 5,
+        "path": "欢愉",
+        "atk": 476
+      },
+      {
+        "id": 21064,
+        "name": "菇菇嘎嘎历险记",
+        "name_en": "Mushy Shroomy's Adventures",
+        "rarity": 4,
+        "path": "欢愉",
+        "atk": 476
+      }
+    ],
+    "teams": [
+      {
+        "team_id": 1,
+        "members": [
+          "银狼LV.999",
+          "爻光",
+          "火花"
+        ],
+        "member_ids": [
+          1506,
+          1502,
+          1501
+        ],
+        "position": 1,
+        "backup": []
+      },
+      {
+        "team_id": 2,
+        "members": [
+          "绯英",
+          "爻光",
+          "火花"
+        ],
+        "member_ids": [
+          1505,
+          1502,
+          1501
+        ],
+        "position": 1,
+        "backup": []
+      },
+      {
+        "team_id": 3,
+        "members": [
+          "砂金•戏浪",
+          "爻光",
+          "火花"
+        ],
+        "member_ids": [
+          1513,
+          1502,
+          1501
+        ],
+        "position": 1,
+        "backup": []
+      }
+    ]
+  },
+  "ascension_materials": []
+}

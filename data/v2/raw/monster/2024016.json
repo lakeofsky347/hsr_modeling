@@ -1,0 +1,1172 @@
+{
+  "id": 2024016,
+  "name": "弗有垂暮的不老仙",
+  "desc": "由「建木」化生，拱卫其根系的灵瑞之兽，履迹所之，和泽滋生，枝杪郁敷。\\n自毁于太古时代的战争后，「建木」终于在星核的修补下再度生长。彼时仙人们所造的珍禽奇兽纷至沓来，宛如旧梦重临。",
+  "monster_camp_id": 2,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 26040,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2024010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 120,
+  "stance_base": 720,
+  "stance_count": 3,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 2024016,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202401605,
+          "skill_name": "呦鸣",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202401606,
+          "skill_name": "绾风",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202401607,
+          "skill_name": "蕉覆",
+          "skill_desc": "提高防御力，且使自身韧性无法被削减。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401608,
+          "skill_name": "斑龙触",
+          "skill_desc": "每当【嘉实之杪】施放技能后，【弗有垂暮的不老仙】获得1点充能。当充能达到上限时立即施放该技能，对我方全体造成雷属性伤害。场上【<u>建木枝梢</u>】数量越多，造成的伤害越高。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401609,
+          "skill_name": "回生",
+          "skill_desc": "所有召唤物回复等同于【弗有垂暮的不老仙】生命上限一定百分比的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401601,
+          "skill_name": "衔枝 • 肃风",
+          "skill_desc": "召唤建木枝梢【肃风之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401602,
+          "skill_name": "衔枝 • 缃叶",
+          "skill_desc": "召唤建木枝梢【缃叶之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401603,
+          "skill_name": "衔枝 • 繁花",
+          "skill_desc": "召唤建木枝梢【繁花之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401604,
+          "skill_name": "衔枝 • 嘉实",
+          "skill_desc": "召唤建木枝梢【嘉实之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401610,
+          "skill_name": "鸡犬升天",
+          "skill_desc": "战斗开始时，召唤【<u>丰饶孽物</u>】和【<u>建木枝梢</u>】。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，然后立即召唤新的【<u>丰饶孽物</u>】或【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240162": {
+              "name": "丰饶孽物",
+              "desc": "本场战斗中，【弗有垂暮的不老仙】召唤的【魔阴身士卒】和【「药王秘传」器元士】，统称为【丰饶孽物】。",
+              "param": []
+            },
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401611,
+          "skill_name": "鸡犬升天•强化",
+          "skill_desc": "转阶段时，召唤【仙人童子】、【仙人天女】和【<u>建木枝梢</u>】，并对【仙人童子】和【仙人天女】施加【得力干将】。当【得力干将】在场时，【弗有垂暮的不老仙】受到的伤害大幅降低。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，如果被消灭的是【得力干将】，则改为对自身造成大量真实伤害，削减自身大量韧性；然后立即召唤新的【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401612,
+          "skill_name": "飞升之力",
+          "skill_desc": "【肃风之杪】、【缃叶之杪】和【繁花之杪】在场时，会分别对其它单位施加不同的【<u>仙光</u>】效果。\\n【肃风之杪】：被施加【怒噪】状态的我方单位，对【肃风之杪】以外的所有敌方单位造成的伤害大幅降低。\\n【缃叶之杪】：【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。\\n【繁花之杪】：【繁花之杪】和【弗有垂暮的不老仙】以外的所有敌方单位，回合开始时，回复少量生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240163": {
+              "name": "仙光",
+              "desc": "【仙光】效果对场上特定单位持续生效，多个相同的【仙光】效果不会叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401613,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭【<u>建木枝梢</u>】后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401614,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401615,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401616,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401617,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401618,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401619,
+          "skill_name": "泄力",
+          "skill_desc": "【弗有垂暮的不老仙】会将自身的弱点属性转移给【得力干将】，【得力干将】被消灭后向【弗有垂暮的不老仙】和其他【得力干将】转移自身的弱点属性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202401601,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202401605,
+          "skill_name": "呦鸣",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202401606,
+          "skill_name": "绾风",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202401607,
+          "skill_name": "蕉覆",
+          "skill_desc": "提高防御力，且使自身韧性无法被削减。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401608,
+          "skill_name": "斑龙触",
+          "skill_desc": "每当【嘉实之杪】施放技能后，【弗有垂暮的不老仙】获得1点充能。当充能达到上限时立即施放该技能，对我方全体造成雷属性伤害。场上【<u>建木枝梢</u>】数量越多，造成的伤害越高。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401609,
+          "skill_name": "回生",
+          "skill_desc": "所有召唤物回复等同于【弗有垂暮的不老仙】生命上限一定百分比的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401601,
+          "skill_name": "衔枝 • 肃风",
+          "skill_desc": "召唤建木枝梢【肃风之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401602,
+          "skill_name": "衔枝 • 缃叶",
+          "skill_desc": "召唤建木枝梢【缃叶之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401603,
+          "skill_name": "衔枝 • 繁花",
+          "skill_desc": "召唤建木枝梢【繁花之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401604,
+          "skill_name": "衔枝 • 嘉实",
+          "skill_desc": "召唤建木枝梢【嘉实之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401610,
+          "skill_name": "鸡犬升天",
+          "skill_desc": "战斗开始时，召唤【<u>丰饶孽物</u>】和【<u>建木枝梢</u>】。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，然后立即召唤新的【<u>丰饶孽物</u>】或【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240162": {
+              "name": "丰饶孽物",
+              "desc": "本场战斗中，【弗有垂暮的不老仙】召唤的【魔阴身士卒】和【「药王秘传」器元士】，统称为【丰饶孽物】。",
+              "param": []
+            },
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401611,
+          "skill_name": "鸡犬升天•强化",
+          "skill_desc": "转阶段时，召唤【仙人童子】、【仙人天女】和【<u>建木枝梢</u>】，并对【仙人童子】和【仙人天女】施加【得力干将】。当【得力干将】在场时，【弗有垂暮的不老仙】受到的伤害大幅降低。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，如果被消灭的是【得力干将】，则改为对自身造成大量真实伤害，削减自身大量韧性；然后立即召唤新的【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401612,
+          "skill_name": "飞升之力",
+          "skill_desc": "【肃风之杪】、【缃叶之杪】和【繁花之杪】在场时，会分别对其它单位施加不同的【<u>仙光</u>】效果。\\n【肃风之杪】：被施加【怒噪】状态的我方单位，对【肃风之杪】以外的所有敌方单位造成的伤害大幅降低。\\n【缃叶之杪】：【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。\\n【繁花之杪】：【繁花之杪】和【弗有垂暮的不老仙】以外的所有敌方单位，回合开始时，回复少量生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240163": {
+              "name": "仙光",
+              "desc": "【仙光】效果对场上特定单位持续生效，多个相同的【仙光】效果不会叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401613,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭【<u>建木枝梢</u>】后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401614,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401615,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401616,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401617,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401618,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401619,
+          "skill_name": "泄力",
+          "skill_desc": "【弗有垂暮的不老仙】会将自身的弱点属性转移给【得力干将】，【得力干将】被消灭后向【弗有垂暮的不老仙】和其他【得力干将】转移自身的弱点属性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202401602,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202401605,
+          "skill_name": "呦鸣",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202401606,
+          "skill_name": "绾风",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202401607,
+          "skill_name": "蕉覆",
+          "skill_desc": "提高防御力，且使自身韧性无法被削减。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401608,
+          "skill_name": "斑龙触",
+          "skill_desc": "每当【嘉实之杪】施放技能后，【弗有垂暮的不老仙】获得1点充能。当充能达到上限时立即施放该技能，对我方全体造成雷属性伤害。场上【<u>建木枝梢</u>】数量越多，造成的伤害越高。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401609,
+          "skill_name": "回生",
+          "skill_desc": "所有召唤物回复等同于【弗有垂暮的不老仙】生命上限一定百分比的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401601,
+          "skill_name": "衔枝 • 肃风",
+          "skill_desc": "召唤建木枝梢【肃风之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401602,
+          "skill_name": "衔枝 • 缃叶",
+          "skill_desc": "召唤建木枝梢【缃叶之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401603,
+          "skill_name": "衔枝 • 繁花",
+          "skill_desc": "召唤建木枝梢【繁花之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401604,
+          "skill_name": "衔枝 • 嘉实",
+          "skill_desc": "召唤建木枝梢【嘉实之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401610,
+          "skill_name": "鸡犬升天",
+          "skill_desc": "战斗开始时，召唤【<u>丰饶孽物</u>】和【<u>建木枝梢</u>】。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，然后立即召唤新的【<u>丰饶孽物</u>】或【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240162": {
+              "name": "丰饶孽物",
+              "desc": "本场战斗中，【弗有垂暮的不老仙】召唤的【魔阴身士卒】和【「药王秘传」器元士】，统称为【丰饶孽物】。",
+              "param": []
+            },
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401611,
+          "skill_name": "鸡犬升天•强化",
+          "skill_desc": "转阶段时，召唤【仙人童子】、【仙人天女】和【<u>建木枝梢</u>】，并对【仙人童子】和【仙人天女】施加【得力干将】。当【得力干将】在场时，【弗有垂暮的不老仙】受到的伤害大幅降低。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，如果被消灭的是【得力干将】，则改为对自身造成大量真实伤害，削减自身大量韧性；然后立即召唤新的【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401612,
+          "skill_name": "飞升之力",
+          "skill_desc": "【肃风之杪】、【缃叶之杪】和【繁花之杪】在场时，会分别对其它单位施加不同的【<u>仙光</u>】效果。\\n【肃风之杪】：被施加【怒噪】状态的我方单位，对【肃风之杪】以外的所有敌方单位造成的伤害大幅降低。\\n【缃叶之杪】：【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。\\n【繁花之杪】：【繁花之杪】和【弗有垂暮的不老仙】以外的所有敌方单位，回合开始时，回复少量生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240163": {
+              "name": "仙光",
+              "desc": "【仙光】效果对场上特定单位持续生效，多个相同的【仙光】效果不会叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401613,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭【<u>建木枝梢</u>】后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401614,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401615,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401616,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401617,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401618,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401619,
+          "skill_name": "泄力",
+          "skill_desc": "【弗有垂暮的不老仙】会将自身的弱点属性转移给【得力干将】，【得力干将】被消灭后向【弗有垂暮的不老仙】和其他【得力干将】转移自身的弱点属性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202401603,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202401605,
+          "skill_name": "呦鸣",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202401606,
+          "skill_name": "绾风",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202401607,
+          "skill_name": "蕉覆",
+          "skill_desc": "提高防御力，且使自身韧性无法被削减。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401608,
+          "skill_name": "斑龙触",
+          "skill_desc": "每当【嘉实之杪】施放技能后，【弗有垂暮的不老仙】获得1点充能。当充能达到上限时立即施放该技能，对我方全体造成雷属性伤害。场上【<u>建木枝梢</u>】数量越多，造成的伤害越高。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401609,
+          "skill_name": "回生",
+          "skill_desc": "所有召唤物回复等同于【弗有垂暮的不老仙】生命上限一定百分比的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401601,
+          "skill_name": "衔枝 • 肃风",
+          "skill_desc": "召唤建木枝梢【肃风之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401602,
+          "skill_name": "衔枝 • 缃叶",
+          "skill_desc": "召唤建木枝梢【缃叶之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401603,
+          "skill_name": "衔枝 • 繁花",
+          "skill_desc": "召唤建木枝梢【繁花之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401604,
+          "skill_name": "衔枝 • 嘉实",
+          "skill_desc": "召唤建木枝梢【嘉实之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401610,
+          "skill_name": "鸡犬升天",
+          "skill_desc": "战斗开始时，召唤【<u>丰饶孽物</u>】和【<u>建木枝梢</u>】。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，然后立即召唤新的【<u>丰饶孽物</u>】或【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240162": {
+              "name": "丰饶孽物",
+              "desc": "本场战斗中，【弗有垂暮的不老仙】召唤的【魔阴身士卒】和【「药王秘传」器元士】，统称为【丰饶孽物】。",
+              "param": []
+            },
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401611,
+          "skill_name": "鸡犬升天•强化",
+          "skill_desc": "转阶段时，召唤【仙人童子】、【仙人天女】和【<u>建木枝梢</u>】，并对【仙人童子】和【仙人天女】施加【得力干将】。当【得力干将】在场时，【弗有垂暮的不老仙】受到的伤害大幅降低。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，如果被消灭的是【得力干将】，则改为对自身造成大量真实伤害，削减自身大量韧性；然后立即召唤新的【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401612,
+          "skill_name": "飞升之力",
+          "skill_desc": "【肃风之杪】、【缃叶之杪】和【繁花之杪】在场时，会分别对其它单位施加不同的【<u>仙光</u>】效果。\\n【肃风之杪】：被施加【怒噪】状态的我方单位，对【肃风之杪】以外的所有敌方单位造成的伤害大幅降低。\\n【缃叶之杪】：【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。\\n【繁花之杪】：【繁花之杪】和【弗有垂暮的不老仙】以外的所有敌方单位，回合开始时，回复少量生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240163": {
+              "name": "仙光",
+              "desc": "【仙光】效果对场上特定单位持续生效，多个相同的【仙光】效果不会叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401613,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭【<u>建木枝梢</u>】后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401614,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401615,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401616,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401617,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401618,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401619,
+          "skill_name": "泄力",
+          "skill_desc": "【弗有垂暮的不老仙】会将自身的弱点属性转移给【得力干将】，【得力干将】被消灭后向【弗有垂暮的不老仙】和其他【得力干将】转移自身的弱点属性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 202401604,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202401605,
+          "skill_name": "呦鸣",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202401606,
+          "skill_name": "绾风",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202401607,
+          "skill_name": "蕉覆",
+          "skill_desc": "提高防御力，且使自身韧性无法被削减。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401608,
+          "skill_name": "斑龙触",
+          "skill_desc": "每当【嘉实之杪】施放技能后，【弗有垂暮的不老仙】获得1点充能。当充能达到上限时立即施放该技能，对我方全体造成雷属性伤害。场上【<u>建木枝梢</u>】数量越多，造成的伤害越高。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401609,
+          "skill_name": "回生",
+          "skill_desc": "所有召唤物回复等同于【弗有垂暮的不老仙】生命上限一定百分比的生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401601,
+          "skill_name": "衔枝 • 肃风",
+          "skill_desc": "召唤建木枝梢【肃风之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401602,
+          "skill_name": "衔枝 • 缃叶",
+          "skill_desc": "召唤建木枝梢【缃叶之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401603,
+          "skill_name": "衔枝 • 繁花",
+          "skill_desc": "召唤建木枝梢【繁花之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401604,
+          "skill_name": "衔枝 • 嘉实",
+          "skill_desc": "召唤建木枝梢【嘉实之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401610,
+          "skill_name": "鸡犬升天",
+          "skill_desc": "战斗开始时，召唤【<u>丰饶孽物</u>】和【<u>建木枝梢</u>】。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，然后立即召唤新的【<u>丰饶孽物</u>】或【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240162": {
+              "name": "丰饶孽物",
+              "desc": "本场战斗中，【弗有垂暮的不老仙】召唤的【魔阴身士卒】和【「药王秘传」器元士】，统称为【丰饶孽物】。",
+              "param": []
+            },
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401611,
+          "skill_name": "鸡犬升天•强化",
+          "skill_desc": "转阶段时，召唤【仙人童子】、【仙人天女】和【<u>建木枝梢</u>】，并对【仙人童子】和【仙人天女】施加【得力干将】。当【得力干将】在场时，【弗有垂暮的不老仙】受到的伤害大幅降低。\\n当召唤物被消灭时，对自身造成少量真实伤害，削减自身少量韧性，如果被消灭的是【得力干将】，则改为对自身造成大量真实伤害，削减自身大量韧性；然后立即召唤新的【<u>建木枝梢</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401612,
+          "skill_name": "飞升之力",
+          "skill_desc": "【肃风之杪】、【缃叶之杪】和【繁花之杪】在场时，会分别对其它单位施加不同的【<u>仙光</u>】效果。\\n【肃风之杪】：被施加【怒噪】状态的我方单位，对【肃风之杪】以外的所有敌方单位造成的伤害大幅降低。\\n【缃叶之杪】：【缃叶之杪】以外的所有敌方单位，受到攻击后行动少量提前。\\n【繁花之杪】：【繁花之杪】和【弗有垂暮的不老仙】以外的所有敌方单位，回合开始时，回复少量生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240163": {
+              "name": "仙光",
+              "desc": "【仙光】效果对场上特定单位持续生效，多个相同的【仙光】效果不会叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401613,
+          "skill_name": "滋养之力",
+          "skill_desc": "我方单位消灭【<u>建木枝梢</u>】后，获得1层【滋养之力】，造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220240161": {
+              "name": "建木枝梢",
+              "desc": "【肃风之杪】、【缃叶之杪】、【繁花之杪】、【嘉实之杪】，统称为【建木枝梢】。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 202401614,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401615,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401616,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401617,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401618,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401619,
+          "skill_name": "泄力",
+          "skill_desc": "【弗有垂暮的不老仙】会将自身的弱点属性转移给【得力干将】，【得力干将】被消灭后向【弗有垂暮的不老仙】和其他【得力干将】转移自身的弱点属性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2024016,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024016,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024016,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024016,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024016,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024016,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024016,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

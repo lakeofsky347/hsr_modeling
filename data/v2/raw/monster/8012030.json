@@ -1,0 +1,852 @@
+{
+  "id": 8012030,
+  "name": "虚卒•抹消者",
+  "desc": "死亡之后遭遇裂界侵蚀的躯壳残骸，其生命体征虽发生改变，但依然在执行抹消的指令。\\n虚卒•抹消者会对命中的敌人添加标记，使其在攻击中受到额外的伤害。",
+  "monster_camp_id": 6,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 195.3,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8012030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 8012030,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203001,
+      "attack_modify_ratio": 0.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.714286,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203002,
+      "attack_modify_ratio": 0.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.714286,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203003,
+      "attack_modify_ratio": 0.4,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -10,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203005,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 10,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203009,
+      "attack_modify_ratio": 0.666667,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.952381,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.714286,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.190476,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801203012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801203001,
+          "skill_name": "虚灼炮攻",
+          "skill_desc": "对指定我方单体造成虚数属性伤害，同时自身陷入【超负荷】状态。受到攻击的我方目标有概率陷入【起爆】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 801203002,
+          "skill_name": "热障阻塞",
+          "skill_desc": "解除自身的【超负荷】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8012030,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012030,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012030,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012030,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012030,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012030,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012030,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1158 @@
+{
+  "id": 2004010,
+  "name": "「星核猎手」卡芙卡",
+  "desc": "「星核猎手」的一员，面带莫测笑容的杀手丽人，善用种类纷繁的武器和心控之术。正是她将星穹列车引至此处，以实现某个计划……",
+  "monster_camp_id": 5,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1302,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2004010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 119,
+  "stance_base": 450,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 2004010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401001,
+      "attack_modify_ratio": 0.714286,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.785714,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -90,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.607143,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.428571,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.142857,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.321429,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.857143,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 13,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 5.892857,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.428571,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.285714,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 21,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -90,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 200401012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2.142857,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 21,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -90,
+      "stance_weak_list": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 200401001,
+          "skill_name": "夜间喧嚣不止",
+          "skill_desc": "对指定我方单体造成少量雷属性伤害，并大概率使受到攻击的我方目标陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401002,
+          "skill_name": "月光摩挲连绵",
+          "skill_desc": "对指定我方单体及其相邻目标造成雷属性伤害，如主目标处于触电状态，则会使副目标也陷入触电状态。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 200401003,
+          "skill_name": "缄默厉声嘲笑",
+          "skill_desc": "对我方全体造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401004,
+          "skill_name": "言灵",
+          "skill_desc": "使指定我方单体大概率陷入【支配】状态，并将其行动提前，立即随机攻击1名我方其他目标。",
+          "damage_type": "",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 200401005,
+          "skill_name": "颤慄",
+          "skill_desc": "如受到攻击的目标正处于触电状态，则直接造成1次触电伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 200401006,
+          "skill_name": "残酷",
+          "skill_desc": "当敌方除卡芙卡外的目标或我方陷入【支配】状态的目标对我方陷入触电状态的主目标进行攻击时，追加1次雷属性攻击。该效果每回合只触发1次。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2004010,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2004010,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2004010,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2004010,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2004010,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2004010,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2004010,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

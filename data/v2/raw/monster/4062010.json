@@ -1,0 +1,856 @@
+{
+  "id": 4062010,
+  "name": "金血忆灵•雉形",
+  "desc": "流光忆庭的模因生命遭遇「毁灭」金血糅合而成的扭曲怪物。初具雉形。\\n它既喧嚣吵闹又总是抱团行动，可见即便人性已经蒸发，遵循着「毁灭」的本能便是如此模样。",
+  "monster_camp_id": 18,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 232.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4062010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 4062010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.8,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 60,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 6,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 90,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 8,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 150,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 8,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 150,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 16,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 150,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 16,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 20,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 150,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 406201011,
+      "attack_modify_ratio": 2.222716,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.7742,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 406201001,
+          "skill_name": "罪血啄食",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 406201002,
+          "skill_name": "罪血共鸣",
+          "skill_desc": "使自身和场上其他【金血忆灵•雉形】进入<u>【罪血共鸣】</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240620101": {
+              "name": "罪血共鸣",
+              "desc": "其它处于【罪血共鸣】状态的【金血忆灵•雉形】发动攻击后，自身会一同发起攻击。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4062010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4062010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181017
+        }
+      ]
+    }
+  ]
+}

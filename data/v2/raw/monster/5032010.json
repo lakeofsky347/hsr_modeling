@@ -1,0 +1,466 @@
+{
+  "id": 5032010,
+  "name": "狂兽的胚芽",
+  "desc": "自「堕神之血•亚婆离」扭曲躯体上孽生而出的异形幼体，继承了主脑中暴走狂乱的古兽之力。\\n这些尚未完全育成的畸变胚芽，仅凭原始的饥饿与杀戮本能行动。作为母体异变与扩散的延伸，它将无差别地撕裂并吞噬周遭的一切生灵。",
+  "monster_camp_id": 19,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 279,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5032010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 132,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 5032010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 503201001,
+          "skill_name": "拔芽击仔",
+          "skill_desc": "对指定我方单体角色造成少量量子属性伤害，并使其陷入1层<u>【衰腐】</u>状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "503401003": {
+              "name": "衰腐",
+              "desc": "速度降低，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503201002,
+          "skill_name": "前馈控制操纵",
+          "skill_desc": "使指定敌方单体回复生命值，且造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 503201001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.5,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 503201001,
+          "skill_name": "拔芽击仔",
+          "skill_desc": "对指定我方单体角色造成少量量子属性伤害，并使其陷入1层<u>【衰腐】</u>状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "503401003": {
+              "name": "衰腐",
+              "desc": "速度降低，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503201002,
+          "skill_name": "前馈控制操纵",
+          "skill_desc": "使指定敌方单体回复生命值，且造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 503201002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 12,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 503201001,
+          "skill_name": "拔芽击仔",
+          "skill_desc": "对指定我方单体角色造成少量量子属性伤害，并使其陷入1层<u>【衰腐】</u>状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "503401003": {
+              "name": "衰腐",
+              "desc": "速度降低，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503201002,
+          "skill_name": "前馈控制操纵",
+          "skill_desc": "使指定敌方单体回复生命值，且造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 503201003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 503201001,
+          "skill_name": "拔芽击仔",
+          "skill_desc": "对指定我方单体角色造成少量量子属性伤害，并使其陷入1层<u>【衰腐】</u>状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "503401003": {
+              "name": "衰腐",
+              "desc": "速度降低，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503201002,
+          "skill_name": "前馈控制操纵",
+          "skill_desc": "使指定敌方单体回复生命值，且造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 503201004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 503201001,
+          "skill_name": "拔芽击仔",
+          "skill_desc": "对指定我方单体角色造成少量量子属性伤害，并使其陷入1层<u>【衰腐】</u>状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "503401003": {
+              "name": "衰腐",
+              "desc": "速度降低，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503201002,
+          "skill_name": "前馈控制操纵",
+          "skill_desc": "使指定敌方单体回复生命值，且造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 503201005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 503201001,
+          "skill_name": "拔芽击仔",
+          "skill_desc": "对指定我方单体角色造成少量量子属性伤害，并使其陷入1层<u>【衰腐】</u>状态。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {
+            "503401003": {
+              "name": "衰腐",
+              "desc": "速度降低，该效果可叠加。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503201002,
+          "skill_name": "前馈控制操纵",
+          "skill_desc": "使指定敌方单体回复生命值，且造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5032010,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5032010,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5032010,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5032010,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5032010,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5032010,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5032010,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    }
+  ]
+}

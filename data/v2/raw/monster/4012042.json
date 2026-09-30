@@ -1,0 +1,222 @@
+{
+  "id": 4012042,
+  "name": "天谴歌队",
+  "desc": "由「纷争」雕琢的泰坦眷属，流淌着尼卡多利的金血。天谴之矛下的歌者，唱诵着赞美战士与疯王的诗句，以神咒呼唤尼卡多利的赐福。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 558,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4012040.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 120,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4012042,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401204201,
+          "skill_name": "礼赞尼卡多利",
+          "skill_desc": "使除自身以外的敌方全体目标回复<u>【生命计数】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "70000216": {
+              "name": "生命计数",
+              "desc": "拥有【生命计数】的目标受到攻击时不会损失生命值，但是会减少【生命计数】。【生命计数】归零时将陷入无法战斗状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 401204202,
+          "skill_name": "战士不该再次倒下",
+          "skill_desc": "使敌方指定目标回复<u>【生命计数】</u>。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "70000216": {
+              "name": "生命计数",
+              "desc": "拥有【生命计数】的目标受到攻击时不会损失生命值，但是会减少【生命计数】。【生命计数】归零时将陷入无法战斗状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4012042,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012042,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012042,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012042,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012042,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012042,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012042,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    }
+  ]
+}

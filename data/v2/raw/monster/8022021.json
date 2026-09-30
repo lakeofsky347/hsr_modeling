@@ -1,0 +1,537 @@
+{
+  "id": 8022021,
+  "name": "次蛰虫",
+  "desc": "真蛰虫幼体；「真蛰虫」幼体依据生长程度可被划分为「幼蛰虫」与「次蛰虫」。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1116,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8022020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 180,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 8022021,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802202101,
+          "skill_name": "预备兵器",
+          "skill_desc": "进入蓄力状态，下次行动施放【引爆扩散】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202102,
+          "skill_name": "引爆扩散",
+          "skill_desc": "引爆自身，对指定我方单体及相邻目标造成风属性伤害，并大概率使受到攻击的我方目标陷入【怒噪】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202103,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202104,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202105,
+          "skill_name": "滋补",
+          "skill_desc": "受到致命攻击时，恢复我方战技点。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202106,
+          "skill_name": "增生",
+          "skill_desc": "每层【生长激素】提高一定的攻击力，最高可叠加3层。叠加到3层时，立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802202101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802202101,
+          "skill_name": "预备兵器",
+          "skill_desc": "进入蓄力状态，下次行动施放【引爆扩散】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202102,
+          "skill_name": "引爆扩散",
+          "skill_desc": "引爆自身，对指定我方单体及相邻目标造成风属性伤害，并大概率使受到攻击的我方目标陷入【怒噪】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202103,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202104,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202105,
+          "skill_name": "滋补",
+          "skill_desc": "受到致命攻击时，恢复我方战技点。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202106,
+          "skill_name": "增生",
+          "skill_desc": "每层【生长激素】提高一定的攻击力，最高可叠加3层。叠加到3层时，立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802202102,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802202101,
+          "skill_name": "预备兵器",
+          "skill_desc": "进入蓄力状态，下次行动施放【引爆扩散】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202102,
+          "skill_name": "引爆扩散",
+          "skill_desc": "引爆自身，对指定我方单体及相邻目标造成风属性伤害，并大概率使受到攻击的我方目标陷入【怒噪】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202103,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202104,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202105,
+          "skill_name": "滋补",
+          "skill_desc": "受到致命攻击时，恢复我方战技点。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202106,
+          "skill_name": "增生",
+          "skill_desc": "每层【生长激素】提高一定的攻击力，最高可叠加3层。叠加到3层时，立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802202103,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802202101,
+          "skill_name": "预备兵器",
+          "skill_desc": "进入蓄力状态，下次行动施放【引爆扩散】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202102,
+          "skill_name": "引爆扩散",
+          "skill_desc": "引爆自身，对指定我方单体及相邻目标造成风属性伤害，并大概率使受到攻击的我方目标陷入【怒噪】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202103,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202104,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202105,
+          "skill_name": "滋补",
+          "skill_desc": "受到致命攻击时，恢复我方战技点。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202106,
+          "skill_name": "增生",
+          "skill_desc": "每层【生长激素】提高一定的攻击力，最高可叠加3层。叠加到3层时，立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 802202104,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 802202101,
+          "skill_name": "预备兵器",
+          "skill_desc": "进入蓄力状态，下次行动施放【引爆扩散】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202102,
+          "skill_name": "引爆扩散",
+          "skill_desc": "引爆自身，对指定我方单体及相邻目标造成风属性伤害，并大概率使受到攻击的我方目标陷入【怒噪】状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202103,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 802202104,
+          "skill_name": "蛰亡语",
+          "skill_desc": "受到致命攻击时，对敌方全体造成风属性伤害，并大概率使受到攻击的敌方目标受到的伤害小幅提高。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202105,
+          "skill_name": "滋补",
+          "skill_desc": "受到致命攻击时，恢复我方战技点。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 802202106,
+          "skill_name": "增生",
+          "skill_desc": "每层【生长激素】提高一定的攻击力，最高可叠加3层。叠加到3层时，立即行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8022021,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022021,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022021,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022021,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022021,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022021,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8022021,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 181006
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": 3012030,
+  "name": "永眠墓碣",
+  "desc": "破碎的生命聚作终焉的符号，彼岸的灵魂仍在凝望此岸，眼中倒映忘却与离别的碑文。\\n无辜的灵魂在永眠墓碣中沉睡，消灭永眠墓碣可以唤醒他们。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 186,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3012030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 200,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 3012030,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 301203001,
+          "skill_name": "惊醒无声的长眠",
+          "skill_desc": "当永眠墓碣受到致命攻击后，对应我方目标将解除【梦死】状态并回复生命值和能量。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301203002,
+          "skill_name": "一切逝去的时间",
+          "skill_desc": "永眠墓碣不会进行行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 301203003,
+          "skill_name": "化入永恒的延续",
+          "skill_desc": "永眠墓碣拥有固定格数的生命值。每次受到攻击，弱点击破和持续伤害时，都会直接扣除自身1格生命值。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3012030,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012030,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012030,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012030,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012030,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012030,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3012030,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114011
+        },
+        {
+          "item_id": 114012
+        },
+        {
+          "item_id": 114013
+        },
+        {
+          "item_id": 181015
+        }
+      ]
+    }
+  ]
+}

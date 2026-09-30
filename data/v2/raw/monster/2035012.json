@@ -1,0 +1,992 @@
+{
+  "id": 2035012,
+  "name": "业火焚心的影将军",
+  "desc": "受到「赤月」影响的飞霄，号令巨兽的她宛若神明，举手投足间都散发着可怖的力量。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 35805,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2033020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 144,
+  "stance_base": 840,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 2035012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203501201,
+          "skill_name": "枪刃•剑牙",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203501202,
+          "skill_name": "巨钺•铁爪",
+          "skill_desc": "对指定我方单体目标造成风属性伤害，并大概率使受到攻击的我方目标陷入<u>虚弱</u>状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501203,
+          "skill_name": "束身天除",
+          "skill_desc": "强化自身获得额外行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501204,
+          "skill_name": "风胄雷鞮",
+          "skill_desc": "与蚀月心兽的所有部位产生共鸣，并解除其弱点击破状态，下次行动前无法被攻击并在下次行动对我方全体施放【席卷乾圜，气吞坤矩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501205,
+          "skill_name": "席卷乾圜，气吞坤矩",
+          "skill_desc": "对我方全体造成大量风属性伤害并根据剩余未被弱点击破的部位进行强化，每有1个未被击破的部位会使该技能的伤害提高，同时会附带对应部位的强化效果。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 203501206,
+          "skill_name": "蚀心厉咒",
+          "skill_desc": "我方可选择1名角色，随后对选定的我方角色造成风属性伤害并使其陷入【厉咒】状态，【厉咒】状态下的我方角色及其召唤物<u>离场</u>。同时召唤【浴血人狼】，代替该离场角色继续战斗，【浴血人狼】视为我方角色。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000016": {
+              "name": "离场",
+              "desc": "处于离场状态的目标无法成为技能目标，且不会出现在行动序列上。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501207,
+          "skill_name": "心念合一",
+          "skill_desc": "【业火焚心的影将军】的额外行动会与【蛊言妄念的蚀心兽】的部位共鸣，共鸣会使【蛊言妄念的蚀心兽】的部位解除弱点击破状态；下次行动变为强化行动，【喰云之首】共鸣大概率使我方全体目标陷入<u>怒噪</u>状态，【裂维之爪】共鸣额外大幅增加伤害，【辟尘之尾】共鸣大概率使我方全体目标陷入<u>虚弱</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220350101": {
+              "name": "怒噪",
+              "desc": "无法操控，自动攻击随机敌方目标。若该目标被施放技能解除负面效果，将会优先被解除【怒噪】状态。",
+              "param": []
+            },
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501208,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501210,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501211,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501212,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501213,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 203501201,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203501201,
+          "skill_name": "枪刃•剑牙",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203501202,
+          "skill_name": "巨钺•铁爪",
+          "skill_desc": "对指定我方单体目标造成风属性伤害，并大概率使受到攻击的我方目标陷入<u>虚弱</u>状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501203,
+          "skill_name": "束身天除",
+          "skill_desc": "强化自身获得额外行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501204,
+          "skill_name": "风胄雷鞮",
+          "skill_desc": "与蚀月心兽的所有部位产生共鸣，并解除其弱点击破状态，下次行动前无法被攻击并在下次行动对我方全体施放【席卷乾圜，气吞坤矩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501205,
+          "skill_name": "席卷乾圜，气吞坤矩",
+          "skill_desc": "对我方全体造成大量风属性伤害并根据剩余未被弱点击破的部位进行强化，每有1个未被击破的部位会使该技能的伤害提高，同时会附带对应部位的强化效果。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 203501206,
+          "skill_name": "蚀心厉咒",
+          "skill_desc": "我方可选择1名角色，随后对选定的我方角色造成风属性伤害并使其陷入【厉咒】状态，【厉咒】状态下的我方角色及其召唤物<u>离场</u>。同时召唤【浴血人狼】，代替该离场角色继续战斗，【浴血人狼】视为我方角色。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000016": {
+              "name": "离场",
+              "desc": "处于离场状态的目标无法成为技能目标，且不会出现在行动序列上。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501207,
+          "skill_name": "心念合一",
+          "skill_desc": "【业火焚心的影将军】的额外行动会与【蛊言妄念的蚀心兽】的部位共鸣，共鸣会使【蛊言妄念的蚀心兽】的部位解除弱点击破状态；下次行动变为强化行动，【喰云之首】共鸣大概率使我方全体目标陷入<u>怒噪</u>状态，【裂维之爪】共鸣额外大幅增加伤害，【辟尘之尾】共鸣大概率使我方全体目标陷入<u>虚弱</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220350101": {
+              "name": "怒噪",
+              "desc": "无法操控，自动攻击随机敌方目标。若该目标被施放技能解除负面效果，将会优先被解除【怒噪】状态。",
+              "param": []
+            },
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501208,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501210,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501211,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501212,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501213,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 203501202,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203501201,
+          "skill_name": "枪刃•剑牙",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203501202,
+          "skill_name": "巨钺•铁爪",
+          "skill_desc": "对指定我方单体目标造成风属性伤害，并大概率使受到攻击的我方目标陷入<u>虚弱</u>状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501203,
+          "skill_name": "束身天除",
+          "skill_desc": "强化自身获得额外行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501204,
+          "skill_name": "风胄雷鞮",
+          "skill_desc": "与蚀月心兽的所有部位产生共鸣，并解除其弱点击破状态，下次行动前无法被攻击并在下次行动对我方全体施放【席卷乾圜，气吞坤矩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501205,
+          "skill_name": "席卷乾圜，气吞坤矩",
+          "skill_desc": "对我方全体造成大量风属性伤害并根据剩余未被弱点击破的部位进行强化，每有1个未被击破的部位会使该技能的伤害提高，同时会附带对应部位的强化效果。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 203501206,
+          "skill_name": "蚀心厉咒",
+          "skill_desc": "我方可选择1名角色，随后对选定的我方角色造成风属性伤害并使其陷入【厉咒】状态，【厉咒】状态下的我方角色及其召唤物<u>离场</u>。同时召唤【浴血人狼】，代替该离场角色继续战斗，【浴血人狼】视为我方角色。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000016": {
+              "name": "离场",
+              "desc": "处于离场状态的目标无法成为技能目标，且不会出现在行动序列上。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501207,
+          "skill_name": "心念合一",
+          "skill_desc": "【业火焚心的影将军】的额外行动会与【蛊言妄念的蚀心兽】的部位共鸣，共鸣会使【蛊言妄念的蚀心兽】的部位解除弱点击破状态；下次行动变为强化行动，【喰云之首】共鸣大概率使我方全体目标陷入<u>怒噪</u>状态，【裂维之爪】共鸣额外大幅增加伤害，【辟尘之尾】共鸣大概率使我方全体目标陷入<u>虚弱</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220350101": {
+              "name": "怒噪",
+              "desc": "无法操控，自动攻击随机敌方目标。若该目标被施放技能解除负面效果，将会优先被解除【怒噪】状态。",
+              "param": []
+            },
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501208,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501210,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501211,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501212,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501213,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 203501203,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203501201,
+          "skill_name": "枪刃•剑牙",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203501202,
+          "skill_name": "巨钺•铁爪",
+          "skill_desc": "对指定我方单体目标造成风属性伤害，并大概率使受到攻击的我方目标陷入<u>虚弱</u>状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501203,
+          "skill_name": "束身天除",
+          "skill_desc": "强化自身获得额外行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501204,
+          "skill_name": "风胄雷鞮",
+          "skill_desc": "与蚀月心兽的所有部位产生共鸣，并解除其弱点击破状态，下次行动前无法被攻击并在下次行动对我方全体施放【席卷乾圜，气吞坤矩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501205,
+          "skill_name": "席卷乾圜，气吞坤矩",
+          "skill_desc": "对我方全体造成大量风属性伤害并根据剩余未被弱点击破的部位进行强化，每有1个未被击破的部位会使该技能的伤害提高，同时会附带对应部位的强化效果。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 203501206,
+          "skill_name": "蚀心厉咒",
+          "skill_desc": "我方可选择1名角色，随后对选定的我方角色造成风属性伤害并使其陷入【厉咒】状态，【厉咒】状态下的我方角色及其召唤物<u>离场</u>。同时召唤【浴血人狼】，代替该离场角色继续战斗，【浴血人狼】视为我方角色。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000016": {
+              "name": "离场",
+              "desc": "处于离场状态的目标无法成为技能目标，且不会出现在行动序列上。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501207,
+          "skill_name": "心念合一",
+          "skill_desc": "【业火焚心的影将军】的额外行动会与【蛊言妄念的蚀心兽】的部位共鸣，共鸣会使【蛊言妄念的蚀心兽】的部位解除弱点击破状态；下次行动变为强化行动，【喰云之首】共鸣大概率使我方全体目标陷入<u>怒噪</u>状态，【裂维之爪】共鸣额外大幅增加伤害，【辟尘之尾】共鸣大概率使我方全体目标陷入<u>虚弱</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220350101": {
+              "name": "怒噪",
+              "desc": "无法操控，自动攻击随机敌方目标。若该目标被施放技能解除负面效果，将会优先被解除【怒噪】状态。",
+              "param": []
+            },
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501208,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501210,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501211,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501212,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501213,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 203501204,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.4
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.4
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203501201,
+          "skill_name": "枪刃•剑牙",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203501202,
+          "skill_name": "巨钺•铁爪",
+          "skill_desc": "对指定我方单体目标造成风属性伤害，并大概率使受到攻击的我方目标陷入<u>虚弱</u>状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501203,
+          "skill_name": "束身天除",
+          "skill_desc": "强化自身获得额外行动。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501204,
+          "skill_name": "风胄雷鞮",
+          "skill_desc": "与蚀月心兽的所有部位产生共鸣，并解除其弱点击破状态，下次行动前无法被攻击并在下次行动对我方全体施放【席卷乾圜，气吞坤矩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501205,
+          "skill_name": "席卷乾圜，气吞坤矩",
+          "skill_desc": "对我方全体造成大量风属性伤害并根据剩余未被弱点击破的部位进行强化，每有1个未被击破的部位会使该技能的伤害提高，同时会附带对应部位的强化效果。",
+          "damage_type": "Wind",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 203501206,
+          "skill_name": "蚀心厉咒",
+          "skill_desc": "我方可选择1名角色，随后对选定的我方角色造成风属性伤害并使其陷入【厉咒】状态，【厉咒】状态下的我方角色及其召唤物<u>离场</u>。同时召唤【浴血人狼】，代替该离场角色继续战斗，【浴血人狼】视为我方角色。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "10000016": {
+              "name": "离场",
+              "desc": "处于离场状态的目标无法成为技能目标，且不会出现在行动序列上。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501207,
+          "skill_name": "心念合一",
+          "skill_desc": "【业火焚心的影将军】的额外行动会与【蛊言妄念的蚀心兽】的部位共鸣，共鸣会使【蛊言妄念的蚀心兽】的部位解除弱点击破状态；下次行动变为强化行动，【喰云之首】共鸣大概率使我方全体目标陷入<u>怒噪</u>状态，【裂维之爪】共鸣额外大幅增加伤害，【辟尘之尾】共鸣大概率使我方全体目标陷入<u>虚弱</u>状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220350101": {
+              "name": "怒噪",
+              "desc": "无法操控，自动攻击随机敌方目标。若该目标被施放技能解除负面效果，将会优先被解除【怒噪】状态。",
+              "param": []
+            },
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203501208,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501209,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501210,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501211,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501212,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501213,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501214,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501215,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203501216,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2035012,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2035012,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2035012,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2035012,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2035012,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2035012,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2035012,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

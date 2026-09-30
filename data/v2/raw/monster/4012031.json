@@ -1,0 +1,475 @@
+{
+  "id": 4012031,
+  "name": "天谴猎手",
+  "desc": "由「纷争」雕琢的泰坦眷属，流淌着尼卡多利的金血。信仰如飞箭矢志不移，为泰坦造主的悬锋与凶矛寻取猎物，猎杀荒原中的奇兽与战场上的敌兵，射程之内无活物得以幸免。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 46500,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4012030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 100,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 4012031,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401203101,
+          "skill_name": "送出哀泣的飞矢",
+          "skill_desc": "从我方队伍右侧起发动数次攻击，优先对我方全体目标逐个攻击1次，剩余次数随机攻击我方单体目标，每次攻击造成少量雷属性伤害。当攻击到此次技能已经攻击过的目标时，会造成额外的雷属性伤害。当【战甲】的层数为0时，将会减少下次【送出哀泣的飞矢】的攻击次数。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 8,
+          "extra": {}
+        },
+        {
+          "id": 401203102,
+          "skill_name": "城邦守护者",
+          "skill_desc": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401203101,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 15,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401203101,
+          "skill_name": "送出哀泣的飞矢",
+          "skill_desc": "从我方队伍右侧起发动数次攻击，优先对我方全体目标逐个攻击1次，剩余次数随机攻击我方单体目标，每次攻击造成少量雷属性伤害。当攻击到此次技能已经攻击过的目标时，会造成额外的雷属性伤害。当【战甲】的层数为0时，将会减少下次【送出哀泣的飞矢】的攻击次数。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 8,
+          "extra": {}
+        },
+        {
+          "id": 401203102,
+          "skill_name": "城邦守护者",
+          "skill_desc": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401203102,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401203101,
+          "skill_name": "送出哀泣的飞矢",
+          "skill_desc": "从我方队伍右侧起发动数次攻击，优先对我方全体目标逐个攻击1次，剩余次数随机攻击我方单体目标，每次攻击造成少量雷属性伤害。当攻击到此次技能已经攻击过的目标时，会造成额外的雷属性伤害。当【战甲】的层数为0时，将会减少下次【送出哀泣的飞矢】的攻击次数。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 8,
+          "extra": {}
+        },
+        {
+          "id": 401203102,
+          "skill_name": "城邦守护者",
+          "skill_desc": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401203103,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 35,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401203101,
+          "skill_name": "送出哀泣的飞矢",
+          "skill_desc": "从我方队伍右侧起发动数次攻击，优先对我方全体目标逐个攻击1次，剩余次数随机攻击我方单体目标，每次攻击造成少量雷属性伤害。当攻击到此次技能已经攻击过的目标时，会造成额外的雷属性伤害。当【战甲】的层数为0时，将会减少下次【送出哀泣的飞矢】的攻击次数。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 8,
+          "extra": {}
+        },
+        {
+          "id": 401203102,
+          "skill_name": "城邦守护者",
+          "skill_desc": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401203104,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 15,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401203101,
+          "skill_name": "送出哀泣的飞矢",
+          "skill_desc": "从我方队伍右侧起发动数次攻击，优先对我方全体目标逐个攻击1次，剩余次数随机攻击我方单体目标，每次攻击造成少量雷属性伤害。当攻击到此次技能已经攻击过的目标时，会造成额外的雷属性伤害。当【战甲】的层数为0时，将会减少下次【送出哀泣的飞矢】的攻击次数。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 8,
+          "extra": {}
+        },
+        {
+          "id": 401203102,
+          "skill_name": "城邦守护者",
+          "skill_desc": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401203105,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": 15,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401203101,
+          "skill_name": "送出哀泣的飞矢",
+          "skill_desc": "从我方队伍右侧起发动数次攻击，优先对我方全体目标逐个攻击1次，剩余次数随机攻击我方单体目标，每次攻击造成少量雷属性伤害。当攻击到此次技能已经攻击过的目标时，会造成额外的雷属性伤害。当【战甲】的层数为0时，将会减少下次【送出哀泣的飞矢】的攻击次数。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 8,
+          "extra": {}
+        },
+        {
+          "id": 401203102,
+          "skill_name": "城邦守护者",
+          "skill_desc": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4012031,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012031,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012031,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012031,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012031,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012031,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4012031,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 115001
+        },
+        {
+          "item_id": 115002
+        },
+        {
+          "item_id": 115003
+        },
+        {
+          "item_id": 181018
+        }
+      ]
+    }
+  ]
+}

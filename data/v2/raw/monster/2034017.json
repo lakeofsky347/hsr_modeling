@@ -1,0 +1,217 @@
+{
+  "id": 2034017,
+  "name": "步离战首•呼雷",
+  "desc": "犯尽十恶，永镇于幽狱之底的步离人首领。\\n身负七百年苦狱仇恨，在脱出牢笼后，群狼之主向整个罗浮仙舟发起了挑战。但潜藏在疯狂之举的背后，似乎另有目标……",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1488,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2034010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 120,
+  "stance_base": 720,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 2034017,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203401701,
+          "skill_name": "碎剑为牙",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203401702,
+          "skill_name": "斩铁成爪",
+          "skill_desc": "对指定我方单体及相邻目标造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 203401703,
+          "skill_name": "裂地三舍，寸草不留",
+          "skill_desc": "使除自身外的所有目标行动延后，并造成少量雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203401704,
+          "skill_name": "雷动风咆，摧枯灭朽",
+          "skill_desc": "对我方全体造成雷属性伤害，并有概率为我方全体附上【<u>恐惧萦绕</u>】。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {
+            "220330102": {
+              "name": "恐惧萦绕",
+              "desc": "第二个回合开始时陷入【恐惧】状态，在此之前对施加者发起一次攻击可解除【恐惧萦绕】。",
+              "param": []
+            },
+            "220330103": {
+              "name": "恐惧",
+              "desc": "无法行动，持续至自身下个回合开始。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203401705,
+          "skill_name": "贪狼逐驰，血色临照",
+          "skill_desc": "对指定我方单体造成大量雷属性伤害，并大概率为其附上【<u>恐惧萦绕</u>】。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 15,
+          "extra": {
+            "220330102": {
+              "name": "恐惧萦绕",
+              "desc": "第二个回合开始时陷入【恐惧】状态，在此之前对施加者发起一次攻击可解除【恐惧萦绕】。",
+              "param": []
+            },
+            "220330103": {
+              "name": "恐惧",
+              "desc": "无法行动，持续至自身下个回合开始。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203401706,
+          "skill_name": "月狂",
+          "skill_desc": "当敌方施放攻击后，为<u>能够进入【月狂】状态的敌方单位</u>附加1层【<u>嗜血</u>】，当【<u>嗜血</u>】达到指定层时，将使其进入【<u>月狂</u>】状态。\\n行动序列上出现【月狂】倒计时，倒计时回合开始时所有敌方单位解除【<u>月狂</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "220320101": {
+              "name": "能够进入【月狂】状态的敌方单位",
+              "desc": "能够进入【月狂】状态的敌方单位：玄爪狼卒、 蚀月狼卒、咆哮灵柩、咆哮灵柩（错误）、步离战首•呼雷、步离战首•呼雷（完整）。",
+              "param": []
+            },
+            "220320103": {
+              "name": "嗜血",
+              "desc": "所有能够进入【月狂】的敌方单位共享【嗜血】层数。当有能够进入【月狂】的敌方单位进入战斗时，将附加相同层数的【嗜血】。回合结束时，若场上所有能够进入【月狂】的敌方单位均被击败，清除所有【嗜血】层数。",
+              "param": []
+            },
+            "220340101": {
+              "name": "月狂",
+              "desc": "此状态下，呼雷的速度提高，且会施放额外技能。当呼雷在场时，强化【玄爪狼卒】和【蚀月狼卒】的月狂效果。呼雷被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203401707,
+          "skill_name": "啸月之狼",
+          "skill_desc": "当呼雷进入【<u>月狂</u>】状态时，每当敌方施放攻击后，为呼雷附加1层【怒意】，若为呼雷攻击，则额外附加1层【怒意】。每当敌方目标以外的目标施放攻击后，将减少1层【怒意】。【怒意】拥有初始层数，当【怒意】层数叠加到一定值时，呼雷将释放【贪狼逐驰，血色临照】并清除所有【怒意】层数。每当【怒意】由于我方角色攻击被减少至0层时，将削减呼雷的韧性，并重置【怒意】层数为指定层。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {
+            "220340101": {
+              "name": "月狂",
+              "desc": "此状态下，呼雷的速度提高，且会施放额外技能。当呼雷在场时，强化【玄爪狼卒】和【蚀月狼卒】的月狂效果。呼雷被弱点击破时解除此状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203401708,
+          "skill_name": "听我孤嚎，群狼追从",
+          "skill_desc": "在行动序列上添加【召集狼群】，每次【召集狼群】行动时，召唤【玄爪狼卒】或【蚀月狼卒】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 203401709,
+          "skill_name": "呼召",
+          "skill_desc": "进入三阶段后，【召集狼群】的速度将会提高，且在进入三阶段后立即进入【<u>月狂</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203401710,
+          "skill_name": "赤月之力",
+          "skill_desc": "每当呼雷使用【雷动风咆，摧枯灭朽】时，将使自身造成的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2034017,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2034017,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2034017,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2034017,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2034017,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2034017,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2034017,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

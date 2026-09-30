@@ -1,0 +1,254 @@
+{
+  "id": 4053014,
+  "name": "波涛夫人（错误）",
+  "desc": "代码受到影响后的错误投影。参照本体为波涛夫人，大海的女儿们，被「毁灭」的罪孽蚀尽灵肉，只余空荡扭曲的形骸，为将临的黑日起舞颂唱。\\n残有的黑潮自往世流淌，落入此世浪涛——\\n美艳动人的波涛啊，你为君王饮尽灾殃，酒痕染花碎珍珠点缀的妆——\\n你醉倒在迷狂的屠场，在血与蜜酿的坟场，引歌为自己号丧。",
+  "monster_camp_id": 15,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4053010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 540,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4053014,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 405301401,
+          "skill_name": "摆袖醉意袭人",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量冰属性伤害。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405301402,
+          "skill_name": "蜜酿泼洒如星",
+          "skill_desc": "对我方全体造成少量冰属性伤害，并大概率降低目标的防御力和全属性抗性。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405301403,
+          "skill_name": "高歌邀客入席",
+          "skill_desc": "召唤【浪花侍女】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 405301404,
+          "skill_name": "聆听海的礼赠",
+          "skill_desc": "进入【共舞的渴望】状态，每次行动时施放【波涛与你相拥】。若未处于【<u>在毁灭中狂欢</u>】状态，则使<u>能够进入【在毁灭中狂欢】状态的敌方单位</u>进入【<u>在毁灭中狂欢</u>】状态，使其受到的部分伤害以持续伤害形式在一定回合内扣除。\\n行动序列上出现【在毁灭中狂欢】倒计时，倒计时回合开始时所有敌方单位解除【<u>在毁灭中狂欢</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "405301001": {
+              "name": "在毁灭中狂欢",
+              "desc": "触发行动提前的受击次数降低，受到伤害或施放特定技能造成伤害时，使部分伤害以【黑潮热】形式在一定回合内扣除。【在毁灭中狂欢】倒计时回合开始时所有敌方单位解除【在毁灭中狂欢】状态。",
+              "param": []
+            },
+            "405301003": {
+              "name": "能够进入【在毁灭中狂欢】状态的敌方单位",
+              "desc": "能够进入【在毁灭中狂欢】状态的敌方单位：浪花侍女、波涛夫人、泡影稚子、飓风大母。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 405301405,
+          "skill_name": "波涛与你相拥",
+          "skill_desc": "对我方全体造成少量冰属性伤害，处于【<u>在毁灭中狂欢</u>】状态时，对受到攻击的我方目标施加【<u>黑潮热</u>】，使造成的部分伤害以持续伤害形式在一定回合内扣除。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {
+            "405301001": {
+              "name": "在毁灭中狂欢",
+              "desc": "触发行动提前的受击次数降低，受到伤害或施放特定技能造成伤害时，使部分伤害以【黑潮热】形式在一定回合内扣除。【在毁灭中狂欢】倒计时回合开始时所有敌方单位解除【在毁灭中狂欢】状态。",
+              "param": []
+            },
+            "405301002": {
+              "name": "黑潮热",
+              "desc": "【黑潮热】属于持续伤害类负面状态，持续伤害来源于目标受到伤害的一部分，叠加时刷新【黑潮热】的持续回合。【黑潮热】状态下，目标每回合开始时受到风化、灼烧、触电、裂伤持续伤害。敌方的【黑潮热】状态在【在毁灭中狂欢】状态结束时立即解除，我方的【黑潮热】状态在自身生命值回复到上限时立即解除，免受该持续伤害。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 405301406,
+          "skill_name": "请泊舟暂歇",
+          "skill_desc": "受到一定次数的普攻、战技、终结技或忆灵技攻击后行动提前，处于【<u>在毁灭中狂欢</u>】状态时，触发行动提前的受击次数降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "405301001": {
+              "name": "在毁灭中狂欢",
+              "desc": "触发行动提前的受击次数降低，受到伤害或施放特定技能造成伤害时，使部分伤害以【黑潮热】形式在一定回合内扣除。【在毁灭中狂欢】倒计时回合开始时所有敌方单位解除【在毁灭中狂欢】状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 405301407,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4053014,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053014,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053014,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053014,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053014,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053014,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053014,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    }
+  ]
+}

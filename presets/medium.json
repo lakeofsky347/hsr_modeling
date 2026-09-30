@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "label": "中等练度：全员 2 星魂 + 专属光锥叠影 1 + 站点推荐遗器（主词条齐全 + 28 条有效副词条）"
+  },
+  "duration": {
+    "cycles": 3
+  },
+  "enemy": {
+    "level": 80,
+    "weakness": true,
+    "resBase": 0.2,
+    "resShred": 0,
+    "vulnerability": 0,
+    "toughnessDR": 0.1,
+    "broken": false,
+    "targetCount": 1,
+    "debuffed": true,
+    "killStacks": 0
+  },
+  "team": {
+    "skillPoints": {
+      "start": 3,
+      "max": 5
+    },
+    "jokePoints": {
+      "start": 0
+    },
+    "ahaMoment": {
+      "useOwnerSpeed": true
+    }
+  },
+  "options": {
+    "alwaysCrit": true,
+    "infiniteSkillPoints": false,
+    "blindboxMode": "expected",
+    "includeMaze": true,
+    "includeTrueDamage": true,
+    "goodRewardOnElationSkill": true
+  },
+  "characters": {
+    "1501": {
+      "eidolon": 2,
+      "lightcone": {
+        "enabled": true,
+        "id": "23053",
+        "superimpose": 1
+      },
+      "relics": {
+        "enabled": true,
+        "set4": "129",
+        "set2": "324",
+        "mainStats": true,
+        "substatRolls": 28
+      },
+      "skillLevels": {
+        "basic": 6,
+        "skill": 10,
+        "ult": 10,
+        "talent": 10,
+        "elationSkill": 10
+      },
+      "stats": {
+        "atk": 640.3,
+        "def": 460.8,
+        "hp": 1047.8,
+        "spd": 107,
+        "critRate": 0.17,
+        "critDmg": 0.63,
+        "elationDegree": 0.28
+      },
+      "rotation": {
+        "mode": "perfect",
+        "useMaze": true,
+        "maxTrapsPerTurn": 20
+      }
+    },
+    "1503": {
+      "eidolon": 2,
+      "lightcone": {
+        "enabled": true,
+        "id": "23055",
+        "superimpose": 1
+      },
+      "relics": {
+        "enabled": true,
+        "set4": "133",
+        "set2": "308",
+        "mainStats": true,
+        "substatRolls": 28
+      },
+      "skillLevels": {
+        "basic": 6,
+        "skill": 10,
+        "ult": 10,
+        "talent": 10,
+        "elationSkill": 10
+      },
+      "stats": {
+        "atk": 465.7,
+        "def": 891.43,
+        "hp": 1203,
+        "spd": 108,
+        "critRate": 0.05,
+        "critDmg": 0.5,
+        "elationDegree": 0.1
+      },
+      "rotation": {
+        "mode": "perfect",
+        "useMaze": true
+      }
+    },
+    "1506": {
+      "eidolon": 2,
+      "lightcone": {
+        "enabled": true,
+        "id": "23057",
+        "superimpose": 1
+      },
+      "relics": {
+        "enabled": true,
+        "set4": "129",
+        "set2": "325",
+        "mainStats": true,
+        "substatRolls": 28
+      },
+      "skillLevels": {
+        "basic": 6,
+        "skill": 10,
+        "ult": 10,
+        "talent": 10,
+        "elationSkill": 10
+      },
+      "stats": {
+        "atk": 388.1,
+        "def": 654.9,
+        "hp": 1047.8,
+        "spd": 119,
+        "critRate": 0.24,
+        "critDmg": 0.5,
+        "elationDegree": 0.2
+      },
+      "rotation": {
+        "mode": "perfect",
+        "useMaze": true
+      }
+    },
+    "1511": {
+      "eidolon": 2,
+      "lightcone": {
+        "enabled": true,
+        "id": "23065",
+        "superimpose": 1
+      },
+      "relics": {
+        "enabled": true,
+        "set4": "133",
+        "set2": "329",
+        "mainStats": true,
+        "substatRolls": 28
+      },
+      "skillLevels": {
+        "basic": 6,
+        "skill": 10,
+        "ult": 10,
+        "talent": 10,
+        "elationSkill": 10
+      },
+      "stats": {
+        "atk": 679.1,
+        "def": 509.4,
+        "hp": 1047.8,
+        "spd": 99,
+        "critRate": 0.17,
+        "critDmg": 0.87,
+        "elationDegree": 0
+      },
+      "rotation": {
+        "mode": "perfect",
+        "useMaze": true,
+        "lordTarget": "1506"
+      }
+    }
+  }
+}

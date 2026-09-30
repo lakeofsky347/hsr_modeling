@@ -1,0 +1,173 @@
+{
+  "id": 3024034,
+  "name": "示死祸源：深魇蝗灾",
+  "desc": "仿若被「繁育」侵蚀的格拉默装甲，在那覆盖着异质的躯壳下，只藏着被星核扭曲的愿望——于梦境的深处，寰宇蝗灾以此样貌再度现世。",
+  "monster_camp_id": 8,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 7440,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3024030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 144,
+  "stance_base": 600,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3024034,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Wind"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302403401,
+          "skill_name": "恶变鞘翅",
+          "skill_desc": "对指定我方单体目标造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302403402,
+          "skill_name": "饕虐外肢",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302403403,
+          "skill_name": "侵掠，撕碎，进食",
+          "skill_desc": "对指定我方单体目标造成火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302403404,
+          "skill_name": "分裂，腐化，吞吃",
+          "skill_desc": "进入【基因复制】状态，使自身速度提高，免疫受到的伤害，召唤【幼蛰虫】。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302403405,
+          "skill_name": "荒潮到临，蝗灾示死",
+          "skill_desc": "对我方全体目标造成大量火属性伤害。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302403406,
+          "skill_name": "原始饥饿",
+          "skill_desc": "使自身召唤的【幼蛰虫】速度提高。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302403408,
+          "skill_name": "共生，群集，噬咬",
+          "skill_desc": "进入【基因复制】状态后使场地燃烧。召唤的【幼蛰虫】全部被消灭时解除【基因复制】。解除【基因复制】时，【示死祸源：深魇蝗灾】受到的伤害提高，并移除【侵蚀】状态。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302403409,
+          "skill_name": "诸界噩兆，蚀生虫鸣",
+          "skill_desc": "进入【基因复制】状态后，每当自身施放攻击，会根据剩余【幼蛰虫】的数量额外造成少量火属性伤害。每当【幼蛰虫】施放攻击后，为【示死祸源：深魇蝗灾】附加一层【死灭本能】，当【死灭本能】叠加到一定层数时，【示死祸源：深魇蝗灾】将立即行动，施放【荒潮到临，蝗灾示死】并清除所有【死灭本能】层数。【幼蛰虫】将优先攻击处于【天敌】状态的我方角色。",
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302403410,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Fire",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302403411,
+          "skill_name": "暗噬",
+          "skill_desc": "释放【分裂，腐化，吞吃】后，自身获得【暗噬】状态，韧性无法被削减，并使自身受到所有伤害大幅降低。【幼蛰虫】获得【梦魇庇护】，韧性无法被削减，受到的所有伤害大幅度降低，火属性伤害破除【梦魇庇护】的效率大幅提高。若在释放【分裂，腐化，吞吃】前生命值降低到一定值，则立刻释放【分裂，腐化，吞吃】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3024034,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024034,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024034,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024034,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024034,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024034,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3024034,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

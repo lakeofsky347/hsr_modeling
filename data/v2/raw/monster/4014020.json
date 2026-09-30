@@ -1,0 +1,375 @@
+{
+  "id": 4014020,
+  "name": "颁赐者，千军首，天谴之矛",
+  "desc": "不败者，一切战场的领主，悬锋城与废墟的王，\\n战车大匠，尸山王座，胜利父，\\n荣耀僭主，裂地惊海的雷，翁法罗斯的守护者，\\n纷争的泰坦，天谴之矛，尼卡多利。\\n全体世间应听遣的将领，永恒且锋利的兵戈，纷争与断绝纷争的法则。\\n礼赞尼卡多利，最伟大的征服者，最伟大的守护者。",
+  "monster_camp_id": 12,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 5580,
+  "initial_delay_ratio": 0.5,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4014020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 60,
+  "stance_base": null,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4014020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401402001,
+          "skill_name": "受征伐者皆见灾殃",
+          "skill_desc": "每个我方角色生成1个对应的【征服或被征服】，并使对应角色进入【受征服】状态。【受征服】会降低角色可回复的生命上限，降低对应【征服或被征服】的生命值可恢复对应比例的可回复生命上限。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401402002,
+          "skill_name": "殊死御侮皆临荣光",
+          "skill_desc": "对所有我方角色施加【纷争赐的畏怖】，【受征服】状态解除时对应【纷争赐的畏怖】一同解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401402003,
+          "skill_name": "天谴降，皆奠纷争昂藏",
+          "skill_desc": "控制【蛮神，疯王，纷争的化身】对我方全体角色造成基于其生命上限百分比的虚数属性伤害，该伤害无视目标的防御力并大概率对处于【受征服】状态的目标附加禁锢。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 401402004,
+          "skill_name": "畏怖溃军皆成铠仗",
+          "skill_desc": "吸收剩余的【征服或被征服】强化【蛮神，疯王，纷争的化身】，同时添加韧性保护并解除【蛮神，疯王，纷争的化身】身上的控制类负面状态与弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401402001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401402001,
+          "skill_name": "受征伐者皆见灾殃",
+          "skill_desc": "每个我方角色生成1个对应的【征服或被征服】，并使对应角色进入【受征服】状态。【受征服】会降低角色可回复的生命上限，降低对应【征服或被征服】的生命值可恢复对应比例的可回复生命上限。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401402002,
+          "skill_name": "殊死御侮皆临荣光",
+          "skill_desc": "对所有我方角色施加【纷争赐的畏怖】，【受征服】状态解除时对应【纷争赐的畏怖】一同解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401402003,
+          "skill_name": "天谴降，皆奠纷争昂藏",
+          "skill_desc": "控制【蛮神，疯王，纷争的化身】对我方全体角色造成基于其生命上限百分比的虚数属性伤害，该伤害无视目标的防御力并大概率对处于【受征服】状态的目标附加禁锢。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 401402004,
+          "skill_name": "畏怖溃军皆成铠仗",
+          "skill_desc": "吸收剩余的【征服或被征服】强化【蛮神，疯王，纷争的化身】，同时添加韧性保护并解除【蛮神，疯王，纷争的化身】身上的控制类负面状态与弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401402002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401402001,
+          "skill_name": "受征伐者皆见灾殃",
+          "skill_desc": "每个我方角色生成1个对应的【征服或被征服】，并使对应角色进入【受征服】状态。【受征服】会降低角色可回复的生命上限，降低对应【征服或被征服】的生命值可恢复对应比例的可回复生命上限。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401402002,
+          "skill_name": "殊死御侮皆临荣光",
+          "skill_desc": "对所有我方角色施加【纷争赐的畏怖】，【受征服】状态解除时对应【纷争赐的畏怖】一同解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401402003,
+          "skill_name": "天谴降，皆奠纷争昂藏",
+          "skill_desc": "控制【蛮神，疯王，纷争的化身】对我方全体角色造成基于其生命上限百分比的虚数属性伤害，该伤害无视目标的防御力并大概率对处于【受征服】状态的目标附加禁锢。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 401402004,
+          "skill_name": "畏怖溃军皆成铠仗",
+          "skill_desc": "吸收剩余的【征服或被征服】强化【蛮神，疯王，纷争的化身】，同时添加韧性保护并解除【蛮神，疯王，纷争的化身】身上的控制类负面状态与弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 401402003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.375,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 401402001,
+          "skill_name": "受征伐者皆见灾殃",
+          "skill_desc": "每个我方角色生成1个对应的【征服或被征服】，并使对应角色进入【受征服】状态。【受征服】会降低角色可回复的生命上限，降低对应【征服或被征服】的生命值可恢复对应比例的可回复生命上限。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 401402002,
+          "skill_name": "殊死御侮皆临荣光",
+          "skill_desc": "对所有我方角色施加【纷争赐的畏怖】，【受征服】状态解除时对应【纷争赐的畏怖】一同解除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 401402003,
+          "skill_name": "天谴降，皆奠纷争昂藏",
+          "skill_desc": "控制【蛮神，疯王，纷争的化身】对我方全体角色造成基于其生命上限百分比的虚数属性伤害，该伤害无视目标的防御力并大概率对处于【受征服】状态的目标附加禁锢。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 401402004,
+          "skill_name": "畏怖溃军皆成铠仗",
+          "skill_desc": "吸收剩余的【征服或被征服】强化【蛮神，疯王，纷争的化身】，同时添加韧性保护并解除【蛮神，疯王，纷争的化身】身上的控制类负面状态与弱点击破状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4014020,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014020,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014020,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014020,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014020,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014020,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4014020,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

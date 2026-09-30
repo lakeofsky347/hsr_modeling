@@ -1,0 +1,42 @@
+{
+  "meta": { "label": "示例：3 轮 / 有弱点 / 专属光锥 / 银狼 6 魂 + 真珠 3 魂" },
+  "duration": { "cycles": 3 },
+  "enemy": { "level": 80, "weakness": true, "resBase": 0.2, "vulnerability": 0, "toughnessDR": 0.1, "broken": false, "targetCount": 1 },
+  "team": { "skillPoints": { "start": 3, "max": 5 }, "jokePoints": { "start": 0 } },
+  "options": {
+    "alwaysCrit": true,
+    "infiniteSkillPoints": false,
+    "blindboxMode": "expected",
+    "includeMaze": true,
+    "includeTrueDamage": true,
+    "goodRewardOnElationSkill": true
+  },
+  "characters": {
+    "1506": {
+      "eidolon": 6,
+      "lightcone": { "enabled": true, "id": "23057", "superimpose": 1 },
+      "skillLevels": { "basic": 6, "skill": 10, "ult": 10, "talent": 10, "elationSkill": 10 },
+      "stats": { "atk": 388.1, "def": 654.9, "hp": 1047.8, "spd": 110, "critRate": 0.237, "critDmg": 0.5, "elationDegree": 0.1 }
+    },
+    "1501": {
+      "eidolon": 0,
+      "lightcone": { "enabled": true, "id": "23053", "superimpose": 1 },
+      "skillLevels": { "basic": 6, "skill": 10, "ult": 10, "talent": 10, "elationSkill": 10 },
+      "stats": { "atk": 640.3, "def": 460.8, "hp": 1047.8, "spd": 107, "critRate": 0.17, "critDmg": 0.633, "elationDegree": 0.28 },
+      "rotation": { "maxTrapsPerTurn": 20 }
+    },
+    "1503": {
+      "eidolon": 3,
+      "lightcone": { "enabled": true, "id": "23055", "superimpose": 1 },
+      "skillLevels": { "basic": 6, "skill": 10, "ult": 10, "talent": 10, "elationSkill": 10 },
+      "stats": { "atk": 465.7, "def": 891.4, "hp": 1203.0, "spd": 108, "critRate": 0.05, "critDmg": 0.5, "elationDegree": 0.1 }
+    },
+    "1511": {
+      "eidolon": 0,
+      "lightcone": { "enabled": true, "id": "23065", "superimpose": 1 },
+      "skillLevels": { "basic": 6, "skill": 10, "ult": 10, "talent": 10, "elationSkill": 10 },
+      "stats": { "atk": 679.1, "def": 509.4, "hp": 1047.8, "spd": 99, "critRate": 0.17, "critDmg": 0.873, "elationDegree": 0 },
+      "rotation": { "lordTarget": "1506" }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "id": 5035011,
+  "name": "二相乐园BOSS",
+  "desc": "...",
+  "monster_camp_id": 19,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 16740,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5035010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 160,
+  "stance_base": 960,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 5035011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 503501101,
+          "skill_name": "技能1",
+          "skill_desc": "对我方全体造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 503501102,
+          "skill_name": "技能2",
+          "skill_desc": "对我方全体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 503501103,
+          "skill_name": "技能3",
+          "skill_desc": "召唤【部位】，并将指定我方角色藏于其中，下次行动时对该目标施放【技能4】。消灭抓走该目标的手可将其解救，使我方获得笑点，并使我方全体的全属性抗性穿透提高，但消灭错误的手会使我方全体受到量子属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 503501104,
+          "skill_name": "技能4",
+          "skill_desc": "引爆所有【部位】，对其中的角色造成大量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 503501105,
+          "skill_name": "技能5",
+          "skill_desc": "对我方全体造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 503501106,
+          "skill_name": "技能6",
+          "skill_desc": "连续对指定我方角色<u>开枪</u>，每枪对目标造成量子属性伤害，但开枪有概率<u>炸膛</u>，对自身造成量子属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {
+            "503502004": {
+              "name": "开枪",
+              "desc": "对目标造成伤害，开枪的次数越多，造成的伤害越高。",
+              "param": []
+            },
+            "503502005": {
+              "name": "炸膛",
+              "desc": "对自身造成伤害，开枪的次数越多，炸膛的概率越高，炸膛造成的伤害越高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503501107,
+          "skill_name": "技能7",
+          "skill_desc": "让我方对自身<u>开枪</u>，我方可自选<u>开枪</u>或放弃，开枪会对自身造成量子属性伤害，但开枪有概率<u>炸膛</u>，使我方指定角色损失生命值，并清空能量。<u>笑点</u>会降低炸膛的概率。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "503502006": {
+              "name": "开枪",
+              "desc": "对敌方造成伤害，开枪的次数越多，造成的伤害越高。",
+              "param": []
+            },
+            "503502007": {
+              "name": "炸膛",
+              "desc": "使我方损失生命值，开枪的次数越多，炸膛的概率越高，炸膛损失的生命值越高，该伤害优先消耗护盾。",
+              "param": []
+            },
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 503501108,
+          "skill_name": "技能8",
+          "skill_desc": "【倒计时】回合开始时，对我方全体造成大量量子属性欢愉伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 503501109,
+          "skill_name": "技能9",
+          "skill_desc": "我方角色被抓走期间，发动阿哈时刻后，我方可自选一个【部位】消灭，即使选错，阿哈也会将其引爆，对其余的【部位】造成量子属性伤害。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 503501110,
+          "skill_name": "技能<unbreak>10</unbreak>",
+          "skill_desc": "首次受到致命伤害后，生命上限修改为原本的一定比例并回复全部生命值，之后将受到的伤害的一定比例转化为【饕噬】，不计算溢出的伤害。若自身可回复的生命值上限高于一定比例时不会被消灭，受到致命伤害后，回复全部生命值。每次发动该效果时，使【倒计时】行动提前。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5035011,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5035011,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5035011,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5035011,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5035011,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5035011,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 5035011,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

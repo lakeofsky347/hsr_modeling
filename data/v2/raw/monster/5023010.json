@@ -1,0 +1,362 @@
+{
+  "id": 5023010,
+  "name": "乐变化天人",
+  "desc": "承受「极乐颠倒•邪愿莲华主」侵染的人类。\\n除却不停生出欢喜心外，不动六情，无染六欲。",
+  "monster_camp_id": 17,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 558,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5023010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 420,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 5023010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 502301001,
+          "skill_name": "狂喜吐息",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 502301002,
+          "skill_name": "微笑",
+          "skill_desc": "连续对我方随机单体目标造成风属性伤害，每段攻击有概率对受到攻击的我方目标施加【<u>极乐</u>】效果；施放该技能时，若场上有其他【乐变化天人】存在，则其他【乐变化天人】也会一起施放该技能。",
+          "damage_type": "Wind",
+          "sp_hit_base": 5,
+          "extra": {
+            "502301001": {
+              "name": "极乐",
+              "desc": "持有该效果时如果受到乐变化天人【极乐螺旋】技能的攻击，则行动延后并减少战技点。施放1次普攻后移除该效果，并有大概率获得额外战技点。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 502301003,
+          "skill_name": "笑蕾",
+          "skill_desc": "进入【含苞】状态。下次行动对我方全体目标施放【极乐螺旋】。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 502301004,
+          "skill_name": "极乐螺旋",
+          "skill_desc": "对我方全体目标造成伤害，若目标持有【<u>极乐</u>】效果，则移除【<u>极乐</u>】效果，使目标行动延后并减少战技点。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "502301001": {
+              "name": "极乐",
+              "desc": "持有该效果时如果受到乐变化天人【极乐螺旋】技能的攻击，则行动延后并减少战技点。施放1次普攻后移除该效果，并有大概率获得额外战技点。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 502301005,
+          "skill_name": "邪愿裂变",
+          "skill_desc": "受到致命伤害时，分裂生成2个【乐变化天人•始】并使我方获得一定<u>笑点</u>；【乐变化天人•始】受到致命伤害时，分裂生成2个【乐变化天人•终】并使我方获得一定<u>笑点</u>；【乐变化天人•终】不会再分裂。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 502301001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 502301001,
+          "skill_name": "狂喜吐息",
+          "skill_desc": "对指定我方单体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 502301002,
+          "skill_name": "微笑",
+          "skill_desc": "连续对我方随机单体目标造成风属性伤害，每段攻击有概率对受到攻击的我方目标施加【<u>极乐</u>】效果；施放该技能时，若场上有其他【乐变化天人】存在，则其他【乐变化天人】也会一起施放该技能。",
+          "damage_type": "Wind",
+          "sp_hit_base": 5,
+          "extra": {
+            "502301001": {
+              "name": "极乐",
+              "desc": "持有该效果时如果受到乐变化天人【极乐螺旋】技能的攻击，则行动延后并减少战技点。施放1次普攻后移除该效果，并有大概率获得额外战技点。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 502301003,
+          "skill_name": "笑蕾",
+          "skill_desc": "进入【含苞】状态。下次行动对我方全体目标施放【极乐螺旋】。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 502301004,
+          "skill_name": "极乐螺旋",
+          "skill_desc": "对我方全体目标造成伤害，若目标持有【<u>极乐</u>】效果，则移除【<u>极乐</u>】效果，使目标行动延后并减少战技点。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "502301001": {
+              "name": "极乐",
+              "desc": "持有该效果时如果受到乐变化天人【极乐螺旋】技能的攻击，则行动延后并减少战技点。施放1次普攻后移除该效果，并有大概率获得额外战技点。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 502301005,
+          "skill_name": "邪愿裂变",
+          "skill_desc": "受到致命伤害时，分裂生成2个【乐变化天人•始】并使我方获得一定<u>笑点</u>；【乐变化天人•始】受到致命伤害时，分裂生成2个【乐变化天人•终】并使我方获得一定<u>笑点</u>；【乐变化天人•终】不会再分裂。",
+          "damage_type": "Wind",
+          "sp_hit_base": "",
+          "extra": {
+            "10000027": {
+              "name": "笑点",
+              "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 5023010,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023010,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023010,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023010,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116001
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023010,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023010,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 5023010,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 116002
+        },
+        {
+          "item_id": 116003
+        },
+        {
+          "item_id": 182005
+        },
+        {
+          "item_id": 183003
+        }
+      ]
+    }
+  ]
+}

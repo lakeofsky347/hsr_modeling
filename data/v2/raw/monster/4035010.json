@@ -1,0 +1,373 @@
+{
+  "id": 4035010,
+  "name": "反造物主，流溢之恨",
+  "desc": "古老「权杖」的核心，翁法罗斯具象化的「恨」。上亿灵魂的苦难被悉数刻录，无数羔羊的血汇成一片至黑的黑暗，无限无终的黑暗自一具残破的躯壳中流溢而出，驱动无首的巨人行进。\\n这躯壳由流涌不息的「恨」所铸，在它的深处，似乎有一颗包裹在混沌之火中的心。",
+  "monster_camp_id": 14,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 6975,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4035010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 160,
+  "stance_base": 600,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 4035010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403501001,
+          "skill_name": "掷下血与伤",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403501002,
+          "skill_name": "编织受难与死亡",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403501003,
+          "skill_name": "莫要臣服暴政",
+          "skill_desc": "对锁定目标造成量子属性伤害，并使目标能量减少。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501004,
+          "skill_name": "莫要困毙洞中",
+          "skill_desc": "对锁定目标造成虚数属性伤害，并使目标陷入【<u>行动锁定</u>】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {
+            "403501001": {
+              "name": "行动锁定",
+              "desc": "目标行动值不会因任意目标回合结束而改变。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403501005,
+          "skill_name": "神的冠冕将要粉碎",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害，并使我方全体能量减少。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501006,
+          "skill_name": "灵的囚笼必遭焚毁",
+          "skill_desc": "对锁定目标造成大量虚数属性伤害，并使目标陷入【<u>行动锁定</u>】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {
+            "403501001": {
+              "name": "行动锁定",
+              "desc": "目标行动值不会因任意目标回合结束而改变。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403501007,
+          "skill_name": "去反抗，去毁灭",
+          "skill_desc": "进入【去反抗，去毁灭】状态，同时回复【秘所思】和【逻各斯】的所有生命值，下次行动前无法被攻击，并在下次行动时对我方全体施放【烧尽神国，弃绝世界】。使所有【秘所思】和【逻各斯】陷入【重创】状态可解除【去反抗，去毁灭】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501008,
+          "skill_name": "烧尽神国，弃绝世界",
+          "skill_desc": "对我方全体造成大量物理属性伤害，若【秘所思】未陷入【重创】状态，则随机使我方一名角色陷入【<u>行动锁定</u>】状态，若【逻各斯】未陷入【重创】状态，则使我方全体能量减少。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {
+            "403501001": {
+              "name": "行动锁定",
+              "desc": "目标行动值不会因任意目标回合结束而改变。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403501009,
+          "skill_name": "翁法罗斯的「恨」",
+          "skill_desc": "【反造物主】、【秘所思】、【逻各斯】的攻击技能会提高【翁法罗斯的「恨」】，当【恨】提高时，【铁墓】会施放【「智识」的陨落】，使我方目标可回复的生命上限和可回复的战技点上限降低，【恨】降低时该效果会被削弱。当【恨】达到上限时，会立刻施放【万有成灰，陪葬新生】。队伍中当前在场的我方角色数量越少，【翁法罗斯的「恨」】提高得越少。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501010,
+          "skill_name": "三千万转，罪业回环",
+          "skill_desc": "【秘所思】和【逻各斯】受到伤害时，【反造物主】也会受到伤害。【反造物主】、【秘所思】、【逻各斯】初始受到的伤害降低，每个【秘所思】和【逻各斯】进入【重创】状态都会削弱伤害降低效果，当它们同时进入【重创】状态时，该效果移除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501011,
+          "skill_name": "万有成灰，陪葬新生",
+          "skill_desc": "当【翁法罗斯的「恨」】达到上限时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501012,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 403501001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 3.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 480,
+      "stance_weak_list": [
+        "Ice",
+        "Thunder",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 403501001,
+          "skill_name": "掷下血与伤",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403501002,
+          "skill_name": "编织受难与死亡",
+          "skill_desc": "对我方全体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 403501003,
+          "skill_name": "莫要臣服暴政",
+          "skill_desc": "对锁定目标造成量子属性伤害，并使目标能量减少。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501004,
+          "skill_name": "莫要困毙洞中",
+          "skill_desc": "对锁定目标造成虚数属性伤害，并使目标陷入【<u>行动锁定</u>】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {
+            "403501001": {
+              "name": "行动锁定",
+              "desc": "目标行动值不会因任意目标回合结束而改变。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403501005,
+          "skill_name": "神的冠冕将要粉碎",
+          "skill_desc": "对我方全体目标造成大量量子属性伤害，并使我方全体能量减少。",
+          "damage_type": "Quantum",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501006,
+          "skill_name": "灵的囚笼必遭焚毁",
+          "skill_desc": "对锁定目标造成大量虚数属性伤害，并使目标陷入【<u>行动锁定</u>】状态。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {
+            "403501001": {
+              "name": "行动锁定",
+              "desc": "目标行动值不会因任意目标回合结束而改变。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403501007,
+          "skill_name": "去反抗，去毁灭",
+          "skill_desc": "进入【去反抗，去毁灭】状态，同时回复【秘所思】和【逻各斯】的所有生命值，下次行动前无法被攻击，并在下次行动时对我方全体施放【烧尽神国，弃绝世界】。使所有【秘所思】和【逻各斯】陷入【重创】状态可解除【去反抗，去毁灭】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501008,
+          "skill_name": "烧尽神国，弃绝世界",
+          "skill_desc": "对我方全体造成大量物理属性伤害，若【秘所思】未陷入【重创】状态，则随机使我方一名角色陷入【<u>行动锁定</u>】状态，若【逻各斯】未陷入【重创】状态，则使我方全体能量减少。",
+          "damage_type": "Physical",
+          "sp_hit_base": 20,
+          "extra": {
+            "403501001": {
+              "name": "行动锁定",
+              "desc": "目标行动值不会因任意目标回合结束而改变。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 403501009,
+          "skill_name": "翁法罗斯的「恨」",
+          "skill_desc": "【反造物主】、【秘所思】、【逻各斯】的攻击技能会提高【翁法罗斯的「恨」】，当【恨】提高时，【铁墓】会施放【「智识」的陨落】，使我方目标可回复的生命上限和可回复的战技点上限降低，【恨】降低时该效果会被削弱。当【恨】达到上限时，会立刻施放【万有成灰，陪葬新生】。队伍中当前在场的我方角色数量越少，【翁法罗斯的「恨」】提高得越少。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501010,
+          "skill_name": "三千万转，罪业回环",
+          "skill_desc": "【秘所思】和【逻各斯】受到伤害时，【反造物主】也会受到伤害。【反造物主】、【秘所思】、【逻各斯】初始受到的伤害降低，每个【秘所思】和【逻各斯】进入【重创】状态都会削弱伤害降低效果，当它们同时进入【重创】状态时，该效果移除。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501011,
+          "skill_name": "万有成灰，陪葬新生",
+          "skill_desc": "当【翁法罗斯的「恨」】达到上限时，战斗失败。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 403501012,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4035010,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035010,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035010,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035010,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035010,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035010,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 4035010,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.25
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

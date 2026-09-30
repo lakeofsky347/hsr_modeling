@@ -1,0 +1,220 @@
+{
+  "id": 2024011,
+  "name": "丰饶玄鹿（完整）",
+  "desc": "代码受到影响后的完整投影。参照本体为由「建木」化生，拱卫其根系的灵瑞之兽，履迹所之，和泽滋生，枝杪郁敷。\\n自毁于太古时代的战争后，「建木」终于在星核的修补下再度生长。彼时仙人们所造的珍禽奇兽纷至沓来，宛如旧梦重临。",
+  "monster_camp_id": 2,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 697.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_2024010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "LittleBoss",
+  "speed_base": 144,
+  "stance_base": 420,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 2024011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 202401101,
+          "skill_name": "衔枝 • 肃风",
+          "skill_desc": "召唤建木枝梢【肃风之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401102,
+          "skill_name": "衔枝 • 缃叶",
+          "skill_desc": "召唤建木枝梢【缃叶之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401103,
+          "skill_name": "衔枝 • 繁花",
+          "skill_desc": "召唤建木枝梢【繁花之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401104,
+          "skill_name": "衔枝 • 嘉实",
+          "skill_desc": "召唤建木枝梢【嘉实之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401105,
+          "skill_name": "呦鸣",
+          "skill_desc": "对指定我方单体造成雷属性伤害。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202401106,
+          "skill_name": "绾风",
+          "skill_desc": "对我方全体造成风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 202401107,
+          "skill_name": "蕉覆",
+          "skill_desc": "提高防御力，且使自身韧性无法被削减。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401108,
+          "skill_name": "斑龙触",
+          "skill_desc": "当场上存在2个【嘉实】时立即施放该技能，对我方全体造成大量雷属性伤害。场上【建木枝梢】数量越多，造成的伤害越高。施放技能后，清除场上所有的【嘉实之杪】。",
+          "damage_type": "Thunder",
+          "sp_hit_base": 20,
+          "extra": {}
+        },
+        {
+          "id": 202401109,
+          "skill_name": "永寿",
+          "skill_desc": "立即回复生命值，并获得1层【若木化生】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401110,
+          "skill_name": "衔枝 • 引蔓",
+          "skill_desc": "召唤2个建木枝梢【肃风之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401111,
+          "skill_name": "衔枝 • 垂枝",
+          "skill_desc": "召唤2个建木枝梢【缃叶之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401112,
+          "skill_name": "衔枝 • 榛莽",
+          "skill_desc": "召唤2个建木枝梢【缃叶之杪】，1个建木枝梢【肃风之杪】，1个建木枝梢【繁花之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401113,
+          "skill_name": "衔枝 • 交藤",
+          "skill_desc": "召唤2个建木枝梢【嘉实之杪】，1个建木枝梢【缃叶之杪】，1个建木枝梢【肃风之杪】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 202401114,
+          "skill_name": "生机充盈",
+          "skill_desc": "每当丰饶玄鹿获得来自敌方目标的增益效果时，丰饶玄鹿和所有建木枝梢造成的伤害小幅提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2024011,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024011,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024011,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024011,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024011,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024011,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2024011,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 1.0
+    }
+  ]
+}

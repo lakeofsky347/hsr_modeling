@@ -1,0 +1,405 @@
+{
+  "id": 3025010,
+  "name": "「齐响诗班」神主日",
+  "desc": "「齐响诗班」众愿之多米尼克斯，是为「同谐」希佩的众相化身之一，因「秩序」的干扰展现出不同以往的面貌。作为集群意识对愿望的回应，他指挥的颂歌能依照万千愿望重塑世界，建立新的法则，而所有许愿者都会成为其力量的来源。",
+  "monster_camp_id": 7,
+  "attack_base": 19.565217,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 5580,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3025010.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "BigBoss",
+  "speed_base": 144,
+  "stance_base": 180,
+  "stance_count": 3,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 3025010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302501001,
+          "skill_name": "幽雅的",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302501002,
+          "skill_name": "庄严的",
+          "skill_desc": "对我方全体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302501003,
+          "skill_name": "在梦中的",
+          "skill_desc": "使指定我方单体大概率陷入【<u>异梦</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "23025011": {
+              "name": "异梦",
+              "desc": "一定回合内无法行动，且每回合开始时回复少量生命值。受到攻击时大幅提高受到的伤害，受到攻击后解除【异梦】状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 302501004,
+          "skill_name": "渐快",
+          "skill_desc": "进入蓄力状态，下回合施放【翩翩起舞的】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501005,
+          "skill_name": "渐强",
+          "skill_desc": "进入蓄力状态，下回合施放【暴风骤雨的】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501006,
+          "skill_name": "翩翩起舞的",
+          "skill_desc": "使所有可以行动的「旧梦的回声」对指定我方单体造成虚数属性伤害。若没有可以行动的「旧梦的回声」则本技能施放失败。技能施放后，恢复「旧梦的回声」的韧性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501007,
+          "skill_name": "翩翩起舞的",
+          "skill_desc": "使所有可以行动的「旧梦的回声」对指定我方单体造成虚数属性伤害。若没有可以行动的「旧梦的回声」则本技能施放失败。技能施放后，恢复「旧梦的回声」的韧性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501008,
+          "skill_name": "暴风骤雨的",
+          "skill_desc": "对我方全体造成虚数属性伤害，并使所有可以行动的「旧梦的回声」对我方全体造成虚数属性伤害。技能施放后，恢复「旧梦的回声」的韧性。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302501009,
+          "skill_name": "渐宽广",
+          "skill_desc": "使自身进入【尔在光明中】状态，获得护盾，造成的伤害提高，受到的伤害降低，且韧性无法被削减。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501010,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501011,
+          "skill_name": "太初有道",
+          "skill_desc": "进入蓄力状态，7回合后施放【太初有为】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501012,
+          "skill_name": "太初有为",
+          "skill_desc": "对我方全体造成大量虚数属性伤害，该伤害无视目标的防御力。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302501013,
+          "skill_name": "造物的工",
+          "skill_desc": "「『哲学的胎儿』星期日」拥有全属性弱点。「『哲学的胎儿』星期日」在处于【太初有力】状态时，将在我方目标每次行动后立即行动，并免疫来自我方目标造成的行动延后效果，自身受到弱点击破时行动额外延后。且自身每层韧性被击破后，对我方施加【<u>在光明中行</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "23025014": {
+              "name": "在光明中行",
+              "desc": "能够抵消我方全体受到伤害的护盾。护盾耗尽或效果消失前敌方目标的攻击不会对我方目标的生命值造成削减。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 302501014,
+          "skill_name": "有如大梦",
+          "skill_desc": "「『齐响诗班』神主日」召唤四个「旧梦的回声」，「旧梦的回声」受到的伤害均由「『齐响诗班』神主日」承受。自身和「旧梦的回声」受到弱点击破时，行动额外延后。且自身每层韧性被击破后，对我方施加【<u>在光明中行</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "23025014": {
+              "name": "在光明中行",
+              "desc": "能够抵消我方全体受到伤害的护盾。护盾耗尽或效果消失前敌方目标的攻击不会对我方目标的生命值造成削减。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 302501001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 302501001,
+          "skill_name": "幽雅的",
+          "skill_desc": "对指定我方单体造成少量虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302501002,
+          "skill_name": "庄严的",
+          "skill_desc": "对我方全体造成虚数属性伤害。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 302501003,
+          "skill_name": "在梦中的",
+          "skill_desc": "使指定我方单体大概率陷入【<u>异梦</u>】状态。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "23025011": {
+              "name": "异梦",
+              "desc": "一定回合内无法行动，且每回合开始时回复少量生命值。受到攻击时大幅提高受到的伤害，受到攻击后解除【异梦】状态。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 302501004,
+          "skill_name": "渐快",
+          "skill_desc": "进入蓄力状态，下回合施放【翩翩起舞的】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501005,
+          "skill_name": "渐强",
+          "skill_desc": "进入蓄力状态，下回合施放【暴风骤雨的】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501006,
+          "skill_name": "翩翩起舞的",
+          "skill_desc": "使所有可以行动的「旧梦的回声」对指定我方单体造成虚数属性伤害。若没有可以行动的「旧梦的回声」则本技能施放失败。技能施放后，恢复「旧梦的回声」的韧性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501007,
+          "skill_name": "翩翩起舞的",
+          "skill_desc": "使所有可以行动的「旧梦的回声」对指定我方单体造成虚数属性伤害。若没有可以行动的「旧梦的回声」则本技能施放失败。技能施放后，恢复「旧梦的回声」的韧性。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501008,
+          "skill_name": "暴风骤雨的",
+          "skill_desc": "对我方全体造成虚数属性伤害，并使所有可以行动的「旧梦的回声」对我方全体造成虚数属性伤害。技能施放后，恢复「旧梦的回声」的韧性。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302501009,
+          "skill_name": "渐宽广",
+          "skill_desc": "使自身进入【尔在光明中】状态，获得护盾，造成的伤害提高，受到的伤害降低，且韧性无法被削减。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501010,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501011,
+          "skill_name": "太初有道",
+          "skill_desc": "进入蓄力状态，7回合后施放【太初有为】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 302501012,
+          "skill_name": "太初有为",
+          "skill_desc": "对我方全体造成大量虚数属性伤害，该伤害无视目标的防御力。",
+          "damage_type": "Imaginary",
+          "sp_hit_base": 15,
+          "extra": {}
+        },
+        {
+          "id": 302501013,
+          "skill_name": "造物的工",
+          "skill_desc": "「『哲学的胎儿』星期日」拥有全属性弱点。「『哲学的胎儿』星期日」在处于【太初有力】状态时，将在我方目标每次行动后立即行动，并免疫来自我方目标造成的行动延后效果，自身受到弱点击破时行动额外延后。且自身每层韧性被击破后，对我方施加【<u>在光明中行</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "23025014": {
+              "name": "在光明中行",
+              "desc": "能够抵消我方全体受到伤害的护盾。护盾耗尽或效果消失前敌方目标的攻击不会对我方目标的生命值造成削减。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 302501014,
+          "skill_name": "有如大梦",
+          "skill_desc": "「『齐响诗班』神主日」召唤四个「旧梦的回声」，「旧梦的回声」受到的伤害均由「『齐响诗班』神主日」承受。自身和「旧梦的回声」受到弱点击破时，行动额外延后。且自身每层韧性被击破后，对我方施加【<u>在光明中行</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "23025014": {
+              "name": "在光明中行",
+              "desc": "能够抵消我方全体受到伤害的护盾。护盾耗尽或效果消失前敌方目标的攻击不会对我方目标的生命值造成削减。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3025010,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3025010,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3025010,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3025010,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3025010,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3025010,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 3025010,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 3,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 3,
+      "phase_max_hp_ratio": 0.5
+    }
+  ]
+}

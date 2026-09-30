@@ -1,0 +1,327 @@
+{
+  "id": 4053020,
+  "name": "飓风大母",
+  "desc": "大海的女儿们，被「毁灭」的罪孽蚀尽灵肉，只余空荡扭曲的形骸…这一世，她们追随「海洋」的利刃，并非湮灭于虚无，而是成为袭向黑日的巨浪。\\n末日的雨从天而降，宣告万物的灭亡——\\n孕育大浪的飓风啊，你尝尽子嗣的绝望，最终孕满疯狂——\\n亿万死胎的海葬，泪也应汹涌如洪水，将恨拍在岸上。",
+  "monster_camp_id": 15,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1395,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_4053020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 165,
+  "stance_base": 480,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 4053020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 405302001,
+          "skill_name": "唾弃深渊的黑",
+          "skill_desc": "对指定我方单体目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405302002,
+          "skill_name": "啼哭落在岸上",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405302003,
+          "skill_name": "风雨雷的妊娠",
+          "skill_desc": "在行动序列上添加【孵化】，并为自身附加【<u>孵育狂潮</u>】。【孵化】行动时会施放【洪潮浪的分娩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240530201": {
+              "name": "孵育狂潮",
+              "desc": "此状态下，【飓风大母】受到攻击时受到的伤害降低。自身由于【请泊舟暂歇】提前行动时，将会消耗生命值，召唤【泡影稚子】，并使【孵化】行动小幅延后。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 405302004,
+          "skill_name": "雨自初生便落坠",
+          "skill_desc": "对我方全体目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405302005,
+          "skill_name": "洪潮浪的分娩",
+          "skill_desc": "召唤【泡影稚子】，并为其附加【风眼巢】。若此时场上存在【泡影稚子】，【飓风大母】将一直施放【雨自初生便落坠】，直到所有【泡影稚子】被消灭。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 405302006,
+          "skill_name": "请泊舟暂歇",
+          "skill_desc": "受到一定次数的普攻、战技、终结技或忆灵技攻击后行动提前，处于【<u>在毁灭中狂欢</u>】状态时，触发行动提前的受击次数降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "405301001": {
+              "name": "在毁灭中狂欢",
+              "desc": "触发行动提前的受击次数降低，受到伤害或施放特定技能造成伤害时，使部分伤害以【黑潮热】形式在一定回合内扣除。【在毁灭中狂欢】倒计时回合开始时所有敌方单位解除【在毁灭中狂欢】状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 405302001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.666667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 405302001,
+          "skill_name": "唾弃深渊的黑",
+          "skill_desc": "对指定我方单体目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405302002,
+          "skill_name": "啼哭落在岸上",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405302003,
+          "skill_name": "风雨雷的妊娠",
+          "skill_desc": "在行动序列上添加【孵化】，并为自身附加【<u>孵育狂潮</u>】。【孵化】行动时会施放【洪潮浪的分娩】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "240530201": {
+              "name": "孵育狂潮",
+              "desc": "此状态下，【飓风大母】受到攻击时受到的伤害降低。自身由于【请泊舟暂歇】提前行动时，将会消耗生命值，召唤【泡影稚子】，并使【孵化】行动小幅延后。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 405302004,
+          "skill_name": "雨自初生便落坠",
+          "skill_desc": "对我方全体目标造成量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 405302005,
+          "skill_name": "洪潮浪的分娩",
+          "skill_desc": "召唤【泡影稚子】，并为其附加【风眼巢】。若此时场上存在【泡影稚子】，【飓风大母】将一直施放【雨自初生便落坠】，直到所有【泡影稚子】被消灭。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 405302006,
+          "skill_name": "请泊舟暂歇",
+          "skill_desc": "受到一定次数的普攻、战技、终结技或忆灵技攻击后行动提前，处于【<u>在毁灭中狂欢</u>】状态时，触发行动提前的受击次数降低。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "405301001": {
+              "name": "在毁灭中狂欢",
+              "desc": "触发行动提前的受击次数降低，受到伤害或施放特定技能造成伤害时，使部分伤害以【黑潮热】形式在一定回合内扣除。【在毁灭中狂欢】倒计时回合开始时所有敌方单位解除【在毁灭中狂欢】状态。",
+              "param": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 4053020,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053020,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053020,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053020,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053020,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053020,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    },
+    {
+      "monster_template_id": 4053020,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 182011
+        },
+        {
+          "item_id": 183007
+        }
+      ]
+    }
+  ]
+}

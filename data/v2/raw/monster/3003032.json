@@ -1,0 +1,271 @@
+{
+  "id": 3003032,
+  "name": "「身陷樊笼的往昔」（错误）",
+  "desc": "代码受到影响后的错误投影。参照本体为美梦剧团中扮饰囚徒的艺者。本应于「谐乐大典」之中献演，如今却被「秩序」所缚，上演着关于「过去」的剧目。往昔是不朽的锁链，安宁的火苗在笼中点亮，以烛光招引司狱的权臣。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 2092.5,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3003030.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 100,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 3003032,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Thunder",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300303201,
+          "skill_name": "鞭伤除净恶",
+          "skill_desc": "对指定我方单体造成物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300303202,
+          "skill_name": "责打入人心",
+          "skill_desc": "对指定我方单体及其相邻目标造成少量物理属性伤害。",
+          "damage_type": "Physical",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300303203,
+          "skill_name": "使者带锁链",
+          "skill_desc": "锁定一个目标进入蓄力状态并获得一定层数的攻击力提升，下次行动施放【笼中传福音】。蓄力期间如果受到其他单位攻击，将降低攻击力提升层数并锁定发动攻击的我方单位。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300303204,
+          "skill_name": "笼中传福音",
+          "skill_desc": "对被锁定的我方目标造成大量物理属性伤害，伤害由目标<u>平均分摊</u>。",
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {
+            "401301001": {
+              "name": "平均分摊",
+              "desc": "本次攻击结算前的伤害和负面效果由所有受击目标平均承受。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 300303205,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300303206,
+          "skill_name": "呼号如野狗",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300303207,
+          "skill_name": null,
+          "skill_desc": null,
+          "damage_type": "Physical",
+          "sp_hit_base": 15,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3003032,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003032,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003032,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003032,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003032,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003032,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003032,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    }
+  ]
+}

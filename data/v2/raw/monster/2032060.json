@@ -1,0 +1,126 @@
+{
+  "id": 2032060,
+  "name": "辟尘之尾",
+  "desc": "心兽之尾，扫风雷，荡尘寰。",
+  "monster_camp_id": null,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 372,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/BossIconTemporary.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 115,
+  "stance_base": 240,
+  "stance_count": 1,
+  "status_resistance_base": 0.3,
+  "child": [
+    {
+      "id": 2032060,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 203206001,
+          "skill_name": "辟尘",
+          "skill_desc": "对我方全体造成少量风属性伤害。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 203206002,
+          "skill_name": "荡涤尘寰",
+          "skill_desc": "处于共鸣状态时施放，对我方全体目标造成风属性伤害，并大概率使受到攻击的我方目标陷入<u>虚弱</u>状态。",
+          "damage_type": "Wind",
+          "sp_hit_base": 10,
+          "extra": {
+            "220350102": {
+              "name": "虚弱",
+              "desc": "造成的伤害降低。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 203206003,
+          "skill_name": "守备",
+          "skill_desc": "进入【守备】状态，弱点未被击破时受到的伤害降低，被击破时行动额外延后，被击破后受到的伤害提高。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 2032060,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032060,
+      "world_level": 1,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032060,
+      "world_level": 2,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032060,
+      "world_level": 3,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032060,
+      "world_level": 4,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032060,
+      "world_level": 5,
+      "display_item_list": []
+    },
+    {
+      "monster_template_id": 2032060,
+      "world_level": 6,
+      "display_item_list": []
+    }
+  ]
+}

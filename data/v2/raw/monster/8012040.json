@@ -1,0 +1,425 @@
+{
+  "id": 8012040,
+  "name": "喜剧学家",
+  "desc": "...",
+  "monster_camp_id": 6,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 279,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_8012040.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "MinionLv2",
+  "speed_base": 167,
+  "stance_base": 90,
+  "stance_count": 1,
+  "status_resistance_base": 0.1,
+  "child": [
+    {
+      "id": 8012040,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801204001,
+          "skill_name": "笑点分析",
+          "skill_desc": "对指定我方单体造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 801204002,
+          "skill_name": "谢幕",
+          "skill_desc": "受到致命伤害时，将为我方附加【<u>悲剧内核</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280120401": {
+              "name": "悲剧内核",
+              "desc": "能够抵消我方全体受到伤害的护盾。护盾耗尽或效果消失前敌方目标的攻击不会对我方目标的生命值造成削减。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801204003,
+          "skill_name": "谐星荟萃",
+          "skill_desc": "在行动序列上添加【谐星荟萃】，每次【谐星荟萃】行动时，所有【喜剧学家】将一同发起攻击。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801204001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 3,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801204001,
+          "skill_name": "笑点分析",
+          "skill_desc": "对指定我方单体造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 801204002,
+          "skill_name": "谢幕",
+          "skill_desc": "受到致命伤害时，将为我方附加【<u>悲剧内核</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280120401": {
+              "name": "悲剧内核",
+              "desc": "能够抵消我方全体受到伤害的护盾。护盾耗尽或效果消失前敌方目标的攻击不会对我方目标的生命值造成削减。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801204003,
+          "skill_name": "谐星荟萃",
+          "skill_desc": "在行动序列上添加【谐星荟萃】，每次【谐星荟萃】行动时，所有【喜剧学家】将一同发起攻击。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801204002,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 2,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 30,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801204001,
+          "skill_name": "笑点分析",
+          "skill_desc": "对指定我方单体造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 801204002,
+          "skill_name": "谢幕",
+          "skill_desc": "受到致命伤害时，将为我方附加【<u>悲剧内核</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280120401": {
+              "name": "悲剧内核",
+              "desc": "能够抵消我方全体受到伤害的护盾。护盾耗尽或效果消失前敌方目标的攻击不会对我方目标的生命值造成削减。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801204003,
+          "skill_name": "谐星荟萃",
+          "skill_desc": "在行动序列上添加【谐星荟萃】，每次【谐星荟萃】行动时，所有【喜剧学家】将一同发起攻击。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 801204003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.833333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 801204001,
+          "skill_name": "笑点分析",
+          "skill_desc": "对指定我方单体造成少量量子属性伤害。",
+          "damage_type": "Quantum",
+          "sp_hit_base": 5,
+          "extra": {}
+        },
+        {
+          "id": 801204002,
+          "skill_name": "谢幕",
+          "skill_desc": "受到致命伤害时，将为我方附加【<u>悲剧内核</u>】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {
+            "280120401": {
+              "name": "悲剧内核",
+              "desc": "能够抵消我方全体受到伤害的护盾。护盾耗尽或效果消失前敌方目标的攻击不会对我方目标的生命值造成削减。",
+              "param": []
+            }
+          }
+        },
+        {
+          "id": 801204003,
+          "skill_name": "谐星荟萃",
+          "skill_desc": "在行动序列上添加【谐星荟萃】，每次【谐星荟萃】行动时，所有【喜剧学家】将一同发起攻击。",
+          "damage_type": "",
+          "sp_hit_base": 5,
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 8012040,
+      "avatar_exp_reward": 36,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012040,
+      "world_level": 1,
+      "avatar_exp_reward": 48,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012040,
+      "world_level": 2,
+      "avatar_exp_reward": 60,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012040,
+      "world_level": 3,
+      "avatar_exp_reward": 72,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012040,
+      "world_level": 4,
+      "avatar_exp_reward": 84,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012040,
+      "world_level": 5,
+      "avatar_exp_reward": 96,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    },
+    {
+      "monster_template_id": 8012040,
+      "world_level": 6,
+      "avatar_exp_reward": 108,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 111011
+        },
+        {
+          "item_id": 111012
+        },
+        {
+          "item_id": 111013
+        },
+        {
+          "item_id": 181003
+        }
+      ]
+    }
+  ]
+}

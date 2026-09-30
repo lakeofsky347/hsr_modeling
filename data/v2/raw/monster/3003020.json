@@ -1,0 +1,1138 @@
+{
+  "id": 3003020,
+  "name": "惊梦剧团的甜猿泰山",
+  "desc": "匹诺康尼的服务器械，因梦境中的情绪干扰而陷入失控。\\n原本是「苏乐达」汽水的运输工，失控后仍在分享背负的美味，向路过的宾客抛掷它的礼物。",
+  "monster_camp_id": 10,
+  "attack_base": 18,
+  "critical_damage_base": 0.2,
+  "defence_base": 210,
+  "hp_base": 1674,
+  "initial_delay_ratio": 1,
+  "image_path": "SpriteOutput/MonsterFigure/Monster_3003020.png",
+  "minimum_fatigue_ratio": 0.2,
+  "rank": "Elite",
+  "speed_base": 144,
+  "stance_base": 300,
+  "stance_count": 1,
+  "status_resistance_base": 0.2,
+  "child": [
+    {
+      "id": 3003020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302001,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302002,
+      "attack_modify_ratio": 0.833333,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4.444444,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -14,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302003,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.333333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": -120,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302004,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Thunder",
+        "Wind",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302005,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 140,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302006,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Ice",
+        "Thunder"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Fire",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302007,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 4.583333,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 120,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302008,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 140,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Physical",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Imaginary",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302009,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.555556,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302010,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.416667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302011,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 0.416667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302012,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": 300302013,
+      "attack_modify_ratio": 0.5,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1.166667,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": -14,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": 420,
+      "stance_weak_list": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "hard_level_group": 1,
+      "damage_type_resistance": [
+        {
+          "damage_type": "Ice",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Thunder",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Wind",
+          "value": 0.2
+        },
+        {
+          "damage_type": "Quantum",
+          "value": 0.2
+        }
+      ],
+      "skill_list": [
+        {
+          "id": 300302002,
+          "skill_name": "无限畅饮",
+          "skill_desc": "对我方随机单体造成4次冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302001,
+          "skill_name": "限量赠饮",
+          "skill_desc": "对指定我方单体造成冰属性伤害，如果目标身上拥有护盾，则造成伤害后还会对自身造成冰属性伤害，并大概率使自身防御力降低。",
+          "damage_type": "Ice",
+          "sp_hit_base": 10,
+          "extra": {}
+        },
+        {
+          "id": 300302003,
+          "skill_name": "苏乐达派对",
+          "skill_desc": "召唤2只【气泡锂犬】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        },
+        {
+          "id": 300302004,
+          "skill_name": "酬宾喷泉",
+          "skill_desc": "进入蓄力状态，获得韧性保护，下次行动时施放【无限畅饮】。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
+  "drop": [
+    {
+      "monster_template_id": 3003020,
+      "avatar_exp_reward": 150,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003020,
+      "world_level": 1,
+      "avatar_exp_reward": 200,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003020,
+      "world_level": 2,
+      "avatar_exp_reward": 250,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003020,
+      "world_level": 3,
+      "avatar_exp_reward": 300,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114001
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003020,
+      "world_level": 4,
+      "avatar_exp_reward": 350,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003020,
+      "world_level": 5,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    },
+    {
+      "monster_template_id": 3003020,
+      "world_level": 6,
+      "avatar_exp_reward": 400,
+      "display_item_list": [
+        {
+          "item_id": 2
+        },
+        {
+          "item_id": 114002
+        },
+        {
+          "item_id": 114003
+        },
+        {
+          "item_id": 182010
+        },
+        {
+          "item_id": 183006
+        }
+      ]
+    }
+  ]
+}

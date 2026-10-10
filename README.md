@@ -89,3 +89,9 @@
     npm test                      # 仅测试
 
 其中 `tests/consistency.test.mjs` 会把引擎里写死的每个倍率回查到抓取数据，`tests/formula.test.mjs` 用公开实测样例（3633.83）回归欢愉伤害公式。
+
+## 许可证
+
+- 代码：[MIT](LICENSE)，Copyright (c) 2026 lakeofsky347
+- 游戏数据、角色图片等游戏素材的版权归米哈游（miHoYo / HoYoverse）所有，不在 MIT 许可范围内。本仓库收录它们仅用于非商业的同人研究，权利方提出要求即删除
+- 模拟结果基于社区数据整理，仅供娱乐参考，不代表游戏内实际数值

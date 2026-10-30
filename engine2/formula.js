@@ -67,6 +67,31 @@ export function amplificationRegion(list) {
   return 1 + s;
 }
 
+
+// ---- v3.4 per-zone breakdown helpers (pipeline/shared/hsr_zones_patch.py) ----
+function __hz(key, name, value, display, mech, confidence, extra) {
+  var z = { key: key, name: name, value: value, display: display != null ? display : (key === 'base' ? String(Math.round(value * 10) / 10) : key === 'multiplier' ? (Math.round(value * 1e6) / 1e4) + '%' : '×' + (Math.round(value * 1e4) / 1e4)), mech: mech || 'community', confidence: confidence || 'medium' };
+  if (extra) for (var k in extra) z[k] = extra[k];
+  return z;
+}
+function __hzScale(zs, cnt) {
+  if (!zs) return null;
+  return zs.map(function (z) {
+    var o = {}; for (var k in z) o[k] = z[k];
+    if (cnt !== 1 && o.key === 'multiplier') { o.value = o.value * cnt; o.display = cnt > 1 ? (Math.round(z.value * 1e6) / 1e4) + '%×' + cnt : o.display; }
+    if (cnt !== 1 && o.key === 'base' && o.flat) o.flat = o.flat * cnt;
+    return o;
+  });
+}
+(typeof self !== 'undefined' ? self : globalThis).__hsrZone = __hz;
+(typeof self !== 'undefined' ? self : globalThis).__hsrScale = __hzScale;
+(typeof self !== 'undefined' ? self : globalThis).__hsrRowZones = function (r, dmg, extraZones) {
+  if (!r || !r.zones) return null;
+  var zs = r.zones.concat(extraZones || []);
+  var expect = r.total * (extraZones || []).reduce(function (a, z) { return a * z.value; }, 1);
+  if (r.total > 0 && Math.abs(dmg - expect) > 1e-9 * Math.max(1, Math.abs(dmg))) zs = zs.concat([__hz('hook', '角色特殊修正', dmg / expect, null, 'community', 'low')]);
+  return zs;
+};
 // 欢愉伤害
 export function elationHit(p) {
   var base = (p.baseValue === undefined ? ELATION_BASE_VALUE : p.baseValue);
@@ -80,7 +105,7 @@ export function elationHit(p) {
   dmg *= defenseRegion(p.attackerLevel, p.targetLevel, p.defShred, p.defIgnore, p.defBase, p.defPerLevel);
   dmg *= amplificationRegion(p.amplification || []);
   dmg *= (p.finalMultiplier === undefined ? 1 : p.finalMultiplier);
-  return { damage: dmg, kind: 'elation' };
+  return { damage: dmg, kind: 'elation', zones: [__hz('base', '欢愉基础值', base, null, 'table', 'high'), __hz('multiplier', '倍率', p.multiplier || 0, null, 'table', 'high'), __hz('elationDegree', '欢愉度', 1 + (p.elationDegree || 0)), __hz('joke', '笑点区', jokeRegion(p.joke, p.jokeK, p.jokeC)), __hz('crit', p.alwaysCrit ? '暴击（必暴）' : '暴击期望', critRegion(p.critRate, p.critDmg, p.alwaysCrit), null, 'community', 'medium', { critRate: p.critRate, critDmg: p.critDmg }), __hz('vulnerability', '易伤区', vulnerabilityRegion(p.vulnerability || []), null, 'community', 'medium'), __hz('resistance', '抗性区', resistanceRegion(p.res, p.resShred), null, 'community', 'medium', { res: p.res, resShred: p.resShred }), __hz('toughness', '韧性区', toughnessRegion(p.toughnessDR, p.broken), null, 'community', 'medium'), __hz('defense', '防御区', defenseRegion(p.attackerLevel, p.targetLevel, p.defShred, p.defIgnore, p.defBase, p.defPerLevel), null, 'community', 'medium'), __hz('amplification', '增笑区', amplificationRegion(p.amplification || [])), __hz('final', '最终乘数', p.finalMultiplier === undefined ? 1 : p.finalMultiplier)] };
 }
 
 // 常规伤害（攻击力 / 防御力 / 生命值 缩放，吃增伤与攻击力）
@@ -94,7 +119,7 @@ export function normalHit(p) {
   dmg *= toughnessRegion(p.toughnessDR, p.broken);
   dmg *= defenseRegion(p.attackerLevel, p.targetLevel, p.defShred, p.defIgnore, p.defBase, p.defPerLevel);
   dmg *= (p.finalMultiplier === undefined ? 1 : p.finalMultiplier);
-  return { damage: dmg, kind: 'normal' };
+  return { damage: dmg, kind: 'normal', zones: [__hz('base', '基础区', scale, null, 'table', 'high', { flat: p.flat || 0 }), __hz('multiplier', '倍率', p.multiplier || 0, null, 'table', 'high'), __hz('bonus', '增伤区', 1 + (p.dmgBonus || 0), null, 'community', 'medium'), __hz('crit', p.alwaysCrit ? '暴击（必暴）' : '暴击期望', critRegion(p.critRate, p.critDmg, p.alwaysCrit), null, 'community', 'medium', { critRate: p.critRate, critDmg: p.critDmg }), __hz('vulnerability', '易伤区', vulnerabilityRegion(p.vulnerability || []), null, 'community', 'medium'), __hz('resistance', '抗性区', resistanceRegion(p.res, p.resShred), null, 'community', 'medium', { res: p.res, resShred: p.resShred }), __hz('toughness', '韧性区', toughnessRegion(p.toughnessDR, p.broken), null, 'community', 'medium'), __hz('defense', '防御区', defenseRegion(p.attackerLevel, p.targetLevel, p.defShred, p.defIgnore, p.defBase, p.defPerLevel), null, 'community', 'medium'), __hz('final', '最终乘数', p.finalMultiplier === undefined ? 1 : p.finalMultiplier)] };
 }
 
 // 真实伤害：不受任何效果影响（按参考伤害的比例结算）
@@ -124,7 +149,7 @@ export function breakHit(p) {
   dmg *= defenseRegion(p.attackerLevel, p.targetLevel, p.defShred, p.defIgnore);
   dmg *= (p.broken ? 1 : 0.9);
   dmg *= (p.finalMultiplier === undefined ? 1 : p.finalMultiplier);
-  return { damage: dmg, kind: 'break' };
+  return { damage: dmg, kind: 'break', zones: [__hz('base', '击破基础', coef * BREAK_BASE_LV80 * (0.5 + (p.maxToughness || 0) / TOUGHNESS_UNIT / 40), '属性系数 ' + coef + ' × ' + BREAK_BASE_LV80 + ' × (0.5 + 韧性 ' + ((p.maxToughness || 0) / TOUGHNESS_UNIT) + '/40)', 'community', 'medium'), __hz('breakEffect', '击破特攻', 1 + (p.breakEffect || 0)), __hz('vulnerability', '易伤区', vulnerabilityRegion(p.vulnerability || [])), __hz('resistance', '抗性区', resistanceRegion(p.res, p.resShred)), __hz('defense', '防御区', defenseRegion(p.attackerLevel, p.targetLevel, p.defShred, p.defIgnore)), __hz('toughness', '韧性区（未击破 0.9）', p.broken ? 1 : 0.9), __hz('final', '最终乘数', p.finalMultiplier === undefined ? 1 : p.finalMultiplier)] };
 }
 
 // 超击破：3767.5533 × 削韧(社区单位)/10 × 超击破倍率 × (1+击破特攻) × 易伤 × 抗性 × 防御 × 韧性区(已击破=1)
@@ -134,5 +159,5 @@ export function superBreakHit(p) {
   dmg *= vulnerabilityRegion(p.vulnerability || []);
   dmg *= resistanceRegion(p.res, p.resShred);
   dmg *= defenseRegion(p.attackerLevel, p.targetLevel, p.defShred, p.defIgnore);
-  return { damage: dmg, kind: 'superBreak' };
+  return { damage: dmg, kind: 'superBreak', zones: [__hz('base', '超击破基础', BREAK_BASE_LV80 * ((p.toughnessReduced || 0) / TOUGHNESS_UNIT / 10), BREAK_BASE_LV80 + ' × 削韧 ' + ((p.toughnessReduced || 0) / TOUGHNESS_UNIT) + '/10', 'community', 'medium'), __hz('multiplier', '超击破倍率', p.superBreak || 0, null, 'community', 'medium'), __hz('breakEffect', '击破特攻', 1 + (p.breakEffect || 0)), __hz('vulnerability', '易伤区', vulnerabilityRegion(p.vulnerability || [])), __hz('resistance', '抗性区', resistanceRegion(p.res, p.resShred)), __hz('defense', '防御区', defenseRegion(p.attackerLevel, p.targetLevel, p.defShred, p.defIgnore))] };
 }

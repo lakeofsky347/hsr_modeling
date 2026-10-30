@@ -68,7 +68,8 @@ REG[ID] = {
   elationSkill: function (api, j, M) {
     var c = cs(api, j), p = c._p;
     if (!p) return;
-    var jk = (c.gr || 0) + joke(api);
+    var jk = (api.ctx.opts && api.ctx.opts.goodRewardOnElationSkill ? (c.gr || 0) : 0) + joke(api);
+    var a4jk = joke(api); // v3.4.1 silver_wolf_a4: 「计入的笑点」= 当前笑点，与 goodRewardOnElationSkill 分开
     if (!c.stance) {
       gainHidden(api, j, p.replayHidden);
       M.entry.note = (M.entry.note ? M.entry.note + '；' : '') + '银狼·殿堂级操作回放 +' + p.replayHidden + ' 隐藏分';
@@ -77,8 +78,8 @@ REG[ID] = {
       elHit(api, j, { mult: p.demoMult, count: p.demoHits, target: 'single', joke: jj, note: '崩坏级伤害演示 ×' + p.demoHits, entry: M.entry });
       c.bb = 1;
     }
-    if (jk >= p.a4[1]) gainHidden(api, j, p.a4[2] + p.a4[3]);
-    else if (jk >= p.a4[0]) gainHidden(api, j, p.a4[2]);
+    if (a4jk >= p.a4[1]) gainHidden(api, j, p.a4[2] + p.a4[3]);
+    else if (a4jk >= p.a4[0]) gainHidden(api, j, p.a4[2]);
     refresh(api, j);
   }
 };

@@ -1,0 +1,1 @@
+{"schema":"sim-chunks-1","game":"hsr","dataVersion":"4.6.51","generated":"2026-10-13T01:02:51+08:00","hash":"sha256-12","split":false,"boot":["index"],"chunks":[{"id":"index","kind":"index","path":"data/hsr.json","v":"be3578ead073","size":2696648,"gzip":303524,"boot":true}],"totals":{"count":1,"size":2696648,"gzip":303524,"bootSize":2696648,"bootGzip":303524}}

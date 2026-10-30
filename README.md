@@ -1,5 +1,17 @@
 # hsr_modeling — 星穹铁道伤害建模与模拟器
 
+## v3.5 发布站（2026-10-13，计算口径 hsr-calc-3.4.1）
+
+可部署的静态站在 **[dist/skylake/hsr/](dist/skylake/hsr/index.html)**（对应发布包 `sim-hsr-20261013.zip` 里的 `hsr/`）。数据版本仍是 4.6.51，但希儿用了改版表，欢愉技默认不再叠【好活当赏】。说明见 [site/README-hsr.md](site/README-hsr.md)。
+
+本地打开（`file://` 不能拉 `data/hsr.json`）：
+
+    npm run build:skylake
+    python3 -m http.server -d dist/skylake/hsr 8765
+    # 浏览器打开 http://127.0.0.1:8765/
+
+主题、头像和从发布包收回的页面胶水在 `site/`（`assets/`、`recovered/`）。`ui2/app.html` 仍是页面底稿；v3.2 之后的桥、分块加载和分享链接是构建时套上去的，因为原来的 `pipeline/` 不在这个仓库里。下面的 V2 单文件页面和 V1 欢愉四人模拟器保持原样，引擎与数据已对齐到这一版。
+
 ## ★ V2：通用队伍模拟器（全角色库 · 自定义队伍/敌人 · 自动排轴）
 
 基于 [hsr.nanoka.cc](https://hsr.nanoka.cc)（CDN 数据 4.6.51）**全量数据**：99 名角色、172 件光锥、64 套遗器、2779 个敌人。
@@ -73,7 +85,8 @@
 
 ## 三、目录
 
-    dist/        可执行产物（HTML 界面 / 单文件 CLI / 引擎 bundle）
+    dist/        可执行产物（V1/V2 单文件，以及 dist/skylake/hsr 发布站）
+    site/        v3.5 发布站的主题资源、分块清单，以及从构建包收回的页面胶水
     engine/      模拟器内核（伤害乘区、角色数据、时间轴、参数 schema）
     ui/          交互界面源码
     bin/         命令行入口

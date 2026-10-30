@@ -114,6 +114,7 @@ function themeLinks(hashOf) {
     '<script src="' + q('assets/theme/plans.js') + '"></script>',
     '<script defer src="' + q('assets/theme/avatar.js') + '"></script>',
     '<script defer src="' + q('assets/theme/presets.js') + '"></script>',
+    '<script defer src="' + q('assets/theme/resultbar.js') + '"></script>',
     '',
   ].join('\n');
 }

@@ -2,7 +2,7 @@
 html[data-theme="hsr"]{
   --bg:#070914; --panel:rgba(18,22,40,.72); --panel2:rgba(26,31,56,.78);
   --line:rgba(140,160,255,.14); --line2:rgba(160,175,255,.24);
-  --text:#eef0fb; --muted:#a3abc8; --dim:#7e88a8;
+  --text:#eef0fb; --muted:#c5cce4; --dim:#b7c0dc;
   --accent:#9db2ff; --accent2:#d3a8ff; --gold:#f5d27a;
   --glass:blur(14px) saturate(140%);
   --ld-bg:radial-gradient(800px 500px at 50% 40%,#1b1840,#06070f 70%); --ld-fg:#c9d2ff;
@@ -152,3 +152,18 @@ html[data-theme="hsr"] #loader.error .ld-ring{display:none}
 .ghsr-gr-src{color:var(--dim);font-size:11.5px}
 @media (max-width:560px){.ghsr-gr-n{margin-left:0}}
 @media (prefers-reduced-motion:reduce){.ghsr-gr-sw i,.ghsr-gr-sw i::after{transition:none}}
+
+/* 总伤卡上的「星穹列车」票根会压住数字，去掉文字和右侧缺口 */
+html[data-theme="hsr"] .card.hero{padding-right:16px;-webkit-mask:none;mask:none;
+  background-position:right 8px center,calc(100% - 8px) 0,0 0}
+html[data-theme="hsr"] .card.hero::after{content:none;display:none}
+
+/* 手机端角色行：名字和「更换」不要被挤成逐字竖排 */
+@media (max-width:720px){
+  html[data-theme="hsr"] .member-row{flex-direction:column;align-items:stretch}
+  html[data-theme="hsr"] .member-row>.pickbtn{width:100%;flex:1 1 auto}
+  html[data-theme="hsr"] .member-row>.btn{align-self:flex-start}
+  html[data-theme="hsr"] .pickbtn{min-width:0;flex-wrap:wrap}
+  html[data-theme="hsr"] .pickbtn b,html[data-theme="hsr"] .pickbtn .chg{white-space:nowrap;flex:none}
+  html[data-theme="hsr"] .pickbtn>.muted.mini:not(.chg){min-width:0;flex:1 1 120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+}

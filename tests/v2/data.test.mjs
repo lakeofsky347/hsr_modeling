@@ -44,8 +44,9 @@ test('技能倍率 / 等级 / 战技点 / 能量 / 韧性', () => {
   const b = sk('1102', 'basic'), e = sk('1102', 'skill'), q = sk('1102', 'ult');
   assert.equal(b.defaultLevel, 6); assert.equal(e.defaultLevel, 10); assert.equal(q.defaultLevel, 10);
   assert.equal(lvP(b)[b.hits[0].param], 1.0);
-  assert.equal(lvP(e)[e.hits[0].param], 2.2);
-  assert.equal(lvP(q)[q.hits[0].param], 4.25);
+  // v3.5 数据：希儿用 AvatarConfigEnhanced 改版倍率（战技 220%→360%，终结技 425%→720%）
+  assert.equal(lvP(e)[e.hits[0].param], 3.6);
+  assert.equal(lvP(q)[q.hits[0].param], 7.2);
   assert.deepEqual([b.spCost, b.spGain, e.spCost, e.spGain], [0, 1, 1, 0]);
   assert.deepEqual([b.energyGain, e.energyGain, q.energyGain], [20, 30, 5]);
   assert.deepEqual(b.toughness, { main: 30, aoe: 0, adjacent: 0 });
@@ -53,7 +54,7 @@ test('技能倍率 / 等级 / 战技点 / 能量 / 韧性', () => {
   assert.ok(!/<|#\d/.test(e.desc), '已代入并去标签');
   assert.ok(/#1\[i\]%/.test(e.rawDesc));
   const skl = e.effects.find((x) => x.stat === 'spdPct');
-  assert.ok(skl && skl.target === 'self' && skl.duration === 2);
+  assert.ok(skl && skl.target === 'self' && skl.duration === 3);
   assert.deepEqual(C['1102'].eidolons[2].skillLevelUp, { skill: 2, talent: 2 });
   assert.deepEqual(C['1102'].eidolons[4].skillLevelUp, { ult: 2, basic: 1 });
 });

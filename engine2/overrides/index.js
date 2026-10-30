@@ -67,8 +67,73 @@ var kafka = {
   hooks: {}
 };
 
+
+// ---- v3.4 HSR fixes (pipeline/shared/hsr_fixes_patch.py) ----
+var __HSR_FIX = {serval_talent: 1, topaz_weak: 1, topaz_skill_fua: 1, topaz_basic_fua: 1, seele_kill_traces: 1, elation_skill_punchline: 1, silver_wolf_a4: 1, migrate_config: 1};
+// 1103 希露瓦 天赋「燃情和弦」：施放攻击后，对触电（雷属性 DoT）状态的敌方目标造成 72% 攻击力附加伤害
+var __serval = {
+  patchKit: function (kit) {
+    var t = (kit.skills || []).find(function (s) { return s.slot === 'talent'; });
+    if (t) t.hits = (t.hits || []).map(function (h) { return Object.assign({}, h, { dmgType: 'additional' }); });
+    (kit.notes = kit.notes || []).push('v3.4：天赋附加伤害在普攻/战技/终结技后对触电目标结算（dmgType=additional）');
+    return kit;
+  },
+  hooks: {
+    onAction: function (api) {
+      if (api.phase !== 'after' || ['basic', 'skill', 'ult'].indexOf(api.skill.slot) < 0) return;
+      var shocked = (api.enemy().dots || []).some(function (d) {
+        var om = api.ctx.members[d.owner], rs = om && om.skills[d.skillSlot], h = rs && rs.hits[d.hitIdx];
+        return d.remaining > 0 && h && (h.element || om.element) === 'Thunder';
+      });
+      if (!shocked) return;
+      var th = api.hitsOf('talent')[0];
+      if (!th || !(th.mult > 0)) return;
+      api.deal({ scaling: th.scaling || 'atk', mult: th.mult, target: 'single', element: 'Thunder', dmgType: 'additional' }, '燃情和弦·附加伤害', api.entry);
+    }
+  }
+};
+// 1102 希儿（改版数据）：击杀触发的行迹（夜行：消灭敌方目标时增伤，可叠 3 层）在单体 BOSS 战中不触发 → 去掉（与原 override「击杀额外回合忽略」一致）
+var __seeleV34 = {
+  patchKit: function (kit, member) {
+    kit = seele.patchKit(kit, member) || kit;
+    var n = 0;
+    (kit.traces || []).forEach(function (t) {
+      var before = (t.effects || []).length;
+      t.effects = (t.effects || []).filter(function (e) { return !/^消灭敌方目标时/.test(e.condition || e.raw || ''); });
+      n += before - t.effects.length;
+    });
+    if (n) kit.notes.push('v3.4：击杀触发的行迹增伤（夜行）在单体 BOSS 战中忽略');
+    return kit;
+  },
+  hooks: seele.hooks
+};
+// 1112 托帕&账账：金融动荡仅对火弱点敌人；战技/普攻（透支）同时视为追加攻击伤害
+var __topaz = {
+  patchKit: function (kit, member, enemy) {
+    var notes = (kit.notes = kit.notes || []);
+    if (__HSR_FIX.topaz_weak) {
+      var tr = (kit.traces || []).find(function (t) { return t.id === '1112102'; });
+      if (tr && enemy) {
+        var weak = (enemy.weak || []).indexOf('Fire') >= 0;
+        if (!weak) tr.effects = [];
+        notes.push('v3.4：金融动荡 ' + (weak ? '生效（敌人火弱点）' : '不生效（敌人无火弱点）'));
+      } else if (tr) notes.push('v3.4：金融动荡仅对火弱点敌人生效（面板视图未指定敌人，按生效显示）');
+    }
+    (kit.skills || []).forEach(function (s) {
+      if ((s.slot === 'skill' && __HSR_FIX.topaz_skill_fua) || (s.slot === 'basic' && __HSR_FIX.topaz_basic_fua)) {
+        s.hits = (s.hits || []).map(function (h) { return h.dmgType === 'dot' ? h : Object.assign({}, h, { alsoTypes: ['fua'] }); });
+      }
+    });
+    if (__HSR_FIX.topaz_skill_fua) notes.push('v3.4：战技伤害同时视为追加攻击（吃追击增伤/易伤）');
+    if (__HSR_FIX.topaz_basic_fua) notes.push('v3.4：普攻伤害同时视为追加攻击（行迹·透支）');
+    return kit;
+  },
+  hooks: {}
+};
 export var OVERRIDES = {
-  '1102': seele,
+  '1103': __serval,
+  '1112': __topaz,
+  '1102': __seeleV34,
   '1005': kafka,
   // 欢愉四人（v1 完美轴移植）
   '1506': silverwolf999,

@@ -44,7 +44,7 @@ export function buildContext(data, cfg, overrides) {
     var ov = overrides[member.charId] || null;
     var ch = ch0;
     if (ov && typeof ov.patchKit === 'function') {
-      ch = ov.patchKit(JSON.parse(JSON.stringify(ch0)), member) || ch0;
+      ch = ov.patchKit(JSON.parse(JSON.stringify(ch0)), member, enemy) || ch0;
     }
     // patchKit 后的 kit 需要被 computeStats / collectEffects 使用 → 用浅层替换的数据视图
     var dview = ch === ch0 ? data : Object.assign({}, data, { characters: Object.assign({}, data.characters, (function () { var o = {}; o[member.charId] = ch; return o; })()) });
@@ -153,6 +153,7 @@ export function resolveSkill(ch, member, s) {
     if (h.triggerActor) o.triggerActor = h.triggerActor;
     if (h.additional) o.additional = true;
     if (h.fixedCrit) o.fixedCrit = h.fixedCrit;
+    if (h.alsoTypes) o.alsoTypes = h.alsoTypes.slice();
     return o;
   });
   var specials = (s.specials || []).map(function (x) {
@@ -329,15 +330,16 @@ export function hitDamage(st, ctx, i, h, refDamage, extra) {
   var targets = targetCount(ctx, h.target);
   if (!targets || (!h.mult && !h.extraStat)) return { per: 0, total: 0, targets: targets };
   var g = function (k) { return (bag[k] || 0) + (eb[k] || 0); };
+  var ga = function (p) { var s = 0, at = h.alsoTypes || []; for (var q = 0; q < at.length; q++) if (at[q] !== t) s += g(p + at[q]); return s; };
   var res = E.res && E.res[el] != null ? E.res[el] : 0.2;
-  var resShred = g('resShred') + g('resShred_' + el) + g('resPen') + g('resPen_' + el) + g('resPen_' + t) + num(E.extraResShred, 0);
-  var vuln = g('vuln') + g('vuln_' + t) + g('vuln_' + el) + num(E.extraVuln, 0);
+  var resShred = g('resShred') + g('resShred_' + el) + g('resPen') + g('resPen_' + el) + g('resPen_' + t) + ga('resPen_') + num(E.extraResShred, 0);
+  var vuln = g('vuln') + g('vuln_' + t) + ga('vuln_') + g('vuln_' + el) + num(E.extraVuln, 0);
   var defShred = g('defShred') + num(E.extraDefShred, 0);
-  var defIgnore = g('defIgnore') + g('defIgnore_' + t);
+  var defIgnore = g('defIgnore') + g('defIgnore_' + t) + ga('defIgnore_');
   var broken = !!E.alwaysBroken || st.enemy.broken;
   var always = ctx.opts.critMode === 'always';
-  var cr = Math.min(1, Math.max(0, s.critRate + g('critRate_' + t) + (eb.critRate || 0)));
-  var cd = s.critDmg + g('critDmg_' + t) + (eb.critDmg || 0);
+  var cr = Math.min(1, Math.max(0, s.critRate + g('critRate_' + t) + ga('critRate_') + (eb.critRate || 0)));
+  var cd = s.critDmg + g('critDmg_' + t) + ga('critDmg_') + (eb.critDmg || 0);
   // 持续伤害不能暴击（Fandom「Damage」：Unless an effect says otherwise, DoT damage cannot CRIT）
   var noCrit = t === 'dot' && !h.fixedCrit && !h.canCrit;
   if (noCrit) { cr = 0; cd = 0; }
@@ -352,29 +354,32 @@ export function hitDamage(st, ctx, i, h, refDamage, extra) {
   };
   var per = 0;
   var cnt = h.count == null ? 1 : h.count;
+  var __z = null;
   if (h.scaling === 'true') {
     per = mult * (h.ref != null ? num(h.ref, 0) : (refDamage || 0)) / Math.max(1, targets);
+    __z = [__hsrZone('base', '参考伤害', (h.ref != null ? num(h.ref, 0) : (refDamage || 0)), null, 'table', 'high'), __hsrZone('multiplier', '真实伤害比例', mult, null, 'table', 'high'), __hsrZone('split', '均分目标', 1 / Math.max(1, targets))];
   } else if (h.scaling === 'elation') {
     var joke = h.joke != null ? num(h.joke, 0) : st.shared && st.shared.joke != null ? num(st.shared.joke, 0) : num(ctx.opts.teamJoke, 10);
-    per = elationHit(Object.assign({}, common, {
+    var __re = elationHit(Object.assign({}, common, {
       multiplier: mult, elationDegree: s.elation, joke: joke,
       amplification: [g('elationAmp') + g('amplification') + g('amplification_elation') + num(h.amplification, 0)]
-    })).damage * cnt;
+    })); per = __re.damage * cnt; __z = __hsrScale(__re.zones, cnt);
   } else if (h.scaling === 'break') {
     // 击破类伤害：vuln 已含 vuln_<dmgType>；dmgType 非 break 时补上 vuln_break（v2.1 以前 dmgType=break 时 vuln_break 被计两次）
-    per = mult * (1 + g('dmgBonus_break')) * breakHit({
+    var __rb = breakHit({
       element: el, maxToughness: ctx.enemyToughness, breakEffect: s.breakEffect, vulnerability: [vuln + (t === 'break' ? 0 : g('vuln_break'))],
       res: res, resShred: resShred, attackerLevel: m.level, targetLevel: ctx.enemyLevel, defShred: defShred, defIgnore: defIgnore,
       broken: broken
-    }).damage * cnt;
+    }); per = mult * (1 + g('dmgBonus_break')) * __rb.damage * cnt;
+    __z = [__rb.zones[0], __hsrZone('multiplier', '倍率', mult * cnt, null, 'table', 'high'), __hsrZone('bonus', '击破增伤', 1 + g('dmgBonus_break'))].concat(__rb.zones.slice(1));
   } else {
     var scal = h.scaling === 'hp' ? s.hp : h.scaling === 'def' ? s.def : s.atk;
-    var db = g('dmgBonus') + g('dmgBonus_' + el) + g('dmgBonus_' + t) + (h.additional ? g('dmgBonus_additional') : 0);
-    per = normalHit(Object.assign({}, common, { scalingValue: scal, multiplier: mult, dmgBonus: db })).damage * cnt;
+    var db = g('dmgBonus') + g('dmgBonus_' + el) + g('dmgBonus_' + t) + ga('dmgBonus_') + (h.additional ? g('dmgBonus_additional') : 0);
+    var __rn = normalHit(Object.assign({}, common, { scalingValue: scal, multiplier: mult, dmgBonus: db })); per = __rn.damage * cnt; __z = __hsrScale(__rn.zones, cnt);
   }
-  if (extra && extra.finalMultiplier != null) per *= extra.finalMultiplier;
-  if (h.finalMultiplier != null) per *= num(h.finalMultiplier, 1);
-  return { per: per, total: per * targets, targets: targets };
+  if (extra && extra.finalMultiplier != null) { per *= extra.finalMultiplier; if (__z) __z = __z.concat([__hsrZone('final', '最终乘数（调用方）', extra.finalMultiplier)]); }
+  if (h.finalMultiplier != null) { per *= num(h.finalMultiplier, 1); if (__z) __z = __z.concat([__hsrZone('final', '最终乘数（命中）', num(h.finalMultiplier, 1))]); }
+  return { per: per, total: per * targets, targets: targets, zones: __z };
 }
 
 // 战斗属性对象中取某统计键（scaleStat / hit.extra.stat）
@@ -682,7 +687,7 @@ function dealHits(st, ctx, i, hits, entry, note) {
     var type = h.scaling === 'true' ? 'true' : h.scaling === 'elation' ? 'elation' : h.scaling === 'break' ? 'break' : h.dmgType;
     addDamage(st, ctx, i, type, dmg);
     total += dmg;
-    list.push({ target: h.target + (r.targets > 1 ? '×' + r.targets : '') + (h.count > 1 ? ' ' + h.count + '段' : ''), dmg: round1(dmg), note: note || ((h.additional ? '附加 ' : '') + h.scaling + '×' + round4(h.mult) + (h.extraStat ? '+' + round4(h.extraMult) + '×' + h.extraStat : '')) });
+    list.push({ zones: __hsrRowZones(r, dmg), value: dmg / Math.max(1, r.targets || 1), targets: r.targets, dmgRaw: dmg, target: h.target + (r.targets > 1 ? '×' + r.targets : '') + (h.count > 1 ? ' ' + h.count + '段' : ''), dmg: round1(dmg), note: note || ((h.additional ? '附加 ' : '') + h.scaling + '×' + round4(h.mult) + (h.extraStat ? '+' + round4(h.extraMult) + '×' + h.extraStat : '')) });
   }
   if (entry) { entry.damage = round1((entry.damage || 0) + total); entry.hits = (entry.hits || []).concat(list); }
   return { total: total, hits: list };
@@ -775,15 +780,16 @@ function reduceToughness(st, ctx, i, rs, entry) {
     var eb = buffBag(st.enemy.debuffs);
     var g = function (k) { return (s.bag[k] || 0) + (eb[k] || 0); };
     var res = E.res && E.res[m.element] != null ? E.res[m.element] : 0.2;
-    var d = superBreakHit({
+    var __sbr = superBreakHit({
       // 超击破属于击破类伤害：吃 vuln_break / defIgnore_break，另加 *_superBreak 专属项
       toughnessReduced: amount, superBreak: sb, breakEffect: s.breakEffect, vulnerability: [g('vuln') + g('vuln_' + m.element) + g('vuln_break') + g('vuln_superBreak') + num(E.extraVuln, 0)],
       res: res, resShred: g('resShred') + g('resShred_' + m.element) + g('resPen') + g('resPen_' + m.element) + g('resPen_break') + num(E.extraResShred, 0),
       attackerLevel: m.level, targetLevel: ctx.enemyLevel, defShred: g('defShred') + num(E.extraDefShred, 0),
       defIgnore: g('defIgnore') + g('defIgnore_break') + g('defIgnore_superBreak')
-    }).damage * (num(tg.aoe, 0) > 0 ? ctx.enemyCount : 1) * (1 + g('dmgBonus_superBreak'));
+    }); var __sbn = (num(tg.aoe, 0) > 0 ? ctx.enemyCount : 1); var d = __sbr.damage * __sbn * (1 + g('dmgBonus_superBreak'));
+    var __sbz = __sbr.zones.concat([__hsrZone('bonus', '超击破增伤', 1 + g('dmgBonus_superBreak'))]);
     addDamage(st, ctx, i, 'superBreak', d);
-    if (entry) { entry.damage = round1((entry.damage || 0) + d); entry.hits.push({ target: 'enemy', dmg: round1(d), note: '超击破' }); }
+    if (entry) { entry.damage = round1((entry.damage || 0) + d); entry.hits.push({ zones: __sbz, value: d / __sbn, targets: __sbn, dmgRaw: d, target: 'enemy', dmg: round1(d), note: '超击破' }); }
   }
   if (!weak || E.alwaysBroken || E.allowBreak === false || st.enemy.broken) return;
   st.enemy.toughness -= amount;
@@ -796,7 +802,7 @@ function reduceToughness(st, ctx, i, rs, entry) {
     // 击破时敌人尚未处于击破状态 → 0.9 韧性区（hitDamage 已按 broken=true 计为 1，需修正）
     var dmg = r.total * 0.9;
     addDamage(st, ctx, i, 'break', dmg);
-    if (entry) { entry.damage = round1((entry.damage || 0) + dmg); entry.hits.push({ target: bh.target, dmg: round1(dmg), note: '击破' }); entry.note = (entry.note ? entry.note + '；' : '') + '击破'; }
+    if (entry) { entry.damage = round1((entry.damage || 0) + dmg); entry.hits.push({ zones: __hsrRowZones(r, dmg, [__hsrZone('breakState', '击破瞬间（未击破 ×0.9）', 0.9)]), value: dmg / Math.max(1, r.targets || 1), targets: r.targets, dmgRaw: dmg, target: bh.target, dmg: round1(dmg), note: '击破' }); entry.note = (entry.note ? entry.note + '；' : '') + '击破'; }
     // 击破使敌人行动延后 25%
     st.enemy.nextAv += 0.25 * 10000 / st.enemy.spdCur;
     // 「击破弱点时」触发的击破伤害（如阮•梅天赋）
@@ -808,7 +814,7 @@ function reduceToughness(st, ctx, i, rs, entry) {
         var br = hitDamage(st, ctx, bi, bhh, 0);
         var bd = br.total;
         addDamage(st, ctx, bi, 'break', bd);
-        if (entry) { entry.damage = round1((entry.damage || 0) + bd); entry.hits.push({ target: bhh.target, dmg: round1(bd), note: bm.name + '·击破触发' }); }
+        if (entry) { entry.damage = round1((entry.damage || 0) + bd); entry.hits.push({ zones: __hsrRowZones(br, bd), value: bd / Math.max(1, br.targets || 1), targets: br.targets, dmgRaw: bd, target: bhh.target, dmg: round1(bd), note: bm.name + '·击破触发' }); }
       }
     }
     for (var q = 0; q < ctx.members.length; q++) callHook(ctx, q, 'onBreak', st, { breaker: i, entry: entry });
@@ -956,7 +962,7 @@ function enemyTurn(st, ctx) {
     if (typeof hr === 'number' && isFinite(hr)) dmg = hr;
     addDamage(st, ctx, d.owner, 'dot', dmg);
     entry.damage = round1(dmg);
-    entry.hits.push({ target: h.target + (r.targets > 1 ? '×' + r.targets : ''), dmg: round1(dmg), note: 'DoT' });
+    entry.hits.push({ zones: __hsrRowZones(r, dmg), value: dmg / Math.max(1, r.targets || 1), targets: r.targets, dmgRaw: dmg, target: h.target + (r.targets > 1 ? '×' + r.targets : ''), dmg: round1(dmg), note: 'DoT' });
     pushLog(st, entry);
     d.remaining -= 1;
   }

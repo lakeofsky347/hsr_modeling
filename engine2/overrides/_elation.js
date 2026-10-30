@@ -7,7 +7,7 @@
 // 阿哈时刻：独立行动单位，速度 = 基础速度（有星神★阿哈时 = 阿哈面板速度，否则 80）+ 队伍速度降序 /5 /10 /20 /40（v1 同式）。
 //   到点时：每名欢愉角色依次施放欢愉技（REG[charId].elationSkill）；之后全员获得【好活当赏】= 本次计入笑点（持续 2 回合）；清空笑点。
 //   引擎若提供 api.addTimer / hooks.onTimer 则用之；否则在领队（队内第一名欢愉角色）的 onTurnStart / onAnyAction / onEnemyTurn 中补跑到点的阿哈时刻。
-// 欢愉伤害：hit.joke = 计入笑点（普攻/战技追加段 = 自身好活当赏；欢愉技 = 好活当赏 + 当前笑点，v1 goodRewardOnElationSkill）。
+// 欢愉伤害：hit.joke = 计入笑点（普攻/战技追加段 = 自身好活当赏；欢愉技 = 当前笑点；options.goodRewardOnElationSkill=true 时 + 好活当赏（v3.4.1 起默认关）。
 import { jokeRegion } from '../formula.js';
 
 export var REG = {};   // charId → { elationSkill(api, j, M), onJoke(api, j, n), refresh(api, j), afterMoment(api, j, M) }

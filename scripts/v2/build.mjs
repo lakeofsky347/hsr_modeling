@@ -163,7 +163,7 @@ export function declNames(src, start) {
 // 模块转换
 // ---------------------------------------------------------------------------
 class Bundler {
-  constructor() { this.mods = new Map(); this.order = []; this.warnings = []; }
+  constructor(fileOverrides) { this.mods = new Map(); this.order = []; this.warnings = []; this.fileOverrides = fileOverrides || {}; }
 
   add(absPath) {
     if (this.mods.has(absPath)) return this.mods.get(absPath).idx;
@@ -171,7 +171,8 @@ class Bundler {
     const idx = this.order.length;
     const rec = { idx, path: absPath, code: null };
     this.mods.set(absPath, rec); this.order.push(rec);
-    const src = readFileSync(absPath, 'utf8');
+    const rel = relative(ROOT, absPath);
+    const src = Object.prototype.hasOwnProperty.call(this.fileOverrides, rel) ? this.fileOverrides[rel] : readFileSync(absPath, 'utf8');
     rec.code = absPath.endsWith('.json') ? '__exports.default = ' + src.trim() + ';' : this.transform(src, absPath);
     return idx;
   }
@@ -307,8 +308,8 @@ class Bundler {
   }
 }
 
-export function bundle(entry, globalName = 'HSR2') {
-  const b = new Bundler();
+export function bundle(entry, globalName = 'HSR2', fileOverrides = null) {
+  const b = new Bundler(fileOverrides);
   const idx = b.add(resolve(ROOT, entry));
   return { code: b.emit(idx, globalName), modules: b.order.map((r) => relative(ROOT, r.path)), warnings: b.warnings };
 }

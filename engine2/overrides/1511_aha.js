@@ -49,7 +49,7 @@ REG[ID] = {
   elationSkill: function (api, j, M) {
     var c = cs(api, j), p = c._p;
     if (!p) return;
-    var jk = (c.gr || 0) + joke(api);
+    var jk = (api.ctx.opts && api.ctx.opts.goodRewardOnElationSkill ? (c.gr || 0) : 0) + joke(api);
     if (p.e >= 4) for (var k = 0; k < api.ctx.members.length; k++) if (k !== j) jk += cs(api, k).gr || 0;
     elHit(api, j, { mult: p.x[0], joke: jk, target: 'aoe', note: '满月，是神在的时间', entry: M.entry });
     var ratio = (p.x[1] || 0.2) * (p.e >= 4 ? 1.25 : 1);

@@ -156,7 +156,39 @@ export function createEngine(DATA, OVERRIDES) {
   }
 
   function defaultBattle() { return { cycles: 3, firstCycleAV: 150, avPerCycle: 100, startSP: 3, maxSP: 5, startEnergyPct: 0.5 }; }
-  function defaultOptions() { return { critMode: 'expected', beamWidth: 24, ignoreConditions: false, teamJoke: 10 }; }
+  function defaultOptions() { return { critMode: 'expected', beamWidth: 24, ignoreConditions: false, teamJoke: 10, goodRewardOnElationSkill: false }; }
+
+
+  // ---- v3.4.1 migrateConfig (pipeline/shared/hsr_fixes_patch.py migrate_config; same function as ww_engine.js MIGRATE:BEGIN…END) ----
+  var MIGRATE_TABLE = {
+    game: 'hsr', current: 'hsr-calc-3.4.1',
+    order: ['hsr-calc-3.2', 'hsr-calc-3.3', 'hsr-calc-3.4', 'hsr-calc-3.4.1'],
+    defaults: {
+      'hsr-calc-3.2': { 'options.goodRewardOnElationSkill': true },
+      'hsr-calc-3.3': { 'options.goodRewardOnElationSkill': true },
+      'hsr-calc-3.4': { 'options.goodRewardOnElationSkill': true },
+      'hsr-calc-3.4.1': { 'options.goodRewardOnElationSkill': false }
+    }
+  };
+  function migrateConfig(config, linkEngineVersion) {
+    var T = MIGRATE_TABLE, known = T.order.indexOf(linkEngineVersion) >= 0, from = known ? linkEngineVersion : T.order[0];
+    var out = config && typeof config === 'object' ? JSON.parse(JSON.stringify(config)) : {}, filled = [];
+    if (from !== T.current) {
+      var d = T.defaults[from] || {};
+      Object.keys(d).forEach(function (path) {
+        var ks = path.split('.'), o = out;
+        for (var i = 0; i < ks.length - 1; i++) {
+          if (o[ks[i]] == null) o[ks[i]] = {};
+          else if (typeof o[ks[i]] !== 'object') return;
+          o = o[ks[i]];
+        }
+        var k = ks[ks.length - 1];
+        if (Object.prototype.hasOwnProperty.call(o, k) && o[k] !== undefined) return;
+        o[k] = JSON.parse(JSON.stringify(d[path])); filled.push(path);
+      });
+    }
+    return { config: out, filled: filled, from: from, known: known, to: T.current };
+  }
 
   function defaultConfig() {
     var want = ['1102', '1306', '1303', '1217'];
@@ -251,6 +283,6 @@ export function createEngine(DATA, OVERRIDES) {
     ENGINE2_VERSION: ENGINE2_VERSION, DATA: D,
     listCharacters: listCharacters, listLightcones: listLightcones, listRelicSets: listRelicSets, listMonsters: listMonsters, resolveMonsterId: resolveMonsterId,
     defaultMember: defaultMember, defaultEnemy: defaultEnemy, defaultConfig: defaultConfig,
-    computeStats: computeStats, describeKit: describeKit, simulate: simulate, normalizeConfig: normalizeConfig
+    computeStats: computeStats, describeKit: describeKit, simulate: simulate, normalizeConfig: normalizeConfig, migrateConfig: migrateConfig
   };
 }

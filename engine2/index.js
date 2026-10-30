@@ -19,4 +19,5 @@ export var computeStats = E.computeStats;
 export var describeKit = E.describeKit;
 export var simulate = E.simulate;
 export var normalizeConfig = E.normalizeConfig;
+export var migrateConfig = E.migrateConfig;
 export { createEngine, OVERRIDES };

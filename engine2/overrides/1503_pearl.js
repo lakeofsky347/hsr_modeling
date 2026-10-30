@@ -28,7 +28,7 @@ REG[ID] = {
     var c = cs(api, j), p = c._p;
     if (!p) return;
     var mult = tier(elationCount(api), p.x) * (p.e >= 4 ? 2 : 1);
-    elHit(api, j, { mult: mult, joke: (c.gr || 0) + joke(api), target: 'aoe', note: '渲染理性，解构欢愉', entry: M.entry });
+    elHit(api, j, { mult: mult, joke: (api.ctx.opts && api.ctx.opts.goodRewardOnElationSkill ? (c.gr || 0) : 0) + joke(api), target: 'aoe', note: '渲染理性，解构欢愉', entry: M.entry });
     api.gainEnergy(5, j);
   }
 };

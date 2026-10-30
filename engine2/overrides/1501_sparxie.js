@@ -31,7 +31,7 @@ REG[ID] = {
   elationSkill: function (api, j, M) {
     var c = cs(api, j), p = c._p;
     if (!p) return;
-    var jk = (c.gr || 0) + joke(api);
+    var jk = (api.ctx.opts && api.ctx.opts.goodRewardOnElationSkill ? (c.gr || 0) : 0) + joke(api);
     elHit(api, j, { mult: p.x[1], joke: jk, target: 'aoe', note: '信号溢出：好戏返场！', entry: M.entry });
     var n = p.x[2] + (p.e >= 6 ? Math.min(20, joke(api)) : 0);
     elHit(api, j, { mult: p.x[0], count: n, joke: jk, target: 'single', note: '好戏返场·额外 ×' + n, entry: M.entry });

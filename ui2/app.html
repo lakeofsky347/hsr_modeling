@@ -167,7 +167,16 @@ details.kit[open]>summary::before{transform:rotate(90deg)}
 .toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#20283e;border:1px solid var(--line2);padding:8px 16px;border-radius:10px;z-index:60;box-shadow:0 8px 30px rgba(0,0,0,.4)}
 .twocol{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 @media (max-width:1400px){.twocol{grid-template-columns:1fr}}
-.stale{opacity:.55;transition:opacity .2s}
+.stale{opacity:1}
+#resbody.stale{outline:1px dashed rgba(240,179,90,.7);outline-offset:4px;border-radius:12px}
+#resbody.stale::before{content:"已过期 · 参数已修改，结果待更新";display:block;margin:0 0 8px;padding:6px 10px;border-radius:8px;background:rgba(240,179,90,.14);color:#f6d7a2;font-size:12px}
+button.slot,button.pitem,button.chip{font:inherit;color:inherit;cursor:pointer;text-align:left}
+button.slot{display:block;width:100%;appearance:none}
+button.pitem{appearance:none;width:100%}
+button.chip{appearance:none}
+.delta{font-size:11px;margin-left:4px;font-variant-numeric:tabular-nums}
+.delta.up{color:var(--ok)}.delta.down{color:var(--bad)}
+.errbox .cta{margin-top:8px}
 </style>
 </head>
 <body>
@@ -505,7 +514,7 @@ var $status;
 function renderTop() {
   var top = document.getElementById('top');
   clear(top);
-  var presetSel = h('select', { style: 'width:180px', onchange: function () {
+  var presetSel = h('select', { style: 'width:180px', 'aria-label': '载入预设', onchange: function () {
     var v = presetSel.value; presetSel.value = '';
     if (!v) return;
     var cfg = null;
@@ -517,32 +526,62 @@ function renderTop() {
     h('optgroup', { label: '内置' }, builtinPresets().map(function (p, i) { return h('option', { value: 'b:' + i }, p.name); })),
     (function () { var up = userPresets(); var ks = Object.keys(up); return ks.length ? h('optgroup', { label: '我的预设' }, ks.map(function (k) { return h('option', { value: 'u:' + k }, k); })) : null; })());
   $status = h('div', { class: 'status' });
+  var moreBtn = h('button', { type: 'button', class: 'btn more-btn', 'aria-expanded': 'false', 'aria-controls': 'top-more', 'aria-haspopup': 'menu' }, '⋯更多');
+  moreBtn.addEventListener('click', function () {
+    var open = top.classList.toggle('more-open');
+    moreBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) { var f = top.querySelector('#top-more button, #top-more select, #top-more input'); if (f) f.focus(); }
+  });
+  if (!window.__topMoreBound) {
+    window.__topMoreBound = true;
+    document.addEventListener('click', function (e) {
+      var bar = document.getElementById('top');
+      if (!bar || !bar.classList.contains('more-open')) return;
+      if (e.target.closest && e.target.closest('#top-more, .more-btn')) return;
+      bar.classList.remove('more-open');
+      var b = bar.querySelector('.more-btn'); if (b) b.setAttribute('aria-expanded', 'false');
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      var bar = document.getElementById('top');
+      if (!bar || !bar.classList.contains('more-open')) return;
+      bar.classList.remove('more-open');
+      var b = bar.querySelector('.more-btn'); if (b) { b.setAttribute('aria-expanded', 'false'); b.focus(); }
+    });
+  }
   add(top, [
     h('div', { class: 'logo' }, '星穹铁道 · 通用队伍伤害模拟器'),
     h('div', { class: 'ver' }, 'V2 · 引擎 ' + (E.ENGINE2_VERSION || '?') + ' · 数据 ' + (DATA.version || '?') + ' · ' + CHARS.length + ' 角色'),
     h('div', { class: 'grow' }),
-    h('div', { class: 'tb' },
-      presetSel,
-      h('button', { class: 'btn', title: '把当前配置存为本地预设', onclick: savePresetDialog }, '存为预设'),
-      h('button', { class: 'btn', onclick: importDialog }, '导入'),
-      h('button', { class: 'btn', onclick: exportDialog }, '导出'),
-      h('button', { class: 'btn danger', title: '恢复默认队伍', onclick: function () { if (confirm('重置为默认配置？当前配置将丢失（可先导出）。')) { loadConfig(null); renderLeft(); schedule(0); } } }, '重置'),
-      h('label', { class: 'flex mini muted', style: 'margin-left:6px', title: '改参数后自动重算' }, h('input', { type: 'checkbox', checked: S.auto, onchange: function (ev) { S.auto = ev.target.checked; saveState(); if (S.auto && S.dirty) runNow(); renderStatus(); } }), '自动'),
-      h('button', { class: 'btn pri', onclick: function () { runNow(); } }, '计算')),
+    h('div', { class: 'top-more', id: 'top-more' },
+      h('div', { class: 'tb' },
+        presetSel,
+        h('button', { type: 'button', class: 'btn', title: '把当前配置存为本地预设', onclick: savePresetDialog }, '存为预设'),
+        h('button', { type: 'button', class: 'btn', onclick: importDialog }, '导入'),
+        h('button', { type: 'button', class: 'btn', onclick: exportDialog }, '导出'),
+        h('button', { type: 'button', class: 'btn danger', title: '恢复默认队伍', onclick: function () { if (confirm('重置为默认配置？当前配置将丢失（可先导出）。')) { loadConfig(null); renderLeft(); schedule(0); } } }, '重置'))),
+    h('div', { class: 'top-run' },
+      h('label', { class: 'auto-toggle', title: '改参数后自动重算' }, h('input', { type: 'checkbox', checked: S.auto, 'aria-label': '自动计算', onchange: function (ev) { S.auto = ev.target.checked; saveState(); if (S.auto && S.dirty) runNow(); renderStatus(); } }), h('span', null, '自动计算')),
+      moreBtn,
+      h('button', { type: 'button', class: 'btn pri', onclick: function () { runNow(); } }, '计算')),
     $status
   ]);
   renderStatus();
 }
+function invalidCount() { return document.querySelectorAll('input[aria-invalid="true"]').length; }
 function renderStatus() {
   if (!$status) return;
   clear($status);
   $status.className = 'status';
+  var n = invalidCount();
   if (S.running) {
     $status.className = 'status run';
     add($status, [h('span', { class: 'spin' }), '计算中… ', h('a', { href: '#', style: 'color:var(--muted)', onclick: function (e) { e.preventDefault(); cancelRun(); } }, '取消')]);
-  } else if (S.error) { $status.className = 'status err'; add($status, '计算失败'); }
+  } else if (n) { $status.className = 'status err'; add($status, '有 ' + n + ' 项未生效'); }
+  else if (S.error) { $status.className = 'status err'; add($status, '计算失败'); }
   else if (S.dirty) add($status, S.auto ? '等待重算…' : '参数已修改，点击「计算」');
   else if (S.result) add($status, '✓ 耗时 ' + (S.ms < 10 ? S.ms.toFixed(1) : Math.round(S.ms)) + ' ms' + (workerOk ? '' : ''));
+  if (window.__gresult) window.__gresult.refresh();
 }
 function markStale() { var r = document.getElementById('resbody'); if (r) r.classList.add('stale'); }
 
@@ -568,7 +607,7 @@ function exportDialog() {
 }
 function importDialog() {
   var ta = h('textarea', { style: 'height:45vh;font-family:ui-monospace,Menlo,monospace;font-size:12px', placeholder: '粘贴配置 JSON（Config：{ team, enemy, battle, options }），或选择文件' });
-  var file = h('input', { type: 'file', accept: '.json,application/json', onchange: function () {
+  var file = h('input', { type: 'file', accept: '.json,application/json', 'aria-label': '选择配置文件', onchange: function () {
     var f = file.files[0]; if (!f) return; var rd = new FileReader(); rd.onload = function () { ta.value = rd.result; }; rd.readAsText(f);
   } });
   var md = modal('导入配置', [h('div', { class: 'row' }, file), ta], [
@@ -589,16 +628,16 @@ function picker(opt) {
   // opt: { title, items, render(item) -> {name, meta, color, ava, badges}, filters:[{key,label,options:[{v,l}], match(item,v)}], search(item)->string, onPick(item), current, extraTop, initial }
   var q = '', fv = {};
   (opt.filters || []).forEach(function (f) { fv[f.key] = f.initial || null; });
-  var inp = h('input', { type: 'search', placeholder: '搜索名称 / ID…', style: 'max-width:300px', oninput: function () { q = inp.value.trim().toLowerCase(); draw(); } });
+  var inp = h('input', { type: 'search', 'aria-label': '搜索名称或 ID', placeholder: '搜索名称 / ID…', style: 'max-width:300px', oninput: function () { q = inp.value.trim().toLowerCase(); draw(); } });
   var filBox = h('div', null);
   var grid = h('div', { class: 'pgrid' });
   var cnt = h('span', { class: 'muted mini' });
   function drawFilters() {
     clear(filBox);
     (opt.filters || []).forEach(function (f) {
-      add(filBox, h('div', { class: 'row' }, h('span', { class: 'lb' }, f.label), h('div', { class: 'chips' },
-        h('span', { class: 'chip' + (fv[f.key] ? '' : ' on'), onclick: function () { fv[f.key] = null; drawFilters(); draw(); } }, '全部'),
-        f.options.map(function (o) { return h('span', { class: 'chip' + (fv[f.key] === o.v ? ' on' : ''), onclick: function () { fv[f.key] = fv[f.key] === o.v ? null : o.v; drawFilters(); draw(); } }, o.dot ? elDot(o.v) : null, o.l); }))));
+      add(filBox, h('div', { class: 'row' }, h('span', { class: 'lb' }, f.label), h('div', { class: 'chips', role: 'group', 'aria-label': f.label },
+        h('button', { type: 'button', class: 'chip' + (fv[f.key] ? '' : ' on'), onclick: function () { fv[f.key] = null; drawFilters(); draw(); } }, '全部'),
+        f.options.map(function (o) { return h('button', { type: 'button', class: 'chip' + (fv[f.key] === o.v ? ' on' : ''), onclick: function () { fv[f.key] = fv[f.key] === o.v ? null : o.v; drawFilters(); draw(); } }, o.dot ? elDot(o.v) : null, o.l); }))));
     });
   }
   var LIMIT = 400;
@@ -611,7 +650,7 @@ function picker(opt) {
     cnt.textContent = '共 ' + list.length + ' 项' + (list.length > LIMIT ? '（仅显示前 ' + LIMIT + '，请搜索缩小范围）' : '');
     list.slice(0, LIMIT).forEach(function (it) {
       var r = opt.render(it);
-      add(grid, h('div', { class: 'pitem' + (opt.current === it.id ? ' cur' : ''), title: r.title || r.name, onclick: function () { md.close(); opt.onPick(it); } },
+      add(grid, h('button', { type: 'button', class: 'pitem' + (opt.current === it.id ? ' cur' : ''), title: r.title || r.name, onclick: function () { md.close(); opt.onPick(it); } },
         r.ava ? h('div', { class: 'ava', style: 'background:' + r.color }, r.ava) : null,
         h('div', { style: 'min-width:0;flex:1' }, h('div', { class: 'n' }, r.name), h('div', { class: 'm' }, r.meta))));
     });
@@ -674,26 +713,42 @@ function pickMonster() {
 }
 
 // ------------------------------------------------------------------ 左侧：表单辅助
+var __numSeq = 0;
 function numInput(get, set, o) {
   o = o || {};
   var scale = o.pct ? 100 : 1;
   var v = get();
-  var inp = h('input', { type: 'number', step: o.step || (o.pct ? 0.1 : 1), min: o.min, max: o.max, placeholder: o.placeholder,
+  var hid = 'numhint-' + (++__numSeq);
+  var hint = h('span', { class: 'numhint', id: hid, hidden: true });
+  var inp = h('input', { type: 'number', step: o.step || (o.pct ? 0.1 : 1), placeholder: o.placeholder,
     value: v === null || v === undefined || v === '' ? '' : String(+(v * scale).toFixed(4)),
-    class: o.cls, title: o.title,
+    class: o.cls, title: o.title, 'aria-describedby': hid,
     oninput: function () {
       var raw = inp.value;
-      if (raw === '') { if (o.nullable) { set(null); after(); } return; }
+      if (raw === '') { clearBad(); if (o.nullable) { set(null); after(); } return; }
       var n = Number(raw); if (!isFinite(n)) return;
-      if (o.min !== undefined && n < o.min) return; if (o.max !== undefined && n > o.max) return;
+      if ((o.min !== undefined && n < o.min) || (o.max !== undefined && n > o.max)) { showBad(); return; }
+      clearBad();
       set(o.int ? Math.round(n) / scale : n / scale); after();
     },
     onchange: function () {
-      if (inp.value === '' && !o.nullable) { var d = get(); inp.value = String(+(d * scale).toFixed(4)); }
+      if (inp.value === '' && !o.nullable) { var d = get(); inp.value = d === null || d === undefined ? '' : String(+(d * scale).toFixed(4)); clearBad(); }
       if (o.onchange) o.onchange();
     } });
+  function rangeText() {
+    var a = o.min !== undefined ? o.min : '…', b = o.max !== undefined ? o.max : '…';
+    return '范围 ' + a + '–' + b + '，此值未生效';
+  }
+  function showBad() {
+    inp.classList.add('bad'); inp.setAttribute('aria-invalid', 'true');
+    hint.hidden = false; hint.textContent = rangeText();
+    renderStatus();
+  }
+  function clearBad() {
+    if (inp.getAttribute('aria-invalid') === 'true') { inp.classList.remove('bad'); inp.removeAttribute('aria-invalid'); hint.hidden = true; renderStatus(); }
+  }
   function after() { if (o.oninput) o.oninput(); schedule(); }
-  return inp;
+  return h('span', { class: 'numwrap' }, inp, hint);
 }
 function fld(label, input, title) { return h('label', { class: 'fld', title: title || label }, h('span', null, label), input); }
 function seg(options, cur, onpick) {
@@ -718,10 +773,10 @@ function renderLeft() {
 function renderTeam() {
   var box = clear(document.getElementById('sec-team'));
   var slots = h('div', { class: 'slots' }, S.slots.map(function (m, i) {
-    if (!m) return h('div', { class: 'slot empty' + (S.sel === i ? ' sel' : ''), onclick: function () { S.sel = i; pickCharacter(i); } }, '＋ 选择角色');
+    if (!m) return h('button', { type: 'button', class: 'slot empty' + (S.sel === i ? ' sel' : ''), 'aria-label': '选择角色，槽位 ' + (i + 1), onclick: function () { S.sel = i; pickCharacter(i); } }, '＋ 选择角色');
     var c = CHAR_BY[m.charId] || { name: m.charId, element: 'Physical' };
     var lc = m.lightcone && LC_BY[m.lightcone.id];
-    return h('div', { class: 'slot' + (S.sel === i ? ' sel' : ''), onclick: function () { if (S.sel !== i) { S.sel = i; renderTeam(); } } },
+    return h('button', { type: 'button', class: 'slot' + (S.sel === i ? ' sel' : ''), 'aria-label': (c.name || m.charId) + '，槽位 ' + (i + 1) + (S.sel === i ? '，当前编辑' : '，点击编辑'), 'aria-pressed': S.sel === i ? 'true' : 'false', onclick: function () { if (S.sel !== i) { S.sel = i; renderTeam(); } } },
       h('div', { class: 'glow', style: 'background:' + elColor(c.element) }),
       h('div', { class: 'ava', style: 'background:' + elColor(c.element) }, (c.name || '?').slice(0, 1)),
       h('div', { class: 'nm' }, c.name),
@@ -736,10 +791,10 @@ function memberEditor() {
   var d = charData(m.charId) || { skills: [] };
   var wrap = h('div', { style: 'margin-top:12px' });
   // 角色行
-  add(wrap, h('div', { class: 'row' },
+  add(wrap, h('div', { class: 'row member-row' },
     h('button', { class: 'pickbtn', style: 'flex:1', onclick: function () { pickCharacter(i); } },
       elDot(c.element), h('b', null, c.name), h('span', { class: 'muted mini' }, (EL_ZH[c.element] || c.element) + ' · ' + (PATH_ZH[c.path] || c.path) + ' · ' + m.charId),
-      c.support === 'manual' ? h('span', { class: 'tag ok' }, '手写机制') : h('span', { class: 'tag' }, '自动解析'), h('span', { class: 'grow' }), h('span', { class: 'muted mini' }, '更换 ▾')),
+      c.support === 'manual' ? h('span', { class: 'tag ok' }, '手写机制') : h('span', { class: 'tag' }, '自动解析'), h('span', { class: 'grow' }), h('span', { class: 'muted mini chg' }, '更换 ▾')),
     h('button', { class: 'btn sm', title: '恢复推荐光锥/遗器/词条', onclick: function () { S.slots[i] = normMember(E.defaultMember(m.charId)); renderTeam(); schedule(0); } }, '推荐配置'),
     h('button', { class: 'btn sm danger', title: '清空槽位', onclick: function () { S.slots[i] = null; renderTeam(); schedule(0); } }, '移除')));
   // 星魂 / 等级
@@ -828,7 +883,7 @@ function refreshStats() {
     var label = k === 'elementDmg' ? (EL_ZH[c.element] || '') + '属性增伤（含全增伤）' : k === 'energyRegen' ? '能量恢复效率（加成）' : statZh(k);
     var ovKey = k === 'elementDmg' ? 'dmgBonus' : k;
     var o = m.statOverrides[ovKey];
-    var inp = numInput(function () { return m.statOverrides[ovKey]; }, function (nv) { if (nv === null) delete m.statOverrides[ovKey]; else m.statOverrides[ovKey] = nv; inp.classList.toggle('ov', nv !== null); },
+    var inp = numInput(function () { return m.statOverrides[ovKey]; }, function (nv) { if (nv === null) delete m.statOverrides[ovKey]; else m.statOverrides[ovKey] = nv; var node = inp.querySelector ? (inp.querySelector('input') || inp) : inp; node.classList.toggle('ov', nv !== null); },
       { pct: isPctKey(k), nullable: true, step: isPctKey(k) ? 0.1 : 1, placeholder: isPctKey(k) ? (Number(v || 0) * 100).toFixed(1) : String(Math.round(v || 0)), cls: o !== undefined && o !== null ? 'ov' : null, title: isPctKey(k) ? '以百分数输入，例如 70 表示 70%' : '' });
     add(body, h('tr', { class: 'statrow' }, h('td', null, label), h('td', { class: 'num' }, statVal(k, v)), h('td', null, inp)));
   });
@@ -1010,7 +1065,7 @@ function memberColor(charId) {
 function renderResults() {
   var box = clear(document.getElementById('right'));
   var r = S.result;
-  if (S.error) add(box, h('div', { class: 'errbox' }, '计算失败：\n' + S.error));
+  if (S.error) add(box, h('div', { class: 'errbox' }, '计算失败：\n' + S.error, /队伍为空/.test(S.error) ? h('div', { class: 'cta' }, h('button', { type: 'button', class: 'btn pri', onclick: function () { var i = 0; for (; i < S.slots.length; i++) if (!S.slots[i]) break; pickCharacter(i < S.slots.length ? i : 0); } }, '选择角色')) : null));
   if (!r) { if (!S.error) add(box, h('div', { class: 'empty-state' }, S.running ? '计算中…' : '暂无结果')); add(box, kitSection()); return; }
   var body = h('div', { id: 'resbody', class: S.dirty ? 'stale' : '' });
   add(box, body);
@@ -1035,7 +1090,7 @@ function renderResults() {
     return h('div', null, h('div', { class: 'b' },
       h('div', { class: 'nm' }, elDot((CHAR_BY[x.charId] || {}).element), x.name),
       h('div', { class: 'bar', title: actStr }, h('i', { style: 'width:' + (100 * (x.damage || 0) / maxD).toFixed(2) + '%;background:linear-gradient(90deg,' + memberColor(x.charId) + ',rgba(255,255,255,.35))' })),
-      h('div', { class: 'num' }, h('b', null, pct(x.share || 0)), ' ', h('span', { class: 'muted' }, fmtW(x.damage)))),
+      h('div', { class: 'num' }, h('b', null, pct(x.share || 0)), ' ', h('span', { class: 'muted' }, fmtW(x.damage)), (function () { var ad = aMemberDamage(x.charId); if (ad == null) return null; var d = (x.damage || 0) - ad; var cls = d > 0.5 ? 'up' : d < -0.5 ? 'down' : ''; return h('span', { class: 'delta ' + cls }, d > 0.5 ? '+' + fmtW(d) : d < -0.5 ? '−' + fmtW(-d) : '±0'); })())),
       actStr ? h('div', { class: 'mini dim', style: 'margin:-4px 0 4px 120px' }, actStr) : null);
   }));
   // 类型拆分
@@ -1083,7 +1138,11 @@ function damageChart(r) {
   var tl = r.timeline || [], ids = (r.byMember || []).map(function (m) { return m.charId; });
   var names = {}; (r.byMember || []).forEach(function (m) { names[m.charId] = m.name; });
   if (!ids.length || !(r.total > 0)) return null;
+  var gst = window.__gcmp && window.__gcmp.state;
+  var aCurve = gst && gst.on && gst.A && gst.A.curve;
+  var aTotal = gst && gst.on && gst.A && gst.A.summary ? gst.A.summary.total : null;
   var T = Number(r.totalAV) || Math.max.apply(null, tl.map(function (t) { return t.av || 0; }).concat([1]));
+  if (aCurve) aCurve.forEach(function (p) { if (p.av > T) T = p.av; });
   var cum = {}; ids.forEach(function (id) { cum[id] = 0; });
   var samples = [{ av: 0, c: ids.map(function () { return 0; }) }];
   tl.forEach(function (t) {
@@ -1095,12 +1154,14 @@ function damageChart(r) {
   });
   samples.push({ av: T, c: samples[samples.length - 1].c.slice() });
   var total = samples[samples.length - 1].c.reduce(function (a, b) { return a + b; }, 0) || 1;
+  var ySrc = total;
+  if (aCurve) aCurve.forEach(function (p) { if (p.v > ySrc) ySrc = p.v; });
   var W = 760, H = 230, L = 58, R = 12, TP = 14, B = 26, pw = W - L - R, ph = H - TP - B;
-  var step = niceStep(total, 4), ymax = Math.ceil(total / step) * step || 1;
+  var step = niceStep(ySrc, 4), ymax = Math.ceil(ySrc / step) * step || 1;
   var X = function (av) { return L + pw * av / (T || 1); }, Y = function (v) { return TP + ph * (1 - v / ymax); };
   var NS = 'http://www.w3.org/2000/svg';
   function el(tag, attrs, txt) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); if (txt != null) e.textContent = txt; return e; }
-  var svg = el('svg', { viewBox: '0 0 ' + W + ' ' + H, role: 'img', 'aria-label': '累计伤害曲线' });
+  var svg = el('svg', { viewBox: '0 0 ' + W + ' ' + H, role: 'img', 'aria-label': '累计伤害曲线，横轴按轮次' });
   var defs = el('defs', {}); svg.appendChild(defs);
   for (var v = 0; v <= ymax + 1e-6; v += step) {
     svg.appendChild(el('line', { x1: L, x2: W - R, y1: Y(v), y2: Y(v), class: v === 0 ? 'ax' : 'grid' }));
@@ -1130,6 +1191,11 @@ function damageChart(r) {
     svg.appendChild(el('path', { d: line, fill: 'none', stroke: col, 'stroke-width': 1.4, 'stroke-linejoin': 'round' }));
     base = top;
   });
+  if (aCurve && aCurve.length) {
+    var ad = '';
+    aCurve.forEach(function (p, i) { ad += (i ? 'L' : 'M') + X(Math.max(0, Math.min(T, p.av))) + ',' + Y(p.v); });
+    svg.appendChild(el('path', { d: ad, fill: 'none', stroke: '#f5d27a', 'stroke-width': 1.7, 'stroke-dasharray': '6 4', 'stroke-linejoin': 'round' }));
+  }
   svg.appendChild(el('text', { x: X(T) - 4, y: Y(total) - 5, 'text-anchor': 'end', style: 'fill:#e6e9f2;font-weight:600' }, fmtW(total)));
   var guide = el('line', { y1: TP, y2: TP + ph, stroke: '#c9d4ff', 'stroke-width': 1, opacity: 0 }); svg.appendChild(guide);
   var tip = h('div', { class: 'tip' });
@@ -1149,7 +1215,16 @@ function damageChart(r) {
   });
   svg.addEventListener('mouseleave', function () { tip.style.display = 'none'; guide.setAttribute('opacity', 0); });
   var legend = h('div', { class: 'legend' }, ids.map(function (id) { return h('span', null, h('span', { class: 'dot', style: 'background:' + memberColor(id) }), names[id] || charName(id)); }));
-  return h('div', { class: 'sec' }, h('h2', null, '累计伤害曲线', h('span', { class: 'sub' }, '横轴行动值 AV · 按角色堆叠 · 悬停查看')), wrap, legend);
+  if (aCurve) add(legend, h('span', null, h('span', { class: 'dot', style: 'background:#f5d27a;box-shadow:inset 0 0 0 1px #f5d27a' }), 'A 累计（虚线）'));
+  var sub = '横轴按轮次 · 按角色堆叠 · 悬停查看';
+  if (aTotal != null) { var dd = (r.total || 0) - aTotal; sub += ' · 相对 A ' + (dd > 0.5 ? '+' : dd < -0.5 ? '−' : '±') + (Math.abs(dd) > 0.5 ? fmt(Math.abs(dd)) : '0'); }
+  return h('div', { class: 'sec' }, h('h2', null, '累计伤害曲线', h('span', { class: 'sub' }, sub)), wrap, legend);
+}
+function aMemberDamage(id) {
+  var st = window.__gcmp && window.__gcmp.state;
+  if (!st || !st.on || !st.A || !st.A.members) return null;
+  for (var i = 0; i < st.A.members.length; i++) if (String(st.A.members[i].id) === String(id)) return st.A.members[i].damage || 0;
+  return null;
 }
 function orderedIds(obj) { var ids = S.slots.filter(Boolean).map(function (m) { return m.charId; }).filter(function (id) { return obj[id] !== undefined; }); Object.keys(obj).forEach(function (k) { if (ids.indexOf(k) < 0) ids.push(k); }); return ids; }
 function timelineSection(r) {
@@ -1241,6 +1316,8 @@ function kitSection() {
   if (!S.slots.some(Boolean)) add(sec, h('div', { class: 'dim' }, '无角色'));
   return sec;
 }
+
+document.addEventListener('sim:compare', function () { if (S.result) renderResults(); });
 
 // ------------------------------------------------------------------ 启动
 if (!restoreState()) loadConfig(null);

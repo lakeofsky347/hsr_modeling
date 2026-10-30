@@ -1,7 +1,7 @@
 /* v3.2 交互组件（gui / plans / presets / breakdown）。组件只用 --gi-* 变量，三个主题各给一套。约定见 ../ww/COMPONENTS.md */
 html{--gi-bg:rgba(18,19,22,.96);--gi-bg2:rgba(255,255,255,.04);--gi-fg:#ecebe7;--gi-mut:#a6a59f;--gi-dim:#77766f;--gi-line:rgba(255,255,255,.12);
   --gi-acc:#d9b46a;--gi-acc2:#7fd6dc;--gi-up:#8fd9a8;--gi-down:#ef8a7a;--gi-warn:#f0b35a;--gi-r:8px;--gi-sh:0 18px 48px rgba(0,0,0,.55);--gi-num:inherit;--gi-blur:none}
-html[data-theme="hsr"]{--gi-bg:rgba(16,20,42,.86);--gi-bg2:rgba(157,178,255,.06);--gi-fg:#eef0fb;--gi-mut:#a3abc8;--gi-dim:#7e88a8;--gi-line:rgba(160,175,255,.22);
+html[data-theme="hsr"]{--gi-bg:rgba(16,20,42,.86);--gi-bg2:rgba(157,178,255,.06);--gi-fg:#eef0fb;--gi-mut:#c5cce4;--gi-dim:#b4bdd6;--gi-line:rgba(160,175,255,.22);
   --gi-acc:#9db2ff;--gi-acc2:#d3a8ff;--gi-up:#7fe0c0;--gi-down:#ff9db8;--gi-r:14px;--gi-sh:0 18px 50px rgba(5,6,20,.6),0 0 0 1px rgba(160,175,255,.12) inset;--gi-blur:blur(16px) saturate(140%)}
 html[data-theme="endfield"]{--gi-bg:#141518;--gi-bg2:#1c1d21;--gi-fg:#ecebe6;--gi-mut:#b5b4ae;--gi-dim:#8b8b86;--gi-line:#3c3f46;
   --gi-acc:#fadb14;--gi-acc2:#e3c200;--gi-up:#9fe870;--gi-down:#ff6b5e;--gi-warn:#ff9f1a;--gi-r:0px;--gi-sh:0 14px 40px rgba(0,0,0,.6);--gi-num:ui-monospace,"Bahnschrift",Menlo,monospace}
@@ -265,3 +265,47 @@ html[data-theme="hsr"] .gcmp-d.up{color:#7fe0c0;background:rgba(127,224,192,.13)
 html[data-reduced-motion] .gpre-card.busy::after{animation:none;background:color-mix(in srgb,var(--gi-acc) 8%,transparent)}
 .gcmp-src{margin-left:6px;padding:0 6px;font-size:10.5px;line-height:16px;color:var(--gi-mut);border:1px solid var(--gi-line);border-radius:var(--gi-r);white-space:nowrap}
 .gcmp-src[data-src="search"]{color:var(--gi-acc);border-color:var(--gi-acc)}
+
+/* ---- 手机顶栏「⋯更多」+ 底部结果条 + 越界输入（三款共用类名，页面按这个结构排顶栏即可） ----
+   顶栏：.top > .logo + .top-more（里面是 .gtools 和 .tb）+ .top-run（.auto-toggle + .more-btn + .btn.pri）+ .status
+   桌面 .top-more 用 display:contents，分享/方案/对比仍在顶栏；手机收进 .more-btn 打开的菜单。 */
+.more-btn{display:none}
+.top-run{display:flex;align-items:center;gap:8px;flex:none}
+.auto-toggle{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:var(--muted,var(--gi-mut));white-space:nowrap;cursor:pointer}
+.auto-toggle input{width:15px;height:15px;accent-color:#7d8cff}
+.top-more{display:contents}
+.numwrap{position:relative;display:block;min-width:0}
+.numhint{display:none;position:absolute;z-index:6;left:0;top:calc(100% + 3px);width:max-content;max-width:min(240px,70vw);padding:2px 6px;border-radius:6px;background:#3a1518;color:#ffd5d5;border:1px solid rgba(240,122,122,.55);font-size:11px;line-height:1.35;white-space:nowrap}
+.numhint:not([hidden]){display:block}
+input[aria-invalid="true"]{border-color:#f07a7a!important;box-shadow:0 0 0 1px rgba(240,122,122,.55)!important}
+.sec,[id^="sec-"],#resbody,#right{scroll-margin-top:72px}
+@media (max-width:720px){
+  .more-btn{display:inline-flex}
+  .top{flex-wrap:wrap;row-gap:6px}
+  .top .logo{flex:1 1 100%;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .top .ver,.top .grow{display:none!important}
+  .top .status{flex:1 1 auto;min-width:0;text-align:right;font-size:12px}
+  .top-more{display:none;position:absolute;left:8px;right:8px;top:calc(100% + 4px);z-index:30;padding:10px;border-radius:14px;
+    background:rgba(14,18,36,.97);border:1px solid rgba(160,175,255,.28);box-shadow:0 16px 40px rgba(0,0,0,.5);flex-direction:column;gap:8px}
+  .top.more-open .top-more{display:flex}
+  .top-more .gtools,.top-more .tb{display:flex;flex-wrap:wrap;gap:6px}
+  .top-more .tb select{width:100%!important;max-width:100%}
+  .sec,[id^="sec-"],#resbody,#right{scroll-margin-top:96px}
+  html.gresultbar-on{scroll-padding-top:96px;scroll-padding-bottom:76px}
+  html.gresultbar-on .left,html.gresultbar-on .right,html.gresultbar-on main{padding-bottom:84px}
+  .toast,.gtoasts{bottom:78px!important}
+}
+.gresultbar{display:none}
+@media (max-width:720px){
+  .gresultbar{position:fixed;left:0;right:0;bottom:0;z-index:35;display:flex;align-items:center;gap:10px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));
+    background:rgba(10,12,24,.94);border-top:1px solid rgba(160,175,255,.28);backdrop-filter:blur(12px);color:#eef0fb}
+  .gresultbar[hidden]{display:none!important}
+  .gresultbar-main{flex:1;min-width:0;display:flex;align-items:baseline;gap:8px}
+  .gresultbar .k{font-size:11px;color:#c5cce4;white-space:nowrap}
+  .gresultbar .v{font-size:18px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:.2px}
+  .gresultbar .st{font-size:11px;color:#c5cce4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .gresultbar.bad .st,.gresultbar.bad .v{color:#ffb4b4}
+  .gresultbar .jump{flex:none;border:0;border-radius:999px;padding:7px 12px;font:inherit;font-size:13px;font-weight:650;color:#fff;cursor:pointer;
+    background:linear-gradient(120deg,#6077ff,#9a63f0)}
+  .gresultbar .jump:focus-visible{outline:2px solid #9db2ff;outline-offset:2px}
+}

@@ -22,10 +22,24 @@
     var k = x && (x.src || (x.searched === true ? 'search' : null));
     return k && SRC[k] ? '<span class="gcmp-src" data-src="' + esc(k) + '">' + SRC[k] + '</span>' : '';
   }
+  function curveOf(d) {
+    var tl = d && d.timeline;
+    if (!Array.isArray(tl) || !tl.length) return null;
+    var pts = [{ av: 0, v: 0 }], sum = 0, i, dmg;
+    for (i = 0; i < tl.length; i++) {
+      dmg = num(tl[i] && tl[i].damage) || 0;
+      if (!(dmg > 0)) continue;
+      sum += dmg;
+      pts.push({ av: num(tl[i].av) || 0, v: sum });
+    }
+    return pts.length > 1 ? pts : null;
+  }
+  function ping() { try { D.dispatchEvent(new CustomEvent('sim:compare', { detail: { on: S.on } })); } catch (e) { /* old browsers */ } }
   function snap(d) {
     return { runId: d.runId, dataVersion: d.dataVersion, config: clone(d.config), rotation: clone(d.rotation || null),
-      searched: searchedOf(d), src: srcOf(d),
-      summary: clone(d.summary || {}), members: clone(d.members || []), illegal: clone(d.illegal || []), waits: clone(d.waits || []) };
+      searched: searchedOf(d), src: srcOf(d), curve: curveOf(d),
+      summary: clone(d.summary || {}), members: clone(d.members || []), timeline: clone(d.timeline || null),
+      illegal: clone(d.illegal || []), waits: clone(d.waits || []) };
   }
   var S = { on: false, A: null, B: null, mode: LOCKABLE && lsGet(LS_MODE) !== 'free' ? 'lock' : 'free', busy: false, err: null, lastPage: null, seq: 0 };
 
@@ -129,6 +143,7 @@
       S.seq++; S.busy = false; S.err = null; S.B = snap(d); render();
       if (LOCKABLE && S.B.searched === false) runB(d.config, true);
     }
+    ping();
   }
   function setMode(m) {
     if (!LOCKABLE || m === S.mode) return;
@@ -165,6 +180,7 @@
       S.on = false; S.seq++; clearTimeout(tmr); S.A = S.B = S.lastPage = null; H.classList.remove('gcmp-on'); render();
     }
     if (btn) { btn.setAttribute('aria-pressed', String(S.on)); btn.classList.toggle('on', S.on); }
+    ping();
   }
 
   var btn = D.querySelector('.gtool[data-act=compare]');   // plans.js 先放了占位按钮（compare.js 按需加载）

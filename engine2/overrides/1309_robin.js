@@ -44,6 +44,8 @@ export var override = {
       if (p.e >= 2) api.addBuff({ key: 'rb:e2', stat: 'spdPct', value: 0.16, duration: null, label: '知更鸟E2' }, 'team');
       // 倒计时：知更鸟下次行动 = 当前 + 10000/90
       api.unit.nextAv = api.av() + 10000 / (p.ult[1] || 90);
+      // 只在回合内开大时锁住时刻：回合外插入不会被 endTurn 覆盖，锁留下来会吞掉她下一回合的正常轴
+      if (api.unit.inTurn) api.unit.avLock = true;
       api.unit.custom._advanced = true;
     },
     onAnyAction: function (api) {

@@ -125,7 +125,52 @@ function pushEff(out, ctx, e, params, meta, opts, disabled) {
   }
   // 「<施放者>每回合开始时持续回合数减1」：该技能施加的有持续时间的效果在施放者回合开始时递减（而非持有者回合结束）
   if (meta.kind === 'skill' && inst.duration != null && CASTER_TICK_RE.test(meta.desc || '')) inst.tickOnCaster = true;
+  // 技能写明对自身 / 对同谐目标施放时不拉条。同谐在数据里的 path 码是 Shaman（阮•梅、布洛妮娅、花火、星期日）。
+  if (inst.stat === 'actionAdvance' && meta.desc) {
+    if (/对自身施放[^。]{0,40}无法触发(?:立即行动|行动提前)/.test(meta.desc)) inst.noSelfAdvance = true;
+    if (/对「同谐」命途[^。]{0,40}无法触发立即行动/.test(meta.desc)) inst.noAdvanceOnPath = 'Shaman';
+  }
   out.push(inst);
+}
+
+// 描述里已经写明、但自动解析没产出条目的拉条/推条。数值只取描述中的百分数，不另估。
+// 跳过基础概率、暴击触发、随机缺陷、倒计时和「移动速度」（场景移速，不是战斗速度）。
+function controlExtras(desc) {
+  var out = [];
+  if (!desc) return out;
+  var parts = String(desc).split(/[。\n]/);
+  for (var i = 0; i < parts.length; i++) {
+    var sent = parts[i];
+    if (!sent.trim()) continue;
+    var prev = '';
+    for (var p = i - 1; p >= 0; p--) { if (parts[p].trim()) { prev = parts[p]; break; } }
+    var br = /弱点击破后[\s\S]{0,24}行动延后(\d+(?:\.\d+)?)%/.exec(sent);
+    if (br) {
+      out.push({ stat: 'actionAdvance', value: Number(br[1]) / 100, target: 'enemy', trigger: 'onBreak', duration: null, raw: br[0] });
+      continue;
+    }
+    if (/基础概率|暴击|进入战斗|倒计时|缺陷|能够制造|移动速度/.test(sent)) continue;
+    var delay = /行动延后(\d+(?:\.\d+)?)%/.exec(sent);
+    if (delay) out.push({ stat: 'actionAdvance', value: Number(delay[1]) / 100, target: 'enemy', trigger: 'onCast', duration: null, raw: delay[0] });
+    var slow = /(?<!移动)速度降低(\d+(?:\.\d+)?)%/.exec(sent);
+    if (slow && !/装备者/.test(sent)) {
+      var span = (/状态下/.test(sent) ? prev : '') + sent;
+      var dur = /持续(\d+(?:\.\d+)?)回合/.exec(span);
+      if (dur) out.push({ stat: 'spdPct', value: -(Number(slow[1]) / 100), target: 'enemy', trigger: 'onCast', duration: Math.round(Number(dur[1])), raw: slow[0] });
+    }
+  }
+  return out;
+}
+function pushControl(out, ctx, extras, meta, opts, disabled, have) {
+  for (var i = 0; i < extras.length; i++) {
+    var e = extras[i];
+    if (have(e.stat, e.trigger)) continue;
+    pushEff(out, ctx, {
+      key: (meta.sourceKey || 'ctrl') + ':ctrl:' + e.stat + ':' + e.trigger,
+      stat: e.stat, value: e.value, target: e.target, duration: e.duration, trigger: e.trigger,
+      maxStacks: 1, condition: null, confidence: 'high', raw: e.raw
+    }, [], meta, opts, disabled);
+  }
 }
 
 /**
@@ -143,14 +188,24 @@ export function collectEffects(data, member, opts) {
   // 技能
   (ch.skills || []).forEach(function (s) {
     var p = skillParams(ch, member, s);
-    (s.effects || []).forEach(function (e) {
-      pushEff(out, ctx, e, p, { kind: 'skill', slot: s.slot, skillId: s.id, label: (s.typeName || s.slot) + '·' + s.name, sourceKey: member.charId + ':skill:' + s.id, desc: s.desc }, opts, disabled);
+    var meta = { kind: 'skill', slot: s.slot, skillId: s.id, label: (s.typeName || s.slot) + '·' + s.name, sourceKey: member.charId + ':skill:' + s.id, desc: s.desc };
+    (s.effects || []).forEach(function (e) { pushEff(out, ctx, e, p, meta, opts, disabled); });
+    var before = out.length;
+    pushControl(out, ctx, controlExtras(s.desc), meta, opts, disabled, function (stat, tr) {
+      return (s.effects || []).some(function (e) { return e.stat === stat && (e.trigger || 'onCast') === tr; }) ||
+        out.slice(before).some(function (e) { return e.stat === stat && e.trigger === tr; });
     });
   });
   // 行迹（额外能力，默认全部点亮）
   (ch.traces || []).forEach(function (t) {
+    var metaT = { kind: 'trace', label: '行迹·' + t.name, sourceKey: member.charId + ':trace:' + t.id, desc: t.desc };
     (t.effects || []).forEach(function (e) {
-      pushEff(out, ctx, e, pickParams(t.params, 1), { kind: 'trace', label: '行迹·' + t.name, sourceKey: member.charId + ':trace:' + t.id, desc: t.desc }, opts, disabled);
+      pushEff(out, ctx, e, pickParams(t.params, 1), metaT, opts, disabled);
+    });
+    var beforeT = out.length;
+    pushControl(out, ctx, controlExtras(t.desc), metaT, opts, disabled, function (stat, tr) {
+      return (t.effects || []).some(function (e) { return e.stat === stat && (e.trigger || 'passive') === tr; }) ||
+        out.slice(beforeT).some(function (e) { return e.stat === stat && e.trigger === tr; });
     });
   });
   // 星魂
@@ -183,9 +238,20 @@ export function collectEffects(data, member, opts) {
     parts.forEach(function (pp) {
       var part = pp[1];
       if (!part) return;
+      var metaR = { kind: 'relic', label: '遗器·' + rs.name + (pp[0] === 'set4' ? '(4)' : '(2)'), sourceKey: 'relic:' + id + ':' + pp[0], desc: part.desc };
       (part.effects || []).forEach(function (e) {
-        pushEff(out, ctx, e, pickParams(part.params, 1), { kind: 'relic', label: '遗器·' + rs.name + (pp[0] === 'set4' ? '(4)' : '(2)'), sourceKey: 'relic:' + id + ':' + pp[0], desc: part.desc }, opts, disabled);
+        pushEff(out, ctx, e, pickParams(part.params, 1), metaR, opts, disabled);
       });
+      // 「使装备者的速度降低 N%」且出现在条件从句之前：常驻速度。哀歌覆国的诗人 4 件是 8%（描述与 params[5]=0.08；params[0] 另有已带负号的 -0.08）。
+      var slowSelf = /装备者的速度降低(\d+(?:\.\d+)?)%/.exec(part.desc || '');
+      var slowAt = slowSelf ? (part.desc || '').indexOf(slowSelf[0]) : -1;
+      var condAt = (part.desc || '').indexOf('若');
+      if (slowSelf && (condAt < 0 || slowAt < condAt) && !(part.effects || []).some(function (e) { return e.stat === 'spd' || e.stat === 'spdPct'; })) {
+        pushEff(out, ctx, {
+          key: metaR.sourceKey + ':spdDown', stat: 'spdPct', value: -(Number(slowSelf[1]) / 100), target: 'self',
+          duration: null, trigger: 'passive', maxStacks: 1, condition: null, confidence: 'high', raw: slowSelf[0]
+        }, [], metaR, opts, disabled);
+      }
     });
   };
   if (rel.set4) addSet(rel.set4, true);

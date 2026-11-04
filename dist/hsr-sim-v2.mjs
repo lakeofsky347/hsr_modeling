@@ -1896,6 +1896,8 @@ var override = {
       if (p.e >= 2) api.addBuff({ key: 'rb:e2', stat: 'spdPct', value: 0.16, duration: null, label: '知更鸟E2' }, 'team');
       // 倒计时：知更鸟下次行动 = 当前 + 10000/90
       api.unit.nextAv = api.av() + 10000 / (p.ult[1] || 90);
+      // 只在回合内开大时锁住时刻：回合外插入不会被 endTurn 覆盖，锁留下来会吞掉她下一回合的正常轴
+      if (api.unit.inTurn) api.unit.avLock = true;
       api.unit.custom._advanced = true;
     },
     onAnyAction: function (api) {
@@ -2572,7 +2574,52 @@ function pushEff(out, ctx, e, params, meta, opts, disabled) {
   }
   // 「<施放者>每回合开始时持续回合数减1」：该技能施加的有持续时间的效果在施放者回合开始时递减（而非持有者回合结束）
   if (meta.kind === 'skill' && inst.duration != null && CASTER_TICK_RE.test(meta.desc || '')) inst.tickOnCaster = true;
+  // 技能写明对自身 / 对同谐目标施放时不拉条。同谐在数据里的 path 码是 Shaman（阮•梅、布洛妮娅、花火、星期日）。
+  if (inst.stat === 'actionAdvance' && meta.desc) {
+    if (/对自身施放[^。]{0,40}无法触发(?:立即行动|行动提前)/.test(meta.desc)) inst.noSelfAdvance = true;
+    if (/对「同谐」命途[^。]{0,40}无法触发立即行动/.test(meta.desc)) inst.noAdvanceOnPath = 'Shaman';
+  }
   out.push(inst);
+}
+
+// 描述里已经写明、但自动解析没产出条目的拉条/推条。数值只取描述中的百分数，不另估。
+// 跳过基础概率、暴击触发、随机缺陷、倒计时和「移动速度」（场景移速，不是战斗速度）。
+function controlExtras(desc) {
+  var out = [];
+  if (!desc) return out;
+  var parts = String(desc).split(/[。\n]/);
+  for (var i = 0; i < parts.length; i++) {
+    var sent = parts[i];
+    if (!sent.trim()) continue;
+    var prev = '';
+    for (var p = i - 1; p >= 0; p--) { if (parts[p].trim()) { prev = parts[p]; break; } }
+    var br = /弱点击破后[\s\S]{0,24}行动延后(\d+(?:\.\d+)?)%/.exec(sent);
+    if (br) {
+      out.push({ stat: 'actionAdvance', value: Number(br[1]) / 100, target: 'enemy', trigger: 'onBreak', duration: null, raw: br[0] });
+      continue;
+    }
+    if (/基础概率|暴击|进入战斗|倒计时|缺陷|能够制造|移动速度/.test(sent)) continue;
+    var delay = /行动延后(\d+(?:\.\d+)?)%/.exec(sent);
+    if (delay) out.push({ stat: 'actionAdvance', value: Number(delay[1]) / 100, target: 'enemy', trigger: 'onCast', duration: null, raw: delay[0] });
+    var slow = /(?<!移动)速度降低(\d+(?:\.\d+)?)%/.exec(sent);
+    if (slow && !/装备者/.test(sent)) {
+      var span = (/状态下/.test(sent) ? prev : '') + sent;
+      var dur = /持续(\d+(?:\.\d+)?)回合/.exec(span);
+      if (dur) out.push({ stat: 'spdPct', value: -(Number(slow[1]) / 100), target: 'enemy', trigger: 'onCast', duration: Math.round(Number(dur[1])), raw: slow[0] });
+    }
+  }
+  return out;
+}
+function pushControl(out, ctx, extras, meta, opts, disabled, have) {
+  for (var i = 0; i < extras.length; i++) {
+    var e = extras[i];
+    if (have(e.stat, e.trigger)) continue;
+    pushEff(out, ctx, {
+      key: (meta.sourceKey || 'ctrl') + ':ctrl:' + e.stat + ':' + e.trigger,
+      stat: e.stat, value: e.value, target: e.target, duration: e.duration, trigger: e.trigger,
+      maxStacks: 1, condition: null, confidence: 'high', raw: e.raw
+    }, [], meta, opts, disabled);
+  }
 }
 
 /**
@@ -2590,14 +2637,24 @@ function collectEffects(data, member, opts) {
   // 技能
   (ch.skills || []).forEach(function (s) {
     var p = skillParams(ch, member, s);
-    (s.effects || []).forEach(function (e) {
-      pushEff(out, ctx, e, p, { kind: 'skill', slot: s.slot, skillId: s.id, label: (s.typeName || s.slot) + '·' + s.name, sourceKey: member.charId + ':skill:' + s.id, desc: s.desc }, opts, disabled);
+    var meta = { kind: 'skill', slot: s.slot, skillId: s.id, label: (s.typeName || s.slot) + '·' + s.name, sourceKey: member.charId + ':skill:' + s.id, desc: s.desc };
+    (s.effects || []).forEach(function (e) { pushEff(out, ctx, e, p, meta, opts, disabled); });
+    var before = out.length;
+    pushControl(out, ctx, controlExtras(s.desc), meta, opts, disabled, function (stat, tr) {
+      return (s.effects || []).some(function (e) { return e.stat === stat && (e.trigger || 'onCast') === tr; }) ||
+        out.slice(before).some(function (e) { return e.stat === stat && e.trigger === tr; });
     });
   });
   // 行迹（额外能力，默认全部点亮）
   (ch.traces || []).forEach(function (t) {
+    var metaT = { kind: 'trace', label: '行迹·' + t.name, sourceKey: member.charId + ':trace:' + t.id, desc: t.desc };
     (t.effects || []).forEach(function (e) {
-      pushEff(out, ctx, e, pickParams(t.params, 1), { kind: 'trace', label: '行迹·' + t.name, sourceKey: member.charId + ':trace:' + t.id, desc: t.desc }, opts, disabled);
+      pushEff(out, ctx, e, pickParams(t.params, 1), metaT, opts, disabled);
+    });
+    var beforeT = out.length;
+    pushControl(out, ctx, controlExtras(t.desc), metaT, opts, disabled, function (stat, tr) {
+      return (t.effects || []).some(function (e) { return e.stat === stat && (e.trigger || 'passive') === tr; }) ||
+        out.slice(beforeT).some(function (e) { return e.stat === stat && e.trigger === tr; });
     });
   });
   // 星魂
@@ -2630,9 +2687,20 @@ function collectEffects(data, member, opts) {
     parts.forEach(function (pp) {
       var part = pp[1];
       if (!part) return;
+      var metaR = { kind: 'relic', label: '遗器·' + rs.name + (pp[0] === 'set4' ? '(4)' : '(2)'), sourceKey: 'relic:' + id + ':' + pp[0], desc: part.desc };
       (part.effects || []).forEach(function (e) {
-        pushEff(out, ctx, e, pickParams(part.params, 1), { kind: 'relic', label: '遗器·' + rs.name + (pp[0] === 'set4' ? '(4)' : '(2)'), sourceKey: 'relic:' + id + ':' + pp[0], desc: part.desc }, opts, disabled);
+        pushEff(out, ctx, e, pickParams(part.params, 1), metaR, opts, disabled);
       });
+      // 「使装备者的速度降低 N%」且出现在条件从句之前：常驻速度。哀歌覆国的诗人 4 件是 8%（描述与 params[5]=0.08；params[0] 另有已带负号的 -0.08）。
+      var slowSelf = /装备者的速度降低(\d+(?:\.\d+)?)%/.exec(part.desc || '');
+      var slowAt = slowSelf ? (part.desc || '').indexOf(slowSelf[0]) : -1;
+      var condAt = (part.desc || '').indexOf('若');
+      if (slowSelf && (condAt < 0 || slowAt < condAt) && !(part.effects || []).some(function (e) { return e.stat === 'spd' || e.stat === 'spdPct'; })) {
+        pushEff(out, ctx, {
+          key: metaR.sourceKey + ':spdDown', stat: 'spdPct', value: -(Number(slowSelf[1]) / 100), target: 'self',
+          duration: null, trigger: 'passive', maxStacks: 1, condition: null, confidence: 'high', raw: slowSelf[0]
+        }, [], metaR, opts, disabled);
+      }
     });
   };
   if (rel.set4) addSet(rel.set4, true);
@@ -2904,6 +2972,7 @@ function cloneState(s) {
     units: s.units.map(function (u) {
       return {
         nextAv: u.nextAv, energy: u.energy, turns: u.turns, inTurn: u.inTurn, spdCur: u.spdCur, dmg: u.dmg, pendingAdvance: u.pendingAdvance || 0,
+        avLock: !!u.avLock,
         buffs: u.buffs.map(function (b) { return Object.assign({}, b); }), counts: Object.assign({}, u.counts), rot: u.rot,
         custom: isEmpty(u.custom) ? {} : deepCopy(u.custom), ultTurns: u.ultTurns || 0
       };
@@ -2968,8 +3037,20 @@ function refreshSpeed(st, ctx, i) {
   var u = st.units[i];
   var spd = Math.max(1, combatStats(st, ctx, i).spd);
   if (Math.abs(spd - u.spdCur) > 1e-9) {
-    if (u.nextAv > st.av) u.nextAv = st.av + (u.nextAv - st.av) * u.spdCur / spd;
+    // avLock：下一次行动值已被钩子写成绝对时刻（知更鸟协奏倒计时），不随速度比例重算
+    if (!u.avLock && u.nextAv > st.av) u.nextAv = st.av + (u.nextAv - st.av) * u.spdCur / spd;
     u.spdCur = spd;
+  }
+}
+
+// 敌人速度 = 基础速度 × (1+Σ速度%) + Σ固定速度。减速/加速按剩余行动值同比缩放。
+function refreshEnemySpeed(st, ctx) {
+  var en = st.enemy;
+  var bag = buffBag(en.debuffs);
+  var spd = Math.max(1, ctx.enemySpd * (1 + (bag.spdPct || 0)) + (bag.spd || 0));
+  if (Math.abs(spd - en.spdCur) > 1e-9) {
+    if (en.nextAv > st.av) en.nextAv = st.av + (en.nextAv - st.av) * en.spdCur / spd;
+    en.spdCur = spd;
   }
 }
 
@@ -3122,7 +3203,8 @@ function applyEffect(st, ctx, i, e, mode) {
       if (e.tickOnCaster && dur != null) nb.tickOwner = i; // 在施放者回合开始时递减（见 tickCasterBuffs）
       list.push(nb);
     }
-    if (hd !== 'enemy' && (e.stat === 'spd' || e.stat === 'spdPct')) refreshSpeed(st, ctx, hd);
+    if (hd === 'enemy' && (e.stat === 'spd' || e.stat === 'spdPct')) refreshEnemySpeed(st, ctx);
+    else if (hd !== 'enemy' && (e.stat === 'spd' || e.stat === 'spdPct')) refreshSpeed(st, ctx, hd);
   }
 }
 
@@ -3132,6 +3214,10 @@ function applyInstant(st, ctx, i, hd, e) {
   if (hd === 'enemy') {
     if (e.stat === 'actionAdvance') st.enemy.nextAv += Math.abs(v) * 10000 / st.enemy.spdCur; // 对敌人 = 行动延后
     return;
+  }
+  if (e.stat === 'actionAdvance') {
+    if (e.noSelfAdvance && hd === i) return; // 「对自身施放时无法触发立即行动/行动提前」
+    if (e.noAdvanceOnPath && ctx.members[hd] && ctx.members[hd].ch.path === e.noAdvanceOnPath) return;
   }
   var u = st.units[hd];
   // 回复能量受持有者能量恢复效率影响（fixedEnergy「固定恢复」除外）
@@ -3170,13 +3256,14 @@ function fireTriggers(st, ctx, i, kind, slot, skillId, hasHits) {
   }
 }
 
-// 回合结束：持有者身上的 buff 递减（本回合内施加的不递减）
+// 回合结束：持有者身上的 buff 递减。施加所在的这一回合也算 1 回合
+// （1 回合的自身增益只覆盖当次行动；队友在回合外挂上的 1 回合增益覆盖受益者的下一次行动，并在该次行动结束时消退）。
 function tickBuffs(list, turnNo) {
   var out = [];
   var changed = false;
   for (var j = 0; j < list.length; j++) {
     var b = list[j];
-    if (b.remaining != null && b.tickOwner == null && b.appliedIn !== turnNo) { b.remaining -= 1; }
+    if (b.remaining != null && b.tickOwner == null) { b.remaining -= 1; }
     if (b.remaining != null && b.remaining <= 0) { changed = true; continue; }
     out.push(b);
   }
@@ -3414,17 +3501,18 @@ function onTeamAttack(st, ctx, attacker, entry) {
 }
 
 function tickAuras(st, i) {
-  if (!st.auras || !st.auras.length) return;
-  var u = st.units[i];
-  st.auras = st.auras.filter(function (a) {
-    if (a.tick !== i) return true;
-    if (a.appliedIn !== u.turns) a.remaining -= 1;
-    return a.remaining > 0;
-  });
+  // 没有队友攻击光环时也要结算击破恢复触发器，否则阮•梅【残梅绽】会在结界结束后一直留着
+  if (st.auras && st.auras.length) {
+    st.auras = st.auras.filter(function (a) {
+      if (a.tick !== i || a.remaining == null) return true;
+      a.remaining -= 1;
+      return a.remaining > 0;
+    });
+  }
   if (st.enemy.triggers && st.enemy.triggers.length) {
     st.enemy.triggers = st.enemy.triggers.filter(function (a) {
-      if (a.owner !== i) return true;
-      if (a.appliedIn !== u.turns) a.remaining -= 1;
+      if (a.owner !== i || a.remaining == null) return true;
+      a.remaining -= 1;
       return a.remaining > 0;
     });
   }
@@ -3485,7 +3573,15 @@ function reduceToughness(st, ctx, i, rs, entry) {
         if (entry) { entry.damage = round1((entry.damage || 0) + bd); entry.hits.push({ zones: __hsrRowZones(br, bd), value: bd / Math.max(1, br.targets || 1), targets: br.targets, dmgRaw: bd, target: bhh.target, dmg: round1(bd), note: bm.name + '·击破触发' }); }
       }
     }
-    for (var q = 0; q < ctx.members.length; q++) callHook(ctx, q, 'onBreak', st, { breaker: i, entry: entry });
+    for (var q = 0; q < ctx.members.length; q++) {
+      var qm = ctx.members[q];
+      for (var qe = 0; qe < qm.effects.length; qe++) {
+        var ef = qm.effects[qe];
+        // 行迹「造成弱点击破后，使敌方目标行动延后 N%」（描述中的百分数）
+        if (ef.trigger === 'onBreak' && ef.stat === 'actionAdvance') applyEffect(st, ctx, q, ef);
+      }
+      callHook(ctx, q, 'onBreak', st, { breaker: i, entry: entry });
+    }
   }
 }
 
@@ -3667,6 +3763,7 @@ function enemyTurn(st, ctx) {
   pushLog(st, { av: round2(st.av), actor: ctx.enemyCfg.name || '敌人', charId: null, action: 'enemy', skillName: note, damage: 0, sp: st.sp, energy: 0, hits: [], buffs: en.debuffs.map(function (b) { return b.label + (b.remaining != null ? '(' + b.remaining + ')' : ''); }) });
   var tb = tickBuffs(en.debuffs, en.turns);
   en.debuffs = tb.list;
+  if (tb.changed) refreshEnemySpeed(st, ctx);
   en.inTurn = false;
   if (!delayed) en.nextAv = st.av + 10000 / en.spdCur;
 }
@@ -3799,6 +3896,8 @@ function applyDecision(st, ctx, opt) {
       if (m.memoSkill) castSkill(st, ctx, i, m.memoSkill, 'M');
     }
   }
+  // 本回合行动/追加攻击刚刚补满的终结技，在回合结束、buff 消退之前插入（否则 1 回合增益盖不到这次终结技）
+  fireAsapUlts(st, ctx);
   endTurn(st, ctx, i);
   return st;
 }
@@ -3810,9 +3909,19 @@ function endTurn(st, ctx, i) {
   tickAuras(st, i);
   u.inTurn = false;
   if (t.changed) refreshSpeed(st, ctx, i);
-  u.nextAv = st.av + 10000 / u.spdCur;
-  if (u.pendingAdvance) { u.nextAv = Math.max(st.av, u.nextAv - u.pendingAdvance * 10000 / u.spdCur); u.pendingAdvance = 0; }
-  if (u.custom.extraTurn) { u.custom.extraTurn = false; u.nextAv = st.av; }
+  if (u.custom.extraTurn) {
+    u.custom.extraTurn = false;
+    u.avLock = false;
+    u.pendingAdvance = 0;
+    u.nextAv = st.av;
+  } else if (u.avLock) {
+    // 钩子已指定下一次行动时刻（知更鸟离开行动序列，改走协奏倒计时）
+    u.avLock = false;
+    u.pendingAdvance = 0;
+  } else {
+    u.nextAv = st.av + 10000 / u.spdCur;
+    if (u.pendingAdvance) { u.nextAv = Math.max(st.av, u.nextAv - u.pendingAdvance * 10000 / u.spdCur); u.pendingAdvance = 0; }
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -3876,11 +3985,23 @@ function heuristic(st, ctx) {
   return h;
 }
 
+function listSig(list) {
+  var s = '';
+  for (var i = 0; i < list.length; i++) {
+    var b = list[i];
+    s += (b.key || '') + '=' + (b.stacks || 1) + '/' + (b.remaining == null ? 'p' : b.remaining) + '/' + Math.round((b.value || 0) * 1000) + ';';
+  }
+  return s;
+}
 function signature(st) {
-  var s = Math.round(st.dmg) + '|' + st.sp + '|' + Math.round(st.enemy.toughness) + '|' + (st.enemy.broken ? 1 : 0);
+  var s = Math.round(st.dmg) + '|' + st.sp + '|' + Math.round(st.enemy.toughness) + '|' + (st.enemy.broken ? 1 : 0) + '|' + Math.round(st.enemy.nextAv * 10);
+  s += '|D' + listSig(st.enemy.debuffs || []);
+  if (st.enemy.dots && st.enemy.dots.length) {
+    for (var d = 0; d < st.enemy.dots.length; d++) s += '|O' + st.enemy.dots[d].key + ':' + st.enemy.dots[d].remaining;
+  }
   for (var i = 0; i < st.units.length; i++) {
     var u = st.units[i];
-    s += '|' + Math.round(u.nextAv * 10) + ',' + Math.round(u.energy) + ',' + u.buffs.length + ',' + (u.ultTurns || 0);
+    s += '|' + Math.round(u.nextAv * 10) + ',' + Math.round(u.energy) + ',' + listSig(u.buffs) + ',' + (u.ultTurns || 0);
   }
   // override 自定义状态参与去重（避免把资源不同的状态误判为相同）
   if (st.custom) for (var k in st.custom) { var c = st.custom[k]; if (c && !isEmptyObj(c)) s += '|' + k + ':' + JSON.stringify(c); }

@@ -236,6 +236,7 @@ export function cloneState(s) {
     units: s.units.map(function (u) {
       return {
         nextAv: u.nextAv, energy: u.energy, turns: u.turns, inTurn: u.inTurn, spdCur: u.spdCur, dmg: u.dmg, pendingAdvance: u.pendingAdvance || 0,
+        avLock: !!u.avLock,
         buffs: u.buffs.map(function (b) { return Object.assign({}, b); }), counts: Object.assign({}, u.counts), rot: u.rot,
         custom: isEmpty(u.custom) ? {} : deepCopy(u.custom), ultTurns: u.ultTurns || 0
       };
@@ -300,8 +301,20 @@ function refreshSpeed(st, ctx, i) {
   var u = st.units[i];
   var spd = Math.max(1, combatStats(st, ctx, i).spd);
   if (Math.abs(spd - u.spdCur) > 1e-9) {
-    if (u.nextAv > st.av) u.nextAv = st.av + (u.nextAv - st.av) * u.spdCur / spd;
+    // avLock：下一次行动值已被钩子写成绝对时刻（知更鸟协奏倒计时），不随速度比例重算
+    if (!u.avLock && u.nextAv > st.av) u.nextAv = st.av + (u.nextAv - st.av) * u.spdCur / spd;
     u.spdCur = spd;
+  }
+}
+
+// 敌人速度 = 基础速度 × (1+Σ速度%) + Σ固定速度。减速/加速按剩余行动值同比缩放。
+function refreshEnemySpeed(st, ctx) {
+  var en = st.enemy;
+  var bag = buffBag(en.debuffs);
+  var spd = Math.max(1, ctx.enemySpd * (1 + (bag.spdPct || 0)) + (bag.spd || 0));
+  if (Math.abs(spd - en.spdCur) > 1e-9) {
+    if (en.nextAv > st.av) en.nextAv = st.av + (en.nextAv - st.av) * en.spdCur / spd;
+    en.spdCur = spd;
   }
 }
 
@@ -454,7 +467,8 @@ export function applyEffect(st, ctx, i, e, mode) {
       if (e.tickOnCaster && dur != null) nb.tickOwner = i; // 在施放者回合开始时递减（见 tickCasterBuffs）
       list.push(nb);
     }
-    if (hd !== 'enemy' && (e.stat === 'spd' || e.stat === 'spdPct')) refreshSpeed(st, ctx, hd);
+    if (hd === 'enemy' && (e.stat === 'spd' || e.stat === 'spdPct')) refreshEnemySpeed(st, ctx);
+    else if (hd !== 'enemy' && (e.stat === 'spd' || e.stat === 'spdPct')) refreshSpeed(st, ctx, hd);
   }
 }
 
@@ -464,6 +478,10 @@ function applyInstant(st, ctx, i, hd, e) {
   if (hd === 'enemy') {
     if (e.stat === 'actionAdvance') st.enemy.nextAv += Math.abs(v) * 10000 / st.enemy.spdCur; // 对敌人 = 行动延后
     return;
+  }
+  if (e.stat === 'actionAdvance') {
+    if (e.noSelfAdvance && hd === i) return; // 「对自身施放时无法触发立即行动/行动提前」
+    if (e.noAdvanceOnPath && ctx.members[hd] && ctx.members[hd].ch.path === e.noAdvanceOnPath) return;
   }
   var u = st.units[hd];
   // 回复能量受持有者能量恢复效率影响（fixedEnergy「固定恢复」除外）
@@ -502,13 +520,14 @@ function fireTriggers(st, ctx, i, kind, slot, skillId, hasHits) {
   }
 }
 
-// 回合结束：持有者身上的 buff 递减（本回合内施加的不递减）
+// 回合结束：持有者身上的 buff 递减。施加所在的这一回合也算 1 回合
+// （1 回合的自身增益只覆盖当次行动；队友在回合外挂上的 1 回合增益覆盖受益者的下一次行动，并在该次行动结束时消退）。
 function tickBuffs(list, turnNo) {
   var out = [];
   var changed = false;
   for (var j = 0; j < list.length; j++) {
     var b = list[j];
-    if (b.remaining != null && b.tickOwner == null && b.appliedIn !== turnNo) { b.remaining -= 1; }
+    if (b.remaining != null && b.tickOwner == null) { b.remaining -= 1; }
     if (b.remaining != null && b.remaining <= 0) { changed = true; continue; }
     out.push(b);
   }
@@ -746,17 +765,18 @@ function onTeamAttack(st, ctx, attacker, entry) {
 }
 
 function tickAuras(st, i) {
-  if (!st.auras || !st.auras.length) return;
-  var u = st.units[i];
-  st.auras = st.auras.filter(function (a) {
-    if (a.tick !== i) return true;
-    if (a.appliedIn !== u.turns) a.remaining -= 1;
-    return a.remaining > 0;
-  });
+  // 没有队友攻击光环时也要结算击破恢复触发器，否则阮•梅【残梅绽】会在结界结束后一直留着
+  if (st.auras && st.auras.length) {
+    st.auras = st.auras.filter(function (a) {
+      if (a.tick !== i || a.remaining == null) return true;
+      a.remaining -= 1;
+      return a.remaining > 0;
+    });
+  }
   if (st.enemy.triggers && st.enemy.triggers.length) {
     st.enemy.triggers = st.enemy.triggers.filter(function (a) {
-      if (a.owner !== i) return true;
-      if (a.appliedIn !== u.turns) a.remaining -= 1;
+      if (a.owner !== i || a.remaining == null) return true;
+      a.remaining -= 1;
       return a.remaining > 0;
     });
   }
@@ -817,7 +837,15 @@ function reduceToughness(st, ctx, i, rs, entry) {
         if (entry) { entry.damage = round1((entry.damage || 0) + bd); entry.hits.push({ zones: __hsrRowZones(br, bd), value: bd / Math.max(1, br.targets || 1), targets: br.targets, dmgRaw: bd, target: bhh.target, dmg: round1(bd), note: bm.name + '·击破触发' }); }
       }
     }
-    for (var q = 0; q < ctx.members.length; q++) callHook(ctx, q, 'onBreak', st, { breaker: i, entry: entry });
+    for (var q = 0; q < ctx.members.length; q++) {
+      var qm = ctx.members[q];
+      for (var qe = 0; qe < qm.effects.length; qe++) {
+        var ef = qm.effects[qe];
+        // 行迹「造成弱点击破后，使敌方目标行动延后 N%」（描述中的百分数）
+        if (ef.trigger === 'onBreak' && ef.stat === 'actionAdvance') applyEffect(st, ctx, q, ef);
+      }
+      callHook(ctx, q, 'onBreak', st, { breaker: i, entry: entry });
+    }
   }
 }
 
@@ -999,6 +1027,7 @@ function enemyTurn(st, ctx) {
   pushLog(st, { av: round2(st.av), actor: ctx.enemyCfg.name || '敌人', charId: null, action: 'enemy', skillName: note, damage: 0, sp: st.sp, energy: 0, hits: [], buffs: en.debuffs.map(function (b) { return b.label + (b.remaining != null ? '(' + b.remaining + ')' : ''); }) });
   var tb = tickBuffs(en.debuffs, en.turns);
   en.debuffs = tb.list;
+  if (tb.changed) refreshEnemySpeed(st, ctx);
   en.inTurn = false;
   if (!delayed) en.nextAv = st.av + 10000 / en.spdCur;
 }
@@ -1131,6 +1160,8 @@ export function applyDecision(st, ctx, opt) {
       if (m.memoSkill) castSkill(st, ctx, i, m.memoSkill, 'M');
     }
   }
+  // 本回合行动/追加攻击刚刚补满的终结技，在回合结束、buff 消退之前插入（否则 1 回合增益盖不到这次终结技）
+  fireAsapUlts(st, ctx);
   endTurn(st, ctx, i);
   return st;
 }
@@ -1142,9 +1173,19 @@ function endTurn(st, ctx, i) {
   tickAuras(st, i);
   u.inTurn = false;
   if (t.changed) refreshSpeed(st, ctx, i);
-  u.nextAv = st.av + 10000 / u.spdCur;
-  if (u.pendingAdvance) { u.nextAv = Math.max(st.av, u.nextAv - u.pendingAdvance * 10000 / u.spdCur); u.pendingAdvance = 0; }
-  if (u.custom.extraTurn) { u.custom.extraTurn = false; u.nextAv = st.av; }
+  if (u.custom.extraTurn) {
+    u.custom.extraTurn = false;
+    u.avLock = false;
+    u.pendingAdvance = 0;
+    u.nextAv = st.av;
+  } else if (u.avLock) {
+    // 钩子已指定下一次行动时刻（知更鸟离开行动序列，改走协奏倒计时）
+    u.avLock = false;
+    u.pendingAdvance = 0;
+  } else {
+    u.nextAv = st.av + 10000 / u.spdCur;
+    if (u.pendingAdvance) { u.nextAv = Math.max(st.av, u.nextAv - u.pendingAdvance * 10000 / u.spdCur); u.pendingAdvance = 0; }
+  }
 }
 
 // ---------------------------------------------------------------------------

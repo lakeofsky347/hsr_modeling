@@ -411,9 +411,14 @@ function loadConfig(cfg) {
   if (S.sel >= 4 || S.sel < 0) S.sel = 0;
 }
 function buildConfig() {
-  return { team: S.slots.filter(Boolean).map(clone), enemy: clone(S.enemy), battle: clone(S.battle), options: clone(S.options) };
+  return {
+    team: S.slots.filter(Boolean).map(clone),
+    // 保留空槽位置，导入 / 分享 / 预设才能把角色放回原来的格子
+    slots: S.slots.map(function (m) { return m ? clone(m) : null; }),
+    enemy: clone(S.enemy), battle: clone(S.battle), options: clone(S.options)
+  };
 }
-function exportConfig() { var c = buildConfig(); c.slots = S.slots.map(function (m) { return m ? m.charId : null; }); c.slots = undefined; return c; }
+function exportConfig() { return buildConfig(); }
 function saveState() {
   try { localStorage.setItem(LS_STATE, JSON.stringify({ slots: S.slots, enemy: S.enemy, battle: S.battle, options: S.options, sel: S.sel, auto: S.auto })); } catch (e) { /* 忽略 */ }
 }
@@ -619,7 +624,7 @@ function importDialog() {
 function savePresetDialog() {
   var name = prompt('预设名称：', S.slots.filter(Boolean).map(function (m) { return charName(m.charId); }).join('+'));
   if (!name) return;
-  var p = userPresets(); var c = exportConfig(); c.slots = S.slots; p[name] = c; saveUserPresets(p); renderTop(); toast('已保存预设「' + name + '」');
+  var p = userPresets(); p[name] = exportConfig(); saveUserPresets(p); renderTop(); toast('已保存预设「' + name + '」');
 }
 function managePresets() { /* 预留 */ }
 

@@ -22,11 +22,23 @@ function heuristic(st, ctx) {
   return h;
 }
 
+function listSig(list) {
+  var s = '';
+  for (var i = 0; i < list.length; i++) {
+    var b = list[i];
+    s += (b.key || '') + '=' + (b.stacks || 1) + '/' + (b.remaining == null ? 'p' : b.remaining) + '/' + Math.round((b.value || 0) * 1000) + ';';
+  }
+  return s;
+}
 function signature(st) {
-  var s = Math.round(st.dmg) + '|' + st.sp + '|' + Math.round(st.enemy.toughness) + '|' + (st.enemy.broken ? 1 : 0);
+  var s = Math.round(st.dmg) + '|' + st.sp + '|' + Math.round(st.enemy.toughness) + '|' + (st.enemy.broken ? 1 : 0) + '|' + Math.round(st.enemy.nextAv * 10);
+  s += '|D' + listSig(st.enemy.debuffs || []);
+  if (st.enemy.dots && st.enemy.dots.length) {
+    for (var d = 0; d < st.enemy.dots.length; d++) s += '|O' + st.enemy.dots[d].key + ':' + st.enemy.dots[d].remaining;
+  }
   for (var i = 0; i < st.units.length; i++) {
     var u = st.units[i];
-    s += '|' + Math.round(u.nextAv * 10) + ',' + Math.round(u.energy) + ',' + u.buffs.length + ',' + (u.ultTurns || 0);
+    s += '|' + Math.round(u.nextAv * 10) + ',' + Math.round(u.energy) + ',' + listSig(u.buffs) + ',' + (u.ultTurns || 0);
   }
   // override 自定义状态参与去重（避免把资源不同的状态误判为相同）
   if (st.custom) for (var k in st.custom) { var c = st.custom[k]; if (c && !isEmptyObj(c)) s += '|' + k + ':' + JSON.stringify(c); }

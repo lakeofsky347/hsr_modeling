@@ -1,7 +1,7 @@
 {
   "id": 8012040,
   "name": "喜剧学家",
-  "desc": "...",
+  "desc": "由伪觉者「归寂」分裂出部分所创造，尝试以分析喜剧的方式彻底解构欢愉。\\n它的存在为毁灭存在而生，以悲剧为喜剧的内核，以「毁灭」为「欢愉」的真谛。",
   "monster_camp_id": 6,
   "attack_base": 18,
   "critical_damage_base": 0.2,
@@ -155,7 +155,7 @@
       "attack_modify_ratio": 1,
       "defence_modify_ratio": 1,
       "elite_group": 1,
-      "hp_modify_ratio": 2,
+      "hp_modify_ratio": 1.833333,
       "speed_modify_ratio": 1,
       "speed_modify_value": null,
       "stance_modify_ratio": 1,

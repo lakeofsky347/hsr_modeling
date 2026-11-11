@@ -4,352 +4,366 @@
   "chara_info": {
     "camp": "空间站「黑塔」",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "…"
+      "chinese": "龟娘",
+      "japanese": "赤﨑千夏",
+      "korean": "김현지",
+      "english": "Felecia Angelle"
     },
     "stories": {
-      "0": "…",
-      "1": "…",
-      "2": "…",
-      "3": "…",
-      "4": "…"
+      "0": "好奇心与精力都很旺盛的少女，空间站「黑塔」的名义站长。\\n无论是管理各抒己见的科员，还是直接又不失礼貌地回复博识学会的种种刁难，对艾丝妲来说都易如反掌。\\n毕竟指挥空间站…总比继承家业简单吧！",
+      "1": "当艾丝妲年纪尚小，却已经开始自行挑选望远镜时，耳旁总隐隐约约传来长辈的赞叹。她对此颇为自豪，因为望远镜的主镜工艺、导星系统，她看一眼便知。\\n\\n直到有一天她走近偷听时，才发觉他们只是在啧啧称奇，一个小姑娘居然能挑中如此昂贵的物件。\\n\\n个人喜好在看客眼中并不存在，他们只愿意将她当作一个养尊处优的小姑娘而已。\\n\\n<i>「喜欢星星？噢我懂，小姑娘嘛，喜欢亮晶晶的东西。」\\n「嗯…我在研究恒星胚胎，希望有一天由我发现的星星，也能以我的名字命名…就像那些厉害的天文学家一样……」\\n「就这点小事？今年的生日礼物，就用你的名字给这颗星球命名吧？两颗也行，没多少钱。」\\n「……」\\n「喂，艾丝妲你去哪，艾丝妲！」</i>",
+      "2": "她明白，她和母亲是否是合格的义工并不重要。人们只是希望她们出现在这里，仅此而已。\\n\\n食物分完了，人们也陆陆续续散去，只剩下一个小男孩。他右手有伤，眼神像狼一样，瞪得她有点不爽。\\n\\n<i>「你也要问我借钱么？」\\n「我不要钱。我得还刚刚的饭钱，但我现在没钱。」</i>\\n\\n时常有不认识的「朋友」前来找艾丝妲借钱，但她第一次听到有人要还她钱，惊异地睁大了眼睛。一旁的母亲也忍俊不禁。\\n\\n<i>「你还是个孩子吧，会干什么？」\\n「打架。」\\n「这可不是个好工作——这样吧，我这儿有个工作介绍给你。」</i>\\n\\n——时至今日，在艾丝妲心中，阿兰的那顿饭钱，在他说出要还钱的那个时刻，就已经结清了。",
+      "3": "<i>「星星尚且能遵循自己的轨迹穿行，那人类呢…人类真的无法掌握自己的命运吗？」</i>\\n\\n优渥的家庭背景给予了艾丝妲探索星空的力量，但也成为了她本人的束缚。\\n\\n随着年岁增长，艾丝妲想当天文学家的誓言，逐渐被家族视为某种旁门左道——她甚至不记得已经有多少次在家族会议上和亲戚争论这个问题了。\\n\\n直到某次会议结束后，一个人偶少女从门外走入。而刚刚还盛气凌人的其中一人，在她身旁却是一副唯唯诺诺的姿态。\\n\\n<i>「就这个小姑娘吧。」\\n「但是她…」\\n「什么但是，我大老远过来听你们那些狗屁不通的学术汇报，还不如听这小姑娘和你们吵架有趣。」\\n「……」\\n「三天之内，我要在空间站里看到她。」</i>\\n\\n人偶少女说完，头也不回地离去。",
+      "4": "成为空间站「黑塔」的站长后，艾丝妲的生活相较从前更为忙碌。她需要管理各抒己见的科员，替黑塔回复多如牛毛的信件，以及频繁和公司交涉，从各种渠道购置新的设备…但与此同时，她也在这里获得了最大的自由——\\n\\n<i>「调用2号设备舱的纽尔•伊曼望远镜，设置<unbreak>100</unbreak>倍天文单位，观测前方『星前云核』。」\\n「要特别注意粒子密度，一旦发现超致密结构，马上开始记录『恒星胚胎』的分裂过程。」</i>\\n\\n闲暇时，艾丝妲偶尔也会想起，自从自己接手这个空间站之后，黑塔女士已经许久没有出现。她也曾询问过，得到的只是「没有趣的新东西，我就不来了」这样的回复。\\n\\n<i>「…还不如听这小姑娘和你们吵架有趣。」</i>\\n\\n她想起很久以前的那一天，黑塔漫不经心地跟身边人说道。\\n\\n回忆中的黑塔仿佛站在绚烂的星光中，带给她掌控星空与自己命运的力量。"
     },
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "初次见面",
+        "voice_m": "嗨，{NICKNAME}，我是空间站「黑塔」的站长艾丝妲。要你帮忙的时候，我一定告诉你…你放心，不和你客气。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "问候",
+        "voice_m": "你来了，之前调试的观测阵列该出结果了，有空一起来看看？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "道别",
+        "voice_m": "已经到这个点了么？工作的时间总是过得那么快。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•家族",
+        "voice_m": "哎，就算我不和任何一个人联系，那些亲戚也会自个儿找上门来。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•工作",
+        "voice_m": "是啊，如果我不努力工作，就要回去继承家业了……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•天文论文",
+        "voice_m": "…虽然现在一个字都还没写，但写起来肯定很快。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•空间站",
+        "voice_m": "「空间站不过是黑塔的玩具箱」，这句话不假。不过既然是黑塔女士，她的玩具当然也危险得很~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "爱好",
+        "voice_m": "持续不断地将资金投入空间站的建设，完善员工福利，形成良性循环，同时满足站长，也就是本人自身必要的购物需求。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "烦恼",
+        "voice_m": "如果黑塔女士能多回空间站看看就好了，明明科员都是追随她来的。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "分享",
+        "voice_m": "刚到空间站时，科员们给我单独准备了一个房间，虽然我很感激他们，只是那儿离大家太远，我就没什么兴致住啦。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻",
+        "voice_m": "即使是监控室，也会处于监控中呢。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于阿兰",
+        "voice_m": "我模仿一下平时的阿兰：「大家听从艾丝妲站长的判断。」然后当我叮嘱他：「阿兰，你也小心一点。」他说：「没事，我有自己的判断。」",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于黑塔",
+        "voice_m": "任何人如果觉得自己可以像黑塔女士那样任性妄为，建议他先思考一下自己是否具备黑塔女士那样的智慧~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于星穹列车",
+        "voice_m": "列车巡游银河，我不一定都能帮上忙，但只要是花钱能解决的事，尽管和我说吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 15,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于托帕",
+        "voice_m": "上次和托帕小姐聊起休假，约好包个飞行器，看看浩瀚星海，聊聊「公司」八卦啦…不过，我俩的时间什么时候才能凑一起呢……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于阮•梅",
+        "voice_m": "我问起过阮•梅小姐袖间挂坠的购买链接，却没想到是她亲手绣的，更没想到她下次来空间站时，会送我一个星形的坠子。她的手艺同她的论文一样，都超级精湛呢。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "星魂激活",
+        "voice_m": "每一颗星星，都是一个奇迹！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "了解的事越多，就越喜欢这片星空。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 19,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "目标就如星辰一般，并非都是遥不可及哟。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 20,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "行迹激活",
+        "voice_m": "哎呀呀，这就是「追星之旅」吗？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 21,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "列车组帮了我不少忙，这次也该轮到我投桃报李啦！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 22,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•阿兰",
+        "voice_m": "阿兰…你可不要再一个人孤军奋战了。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 23,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•黑塔",
+        "voice_m": "黑塔女士也在？这下就没什么好担心的了！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 24,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•托帕",
+        "voice_m": "哎呀，是托帕小姐！好巧好巧，就当是一起出公差吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "关于大黑塔",
+        "voice_m": "「黑塔」空间站建立至今，我也只见过黑塔女士本人寥寥数面。但每一次会面，都令我终生难忘。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "队伍编成•大黑塔",
+        "voice_m": "有劳您亲自出面了。不用担心，协助的工作就交给我吧！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 51,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "嗯？别怕呀。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 52,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "我也得小心起来。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 53,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•一",
+        "voice_m": "真是不懂礼貌的客人。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 54,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•二",
+        "voice_m": "我可不记得有邀请过你们。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 55,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合待机",
+        "voice_m": "猜猜我要干什么~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 56,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "普攻",
+        "voice_m": "要躲开哟。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 57,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•一",
+        "voice_m": "幸运儿会是哪个呢~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 58,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•二",
+        "voice_m": "接受星星的祝福吧~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 59,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "轻受击",
+        "voice_m": "疼疼疼……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 60,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重受击",
+        "voice_m": "你不要过来……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 61,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•激活",
+        "voice_m": "一切，都是星辰的选择。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 62,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•施放",
+        "voice_m": "渴望着星星奥秘的钥匙啊，向开拓者们赐予你真正的祝福吧！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 63,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "无法战斗",
+        "voice_m": "还想…知道更多……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 64,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重回战斗",
+        "voice_m": "刚才的不算，我们重新来过。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 65,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回复生命",
+        "voice_m": "救了我也不会给你什么好处的。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 66,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "秘技",
+        "voice_m": "露出破绽咯~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 67,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "星辰会铭记我们的名字。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 68,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "我都有了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 69,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "有进步呀~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 70,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "我不打它，它就不会打我么？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 71,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "这儿也能看到星星么？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 72,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "也是一片心意嘛~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 73,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "品质还算上乘。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 74,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "好久没有解题啦！",
         "unlock_desc": null,
         "is_battle_voice": true
       }
@@ -417,6 +431,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "100901": {
       "id": 100901,
@@ -435,6 +450,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -516,6 +532,7 @@
         0
       ],
       "skill_combo_value_delta": 15,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -627,6 +644,7 @@
         0
       ],
       "skill_combo_value_delta": 15,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -753,6 +771,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -894,6 +913,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -919,6 +939,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

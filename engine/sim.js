@@ -88,9 +88,11 @@ const KIT_SCALE = {
     ['kit.skill.multiplier', '151102', 1],
     ['kit.ult.multiplier', '151103', 1],
     ['kit.ult.extraMultiplier', '151103', 3],
+    ['kit.ult.advance', '151103', 4],
     ['kit.talent.teamCritDmg', '151104', 8],
     ['kit.elationSkills.0.multiplier', '151120', 0],
-    ['kit.innate.defIgnore', '151129', 1]
+    ['kit.innate.defIgnore', '151129', 1],
+    ['kit.innate.critRate', '151129', 2]
   ]
 };
 
@@ -609,8 +611,11 @@ function collectBuffs(st, unit, opts) {
   }
   if (st.upgraded) {
     if (unit.id === '1501' && unit.def.kit.innate) {
-      add('critDmg', unit.def.kit.innate.critDmg, '固有行迹·兔子戏法');
+      // 4.7：#5 改为欢愉技倍率，不再是暴击伤害。倍率在 executeElationSkill 里乘。
       add('defIgnore', unit.def.kit.innate.defIgnore, '固有行迹·兔子戏法无视防御');
+    }
+    if (unit.id === '1511' && unit.def.kit.innate && unit.def.kit.innate.critRate) {
+      add('critRate', unit.def.kit.innate.critRate, '固有行迹·无中生有');
     }
     if (unit.id === '1506' && unit.def.kit.innate) {
       add('critDmg', unit.def.kit.innate.critDmg, '固有行迹·全息幻象');
@@ -1118,7 +1123,9 @@ function executeAction(st, unit, action) {
         var lcJoke = lcParam(unit.lc, 1);
         gainJoke(st, unit, lcJoke);
         st.lcTeamDefIgnore = true;
-        st.lcAhaCd = lcParam(unit.lc, 2) || 2;
+        // 4.7 文案是「每间隔 #3 回合」。#3=1 表示两次触发之间空过 1 个回合，不是每个回合都触发。
+        // 冷却在下一次回合开始才减 1，所以计数要比间隔多 1，才会真正空过那一回合。
+        st.lcAhaCd = (lcParam(unit.lc, 2) || 0) + 1;
         entry.note = (entry.note ? entry.note + '；' : '') + '光锥·即兴巡演 +' + lcJoke + ' 笑点，全队无视防御 ' +
           Math.round(lcParam(unit.lc, 3) * 1000) / 10 + '%';
       }
@@ -1133,15 +1140,15 @@ function executeAction(st, unit, action) {
       unit.fervor = 0;
       st.ahaStanceTurnsLeft = unit.def.kit.ult.stanceTurns;
       st.upgraded = true;
-      if (unit.eidolon >= 6) {
+      if (unit.def.kit.ult.advance) advanceAhaMoment(st, unit.def.kit.ult.advance);
+      if (unit.eidolon >= 6 && !unit.__e6FirstUlt) {
+        unit.__e6FirstUlt = true;
         var e6 = unit.def.eidolons[6];
-        advanceUnit(st, st.ahaMoment, e6.ultAdvance);          // 每次开大：阿哈行动提前 20%
-        if (!unit.__e6FirstUlt) {
-          unit.__e6FirstUlt = true;
-          st.joke += e6.firstUltExtraTurnJoke;                  // 固定计入 40 笑点
-          advanceUnit(st, st.ahaMoment, 1.0);                   // 立即获得 1 个额外回合
-          entry.note = (entry.note ? entry.note + '；' : '') + '星魂6：阿哈立即获得额外回合（固定计入 ' + e6.firstUltExtraTurnJoke + ' 笑点）';
-        }
+        var joke6 = e6.firstUltJoke || 0;
+        st.joke += joke6;
+        advanceAhaMoment(st, e6.firstUltAdvance || 1);
+        entry.note = (entry.note ? entry.note + '；' : '') + '星魂6：首次终结技，阿哈行动提前 ' +
+          Math.round((e6.firstUltAdvance || 1) * 100) + '%，笑点 +' + joke6;
       }
       /* 艺术壁垒回能统一在 executeAction 开头处理 */
     }
@@ -1198,11 +1205,18 @@ function healTick(st, entry) {
   }
 }
 
-// 行动提前
+// 行动提前（按剩余行动值的比例。原有调用保持这个口径）
 function advanceUnit(st, unit, ratio) {
   if (!ratio) return;
   var remaining = unit.nextAV - st.av;
   unit.nextAV = st.av + remaining * (1 - Math.min(1, ratio));
+}
+// 阿哈时刻的行动提前：减去「比例 × 10000/速度」，与 engine2 advanceTimer、tests/v2/rotation.test.mjs 一致
+function advanceAhaMoment(st, ratio) {
+  var m = st.ahaMoment;
+  if (!ratio || !m) return;
+  var cut = Math.min(1, ratio) * 10000 / Math.max(1, m.spd || 1);
+  m.nextAV = Math.max(st.av, m.nextAV - cut);
 }
 
 // 欢愉技（阿哈时刻内逐个施放）
@@ -1241,6 +1255,8 @@ function executeElationSkill(st, unit, entry, sk) {
   var mult = sk.multiplier;
   if (sk.multiplierByCount) mult = sk.multiplierByCount[tierIndex(st.elationCount, [1, 2, 3, 4])];
   if (unit.id === '1503' && unit.eidolon >= 4) mult = mult * 2;
+  var asc = (unit.id === '1501' && st.upgraded && unit.def.kit.innate) ? (1 + (unit.def.kit.innate.critDmg || 0)) : 1;
+  if (asc !== 1) mult = mult * asc;
   if (sk.hits) {
     dealElation(st, unit, entry, { skillId: sk.id, skillName: sk.name, multiplier: mult, joke: joke, count: sk.hits });
   } else if (mult) {
@@ -1248,6 +1264,7 @@ function executeElationSkill(st, unit, entry, sk) {
   }
   if (sk.extraHits) {
     var extra = sk.extraMultiplier;
+    if (asc !== 1) extra = extra * asc;
     if (unit.id === '1501' && unit.eidolon >= 6) extra = extra * (1 + 0);
     var extraCount = sk.extraHits + (unit.id === '1501' && unit.eidolon >= 6 ? Math.min(20, st.joke) : 0);
     dealElation(st, unit, entry, { skillId: sk.id, skillName: sk.name + '·额外伤害 x' + extraCount, multiplier: extra, joke: joke, count: extraCount });

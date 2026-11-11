@@ -2,7 +2,7 @@
 
 ## v3.5 发布站（2026-10-13，计算口径 hsr-calc-3.4.1）
 
-可部署的静态站在 **[dist/skylake/hsr/](dist/skylake/hsr/index.html)**（对应发布包 `sim-hsr-20261013.zip` 里的 `hsr/`）。数据版本仍是 4.6.51，但希儿用了改版表，欢愉技默认不再叠【好活当赏】。说明见 [site/README-hsr.md](site/README-hsr.md)。
+可部署的静态站在 **[dist/skylake/hsr/](dist/skylake/hsr/index.html)**（对应发布包 `sim-hsr-20261013.zip` 里的 `hsr/`）。数据版本是 4.7（nanoka `static.nanoka.cc/hsr/4.7`，对照 DimbreathBot `fe44559`）。希儿仍用改版表，欢愉技默认不再叠【好活当赏】。说明见 [site/README-hsr.md](site/README-hsr.md)。
 
 本地打开（`file://` 不能拉 `data/hsr.json`）：
 

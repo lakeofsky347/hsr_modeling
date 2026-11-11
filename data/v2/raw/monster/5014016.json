@@ -11,7 +11,7 @@
   "image_path": "SpriteOutput/MonsterFigure/Monster_5014010.png",
   "minimum_fatigue_ratio": 0.2,
   "rank": "LittleBoss",
-  "speed_base": 120,
+  "speed_base": 200,
   "stance_base": 960,
   "stance_count": 1,
   "status_resistance_base": 0.3,
@@ -27,14 +27,14 @@
       "stance_modify_ratio": 1,
       "stance_modify_value": null,
       "stance_weak_list": [
-        "Fire",
+        "Physical",
         "Quantum",
         "Imaginary"
       ],
       "hard_level_group": 1,
       "damage_type_resistance": [
         {
-          "damage_type": "Physical",
+          "damage_type": "Fire",
           "value": 0.2
         },
         {
@@ -183,7 +183,7 @@
         {
           "id": 501401610,
           "skill_name": "粉丝的狂欢",
-          "skill_desc": "<u>连麦PK</u>开启后，处于主战场的敌方目标受到的伤害降低，并免疫控制类负面状态。<u>连麦PK</u>解除时，若处于副战场的敌方目标全部被消灭，则失去该效果。否则会基于副战场敌方目标剩余的生命值比例，保留部分伤害降低效果，该效果持续到下一次<u>连麦PK</u>开启。若自身生命值降低至一定比例时，仍未开启过<u>连麦PK</u>，则使自身行动提前。",
+          "skill_desc": "<u>连麦PK</u>开启后，处于主战场的敌方目标受到的伤害降低，并免疫控制类负面状态。<u>连麦PK</u>解除时，若处于副战场的敌方目标全部被消灭，则失去该效果。否则会基于副战场敌方目标剩余的生命值比例，保留部分伤害降低效果，该效果持续到下一次<u>连麦PK</u>开启。",
           "damage_type": "",
           "sp_hit_base": "",
           "extra": {
@@ -196,8 +196,8 @@
         },
         {
           "id": 501401611,
-          "skill_name": "",
-          "skill_desc": "",
+          "skill_name": "永恒剧目",
+          "skill_desc": "施放【抬你上麦！】后，处于主战场的敌方目标获得【永恒剧目】，韧性无法被削减，并使自身受到所有伤害大幅降低。处于副战场的敌方目标获得【狂欢】，韧性无法被削减，受到的非欢愉伤害大幅降低，欢愉伤害小幅降低，欢愉伤害破除【狂欢】的效率大幅提高。<u>连麦PK</u>解除时，处于主战场的敌方目标【永恒剧目】解除，若处于副战场的敌方目标全部被消灭，则使自身受到大量伤害，敌方全体受到的伤害提高。若在施放【抬你上麦！】前生命值降低到一定值，则立刻施放【抬你上麦！】。",
           "damage_type": "",
           "sp_hit_base": "",
           "extra": {}

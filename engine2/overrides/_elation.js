@@ -142,6 +142,13 @@ export function runMoment(api) {
   var counted = s.joke || 0;
   var M = { entry: entry, counted: counted, dmg: 0, start: api.state.dmg };
   var mem = elationMembers(api);
+  // 4.7 欢愉技 151120：无视参演编号，阿哈始终最后施放，真伤才盖得住本时刻其他人的非真伤。
+  mem.sort(function (a, b) {
+    var ca = cidOf(api, a), cb = cidOf(api, b);
+    if (ca === '1511') return 1;
+    if (cb === '1511') return -1;
+    return a - b;
+  });
   var before = api.state.dmg;
   mem.forEach(function (j) {
     var r = REG[cidOf(api, j)];

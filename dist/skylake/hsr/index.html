@@ -180,8 +180,8 @@ button.chip{appearance:none}
 .delta.up{color:var(--ok)}.delta.down{color:var(--bad)}
 .errbox .cta{margin-top:8px}
 </style>
-<link rel="preload" as="fetch" crossorigin="anonymous" href="data/hsr.json?v=be3578ead073">
-<link rel="preload" as="fetch" crossorigin="anonymous" href="data/chunks.json?v=44e766bf8e20">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/hsr.json?v=466787ce8e09">
+<link rel="preload" as="fetch" crossorigin="anonymous" href="data/chunks.json?v=bc43504cf112">
 <link rel="stylesheet" href="assets/theme/common.css?v=ddabf7b0dfee">
 <link rel="stylesheet" href="assets/theme/hsr.css?v=285d493b739e">
 <link rel="stylesheet" href="assets/theme/interact.css?v=e3022245bc96">
@@ -246,7 +246,7 @@ var migrateConfig = E.migrateConfig;
 /* ===== [1] engine2/data.gen.js ===== */
 function (__exports, __require) {
 __def(__exports, {"DATA": function () { return DATA; }});
-// 由 scripts/v2/build_kits.mjs 自动生成，请勿手改。数据来源 hsr.nanoka.cc 4.6.51
+// 由 scripts/v2/build_kits.mjs 自动生成，请勿手改。数据来源 hsr.nanoka.cc 4.7
 const DATA = (typeof globalThis !== 'undefined' ? globalThis : self).__SIM_DATA__;
 
 },
@@ -856,6 +856,13 @@ function runMoment(api) {
   var counted = s.joke || 0;
   var M = { entry: entry, counted: counted, dmg: 0, start: api.state.dmg };
   var mem = elationMembers(api);
+  // 4.7 欢愉技 151120：无视参演编号，阿哈始终最后施放，真伤才盖得住本时刻其他人的非真伤。
+  mem.sort(function (a, b) {
+    var ca = cidOf(api, a), cb = cidOf(api, b);
+    if (ca === '1511') return 1;
+    if (cb === '1511') return -1;
+    return a - b;
+  });
   var before = api.state.dmg;
   mem.forEach(function (j) {
     var r = REG[cidOf(api, j)];
@@ -1082,7 +1089,9 @@ var elationCount = __d1["elationCount"];
 //  * 行迹：攻击力>2000 每 100 点欢愉度 +5%（≤80%）；每笑点全队暴伤 +8%（≤80%，随笑点实时更新）。
 //  * 欢愉技（阿哈时刻）：全体 p1 + 20 次（E6 + min(20, 当前笑点)）× p0 随机单体，笑点 = 好活当赏 + 当前笑点；获得 2 爆点，+5 能量。
 //  * E1：阿哈时刻结束 +5 笑点；每笑点全队抗穿 +1.5%（≤15%）。E2：阿哈时刻结束行动提前 100% + 2 爆点，每爆点暴伤 +10%（≤40%，不衰减）。
-//  * 升格：暴伤 +120%、自身无视防御 20%（v1 只给火花本人）。爆点抵扣战技点未建模（只计暴伤层数）。
+//  * 升格（150129，4.7）：欢愉技倍率 ×(1+#5)。2 级 #5 仍是 1.2（即 +120%），1 级由 0.3 改为 0.5；文案从「暴击伤害」改成「欢愉技倍率」。
+//    解析器仍取最高级，所以默认用 2 级。无视防御仍只给火花本人（原文是我方全体，4.6.51 起就是这样，本次不改）。
+//    绝活共赏额外爽点未建模。爆点抵扣战技点未建模（只计暴伤层数）。
 
 
 
@@ -1097,7 +1106,6 @@ function refresh(api, j) {
   if (p.e >= 1) api.addBuff({ key: 'spx:e1', stat: 'resPen', value: Math.min(p.e1[2], jk * p.e1[1]), duration: null, label: '火花E1·抗穿' }, 'team');
   if (p.e >= 2) api.addBuff({ key: 'spx:e2', stat: 'critDmg', value: Math.min(0.4, (c.sparks || 0) * 0.1), duration: null, label: '火花E2·爆点暴伤' }, j);
   var up = upgraded(api);
-  api.addBuff({ key: 'spx:innCd', stat: 'critDmg', value: up ? p.inn[4] : 0, duration: null, label: '兔子戏法·暴伤' }, j);
   api.addBuff({ key: 'spx:innDi', stat: 'defIgnore', value: up ? p.inn[0] : 0, duration: null, label: '兔子戏法·无视防御' }, j);
 }
 
@@ -1107,9 +1115,10 @@ REG[ID] = {
     var c = cs(api, j), p = c._p;
     if (!p) return;
     var jk = (api.ctx.opts && api.ctx.opts.goodRewardOnElationSkill ? (c.gr || 0) : 0) + joke(api);
-    elHit(api, j, { mult: p.x[1], joke: jk, target: 'aoe', note: '信号溢出：好戏返场！', entry: M.entry });
+    var scale = upgraded(api) && p.inn[4] ? (1 + p.inn[4]) : 1;
+    elHit(api, j, { mult: p.x[1] * scale, joke: jk, target: 'aoe', note: '信号溢出：好戏返场！', entry: M.entry });
     var n = p.x[2] + (p.e >= 6 ? Math.min(20, joke(api)) : 0);
-    elHit(api, j, { mult: p.x[0], count: n, joke: jk, target: 'single', note: '好戏返场·额外 ×' + n, entry: M.entry });
+    elHit(api, j, { mult: p.x[0] * scale, count: n, joke: jk, target: 'single', note: '好戏返场·额外 ×' + n, entry: M.entry });
     c.sparks = (c.sparks || 0) + (p.x[3] || 2);
     api.gainEnergy(5, j);
   },
@@ -1382,10 +1391,13 @@ var runMoment = __d1["runMoment"];
 //    受治疗 +1（真珠治疗触发，每次终结技后重置）；E1 开场 4 点。终结技需 8 点，施放后清零。
 //  * 令使目标 = policy.lordTarget → 1506 → 主 C；首次战技指定，欢愉度 +p0（整场）。无令使时优先战技。
 //  * 战技：全体 p1 欢愉（好活当赏）+ 令使额外 20% 欢愉（按令使好活当赏）+ 回 1 战技点（行迹）。普攻：p0 单体欢愉。
-//  * 终结技：全体 p1 + 5 × p3 随机单体欢愉；【欢愉万相】3 回合（阿哈回合开始 −1）→ 命途升格；期间自身无视防御 30%（E2 60%）。
-//  * 欢愉技（阿哈时刻）：全体 p0 欢愉，笑点 = 好活当赏 + 当前笑点（E4 + 队友好活当赏之和）；再按本次阿哈时刻已造成伤害 × 20%（E4 25%）造成真伤。
-//  * 秘技：开场笑点 +20（v1 同）。行迹「盒中蕴藏的世界」：速度 ≥125/150 欢愉度 +120%/150%（按 4.6.51 数据；v1 为 20%/50%）。
-//  * E1 全队增笑 15%；E6 每次终结技阿哈时刻行动提前 20%，首次终结技 +40 笑点并立即触发阿哈时刻。欢愉负债未建模。
+//  * 终结技（151103，4.7）：全体 p1 + p2 次 × p3 随机单体欢愉；阿哈时刻行动提前 p4（10 级 20%）；【欢愉万相】p5 回合（阿哈回合开始 −1）。
+//  * 欢愉万相（151129）：无视防御取 1 级/2 级的第 2 个参数（30%/60%，2 级由阿哈 2 魂解锁，AvatarSeriesSkill）；暴击率取第 3 个参数（12%/20%，4.7 新增）。
+//  * 欢愉技（阿哈时刻）：全体 p0 欢愉；真伤参照本次时刻里、这段真伤之前的伤害（阿哈固定最后手，见 _elation.js）。爽点返还未建模。
+//  * 秘技：开场笑点 +20。行迹「盒中蕴藏的世界」仍按技能参数（速度 ≥125/150 → 欢愉度 +120%/150%）。
+//  * 天赋 151104：笑点首次 ≥ p1 时全队暴伤 +p8（10 级 4.7 为 40%，4.6.51 为 24%），持续 p9 回合。愿力溢出到 p10（10 点）未建模，仍以 8 点为上限并在开大时清空。
+//  * E1：开场愿力 = 星魂参数第 1 项（4.7 为 5），全队增笑第 2 项 15%。
+//  * E6（4.7 文案）：首次终结技后阿哈时刻行动提前第 3 项（100%）并获得第 2 项笑点（100）。不再按 4.6.51 的「额外回合 + 每次 20%」。欢愉负债未建模。
 
 
 
@@ -1422,7 +1434,14 @@ REG[ID] = {
     if (!p) return;
     checkJoke40(api, j);
     var up = (sh(api).upg || 0) > 0;
-    api.addBuff({ key: 'aha:inn', stat: 'defIgnore', value: up ? (p.e >= 2 ? 0.6 : (p.inn[0] || 0.1) * 3) : 0, duration: null, label: '无中生有·无视防御' }, j);
+    var row = (p.e >= 2 && p.inn2 && p.inn2.length) ? p.inn2 : ((p.inn1 && p.inn1.length) ? p.inn1 : p.inn);
+    var defI = 0, crit = 0;
+    if (up && row && row.length) {
+      defI = row.length > 1 ? row[1] : (row[0] || 0.1) * 3;
+      crit = row.length > 2 ? row[2] : 0;
+    }
+    api.addBuff({ key: 'aha:inn', stat: 'defIgnore', value: defI, duration: null, label: '无中生有·无视防御' }, j);
+    api.addBuff({ key: 'aha:innCr', stat: 'critRate', value: crit, duration: null, label: '无中生有·暴击率' }, j);
   },
   elationSkill: function (api, j, M) {
     var c = cs(api, j), p = c._p;
@@ -1444,6 +1463,8 @@ var override = {
     kit._ovp = {
       e: e, basic: paramsOf(kit, member, '151101'), skill: paramsOf(kit, member, '151102'), ult: paramsOf(kit, member, '151103'),
       tal: paramsOf(kit, member, '151104'), x: paramsOf(kit, member, '151120', 'elation'), inn: paramsOf(kit, member, '151129'),
+      inn1: ((skillById(kit, '151129') || {}).params || [])[0] || [],
+      inn2: ((skillById(kit, '151129') || {}).params || [])[1] || [],
       t1: traceParams(kit, '愚弄众神的玩笑'), t3: traceParams(kit, '盒中蕴藏的世界'), e1: eidolonParams(kit, 1), e6: eidolonParams(kit, 6)
     };
     ['151101', '151102', '151103', '151104', '151120', '151129', '151131'].forEach(function (id) { var s = skillById(kit, id); if (s) { s.hits = []; s.effects = []; } });
@@ -1501,9 +1522,11 @@ var override = {
         setFervor(api, api.index, 0);
         sh(api).upg = p.ult[5] || 3;
         c._healUsed = false;
-        if (p.e >= 6) {
-          advanceAha(api, p.e6[0] || 0.2);
-          if (!c.e6first) { c.e6first = true; gainJoke(api, p.e6[1] || 40); runMoment(api); }
+        if (p.ult[4] > 0) advanceAha(api, p.ult[4]);
+        if (p.e >= 6 && !c.e6first) {
+          c.e6first = true;
+          gainJoke(api, p.e6[1] || 100);
+          advanceAha(api, p.e6[2] || 1);
         }
         REG[ID].refresh(api, api.index);
         for (var j = 0; j < api.ctx.members.length; j++) { var r = REG[api.ctx.members[j].charId]; if (r && r.refresh) r.refresh(api, j); }
@@ -5615,6 +5638,12 @@ function kitSection() {
       if ((kit.eidolons || []).length) {
         add(body, h('h3', null, '星魂', h('span', { class: 'grow' })));
         kit.eidolons.forEach(function (e) { add(body, h('div', Object.assign({ class: 'ks' + (e.rank > m.eidolon ? ' locked' : '') }, __lowAttrs(__lowList(__findBy((__charRaw(m.charId) || {}).eidolons, 'rank', e.rank)))), h('div', { class: 't' }, h('span', { class: 'tag' + (e.rank <= m.eidolon ? ' gold' : '') }, 'E' + e.rank), e.name), h('div', { class: 'd' }, e.desc || ''))); });
+        if ((kit.exRanks || []).length) {
+          add(body, h('h3', null, '奇缘星魂', h('span', { class: 'grow' })));
+          kit.exRanks.forEach(function (e) {
+            add(body, h('div', { class: 'ks' }, h('div', { class: 't' }, h('span', { class: 'tag low' }, e.modeled ? '已计入' : '未计入'), e.name), h('div', { class: 'd' }, (e.desc || '') + (e.unresolved ? '\n' + e.unresolved : ''))));
+          });
+        }
       }
       if ((kit.notes || []).length) {
         add(body, h('h3', null, '解析备注', h('span', { class: 'grow' })));
@@ -5867,7 +5896,7 @@ window.__HSR2_UI__ = { S: S, runNow: runNow, loadConfig: loadConfig, buildConfig
 /* sim data loader (generated by pipeline/build_pages.py) */
 (function () {
 "use strict";
-var CFG = {"game": "hsr", "url": "data/hsr.json?v=be3578ead073", "engineGlobal": "HSR2", "requiredKeys": ["version", "characters", "lightcones", "relicSets", "monsters"], "versionPath": ["version"], "version": "4.6.51", "keepText": true, "chunksUrl": "data/chunks.json?v=44e766bf8e20", "base": "", "boot": [{"id": "index", "kind": "index", "url": "data/hsr.json?v=be3578ead073", "size": 2696648}]};
+var CFG = {"game": "hsr", "url": "data/hsr.json?v=466787ce8e09", "engineGlobal": "HSR2", "requiredKeys": ["version", "characters", "lightcones", "relicSets", "monsters"], "versionPath": ["version"], "version": "4.7", "keepText": true, "chunksUrl": "data/chunks.json?v=bc43504cf112", "base": "", "boot": [{"id": "index", "kind": "index", "url": "data/hsr.json?v=466787ce8e09", "size": 2687263}]};
 function ui(name, arg) {
   function go() {
     var f = window[name];

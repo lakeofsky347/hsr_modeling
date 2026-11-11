@@ -206,17 +206,18 @@ export const CHARACTERS = [
                lordElationDegree: 0.25, lordFervor: 1, fervor: 1 },
       // 151103 终结技 啊哈！宇宙笑点大爆炸：240% 全体 + 5 x 72%
       ult: { id: '151103', name: '啊哈！宇宙笑点大爆炸', multiplier: 2.4, extraHits: 5, extraMultiplier: 0.72,
-             kind: 'elation', fervorCost: 8, stanceTurns: 3, stanceDefIgnore: 0.30, defIgnoreE2: 0.60 },
+             kind: 'elation', fervorCost: 8, stanceTurns: 3, stanceDefIgnore: 0.30, defIgnoreE2: 0.60,
+             advance: 0.20 },
       // 151104 天赋 与祂共演，奇迹新篇
       talent: { id: '151104', name: '与祂共演，奇迹新篇', fervorMax: 8, jokeThreshold: 40,
-                teamCritDmg: 0.30, critDmgTurns: 3 },
+                teamCritDmg: 0.50, critDmgTurns: 3 },
       // 151120 欢愉技 满月，是神在的时间：75% 全体 + 本次阿哈时刻总伤害 20% 真伤
       elationSkills: [ { id: '151120', name: '满月，是神在的时间', kind: 'elation', multiplier: 0.75,
                          trueRatio: 0.20, trueRatioE4: 0.25, fervor: 1 } ],
       // 151107 秘技 ABRACADABRA！：进战使阿哈获得固定计入 20 点笑点的额外回合
       maze: { id: '151107', name: 'ABRACADABRA！', extraTurnJoke: 20, fervor: 0 },
       // 151129 固有行迹 欢愉万相★无中生有
-      innate: { id: '151129', name: '欢愉万相★无中生有', defIgnore: 0.30, sparkRefundRatio: 0.10 },
+      innate: { id: '151129', name: '欢愉万相★无中生有', defIgnore: 0.30, critRate: 0.20, sparkRefundRatio: 0.10 },
       // 151131 阿哈正传（专属行迹技能）：欢愉负债 = 伤害值 25%，上限目标生命上限 10%
       debt: { id: '151131', name: '阿哈正传', ratio: 0.25, capMaxHpRatio: 0.10, e6AlwaysOn: 0.20 }
     },
@@ -231,12 +232,12 @@ export const CHARACTERS = [
     // unique：阿哈时刻在（阿哈时刻基础速度 80 -> 星神★阿哈的基础速度）
     unique: { name: '阿哈时刻在', useOwnerSpeed: true, baseSpeed: 80 },
     eidolons: {
-      1: { name: '谁在太初噤声时笑场', fervorOnStart: 4, amplification: 0.15 },
+      1: { name: '谁在太初噤声时笑场', fervorOnStart: 5, amplification: 0.15 },
       2: { name: '在祂的眼睛和你之间', defIgnore: 0.60 },
       3: { name: '牌叠起，令悲喜轮回', ultLv: 2, basicLv: 1, elationLv: 1 },
       4: { name: '黑箱一个玩笑的命运', trueRatio: 0.25, countAlliesGoodReward: true },
       5: { name: '台前幕后，是我非我', skillLv: 2, talentLv: 2, elationLv: 1 },
-      6: { name: '因为神说：你就是欢愉', debtAlwaysOn: 0.20, firstUltExtraTurnJoke: 40, ultAdvance: 0.20 }
+      6: { name: '因为神说：你就是欢愉', debtAlwaysOn: 0.20, firstUltJoke: 100, firstUltAdvance: 1 }
     }
   }
 ];

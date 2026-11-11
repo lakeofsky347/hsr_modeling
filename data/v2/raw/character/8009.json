@@ -91,6 +91,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "800901": {
       "id": 800901,
@@ -109,6 +110,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -190,6 +192,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000029": {
           "name": "好活当赏",
@@ -322,6 +325,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000027": {
           "name": "笑点",
@@ -529,6 +533,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000027": {
           "name": "笑点",
@@ -686,6 +691,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -711,6 +717,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -742,6 +749,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000028": {
           "name": "欢愉伤害",
@@ -876,8 +884,8 @@
     "800929": {
       "id": 800929,
       "name": "欢愉万相★主角光环",
-      "desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，终结技的暴击伤害提高效果额外提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，并对我方全体生效。若终结技的目标为星神★阿哈，则额外触发一次自身的欢愉技，本次欢愉技的伤害倍率提高原倍率的<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>，且基于我方角色持有的【绝活共赏】最高值进行计算。",
-      "simple_desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，终结技提供的暴击伤害提高效果额外提高，并对我方全体生效。若终结技的目标为星神★阿哈，则额外触发一次自身的欢愉技，本次欢愉技的伤害倍率提高，且基于我方角色持有的【绝活共赏】最高值进行计算。",
+      "desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，终结技的暴击伤害提高效果额外提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，并对我方全体生效。终结技触发星神★阿哈的欢愉技前，额外触发一次开拓者的欢愉技，本次欢愉技的伤害倍率提高原倍率的<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>，并基于我方角色持有的【<u>绝活共赏</u>】最高值进行计算。随后触发的星神★阿哈欢愉技，其<u>真实伤害</u>改为按上述开拓者欢愉技造成伤害的<unbreak>#3[i]%</unbreak>计算，由敌方全体均分。",
+      "simple_desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，终结技提供的暴击伤害提高效果额外提高，并对我方全体生效。终结技触发星神★阿哈的欢愉技前，额外触发一次开拓者的欢愉技，本次欢愉技的伤害倍率提高，并基于我方角色持有的【<u>绝活共赏</u>】最高值进行计算。随后触发的星神★阿哈欢愉技，其<u>真实伤害</u>改为基于上述开拓者欢愉技造成的伤害计算，由敌方全体均分。",
       "type": null,
       "type_name": "固有行迹",
       "tag": "Enhance",
@@ -890,6 +898,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10015111": {
           "name": "「欢愉」命途升格",
@@ -898,7 +907,12 @@
         },
         "10015113": {
           "name": "绝活共赏",
-          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方欢愉命途角色的【固有行迹】效果。",
+          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方「欢愉」命途角色的【固有行迹】效果。",
+          "param": []
+        },
+        "10000017": {
+          "name": "真实伤害",
+          "desc": "不受任何效果所影响的无属性伤害，本次伤害不视为造成了1次攻击。",
           "param": []
         }
       },
@@ -907,14 +921,16 @@
           "level": 1,
           "param_list": [
             0.2,
-            2
+            2,
+            0.2
           ]
         },
         "2": {
           "level": 2,
           "param_list": [
             0.3,
-            3
+            3,
+            0.2
           ]
         }
       }

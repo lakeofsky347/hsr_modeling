@@ -4,352 +4,352 @@
   "chara_info": {
     "camp": "贝洛伯格",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "…"
+      "chinese": "萧翟",
+      "japanese": "梶原岳人",
+      "korean": "이주승",
+      "english": "Howard Wang"
     },
     "stories": {
-      "0": "…",
-      "1": "…",
-      "2": "…",
-      "3": "…",
-      "4": "…"
+      "0": "乐观阳光、不拘小节的机械臂自由格斗家，「地火」成员之一。\\n从拳台到战场，从拳击手到战士，卢卡用这份力量去守护下层区的人们。\\n正因为自己曾经体会过绝望，所以他更渴望将希望带给其他人。",
+      "1": "他抡起钢锤，一遍又一遍。\\n\\n火花在眼前绽开，金属碰撞的声音盖过了肌肉和关节扭动时发出的闷响。少年的身高还不足以够到铁柜顶层的工具，但他挥动钢锤的力道已经可以媲美最娴熟的工匠。\\n\\n脚下的这方店铺就是他生活的全部。父亲蹲坐在店门前，反复擦拭着锈迹斑斑的门牌。偶尔，他会躺在硬邦邦的床上，幻想自己的未来——但无论他的精神漫游至何处，父亲的背影总会在思绪的尽头出现。\\n\\n一阵脚步声传来，他暂时放下了手中的活计。父亲站起身来，厚实、但有些佝偻的身形透出一丝恭维。又是「地火」的那伙人——自熔锤镇戒严以来，他们就经常光临这间工匠铺，各类武器的需求订单也增长了不少。\\n\\n少年想着心事，眼神偶然与领头的那位老主顾相撞。他皮肤黝黑，身姿挺拔，原本犀利的目光在瞥到自己的瞬间柔和了下来。他向着少年微微点头。\\n\\n<i>「奥列格头儿，欢迎！今天有什么需要吗？」</i>\\n<i>「别着急，师傅。今天我只是想来找你聊聊，」</i>他指向卢卡，<i>「聊聊有关你儿子的事。」</i>",
+      "2": "周围火光四起，弥漫的烟尘扰乱了他的视线，嘶吼和惨叫不断传入耳中。机油和血液的气味混杂着袭来，卢卡强忍住呕吐的欲望。\\n\\n第一次挥出标准的直拳时，奥列格师父脸上的笑意让他备受鼓舞。然而，亲身体会过前线的残酷之后，他再也没能寻回那股温暖的心流。每次列队，他都会打暗中观察战友们的表情——从一张张脸孔上读出的不安反而能稍稍平复他的慌张。\\n\\n一阵尖叫将卢卡拉回了现实。他冲向声音传来的方向，看到一个无助的孩子被怪物逼到了角落。本能策动他飞身一跃，挡在了利斧与孩子脆弱的身躯之间。\\n\\n身后传来一声巨响。卢卡一手抱紧惊慌失措的男孩，缓缓转过头来。畸形的怪物瘫倒在地，似乎是被战场上的流弹击中了要害。\\n\\n<i>「谢…谢谢哥哥……」</i>\\n\\n<i>「怎么样？你没事吧？」</i>\\n\\n<i>「哥哥…你…你的手……」</i>\\n\\n他顺着孩子的手指望向自己的右臂——本应连接着上臂的肩袖处只剩下一截随风飘摆的碎布。碎布之下，血流如注。\\n\\n但在疼痛夺走他的意识之前，那股暖流重新涌进了他的心房。",
+      "3": "第一次参加擂台赛，卢卡倒在了决赛场上。\\n\\n<i>「哈哈哈，没用的废物！这就是弱肉强食的世界——你这种货色，不配出现在我眼前！」</i>\\n\\n卢卡没有在意那份羞辱。决赛的对手是镇上出名的恶棍，出手阴狠毒辣。<i>如果注定要靠这些阴险的路数才能夺得冠军</i>——他心想——<i>什么破金腰带，不要也罢。</i>\\n\\n第二天晚上，他在俱乐部的转角看到几个孩子。其中一个身形瘦小的男孩痛苦地蜷在地上，遍体鳞伤。围在他身边的大孩子们趾高气昂，神情得意。\\n\\n<i>「哈哈哈，没用的废物！」</i>领头的恶霸指着受伤的男孩，<i>「这就是弱肉强食的世界——你不配出现在我眼前！」</i>\\n\\n从那时起，他发誓要成为下层区的冠军——用他自己的方式，堂堂正正。",
+      "4": "<i>「今天就练到这儿吧。来，小子，坐。」</i>\\n\\n<i>「…这就完事了？我还想着今天加练几组呢！」</i>\\n\\n<i>「你小子，别逞能了。赶紧过来！」</i>\\n\\n<i>「哈哈哈，来了来了！」</i>\\n\\n<i>「小子——我问你个问题，你老实回答。」</i>\\n\\n<i>「哦？这是啥，师徒交心环节？你问呗，师父。」</i>\\n\\n<i>「我问你，打拳这件事——你是打心底喜欢吗？」</i>\\n\\n<i>「哈哈哈，怎么突然问这个？当然喜欢了！要不然，我能在你身边坚持这么久？」</i>\\n\\n<i>「你小子，别抖机灵！认真回答，听见没有？」</i>\\n\\n<i>「这么严肃啊…行吧。非要掏心窝子地说…也算不上那么喜欢吧。」</i>\\n\\n<i>「…嗯，总算听到句实话。那我问你…如果有一天，下层区不再需要『地火』的保护了…你还会继续练拳吗？」</i>\\n\\n<i>「唔，我想想啊…应该会吧？」</i>\\n\\n<i>「为什么？你站上拳台从来不是为了赢什么金腰带，别以为我没看出来。如果下层真的能太平下来…你还有挥拳的理由吗？」</i>\\n\\n<i>「师父，你以前说过吧？不管什么年代都有恶人。哪怕裂界的怪物都死绝了，人和人之间也会因为些鸡毛蒜皮的小事争个你死我活。」</i>\\n\\n<i>「嗯…我好像是说过这话。」</i>\\n\\n<i>「只要这世界上还有恶人，只要还有善良的人需要保护——」</i>卢卡站起身来，<i>「——我就会继续挥拳！」</i>"
     },
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "初次见面",
+        "voice_m": "哟，你好！我叫卢卡，是「地火」的成员。打击恶棍，守护镇民——这就是我每天的工作。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "问候",
+        "voice_m": "比赛要开始了？好！我先热热身。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "道别",
+        "voice_m": "想歇一会儿？去吧！偷偷告诉你，冠军的秘诀就是趁着别人休息的时候刻苦训练。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己",
+        "voice_m": "搏击不是因为我喜欢暴力，拿冠军也不是为了和谁炫耀…我只是觉得这地下的恶棍太多，得给孩子们立个好榜样。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•义手",
+        "voice_m": "师傅说过：不要太惦记自己失去了什么；多想想自己得到了些什么。每次看到这只义手，我总能回忆起这句话。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•上层区",
+        "voice_m": "上层？没什么兴趣。当然，除非那里有值得我挑战的高手…或者需要被制裁的混球。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "爱好",
+        "voice_m": "搏击俱乐部流行一句话：「谁把你揍得最惨，就和谁做朋友」——喔，怪不得大家都想和我做朋友！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "烦恼",
+        "voice_m": "蔬菜…蘑菇…可恶，凭什么灭绝的不是这些玩意啊？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "分享",
+        "voice_m": "听说了吗？下层区的三大特产：地髓，没良心的矿头，还有卢卡沙包大的拳头！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻",
+        "voice_m": "有时候我也会觉得不可思议，居然会有人甘愿打一辈子的铁，敲一辈子的矿…我懂，不是每个人都有资格谈梦想。但要是没有它…我恐怕撑不到今天。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于娜塔莎",
+        "voice_m": "要是没有什么严重的伤病，我尽量不去打扰娜塔莎大姐头。需要她帮助的人太多，我不想因为自己的马虎大意拖累他们。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于希儿",
+        "voice_m": "希儿啊…该怎么怂恿她参加擂台赛呢？以她的实力，拿个冠军肯定轻轻松松——除非遇上我，哈！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于史瓦罗",
+        "voice_m": "得找机会和那个大铁疙瘩比划比划…掰手腕。干嘛？我又不傻，肌肉再结实也扛不住大炮啊？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于桑博",
+        "voice_m": "我不需要什么经纪人，再说了…会给自己取「深蓝帅哥」这种外号的家伙，我压根信不过。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 15,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于虎克",
+        "voice_m": "大家都说虎克淘气过头了，但我反而觉得她是个能干的好孩子。呃…证据嘛，没有——纯凭感觉，毕竟我也是鼹鼠党荣誉队员啊！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于奥列格",
+        "voice_m": "…啊，没什么。我只是在想，自己还得修炼多久才能打赢奥列格师傅。在他彻底变成没用的老头之前，我一定要完成这个目标。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "星魂激活",
+        "voice_m": "这种感觉…沸腾起来了！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "每日一练？不够，加练！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 19,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "这就是我的极限？哈，怎么可能！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 20,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "行迹激活",
+        "voice_m": "实用的技术，不错！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 21,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•希儿",
+        "voice_m": "希儿！咱俩合作，没有打不赢的架。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 22,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•娜塔莎",
+        "voice_m": "别担心，医生！我不会在擂台上倒下。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 23,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•虎克",
+        "voice_m": "虎克，不多吃点肉，当心长不高喔！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 24,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•克拉拉",
+        "voice_m": "让史瓦罗先生也教我几招吧，克拉拉？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 51,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "怎样？要认输吗？！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 52,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "现在才开始！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 53,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•一",
+        "voice_m": "对付你，一拳就够了！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 54,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•二",
+        "voice_m": "哈，不过是条杂鱼！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 55,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合待机",
+        "voice_m": "再不出拳就晚了，伙计。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 56,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "强化普攻",
+        "voice_m": "这一拳——送你回家！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 57,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•一",
+        "voice_m": "很嚣张嘛！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 58,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•二",
+        "voice_m": "别走神了！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 59,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "轻受击",
+        "voice_m": "…小意思！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 60,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重受击",
+        "voice_m": "…有点意思！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 61,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•激活",
+        "voice_m": "欢呼声在哪儿？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 62,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•施放",
+        "voice_m": "值得我认真起来的对手…见识下火花四溅吧！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 63,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "无法战斗",
+        "voice_m": "不能这么狼狈……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 64,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重回战斗",
+        "voice_m": "卢卡返场！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 65,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回复生命",
+        "voice_m": "背后就交给你了！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 66,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "秘技",
+        "voice_m": "先发制人！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 67,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "知道冠军的含金量了吗？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 68,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "嚯，还有意外惊喜？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 69,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "四肢发达，头脑也不简单。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 70,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "哈，开胃菜来了！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 71,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "想找地方躺一会儿，放松一下。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 72,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "啊？就只有这点吗？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 73,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "这次赚大了！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 74,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "嗯，还不赖！",
         "unlock_desc": null,
         "is_battle_voice": true
       }
@@ -420,6 +420,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "111101": {
       "id": 111101,
@@ -438,6 +439,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -519,6 +521,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -696,6 +699,7 @@
         0
       ],
       "skill_combo_value_delta": 30,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -873,6 +877,7 @@
         0
       ],
       "skill_combo_value_delta": 20,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -999,6 +1004,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1024,6 +1030,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -1058,6 +1065,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

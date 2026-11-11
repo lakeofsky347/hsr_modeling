@@ -7,7 +7,9 @@
 //  * 行迹：攻击力>2000 每 100 点欢愉度 +5%（≤80%）；每笑点全队暴伤 +8%（≤80%，随笑点实时更新）。
 //  * 欢愉技（阿哈时刻）：全体 p1 + 20 次（E6 + min(20, 当前笑点)）× p0 随机单体，笑点 = 好活当赏 + 当前笑点；获得 2 爆点，+5 能量。
 //  * E1：阿哈时刻结束 +5 笑点；每笑点全队抗穿 +1.5%（≤15%）。E2：阿哈时刻结束行动提前 100% + 2 爆点，每爆点暴伤 +10%（≤40%，不衰减）。
-//  * 升格：暴伤 +120%、自身无视防御 20%（v1 只给火花本人）。爆点抵扣战技点未建模（只计暴伤层数）。
+//  * 升格（150129，4.7）：欢愉技倍率 ×(1+#5)。2 级 #5 仍是 1.2（即 +120%），1 级由 0.3 改为 0.5；文案从「暴击伤害」改成「欢愉技倍率」。
+//    解析器仍取最高级，所以默认用 2 级。无视防御仍只给火花本人（原文是我方全体，4.6.51 起就是这样，本次不改）。
+//    绝活共赏额外爽点未建模。爆点抵扣战技点未建模（只计暴伤层数）。
 import { skillById, dropEffects, paramsOf, traceParams, eidolonParams, note, composeHooks } from './_util.js';
 import { REG, commonHooks, gainJoke, gr, joke, elHit, upgraded, cs, elationCount } from './_elation.js';
 
@@ -22,7 +24,6 @@ function refresh(api, j) {
   if (p.e >= 1) api.addBuff({ key: 'spx:e1', stat: 'resPen', value: Math.min(p.e1[2], jk * p.e1[1]), duration: null, label: '火花E1·抗穿' }, 'team');
   if (p.e >= 2) api.addBuff({ key: 'spx:e2', stat: 'critDmg', value: Math.min(0.4, (c.sparks || 0) * 0.1), duration: null, label: '火花E2·爆点暴伤' }, j);
   var up = upgraded(api);
-  api.addBuff({ key: 'spx:innCd', stat: 'critDmg', value: up ? p.inn[4] : 0, duration: null, label: '兔子戏法·暴伤' }, j);
   api.addBuff({ key: 'spx:innDi', stat: 'defIgnore', value: up ? p.inn[0] : 0, duration: null, label: '兔子戏法·无视防御' }, j);
 }
 
@@ -32,9 +33,10 @@ REG[ID] = {
     var c = cs(api, j), p = c._p;
     if (!p) return;
     var jk = (api.ctx.opts && api.ctx.opts.goodRewardOnElationSkill ? (c.gr || 0) : 0) + joke(api);
-    elHit(api, j, { mult: p.x[1], joke: jk, target: 'aoe', note: '信号溢出：好戏返场！', entry: M.entry });
+    var scale = upgraded(api) && p.inn[4] ? (1 + p.inn[4]) : 1;
+    elHit(api, j, { mult: p.x[1] * scale, joke: jk, target: 'aoe', note: '信号溢出：好戏返场！', entry: M.entry });
     var n = p.x[2] + (p.e >= 6 ? Math.min(20, joke(api)) : 0);
-    elHit(api, j, { mult: p.x[0], count: n, joke: jk, target: 'single', note: '好戏返场·额外 ×' + n, entry: M.entry });
+    elHit(api, j, { mult: p.x[0] * scale, count: n, joke: jk, target: 'single', note: '好戏返场·额外 ×' + n, entry: M.entry });
     c.sparks = (c.sparks || 0) + (p.x[3] || 2);
     api.gainEnergy(5, j);
   },

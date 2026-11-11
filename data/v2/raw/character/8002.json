@@ -4,10 +4,10 @@
   "chara_info": {
     "camp": "星穹列车",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "..."
+      "chinese": "陈婷婷",
+      "japanese": "石川由依",
+      "korean": "김하루",
+      "english": "Chloe Eves"
     },
     "stories": {
       "0": null,
@@ -19,421 +19,1009 @@
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回忆•关于自己",
+        "voice_m": "当有机会做出选择的时候，不要让自己后悔……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回忆•列车",
+        "voice_m": "如果没有选择登上列车，我会度过怎样的一生…不，不会有如果。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回忆•帕姆",
+        "voice_m": "虽然嘴上说着不高兴，身体的反应还是很真实的。还是多去找找帕姆吧！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回忆•空间站「黑塔」",
+        "voice_m": "我的武器也是空间站的奇物之一，虽然不知道它的来历——但被黑塔女士看中，一定有其重要之处。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回忆•「毁灭」",
+        "voice_m": "「毁灭」的意志究竟从何而来，真的是因为体内的星核么……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回忆•贝洛伯格",
+        "voice_m": "贝洛伯格的人们和我一样，也是第一次看到这颗星球上原生的那片天空。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回忆•「存护」",
+        "voice_m": "「存护」的种子一直都在贝洛伯格，我只是重新唤起了这座城市生存的意志…即使微弱，它也未到熄灭的时刻。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」星魂激活",
+        "voice_m": "选择，并非像看上去那般遥不可及。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」星魂激活",
+        "voice_m": "选择的价值，因坚定的意志而可贵。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "还未到止步的时候。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "旅程…不会结束。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」行迹激活",
+        "voice_m": "这就是…我的意志。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」行迹激活",
+        "voice_m": "「存护」…由行动来决定。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•三月七",
+        "voice_m": "反击就靠你了，三月。我相信你。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 15,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•丹恒",
+        "voice_m": "丹恒，我们速战速决。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•丹恒•饮月",
+        "voice_m": "就像平时那样，丹恒，我们速战速决。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•姬子",
+        "voice_m": "这次也拜托姬子小姐收尾了。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•瓦尔特",
+        "voice_m": "放心交给我吧，杨叔…咳，瓦尔特先生。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "「同谐」星魂激活",
+        "voice_m": "即便互不相识，我们也会为同一目标，做出同一选择。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "「同谐」行迹激活",
+        "voice_m": "在岔道之前，珍惜同路的时光。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "回忆•匹诺康尼",
+        "voice_m": "在匹诺康尼，米哈伊尔早就以自己的一生诠释了来自「钟表匠」最宝贵的遗产…只有当人们醒来后，才能将夜晚的梦带入白日。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "回忆•「同谐」",
+        "voice_m": "与很多人之间，并非没有纷争与争执，但在偶然的命运相交之时，我也愿意暂时放下这些，望向我们共同的未来。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "队伍编成•星期日",
+        "voice_m": "未曾设想的画面…但这也是「开拓」的意义。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "「记忆」星魂激活",
+        "voice_m": "即便将被遗忘，不要放弃选择。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "「记忆」行迹激活",
+        "voice_m": "记住过去，是为了迈向未来。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "队伍编成•长夜月",
+        "voice_m": "还是按过去的方式来？见一个打一个，对吧？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "队伍编成•丹恒•腾荒",
+        "voice_m": "丹恒，继续一起开拓吧！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "回忆•翁法罗斯",
+        "voice_m": "英雄史诗已然成篇——在这个阿基维利也未曾抵达的世界，我们却能够以「无名客」的身份与翁法罗斯的诸位同行，见证每个人写下浓墨重彩的一笔。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "回忆•「记忆」",
+        "voice_m": "那些我以为遗忘的，其实从未离我远去。它们是诗行的起始，而一站站开拓，会续写更浪漫的篇章。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "队伍编成•阿格莱雅",
+        "voice_m": "为了黄金般的未来，一同努力吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "队伍编成•缇宝",
+        "voice_m": "帮帮我，万能的缇宝老师！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "队伍编成•万敌",
+        "voice_m": "前方必是辉煌，迈德漠斯。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "队伍编成•遐蝶",
+        "voice_m": "这一次，我们会携手同行。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "队伍编成•那刻夏",
+        "voice_m": "期待您这一次表演。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "队伍编成•风堇",
+        "voice_m": "风堇，感谢你洒下的色彩。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "队伍编成•赛飞儿",
+        "voice_m": "战利品，我们三七分？谁三谁七，可以再商量。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "队伍编成•白厄",
+        "voice_m": "成为英雄的道路并不孤单，搭档。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 38,
+        "voice_title": "队伍编成•海瑟音",
+        "voice_m": "盛宴已至，奏响凯旋的舞曲吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 39,
+        "voice_title": "队伍编成•刻律德菈",
+        "voice_m": "凯撒，再带领我们冲锋一次！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 40,
+        "voice_title": "队伍编成•昔涟",
+        "voice_m": "我会记得，我会前进。一同走向群星吧，昔涟。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 41,
+        "voice_title": "「欢愉」星魂激活",
+        "voice_m": "无论欢乐或痛苦，都应是我们自己的选择。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 42,
+        "voice_title": "「欢愉」行迹激活",
+        "voice_m": "旅途的终点不是奖赏，快乐一直在路上。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 43,
+        "voice_title": "队伍编成•姬子•启行",
+        "voice_m": "迈出脚步，我便不会停下。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 44,
+        "voice_title": "队伍编成•星神★阿哈",
+        "voice_m": "我的助手，一起为盛大的演出揭幕吧！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 101,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」战斗开始•弱点击破",
+        "voice_m": "机不可失。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 102,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」战斗开始•危险预警",
+        "voice_m": "警惕起来。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 103,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」回合开始•一",
+        "voice_m": "要开始了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 104,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」回合开始•二",
+        "voice_m": "速战速决吧。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 105,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」回合待机",
+        "voice_m": "下一个是谁？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 106,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」普攻",
+        "voice_m": "轮到你了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 107,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」战技",
+        "voice_m": "尝尝这个！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 108,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」轻受击",
+        "voice_m": "不痛不痒。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 109,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」重受击",
+        "voice_m": "还差得远。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 110,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」终结技•激活",
+        "voice_m": "规则，就是用来打破的。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 111,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」终结技•施放•一",
+        "voice_m": "你出局了！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 112,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」终结技•施放•二",
+        "voice_m": "我来送你上路。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 113,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」终结技•施放•三",
+        "voice_m": "致胜一击！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 114,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」无法战斗",
+        "voice_m": "是我…输了……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 115,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」重回战斗",
+        "voice_m": "开始第二轮吧。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 116,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」回复生命",
+        "voice_m": "好多了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 117,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「毁灭」秘技",
+        "voice_m": "再坚持一下。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 118,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」战斗开始•弱点击破",
+        "voice_m": "进攻的时机来了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 119,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」战斗开始•危险预警",
+        "voice_m": "警惕起来。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 120,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」回合开始•一",
+        "voice_m": "骑枪，备战。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 121,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」回合开始•二",
+        "voice_m": "我来守护。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 122,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」回合待机",
+        "voice_m": "战势拖得太久了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 123,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」普攻",
+        "voice_m": "贯穿！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 124,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」强化普攻",
+        "voice_m": "裂地！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 125,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」战技•一",
+        "voice_m": "坚不可摧。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 126,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」战技•二",
+        "voice_m": "以强援弱。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 127,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」轻受击",
+        "voice_m": "毫发无伤。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 128,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」重受击",
+        "voice_m": "我…没事。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 129,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」终结技•激活",
+        "voice_m": "枪尖已经点燃。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 130,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」终结技•施放",
+        "voice_m": "炎枪！冲锋！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 131,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」无法战斗",
+        "voice_m": "我…必须坚持…",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 132,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」重回战斗",
+        "voice_m": "我绝不后退。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 133,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」回复生命",
+        "voice_m": "配合得不错。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 134,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」秘技",
+        "voice_m": "存护之志！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 135,
+        "voice_title": "「同谐」战斗开始•弱点击破",
+        "voice_m": "节奏乱了？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 136,
+        "voice_title": "「同谐」战斗开始•危险预警",
+        "voice_m": "考验默契的时候。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 137,
+        "voice_title": "「同谐」回合开始•一",
+        "voice_m": "各就各位。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 138,
+        "voice_title": "「同谐」回合开始•二",
+        "voice_m": "保持步调一致。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 139,
+        "voice_title": "「同谐」回合待机",
+        "voice_m": "小心错过入场的最佳时机。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 140,
+        "voice_title": "「同谐」普攻",
+        "voice_m": "到我了。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 141,
+        "voice_title": "「同谐」战技•一",
+        "voice_m": "即兴表演！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 142,
+        "voice_title": "「同谐」战技•二",
+        "voice_m": "好梦成真！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 143,
+        "voice_title": "「同谐」轻受击",
+        "voice_m": "还是老样子……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 144,
+        "voice_title": "「同谐」重受击",
+        "voice_m": "我马上跟上。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 145,
+        "voice_title": "「同谐」终结技•激活",
+        "voice_m": "气氛已经烘托到位。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 146,
+        "voice_title": "「同谐」终结技•施放",
+        "voice_m": "合演，开场！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 147,
+        "voice_title": "「同谐」无法战斗",
+        "voice_m": "还没…结束……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 148,
+        "voice_title": "「同谐」重回战斗",
+        "voice_m": "中场休息结束。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 149,
+        "voice_title": "「同谐」回复生命",
+        "voice_m": "绝佳配合。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 150,
+        "voice_title": "「同谐」秘技",
+        "voice_m": "敬请期待。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 151,
+        "voice_title": "「记忆」战斗开始•弱点击破•一",
+        "voice_m": "做得好哇，迷迷！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 152,
+        "voice_title": "「记忆」战斗开始•弱点击破•二",
+        "voice_m": "这个点子不错。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 153,
+        "voice_title": "「记忆」战斗开始•危险预警",
+        "voice_m": "再这样试试呢…",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 154,
+        "voice_title": "「记忆」回合开始•一",
+        "voice_m": "这就是心有灵犀的感觉？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 155,
+        "voice_title": "「记忆」回合开始•二",
+        "voice_m": "没关系，我会出手。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 156,
+        "voice_title": "「记忆」回合待机",
+        "voice_m": "嗯…反正我不急。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 157,
+        "voice_title": "「记忆」普攻",
+        "voice_m": "记着点。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 158,
+        "voice_title": "「记忆」战技•一",
+        "voice_m": "来吧，就决定是你了！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 159,
+        "voice_title": "「记忆」战技•二",
+        "voice_m": "我们，什么都做得到~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 160,
+        "voice_title": "「记忆」战技•三",
+        "voice_m": "不慌，还有我在。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 161,
+        "voice_title": "「记忆」战技•四",
+        "voice_m": "放心，你可以的。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 162,
+        "voice_title": "「记忆」轻受击",
+        "voice_m": "不长记性……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 163,
+        "voice_title": "「记忆」重受击",
+        "voice_m": "等着吧。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 164,
+        "voice_title": "「记忆」终结技•激活",
+        "voice_m": "相信我吧。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 165,
+        "voice_title": "「记忆」终结技•施放",
+        "voice_m": "我们联手，就是无所不能的~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 166,
+        "voice_title": "「记忆」无法战斗",
+        "voice_m": "我会…记住的……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 167,
+        "voice_title": "「记忆」重回战斗",
+        "voice_m": "想打倒我？没那么容易。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 168,
+        "voice_title": "「记忆」回复生命",
+        "voice_m": "休整完毕。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 169,
+        "voice_title": "「记忆」秘技",
+        "voice_m": "嗯，既视感么……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 170,
+        "voice_title": "「记忆」强化普攻•一",
+        "voice_m": "这故事，如我们所书！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 171,
+        "voice_title": "「记忆」强化普攻•二",
+        "voice_m": "写下，前所未有的结局！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 172,
+        "voice_title": "「欢愉」战斗开始•弱点击破",
+        "voice_m": "这就心态崩了？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 173,
+        "voice_title": "「欢愉」战斗开始•危险预警",
+        "voice_m": "可以，你成功引起了我的注意。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 174,
+        "voice_title": "「欢愉」回合开始•一",
+        "voice_m": "欢笑，是人类的赞歌！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 175,
+        "voice_title": "「欢愉」回合开始•二",
+        "voice_m": "现在请称呼我为，银河双剑侠！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 176,
+        "voice_title": "「欢愉」回合待机",
+        "voice_m": "别让场面冷下来。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 177,
+        "voice_title": "「欢愉」普攻",
+        "voice_m": "双剑齐下！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 178,
+        "voice_title": "「欢愉」战技•一",
+        "voice_m": "欢愉之力，笑死。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 179,
+        "voice_title": "「欢愉」战技•二",
+        "voice_m": "开拓旋风，走你！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 180,
+        "voice_title": "「欢愉」轻受击",
+        "voice_m": "小把戏。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 181,
+        "voice_title": "「欢愉」重受击",
+        "voice_m": "你好会战斗呀。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 182,
+        "voice_title": "欢愉技•一",
+        "voice_m": "不止思考，要去感受…我打！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 183,
+        "voice_title": "欢愉技•二",
+        "voice_m": "天下武功，为我所用…拿下！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 184,
+        "voice_title": "「欢愉」终结技•激活",
+        "voice_m": "高光时刻，为你点亮。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 185,
+        "voice_title": "「欢愉」终结技•施放",
+        "voice_m": "就现在，你的舞台！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 186,
+        "voice_title": "「欢愉」无法战斗",
+        "voice_m": "这次…不是玩笑……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 187,
+        "voice_title": "「欢愉」重回战斗",
+        "voice_m": "没想到吧？观众的最爱——反转。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 188,
+        "voice_title": "「欢愉」回复生命",
+        "voice_m": "多谢，我还能再打五百年。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 189,
+        "voice_title": "「欢愉」秘技•一",
+        "voice_m": "嗨起来！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 190,
+        "voice_title": "「欢愉」秘技•二",
+        "voice_m": "炸翻全场！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 191,
+        "voice_title": "助战技•开拓同行",
+        "voice_m": "以我们的意志，抵达结局！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 192,
+        "voice_title": "终结一击•开拓同行",
+        "voice_m": "化作星辰，照亮银河的长夜！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 992,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "这就见底了？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 993,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "好，多多益善。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 994,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "还难不倒我。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 995,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "以自己的意志，抵达结局吧。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 996,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "看起来不错。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 997,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "原来是这样么……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 998,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "想想该怎么对付它。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 999,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "时间还早，现在去哪？",
         "unlock_desc": null,
         "is_battle_voice": true
       }
@@ -508,6 +1096,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "800201": {
       "id": 800201,
@@ -526,6 +1115,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -607,6 +1197,7 @@
         30
       ],
       "skill_combo_value_delta": 20,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -718,6 +1309,7 @@
         0
       ],
       "skill_combo_value_delta": 30,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -859,6 +1451,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -985,6 +1578,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1010,6 +1604,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1037,6 +1632,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1148,6 +1744,7 @@
         60
       ],
       "skill_combo_value_delta": 20,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

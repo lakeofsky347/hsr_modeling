@@ -4,331 +4,373 @@
   "chara_info": {
     "camp": "星核猎手",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "…"
+      "chinese": "徐慧",
+      "japanese": "伊藤静",
+      "korean": "사문영",
+      "english": "Cheryl Texiera"
     },
     "stories": {
-      "0": "…",
-      "1": "…",
-      "2": "…",
-      "3": "…",
-      "4": "…"
+      "0": "在星际和平公司的通缉档案里，卡芙卡只留下了名字和「爱好收集大衣」的记录。人们对这位星核猎手所知甚少，只知道她是「命运的奴隶」艾利欧最信任的成员之一。\\n为了到达艾利欧预见的「未来」，卡芙卡开始行动。",
+      "1": "<i>「卡芙卡。人类女性。出身天衣五：新巴比伦。星核猎手核心成员，『命运的奴隶』的副手。对以下罪案负责：庇尔波因特入侵案，计两起；庇尔波因特失窃案；特洛维斯星系失踪案；杰莫斯、北加拿、茜拉<unbreak>-39</unbreak>C、乌尔摩拉、七中村、洛尔<unbreak>-51</unbreak>、德洛瓦星核事件；针对庇尔波因特的黑客袭击，计四起；针对螺丝星的黑客袭击；针对黑塔的黑客袭击；耶佩拉叛乱案。怀疑与以下罪案有关：希刺拉拉、因奴庇斯、乌恩-G7、祖寇、利多维亚、伊利利、阿图因、布哈雅玛星核事件。\\n通缉等级：最高。死活不论。」</i>\\n<align=\"right\">——星际和平公司所颁之通缉令</align>",
+      "2": "<i>「…因案件侦办需要，现将犯罪嫌疑人基本情况公布如下：嫌疑人卡芙卡（通缉编号：L<unbreak>933012000020002010004</unbreak>），女，化外人士，年龄不详；身高约<unbreak>170</unbreak>厘米，中等体型，目击时外披黑色外套，内穿白色衬衫，下身穿黑色紧身裤，紫色长袜，头顶有墨镜配饰。\\n该嫌疑人被举报为罗浮近期多起非自然灾害的关联者，目前在逃，现向罗浮全境公开通缉。请发现该犯罪嫌疑人的单位及个人积极与当地云骑军联系。同时督促犯罪嫌疑人不可心存侥幸，应尽快投案自首，交代重要信息。」</i>\\n<align=\"right\">——罗浮所颁之通缉令（已撤销）</align>",
+      "3": "<i>「…这个女人叫『卡芙卡』，是新的猎人，没有注册信息，无所属组织。她持有被称为『言灵术』的能力，能够使用语言进行催眠。最近一次出现在新巴比伦的河间地，与大领主示德交谈后带走了他，在场者<unbreak>143</unbreak>人；随后绕路前往成衣定制店，取得黑色大衣一件，白色衬衫两件，红色连衣裙一条，在场者6人；接着前往旧货唱片店，未购买任何商品，在场者<unbreak>28</unbreak>人；在她前往河间地警备局领赏前，最后被目击于中央公园，在场者<unbreak>2695</unbreak>人。我们要『卡芙卡』的首级，因为杀债必以血偿。」</i>\\n<align=\"right\">——天衣五的恶魔所颁之通缉令</align>",
+      "4": "<i>「…你们去天衣五，在<unbreak>135</unbreak>:<unbreak>7372124,271</unbreak>:<unbreak>6372711</unbreak>的地方，有一栋废弃的大厦，走进去；一楼的窗台下边有一只完好的饮料罐，拿上它，等到星期三的上午<unbreak>11</unbreak>时<unbreak>12</unbreak>分，把罐子放在大厦的门口。卡芙卡会在2分钟后出现，有一定的可能性，她会查看那只罐子，你们趁机把这个球扔到她脚边。后边的事情，我来和她谈。\\n——还有一定的可能性，卡芙卡也许不理会那只罐子；那样的话，你们只要扔掉球就可以了。你们会死，不过，人都是要死的；而你们想要的未来，我会把它变成现实。」</i>\\n<align=\"right\">——命运的奴隶所颁之通缉令</align>"
     },
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "初次见面",
+        "voice_m": "嗨，列车团…嗯，你们逮住我啦。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "问候",
+        "voice_m": "近乎无限长的时间，近乎无限广的空间，而我们同时出现在一处。「命运」就是这样，创造奇迹的同时，让你以为只是偶然。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "道别",
+        "voice_m": "拜拜，{NICKNAME}，下一次试着让我意外吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己",
+        "voice_m": "加入星核猎手前，由于工作的缘故，我很少见到一个人两次。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•恐惧",
+        "voice_m": "艾利欧说我擅长制造「恐惧」，即使我对它一无所知。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•小提琴",
+        "voice_m": "拉小提琴和开枪同样考验手指的灵活度，只是子弹更听话。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "爱好",
+        "voice_m": "我尤其钟爱丝绒质地的大衣，脆弱而美丽，很难保养，稍有不慎便有损它的光泽。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "烦恼",
+        "voice_m": "过去与未来如此相似，我却对此无动于衷。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "分享",
+        "voice_m": "有一颗星球，每到夏天，我都会去那里看海。那时海潮最为汹涌，只能远远地站在岸边。直到某一年，他们在海上架起了长长的观景栈道，我便再也没去过。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻",
+        "voice_m": "被「星核」改变的世界…我的故乡也是其中之一。可惜了，没有亲眼见证那个时代是如何堕落的。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于银狼",
+        "voice_m": "我喜欢和银狼聊天，她人小小的，想法却很多。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于刃",
+        "voice_m": "阿刃…人如其名，他的战斗总是让人赏心悦目。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "星魂激活",
+        "voice_m": "没有人能读懂另一个人…就连你我也不例外。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "倘若命运无法将我推动，便由我来推动它。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 15,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "唉…一旦停下来，就很难继续了哦？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "行迹激活",
+        "voice_m": "一步、两步…迈向「未来」的路，就在脚下。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "嗨，{NICKNAME}，又见面啦。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•银狼",
+        "voice_m": "银狼，需要我配合，不用提前说，来段即兴演奏吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 19,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•刃",
+        "voice_m": "阿刃，准备好迎接「狩猎」了么？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 20,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•姬子",
+        "voice_m": "嗨，星穹列车。我们携手作战的机会，看来不少呢。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 21,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于萨姆",
+        "voice_m": "萨姆对猎物可没有像我这么挑剔…比起他，也许还是碰上我比较好受一点。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "队伍编成•流萤",
+        "voice_m": "剧本上没写的，我们决定就好。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "关于流萤",
+        "voice_m": "我们能做的，不过是在这段时间内，短暂地陪伴对方。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "关于银狼LV.<unbreak>999</unbreak>",
+        "voice_m": "我知道，她一直都想不受束缚地施展自己的想法。这一次，祝她玩得开心。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "队伍编成•银狼LV.<unbreak>999</unbreak>",
+        "voice_m": "这是你想要的玩法吗？银狼。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "关于千冶•刃",
+        "voice_m": "他一直是星核猎手中最锋利的剑刃。但从今往后，他的「命运」，是他自己的掌中剑。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "队伍编成•千冶•刃",
+        "voice_m": "魔阴已除，按你的心意行动吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 51,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "猎物落网啰。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 52,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "来得好。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 53,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•一",
+        "voice_m": "索性都干掉吧~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 54,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•二",
+        "voice_m": "记住还能呼吸的感觉。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 55,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合待机",
+        "voice_m": "该动手啦。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 56,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "普攻",
+        "voice_m": "很快就好。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 57,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "轻受击",
+        "voice_m": "不痛啊。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 58,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重受击",
+        "voice_m": "有点意思。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 59,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•激活",
+        "voice_m": "美妙的时光总有尽头。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 60,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•施放",
+        "voice_m": "该说再见了…",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 61,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "天赋•一",
+        "voice_m": "放轻松。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 62,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "天赋•二",
+        "voice_m": "站好了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 63,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "无法战斗",
+        "voice_m": "这还…不是结局。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 64,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重回战斗",
+        "voice_m": "哦~我还活着呢。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 65,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回复生命",
+        "voice_m": "谢谢，你是个好人。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 66,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "秘技",
+        "voice_m": "这样会痛么？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 67,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "躯体皆因脆弱而美丽。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 68,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "能用。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 69,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "做得不错。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 70,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "嗯？看他们蠢蠢欲动的样子……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 71,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "哎，大衣脏了，有些难办。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 72,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "毫不意外。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 73,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "喜欢么？我也喜欢。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 74,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "真厉害，想要什么奖励？",
         "unlock_desc": null,
         "is_battle_voice": true
       }
@@ -417,6 +459,7 @@
       }
     }
   },
+  "ex_ranks": {},
   "skills": {
     "100501": {
       "id": 100501,
@@ -435,6 +478,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -516,6 +560,7 @@
         30
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -657,6 +702,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -834,6 +880,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000004": {
           "name": "追加攻击",
@@ -986,6 +1033,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1011,6 +1059,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -3040,6 +3089,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {},
           "level": {
             "1": {
@@ -3121,6 +3171,7 @@
             30
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {},
           "level": {
             "1": {
@@ -3277,6 +3328,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {
             "30000001": {
               "name": "基础概率",
@@ -3454,6 +3506,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {
             "10000004": {
               "name": "追加攻击",
@@ -3636,6 +3689,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {},
           "level": {
             "1": {
@@ -3661,6 +3715,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {
             "30000001": {
               "name": "基础概率",

@@ -4,387 +4,436 @@
   "chara_info": {
     "camp": "自灭者",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "…"
+      "chinese": "菊花花",
+      "japanese": "沢城みゆき",
+      "korean": "박지윤",
+      "english": "Allegra Clark"
     },
     "stories": {
-      "0": "…",
-      "1": "…",
-      "2": "…",
-      "3": "…",
-      "4": "…"
+      "0": "自称「巡海游侠」的旅人，本名不详。身佩一柄长刀，独行银河。\\n\\n淡漠寡言，剑出如紫电般迅猛，却从来只以刀鞘战斗，收而不发。",
+      "1": "<i>「…并非人选择刀，而是刀选中了人。▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇…那一日，看着『刀』经由我手锻成，再被交予少女手中，我意识到，在对抗▇▇▇▇的道路上，她选择了——或是被选中——踏上那条▇▇迈向明日的道路。▇▇▇▇▇这是一个美好的时代，即便出云国依旧面临威胁，人们也依旧怀抱希望，相信▇▇会被尽数斩落，天下将重获自由…▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇……」</i>\\n\\n<align=\"right\">——古老的残卷</align>",
+      "2": "<i>「…从锻刀者留下的残卷可知，出云曾一度来到破灭边缘。为求存续，他们以▇▇▇▇锻刀，持刀者被奉为救国的英雄。\\n\\n遗憾的是，这个世界已经从星图上消失了，历史的真相无处可寻，『记忆』也不复存在。武装考古学派抵达时，星系中只流淌着「神秘」的歌谣：无边的雨自▇▇中如泪涌出，微茫的雨幕下，出云国的孑遗背对被▇▇▇▇▇▇抹去的故乡……」</i>\\n\\n<align=\"right\">——「执笔者」奥本海默</align>",
+      "3": "<i>「我用了『醒觉<unbreak>-310</unbreak>』制剂，它能让人沉入极深的睡眠，重历过去的回忆。一些患者能以此重拾██████，但她不同。在她以前，从未有人能主动从沉睡中醒来。我观察了她的梦…那实在难以被称作幸福的记忆：阴沉的天空、破败的城市、废土残垣，还有连绵不绝的细雨。\\n\\n那雨仿佛永远不会停下，在高涨的潮水中，人们在溺亡中微笑。而在沉沦的黑夜，我总能听见遥远的雷声在迫近，直到某一刻，雷光乍现，将黑夜撕裂。在破碎的天空下，我又看见了她——在褪色成无的世界里，她轻轻挥出一刀，将整片梦境带走。\\n\\n我必须承认，在这条路上她走得远比我们更深。那无可捉摸的████引领她走向██，她却在无形中将其执握于手。也许在旅途之初，她就已准备好面对真正的敌人……」</i>\\n\\n<align=\"right\">——某位药剂师的手记</align>",
+      "4": "<i>「我把这封信留在这里。如果我没能回来，就由它来讲述她的故事，一位我在████邂逅的同伴。迈向彼岸的路艰难无比，幸亏有她同行，我才能一路平安无事……\\n\\n…在我们相遇前，她已去过许多世界，各种生活技能都十分熟练。我和她一起在野外烹饪和搭帐篷，那些没有星星的夜晚，她会听我讲故事，和我讨论明天要做什么。更多时候，我们只是在默默行路。这里的雪是紫红色的，尝起来有树莓的酸甜。她████会赞赏我做的████雪团子……\\n\\n…在认识她以前，我曾长年在██河流中跋涉。她向我伸出了手，我们便一起在这条河流中同行。如今，分别的时候到了，我还没走到岸边，也不知道即将面对的是什么…但我没有理由停下脚步。生命无非是一条终有尽头的道路，在此之前，我会用自己的双脚走到终点。我相信她也一样。」</i>\\n\\n<align=\"right\">——某位探险家的笔记</align>"
     },
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "初次见面",
+        "voice_m": "「黄泉」…虽然只是借来的名字，但你知道我是怎样的人，记得我做过怎样的事，如此之后…我便是黄泉。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "问候",
+        "voice_m": "下雨了…{NICKNAME}，要一起走段路吗？来吧，我有一把伞。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "道别",
+        "voice_m": "该启程了。此世如雨而逝，终归大地，希望再见时…已是天晴。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•行动",
+        "voice_m": "独行银河的人，无非两种渴求：找到前人的行迹、寻得自己的道路。但在祂们的注视下…后者大多止于前者。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•习惯",
+        "voice_m": "遥远朦胧的记忆中，家乡时有雷雨，女孩们害怕湿了妆容，总是随身携带妆具。虽然缘由与过去不同…但我依旧保留着这个习惯。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•身份",
+        "voice_m": "梦原本没有意义，赋予其意义的是生命的底色。但如果色彩是一片「虚无」…梦也只剩下黑白的空壳。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•雨",
+        "voice_m": "听雨从红叶跌落，滴在伞上的声响萧萧索索，从中…我得到片刻宁静。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•刀",
+        "voice_m": "如果身配一柄刀，总要用它斩下些什么。我拔刀的理由…从前、如今、往后，只有一个。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "爱好•桃",
+        "voice_m": "它汇聚了生命的喜悦与甜美，也同样脆弱易逝…这种遗憾无可奈何，便由它去吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "烦恼",
+        "voice_m": "从那里醒来时，海的尽头残存雷鸣，漫天血雨刚好飘落——唯有这一刻的所见，无比清晰地留在眼底。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "烦恼",
+        "voice_m": "从彼岸醒来时，海的尽头残存雷鸣，漫天血雨刚好飘落——唯有这一刻的所见，无比清晰地留在眼底。而那之前与之后的记忆，都黯然失色，逐渐褪去。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "分享•武器",
+        "voice_m": "好奇这柄刀吗？当它出鞘时，那些封藏其中，我曾挥舞它的记忆便会一一浮现，从「始」、经「终」…至「无」。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻•黑洞",
+        "voice_m": "黑洞并不壮观，也不惨烈，它很安静，像一道孤零零的视线，看着你我…然后静静吞没所有，予以冰冷、沉默的拥抱。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻•命途",
+        "voice_m": "为寻索，为顿悟，为存在…人行于命途之上。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 15,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻•命途",
+        "voice_m": "人行于命途之上…而后寻索，而后顿悟，而后存在。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于{NICKNAME}",
+        "voice_m": "我也曾像你一样被人记在心上，那些微不足道的瞬间，再回首时总是胜过万语千言…往事造就如今的我们，有些事很难记得，有些事很难忘却。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于流萤",
+        "voice_m": "在她身上，我仿佛看见山林的萤火，炫目迷离，却只有短短一瞬的光亮。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于黑天鹅",
+        "voice_m": "一位优雅、端庄的女士，我会记得她善意的邀请，那支舞…让我感到亲切和怀念。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 19,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于砂金",
+        "voice_m": "为破碎的空洞披上渴望的伪装…他的存在如此强烈，可那存在下的自我却如此稀薄。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 20,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于瓦尔特",
+        "voice_m": "能被称作「英雄」的人有很多种，他是最纯粹的那一类…这样的人我见过许多，也告别过许多。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 21,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于萨姆",
+        "voice_m": "火红的巨人所到之处，遍地焦土。但恰恰是那些永远在燃烧的人…在火焰燃尽后，他们会垂下头，用孤独的双手捧起死灰。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 22,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "星魂激活",
+        "voice_m": "「二度踏入同一条河流」…并不困难。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 23,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "切勿回头，来处无路可走。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 24,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "远方的风景看不真切…但一定很美。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 25,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "行迹激活",
+        "voice_m": "又一场雨，一场空白。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 26,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "是你呀…我们都应当珍惜彼此存在的时光。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 27,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•黑天鹅",
+        "voice_m": "又见面了，要再跳一支舞么，忆者？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 28,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•砂金",
+        "voice_m": "所有或一无所有…我会拭目以待。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 29,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•瓦尔特",
+        "voice_m": "即使在黑洞面前…我们也拥有选择。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "关于波提欧",
+        "voice_m": "巡海游侠…组织只是他行事的掩护，看得出来，这个男人只为自己而活，这也是我相信他的原因。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "队伍编成•波提欧",
+        "voice_m": "动作真快…我仿佛能看见你抬起的枪口。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "队伍编成•流萤",
+        "voice_m": "过去是无法逃离的，你我都是如此。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "关于大丽花",
+        "voice_m": "在与「虚无」的周旋中，她在死亡的边缘跳跃，并以此为乐。或许，正因她从不执着于任何事物，才能如此肆意地盛放吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "队伍编成•大丽花",
+        "voice_m": "若你不惧怕枯萎，我很乐意共舞一曲。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 51,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "也好，舍去了挣扎的工夫。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 52,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "无妨，就在此了结。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 53,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•一",
+        "voice_m": "来到此处，是你…还是命途的意愿？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 54,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•二",
+        "voice_m": "我们该启程了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 55,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合待机",
+        "voice_m": "能用来告别的时间，本就不多了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 56,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "普攻",
+        "voice_m": "你要去哪？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 57,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•一",
+        "voice_m": "此生如朝露，身名俱灭。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 58,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•二",
+        "voice_m": "忘川无波澜，引渡徘徊。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 59,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "轻受击",
+        "voice_m": "又是这样。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 60,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重受击",
+        "voice_m": "熟悉的感觉……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 61,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•激活",
+        "voice_m": "我为逝者哀哭……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 62,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•施放",
+        "voice_m": "暮雨，终将落下。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 63,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "无法战斗",
+        "voice_m": "尘埃…终归大地……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 64,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重回战斗",
+        "voice_m": "再陪你走一段吧。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 65,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回复生命",
+        "voice_m": "一点小伤，麻烦了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 66,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "秘技",
+        "voice_m": "流淌吧…过往的刀光。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 67,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "又多了一份血债。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 68,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "去找寻，便会有馈赠。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 69,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "别忘了和伙伴们分享喜悦。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 70,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "看，这也是漫游银河的意义。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 71,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "生命本身…便是谜。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 72,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "也许，正确的回答不止一种。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 73,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "暴雨将至。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 74,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "留下回忆之处，触着碰着，都是带刺的花……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "【奇缘星魂】追加攻击•一",
+        "voice_m": "浮生，俱归虚无。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "【奇缘星魂】追加攻击•二",
+        "voice_m": "潮涌，领你还乡。",
         "unlock_desc": null,
         "is_battle_voice": true
       }
@@ -463,6 +512,38 @@
       }
     }
   },
+  "ex_ranks": {
+    "130801": {
+      "id": 130801,
+      "name": "虚隙一顾…枯骨眠霜",
+      "desc": "队友攻击带有【集真赤】的敌方目标后，黄泉发动<u>追加攻击</u>，对敌方全体造成等同于黄泉<unbreak>#1[i]%</unbreak>攻击力的雷属性伤害，随后造成6次伤害，每次伤害对敌方随机单体造成等同于黄泉<unbreak>#4[i]%</unbreak>攻击力的雷属性伤害，获得<unbreak>#2[i]</unbreak>点残梦并为【集真赤】最多的敌方目标附上<unbreak>#2[i]</unbreak>层【集真赤】。本次<u>追加攻击</u>造成伤害时，被视为造成了终结技伤害。\\n该效果每回合最多触发<unbreak>#3[i]</unbreak>次。黄泉回合开始时重置可触发次数。行迹【奈落】对本次<u>追加攻击</u>也会生效。",
+      "tag": "群攻",
+      "icon": "SkillIcon_1308_ExRank01.png",
+      "bg_image_path": "UI/UI3D/Rank/_dependencies/Textures/1308/1308_ExRank_1.png",
+      "param_list": [
+        3,
+        1,
+        1,
+        0.8
+      ],
+      "extra": {
+        "10000004": {
+          "name": "追加攻击",
+          "desc": "满足条件时自动触发的效果，对目标施放1次额外的攻击。",
+          "param": []
+        }
+      },
+      "stance_damage_display": 10,
+      "unlock_cost": {
+        "item_id": 131308,
+        "item_num": 1,
+        "rarity": "SuperRare",
+        "name": "【黄泉】的奇缘星魂",
+        "icon": "131308.png"
+      },
+      "video_id": 15009
+    }
+  },
   "skills": {
     "130801": {
       "id": 130801,
@@ -481,6 +562,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -562,6 +644,7 @@
         30
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -703,6 +786,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -904,6 +988,9 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [
+        130801
+      ],
       "extra": {},
       "level": {
         "1": {
@@ -1030,6 +1117,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1055,6 +1143,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1083,6 +1172,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1224,6 +1314,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1365,6 +1456,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1506,6 +1598,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

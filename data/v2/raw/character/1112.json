@@ -4,373 +4,415 @@
   "chara_info": {
     "camp": "星际和平公司",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "…"
+      "chinese": "陆敏悦",
+      "japanese": "南條愛乃",
+      "korean": "방시우",
+      "english": "Sam Slade"
     },
     "stories": {
-      "0": "…",
-      "1": "…",
-      "2": "…",
-      "3": "…",
-      "4": "…"
+      "0": "星际和平公司旗下「战略投资部」高级干部托帕，领导特殊债务纠察小组。\\n年纪轻轻便已成为「石心十人」之一，基石为「催讨黄玉」。\\n搭档次元扑满「账账」则能敏锐感知财富所在，即便是安保、催债、精算等工作也不在话下。\\n如今他们正一同巡行银河，追究各类影响公司业务开展的债务纠纷。",
+      "1": "<i>「戴斯特，这份简历你看过了吗？」\\n\\n「您说的是哪…噢，是她啊——这位刚刚在市场调研小组结束了实习，还引起了不小的轰动——呃，褒义的那种。」\\n\\n「居然已经过了实习期了？唔……」\\n\\n「哪里不对吗，德比斯基先生？」\\n\\n「没什么，只是好奇，毕竟她的入职年龄也算是突破部门下限了…何况这姑娘的履历还这么惊人。我看看…嚯，签的居然还是『终身合同』？真没想到，那么落魄的星球上还能捡到这种人才……」\\n\\n「我已经和业务同事核实过了，简历上的信息全部属实。而且，她甚至没把当时的入职测试结果写进去——听说她在精算、微经宏经、星际金融、管理学等学科测试上全都拿到了高分，甚至连体测也接近满分。她唯一没有及格的项目是……」\\n\\n「嗯？是什么？」\\n\\n「…是商务礼仪，她直接翘掉了那门测试。『我最讨厌的就是形式主义』——据说她当时是那么说的。」</i>",
+      "2": "<i>「我说啊，你……」\\n\\n「嗯？怎么了，德比斯基大叔？」\\n\\n「…你应该知道办公室禁止携带宠物吧？」\\n\\n「当然了！员工手册第八十六小节第一百四十四条——严禁携带任何形式的有机体宠物出入星际和平公司属下的办公场所。」\\n\\n「…记得还真清楚啊？那你要不要解释解释——」\\n\\n「——但我认为这条准则根本就是无稽之谈，完全没必要遵守。实话告诉您吧，大叔——有了这些可爱的小家伙在场，我的工作效率直接提高了百分之二十七！」\\n\\n「…我倒是不会质疑从你嘴里说出来的数字，但是……」\\n\\n「你看！这个小家伙——嘿呦——叫账账！可别把它当成普通的次元扑满哦，这小家伙对『金钱的味道』特别敏感！我现在不管去哪出差都得带着它，简直成了我的幸运星啦~」\\n\\n「居然会在办公室里看到这种生物，还真是…咳，算了，我先假装没看到吧。只是下次总监视察的时——哎、哎哟！！怎么回事？！别、别咬我！快、快把这家伙拿走——」</i>",
+      "3": "汇报人：弗朗西斯科•德比斯基\\n汇报对象：「翡翠」\\n汇报内容：组长述职\\n\\n「翡翠」女士：\\n\\n这应该是我最后一次通过系统向您递交述职报告了。时光荏苒，转眼间我已在战略投资部工作了半个琥珀纪，也经过一路摸爬滚打才爬升到如今的位置；虽算不得功成名就，但至少也为我的家庭积攒了足够几代人过上安逸生活的财富，我已别无他求。在此，也要特地感谢「翡翠」女士您一直以来给予第一六六市场组的大力支持。\\n\\n言归正传，我在这次述职报告中将不再对第一六六市场组的近期工作内容和业绩多做赘述，以上内容在本组的工作月报中均有体现。这篇报告的唯一目的是向您引荐我组内的一名员工：███•████。\\n\\n关于███•████的事迹和业务表现，想必您多少有所听闻。我在系统附件中附上了她的述职文件、以及组内多名员工对她的综合考评文档，供您参阅。尽管年纪尚轻，但███已经表现出了非凡的业务能力、管理思维和意志品质。我毫不怀疑，如果由她来接任第一六六市场组组长的职责，本组的营收和项目成功率将会更上一个台阶。我也有理由相信，以███展现出来的潜力，她的职场生涯绝不会就此止步，她未来必将在更大的舞台上大展宏图。以上，在我退居二线之后，希望您能多多关照███•████——诚如战略投资部一贯的主张：人才是最重要的投资，我相信她早已步入您的视线之中。\\n\\n战略投资部第一六六市场组\\n弗朗西斯科•德比斯基",
+      "4": "<i>「戴斯特……」\\n\\n「怎么了，德比斯基先生？」\\n\\n「要不，你就先吃吧？我看不会有人来了。」\\n\\n「没关系，我还不饿。怎么说这也是您的欢送会，还是再等等吧。」\\n\\n「呵呵…我最知道这帮小崽子的德性了。一个个的，每天脑子里就只有工作，搞钱…怕是早就把我这个老领导给忘得一干二净了。」\\n\\n「…我很遗憾，德比斯基先生。我本来以为，至少叶琳娜会……」\\n\\n「——欸，别叫那个名字了，现在要叫『托帕』。真想不到啊，那姑娘竟然真成了他们的一员……」\\n\\n「不服不行啊戴斯特，像我这种老顽固，再干几辈子都不可能沾到那个位置的边。人家已经是另一个世界的人咯，怎么可能有空来参加这样的小聚会？」\\n\\n「您谦虚了，我觉得…啊，有人敲门——您别动，我去开。」\\n\\n「…是谁啊，戴斯特？我这老花眼，有人站在我跟前都看不清……」\\n\\n「抱歉，先生，没人来…是有人捎来了一封信。」\\n\\n「噢…这样啊。谁寄来的，这么隆重？明明发条信息就可以了嘛……」\\n\\n「信封上没有署名。您稍等，我念给您听吧——」\\n\\n「亲爱的德比斯基先生：感谢您一路以来的厚爱和栽培！没有您的关照，就绝对不会有我的今天。实在抱歉，我现在远在泰科铵出差，不便参与您的退休欢送会。等到这桩项目结了，我一定会抽出一天时间来探望您。对了，我记得您的爱好之一就是机动球——我会从泰科铵给您带纪念品回来的。您永远忠诚的，小叶琳娜。」\\n\\n「……」\\n\\n「德比斯基…先生？您…哭了？」</i>"
     },
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "初次见面",
+        "voice_m": "初次见面，请容许我做个简单的自我介绍。我叫托帕，隶属星际和平公司的战略投资部。星穹列车和无名客，各位的事迹我早有耳闻，幸会！身边这位，就是我的好搭档啦。账账，来和大家打个招呼！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "问候",
+        "voice_m": "嗨，好久不见！最近怎么样？工作忙不忙，加班多吗？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "道别",
+        "voice_m": "怎么这么点小事也要找我…抱歉抱歉，突然来了通工作电话，我先走啦！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•故乡",
+        "voice_m": "那首歌怎么唱的来着？「回不去的名字叫家乡」——嗯，词是写得夸张了点，但我的确很久没回家看看了…老实说，我也不太想回去。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•职业",
+        "voice_m": "保障绝大多数人的利益，这是我选择这条职业路线的初衷。公司给了我一个绝佳的平台，让我能够实现自己的目标…对此，我没什么可抱怨的。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•职场",
+        "voice_m": "职场上为人处事的小技巧，那真是多到列都列不全。但我始终认为，最重要的一点就是保持真诚——不论是对待同事还是客户，这都是我的底线。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "爱好•工作",
+        "voice_m": "这都什么年代了，怎么还有人会为了钱工作呀？钱是手段，不是目的，工作才使人快乐…这可是最基本的道理。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "爱好•小动物",
+        "voice_m": "偌大的星空，亿万种可爱又神奇的小动物…就算只是为了它们，我也得努力呀！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "烦恼",
+        "voice_m": "数学太好的烦恼，就是人人都爱把你当成人形计算器。所以呀，自从坐上这个位置，我就很少跟别人说起我在这方面的专精了。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "分享",
+        "voice_m": "我本来以为，来自不同生态系统的小动物肯定没法共同生活，所以我把家里分成了好多个不同的生态区。结果，你看你看——这两个小家伙处得多好！它们明明来自完全不同的两个星球，却能变得如此亲近…真是太奇妙了！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻",
+        "voice_m": "家家都有本难念的经，这点道理我懂。可要是人人都为自己的原因欠债不还，整个系统就会崩溃——真到了那个时候，一个人的家长里短就会变成全世界的苦衷。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于账账",
+        "voice_m": "从以前开始它就最喜欢亮晶晶的东西，比如金币、宝石啦…经常吃得圆滚滚的，就像膨胀的账务一样~所以账账，其实是「账胀」啦。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于砂金",
+        "voice_m": "不提公司，就是在「战略投资部」里，也有许多我不敢苟同的家伙。尽管是同事，却完全不是一路人，例如那位砂金…衷心祝愿你不用和他打交道。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于布洛妮娅",
+        "voice_m": "贝洛伯格的大守护者…唔，很厉害的一个小姑娘，性格比她的实际年龄要成熟得多——什么，你说我和她年纪差不多大？不不不，情况完全不同，不能直接类比……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 15,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于姬子",
+        "voice_m": "星穹列车的姬子，我早有耳闻。听同事聊八卦的时候说，她是一位貌美绝伦又见多识广的女士。有机会的话，我还真想和她见上一面。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于帕姆",
+        "voice_m": "星穹列车的神秘人物，外形像小动物一样的列车长…嗯，我也听过那种传言。耳听为虚，如果它真有传言中的那么有趣，那我迟早要见上一见！当然最好还能，揉上一揉……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于艾丝妲",
+        "voice_m": "艾丝妲小姐！啊，那可真是位货真价实的大小姐…你绝对猜不到她的家底究竟有多厚，绝对！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于星核猎手",
+        "voice_m": "星核猎手？不熟，没和他们谈过项目。据说那帮人很不好接触，但信用记录倒是意外地良好——比起那些捕风捉影的阴谋论，我更看重的是这一点。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "关于翡翠",
+        "voice_m": "翡翠女士可以算是我的贵人，能干又漂亮，从不吝啬于提携后辈，人还特别亲切！想起第一次见她的时候，我还是会不自觉地紧张一下…时间过得真快啊。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 21,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "星魂激活",
+        "voice_m": "涨势喜人呀！但越是这种时候，就越得保持清醒。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 22,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "很好，继续涨，不要停！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 23,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "这就到头了？不不，人生是场持久战，还得继续向上才行。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 24,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "行迹激活",
+        "voice_m": "还不错，但远远不够。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 25,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•姬子",
+        "voice_m": "姬子小姐！和你共事一定能让我学到许多吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 26,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•布洛妮娅",
+        "voice_m": "近况如何，布洛妮娅？不管多忙都要记得休息，别和我一样啦。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 27,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•艾丝妲",
+        "voice_m": "艾丝妲小姐，幸会呀！令堂最近身体可好？回头再一起吃个饭吧！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 28,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•砂金",
+        "voice_m": "哎？这次跟你一起行动…也好，就当互相有个照应吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "队伍编成•翡翠",
+        "voice_m": "翡翠女士，这个项目就放心交给我吧~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "关于真珠",
+        "voice_m": "真珠从不发脾气，她会先用无懈可击的逻辑与精细到小数点后<unbreak>20</unbreak>位的数据让你没了脾气。会议上只要她在，保准不会吵翻天。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "关于砂金•戏浪",
+        "voice_m": "你不会真信他在度假和拍广告吧？这个工作狂肯去千星城休假，想必是有什么不愿引人耳目，又让他无比动心的战利品。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "队伍编成•砂金•戏浪",
+        "voice_m": "这是准备玩把大的？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "队伍编成•真珠",
+        "voice_m": "账账，你真珠姨姨来啦！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 51,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "我看涨哦。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 52,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "必须提高风险意识……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 53,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•一",
+        "voice_m": "开始吧，资产评估。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 54,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•二",
+        "voice_m": "别急呀，账账！别急~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 55,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合待机",
+        "voice_m": "市场波动很正常，该出手时就出手吧~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 56,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "普攻",
+        "voice_m": "还不还款？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 57,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•一",
+        "voice_m": "账账，狠狠地砸！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 58,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•二",
+        "voice_m": "清算时间到啦！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 59,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "强化战技•一",
+        "voice_m": "连本带息，还债！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 60,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "强化战技•二",
+        "voice_m": "全部资产，没收！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 61,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "轻受击",
+        "voice_m": "稳住……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 62,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重受击",
+        "voice_m": "注意止损……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 63,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•激活",
+        "voice_m": "行情扑朔迷离……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 64,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•施放",
+        "voice_m": "啊？对哦。目光放远，聚焦长线…就是投资成功的秘诀！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 65,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "无法战斗",
+        "voice_m": "还没填…事假申请……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 66,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重回战斗",
+        "voice_m": "呵…加班加班，我来啦。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 67,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回复生命",
+        "voice_m": "好棒的公司福利~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 68,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "这个项目就算结啦！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 69,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "认真工作还是有回报的嘛~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 70,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "哦~意外所得~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 71,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "季度奖金的一部分~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 72,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "小测验而已。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 73,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "这也是工作能力！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 74,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "前方那位，你也要咨询债务问题？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 75,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "休息一会儿…把手机振动关掉吧！",
         "unlock_desc": null,
         "is_battle_voice": true
       }
@@ -459,6 +501,7 @@
       }
     }
   },
+  "ex_ranks": {},
   "skills": {
     "111201": {
       "id": 111201,
@@ -477,6 +520,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -558,6 +602,7 @@
         0
       ],
       "skill_combo_value_delta": 20,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000004": {
           "name": "追加攻击",
@@ -690,6 +735,7 @@
         0
       ],
       "skill_combo_value_delta": 30,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -846,6 +892,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000004": {
           "name": "追加攻击",
@@ -998,6 +1045,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1023,6 +1071,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

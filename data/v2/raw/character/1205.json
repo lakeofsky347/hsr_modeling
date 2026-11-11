@@ -4,387 +4,415 @@
   "chara_info": {
     "camp": "星核猎手",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "…"
+      "chinese": "刘以嘉",
+      "japanese": "三木眞一郎",
+      "korean": "곽윤상",
+      "english": "Daman Mills"
     },
     "stories": {
-      "0": "…",
-      "1": "…",
-      "2": "…",
-      "3": "…",
-      "4": "…"
+      "0": "弃身锋刃的剑客，原名不详。\\n效忠于「命运的奴隶」，拥有可怖的自愈能力。\\n手持古剑作战，剑身遍布破碎裂痕，正如其身，亦如其心。",
+      "1": "他只能见一片殷红，嘴里腥甜，四肢绵软\\n——自己应是死了。\\n\\n<i>「记住了么？」</i>\\n他茫然地张了张嘴，那声响如未开化的野兽。\\n喉咙里的声音戛然而止，冰冷的硬物穿过了他。\\n如此反复，足有千次。\\n\\n好生奇妙。肌理断裂时，他能听见筋骨桥接弥合的细微声响。\\n好生奇妙。体内的怪物被滋养着，他却要任它长为庞然巨物。\\n好生奇妙。他已丧失生存的信念，躯体却自顾自地恢复如初。\\n好生奇妙。\\n\\n当剑再次试图刺穿他的身体之前，他抓住了剑，慢慢起身。\\n<i>「记住了么？」</i>\\n他对上女人血红的眼睛，脑中仍是一片空白\\n——他再一次被刺穿。\\n<i>「记住死亡的感觉，带给他们。」</i>\\n\\n眼底的殷红又泛了上来，他盯着地上那杀他的剑，剑刃碎了半截。\\n<i>「起来，让我再杀你一次。」\\n</i>",
+      "2": "他只能见一片殷红，嘴里腥甜，四肢绵软\\n——自己应是死了。\\n\\n黑发的少年浑身颤抖着，却仍紧紧攥着手中的长枪。\\n他没有龙角，反应也比记忆中更为稚嫩——\\n但他不会认错这把长枪，不会认错那双眼睛，那静如湖面的青绿下是怎样的残酷。\\n伤口开始愈合，他转了转眼珠，看向少年。\\n少年毫不犹豫地再次挥动长枪——\\n\\n<i>「就是这样。」</i>\\n对敌斩尽杀绝的人，是你。\\n一手葬送挚爱的人，是你。\\n差点引致故乡毁灭的人，还是你。\\n\\n他再次倒了下去。\\n少年捂着身上的伤口，步步后退，直至离开他的视线。\\n<i>「███，在亲眼见证你的死期之前，我们会再见面的。」</i>",
+      "3": "他只能见一片殷红，嘴里腥甜，四肢绵软\\n——自己应是死了。\\n\\n怪物再次吞噬了他，但这次他面对的不是别人。\\n高大的铠甲沉默不语，他被牢牢禁锢在那双手臂中，说话的是戴墨镜的女人。\\n\\n<i>「<u>听我说</u>，我可以再杀你一遍，否则没法把你带回去。」</i>\\n她的声音很温柔，连他体内的怪物也安静了下来，听她说话。\\n<i>「但我不想那么做。」</i>\\n女人俯下身，在他耳边轻语。那是他无法拒绝的交易。\\n<i>「你们想要什么？」\\n「还有比目睹不死之人如何死去更令人高兴的事么？『他』这么说。」</i>\\n\\n高大铠甲松开了手臂。「命运」已在前方，他会同他们一起走。\\n<i>「<u>听我说</u>，阿刃，放轻松。」\\n「<u>听我说</u>，你什么都不要想。」</i>\\n他点点头，女人走到他身边。她笑着，他却觉得那笑容非常悲伤。\\n<i>「也许有人离开了她，没有听她说完话。」</i>他想。",
+      "4": "他什么都看不见了。\\n\\n他想起几十年前，自己随商船来到仙舟，为此地的鬼斧神工所折服。\\n少年茶饭不思，肆意挥洒自己的灵感，他锻造百种奇物，其中有四件最为著名。\\n\\n名为「支离」的剑通体无瑕，漆色中泛着血光，只有仙舟最强剑士方能诠释此剑的真谛。\\n狐人少女曾在绝境中用曲弓三箭并发，却仍不忘一边驾驶星槎一边同众人谈笑。\\n黑发龙角的男子以御水之术为同伴疗伤，在下个瞬间又将水附着于长枪之上，瞬间刺穿敌方。\\n还有那总爱同他拌嘴的少年，见到这把阵刀时，却是一把抢了过去，再也不愿放手。\\n\\n如今，██已经死了，这最初的、唯一的死亡。\\n但他仍在此处，那尚如少年的头脑思索着，他将永远思索着。\\n他思索着自己不再灵巧的双手，那双手已无法再打造任何兵刃\\n——但这一切与他无关。\\n从今往后，那具躯壳，将是唯一的「刃」。"
     },
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "初次见面",
+        "voice_m": "{NICKNAME}…我不认识你。这对你而言，是件好事。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "问候",
+        "voice_m": "又来了？…被我记住的人，结果都不会很好。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "道别",
+        "voice_m": "走吧，「魔阴身」发作的时候，最好别在我身旁。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•名字",
+        "voice_m": "消磨自己，撕碎敌人，便是兵刃。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•魔阴身",
+        "voice_m": "人皆有魔阴，或各有不同，我的情况殊为特别。即便常受魔阴作祟，我却对此记忆寥寥：无论是悔恨、仇怨，还是思念与惶然……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•狂魔",
+        "voice_m": "魔阴发作时，我就是另一个人了。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•星核猎手",
+        "voice_m": "我们藉由彼此之手，达成目的。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•不死身",
+        "voice_m": "「这次，将是最后一次」的期许，最终都消减在察觉肉体愈合的痛苦中。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•代价",
+        "voice_m": "人有五名，代价有三个——这句话刻在我每一处伤口里……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "刃的爱好",
+        "voice_m": "「刃」的存在，唯有挥剑的刹那，才能消失片刻。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "刃的烦恼",
+        "voice_m": "死亡何时而至？我等得有些心焦了。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "分享",
+        "voice_m": "比我快的武器不可胜数，但上千回的交锋后又如何？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻",
+        "voice_m": "已死之人，不知所惧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于卡芙卡",
+        "voice_m": "缚住魔阴的绳子在她手中，在约定的时限之前，她不会拉动绳索，但也绝不会松手。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于银狼",
+        "voice_m": "在那个被她称之为「游戏」的世界里，她不放弃，便不会死去。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于景元",
+        "voice_m": "他一直…一直是我们中最明白「代价」的那个人，但他什么都没说，什么都没做！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于丹恒",
+        "voice_m": "饮月君…我们的果报何时来临？我们欠下的债如何偿还！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 19,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于镜流",
+        "voice_m": "挥剑时，身体中不绝翻涌着的幻痛——何处一剑致命、何处痛不致死——皆拜她所赐！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 20,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "星魂激活",
+        "voice_m": "生命，已成惩戒。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 21,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "迈向破灭的路途，没有捷径。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 22,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "希望一切…能在此终结。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 23,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "行迹激活",
+        "voice_m": "不过是上万次痛苦中，最微不足道的一种。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 24,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•卡芙卡",
+        "voice_m": "卡芙卡…不能埋葬我们的，都将被我们埋葬。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 25,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•银狼",
+        "voice_m": "你的戏法总是令人琢磨不透…按你想的来吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 26,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•镜流",
+        "voice_m": "镜流…见证我的痛苦，我的一招一式。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 27,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•景元",
+        "voice_m": "你以前可没这么爱管闲事，景元。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 28,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•丹恒",
+        "voice_m": "你来了，别让我抓到你任何破绽。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 29,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•丹恒•饮月",
+        "voice_m": "你来了，别让我抓到你任何破绽。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 30,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于萨姆",
+        "voice_m": "我活在炼狱中，而萨姆，擅长制造炼狱。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "队伍编成•流萤",
+        "voice_m": "猜猜看，先抵达「结局」的是你，还是我…或者是他们？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "关于流萤",
+        "voice_m": "我渴望终结，而她渴望生存…我们都是命运的奴隶。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "关于银狼LV.<unbreak>999</unbreak>",
+        "voice_m": "她试图说服我，游戏不只有「死亡」作结，还有输赢。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "队伍编成•银狼LV.<unbreak>999</unbreak>",
+        "voice_m": "既然是在你的游戏，按你想的来吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 51,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "你挡路了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 52,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "你会带给我惊喜么？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 53,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•一",
+        "voice_m": "以掌中之剑，送你一程。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 54,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•二",
+        "voice_m": "剑下不必留情。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 55,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合待机",
+        "voice_m": "等得太久，小心煞气枯竭。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 56,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "强化普攻",
+        "voice_m": "悉数…奉还！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 57,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•一",
+        "voice_m": "其势…已成！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 58,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•二",
+        "voice_m": "死兆…将至！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 59,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "轻受击",
+        "voice_m": "还不够……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 60,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重受击",
+        "voice_m": "好，来得好。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 61,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•激活",
+        "voice_m": "此番美景，我虽求而不得……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 62,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•施放",
+        "voice_m": "却能，邀诸位共赏。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 63,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "天赋",
+        "voice_m": "彼岸…葬送！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 64,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "无法战斗",
+        "voice_m": "这次能成功吗……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 65,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重回战斗",
+        "voice_m": "可惜，还活着。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 66,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回复生命",
+        "voice_m": "多事。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 67,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "看来剑还不够快。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 68,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "别无他物。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 69,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "结束了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 70,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "再走近一些也无妨。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 71,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "还有其他事么？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 72,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "嗯。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 73,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "收好。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 74,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "如我所料。",
         "unlock_desc": null,
         "is_battle_voice": true
       }
@@ -461,6 +489,7 @@
       }
     }
   },
+  "ex_ranks": {},
   "skills": {
     "120501": {
       "id": 120501,
@@ -479,6 +508,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -560,6 +590,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -716,6 +747,7 @@
         60
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -917,6 +949,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000004": {
           "name": "追加攻击",
@@ -1079,6 +1112,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1104,6 +1138,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1132,6 +1167,7 @@
         30
       ],
       "skill_combo_value_delta": 20,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -3250,6 +3286,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {},
           "level": {
             "1": {
@@ -3331,6 +3368,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {},
           "level": {
             "1": {
@@ -3502,6 +3540,7 @@
             60
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {},
           "level": {
             "1": {
@@ -3703,6 +3742,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {
             "10000004": {
               "name": "追加攻击",
@@ -3865,6 +3905,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {},
           "level": {
             "1": {
@@ -3890,6 +3931,7 @@
             0
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {},
           "level": {
             "1": {
@@ -3918,6 +3960,7 @@
             30
           ],
           "skill_combo_value_delta": null,
+          "related_ex_rank_id_list": [],
           "extra": {},
           "level": {
             "1": {

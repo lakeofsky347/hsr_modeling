@@ -4,7 +4,7 @@
 set -euo pipefail
 
 SITE="${SITE:-https://hsr.nanoka.cc}"
-BASE="${BASE:-https://static.nanoka.cc/hsr/4.6.51}"   # CDN base discovered from the site's data-url attributes
+BASE="${BASE:-https://static.nanoka.cc/hsr/4.7}"   # CDN base discovered from the site's data-url attributes
 OUT="${OUT:-data/nanoka/raw}"
 LANGS="zh en"
 

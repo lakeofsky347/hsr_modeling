@@ -2,21 +2,561 @@
   "name": "真珠",
   "desc": "点染星月，描摹万象，文明的遗珠重焕光彩。\\n因解析艺术而诞生，她追寻美的极境，却从未失却「存护」的底色：\\n历经洗礼，她会收获怎样的「真珠」？",
   "chara_info": {
-    "camp": null,
+    "camp": "星际和平公司",
     "va": {
-      "chinese": null,
-      "japanese": null,
-      "korean": null,
-      "english": null
+      "chinese": "苏婉",
+      "japanese": "安野希世乃",
+      "korean": "여윤미",
+      "english": "Cat Protano"
     },
     "stories": {
-      "0": null,
-      "1": null,
-      "2": null,
-      "3": null,
-      "4": null
+      "0": "点染星月，描摹万象，文明的遗珠重焕光彩。\\n因解析艺术而诞生，她追寻美的极境，却从未失却「存护」的底色：\\n历经洗礼，她会收获怎样的「真珠」？",
+      "1": "母题：何为『艺术』？\\n报告编号：ART-ANL<unbreak>-001</unbreak>\\n执行单元：P<unbreak>-07</unbreak>\\n样品：画作《月夜星》\\n报告日期：████\\n \\n一、 解析目标\\n画作《月夜星》中，十一颗星体以不规则的间距散布，形成巨大的螺旋星云。\\n从解析母题的角度出发，我需要解明：「为何它会被称之为『艺术』」——意味着，将它拆解为可量化参数的集合。\\n \\n二、 成分解析\\n画作呈现半哑光质感，可见极细微的、波浪状的笔触肌理。\\n色层丰富，其白色并非纯白，而是由<unbreak>1.3%</unbreak>的冷灰色，<unbreak>2.1%</unbreak>的钴蓝色等细密点状颗粒叠加而成，模拟了星夜具有光学深度的色泽。\\n……\\n复现这些笔触并不困难，为此，我决定进行一场实验。\\n \\n三、 复现实验\\n 严格遵循数据进行的复现，理应产出等同原件的艺术效果。\\n以超高次数的浮点计算，我确信：每一个像素以不超过<unbreak>0.1%</unbreak>的误差反映了《月夜星》的原貌。\\n\\n但当我邀请《月夜星》的故乡——月卫之盾——的幸存者观赏这幅画时，他们却在久久端详后露出了困惑的神情——\\n<i>「总感觉…少了点什么？」\\n「这幅画描绘了我故乡的天空，但我感受不到它的温度……」</i>\\n ……\\n在感性的层面上，观察者能够识别出两幅画在视觉上的相似性，但一致认为临摹件「缺少温度」。\\n我重新审视原作的背景资料：《月夜星》是画家在世界沦亡之后，凭借记忆所描绘的故乡景象。他的画并非客观还原，而是融汇了情感的再现。\\n<i>「而你仅仅只是复现了画面，却从未理解过画家和他所描绘的世界。」</i>——来自观察者的批评。\\n \\n四、 结论\\n若「艺术」存在于可量化数据中，则我的复现应当等效——但观察者的反馈否定了这一点。\\n我将继续探索母题，本次报告至少排除了一项错误答案。我相信：这将是「理解」的开始。",
+      "2": "《月夜星》所描绘的天空，曾真实存在过。\\n \\n但当她作为公司代表初次抵达那颗星球之际，天空一无所有，独留毁灭的疮痍。\\n以不规则间距散布的十一颗星体与巨大的螺旋星云不知所踪，风从裂谷的方向吹来，卷起灰烬，掠过她脚下龟裂的土地。\\n智械少女抬起头，如初次仰望画卷一般——仰望天空。\\n \\n艺术深植于文明，修复一个文明，也许就能触摸艺术诞生的奥秘。\\n于是智械少女举起手中之笔，月夜与星为卷，向天空绘作世界的图景。\\n \\n<i>「我将拾起逝去的笔触，拼合文明的碎片。此即诸世界重建计划：还给你们一片『月』、『夜』与『星』。」</i>\\n \\n启动大气层重构程式，调整成分比例，可见光谱完全呈现。\\n「诸世界重建计划」基金会与流光忆庭合作，根据忆庭的资料，她开始主导这项宏伟的工程。\\n第一夜，破碎的天空逐渐弥合，如同灰白的画布。\\n第一百夜，十一颗星体螺旋在夜幕中浮现，旋转，星体拖曳的轨迹交织成黄金的回旋。\\n第一千夜，三十二次日落之后——天空恢复了熟悉的钴蓝和铬黄，亲临此处的幸存者无不落泪。\\n \\n<i>「画家曾忠实地描绘故乡的景象，深蓝色的天幕以剧烈的螺旋纹路旋转，光晕层层叠叠地扩散，如同温暖的涟漪。」</i>\\n她确实复现了天空，这是真正的天穹；是一度遭受毁灭，又再度与寰宇连结的星空。\\n但此刻仰望星空的并非画家，唯有一名智械。\\n\\n然而，月卫之盾的文明已然成为记忆，再精巧的修复也只是雕刻时光的琥珀。\\n智械少女眺望重新亮起的天空，永恒的静止凝固永恒的美丽，她的指尖似乎得以触及一点「理解」的真谛——\\n<i>「如果…我做的并非只是『复现』，而是『创作』……」</i>",
+      "3": "哈托彼亚被打捞出画后，五个月又十五天，她以高超的洞察力与宽容的文化政策坐稳了执行官的座位。\\n智械少女怜爱人类的灵魂，更惊异于二相乐园涌现的创造力。\\n就像面对一张从头开始的画卷，她小心翼翼地呵护着脆弱的文化，从古老的艺术中汲取灵感。\\n\\n如重构大气层般重建秩序，如调整成分般调整协议。\\n珠星财团建立起必要的秩序，划定边界，让创作回归良性的流动…当她苦思绘世的创作奥秘，当她为漫画会心一笑时，她确信：自己喜爱这里，渴望学习人类的文明。\\n高悬于天上的幻月需要的是众生所愿、诸多欢笑。它问：\\n<i>「真珠，你想将『哈托彼亚』创作成怎样的世界？」</i>\\n\\n于是智械少女挥笔，她以自身为蓝本，将机械与幻想熔铸成原型。\\n<i>「机铠登场！二相乐园的美好，就由我们来守护！」</i>\\n机铠在轰鸣中走出工坊，穿梭于二相乐园的街巷。\\n\\n<i>「珠星财团创作者激励大会圆满谢幕，冠军得主『模糊二维马』，将获得漫画推广机会！」</i>\\n智械少女亲自担任评委，最后让她注目的是一群航行于星海的可爱生灵。\\n\\n主导反毁灭同盟的建立，她牵桥连线，防备风浪暗涌动摇乐园的根基。\\n星穹列车、仙舟、猎手、游侠…在她的布局下，众派系齐聚幻月游戏，她的计算依然精确，但灾难的来袭仍然出乎了所有人的预料。\\n血涂游戏轮番上演，沉寂的兽骸再度躁动，绝灭大君点燃绝望——\\n\\n她仰望那不再欢笑的幻月，眼前却闪动着千年前绘世为乐园作画的场景。\\n同样的战火，同样的哭喊，她来不及想象绘世是以何种心情挥动画笔，甚至没有意识到自己已经挡在了所有居民身前。\\n\\n落笔的一瞬，唯有将天地列入织锦的愿望。\\n那不可以数据推演的逻辑，从智械的心中翻涌而出——\\n她已全然忘记了技法。",
+      "4": "她一次次分析和审察着心中涌现的「冲动」——\\n那在「创作」瞬间统摄全局、挥毫抒发的感触，似乎交织着愤怒、怜悯、悲伤，却始于最坚定的「存护」意志。\\n她曾在摹仿中耗尽成千上万个系统时，只为逼近那与「真作」的一线偏差。\\n<i>「也许…它就藏在随心落笔的那个瞬间。」</i>\\n\\n灵感打破瓶颈，也让她有了更多尝试的可能。\\n将二相乐园封入琥珀仅是缓兵之计，她需要主动出击，赢下保卫乐园的胜利。\\n\\n一笔顺其自然的勾勒。\\n深知公司对兽蜕的垂涎，她揭开生研院埋藏已久的伏笔。\\n一道危险又迷人的色彩。\\n朽叶…那个来历神秘的女士，她愿意跨越自己的规则，冒险一试。\\n刮刀涂抹大胆而又出格的笔触。\\n不出于任何上级的意志，她决意要将重蹈贪饕之灾的可能扼杀在摇篮之中——\\n\\n这可能吗？\\n在擘画蓝图的许多个日夜，她浸泡在液冷装置中，才能稍稍平息思考回路的过载。\\n她思索着计划的每一个细节，失败的每一种结局，无穷无尽的可能淹没了她，也带来恐惧和退缩。\\n\\n这值得吗？\\n她漫步在避难所，望着一个个向她跑来的孩子，向她道谢的居民。\\n<i>「真珠女士，你看我给你画的画！」</i>\\n她笑了。\\n稚嫩的画面上，孩子们把她画成了巨大的机铠，张开双臂挡在了毁灭城市的大怪兽之前。\\n\\n星体差分机赋予她的原初之问，依然时刻在她的底层逻辑上回响——\\n何为「艺术」？\\n直到现在，她仍然不知道答案。\\n但在这一刻，她想，那还重要么？\\n一粒沙砾被反复包裹，直到蜕变成珠。\\n<i>「我的『艺术』，便是只有我、需要我——方可『创作』之物。」</i>\\n\\n在启程之前，智械少女回望「哈托彼亚」色彩斑斓的画卷。\\n——那里有无数个尚未成形的未来，正等她落下第一道笔触。"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "初次见面",
+        "voice_m": "「真珠」，隶属于公司战略投资部的艺术品投资专家，二相乐园首席执行官，欢迎你的来访。据我测算：为了更好地了解彼此，不妨从我的画作开始。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "问候",
+        "voice_m": "一些新近的艺术尝试，你觉得如何？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "道别",
+        "voice_m": "与你相谈时总有许多灵感碰撞，希望下次见面，我能向你展示臻至完美的作品。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "关于自己•职责",
+        "voice_m": "以数学模型代替主观判断，从海量数据中鉴识风险，进行艺术投资——这是我在战略投资部的本职，与解析二相乐园幻造的奥秘一样，这两种艺术都需要：理性，灵感，与一份突如其来的激情。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "关于自己•首席执行官",
+        "voice_m": "二相乐园是依靠想象运转的土地，我感受过它诸多浓墨重彩的时刻，所以：无论是对艺术或生命的守护，只要我仍是这里的首席执行官，我会继续演算千万次，与它共存共荣的可能。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "关于自己•绘画",
+        "voice_m": "我喜欢这个比喻：绘画，就像一面镜子在描摹它倒映的对象。充满人性的事物往往会更吸引我：画中的牵牛花，庭院的山水，离别的一滴泪…既然我能触到它们的温度，现在，该考虑如何复现了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "闲谈•珠星财团",
+        "voice_m": "从公司派驻二相乐园的办事处，到拥有绒绒号、机铠等大热IP的企业，珠星财团希望：乐园历<unbreak>2000</unbreak>年到来之际，打造一个银河各世界向往的文化乐园——我坚信：我们还有时间，全力以赴完成这个约定。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "闲谈•珍珠",
+        "voice_m": "遍布海洋的星球上，人们会用沙砾批量制造珍珠。我曾站在那里看了很久——在灿烂的阳光下，每一颗珍珠，其实都有着独一无二的本色。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "闲谈•机铠",
+        "voice_m": "在设计机铠时，我也曾考虑过将自己进行一次改装，比如…一条能在星海潜游的尾鳍。思考：还是留待离任后再说吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "爱好•盲盒",
+        "voice_m": "抽取盲盒是概率论与人性的经典案例。每逢绒绒号的新盲盒上市，我都会暂时关闭概率计算功能，体验一番纯粹的惊喜。日积月累，现在我不得不购买一座星舰来存放我的收藏。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "烦恼",
+        "voice_m": "于二相乐园任职期间，我需要一刻不停地演算才能平衡公司的利益和二相乐园的未来——确信：偶尔，我也想变成一只狸猫，有一刻不受打扰的闲暇。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "分享",
+        "voice_m": "在「毁灭」的巨浪中打捞并修复那些湮灭的文明，犹如在残破的浮世之上作画，举目所见，都是褪尽的花色，冰凉的露珠，干涸的长川。「诸世界重建计划」不会抹去惨烈的历史，而要描绘更美好的未来。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "见闻",
+        "voice_m": "于工艺：我对「覆世沧浪图」等巨作的临摹已趋近完美。浪尾的黄金比，海沫的高光，乃至朦胧阴影我不会笔误分毫。但浪花隐藏的秘密，就像欢愉究竟为何物一样难解。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "见闻",
+        "voice_m": "于工艺：我对「覆世沧浪图」等巨作的临摹已趋近完美。浪尾的黄金比，海沫的高光，乃至朦胧阴影我不会笔误分毫。一直以来，浪花隐藏的秘密，就像欢愉究竟为何物一样难解。可当我为「存护」世界而落笔时，答案忽然清晰可见：无关乎技巧，唯有从真「芯」中涌现的创造，才拥有触摸至美的可能。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "关于{NICKNAME}",
+        "voice_m": "你天然能够聚焦「期待」和「信任」的目光，在超过<unbreak>80%</unbreak>的交际场合中：这种情感投射通常需要高昂的社交资本置换。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "关于砂金",
+        "voice_m": "有他参与的一切事务，概率推算皆会暂时失效。不过，在能让他暂且卸下防备的休闲派对里，他似乎并不那么在乎输赢。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "关于砂金•戏浪",
+        "voice_m": "据我的观察：「石心十人」的棋局，没有一步是闲棋——将风险化为浪尖的锋芒，他又会在未来引发怎样的风暴？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "关于翡翠",
+        "voice_m": "我会帮她鉴定收藏中的赝品，作为回报，我可以从她的宝库中挑选一件艺术品带走…遗憾的是，这样的机会并不多。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "关于托帕",
+        "voice_m": "<unbreak>89%</unbreak>的业务记录表明：叶琳娜的行动基于她丰沛的情感与意志。我喜爱这一点，但也时常提醒她，别让自己成了某些人手中的武器。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "关于爻光",
+        "voice_m": "我相信：对于一位将自身化作命运罗盘的将军，在那片无从观测的可能性之海，「迷失」不会是她的结局。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "关于不死途",
+        "voice_m": "抛开雇主与猎人的关系，他的直觉往往能带给我醍醐灌顶的启发。但每次想追问更多，他却总是点到为止…这也许就相当于画艺中的「留白」吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "关于火花",
+        "voice_m": "二相乐园的网络里，仍翻涌着对「火花」不可计数的戏仿。这验证了复读是人类的本质之一，也证实了：她依然保持着对人性的敏锐掌握。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "关于银狼LV.<unbreak>999</unbreak>",
+        "voice_m": "一直以来，我整合分析了她的诸多数据，无一例外：由它们拟合的预测曲线，都指向了无人踏足的边界。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "关于绯英",
+        "voice_m": "一些同僚将公司视为二相乐园的统领者，但它和它的人民自有运转的逻辑。她展现出的守护意志，值得我们更多的尊重。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "关于虚照",
+        "voice_m": "和她谈到绒绒号下一期连载的选题时，她常说「你又开始变得很商业化」。投资是我的本职，但还好我仍葆有艺术家的品味，和她探讨漫画的「名场面」，也是我最享受的灵感碰撞环节。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "关于姬子",
+        "voice_m": "在我的演算中，「开拓」永远是一个未知数。而对于在那混沌中锚定方向，点出航标的人，我愿意给予我最大的信任。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "关于绘世",
+        "voice_m": "我曾为她的存在感到疑惑：身为「毁灭」的造物，却在创造生的艺术。但在描摹她的笔锋时，我感受到了：那如血如火的意志，已化作向命运挥舞的重色。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "关于亚婆离",
+        "voice_m": "以「存护」之名所行的恶，往往比纯粹的恶破坏更大。不惜赌上职业生涯，断绝罪恶的源头——那是我经历数万次计算后得出的最优解。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "关于星神★阿哈",
+        "voice_m": "若是放在以前，意识到我经常催稿欢愉星神这一事实，足以令我的逻辑回路阻塞。但现在，我发现自己竟在思考：是否要邀请祂再留一会，至少将绒绒号的大纲写完了再走？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "星魂激活",
+        "voice_m": "万千数据，只为描摹灵魂的色彩。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "角色晋阶",
+        "voice_m": "每一次落笔，都更接近完美。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "角色满级",
+        "voice_m": "最后一抹神韵，会在何处？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "行迹激活",
+        "voice_m": "只要走着，总会有灵感不期而遇。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "默契，是最需雕琢的珍贵数据。合作愉快。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "队伍编成•砂金",
+        "voice_m": "即便胜率是1%，我想，你也会让它成为<unbreak>99%</unbreak>。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "队伍编成•砂金•戏浪",
+        "voice_m": "同面巨浪，也是同僚的责任。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "队伍编成•绯英",
+        "voice_m": "绯英小姐，我会履行好「存护」的职责。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 109,
+        "voice_title": "队伍编成•银狼",
+        "voice_m": "银狼小姐，当成私人交易就好。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 110,
+        "voice_title": "队伍编成•银狼LV.<unbreak>999</unbreak>",
+        "voice_m": "银狼小姐，有幸观瞻真正的骇客技巧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 111,
+        "voice_title": "队伍编成•翡翠",
+        "voice_m": "这次，你会收入怎样的珍品？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 112,
+        "voice_title": "队伍编成•托帕",
+        "voice_m": "叶琳娜，好久不见。账账，想来我这里玩一会吗？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 113,
+        "voice_title": "队伍编成•爻光",
+        "voice_m": "风险预测：<unbreak>98%</unbreak>，果然，你不会轻易出手。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 114,
+        "voice_title": "队伍编成•火花",
+        "voice_m": "火花小姐，拍摄请提前向我报备。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 115,
+        "voice_title": "队伍编成•不死途",
+        "voice_m": "不死途先生，委托有什么进展么？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 116,
+        "voice_title": "队伍编成•姬子",
+        "voice_m": "姬子女士，别来无恙。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 117,
+        "voice_title": "队伍编成•姬子•启行",
+        "voice_m": "能与「开拓」共绘这段航程，荣幸之至。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 118,
+        "voice_title": "队伍编成•星神★阿哈",
+        "voice_m": "请放心，我的思考回路足以应对<unbreak>99.9%</unbreak>的笑点解析。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "生命皆有瑕疵。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "别让恐惧污染你的判断。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "回合开始•一",
+        "voice_m": "投资的艺术，在于洞察本质。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "回合开始•二",
+        "voice_m": "灵感，正如浪花般跃动。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "回合待机",
+        "voice_m": "美的瞬间，短暂而易逝。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "普攻",
+        "voice_m": "稍作润色。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "强化普攻一•施放•一",
+        "voice_m": "败笔，亟待修复。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "强化普攻一•施放•二",
+        "voice_m": "遗憾，美中不足。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "强化普攻二•施放•一",
+        "voice_m": "喧嚣，落笔封存。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "强化普攻二•施放•二",
+        "voice_m": "灵韵，定格此刻。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "轻受击",
+        "voice_m": "小故障。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "重受击",
+        "voice_m": "状态：异常。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "战技•一",
+        "voice_m": "以此笔触，珠玉长存。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "战技•二",
+        "voice_m": "浮世易朽，入画如初。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "欢愉技•一",
+        "voice_m": "信笔由疆，点染星月。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "欢愉技•二",
+        "voice_m": "着墨繁星，徜徉漫步。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "终结技•激活",
+        "voice_m": "我欲入深海，打捞遗珠——",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "终结技•施放",
+        "voice_m": "解析，描摹，复原…重塑完美。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "无法战斗",
+        "voice_m": "「作品」…尚未完成……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 220,
+        "voice_title": "重回战斗",
+        "voice_m": "灵感回路，已更新。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "回复生命",
+        "voice_m": "妙手回春，感谢你的添色。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "秘技",
+        "voice_m": "深度学习，开始。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "战斗胜利",
+        "voice_m": "珍贵的历史数据。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "开启战利品•一",
+        "voice_m": "一点一滴的积累，也能汇成洋流。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "开启战利品•二",
+        "voice_m": "没有赝品，请放心收下。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "开启贵重战利品",
+        "voice_m": "稀缺之物，不妨静待它的升值。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 227,
+        "voice_title": "解谜成功•一",
+        "voice_m": "判断：「芯」算即可。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 228,
+        "voice_title": "解谜成功•二",
+        "voice_m": "艺术性有待提升。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 229,
+        "voice_title": "发现敌方目标",
+        "voice_m": "建议，而非警告：谨慎前行。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 230,
+        "voice_title": "返回城镇",
+        "voice_m": "世间雪月风花，也一样令我留恋。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "pearl",
@@ -141,6 +681,7 @@
       }
     }
   },
+  "ex_ranks": {},
   "skills": {
     "150301": {
       "id": 150301,
@@ -159,6 +700,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -240,6 +782,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000029": {
           "name": "好活当赏",
@@ -387,6 +930,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000027": {
           "name": "笑点",
@@ -624,6 +1168,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000029": {
           "name": "好活当赏",
@@ -806,6 +1351,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -831,6 +1377,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000029": {
           "name": "好活当赏",
@@ -865,6 +1412,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000028": {
           "name": "欢愉伤害",
@@ -997,6 +1545,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1108,6 +1657,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000028": {
           "name": "欢愉伤害",
@@ -1257,8 +1807,8 @@
     "150329": {
       "id": 150329,
       "name": "欢愉万相★跃然纸上",
-      "desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，真珠的【<u>绝活共赏</u>】持有上限提高至<unbreak>#1[i]</unbreak>点。终结技提供的额外回合开始时获得的【好活当赏】和笑点提高效果，在额外回合结束时会保留<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>和<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>。",
-      "simple_desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，真珠的【<u>绝活共赏</u>】持有上限提高。终结技提供的额外回合开始时获得的【好活当赏】和笑点提高效果，在额外回合结束时会保留部分。",
+      "desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，真珠的【<u>绝活共赏</u>】持有上限提高至<unbreak>#1[i]</unbreak>点。终结技提供的<u>额外回合</u>开始时获得的【<u>好活当赏</u>】和<u>笑点</u>，在<u>额外回合</u>结束时会保留<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>和<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>。",
+      "simple_desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，真珠的【<u>绝活共赏</u>】持有上限提高。终结技提供的<u>额外回合</u>开始时获得的【<u>好活当赏</u>】和<u>笑点</u>，在<u>额外回合</u>结束时会保留部分。",
       "type": null,
       "type_name": "固有行迹",
       "tag": "Support",
@@ -1271,6 +1821,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10015111": {
           "name": "「欢愉」命途升格",
@@ -1279,7 +1830,22 @@
         },
         "10015113": {
           "name": "绝活共赏",
-          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方欢愉命途角色的【固有行迹】效果。",
+          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方「欢愉」命途角色的【固有行迹】效果。",
+          "param": []
+        },
+        "10000000": {
+          "name": "额外回合",
+          "desc": "获得1个不消耗回合数的额外回合，在此回合中无法插入施放终结技。",
+          "param": []
+        },
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
+          "param": []
+        },
+        "10000027": {
+          "name": "笑点",
+          "desc": "笑点为全队共享。造成欢愉伤害时，计入的笑点越多，欢愉伤害越高。",
           "param": []
         }
       },

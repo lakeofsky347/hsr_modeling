@@ -4,375 +4,851 @@
   "chara_info": {
     "camp": "星穹列车",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "…"
+      "chinese": "诺亚",
+      "japanese": "小倉唯",
+      "korean": "정혜원",
+      "english": "Skyler Davenport"
     },
     "stories": {
-      "0": "…",
-      "1": "…",
-      "2": "…",
-      "3": "…",
-      "4": "…"
+      "0": "精灵古怪的少女，自认热衷于这个年纪的女孩子「应当热衷」的所有事，比如照相。\\n从一块漂流的恒冰中苏醒，却发现自己对身世与过往都一无所知。短暂的消沉之后，她决定以重获新生的日期为自己命名。\\n这一天，三月七「诞生」了。",
+      "1": "为什么三月七要拍照？\\n<i>「第一，自己这样的女孩子应该喜欢这么做。」\\n「第二，所有拍下来的东西，就不会忘啦。」</i>\\n\\n三月七对拍照有什么心得？\\n<i>「第一，对黑暗料理需要进行局部细节拍摄，因为『拍过等于吃过，要细细品味』。」\\n「第二，只要自己闭着眼睛拍照，就一定能拍到对方闭着眼的表情。」</i>\\n\\n为什么三月七要把相机挂在身上？\\n<i>「下次谁还想把我封在冰里，就必须把相机一起封进去！」</i>\\n\\n所以三月七为什么不用手机拍照呢？\\n<i>「对哦，为什么呢——等等，什么为什么，这是仪式感嘛！」</i>",
+      "2": "能力为「六相冰」，但三月七一直坚称那不是冰，而是某种凝聚态结晶。\\n<i>「拜托，你有见过这么好看的冰么？」</i>\\n\\n战斗时使用的弓矢也是用「六相冰」凝成的，但实际上对自己使用弓箭一事并不满意。\\n<i>「你有见过哪个大佬是用弓的么？」\\n「况且，用我凝结出的弓矢去攻击我凝结出的护盾，根本什么事都不会发生啊！」</i>\\n\\n为此还曾经刻苦修行名为「斩星破宙•大琉璃剑」的绝招，目前成效为零。\\n<i>「小三月，听名字应该是大剑吧？」\\n「嗯，但感觉好像不如冰雕…砸。」</i>",
+      "3": "相比「列车长」帕姆，「领航员」姬子，「护卫」丹恒，「什么都会的」瓦尔特，即使自称为「勇士」，连三月七都很难说清楚自己在列车上的分工。\\n但三月七的一举一动，无时无刻不都在影响列车组的行动方针。\\n\\n<i>「三月七旅客摔倒了……」\\n「三月，小心头顶的方铅矿球。」\\n「小三月，那边的景点拍过照了吗？」\\n「我相信小三月，她说不好吃，那就肯定不好吃。」</i>\\n\\n与其说三月七容易让人放心不下，不如说她总是会让人放在心上。\\n当然，三月七对此毫无察觉，她正在全力思考适合{NICKNAME}的列车组定位。",
+      "4": "即使种种迹象表明，对于一直在宇宙中漂流的三月七，她刚醒来的情况并不算糟。\\n身处于一辆恰好路过的列车上，车上的人看上去也很亲切。\\n唯一的问题是，即使她对周遭的情况保有合理的认知，对自己却仍旧一无所知。\\n\\n<i>「我是谁，我来自哪里……」</i>\\n\\n三月七看着镜子中的自己，一边试穿姬子给她置备的各类服饰，一边为自己想象着几十种身世。\\n哪一种才是她的过去，哪一种才是她这样的女孩子应有的过去…三月七无法确定。\\n但三月七能选择的，只有现在的自己；她能望向的，也只有未来。\\n她恐惧着，又庆幸着。"
     },
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "初次见面",
+        "voice_m": "你好，{NICKNAME}。欢迎入职星穹列车，我是三月七，星穹列车的乘员，也是你的同事。现在，请先拍摄入职照…瞧把你吓的，咱是在开玩笑啦~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "问候",
+        "voice_m": "哎呀，你来得正好，今天还没一起拍过照呢。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "道别",
+        "voice_m": "我整理完今天的照片就休息啦，你也别熬夜打游戏哦！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•名字",
+        "voice_m": "名字是我自己取的，大家也叫我三月、小三月…你呢？你想叫我什么？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•过去",
+        "voice_m": "我的过去，或许不在从前，而是在我的未来里。所以我一定会一站站走下去，哪怕有一天…没有列车。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•果汁",
+        "voice_m": "果汁…一说就觉得馋，一馋就忒想喝，一喝就…停不下来……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•照片",
+        "voice_m": "照片当然不是现实，但如果有足够多的照片，是不是就能更接近现实一些呢？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "爱好",
+        "voice_m": "拍照，写日记，还用说嘛~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "烦恼",
+        "voice_m": "要是没人和我聊天，我就闷得要命。但在列车上的时候，姬子很忙，杨叔很忙，帕姆很忙，丹恒倒是不忙，可他不喜欢聊天……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "分享",
+        "voice_m": "每次坐在书桌前整理完相册，抬头看向窗外，即使那一幕已经见过千遍万遍，我总是想再拍一张照片…现在咱能坐在列车里，像这样看着星星，真的很幸福。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻",
+        "voice_m": "即使看起来很「黑暗」的料理，也要拿出「开拓」的精神来面对！但，实话实说，砂鳗冻和姬子泡的咖啡真不太好……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于丹恒",
+        "voice_m": "丹恒…他在我之前上的车，从没透露过自己的来历…你要是有机会，也帮我打探打探？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于姬子",
+        "voice_m": "美丽的姬子姐姐，成熟，可靠，又优雅，还是列车的领航员…以后，我也可以成为那样的大人吧！不过咱现在这样也很好~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于瓦尔特",
+        "voice_m": "听说杨叔曾经是秘密组织的首领，拯救过星球，当过老师，还画过动画的原画！哎，简直是外星人了……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 15,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于帕姆",
+        "voice_m": "列车长就是最棒的！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于丹恒•二",
+        "voice_m": "即使知道了他的神秘过去，他还是我们认识的那个丹恒呀！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」星魂激活",
+        "voice_m": "我的过去，正在一点点变多呢。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "今天的我比昨天更棒了~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 19,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "成长完毕！真正的三月七之旅现在才要开始！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 20,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "「存护」行迹激活",
+        "voice_m": "没错没错，我还藏着几招哪~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 21,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "有咱俩在，那就见一个打一个喽~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 22,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•丹恒",
+        "voice_m": "本姑娘要展现真正的技术了…呃，丹恒你那是什么眼神？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 23,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•丹恒•饮月",
+        "voice_m": "本姑娘要展现真正的技术了…呃，丹恒你总该相信我了吧！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 24,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•姬子",
+        "voice_m": "万一有个万一，姬子你要帮帮我哦！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 25,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•瓦尔特",
+        "voice_m": "有万能的杨叔在，好耶！我是不是说太响了？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "分享•习剑",
+        "voice_m": "我平时很喜欢仙舟幻戏嘛，心里一直有点剑侠情结。等我真正开始学剑之后，才发现比起幻戏里飞天遁地的大侠，还是教我一招一式的两位小师父更厉害！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "关于彦卿",
+        "voice_m": "彦卿师父的教学风格非常严谨，也一直把「将军当年是这么教我的」挂在嘴边…看来，景元将军教给他的，他都记得清清楚楚。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "关于云璃",
+        "voice_m": "云璃师父的教学风格非常自由，她最常和我说的话是：「这是一种感觉！」…也许这就是「体验式教学」吧？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "「巡猎」星魂激活",
+        "voice_m": "看看本姑娘勤学苦练，拜师学艺的结果~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "「巡猎」行迹激活",
+        "voice_m": "技多不压身，咱还得多练练~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "队伍编成•云璃",
+        "voice_m": "云璃师父，来检验一下我的修行成果吧！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "队伍编成•彦卿",
+        "voice_m": "彦卿师父放心，咱不会给你丢人的！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "关于星期日",
+        "voice_m": "如果让列车长听到那段「七休日」的主张，不知道会是什么反应呀。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "队伍编成•星期日",
+        "voice_m": "嗯！看着比用指挥棒的时候厉害多了！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "关于长夜月",
+        "voice_m": "偶尔我也会幻想自己展露冷酷、神秘、优雅、厉害的模样，略微出手便能击退敌人…没想到真的会发生！下次，本姑娘要用自己的力量，守护大家！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "关于丹恒•三",
+        "voice_m": "这趟翁法罗斯之旅，我们都进步很大，一比一平！哎，不对，他其实比我更早迈出那一步，那…算他小胜！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "队伍编成•丹恒•腾荒",
+        "voice_m": "好哇，丹恒你默默努力然后惊艳所有人…我也来！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 38,
+        "voice_title": "关于阿格莱雅",
+        "voice_m": "阿格莱雅女士不愧为大家的引路人，经过她的点拨，就连日常穿搭的品味，也上升了好几个等级呢！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 39,
+        "voice_title": "关于缇宝•缇安•缇宁",
+        "voice_m": "小小的缇宝老师，却有大大的能量！为了不让她们失望，我练习了好久好久，终于把欧洛尼斯的祷言背得滚瓜烂熟！不信？哼，我背给你听……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 40,
+        "voice_title": "关于万敌",
+        "voice_m": "迈德漠斯看起来酷酷的，不好说话，实际却很友善…为什么会这样呢？不懂，果然…我还是更了解女生的心思呀。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 41,
+        "voice_title": "关于遐蝶",
+        "voice_m": "遐蝶小姐会做香香软软的玩偶，会写动人心弦的故事，甚至每次路过的时候，都会散发好闻的幽香…每次和她在一起，我都能学到许多许多呢。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 42,
+        "voice_title": "关于那刻夏",
+        "voice_m": "其实…我对老师有一种天生的恐惧，不过…他是个例外！听不懂的那些概念，他总会用大地兽来做比喻，我一下子就明白啦！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 43,
+        "voice_title": "关于风堇",
+        "voice_m": "不知道为什么，虽然相处的时间不长，我们马上成了无话不谈的好朋友。上一次在她的庭院，我们从泰科铵聊到翁法罗斯，喝了一壶又一壶的花茶，吃了一块又一块蜜饼，最后，连小伊卡也困睡着了…还是觉得意犹未尽！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 44,
+        "voice_title": "关于赛飞儿",
+        "voice_m": "听赛飞儿小姐说话可有意思啦！关于喵喵教和汪汪教的故事，她与我讲了不下八十个版本，简直比我为自己编的身世故事还要多！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 45,
+        "voice_title": "关于海瑟音",
+        "voice_m": "海瑟音女士的琴声简直比蜜酿还要醉人，难道优雅美丽的秘诀就是学会一门乐器？嗯，咱也该学习提升一下自己了！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 46,
+        "voice_title": "关于刻律德菈",
+        "voice_m": "和凯撒一起下「飞行棋」的时候，我的心都要跳到嗓子眼啦。没想到她不仅允许我悔棋，还认真地考虑了我的建议…嘿嘿，最后，咱也总算是赢了一盘！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 47,
+        "voice_title": "关于白厄",
+        "voice_m": "他经受了那么惨烈的牺牲，却还能保有自己的本心…嗯，本姑娘也一定要做到！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 48,
+        "voice_title": "关于昔涟",
+        "voice_m": "昔涟对所有记忆的呵护，对未来的守望…这一切我都不会忘记，这样，所有的付出才会有意义！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 49,
+        "voice_title": "队伍编成•阿格莱雅",
+        "voice_m": "阿格莱雅女士，你看这身怎么样？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 50,
+        "voice_title": "队伍编成•缇宝",
+        "voice_m": "缇宝老师，「岁月」的祷言，我记得可牢啦！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 51,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "我还挺能打的嘛。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 52,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "这家伙，怎么看上去不大好惹……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 53,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•一",
+        "voice_m": "碰上我算你们运气不好。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 54,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•二",
+        "voice_m": "该我出场了~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 55,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合待机",
+        "voice_m": "怎么啦？看我不出手就怕了？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 56,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "普攻",
+        "voice_m": "看我的！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 57,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•一",
+        "voice_m": "本姑娘出马，怎么可能会输嘛~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 58,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•二",
+        "voice_m": "乖乖站好，这就给你加个祝福~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 59,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "轻受击",
+        "voice_m": "讨厌！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 60,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重受击",
+        "voice_m": "走开！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 61,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•激活",
+        "voice_m": "偶尔也该认真一下。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 62,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•施放",
+        "voice_m": "来尝尝本姑娘的厉害~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 63,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "天赋•一",
+        "voice_m": "不许跑！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 64,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "天赋•二",
+        "voice_m": "你再打？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 65,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "无法战斗",
+        "voice_m": "我不想…一个人……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 66,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重回战斗",
+        "voice_m": "好啦…我不会再胡闹啦！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 67,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回复生命",
+        "voice_m": "多亏你啦！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 68,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "秘技",
+        "voice_m": "冻结吧！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 69,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "这次咱可没拖后腿！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 70,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "看看看看，有没有亮晶晶的？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 71,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "做得好，夸夸自己吧~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 72,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "打还是溜？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 73,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "要陪我去拍照吗？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 74,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "都是我找到的~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 75,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "这、这么多？！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 76,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "搞定搞定！",
         "unlock_desc": null,
         "is_battle_voice": true
+      },
+      {
+        "voice_id": 77,
+        "voice_title": "「巡猎」战斗开始•弱点击破",
+        "voice_m": "就拿你来练练手吧！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 78,
+        "voice_title": "「巡猎」战斗开始•危险预警",
+        "voice_m": "要不换别人上吧……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 79,
+        "voice_title": "「巡猎」回合开始•一",
+        "voice_m": "出师的时候到了！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 80,
+        "voice_title": "「巡猎」回合开始•二",
+        "voice_m": "我一个可以打十个！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 81,
+        "voice_title": "「巡猎」回合待机",
+        "voice_m": "快点让我打啦。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 82,
+        "voice_title": "「巡猎」普攻",
+        "voice_m": "别小瞧本姑娘！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 83,
+        "voice_title": "「巡猎」强化普攻•一",
+        "voice_m": "看我这招！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 84,
+        "voice_title": "「巡猎」强化普攻•二",
+        "voice_m": "看我的绝招！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 85,
+        "voice_title": "「巡猎」战技•一",
+        "voice_m": "师父请喝茶！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 86,
+        "voice_title": "「巡猎」战技•二",
+        "voice_m": "劳您担待啦！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 87,
+        "voice_title": "「巡猎」轻受击",
+        "voice_m": "你偷袭！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 88,
+        "voice_title": "「巡猎」重受击",
+        "voice_m": "不讲…武德……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 89,
+        "voice_title": "「巡猎」终结技•激活",
+        "voice_m": "是时候展现真正的剑术了。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 90,
+        "voice_title": "「巡猎」终结技•施放",
+        "voice_m": "左青龙，右白虎，少吃碳水化合物——看招！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 91,
+        "voice_title": "「巡猎」天赋•一",
+        "voice_m": "哦~我全都懂了！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 92,
+        "voice_title": "「巡猎」天赋•二",
+        "voice_m": "哦~还得是师父！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 93,
+        "voice_title": "「巡猎」无法战斗",
+        "voice_m": "江湖…难啊……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 94,
+        "voice_title": "「巡猎」重回战斗",
+        "voice_m": "失误啦，刚刚那是个失误！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 95,
+        "voice_title": "「巡猎」回复生命",
+        "voice_m": "赞美你！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 96,
+        "voice_title": "「巡猎」秘技",
+        "voice_m": "桃花影落飞神剑～",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 97,
+        "voice_title": "「巡猎」战斗胜利",
+        "voice_m": "这次咱可没拖后腿！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 98,
+        "voice_title": "「巡猎」开启战利品•一",
+        "voice_m": "看看看看，有没有亮晶晶的？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 99,
+        "voice_title": "「巡猎」开启战利品•二",
+        "voice_m": "这能买多少杯苏打豆汁儿啊……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 100,
+        "voice_title": "「巡猎」开启贵重战利品",
+        "voice_m": "有武林秘籍么？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "「巡猎」解谜成功•一",
+        "voice_m": "做得好，夸夸自己吧~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "「巡猎」解谜成功•二",
+        "voice_m": "武艺和智谋，缺一不可！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "「巡猎」发现敌方目标",
+        "voice_m": "还不过瘾，就和他过两招吧！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "「巡猎」返回城镇",
+        "voice_m": "要陪我去拍照吗？还是去喝仙人快乐茶？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "助战技•开拓同行",
+        "voice_m": "谁敢挡路，揍他！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "终结一击•开拓同行",
+        "voice_m": "化作星辰，照亮银河的长夜！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "「巡猎」助战技•开拓同行",
+        "voice_m": "谁敢挡路，揍他！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "「巡猎」终结一击•开拓同行",
+        "voice_m": "化作星辰，照亮银河的长夜！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 501,
+        "voice_title": "队伍编成•万敌",
+        "voice_m": "嗯，我也来帮忙啦！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 502,
+        "voice_title": "队伍编成•遐蝶",
+        "voice_m": "我来催更啦！上次的故事，还没看过瘾呢~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 503,
+        "voice_title": "队伍编成•那刻夏",
+        "voice_m": "待会如果有问题，还请您指点！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 504,
+        "voice_title": "队伍编成•风堇",
+        "voice_m": "不用担心，我会照顾好自己的！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 505,
+        "voice_title": "队伍编成•赛飞儿",
+        "voice_m": "飞起来的时候，我也想体验一下！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 506,
+        "voice_title": "队伍编成•白厄",
+        "voice_m": "放心，无名客会永远与翁法罗斯站在一起！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 507,
+        "voice_title": "队伍编成•海瑟音",
+        "voice_m": "嘿嘿，这一次又能大饱耳福了！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 508,
+        "voice_title": "队伍编成•刻律德菈",
+        "voice_m": "凯撒，我已经准备好啦！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 509,
+        "voice_title": "队伍编成•昔涟",
+        "voice_m": "昔涟！好不容易再见到你~我们先合照一张吧！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 510,
+        "voice_title": "关于姬子•启行",
+        "voice_m": "不愧是美丽又可靠的姬子姐，居然又「进化」了！真想认识一下她的那位好朋友「素子」，要是我能天天和这么完美的两个人待在一起，该多幸福呀……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 511,
+        "voice_title": "队伍编成•姬子•启行",
+        "voice_m": "姬子，看看我们的成长吧！",
+        "unlock_desc": null,
+        "is_battle_voice": false
       }
     ]
   },
@@ -448,6 +924,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "100101": {
       "id": 100101,
@@ -466,6 +943,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -547,6 +1025,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -718,6 +1197,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -885,6 +1365,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000003": {
           "name": "反击",
@@ -1017,6 +1498,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1042,6 +1524,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",

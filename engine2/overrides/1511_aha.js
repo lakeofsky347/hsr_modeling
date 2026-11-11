@@ -4,10 +4,13 @@
 //    受治疗 +1（真珠治疗触发，每次终结技后重置）；E1 开场 4 点。终结技需 8 点，施放后清零。
 //  * 令使目标 = policy.lordTarget → 1506 → 主 C；首次战技指定，欢愉度 +p0（整场）。无令使时优先战技。
 //  * 战技：全体 p1 欢愉（好活当赏）+ 令使额外 20% 欢愉（按令使好活当赏）+ 回 1 战技点（行迹）。普攻：p0 单体欢愉。
-//  * 终结技：全体 p1 + 5 × p3 随机单体欢愉；【欢愉万相】3 回合（阿哈回合开始 −1）→ 命途升格；期间自身无视防御 30%（E2 60%）。
-//  * 欢愉技（阿哈时刻）：全体 p0 欢愉，笑点 = 好活当赏 + 当前笑点（E4 + 队友好活当赏之和）；再按本次阿哈时刻已造成伤害 × 20%（E4 25%）造成真伤。
-//  * 秘技：开场笑点 +20（v1 同）。行迹「盒中蕴藏的世界」：速度 ≥125/150 欢愉度 +120%/150%（按 4.6.51 数据；v1 为 20%/50%）。
-//  * E1 全队增笑 15%；E6 每次终结技阿哈时刻行动提前 20%，首次终结技 +40 笑点并立即触发阿哈时刻。欢愉负债未建模。
+//  * 终结技（151103，4.7）：全体 p1 + p2 次 × p3 随机单体欢愉；阿哈时刻行动提前 p4（10 级 20%）；【欢愉万相】p5 回合（阿哈回合开始 −1）。
+//  * 欢愉万相（151129）：无视防御取 1 级/2 级的第 2 个参数（30%/60%，2 级由阿哈 2 魂解锁，AvatarSeriesSkill）；暴击率取第 3 个参数（12%/20%，4.7 新增）。
+//  * 欢愉技（阿哈时刻）：全体 p0 欢愉；真伤参照本次时刻里、这段真伤之前的伤害（阿哈固定最后手，见 _elation.js）。爽点返还未建模。
+//  * 秘技：开场笑点 +20。行迹「盒中蕴藏的世界」仍按技能参数（速度 ≥125/150 → 欢愉度 +120%/150%）。
+//  * 天赋 151104：笑点首次 ≥ p1 时全队暴伤 +p8（10 级 4.7 为 40%，4.6.51 为 24%），持续 p9 回合。愿力溢出到 p10（10 点）未建模，仍以 8 点为上限并在开大时清空。
+//  * E1：开场愿力 = 星魂参数第 1 项（4.7 为 5），全队增笑第 2 项 15%。
+//  * E6（4.7 文案）：首次终结技后阿哈时刻行动提前第 3 项（100%）并获得第 2 项笑点（100）。不再按 4.6.51 的「额外回合 + 每次 20%」。欢愉负债未建模。
 import { skillById, dropEffects, paramsOf, traceParams, eidolonParams, note, composeHooks } from './_util.js';
 import { REG, commonHooks, gainJoke, joke, elHit, elTrue, cs, sh, advanceAha, runMoment } from './_elation.js';
 
@@ -44,7 +47,14 @@ REG[ID] = {
     if (!p) return;
     checkJoke40(api, j);
     var up = (sh(api).upg || 0) > 0;
-    api.addBuff({ key: 'aha:inn', stat: 'defIgnore', value: up ? (p.e >= 2 ? 0.6 : (p.inn[0] || 0.1) * 3) : 0, duration: null, label: '无中生有·无视防御' }, j);
+    var row = (p.e >= 2 && p.inn2 && p.inn2.length) ? p.inn2 : ((p.inn1 && p.inn1.length) ? p.inn1 : p.inn);
+    var defI = 0, crit = 0;
+    if (up && row && row.length) {
+      defI = row.length > 1 ? row[1] : (row[0] || 0.1) * 3;
+      crit = row.length > 2 ? row[2] : 0;
+    }
+    api.addBuff({ key: 'aha:inn', stat: 'defIgnore', value: defI, duration: null, label: '无中生有·无视防御' }, j);
+    api.addBuff({ key: 'aha:innCr', stat: 'critRate', value: crit, duration: null, label: '无中生有·暴击率' }, j);
   },
   elationSkill: function (api, j, M) {
     var c = cs(api, j), p = c._p;
@@ -66,6 +76,8 @@ export var override = {
     kit._ovp = {
       e: e, basic: paramsOf(kit, member, '151101'), skill: paramsOf(kit, member, '151102'), ult: paramsOf(kit, member, '151103'),
       tal: paramsOf(kit, member, '151104'), x: paramsOf(kit, member, '151120', 'elation'), inn: paramsOf(kit, member, '151129'),
+      inn1: ((skillById(kit, '151129') || {}).params || [])[0] || [],
+      inn2: ((skillById(kit, '151129') || {}).params || [])[1] || [],
       t1: traceParams(kit, '愚弄众神的玩笑'), t3: traceParams(kit, '盒中蕴藏的世界'), e1: eidolonParams(kit, 1), e6: eidolonParams(kit, 6)
     };
     ['151101', '151102', '151103', '151104', '151120', '151129', '151131'].forEach(function (id) { var s = skillById(kit, id); if (s) { s.hits = []; s.effects = []; } });
@@ -123,9 +135,11 @@ export var override = {
         setFervor(api, api.index, 0);
         sh(api).upg = p.ult[5] || 3;
         c._healUsed = false;
-        if (p.e >= 6) {
-          advanceAha(api, p.e6[0] || 0.2);
-          if (!c.e6first) { c.e6first = true; gainJoke(api, p.e6[1] || 40); runMoment(api); }
+        if (p.ult[4] > 0) advanceAha(api, p.ult[4]);
+        if (p.e >= 6 && !c.e6first) {
+          c.e6first = true;
+          gainJoke(api, p.e6[1] || 100);
+          advanceAha(api, p.e6[2] || 1);
         }
         REG[ID].refresh(api, api.index);
         for (var j = 0; j < api.ctx.members.length; j++) { var r = REG[api.ctx.members[j].charId]; if (r && r.refresh) r.refresh(api, j); }

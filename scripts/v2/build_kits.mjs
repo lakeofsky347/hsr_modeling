@@ -8,7 +8,7 @@ import { applyNameFixes } from './names.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const RAW = path.join(ROOT, 'data/v2/raw');
-const VERSION = '4.6.51';
+const VERSION = '4.7';
 
 const readJSON = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 const listJSON = (dir) => fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort();
@@ -609,8 +609,46 @@ function memoTypeSlot(s) { return s.type === 'Servant' ? 'memo' : 'memoTalent'; 
 
 function skillsHaveEnergy(skills) { return skills.some((x) => x.energyGain > 0); }
 
-function buildCharacter(id, c, sup) {
+// 奇缘星魂只入数据、不进伤害。三张表的机制都依赖现有引擎没有记的状态，
+// 参数原样保留，避免用猜测的触发次数去结算。
+const EX_UNRESOLVED = {
+  '120401': '未计入伤害。改的是【神君】段数上限、满段立即行动，以及强化期间的增伤和战技/终结技额外段数。自动解析没有神君的段数和独立行动，直接套倍率会编出攻击次数。参数来自 nanoka ex_ranks，并与 DimbreathBot fe44559 AvatarExRankConfig 的 NNACKOBKFGE 一致：[1, 2.4, 6, 12, 4, 20]（每 1 次神君行动强化、增伤 240%、战技/终结技额外 6/12 段、持续 4 回合、段数上限 +20）。',
+  '121301': '未计入伤害。描述和参数已经写明：逆鳞上限 +1；我方每消耗 5 点战技点打出追加攻击，自身增伤 240% 持续 3 回合，随后 6 段全体伤害、每段 500% 攻击力（#2[i]%），获得 1 点逆鳞，这次伤害视为普攻。触发要统计全队实际扣掉的战技点，含饮月自己用逆鳞抵扣后的点数，现有钩子拿不到这个差额。参数 [5, 5, 1, 2.4, 1, 3]，来源同上。',
+  '130801': '未计入伤害。触发是「队友攻击带有【集真赤】的目标」，现有黄泉手写没有在敌人身上记层数，不能判断何时打出、打在谁身上。参数 [3, 1, 1, 0.8]：全体 300% 攻击力，再 6 次随机单体 80%，获得 1 点残梦并给集真赤最多的目标叠 1 层，每回合最多 1 次，视为终结技伤害。来源同上。',
+};
+
+function buildExRanks(c) {
+  const out = [];
+  for (const [k, r] of Object.entries(c.ex_ranks || {}).sort((a, b) => +a[0] - +b[0])) {
+    const rawDesc = stripTags(r.desc);
+    const params = r.param_list || [];
+    const id = String(r.id || k);
+    out.push({
+      id, name: stripTags(r.name), desc: fillDesc(rawDesc, params), rawDesc, params,
+      source: '数据表：nanoka ex_ranks；DimbreathBot fe44559 ExcelOutput/AvatarExRankConfig.json',
+      modeled: false,
+      unresolved: EX_UNRESOLVED[id] || '未计入伤害。表里没有足够的结算条件。',
+    });
+  }
+  return out;
+}
+
+// 只有希儿沿用 v3.4 的做法：战斗技能/行迹/星魂取 AvatarConfigEnhanced 的 EnhancedID 1。
+// 其他角色的 enhanced 仍只记一笔备注，不替换本体。nanoka 4.7 的主技能仍是改版前倍率。
+const ENHANCED_KIT_IDS = new Set(['1102']);
+
+export function buildCharacter(id, c, sup) {
   const notes = [];
+  if (ENHANCED_KIT_IDS.has(id) && c.enhanced && c.enhanced['1']) {
+    const enh = c.enhanced['1'];
+    c = Object.assign({}, c, {
+      skills: enh.skills || c.skills,
+      skill_trees: enh.skill_trees || c.skill_trees,
+      ranks: enh.ranks || c.ranks,
+      enhanced: null,
+    });
+    notes.push('v3.4：按改版形态构建（AvatarConfigEnhanced EnhancedID 1，技能/行迹/星魂取改版 id）');
+  }
   const element = c.damage_type;
   const cname = stripTags(c.name).replace(/^「|」$/g, '');
   const capBySkill = {};
@@ -685,6 +723,10 @@ function buildCharacter(id, c, sup) {
   }
   if (c.enhanced && Object.keys(c.enhanced).length) notes.push('存在 enhanced（强化/改版）形态数据，未解析');
   if (c.unique && Object.keys(c.unique).length) notes.push('存在 unique 专属机制数据，未解析');
+  // 4.7 AvatarConfig 每条都多了 SubAvatarTypeList，目前全是 []。nanoka 详情不带这个字段；
+  // 就算塞进来也只是多一个键，下面不读它。
+  const exRanks = buildExRanks(c);
+  if (exRanks.length) notes.push('奇缘星魂 ' + exRanks.map((e) => e.id + ' ' + e.name).join('、') + '：已收录参数，未计入伤害');
   const rel = c.relics || {};
   const mainStats = {};
   for (const p of rel.property_list || []) mainStats[RELIC_SLOT[p.relic_type] || p.relic_type] = mapProp(p.property_type, notes);
@@ -700,7 +742,7 @@ function buildCharacter(id, c, sup) {
   };
   return {
     id, name: stripTags(c.name), nameEn: (sup && sup.en) || null, rarity: +(/(\d)$/.exec(c.rarity || '') || [0, 0])[1], element, path: c.base_type,
-    energyMax: c.sp_need, ultResource: skillsHaveEnergy(skills) ? 'energy' : 'custom', base: baseStats(c.stats['6']), traceStats, skills, traces, eidolons, memosprite, recommended,
+    energyMax: c.sp_need, ultResource: skillsHaveEnergy(skills) ? 'energy' : 'custom', base: baseStats(c.stats['6']), traceStats, skills, traces, eidolons, exRanks, memosprite, recommended,
     notes: [...new Set(notes)],
   };
 }

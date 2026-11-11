@@ -2,21 +2,379 @@
   "name": "知更鸟",
   "desc": "出生于匹诺康尼，闻名银河的天环族歌者，举止从容优雅的少女。\\n此次受家族宴请回到故乡，在「谐乐大典」为众宾献歌一曲。\\n可以依靠「同谐」的力量传递歌声，在歌迷乃至万界生灵之中展现「共鸣」。",
   "chara_info": {
-    "camp": null,
+    "camp": "匹诺康尼",
     "va": {
-      "chinese": null,
-      "japanese": null,
-      "korean": null,
-      "english": null
+      "chinese": "钱琛 / 歌：Chevy",
+      "japanese": "名塚佳織 / 歌：Chevy",
+      "korean": "신온유/ 노래: Chevy",
+      "english": "Alice Himora / \\nSong vocals: Chevy"
     },
     "stories": {
-      "0": null,
-      "1": null,
-      "2": null,
-      "3": null,
-      "4": null
+      "0": "出生于匹诺康尼，闻名银河的天环族歌者，举止从容优雅的少女。\\n此次受家族宴请回到故乡，在「谐乐大典」为众宾献歌一曲。\\n可以依靠「同谐」的力量传递歌声，在歌迷乃至万界生灵之中展现「共鸣」。",
+      "1": "<i>「她将自己的生活形容为一首歌，而那首歌的开始阴沉而苦涩。\\n\\n在她尚在襁褓之中时，星核落入她的故乡。\\n『哀哭，叹息，祈求——那就是我记忆中最初的声音。我们以哀歌祈祷拯救，却始终未能等来神的垂目……』\\n\\n这位始终保持微笑的歌者罕见地陷入了沉默。\\n\\n『所以，那算是你的音乐启蒙吗？』\\n\\n『那时候我太小，大部分的歌我都不记得了。但我依然记得，当星核开始吞噬梦境的时候，母亲将我和兄长抱在怀中，企图用歌声安抚我们的恐惧……』\\n\\n『你还记得母亲唱的是什么吗？』\\n看着她露出痛苦的神色，我本想将这个问题跳过，但片刻之后她依然做出了回答。\\n\\n『我听不见…耳边都是恐怖的巨响，我只能看见母亲翕动着嘴唇，她抱紧我们，胸口起伏着，兄长在一旁紧紧抓住我的手。冰冷的星星在母亲的身后急速下落，然后…她消融在忆域的漩涡之中，我们就像折翅的鸟儿一般坠落……\\n\\n如果鸟儿注定要坠落的话，为何它们还要飞向天空？』\\n\\n我没有回答，也无法回答。这并不是一个向我提出的问题，而答案，只在她的心中。」 </i>\\n\\n<align=\"right\">——摘自《鸟儿与天空：知更鸟独家专访》</align>",
+      "2": "<i>「所幸这样沉闷的气氛没有持续多久，在我们分享了两杯莓果冰淇淋之后，她又变回了那个活泼的少女。\\n\\n在星核灾难之后，家族对幸存者伸出了援手。她与兄长受到庇护，并接受了良好的教育，也正是此时，她逐渐开始展现过人的音乐天赋。\\n\\n『还是小时候的味道，那时为了保护嗓子，我只能在哥哥的掩护下偷偷吃冰淇淋。』\\n她满足地放下杯子。\\n\\n『当爱好变成事业的时候，它就不那么容易了。我不仅要学习如何科学地歌唱，还要学习乐器、作曲、作词、礼仪…有好几次我都想放弃了，但在周围人的鼓励与帮助下，我还是坚持了下来。』\\n\\n她谈起了自己创作的第一首歌。在专辑的封面上，这首歌特别标注了『献给所有失去希望的人们』，而这首歌的灵感正是来自于银河中的美梦之星『匹诺康尼』。\\n\\n『虚空中的美梦，不可能发生的事，在奇妙的忆域中梦想成真…那时我曾单纯地希望，像我一样漂泊无依的人们可以在其中寻到自己的栖身之所，但……』\\n\\n她叹息一声，望向窗外，淅淅沥沥的雨水将街道涂成灰色，穿着鲜艳雨衣的孩子们在雨中打闹。她转过头，颇为郑重地说道——\\n『但无论世界如何变化，我的心愿不会改变。』」</i>\\n\\n <align=\"right\">——摘自《鸟儿与天空：知更鸟独家专访》</align>",
+      "3": "<i>「在连续发布三张专辑之后，她的音乐生涯逐渐走向顶峰。《使一颗心免于哀伤》、《在最美丽的一天》等等歌曲刷新了银河各大音乐排行榜，成为脍炙人口的热门单曲。令人不解的是，她却选择在此时退出了大众的视野之中。\\n\\n谈起那段时期，她向我们展示了自己拍下的种种照片。在战争的废墟中，她帮助流离失所的人们重建家园；她为无法接受教育的孩子建立学校；她去往无人知晓的世界追寻即将绝迹的歌声……\\n\\n她关上手机，叹了一口气，讲起了做出这样决定的原因。\\n『那时，我越来越不知道自己为了什么而歌唱。』\\n『面对真实的灾难，歌声一无用处。歌唱是为了讨好上位者，还是为了粉饰苦难，给予人虚假的希望？』\\n\\n在那段旅途的最后一站，她回到了天环族故地的坠毁之处。原本惨烈的废墟已被青草覆盖，在微风与花香中，她枕靠在崎岖的岩石之上，看着天光透过云层照亮大地。\\n\\n『我一再地想起母亲的歌声，我曾以为那是徒劳无益的声音，因为我根本不记得那是怎样的声音，也改变不了覆灭的结局。但直到现在我才明白，歌曲传递的并非只有声音本身…我还记得母亲的心跳，身旁兄长的颤抖，我们三人彼此依靠的温暖…即使在无可改变的结局面前，依然能够毫不颤抖地唱出自己的声音，就一定能传达到……』\\n\\n窗外的雨渐渐停了，她沉醉于那时的回忆。不幸的是，一阵电话铃声打破了迷人的寂静，我们的采访也就此中止。\\n\\n因为工作变动，知更鸟小姐需要马上动身前往匹诺康尼。亲爱的读者朋友，我们也将在梦的国度再会。」 </i>\\n\\n <align=\"right\">——摘自《鸟儿与天空：知更鸟独家专访》</align>",
+      "4": "<i>「时隔一年之后，我们收到邀请，来到匹诺康尼再度接续上次的采访。\\n\\n与上次见面相比，她更显疲惫，连声音都沙哑了许多。这次她穿着庄重的家族礼服，举止拘谨小心，但见到我们后仍如以前那般平易近人。此次，我们也见到了她的兄长，一位风度翩翩的领导者。\\n\\n『这就是银河中唯一的美梦世界，也是家族的驻地。家族将荒芜的梦境改造为人间天堂……』\\n她的兄长向我们一一介绍匹诺康尼的历史，她帮我们消除入梦的不适，热情地请我们品尝梦境中的美食。\\n\\n我们游览了梦中的种种奇景，只可惜在这样喧闹的环境下，无法开展深度采访。\\n\\n最后，我们来到了宏伟的歌剧院。在即将到来的谐乐大典上，她将在这座华美的舞台歌唱，向全宇宙传播同谐的乐声。\\n\\n就在我以为此次专访即将结束时，她看着辉煌的歌剧院，突然提起采访开始时的问题。\\n\\n『主编，你还记得我当初问你的问题吗，鸟儿为何要飞向天空？回到匹诺康尼后，我想了很久很久。』\\n\\n她看向梦境的天空，深沉的夜色下满是人造的光芒。\\n『也许鸟儿注定要如此，因为那是它的愿望、归宿，以及不可剥夺的权利……』\\n\\n她微笑着看向某个地方，向我们发出邀请。\\n『未来，在这里将会有一场盛大的演出。我会在这里表演到目前为止最满意的一首歌，多么希望人们能在歌声中拉起彼此的双手啊——即使是梦中的世界，终究也会有光洒落其间。』\\n\\n我不知道她看向的是什么地方，但那绝不是歌剧院的舞台。所以，她说的演出又会是什么呢？\\n\\n唯一确定的是，即便在如此纸醉金迷的地方，她依然没有放弃以强援弱的信念。这样的信念贯穿她人生的始终，从苦涩的前奏开始，进展到优美的主歌，而在暗流涌动的间奏过后，迎来或许是最为华美的绽放和落幕。」 </i>\\n\\n <align=\"right\">——摘自《鸟儿与天空：知更鸟独家专访》</align>"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "初次见面",
+        "voice_m": "晚上好，我是来自家族的歌者知更鸟。不必拘谨，这只是一次舞台下的私人问候，能为我抽些时间吗？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "问候",
+        "voice_m": "又见面了，这回想听什么歌？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "道别",
+        "voice_m": "下次再见吧，希望我的歌声能为你带来一夜好梦。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "关于自己•创作",
+        "voice_m": "音乐或许有所谓的创作窍门，但歌曲之所以动人，除去技巧之外，引起共鸣的总是歌声中蕴含的情感与决心。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "关于自己•歌声",
+        "voice_m": "人们常说食客的口味越刁钻，厨师的技艺才会越精湛。不管别人怎么说，我自己永远会做那个最刁钻的听众。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "闲谈•唱片",
+        "voice_m": "为了留住那一首歌的触动，前人将音乐封存于唱片。我的收藏来自于不同的星球，甚至部分唱片的文明早已消弭…但留下的感动将化为永恒。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "闲谈•第一首歌",
+        "voice_m": "小时候哥哥常常会哼摇篮曲哄我入睡，那是我学会的第一首曲子…虽然它没有歌词，但依旧是我最喜欢的一段旋律。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "爱好",
+        "voice_m": "偶尔戴上假发，换个妆容，再戴一副眼镜——这样去哪都不用担心了~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "烦恼",
+        "voice_m": "没有巡演的日子里，我更喜欢离开都市去感受自然的声音…可惜，匹诺康尼的梦境中没有真正的森林，我也只能和梦里的「小鸟」聊聊天了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "分享",
+        "voice_m": "「同谐」的家庭中并无尊卑，所有人都能沐浴在千面神的颂歌下，我们共享一切苦难与幸福。希望我的歌声也能为所有人带来安宁。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "见闻",
+        "voice_m": "艾普瑟隆的发行商为我出过几张专辑，也邀请我过去住过一段时间。那颗星球的氛围很像匹诺康尼，但比起艺术，人们似乎更关心艺术所能带来的巨额利润……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "关于星期日",
+        "voice_m": "哥哥或许认为，自己要承担起更重的责任。他总会认真倾听我的烦恼，却很少向我吐露心声…可能在他心中，我仍旧是妹妹吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "关于星期日•二",
+        "voice_m": "哥哥一直在保护我，但我也没有想过挣脱他的保护…纵使我们走上不同的道路，我也…仍旧是他的妹妹。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "关于加拉赫",
+        "voice_m": "加拉赫先生总是将自己的温柔藏起来呢…虽然平常看起来有些散漫，但关键时刻永远会站在同伴身侧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "关于黑天鹅",
+        "voice_m": "黑天鹅小姐的谋略与手段，就如她的舞蹈一般周全曼妙。期待未来我们有共舞的那一刻。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "星魂激活",
+        "voice_m": "听，谐乐的低吟更加清晰了……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "角色晋阶",
+        "voice_m": "坚持练习才能保证最佳状态。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "角色满级",
+        "voice_m": "万事俱备，到了登台演出的时刻了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "行迹激活",
+        "voice_m": "乐曲之外的准备也不能懈怠。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "别担心，我会一直陪在你身边。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "队伍编成•加拉赫",
+        "voice_m": "背后的敌人就拜托你了，加拉赫先生。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "队伍编成•黑天鹅",
+        "voice_m": "愿这首乐曲，与黑天鹅小姐的舞步相称。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "关于乱破",
+        "voice_m": "「我作孩子时，话语像孩子，心思像孩子，意念像孩子。既成了人，就把孩子的事丢弃了。」——乱破小姐却始终用这样纯质的视角审视世界，未曾遭到污浊。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "关于芮克先生",
+        "voice_m": "芮克先生是一位电影狂人。我难以理解他的一些行为，但完全可以理解他对电影艺术的坚持。如果以后再有机会合作，还是拍些和平温暖的题材吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "关于星期日•三",
+        "voice_m": "梦醒之后，我们都将面对现实。我们…哥哥的梦想，也将从此开始。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "队伍编成•星期日",
+        "voice_m": "哥哥，我们再像小时候一样，一起演奏吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "队伍编成•知更鸟•晴歌",
+        "voice_m": "嗯，还想要尝试更多新的造型~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "聆听生命的终曲。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "危险的心声。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "回合开始•一",
+        "voice_m": "愿歌声为我们带来胜利。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "回合开始•二",
+        "voice_m": "希望世间纷争不再。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "回合待机",
+        "voice_m": "该进入新乐章了。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "普攻",
+        "voice_m": "请安静下来。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "战技•一",
+        "voice_m": "谐乐，即将齐奏。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "战技•二",
+        "voice_m": "万籁，再次共鸣。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "轻受击",
+        "voice_m": "没事，没事的……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "重受击",
+        "voice_m": "有点…疼……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "终结技•激活",
+        "voice_m": "今夜，灵魂彼此相拥。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "终结技•施放",
+        "voice_m": "今夜，群星因我回响。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "无法战斗",
+        "voice_m": "演出…还没…",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "重回战斗",
+        "voice_m": "我还能继续。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "回复生命",
+        "voice_m": "谢谢，喉咙舒服多了。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "秘技",
+        "voice_m": "演出开始~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "战斗胜利",
+        "voice_m": "愿你能在歌中寻得安宁。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "开启战利品•一",
+        "voice_m": "嗯，不错不错。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "开启战利品•二",
+        "voice_m": "我喜欢惊喜~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "开启贵重战利品",
+        "voice_m": "坚持就有回报，对吧？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "解谜成功•一",
+        "voice_m": "就像在拆解和声呢。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "解谜成功•二",
+        "voice_m": "有没有旋律构写的谜题……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "发现敌方目标",
+        "voice_m": "似乎听到了不和谐音。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "返回城镇",
+        "voice_m": "巡演结束，该回去休息啦。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "robin",
@@ -101,6 +459,7 @@
       }
     }
   },
+  "ex_ranks": {},
   "skills": {
     "130901": {
       "id": 130901,
@@ -119,6 +478,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -200,6 +560,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -326,6 +687,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000005": {
           "name": "附加伤害",
@@ -523,6 +885,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -649,6 +1012,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -674,6 +1038,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

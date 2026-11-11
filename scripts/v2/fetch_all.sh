@@ -2,7 +2,7 @@
 # V2 数据抓取：全部角色 / 光锥 / 敌人 zh 详情 → data/v2/raw/
 # 用法：bash scripts/v2/fetch_all.sh   （可设 BASE / OUT / JOBS 覆盖）
 set -uo pipefail
-BASE="${BASE:-https://static.nanoka.cc/hsr/4.6.51}"
+BASE="${BASE:-https://static.nanoka.cc/hsr/4.7}"
 OUT="${OUT:-data/v2/raw}"
 JOBS="${JOBS:-8}"
 FORCE="${FORCE:-0}"

@@ -4,7 +4,7 @@
 //   SKILL_TABLES[skillId]  = { name, type, slot, levels: [[参数...] x 等级] }
 //   SKILL_SLOTS[avatarId]  = { basic: [skillId...], skill: [...], ... }  ← 由行迹节点判定
 //   SKILL_BASE_CAPS[skillId] = 该技能在 0 魂时可达到的基础等级上限
-// 数据源：data/nanoka/normalized/*.json（hsr.nanoka.cc 4.6.51）
+// 数据源：data/nanoka/normalized/*.json（hsr.nanoka.cc 4.7）
 // 用法：node scripts/gen_skill_tables.mjs
 // ============================================================================
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
@@ -79,7 +79,7 @@ for (const id of IDS) {
   }
 }
 
-const js = '// 由 scripts/gen_skill_tables.mjs 自动生成（数据源 hsr.nanoka.cc 4.6.51），请勿手改\n' +
+const js = '// 由 scripts/gen_skill_tables.mjs 自动生成（数据源 hsr.nanoka.cc 4.7），请勿手改\n' +
   '// levels[等级-1] = 该等级的参数数组（与技能描述里的 #1 #2 ... 一一对应）\n' +
   'export const SKILL_TABLES = ' + JSON.stringify(tables) + ';\n\n' +
   '// 角色各槽位对应的技能 ID（同一槽位共享等级）\n' +

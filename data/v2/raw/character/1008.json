@@ -4,303 +4,317 @@
   "chara_info": {
     "camp": "空间站「黑塔」",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "…"
+      "chinese": "陶典",
+      "japanese": "白石涼子",
+      "korean": "김율",
+      "english": "Dani Chambers"
     },
     "stories": {
-      "0": "…",
-      "1": "…",
-      "2": "…",
-      "3": "…",
-      "4": "…"
+      "0": "不善言辞的空间站「黑塔」防卫科负责人。\\n虽然不懂科研，但为了保护珍视研究的空间站科员顺利完成他们的研究，阿兰可以拼上性命。他早已习惯疼痛，并将负伤视作勋章。\\n也只有抱着佩佩时，男孩才会放下戒备，露出难得一见的笑容。",
+      "1": "如何评价阿兰在防卫科的工作？\\n——大哥，是指引防卫科前进的明灯，是支撑大家战斗的核心！若无大哥一日，则空间站哀鸿遍野；若无大哥十日，则空间站民不聊生；若无大哥百日，则空间站宛如炼狱！\\n——但他在工作时间和佩佩玩电子飞盘诶。\\n——因为大哥提前完成了防卫科的日常训练！目睹大哥的身姿，也是对我们的激励！\\n——但他在工作时间和佩佩玩电子飞盘诶。\\n——你怎么知道和佩佩玩电子飞盘不是大哥的工作之……\\n\\n<i>「巡逻的时候玩手机，没收。」\\n「不是，阿兰大哥，有人在群里说你坏话，你不管管？」\\n「没空。」\\n「啊？有紧急任务吗？我跟你一起去，发生啥了？」\\n「带佩佩去做复健训练，玩电子飞盘。」</i>",
+      "2": "在艾丝妲小姐家中，怪异且贵重的东西数不胜数，一条奄奄一息的小狗反而有些惹人注目。\\n\\n更何况她哭得很伤心，当父母安慰着艾丝妲，说捡来的狗多半活不长，不如给她再买一条的时候，她哭得更大声了。\\n\\n而那条脏兮兮的小狗只是躺在那，甚至没力气抬起头看一眼周围的人们。哭喊、争吵、沉默，这一切都和它无关。\\n\\n他一度以为它已经停止了呼吸，因此蹲下身探了探它的鼻息。突然，小狗用舌头舔了舔他的手指，这是它力所能及之下，能触碰的最远距离。\\n\\n——它的舌头湿漉漉的。\\n\\n<i>「想玩电子飞盘么？」</i>\\n\\n无神的眼睛亮了起来。",
+      "3": "他在走廊停下脚步，望向窗外，宇宙寂静，映着他的黑眼圈。\\n\\n窗上出现另一双布满血丝的眼睛，眼睛的主人比平时在科员前更放松些，漫不经心地打了个长长的哈欠。\\n\\n<i>「这么晚了，还不休息？」\\n「有点不放心，出来巡逻一趟……」\\n「我刚替防护罩更新了代码，安保系统也运转正常。」\\n「可能是我多虑了，但……」\\n「我知道。你是防卫科的负责人，我相信你的直觉。」</i>\\n\\n空间站依旧灯火通明，不分昼夜轮转，他们回到各自的岗位。\\n\\n他们都明白，黑塔女士的光芒笼罩也好，空间站的防御措施也好，防卫科的日夜不眠也好，如果危机发生…… \\n\\n也只在刹那。",
+      "4": "<i>「所有人都撤离了，阿兰，赶快撤退！」\\n「可能还有幸存的科员。」\\n「没有了…已经没有其他生命信号了。」</i>\\n\\n他明白自己应该相信艾丝妲，直到他看见反物质军团正如潮水般向他涌来。监察域传来的信号微弱，艾丝妲看不到这个画面。\\n\\n此刻，他正站在电梯前。这里只有他一个人，他必须做出判断，即使要反抗艾丝妲的命令——为了守护他们，不惜一切代价也要封锁电梯的权限，不能让怪物再接近主控舱段一步。\\n\\n<i>「抱歉，小姐……」</i>\\n\\n他还来不及解释，就遭到反物质军团的背后偷袭，他倒下，远程通讯随之切断。\\n\\n他想起自己无论是在小姐家工作，还是前往空间站「黑塔」成为防卫科负责人，自始至终未有任何「犹豫」。因为小姐决定前往了那个方向，所以自己当然要追随着一起。这是理所应当的事。\\n\\n阿兰艰难地抬起头，怪物步步朝他围拢。他也未曾反抗过小姐的命令，这是第一次。\\n\\n<i>「希望不是最后一次吧。」</i>\\n\\n他突然冒出这样的念头。\\n\\n他用大剑支撑着自己的身体，缓慢地、坚定地站起身。"
     },
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "初次见面",
+        "voice_m": "你好，{NICKNAME}，我是空间站「黑塔」的防卫科负责人阿兰，在空间站期间，我会全力护你安全。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "问候",
+        "voice_m": "种子岛的新口味蚯蚓干今天上架，现在去能赶个早场，不用排队。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "道别",
+        "voice_m": "睡前来一杯混合蔬菜汁吧，有助于入眠。我今天有夜班值勤，明天见。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己•寻找佩佩",
+        "voice_m": "「空间站『寻找佩佩』大赛」至今已举办了九届，我…蝉联了冠军。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•巡逻",
+        "voice_m": "巡逻时，我会尽量不引人注目，既不打扰科员，又能看到他们工作时最投入的神情。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "爱好",
+        "voice_m": "大剑得时刻保持干净才行。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "烦恼",
+        "voice_m": "手机壳的发货地离空间站远，得满五千个起送…不不，请别告诉小姐。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "分享",
+        "voice_m": "在通用图鉴中找不到空间站里收容的大剑碎片…它一定很特殊吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻",
+        "voice_m": "听科员说，有些奇物是自己主动要求来到空间站的。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于艾丝妲",
+        "voice_m": "…不知道为什么，我好像时不时就惹小姐生气？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于黑塔",
+        "voice_m": "和其他科员不同，我并非黑塔女士的追随者，但她仍旧默许了我在这儿工作。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "星魂激活",
+        "voice_m": "我已经找到了，要守护的「家」。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "无论何时都不能松懈。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "这是阶段训练的成果…为了保护大家，我会继续努力的。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 15,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "行迹激活",
+        "voice_m": "即使是日常训练，多少也会有新的收获。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "战斗凶险，你也要小心些。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•艾丝妲",
+        "voice_m": "小姐，战斗的事情交给我就好。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•黑塔",
+        "voice_m": "黑…黑塔女士，请指示！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "关于大黑塔",
+        "voice_m": "黑塔女士是空间站的传说，关于她的故事，连我也能说出不少。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "队伍编成•大黑塔",
+        "voice_m": "您是…？抱歉，我不会拖您后腿的！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 51,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "你们活不长了。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 52,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "没什么能阻止我。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 53,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•一",
+        "voice_m": "战斗才能取胜。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 54,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•二",
+        "voice_m": "还没学到教训？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 55,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合待机",
+        "voice_m": "得快点展开攻势。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 56,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•一",
+        "voice_m": "成全你们。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 57,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•二",
+        "voice_m": "都给我闭嘴。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 58,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "轻受击",
+        "voice_m": "嗯？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 59,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重受击",
+        "voice_m": "用点力吧。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 60,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•激活",
+        "voice_m": "这点疼痛不足挂齿。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 61,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•施放",
+        "voice_m": "而你们将会，痛苦万倍！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 62,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "无法战斗",
+        "voice_m": "不能保护大家了……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 63,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重回战斗",
+        "voice_m": "活着，才能继续战斗。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 64,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回复生命",
+        "voice_m": "我没事…谢谢。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 65,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "秘技",
+        "voice_m": "真碍事。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 66,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "这份力量，还能发挥些许作用。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 67,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "你留着吧。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 68,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "就这样。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 69,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "留意前方。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 70,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "不战斗的话，还能做些什么？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 71,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "好像在仓库里见过……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 72,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "都收好了么？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 73,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "以前在防卫科练过几次。",
         "unlock_desc": null,
         "is_battle_voice": true
       }
@@ -380,6 +394,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "100801": {
       "id": 100801,
@@ -398,6 +413,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -479,6 +495,7 @@
         0
       ],
       "skill_combo_value_delta": 20,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -605,6 +622,7 @@
         60
       ],
       "skill_combo_value_delta": 30,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -731,6 +749,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -842,6 +861,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -867,6 +887,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

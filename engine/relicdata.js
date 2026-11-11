@@ -1,4 +1,4 @@
-// 由 scripts/gen_relic_data.mjs 自动生成（数据源 hsr.nanoka.cc 4.6.51），请勿手改
+// 由 scripts/gen_relic_data.mjs 自动生成（数据源 hsr.nanoka.cc 4.7），请勿手改
 // 2 件套 / 4 件套效果文本与参数（params 与 desc 中的 #1 #2 ... 一一对应）
 export const RELICS = {
  "112": {

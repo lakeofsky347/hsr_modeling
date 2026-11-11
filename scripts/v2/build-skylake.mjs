@@ -19,7 +19,7 @@ const SITE = join(ROOT, 'site');
 const OUT = join(ROOT, 'dist', 'skylake');
 const HSR = join(OUT, 'hsr');
 
-const DATA_STUB = `// 由 scripts/v2/build_kits.mjs 自动生成，请勿手改。数据来源 hsr.nanoka.cc 4.6.51
+const DATA_STUB = `// 由 scripts/v2/build_kits.mjs 自动生成，请勿手改。数据来源 hsr.nanoka.cc 4.7
 export const DATA = (typeof globalThis !== 'undefined' ? globalThis : self).__SIM_DATA__;
 `;
 

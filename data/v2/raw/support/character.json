@@ -1034,6 +1034,7 @@
     "ja": "{RUBY_B#コウコウ}爻光{RUBY_E#}"
   },
   "1503": {
+    "release": 1790586000,
     "icon": "pearl",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Elation",
@@ -1146,7 +1147,7 @@
     "desc": "Cries and comedy intertwine, and the deathly still cosmos awakens to daybreak in a farce.\\nStepping back onto the stage of the Path, I tear off the god's mask. Who is Aha? I am Aha!\\nTo play, to trick, to hunt... Please bear witness to an improv tour where humans and gods dance as one!",
     "ko": "에이언즈★아하",
     "zh": "星神★阿哈",
-    "ja": "星神★アッハ"
+    "ja": "{RUBY_B#アイオーン}星神{RUBY_E#}★アッハ"
   },
   "1512": {
     "release": 1787734800,

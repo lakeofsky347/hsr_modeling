@@ -5439,7 +5439,7 @@
     ],
     "weak": [],
     "en": "Soul",
-    "desc": "",
+    "desc": "The \"Soul\" summoned by the AoE ATK Bond.",
     "ko": "영혼",
     "zh": "灵魂",
     "ja": "霊魂"
@@ -7617,7 +7617,7 @@
     "en": "Ishtar Huwawa Aquila",
     "desc": "The Sky Titan. Theos Synthetos. Conquered by and fused with humanity, they no longer govern Amphoreus' cycle of day and night, yet their haughtiness remains unchanged.\\nIn their mind, the shattered world's mundane mortals are unsightly. Compared to a world safeguarded by light, the mindless human masses seem more befitting of the black tide.",
     "ko": "이슈타르•훔바바-아퀼라",
-    "zh": "至高，至阳，天空的化身",
+    "zh": "伊什塔尔•胡姆巴巴-艾格勒",
     "ja": "イシュタル・フワワ-エーグル"
   },
   "4015020": {
@@ -8703,10 +8703,12 @@
     "rank": "LittleBoss",
     "camp": null,
     "icon": "SpriteOutput/MonsterFigure/Monster_4034020.png",
-    "child": [],
+    "child": [
+      4034020
+    ],
     "weak": [],
     "en": "Vessel of the Destruction, Khaslana",
-    "desc": "",
+    "desc": "Phainon, NeiKos<unbreak>496</unbreak>, Deliverer, Khaslana, The Nameless Hero. Through times longer than chronicles could tell, he fought against the hatred and rage in his heart, until his body withered away. All to await this destined moment, when another Deliverer would extinguish the night's fire and bring forth a new dawn.",
     "ko": "파멸의 용기, 카오스라나",
     "zh": "毁灭的容器，卡厄斯兰那",
     "ja": "壊滅の器 カスライナ"
@@ -10259,7 +10261,7 @@
       5014016
     ],
     "weak": [
-      "Fire",
+      "Physical",
       "Quantum",
       "Imaginary"
     ],
@@ -10323,7 +10325,7 @@
     "en": "Imagenae Apex Depredator",
     "desc": "Who can handle the wild, untamed power of the Astral Express!? Pom-Pom, now beyond control, has transformed into Alloy Mechatron: King Pom-Pom.\\nKing Pom-Pom is a powerful mechatron obsessed with cleanliness and order. By its standards, this place is a mess and needs a thorough! Deep! Clean!",
     "ko": "환조 최상위 포식자",
-    "zh": "合金机铠•帕姆王",
+    "zh": "幻造顶级掠食者",
     "ja": "幻造頂点捕食者"
   },
   "5014023": {
@@ -10361,11 +10363,11 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Alloy Mechatron: King Pom-Pom",
+    "en": "The Long-Suffering Conductor",
     "desc": "Who can handle the wild, untamed power of the Astral Express!? Pom-Pom, now beyond control, has transformed into Alloy Mechatron: King Pom-Pom.\\nKing Pom-Pom is a powerful mechatron obsessed with cleanliness and order. By its standards, this place is a mess and needs a thorough! Deep! Clean!",
-    "ko": "합금 메카아머•폼폼킹",
-    "zh": "合金机铠•帕姆王",
-    "ja": "合金メカヨロイ・パムキング"
+    "ko": "고생이 많은 차장님",
+    "zh": "含辛茹苦的列车长",
+    "ja": "苦労の絶えない車掌"
   },
   "5014025": {
     "rank": "LittleBoss",
@@ -10375,8 +10377,8 @@
       5014025
     ],
     "weak": [
-      "Fire",
       "Thunder",
+      "Quantum",
       "Imaginary"
     ],
     "en": "Alloy Mechatron: King Pom-Pom",
@@ -10799,16 +10801,16 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Part Left",
-    "desc": "...",
-    "ko": "부위 왼쪽",
-    "zh": "部位左",
-    "ja": "部位（左）"
+    "en": "Giant Hand of Destiny",
+    "desc": "With their own two hands, humans struggle, plunder, create, and destroy. They even harbor the delusion of using them to take destiny by the throat. As it happens, destiny has the exact same idea.",
+    "ko": "운명의 큰 손",
+    "zh": "命运的大手",
+    "ja": "運命の巨大な手"
   },
   "5032021": {
     "rank": "MinionLv2",
     "camp": null,
-    "icon": "SpriteOutput/MonsterFigure/Monster_5032020.png",
+    "icon": "SpriteOutput/MonsterFigure/Monster_5032021.png",
     "child": [
       5032021
     ],
@@ -10817,11 +10819,11 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Part",
-    "desc": "...",
-    "ko": "부위",
-    "zh": "部位",
-    "ja": "部位"
+    "en": "Giant Hand of Destiny (Clenched)",
+    "desc": "Take a guess. Does this hand hold the treasure you want most?",
+    "ko": "운명의 큰 손(움켜쥠)",
+    "zh": "命运的大手（紧握）",
+    "ja": "運命の巨大な手（握りしめ）"
   },
   "5032022": {
     "rank": "MinionLv2",
@@ -10835,16 +10837,16 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Part Left",
-    "desc": "...",
-    "ko": "부위 왼쪽",
-    "zh": "部位左",
-    "ja": "部位（左）"
+    "en": "Giant Hand of Destiny",
+    "desc": "With their own two hands, humans struggle, plunder, create, and destroy. They even harbor the delusion of using them to take destiny by the throat. As it happens, destiny has the exact same idea.",
+    "ko": "운명의 큰 손",
+    "zh": "命运的大手",
+    "ja": "運命の巨大な手"
   },
   "5032023": {
     "rank": "MinionLv2",
     "camp": null,
-    "icon": "SpriteOutput/MonsterFigure/Monster_5032020.png",
+    "icon": "SpriteOutput/MonsterFigure/Monster_5032021.png",
     "child": [
       5032023
     ],
@@ -10853,11 +10855,11 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Part",
-    "desc": "...",
-    "ko": "부위",
-    "zh": "部位",
-    "ja": "部位"
+    "en": "Giant Hand of Destiny (Clenched)",
+    "desc": "Take a guess. Does this hand hold the treasure you want most?",
+    "ko": "운명의 큰 손(움켜쥠)",
+    "zh": "命运的大手（紧握）",
+    "ja": "運命の巨大な手（握りしめ）"
   },
   "5032030": {
     "rank": "MinionLv2",
@@ -10871,16 +10873,16 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Part Right",
-    "desc": "...",
-    "ko": "부위 오른쪽",
-    "zh": "部位右",
-    "ja": "部位（右）"
+    "en": "Giant Hand of Destiny",
+    "desc": "With their own two hands, humans struggle, plunder, create, and destroy. They even harbor the delusion of using them to take destiny by the throat. As it happens, destiny has the exact same idea.",
+    "ko": "운명의 큰 손",
+    "zh": "命运的大手",
+    "ja": "運命の巨大な手"
   },
   "5032031": {
     "rank": "MinionLv2",
     "camp": null,
-    "icon": "SpriteOutput/MonsterFigure/Monster_5032030.png",
+    "icon": "SpriteOutput/MonsterFigure/Monster_5032031.png",
     "child": [
       5032031
     ],
@@ -10889,11 +10891,11 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Part",
-    "desc": "...",
-    "ko": "부위",
-    "zh": "部位",
-    "ja": "部位"
+    "en": "Giant Hand of Destiny (Clenched)",
+    "desc": "Take a guess. Does this hand hold the answer you're looking for?",
+    "ko": "운명의 큰 손(움켜쥠)",
+    "zh": "命运的大手（紧握）",
+    "ja": "運命の巨大な手（握りしめ）"
   },
   "5032032": {
     "rank": "MinionLv2",
@@ -10907,16 +10909,16 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Part Right",
-    "desc": "...",
-    "ko": "부위 오른쪽",
-    "zh": "部位右",
-    "ja": "部位（右）"
+    "en": "Giant Hand of Destiny",
+    "desc": "With their own two hands, humans struggle, plunder, create, and destroy. They even harbor the delusion of using them to take destiny by the throat. As it happens, destiny has the exact same idea.",
+    "ko": "운명의 큰 손",
+    "zh": "命运的大手",
+    "ja": "運命の巨大な手"
   },
   "5032033": {
     "rank": "MinionLv2",
     "camp": null,
-    "icon": "SpriteOutput/MonsterFigure/Monster_5032030.png",
+    "icon": "SpriteOutput/MonsterFigure/Monster_5032031.png",
     "child": [
       5032033
     ],
@@ -10925,11 +10927,11 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Part",
-    "desc": "...",
-    "ko": "부위",
-    "zh": "部位",
-    "ja": "部位"
+    "en": "Giant Hand of Destiny (Clenched)",
+    "desc": "Take a guess. Does this hand hold the answer you're looking for?",
+    "ko": "운명의 큰 손(움켜쥠)",
+    "zh": "命运的大手（紧握）",
+    "ja": "運命の巨大な手（握りしめ）"
   },
   "5032040": {
     "rank": "MinionLv2",
@@ -10944,10 +10946,10 @@
       "Quantum"
     ],
     "en": "Remnants of Comedy",
-    "desc": "...",
+    "desc": "Residual dregs of the concept of Elation, existence rendered meaningless after being devoured and dissolved by Voracity.\\nBecause they are meaningless, they seek meaning, but having been gnawed upon by Voracity, they can never again achieve self-satisfaction.\\nThus, they endlessly hunt down other living beings to sate their desire for Elation, which can never be fulfilled.",
     "ko": "희극의 잔재",
     "zh": "喜剧的残渣",
-    "ja": "喜劇の残滓"
+    "ja": "{RUBY_B#きげき}喜劇{RUBY_E#}の{RUBY_B#ざんさい}残滓{RUBY_E#}"
   },
   "5033010": {
     "rank": "Elite",
@@ -10963,10 +10965,10 @@
       "Imaginary"
     ],
     "en": "Depth Crawler Protoplasm",
-    "desc": "...",
-    "ko": "심연수 원형",
+    "desc": "The Voracity's bait, drawn infinitely close to THEIR very essence. With sinuous, otherworldly dances and scorching breath, it ensnares all living things in an inescapable haze until they become a satisfying meal for the leviathan.",
+    "ko": "연수 근원체",
     "zh": "渊兽原体",
-    "ja": "淵獣のプロトマー"
+    "ja": "{RUBY_B#えんじゅう}淵獣{RUBY_E#}のプロトマー"
   },
   "5034010": {
     "rank": "LittleBoss",
@@ -11055,11 +11057,11 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Planarcadia Boss",
-    "desc": "...",
-    "ko": "이상 낙원 보스",
-    "zh": "二相乐园BOSS",
-    "ja": "二相楽園ボス"
+    "en": "Divine Skull of Indulgence",
+    "desc": "Once the brain where Aha brewed schemes, once the mouth that laughed aloud and lacerated the universe, once the face that wore infinite visages, it was swallowed whole in a bloody battle with the king of the leviathans. Who could have guessed who feasted on whom? Ah, the unexpected is precisely the most fascinating part of this universe, and Aha was here.",
+    "ko": "탐환의 신의 머리",
+    "zh": "贪欢的神颅",
+    "ja": "{RUBY_B#どんえつ}貪悦{RUBY_E#}の{RUBY_B#しんしゅ}神首{RUBY_E#}"
   },
   "5035011": {
     "rank": "BigBoss",
@@ -11073,11 +11075,29 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Planarcadia Boss",
-    "desc": "...",
-    "ko": "이상 낙원 보스",
-    "zh": "二相乐园BOSS",
-    "ja": "二相楽園ボス"
+    "en": "Divine Skull of Indulgence",
+    "desc": "Once the brain where Aha brewed schemes, once the mouth that laughed aloud and lacerated the universe, once the face that wore infinite visages, it was swallowed whole in a bloody battle with the king of the leviathans. Who could have guessed who feasted on whom? Ah, the unexpected is precisely the most fascinating part of this universe, and Aha was here.",
+    "ko": "탐환의 신의 머리",
+    "zh": "贪欢的神颅",
+    "ja": "貪悦の神首"
+  },
+  "5035012": {
+    "rank": "BigBoss",
+    "camp": 19,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5035010.png",
+    "child": [
+      5035012
+    ],
+    "weak": [
+      "Physical",
+      "Quantum",
+      "Imaginary"
+    ],
+    "en": "Divine Skull of Indulgence",
+    "desc": "Once the brain where Aha brewed schemes, once the mouth that laughed aloud and lacerated the universe, once the face that wore infinite visages, it was swallowed whole in a bloody battle with the king of the leviathans. Who could have guessed who feasted on whom? Ah, the unexpected is precisely the most fascinating part of this universe, and Aha was here.",
+    "ko": "탐환의 신의 머리",
+    "zh": "贪欢的神颅",
+    "ja": "貪悦の神首"
   },
   "5035020": {
     "rank": "BigBoss",
@@ -11091,11 +11111,11 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Planarcadia Boss",
-    "desc": "...",
-    "ko": "이상 낙원 보스",
-    "zh": "二相乐园BOSS",
-    "ja": "二相楽園ボス"
+    "en": "\"Embryo of Philosophy\" Madness",
+    "desc": "A new sprout / blooms in the rotting mud of the past / The universe! The universe shattered into a kaleidoscope! / Its sharp shards fall into \"my\" eyes / Is every piece called \"madness\"?",
+    "ko": "「철학의 태아」 광기",
+    "zh": "「哲学的胎儿」疯狂",
+    "ja": "「哲学の胎児 - 狂気」"
   },
   "5035021": {
     "rank": "BigBoss",
@@ -11109,11 +11129,11 @@
       "Quantum",
       "Imaginary"
     ],
-    "en": "Planarcadia Boss",
-    "desc": "...",
-    "ko": "이상 낙원 보스",
-    "zh": "二相乐园BOSS",
-    "ja": "二相楽園ボス"
+    "en": "\"Embryo of Philosophy\" Madness",
+    "desc": "A new sprout / blooms in the rotting mud of the past / The universe! The universe shattered into a kaleidoscope! / Its sharp shards fall into \"my\" eyes / Is every piece called \"madness\"?",
+    "ko": "「철학의 태아」 광기",
+    "zh": "「哲学的胎儿」疯狂",
+    "ja": "「哲学の胎児 - 狂気」"
   },
   "8001010": {
     "rank": "Minion",
@@ -12503,7 +12523,7 @@
       "Imaginary"
     ],
     "en": "Comediologist",
-    "desc": "...",
+    "desc": "Born from a fragmented part of the Pseudo-Awakened One \"Asat Pramad,\" it seeks to completely deconstruct the Elation by analyzing comedy.\\nIts very existence exists for the sake of Destruction, taking tragedy as the core of comedy and \"Destruction\" as the ultimate truth of \"Elation\".",
     "ko": "희극학자",
     "zh": "喜剧学家",
     "ja": "{RUBY_B#きげきがくしゃ}喜劇学者{RUBY_E#}"

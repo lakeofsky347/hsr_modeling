@@ -1,14 +1,14 @@
 {
   "id": 5032021,
-  "name": "部位",
-  "desc": "...",
+  "name": "命运的大手（紧握）",
+  "desc": "猜猜看，这只手里有没有你最想要的宝藏？",
   "monster_camp_id": null,
   "attack_base": 18,
   "critical_damage_base": 0.2,
   "defence_base": 210,
   "hp_base": 1627.5,
   "initial_delay_ratio": 1,
-  "image_path": "SpriteOutput/MonsterFigure/Monster_5032020.png",
+  "image_path": "SpriteOutput/MonsterFigure/Monster_5032021.png",
   "minimum_fatigue_ratio": 0.2,
   "rank": "MinionLv2",
   "speed_base": null,
@@ -53,7 +53,7 @@
       "skill_list": [
         {
           "id": 503202101,
-          "skill_name": "技能1",
+          "skill_name": "啊哈！揭秘环节",
           "skill_desc": "受到攻击后，若角色位于其中，使其损失生命值。受到致命伤害后，若角色位于其中，则释放该角色，使我方获得笑点，并使我方全体的全属性抗性穿透提高，否则对我方全体造成量子属性伤害。",
           "damage_type": "Quantum",
           "sp_hit_base": 10,

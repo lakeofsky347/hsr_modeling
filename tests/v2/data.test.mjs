@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { DATA } from '../../engine2/data.gen.js';
+import { buildCharacter } from '../../scripts/v2/build_kits.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const C = DATA.characters;
@@ -15,7 +16,7 @@ const allSkills = (c) => [...c.skills, ...((c.memosprite && c.memosprite.skills)
 const effs = (s) => s.effects.map((e) => e.stat);
 
 test('规模与版本', () => {
-  assert.equal(DATA.version, '4.6.51');
+  assert.equal(DATA.version, '4.7');
   assert.equal(Object.keys(C).length, 99);
   assert.equal(Object.keys(DATA.lightcones).length, 172);
   assert.ok(Object.keys(DATA.relicSets).length >= 60);
@@ -251,4 +252,33 @@ test('v2.1：effect/hit 提供 rawResolved；敌人 key 与 id 一致', () => {
   for (const [k, m] of Object.entries(DATA.monsters)) assert.equal(String(m.id), k);
   assert.equal(DATA.monsters['8003010'].name, '外宇宙之冰');
   assert.equal(DATA.monsters['1005010'].name, '可可利亚，虚妄之母');
+  assert.equal(DATA.monsters['5035010'].name, '贪欢的神颅');
+  assert.equal(DATA.monsters['5035011'].name, '贪欢的神颅');
+  assert.equal(DATA.monsters['5035012'].name, '贪欢的神颅');
+  assert.equal(DATA.monsters['5035020'].name, '「哲学的胎儿」疯狂');
+});
+
+test('奇缘星魂入数据、不进伤害', () => {
+  for (const id of ['1204', '1213', '1308']) {
+    const xs = C[id].exRanks;
+    assert.equal(xs.length, 1, id);
+    assert.equal(xs[0].modeled, false);
+    assert.ok(xs[0].params.length >= 4, id + ' params');
+    assert.ok(xs[0].unresolved && xs[0].source);
+  }
+  assert.equal(C['1511'].exRanks.length, 0);
+  assert.deepEqual(C['1308'].exRanks[0].params, [3, 1, 1, 0.8]);
+  assert.deepEqual(C['1213'].exRanks[0].params, [5, 5, 1, 2.4, 1, 3]);
+  assert.deepEqual(C['1204'].exRanks[0].params, [1, 2.4, 6, 12, 4, 20]);
+});
+
+test('SubAvatarTypeList 为空时不改变解析', () => {
+  const raw = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/v2/raw/character/1001.json'), 'utf8'));
+  const sup = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/v2/raw/support/character.json'), 'utf8'))['1001'];
+  const a = buildCharacter('1001', raw, sup);
+  const b = buildCharacter('1001', Object.assign({}, raw, { SubAvatarTypeList: [] }), sup);
+  const c = buildCharacter('1001', Object.assign({}, raw, { SubAvatarTypeList: ['unused'] }), sup);
+  assert.deepEqual(b, a);
+  assert.deepEqual(c.base, a.base);
+  assert.equal(c.skills.length, a.skills.length);
 });

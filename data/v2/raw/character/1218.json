@@ -2,21 +2,449 @@
   "name": "椒丘",
   "desc": "仙舟「曜青」的狐人医士、策士，常以笑脸迎人，实际颇有心计。\\n出身于丹鼎司名家，曾一度心死避世，不再行医，后为医治「天击将军」飞霄再度出山。\\n精于医食同源的丹方研究，尤其是能带给人痛感的辣味食物，发明了名为「九宫格」的鼎镬药式。",
   "chara_info": {
-    "camp": null,
+    "camp": "仙舟「曜青」",
     "va": {
-      "chinese": null,
-      "japanese": null,
-      "korean": null,
-      "english": null
+      "chinese": "陈张太康",
+      "japanese": "豊永利行",
+      "korean": "이정민",
+      "english": "Mark Whitten"
     },
     "stories": {
-      "0": null,
-      "1": null,
-      "2": null,
-      "3": null,
-      "4": null
+      "0": "仙舟「曜青」的狐人医士、策士，常以笑脸迎人，实际颇有心计。\\n出身于丹鼎司名家，曾一度心死避世，不再行医，后为医治「天击将军」飞霄再度出山。\\n精于医食同源的丹方研究，尤其是能带给人痛感的辣味食物，发明了名为「九宫格」的鼎镬药式。",
+      "1": "曜青，飞雨湖。\\n荇藻开着黄花，游鱼在雨丝中跳跃，菱角荷花肆意生长，湖边石滩常有老龟晒背。\\n\\n狐人少年背着药篓，划着小舟，雨丝顺着他的耳廓流下，又被轻轻甩去。\\n他捞取荇菜，撷取荷花，剥开鲜嫩的茭白，随手往嘴里扔去。\\n<i>「甘甜入脾，滋润可口……」</i>\\n摘毕，他撑起小船，轻盈地越过湖岸，换上了医者的服饰。\\n……\\n医馆内蒸汽氤氲，异香浮动。\\n<i>「脉象比上次好了些，只是还缺少调养，要不试试我的新药？」</i>\\n他撤去脉枕和金针，微笑着搬上一套崭新的医具。\\n老者看着桌上的九宫铁锅，不禁苦笑。\\n<i>「别人一辈子也搞不出几种新药出来，你倒好，一天就能发明好几种。」</i>\\n<i>「师父谬赞了，这是名为「九宫格」的鼎镬药式，制作简便，效果奇佳。」</i>\\n他倒出药篓中的食材，简单清洗后改刀切片，锅里的高汤开始冒泡沸腾。\\n<i>「一两天锦草，三钱苦木，四厘苁蓉，大骨熬煮，搭配深海贝可驱散苦味，助心神安眠。」「这白鳅和紫鱼片性温，最能滋养气血，只需涮两三秒即可。」\\n「青菇、银针、雪藕…都是飞雨湖中我以药渣精心培植的作物，除了鲜美之外，兼有药性。」</i>\\n晶莹的鱼片滑入沸汤，师徒二人大快朵颐，雨天的湿寒一扫而空。\\n\\n杯盘狼藉之际，老者放下杯筷，仿佛看穿了什么。\\n<i>「这顿『九宫格』，看起来是醉翁之意不在酒。」</i>\\n他站了起来，郑重地行了个礼。\\n<i>「师父敏锐。是否进入丹鼎司，徒儿已有决定。\\n「丹鼎司虽好，终究和徒儿悬壶济世的心愿不符。要问何处最需要医家，必是曜青征战之地。\\n「而众多医家之中，唯有我等染指派强调药食同源，以饮食之乐解疾病之苦…『九宫格』之药，方便快捷，祛寒除湿，正是徒儿为战场所特制。\\n「生死之间，人命至重。倘若我有一方济之，也算不辜负丹鼎司培养之恩。」</i>\\n老者似有言劝告，但最终却还是咽了下去。\\n<i>「战场苦寒异常，出发之前，记得…多带些热性的食材。」</i>",
+      "2": "曜青军队常年征战域外星球，他又对鼎镬药式进行了诸多改进，以应对日渐艰巨又复杂多变的驻扎环境。\\n\\n因药式的罕见与奇效，他的名声迅速传遍曜青军队，赢得了诸位将士的信任。\\n然而这些成就全然无法减轻他内心的沉重。\\n每一日， 当出发的鸣笛响起之时，他曾治好的病患将重新踏上战场。\\n每一日，当归营的脚步响起之时，围坐在鼎镬边的面孔，总会少上几个。\\n就在刚刚，那位每次回营都嚷嚷着要吃鼎镬的士兵，永远地离开了。\\n他完成了今日的问诊，走出临时搭建的战地医院，长叹了一口气。漫天风雪扑向他，而他似乎感受不到半分寒冷。\\n鸣笛声已重新响起，军队已整备出发。很快，战地医院中又会挤满重伤的士兵。即便他使出生死人，肉白骨的医术，无休止的战争依然在吞噬那些年轻的生命。\\n\\n每晚，他都会同那位月御将军对谈，但这一日，他少见地沉默良久。\\n<i>「这段时日，我一直在思考…如果我医治的病患注定还要奔赴死亡，那医者的意义是什么？」</i>\\n\\n病房中传来喑哑的哭声。他使劲眨了眨眼睛，才发现不知从何时起，自己的双眼已经干涩\\n——干涩到流不出泪来。",
+      "3": "又到了将士出征的时候。\\n但那恐怖的死状，居高不下的死亡率，终日喧响的炮火，浮现于天空的庞然巨物，预示着这场战争不同以往的惨烈。\\n\\n直到那一日，高耸入云的「瞰云镜」承载联盟万亿众生的愿力，终于得到了祂的回应。\\n灼热的气浪毫无征兆地出现，弱小的丰饶孽物化作血雾，不可直视的光撕开天穹。\\n他看到光浪所及之处，一切山峦化为齑粉。\\n他看到未来得及撤离的仙舟军团和丰饶孽物一起化为尘埃。\\n他听说紧跟月御将军的少女在即将覆灭的敌阵中奔走，试图带回剩余的士兵。\\n在光之海的巨浪到达之前，他尽全力救下少女，而后在光芒的余波中失去了意识。\\n……\\n残破的军旗在风中猎猎作响，寥寥无几的幸存者围在火堆旁，无言对坐。\\n叮当，叮当，叮当——\\n坑坑洼洼的鼎镬被狂风吹着，在原野上滚动。\\n\\n身体理应早就习惯了所驻扎的这颗星球上的寒冷，但他从来都没觉得那么冷过，从里到外，都是冰凉的。\\n他拾起铁锅，加水，烧开，放入所剩无几的食材，动作一气呵成。\\n<i>「还是好冷……」</i>\\n幸存者默默地咀嚼着食物，没有人说话。\\n<i>「放点辣吧。」</i>\\n他取出随身携带的药袋。\\n<i>「不够辣。」</i>\\n他放下了更多的辣椒。\\n<i>「还是不够。」</i>\\n他将随身携带的香料全数倒进鼎镬中。\\n<i>「没有更多了。」</i>\\n红油翻滚，他夹起野菜放进嘴中，当麻木的味觉被激活的时候，他第一次如此强烈地感到生命的存在——\\n那是近乎于痛的滋味。",
+      "4": "曜青，飞雨湖。\\n荇藻开着黄花，游鱼在雨丝中跳跃，菱角荷花肆意生长，湖边石滩常有老龟晒背。\\n\\n湖中，他背着药篓，划着小舟，雨丝顺着他的耳廓流下，沾湿了他的衣裳。\\n他捞取荇菜，撷取荷花，剥开鲜嫩的茭白，随手往嘴里扔去。\\n<i>「唉，太淡了……」</i>他摇了摇头。\\n<i>「先生，有一位老人在食馆找您，说是您的老相识——」</i>\\n门童的声音从对岸传来。他叹了口气，撑船往回而去。\\n\\n他岂不知来人何意，却早已厌倦了重操医业。\\n<i>「师父今日前来，是要试试飞雨食馆的鼎镬吗？我可要提个醒，这里只有重辣和重重辣。」</i>\\n老者坐在桌边，叹了口气。\\n<i>「我记得在从军之前，你的口味还清淡得很。」</i>\\n他端上鼎镬，眼中一抹怀念之色转瞬即逝。\\n<i>「人…总是会变的。」</i>\\n老者夹起一片紫鱼，在红油沸腾的锅里涮了涮。\\n<i>「那我也试试罢。但此次前来，并非仅仅为了吃食。还记得你救下的那个女孩么？\\n「那位始终跟在前任将军身边的少女，飞霄。她如今已接任了曜青将军，需要一个医生追随，没人比你更合适了。」</i>\\n他无奈地笑了笑，那日口腔的刺痛不知为何又翻涌上来。<i>「即便救下了，不过又是一条上阵蹈死的冤魂。这样的无用功，我不想再做。」</i>\\n老者放下筷子，摇摇头。\\n<i>「你误会了，我此次前来，并非劝你救治世人。我来，是想请这位将军…医好你的心死之病。\\n「她会告诉你…医者的意义，究竟是什么。」</i>"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "初次见面",
+        "voice_m": "初次见面！不才椒丘，现为曜青「天击将军」飞霄帐下的随军医士，也算半个幕僚。如何称呼？不如就叫我「椒椒」吧——正所谓「铁中铮铮，佣中佼佼」，寓意还不错，对吧？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "问候",
+        "voice_m": "怎么感觉你瘦了？人活一世，吃饱吃好才是第一要务。走，吃火锅去。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "道别",
+        "voice_m": "什么？能不能吃鸳鸯锅？哈哈，别担心，我保证下次一定是「微微辣」！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "关于自己•医术",
+        "voice_m": "我的医术虽出自「染指」一脉，但如今已算是自成一派。毕竟传统的曜青食疗术，可没有「九宫格」这样的鼎镬药式。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "关于自己•厨艺",
+        "voice_m": "说了很多次啦，这叫医食同源——烹煮即是炼药；炼药即是烹煮。以食疗济愈病患，乃是我的独门绝学。俗话说，不想当医士的厨子当不了好幕僚……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "闲谈•战略",
+        "voice_m": "以火佐攻者明，可以拔营；以水佐攻者强，所以伥固。至于水火齐下，敌军便如这釜中食材一般任人鱼肉了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "闲谈•忌口",
+        "voice_m": "我有四不吃：不吃清汤，因其乏味；不吃微辣，因其无趣；不吃鸳鸯，因其不纯；不吃香菜，因其败胃。但若是有人请客，我倒也可以破例。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "爱好",
+        "voice_m": "我平生别无所好，唯独无辣不欢。吃辣的时候，人感到的不止有疼痛，还有快慰——这让我感到自己还活着。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "烦恼",
+        "voice_m": "徒然草寇殉臣节，又有强狐犁兔穴。朝朝圣人少义人，代代皆负英雄血。不，没什么…只是在自言自语罢了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "分享",
+        "voice_m": "虽然这火锅吃法多样，可我总以为红油海椒才是火锅的极意——这一口下去辛辣十足，真是教人直呼过瘾。若非如此，这生活怕是连丁点滋味都没有了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "见闻",
+        "voice_m": "在并不遥远的古代，人们不怎么在乎自己的生命，更不在乎别人的生命。追溯「人命至重」的历史，实际非常短暂。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "关于飞霄",
+        "voice_m": "飞霄将军是我的恩人，也是我的病人。我这「医生」的命可是属于「病人」的，在医好她之前，我死不得。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "关于貊泽",
+        "voice_m": "我的责任是医好将军的身子，他的责任则是按住将军跃跃欲试的心。为此我要司膳烹药，他要刀锋见血——你看，我俩这手上功夫都闲不下来。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "关于景元",
+        "voice_m": "景元将军的笑容，其中到底有几分掩饰，几分实意——每次见他，我都不禁疑惑。当然，这并非他的问题，而是我的。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "关于怀炎",
+        "voice_m": "纵观整个联盟，炎老是最难以捉摸的天将。以往和老爷子打交道的场合不算少，但我至今拿不准他的心思。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "关于素裳",
+        "voice_m": "第一次见素裳那会儿，她还在素衣大人怀里美美嘬手指呢，包庇她逃学、挨素衣大人骂的场面仿佛也就在昨日…怎么想都是我老了，哎。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "关于彦卿",
+        "voice_m": "没想到彦卿兄弟这个年纪，玩具仍然是剑…这个时代似乎同过去没什么不同啊……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "关于云璃",
+        "voice_m": "云璃小姐是「焰轮八叶」中次年幼的一位，但只论剑法，她可不比其余七人差…虽说她和炎老的关系非同一般，但若不是可造之材，也经不起如此打磨啊。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "关于符玄",
+        "voice_m": "说符太卜是个异类的，真该去她老家玉阙看看，那儿可是遍智天君信徒的大本营。我猜玉阙人的对话，基本都是「他知道你知道我知道他知道吗」……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "关于驭空",
+        "voice_m": "我和驭空司舵一样，自三十年前的那场战争后，多少都对打打杀杀的事有些厌倦了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "关于白露",
+        "voice_m": "希望她是真的喜欢医术，而不是为了承担强加在她身上的责任…话说回来，又有几位持明不受此困扰呢？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "关于灵砂",
+        "voice_m": "丹鼎司司鼎可不是光有一手好医术就能坐上的位子——即便坐上了，要坐「稳」也是另一回事。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "关于桂乃芬",
+        "voice_m": "或许桂乃芬小姐并非刻意为之，但她不光让自己的生活熊熊燃烧着，还照亮了其他人的人生…就像个小火锅似的。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "关于雪衣与寒鸦",
+        "voice_m": "这对姐妹就是联盟失败的缩影——没人能好好活着，也没人能好好死去。如果连「死」都成了件奢侈的事，那我们到底变成了一群什么样的怪物？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "星魂激活",
+        "voice_m": "仅仅活着，还不是目的。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "角色晋阶",
+        "voice_m": "还不够辣…再来再来！加麻，加辣！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "角色满级",
+        "voice_m": "熟悉的安全感…从里到外都烧了起来。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "行迹激活",
+        "voice_m": "希望这能让更多人好好活着。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "凭你的身手，定能带我全身而退…吧～",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "队伍编成•景元",
+        "voice_m": "失策啊，在下未曾想过这辈子还能与神策将军并肩作战。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "队伍编成•素裳",
+        "voice_m": "这柄比我人还重的祖传大宝贝，已经到你手上了？素裳，了不得啊！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "队伍编成•彦卿",
+        "voice_m": "彦卿兄弟，安全第一。不然我没法和景元将军交代……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "队伍编成•云璃",
+        "voice_m": "云璃小姐，这儿危险，你离远点、再远点…我要叫你爷爷过来了……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "队伍编成•白露",
+        "voice_m": "龙女大人，给你带糖来啦。偷偷拿着，别给人瞧见了~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "队伍编成•貊泽",
+        "voice_m": "此地有我煽风点火，你大可潜入敌方为所欲为。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "队伍编成•飞霄",
+        "voice_m": "我说什么，这一战将军您也是无论如何都要打的…不如我们就战后再议吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "队伍编成•灵砂",
+        "voice_m": "也展示下你的手段吧，灵砂。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "我还是更喜欢火上浇油。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "敬酒不吃，还要吃料酒不成？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "回合开始•一",
+        "voice_m": "后发制人，也是出奇制胜。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "回合开始•二",
+        "voice_m": "与其伺机而动，不如一动不动。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "回合待机",
+        "voice_m": "三思而行，再思可矣。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "普攻",
+        "voice_m": "添把火呗。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "战技•一",
+        "voice_m": "还差点火候。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "战技•二",
+        "voice_m": "再来些大料。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "轻受击",
+        "voice_m": "我、我的腰……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "重受击",
+        "voice_m": "权当是推拿……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "终结技•激活",
+        "voice_m": "承蒙诸位赏脸……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "终结技•施放",
+        "voice_m": "来都来了，不如吃过再走。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "无法战斗",
+        "voice_m": "对不起…将军……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "重回战斗",
+        "voice_m": "夙愿未成，尚不能歇息。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "回复生命",
+        "voice_m": "多谢，让您破费了。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "秘技",
+        "voice_m": "文火慢熬，抑或武火爆炒？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "战斗胜利",
+        "voice_m": "我非出身行伍，所求亦非战功。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "开启战利品•一",
+        "voice_m": "哟，这一个钱得当三个花呀。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "开启战利品•二",
+        "voice_m": "好东西，藏这么深。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "开启贵重战利品",
+        "voice_m": "有福自然同享。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "解谜成功•一",
+        "voice_m": "还是动脑省力气。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "解谜成功•二",
+        "voice_m": "不错，还可再上些强度。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "发现敌方目标",
+        "voice_m": "此处危险，不宜强攻。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "返回城镇",
+        "voice_m": "人群汇聚之处，总有地底暗流。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "jiaoqiu",
@@ -84,6 +512,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "121801": {
       "id": 121801,
@@ -102,6 +531,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -183,6 +613,7 @@
         30
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -330,6 +761,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -512,6 +944,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -704,6 +1137,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -729,6 +1163,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",

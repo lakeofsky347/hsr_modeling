@@ -84,6 +84,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "800301": {
       "id": 800301,
@@ -102,6 +103,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -183,6 +185,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "30000001": {
           "name": "基础概率",
@@ -330,6 +333,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -456,6 +460,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -612,6 +617,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -637,6 +643,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -666,6 +673,7 @@
         30
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

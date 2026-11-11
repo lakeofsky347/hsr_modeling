@@ -1,6 +1,6 @@
 {
   "name": "余生的第一天",
-  "desc": null,
+  "desc": "<i>「今天帕姆换上了新衣服，开心~喜欢~」\\n「今天过生日啦，今年的我依旧可爱。」\\n「今天我终于终于终于也有后辈啦！是不是，{NICKNAME}？」</i>\\n\\n一次次不假思索地按下快门。\\n是为了抓住当时的快乐？\\n还是抓住当时的自己？",
   "rarity": "CombatPowerLightconeRarity4",
   "base_type": "Knight",
   "refinements": {

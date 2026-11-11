@@ -2,21 +2,435 @@
   "name": "Archer",
   "desc": "绝望轮番上演于过去与未来之间，无数理想曾在红色衣衫之间燃尽。但，请别被这一抹灰烬欺骗——\\n若是有人假借理想之名营造虚幻的美梦，他必将再度燃烧，与世间的伪善战斗到底。\\n无论身在何处，他始终是正义的伙伴。",
   "chara_info": {
-    "camp": null,
+    "camp": "异界",
     "va": {
-      "chinese": null,
-      "japanese": null,
-      "korean": null,
+      "chinese": "吴磊",
+      "japanese": "諏訪部 順一",
+      "korean": "임채헌",
       "english": null
     },
     "stories": {
-      "0": null,
-      "1": null,
-      "2": null,
-      "3": null,
-      "4": null
+      "0": "绝望轮番上演于过去与未来之间，无数理想曾在红色衣衫之间燃尽。但，请别被这一抹灰烬欺骗——\\n若是有人假借理想之名营造虚幻的美梦，他必将再度燃烧，与世间的伪善战斗到底。\\n无论身在何处，他始终是正义的伙伴。",
+      "1": "通常来说，男子是一个会冷静完成工作的现实主义者。\\n可就像某些到了年纪的上班族一样，他有时也难免暴露出因阅历而带来的悲观，又因这种悲观产生自我的厌恶，时常有意无意说出辛辣的话语。\\n\\n<i>「不，这是一种误解。\\n「大多数人无法消解伴随着年龄而增长的自我厌恶，是因为他们没法和过去的自己真正打一架。\\n「不对，打一架也不是什么好事。\\n「…还是忘记这个话题吧。」</i>\\n\\n总之，只要没有正面对上过去那个不成熟的自己，或是那些与此有几分相似的人，男子绝对称得上是一名成熟稳重的从者。尽管时不时要对手头的工作抱怨一番，他仍尽心尽力完成自己的使命，兢兢业业毫不马虎。\\n——但不得不说，那些抱怨往往犀利又毒辣，甚至会让人觉得他以前是不是当过作家。\\n\\n<i>「没办法，得理不饶人可是我的本性。说实话，但凡被那种蛮不讲理的大小姐闯入过生活，任谁都会变成这样吧？」</i>",
+      "2": "男子的故事起始于一个混乱的时代。\\n就像一只无法安静下来的牛虻，以凡人之躯经历了圣杯战争的他离开了故乡，前往世界最为动荡的角落，擎举起替天行道的大旗——为了成为正义的伙伴。\\n\\n这条道路并非一帆风顺。在世界各地，男子发动过不计其数的武装暴动，竟无一成功。他逃过了十余次暗杀、百余次伏击甚至几次枪决，却在返回故乡稍作停留时，被曾经的朋友推上了绞刑架。\\n\\n但这并非他讨厌过去的自己的原因…至少失败的部分不是。\\n他所厌恶的，是那位梦想成为正义伙伴的少年，彼时还对这种人生的代价一无所知。\\n\\n执行一人的正义，就要剥夺另一人的自由。执行万人的正义，更难免头颅滚滚、血流成河。正义的确是美丽的字眼——但它的重量，却足以让任何渴望拥抱它的少年溺死在理想的海洋。\\n\\n<i>「我的确说过类似的话，但那不过是发牢骚罢了。\\n「环境和情感会让人发生巨大的变化。哪怕是完全相同的存在，也会在命运的十字路口做出某些不一样的选择。\\n「像我的人未必是我，是我的人也未必像我。说到底，人可没法在自己的视野之外寻求救赎。」</i>\\n\\n理想会践踏理想，命运会谋杀命运——年轻人并非意识不到这些。\\n只是正义的伙伴，理应无所畏惧——男子学会了赞赏这一点。",
+      "3": "「干将•莫邪」——这双剑是男子最趁手的武器，可以反复使用投影魔术制作，无论用坏多少把都毫不心疼。理论上，只要是男子充分理解的武装，都可以被他「无数次投影出赝品」；可出于某些渊源，唯有当投影对象属于「剑」的分类时，男子的投影魔术才能臻于完美。\\n\\n<i>「听起来很像卖盗版货的商人？啊，差不多就是那样。\\n「不是什么充满荣誉的手段，但用来对付那些自以为是、用自造的规则骑在别人头上作威作福的家伙，刚好合适。」</i>\\n\\n传说中，干将与莫邪是一对传奇的铸剑师，夫妇俩穷尽各种方法，试图改变这样的现状：铸剑师无法掌控所铸宝剑的品质，每次锻冶只能听天由命。\\n故事从这里分裂出许多个版本，其中一种说法是——莫邪以身殉炉，与金属熔液融为一体，让干将得以铸造出前无古人、后无来者的绝世好剑。\\n而在更负盛名的另一个版本中，暴君因为厌恶铸剑效率的低下而在干将造出宝剑后处死了他，莫邪带着他们的孩子隐匿在乡间；多年以后，这个长大成人的孩子与他在路上偶遇的侠士策划了对暴君的复仇，三人最终同归于尽。\\n\\n男子的命运是否也与以上的故事有相似之处？如果有，他牺牲的是自己，伙伴，还是某种理想？\\n人们不得而知。\\n人们只知道，为心中之剑，他甘做其骨：以躯为钢，以血为火。\\n他打造过万千利刃，可最终仍是两手空空，一无所有。\\n正如他的{RUBY_B#无限剑制}心象风景{RUBY_E#}。\\n\\n<i>「但这不就是人生吗？\\n「剑可无法停留在一个人手上。你要么把它束之高阁，要么把它转交他人，要么…就将它用至最后一刻。\\n「然后，你才能重新开始。」</i>",
+      "4": "在圣杯战争的系统中，男子被定性为{RUBY_B#Archer}弓兵{RUBY_E#}。这对于一个以「剑」为本源的人来说似乎是某种嘲讽，但男子不以为意。\\n\\n<i>「拜托，比起正面搏斗，从远处狙杀敌人才是更有效率的作战方式吧？\\n「还是说你指望我像那些{RUBY_B#Saber}剑士{RUBY_E#}一样用光炮轰平一切？别闹了，我只是个普通人，可没有他们那么强的魔力。」</i>\\n\\n话虽如此，只要情势需要，男子也从不拒绝近身格斗。得益于可谓无限量的「干将•莫邪」，他可以使出令人眼花缭乱的剑技，让对手难以招架。\\n\\n<i>「如果用普通的子弹就能杀死敌人，我才不想多费这些力气。\\n「不过，你要是真想学会这招——平常可以多下下厨房，从切菜的刀工练起。\\n「我可没开玩笑。只要认真思考，你可以从做饭里学到很多。就拿最基础的备菜来说吧——想要尽快吃到美味的一餐，你需要把制作每一种食物的工序都加以拆解，重新编排它们的顺序，尽可能多的同时完成一些事…一旦你熟练于这种思考方式，就可以把它应用在身边的各种事情上，为自己节省出大把的时间。\\n「再比如说炒菜的火候。初学者往往会陷入一个误区，认为炒菜就是把不同的食材按次序加进锅里，直到所有的食物都熟透为止。\\n「这对于那些耐炸耐煮的食材倒不成问题，但除此以外的却不能如此处理。它们都有自己最优的烹饪时间和烹饪温度，彼此之间出现矛盾是很正常的情况。\\n因此，大多数情况下，我们都要将食材分门别类，用不同的火候加以处理，关火出锅也得够果断——最后再把它们全部组合在一起，完成一道色香味俱全的佳肴。」</i>\\n\\n是的，只要打开了关于厨房的话匣子，男子就会一改平常言简意赅的作风，发表出许多饱含心得的长篇大论。这个终其一生都在战斗的男人，其生命的本质，似乎并不是正义或苦难，而是某种带着生活气息的烟火滋味。\\n\\n<i>「就像我之前说的，如果能在远处就用狙击的方式杀死敌人，那么没人愿意冒着生命危险去和他们近身搏斗。面对命运也是一样。\\n「我的存在只不过说明了一件事：在某个遥远的角落，有那样一个世界，那里的人们每天只能和命运进行你死我活的白刃格斗，否则就毫无活下去的希望。\\n「虽然我曾在那里为他们战斗过，但世界得以改变，还是因为人们始终在与命运毫不停歇地搏斗。\\n「而我…不过是一个一无所有，还远未{RUBY_B#抵达理想乡}赢过命运{RUBY_E#}的男人罢了。」</i>\\n\\n毫无疑问，他仍会沿着这条「拯救人类」的道路走下去。\\n就像他总是乐意为朋友们下厨一样。"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "初次见面",
+        "voice_m": "初次见面，叫我Archer就好。幸好你我并不是需要相互厮杀的关系，那就尽可能友好相处吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "问候",
+        "voice_m": "喔，又见面了。好在你是个聪明人，交流起来比较省力。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "道别",
+        "voice_m": "哦对了，分别之前，给你个忠告吧——珍惜你年轻时的朋友。就算时移势迁，友情依旧是如宝石般珍贵的存在。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "关于自己•真名",
+        "voice_m": "作为从者，本该把自己的名字藏起来。但鉴于这个世界根本没人认识我，我还是开诚布公吧——我叫「卫宫士郎」，请多指教。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "闲谈•投影魔术",
+        "voice_m": "没想到，我只是在匹诺康尼尝试投影了一瓶苏乐达，就碰上了工厂的员工向我索要版权费。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "闲谈•家政",
+        "voice_m": "匹诺康尼的街道与房间明明一尘不染，但不知为何我却因无从打扫而有些郁闷…也得改改这毛病了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "闲谈•英灵",
+        "voice_m": "我们这些异界英灵，都是自名唤「英灵座」的存在中拷贝出的副本。但匹诺康尼的英灵又是从何而来呢？莫非在这个世界，也有什么东西一刻不停记录着历史？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "爱好",
+        "voice_m": "我还挺喜欢做饭的。但在匹诺康尼，烹饪的方式似乎与其他地方不同…呵，看来我没机会展示完整的手艺咯。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "烦恼",
+        "voice_m": "人总会成长，一个心智健康的正常人会不断否定过去的自己。你应该庆幸，你不必和过去那个不成熟的自己打交道…不，不如说这才是常态。就算赢了自己，伤痕也不会消失。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "分享",
+        "voice_m": "「做正确的事」和「把事做正确」，是截然不同的两件事。在我看来，后者比前者更加重要。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "见闻",
+        "voice_m": "在梦境中做饭不必清理厨余和餐具，方便是方便，但也少了一种仪式感。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "关于Saber",
+        "voice_m": "她是我的旧识。既然能召唤她做你的从者，说明你也是个正直的人。不必迷茫，保持这样继续前进吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "关于Lancer",
+        "voice_m": "Lancer这个职阶似乎总会涌现出一些不幸的从者…不，不是说每个Lancer都是这样…只有那位英灵，不止他本人，连召唤他的人往往也运气不怎么好。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "关于砂金",
+        "voice_m": "御主与从者往往有着相似性，至于我们，大概是心底都存有某种执念吧…不知道在他看来，这是一种幸或是不幸呢？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "关于波提欧",
+        "voice_m": "看起来很冲动，但处事条理却意外清晰…哼，算是个跟我投脾气的家伙吧。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "关于帕姆",
+        "voice_m": "它的手脚那么短，竟然还能将家务操持得井井有条？！真是不可貌相，不，应该说不愧是和外表一样完美的列车长啊。看来你们的旅途还真不错呀。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "关于「音符小姐」",
+        "voice_m": "能够成为英灵，本身已经是对她能力和资质的承认，她不用妄自菲薄。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "关于斯科特",
+        "voice_m": "如果他遇到的每个对手都像你一样，那他会成为一个好人的。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "关于葛瑞迪先生",
+        "voice_m": "在这儿，像他这样理解「电影」的人不多吧？否则我必须要指出，你们世界的品味还有待提高。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "关于老奥帝",
+        "voice_m": "人类嘛，到什么年纪就该做什么事。该乖乖入土的年纪，就不要总惦记着兴风作浪了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "星魂激活",
+        "voice_m": "守护者的未来，在此注定。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "角色晋阶",
+        "voice_m": "任务还没结束，不能松懈啊。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "角色满级",
+        "voice_m": "准备万无一失。以现在的状态，随时都能应对战斗。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "行迹激活",
+        "voice_m": "这感觉真不错，像找回了失去的东西。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "强敌么…我会暗中支援的。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "队伍编成•Saber",
+        "voice_m": "呵，即使在星海之中，圣剑的光辉还是一如既往。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "关于远坂凛",
+        "voice_m": "居然又和这位容易给自己引来不幸的大小姐碰面了…真是的，明明看着还算有所成长。既然又卷入了大麻烦，那我就不能坐视不理了啊。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "关于吉尔伽美什",
+        "voice_m": "您问我能否击败那位总是强调自己真品身份的英雄王？哼，这是个伪命题。面对我这种为了胜利能够弃尊严于不顾的家伙，他是绝不会使出全力的。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "队伍编成•远坂凛",
+        "voice_m": "请放心。这一次，我会成为你忠实的代行者，为你献上胜利。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "队伍编成•吉尔伽美什",
+        "voice_m": "要上了，英雄王——宝具的储备还足够么？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "好机会，该斩除祸患了！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "嗯…，接下来准备怎么做？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "回合开始•一",
+        "voice_m": "到我了？真是够忙的。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "回合开始•二",
+        "voice_m": "真是不长记性。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "回合待机",
+        "voice_m": "不急于动手吗？嗯，再观望一下也好。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "普攻",
+        "voice_m": "干将，莫邪！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "追加攻击•一",
+        "voice_m": "鹤翼三连！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "追加攻击•二",
+        "voice_m": "穿山断水！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "战技•一",
+        "voice_m": "Trace on！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "战技•二",
+        "voice_m": "Caladbolg II！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "【回路连接】战技•一",
+        "voice_m": "别想跑。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "【回路连接】战技•二",
+        "voice_m": "你无处可躲！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "轻受击",
+        "voice_m": "多用点力吧…",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "重受击",
+        "voice_m": "又正面迎敌……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "终结技•激活",
+        "voice_m": "I am the bone of my sword. Steel is my body, and fire is my blood. I have created over a thousand blades. Unknown to Death. Nor known to Life. Have withstood pain to create many weapons. Yet, those hands will never hold anything. So as I pray—",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "终结技•施放",
+        "voice_m": "Unlimited Blade Works.",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "无法战斗",
+        "voice_m": "是我…败了…",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "重回战斗",
+        "voice_m": "看我一雪前耻！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "回复生命",
+        "voice_m": "可靠的同伴！正确的判断。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "秘技",
+        "voice_m": "Broken Phantasm！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "战斗胜利",
+        "voice_m": "我还以为要苦战一场呢。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "开启战利品•一",
+        "voice_m": "…算了，人要知足。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "开启战利品•二",
+        "voice_m": "可别大手大脚，省着点花。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "开启贵重战利品",
+        "voice_m": "颇有收获嘛…",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "解谜成功•一",
+        "voice_m": "值得大费周章吗？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "解谜成功•二",
+        "voice_m": "不算什么难题。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 77,
+        "voice_title": "发现敌方目标",
+        "voice_m": "是个麻烦的对手，该警惕起来了！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 78,
+        "voice_title": "返回城镇",
+        "voice_m": "该是休息时间了吧？随便一点。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 79,
+        "voice_title": "连携追加攻击",
+        "voice_m": "凛，上吧！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "archer",
@@ -84,6 +498,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "101501": {
       "id": 101501,
@@ -102,6 +517,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -177,6 +593,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -348,6 +765,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -489,6 +907,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000004": {
           "name": "追加攻击",
@@ -606,6 +1025,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -631,6 +1051,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -659,6 +1080,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

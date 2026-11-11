@@ -1309,6 +1309,12 @@ function kitSection() {
       if ((kit.eidolons || []).length) {
         add(body, h('h3', null, '星魂', h('span', { class: 'grow' })));
         kit.eidolons.forEach(function (e) { add(body, h('div', { class: 'ks' + (e.rank > m.eidolon ? ' locked' : '') }, h('div', { class: 't' }, h('span', { class: 'tag' + (e.rank <= m.eidolon ? ' gold' : '') }, 'E' + e.rank), e.name), h('div', { class: 'd' }, e.desc || ''))); });
+        if ((kit.exRanks || []).length) {
+          add(body, h('h3', null, '奇缘星魂', h('span', { class: 'grow' })));
+          kit.exRanks.forEach(function (e) {
+            add(body, h('div', { class: 'ks' }, h('div', { class: 't' }, h('span', { class: 'tag low' }, e.modeled ? '已计入' : '未计入'), e.name), h('div', { class: 'd' }, (e.desc || '') + (e.unresolved ? '\n' + e.unresolved : ''))));
+          });
+        }
       }
       if ((kit.notes || []).length) {
         add(body, h('h3', null, '解析备注', h('span', { class: 'grow' })));

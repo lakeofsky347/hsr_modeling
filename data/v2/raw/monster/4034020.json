@@ -1,7 +1,7 @@
 {
   "id": 4034020,
   "name": "毁灭的容器，卡厄斯兰那",
-  "desc": null,
+  "desc": "白厄，NeiKos<unbreak>496</unbreak>，救世主，卡厄斯兰那，无名的英雄。在比岁月记叙更漫长的时光中，他反抗胸膛中的恨与怒火，身躯业已化作枯槁。只为待到此刻，命定之时，由另一位救世主熄灭夜火，带来新的破晓。",
   "monster_camp_id": null,
   "attack_base": 18,
   "critical_damage_base": 0.2,
@@ -15,7 +15,32 @@
   "stance_base": null,
   "stance_count": 1,
   "status_resistance_base": 0.3,
-  "child": [],
+  "child": [
+    {
+      "id": 4034020,
+      "attack_modify_ratio": 1,
+      "defence_modify_ratio": 1,
+      "elite_group": 1,
+      "hp_modify_ratio": 1,
+      "speed_modify_ratio": 1,
+      "speed_modify_value": null,
+      "stance_modify_ratio": 1,
+      "stance_modify_value": null,
+      "stance_weak_list": [],
+      "hard_level_group": 1,
+      "damage_type_resistance": [],
+      "skill_list": [
+        {
+          "id": 403402001,
+          "skill_name": "命中注定的棺木",
+          "skill_desc": "卡厄斯兰那不会向下定决心的英雄发动攻击。他已与命运缠斗百亿年岁，他已燃尽此身，他已空无一物，唯剩交由你的希望。",
+          "damage_type": "",
+          "sp_hit_base": "",
+          "extra": {}
+        }
+      ]
+    }
+  ],
   "drop": [
     {
       "monster_template_id": 4034020,

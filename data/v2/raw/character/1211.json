@@ -4,380 +4,415 @@
   "chara_info": {
     "camp": "仙舟「罗浮」",
     "va": {
-      "chinese": "…",
-      "japanese": "…",
-      "korean": "…",
-      "english": "…"
+      "chinese": "多多",
+      "japanese": "加藤英美里",
+      "korean": "조현정",
+      "english": "Su Ling Chan"
     },
     "stories": {
-      "0": "…",
-      "1": "…",
-      "2": "…",
-      "3": "…",
-      "4": "…"
+      "0": "性格活泼的小女孩，持明族的「衔药龙女」，药到病除的名医。\\n经常开出不拘一格的药方，如「多喝热水」、「睡一觉就好了」。\\n见不得人受苦，治病时总是闭着眼睛。\\n——总之病好了就行！",
+      "1": "<i>「丹鼎司医案治验总要 • 卷四十八 • 例一千二百四十六\\n\\n主治医师：白露。\\n\\n患者：月追（狐人），女，六十二岁。\\n\\n主诉：误食化外民贩售的巧克力糖丸，口渴引饮，浑身酸痛，腹部尤甚，呼吸急促，尾巴毛脱落如絮。\\n\\n辨证：食物中毒。\\n\\n处方：苦参1钱，生甘草1钱1分，五谷玉液1瓶，《饮食禁忌常识须知》1本。\\n\\n用法：将苦参及生甘草用五谷玉液煎熬至半，过滤去渣，随量任意饮用至呕吐为止；《饮食禁忌常识须知》抄写五百遍，做到熟记于心。\\n\\n按语：典型食物中毒，脏器轻微病变已凭龙漦治愈，按方服药催吐、排出余下有毒物质即可。另外，就算是肉体强健的长生种，狐人不能吃巧克力是常识！！！\\n\\n还有，这等小毛小病就不要让病人等这么久，直接叫醒我就好了！另外再来些疑难杂症啊，你们要白白浪费本小姐的本事吗？」</i>",
+      "2": "<i>「丹鼎司医案治验总要 • 卷七十三 • 例五百八十二\\n\\n主治医师：白露。\\n\\n患者：锦余（持明），女，十三日又两个时辰。\\n\\n主诉：患者不及数月便会蜕生轮回，重焕新生。其成长速度百倍于寻常持明族。\\n\\n辨证：蜕生异症，世所罕有，万中无一。\\n\\n处方：无药可医，多喝热水\\n\\n用法：无\\n\\n按语：确实是疑难杂症！还是本小姐治不好的那种！\\n\\n持明族蜕生轮回的机理至今仍是一个未被破解的谜。有医者认为持明通过轮回修复漫长生命周期中的损伤，但这位患者的情况显然有违此理。\\n\\n我已化验了她的血样、髓液，也让她服下了透影虫，仔细查看了大脑，并无病变区域。唉，生命真是奇妙，即便是免于衰老、死亡，长生种也无法彻底解脱疾病的困扰啊。\\n\\n本小姐的身体也是，自打长出顶角后…六七年过去了，就再也没长高过！这到底是什么问题啊。一定是因为被那些讨厌的龙师长老们整天看着的缘故！娃娃不出去跑，怎么能长高？\\n\\n看到这条医案的医士，你们什么时候才能放我出去呀！本小姐又不是什么大坏蛋，戒备得那么紧做什么！真是气死我了气死我了气死我了气死我了气死我了气死我了气死我了气死我了气死我了」</i>\\n\\n本页末尾处另附生有龙角的鬼脸一张。",
+      "3": "<i>「丹鼎司医案治验总要 • 卷一百二十八 • 例三十九\\n\\n主治医师：白露。\\n\\n患者：景元（仙舟人），男，年龄不详（十王司肯定知道）。\\n\\n主诉：胸闷气短，嗜睡，眼睛困得睁不开。此次问诊为例行复诊。\\n\\n辨证：神策府里坐太久了。\\n\\n处方：蒜苗五花肉1碟，脆瓜胡辣鸡丁1碟，鲫香肉丝1盘，陈婆豆腐1碗，脆皮仔猪1只，狩原毛峰1杯。\\n\\n用法：吃就完事了。吃完觉得撑，自然就会想要外出走动消食，正好可以换换心情。\\n\\n按语：将军每年都要来问诊，理由大多是什么『胸闷气短』、『眼睛困得睁不开』，想要检查检查身子。\\n\\n将军的气机运行健旺得很，既没有奇症困扰，也察觉不出半点魔阴身征兆（虽然这事儿归十王司管，但本小姐还是特地留神了一下哈）。\\n\\n本小姐觉得，他就是闷得慌，没事溜出来晃荡。不然他每次来也不会都带上一个甜点盒子，塞进三四样果仁蜜饯什么的，坐下就跟我侃大山。什么我最近身体怎么样，做不做梦，吃的如何，比起我，他倒像个医生了。\\n\\n不过我挺喜欢跟他说说话儿的。不像那些老东西，将军不摆架子，又喜欢逗闷子，还经常说起自己出征去过的世界，各种精彩。唉，本小姐不想枯坐医斋，本小姐也想仗剑走天涯啊啊啊…… 」</i>",
+      "4": "<i>「诸位龙师安好：\\n\\n星历████年█月█日，对白露大人的定期诊察，简要记录如下——\\n\\n龙尊的身体依旧毫无变化，不曾成长。这不奇怪，发育迟缓在持明族中算是常例。相对身躯的静止，妾身对她无梦的状态更感忧心。\\n\\n历代龙尊在承接『重渊珠』及『化龙妙法』后，均会在梦中重历龙祖的往事。潜渊阁负责誊录复述并加注释，相关文件汗牛充栋。尽管那些梦境支离破碎，难以理智解析，但毕竟是我族更接近『不朽』的唯一方法。但白露大人却毫无类似的经验。由此可见，若不是『龙心』有损，便是『化龙妙法』未能施行完全。\\n\\n此外，鉴于龙尊大人已展露出招引雷霆和控驭水体的能力，我已再度命族中巧匠打制了『尺木缚锁』，枷于龙尾处，以免其力量失控，再生『饮月之乱』时的祸事。\\n\\n另，数月之前，曜青的『天风君』曾来信垂询龙尊现状，妾身已谨按长老们的叮嘱复函回答。白露大人年纪尚浅，仍需龙师辅佐，及至成年礼毕，龙师便会为其上『饮月君』的尊号，大意如此。\\n\\n<align=\"right\">龙尊近侍 云悠 拜上」</align></i>"
     },
     "voicelines": [
       {
         "voice_id": 1,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "初次见面",
+        "voice_m": "我是白露，丹鼎司的医士。来来，过来让我瞅瞅，你怎么回事，哪儿不舒服啦？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 2,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "问候",
+        "voice_m": "吃糖么？不吃啊，那我吃啦。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 3,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "道别",
+        "voice_m": "啊，这就要回去了么…再待一会儿，就一小会儿嘛！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 4,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于自己",
+        "voice_m": "我也算是龙吗？活动范围不出禁邸，一言一行都需符合族中规制。这样的生活…根本就是被养在鱼缸里的一条鱼吧？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 5,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "闲谈•饮食",
+        "voice_m": "午餐需讲究君臣相佐。烟熏肉堡两个，奶茶一杯，实是治疗心病、保持心情愉快的不二之选！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 6,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "爱好",
+        "voice_m": "熟读医理，寻找药材，打开格局。没有什么是不能入药的，越是疑难杂症，越是要依靠不拘一格的药方才行~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 7,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "烦恼",
+        "voice_m": "世上只有一种顽疾我爱莫能助，就是…长•不•高…哼！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 8,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "分享",
+        "voice_m": "把头埋入水中，不过也就一方小小的天地，却感觉可以比平时更加自由地呼吸，超脱了水的边界……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 9,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "见闻",
+        "voice_m": "听病人说，至味盛苑又出了新的甜品，叫「落九天」，那糖拔丝好长好长好长……可惜，我吃不到呀。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 10,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于景元",
+        "voice_m": "将军找我看病，大都是什么「眼睛困得睁不开」之类的病症，然后就问问我近况，稍坐一会儿便走，有时连药都不拿……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 11,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于符玄",
+        "voice_m": "符太卜一加班，搭配明目药茶的糖粉库存总是火速告急…",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 12,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于驭空",
+        "voice_m": "驭空司舵…每每见我，总说自己已经放下过往了，但其实还是放不下吧。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 13,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于停云",
+        "voice_m": "停云小姐可以承受比一般人更激烈的按摩治疗手法，所以我从来不会对她「手」下留情~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 14,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于素裳",
+        "voice_m": "哎呀，我就算足不出户，也可以听见她的声音，「急人所急，有求必应」——对吧？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 15,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于青雀",
+        "voice_m": "我只恨没有早点结识「帝垣琼玉」的发明者…如此强身健脑的益智活动，理应发扬光大！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 16,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于桂乃芬",
+        "voice_m": "我翘家在长乐天玩儿时，老能碰上她和素裳来看诊。有几回是素裳扛着她来，有几回是她扛着素裳来，还有几回是她俩一块儿挂彩——原因嘛，都是表演事故。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 17,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于寒鸦",
+        "voice_m": "晚上瞧见那位大姐姐可把我吓坏了！一看就知是长年操劳工作，失眠久郁，情志纷乱的病征。要我说，非得调养个百八十年，什么活也别干，不然不见好转。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 18,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于藿藿",
+        "voice_m": "这小姑娘看诊时总无故自惊，悸动不宁，像是自言自语，又像是能和瞧不见的东西说话。看来要安她的神，非得下一剂猛药不可。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 19,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "关于雪衣",
+        "voice_m": "她、她说话时怎么没有呼吸起伏，体肤下也不见一丝血行流动的迹象，莫不是个女鬼？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 20,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "星魂激活",
+        "voice_m": "持明的生命，就像一个个梦一样。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 21,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色晋阶",
+        "voice_m": "嘻嘻，医术精进了不少！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 22,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "角色满级",
+        "voice_m": "论仙舟医道，我已经摸到顶啦。但怎么就看不好自个长不高的怪病……",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 23,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "行迹激活",
+        "voice_m": "可惜本小姐的步子迈不大，不然早去漫游银河啦。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 24,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "{F#大姐姐}{M#大哥哥}别担心，尽管上，要是你有个三长两短，我一定包你痊愈如初。",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 25,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•符玄",
+        "voice_m": "太卜总是凝眉不展，肝火郁结。智者忧思，得往茶里加糖才能缓解~",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 26,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•丹恒",
+        "voice_m": "是丹恒先生啊，要不要教我些新的龙尊术法？",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 27,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "队伍编成•丹恒•饮月",
+        "voice_m": "是丹恒先生啊，要不要教我些新的龙尊术法？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "关于椒丘",
+        "voice_m": "椒丘大夫身上的未解之谜太多了…为什么他每顿饭都吃得那么辣，却硬是不怎么上火？喔！难怪他眼睛总是眯成缝，原来是因为辣的！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "队伍编成•椒丘",
+        "voice_m": "啊哟…椒丘大夫！你怎么连带来的糖果都是辣味的！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "关于灵砂",
+        "voice_m": "灵砂司鼎对我可好了，总带我出去玩～但我听有人在背地里说她「不务正业」…呸呸呸！陪我玩就是司鼎职责的一部分！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "关于飞霄",
+        "voice_m": "我实在医不好她的病，只能劝她多吃些好吃的——吃得好心情就好，心情好就能与病魔周旋更久，直到找到治愈的法子。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "队伍编成•飞霄",
+        "voice_m": "冲呀！片甲不留！",
         "unlock_desc": null,
         "is_battle_voice": false
       },
       {
         "voice_id": 51,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "你呀，看着有点儿虚。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 52,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "凶巴巴的，小心上火。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 53,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•一",
+        "voice_m": "哎哟你病得不轻啊！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 54,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合开始•二",
+        "voice_m": "让我来治治你~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 55,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回合待机",
+        "voice_m": "既不说话又不动，我们都是木头人~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 56,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "普攻",
+        "voice_m": "望、闻、问…踢！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 57,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•一",
+        "voice_m": "乖乖~张嘴~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 58,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战技•二",
+        "voice_m": "补补~身子~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 59,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "轻受击",
+        "voice_m": "你欺负我！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 60,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重受击",
+        "voice_m": "救命啊救命啊——",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 61,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•激活",
+        "voice_m": "就让你们看看……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 62,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "终结技•施放",
+        "voice_m": "这葫芦里卖的是什么药！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 63,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "天赋",
+        "voice_m": "我看还能抢救一下。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 64,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "无法战斗",
+        "voice_m": "医不自医……",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 65,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "重回战斗",
+        "voice_m": "我也不能放弃治疗~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 66,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "回复生命",
+        "voice_m": "疗效好！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 67,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "秘技",
+        "voice_m": "要雨露均沾哦~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 68,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "战斗胜利",
+        "voice_m": "嗯，不治已病，要治未病。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 69,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•一",
+        "voice_m": "能治病的就是良药~",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 70,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•一",
+        "voice_m": "还需辨疑去误呐。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 71,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "发现敌方目标",
+        "voice_m": "性命攸关，小心小心。",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 72,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "返回城镇",
+        "voice_m": "在外头多待一会儿好不好？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 73,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启战利品•二",
+        "voice_m": "嗯…或许也能入药？",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 74,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "开启贵重战利品",
+        "voice_m": "可以拿去换糖吃！",
         "unlock_desc": null,
         "is_battle_voice": true
       },
       {
         "voice_id": 75,
-        "voice_title": "…",
-        "voice_m": "…",
+        "voice_title": "解谜成功•二",
+        "voice_m": "哼哼~想不到我还懂这个吧！",
         "unlock_desc": null,
         "is_battle_voice": true
       }
@@ -449,6 +484,7 @@
       "extra": {}
     }
   },
+  "ex_ranks": {},
   "skills": {
     "121101": {
       "id": 121101,
@@ -467,6 +503,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -548,6 +585,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -704,6 +742,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -845,6 +884,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000007": {
           "name": "无法战斗状态",
@@ -1022,6 +1062,7 @@
         0
       ],
       "skill_combo_value_delta": 10,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -1047,6 +1088,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {

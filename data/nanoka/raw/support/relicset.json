@@ -1544,7 +1544,7 @@
     "en": "God's Moment of Joy",
     "set": {
       "2": {
-        "en": "Increases the wearer's SPD by <unbreak>#1[i]%</unbreak>. When the wearer's Elation reaches <unbreak>#2[i]%</unbreak> or higher, the wearer's action advances by <unbreak>#3[i]%</unbreak> immediately when entering combat.",
+        "en": "Increases the wearer's SPD by <unbreak>#1[i]%</unbreak>. When the wearer's Elation stat reaches <unbreak>#2[i]%</unbreak> or higher, advances the wearer's action by <unbreak>#3[i]%</unbreak> immediately upon entering combat.",
         "ParamList": [
           0.06,
           0.4,
@@ -1552,12 +1552,12 @@
         ],
         "ko": "장착한 캐릭터의 속도가 <unbreak>#1[i]%</unbreak> 증가한다. 장착한 캐릭터의 환락도가 <unbreak>#2[i]%</unbreak> 이상일 경우 전투 진입 시 즉시 행동 게이지가 <unbreak>#3[i]%</unbreak> 증가한다",
         "zh": "使装备者的速度提高<unbreak>#1[i]%</unbreak>。当装备者的欢愉度大于等于<unbreak>#2[i]%</unbreak>时，进入战斗时立刻使行动提前<unbreak>#3[i]%</unbreak>。",
-        "ja": "装備キャラの速度+<unbreak>#1[i]%</unbreak>。装備キャラの愉悦度が<unbreak>#2[i]%</unbreak>以上の場合、戦闘に入る時、行動順が<unbreak>#3[i]%</unbreak>早まる。"
+        "ja": "装備キャラの速度+<unbreak>#1[i]%</unbreak>。装備キャラの愉悦度が<unbreak>#2[i]%</unbreak>以上の場合、戦闘に入る時、行動順が即座に<unbreak>#3[i]%</unbreak>早まる。"
       }
     },
     "ko": "신의 순간의 환락",
     "zh": "神的瞬息欢愉",
-    "ja": "神の瞬く間の喜び"
+    "ja": "神の刹那の愉悦"
   },
   "330": {
     "icon": "SpriteOutput/ItemIcon/71063.png",
@@ -1568,7 +1568,7 @@
         "ParamList": [
           0.06,
           145,
-          0.15
+          0.18
         ],
         "ko": "장착한 캐릭터의 속도가 <unbreak>#1[i]%</unbreak> 증가하고, 장착한 캐릭터의 속도가 <unbreak>#2[i]</unbreak> 이상일 시 전투 진입 후 모든 아군의 격파 특수효과가 <unbreak>#3[i]%</unbreak> 증가하며, 해당 효과는 중첩되지 않는다",
         "zh": "使装备者的速度提高<unbreak>#1[i]%</unbreak>，当装备者的速度大于等于<unbreak>#2[i]</unbreak>时，进入战斗后使我方全体击破特攻提高<unbreak>#3[i]%</unbreak>，该效果无法叠加。",

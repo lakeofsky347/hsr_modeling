@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "银狼LV.999 / 火花 / 真珠 / 星神★阿哈 欢愉四人队完美轴伤害模拟器（数据源 hsr.nanoka.cc 4.6.51）",
+  "description": "银狼LV.999 / 火花 / 真珠 / 星神★阿哈 欢愉四人队完美轴伤害模拟器（数据源 hsr.nanoka.cc 4.7）",
   "scripts": {
     "test": "node --test tests/*.mjs tests/v2/*.mjs",
     "sim": "node bin/hsr-sim.mjs",

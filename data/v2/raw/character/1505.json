@@ -2,21 +2,463 @@
   "name": "绯英",
   "desc": "一季幻月满盈，一季人世更迭，神秘少女再度现身二相乐园！\\n落英易散，她的停留也不过刹那。新时代的一切令她痴迷，绝不容许有人破坏——\\n一把尺刀裁定正邪，可谁又能知，己身善恶几何？",
   "chara_info": {
-    "camp": null,
+    "camp": "二相乐园",
     "va": {
-      "chinese": null,
-      "japanese": null,
-      "korean": null,
-      "english": null
+      "chinese": "溯浔",
+      "japanese": "佐倉綾音",
+      "korean": "문유정",
+      "english": "Nathalie Ferare"
     },
     "stories": {
-      "0": null,
-      "1": null,
-      "2": null,
-      "3": null,
-      "4": null
+      "0": "一季幻月满盈，一季人世更迭，神秘少女再度现身二相乐园！\\n落英易散，她的停留也不过刹那。新时代的一切令她痴迷，绝不容许有人破坏——\\n一把尺刀裁定正邪，可谁又能知，己身善恶几何？",
+      "1": "最初，秘庭中的古树只是在独自聆听。\\n \\n它听见自己虬结的树根在地底蔓延，听见自己茂盛的枝叶在风中开散，听见无尽的生命涌入新生的世界，却又落回尚无名字的大地。\\n它并未过多关心。于它，这些生命不过是一瞬枯荣的过客，如雨水终将没入土壤。\\n \\n但无名之地再未归于寂静。天外的来客，异乡的旅人，因缘际会，在此驻足。透过枝叶传来的震颤愈发热烈，即使并未瞩目，他们的声音依旧顺着盘根错节的根茎传来。\\n \\n他们给了土地名字，称其为家园，他们也感谢它——以古老的游戏和仪式，将死和蛮荒的阴影永镇于洪渊之中。\\n在那些美丽的传说里，月满之时，神树之灵会化作古灵精怪的少女，来到梦中为虔诚的人满足心愿。\\n在那轮回反复的仪式中，它好奇什么是笑，什么是哭，人们为何歌唱，为何流泪，为何一去不复返，为何总有更年轻的人们在此顽强地活着。\\n \\n当天外忽然降下灾厄，毁灭的波涛山呼海啸，摧枯拉朽地席卷这片大地上一切的生灵。\\n它看见他们哭泣，听见他们哀嚎，看到曾经从无到有生长出的一切，似乎正在无可逆转地复归于破灭。\\n它看着这一切，忽然惊觉自己深处的某物如雨一样飘摇，如风一般震颤。\\n它似乎明白了，什么是笑，什么是哭。人们为何歌唱，为何流泪，为何一去不复返。\\n \\n夜晚，他们依旧向它献上歌谣。明日，便是决死一战——他们以莫大的勇气如此宣告。\\n一位母亲怀抱着稚嫩的婴儿，让她将祈福用的红绳挂在它的枝桠，孩子用不知何为恐惧的澄澈眼睛盯着它，笑着向它的枝桠伸出火光中近乎透明的小手——\\n \\n<i>「神树姐姐，拉勾勾……」</i>\\n \\n那一刻，累世的缘如同彩墨般挥洒，为它勾画了在人间的形貌。\\n在下一个瞬间，一大一小的两只手掌轻柔地贴合在一起。\\n而名为「绯英」的少女，也在月色下走向了人间。",
+      "2": "<i>「晨起所见，皆非旧时风物。有圆滚金黄之物，名曰蛋挞，更有奇物，名掌机，人影晃动，声自屏出，如见海市蜃楼，乐之乐之，一刻不玩，甚是想念。幻月之仪礼毕甚早，竟恋恋不忍……」</i>\\n \\n<align=\"right\">——哈托彼亚生活随记 其二</align>\\n \\n<i>「千里通信之器，名为手机；歌舞祈福，名为偶像；短袖，名为T恤；笑料，名为梗；同行者，名为搭子；甚乐，要说成『今天超级开心哒』…我已完全明白！\\n……\\n这次就决定扮演女子高中生啦！出去逛街的时候可不能被当成老古董，先换掉过时的衣裙，再把我的武器也美美改造一下！感谢我的搭子，我终于赶上大家的潮流了！以前没有漫画看的时候，过的是什么苦日子啊，我现在满脑子都是：好燃！好萌！好戳我！可恶，这一次不守规矩的谒者太多，到现在还没时间看完，老师我有生之年一定能看到完结篇的对吧！」</i>\\n \\n<align=\"right\">——二相乐园生活随记 其八</align>\\n \\n<i>「…我圆梦了家人们！今天第一次去漫展，第一次cos，穿上喜欢角色的衣服，戴上假发，化好妆，站在镜子前的人，这真的是我吗……自从公司来了这里，新奇的玩意一天比一天多，一个又一个热梗层出不穷，我连夜背都背不下来！\\n \\n可大家的笑点越来越高，为了整个大活，谒者都开始不择手段地吸引眼球，我救下了那些被绑架的孩子，但我不能动用丰饶的力量治疗他们…一旦无法控制，一定会造成更恐怖的灾难…唉，听着他们的心脏不再跳动，有时候我也会怀疑，我为什么会站在这里，这片土地又是为什么有如此之深的厄运……」</i>\\n \\n<align=\"right\">——二相乐园生活随记 其十六</align>\\n \\n少女不在幻月之上俯瞰人世流变，反而时常动心在凡尘中自在取乐。\\n人是如此奇妙的生命，他们想象，他们许愿，他们祈福，他们诅咒。无论如何，在欢愉之主留下的幻月游戏中，她唯一的任务只是让游戏顺利进行到终点——\\n \\n但她触碰到的喜怒哀惧，又何曾随风而逝？\\n在她还未知觉的时刻，她也被自己所感受的一切塑造着。",
+      "3": "倒数<unbreak>60</unbreak>秒，距离文字的完全消失还有一分钟。\\n当这一场幻月游戏的胜者宣布这项神迹的时候，大多数人以为不过是又一场大型过家家。\\n他们抬头望着，准备迎接一场愚人的狂欢。\\n \\n倒数<unbreak>59</unbreak>秒，一场精彩而激烈的漫画战斗台词，从漫画书的页间被抖落。\\n<i>「我们不干了，之后请自行想象战斗的声音。」</i>\\n二相乐园的人们哈哈大笑。\\n \\n倒数<unbreak>50</unbreak>秒，逃逸的文字获得了新生。它们长出了手脚，获得了符号之外的意义——\\n「刀」顶着利刃在街道狂奔，「枪」和「子弹」携手，化作横距在街道的无差别攻击凶手。\\n图书馆，家中书架，咖啡店…无穷无尽的字眼如同洪流般冲来，没有躲避的场所。\\n仍有更恐怖的字眼在破壳而出。\\n \\n倒数<unbreak>40</unbreak>秒，尖叫、哭喊、哀嚎充斥二相乐园的各处。\\n「世纪大魔王」，「毁灭之主」，「缄默修女」…从那些充斥娱乐产业的书籍中脱胎成型，吸收着人们的恐惧。\\n它们化作悬浮于二相乐园顶端的恶魔，指挥着末日的狂欢。\\n \\n倒数<unbreak>30</unbreak>秒，随着所有代码溜之大吉，数字化设备陷入停滞，二相乐园的防御设施全数失效，大量治安官阵亡。\\n \\n倒数<unbreak>20</unbreak>秒，四处奋战的少女停了下来，看着已化作人间炼狱的世界，她似乎做出了什么决定。\\n \\n倒数<unbreak>10</unbreak>秒，秘庭中的建木爆发出了从未有过的光芒，密密麻麻的枝桠自虚空垂落，抓住了所有作乱的文字怪物。\\n \\n倒数5秒，少女面露冷酷的微笑，文字的生命迅速被枝桠吸干，如同干瘪的落叶一般飘散。\\n \\n倒数3秒，一道绯色刀光闪过，符号被斩断、交织在一起，形成了后世的新生语言。\\n \\n一分钟后，幻月游戏复归正途。但世界染上枯萎的黄意，大地开绽，山川崩碎，少女目露悲伤，自天坠落。",
+      "4": "幻月沉暗朦胧，她再度沉入梦的怀抱。\\n在那些漫无止尽的梦中，陌生而熟悉的碎片时常泛起，沉淀。\\n \\n她梦到一滴眼泪。\\n丝竹礼乐不绝于耳，她伴着乐声，为奄奄一息的族人祈福。\\n无论如何施救，族人的生命总会定格于青春年华，倏忽老去，至亲之人的眼泪如同灼烧，滴落在她的手。\\n \\n她又梦到仿若鲜衣怒马的出征时。\\n她已被族人称为「剑歌者」。剑是荡平险阻之剑，歌为抚慰族群之歌，她誓要为族人扭转命数，求得长生不老之恩泽。\\n在寻药的漫漫长路中，她所向披靡，因此一刻也不曾驻足。在她焦急的脚步后，死亡仍然如影随形。\\n以生命为燃料，那调弄玄圃的柔荑，也终于向她投来眷顾的枝条。\\n \\n她又被唤醒了生死一线的记忆。\\n因为那未逢敌手的傲气，她未做过多思量，便闯入了舰队联盟的禁地。\\n如今，站在她眼前的对手却能从容挡住她的利剑。而那煌煌燎燃的火焰令她无所适从，就像是面对即将蔓延的野火，簌簌而响的叶子。\\n当她以毫厘之差落败时，她听到另一个自己的嘲笑——\\n \\n<i>「为什么要抗拒你本来的模样？」</i>\\n她看到一株巨树，它永生不灭，周围的一切都已被蚕食，化作累累白骨。\\n \\n然而，不待梦境呢喃出回音，她已自绵延的梦中挣脱。\\n她听到秘庭之外的喧响，那份喧响赶走了死寂带来的恐惧。\\n坐在金黄的树冠上，再一次，她向人世伸出了手——\\n \\n<i>「这还用想吗？要是变成你那样，我还能等到苍天航路绒绒号的更新么！」</i>"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "初次见面",
+        "voice_m": "恭喜你发现宝藏！我就是绯英，你好啊，大主角小浣熊。往常在这场狂欢里，我只会确保幻月游戏顺利召开，但这一次，如果是同你一起上台表演，也未尝不可呀！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "问候",
+        "voice_m": "今天绒绒号更新了吗？没有！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "道别",
+        "voice_m": "人世间的缘分可是说不准的，也许哪天，我们会在花瓣纷飞的街道上再次邂逅…我很期待。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "关于自己•过去",
+        "voice_m": "很久之前，人们向落入二相乐园的建木倾诉心底的秘密，在它的枝桠系上祈愿的红绳…拜乐子神的面具所赐，人世的愿力幻造了如今的我，幻月游戏的守护者。不瞒你说，我也会害怕自己的力量，但漫画里不都是这么演的嘛——战胜黑暗的过去，才能有真正的成长~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "关于自己•「绯英」",
+        "voice_m": "我自己取的名字，怎么样？不觉得念起来很好听吗？ 绯英，绯英…就像美丽的事物尽情绽放的时刻，即便转瞬即逝，也能成为心底的永恒。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "闲谈•裁定之尺",
+        "voice_m": "丈量浮华万世，裁定虚实境界，收刀之时，神鬼无赦——哼哼，这说法够帅吧？谁要是敢在幻月游戏里蔑视规则，看我不给他一尺。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "闲谈•绘画",
+        "voice_m": "我在绘画一道上可是很有天分的，看看送你的那张浣熊面具就知道了…运笔狂放，线条写意——这就叫…万法尽头，回归朴拙！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "闲谈•《人类迷惑行为大赏》",
+        "voice_m": "每一次幻月游戏召开，我都指着这个节目了解二相乐园的最新动态。虽然世界面貌日新月异，那些尴尬到抓地、笑到人抽筋的体验还是一点都没变…神奇。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "闲谈•《苍天航路绒绒号》",
+        "voice_m": "不论是撕裂幻胧胧肩膀的汪汪丹，一拳一个泰坦号的三月兔，还是踩着翻滚的垃圾桶大战主唱日的球棒浣熊…我都爱看！为什么你的表情这么奇怪…难道我记错了？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "爱好•角色扮演",
+        "voice_m": "最近星铁FES那么火，我也想去出cos，但喜欢的角色太多就会很纠结…首选肯定是用真发出三月兔，但反串出个汪汪丹，好像也很让人心动？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "爱好•电子宠物蛋",
+        "voice_m": "想当年，它可是风靡二相乐园，人手一个的国民游戏。这么久过去，谁能想到当初小小一只的狐狸老师，已经变成我的得力助手了。出来吧，和{NICKNAME}打个招呼~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "烦恼•一",
+        "voice_m": "不管是毛绒绒的蜘蛛还是光溜溜的甲虫，要是蹦到我身上，我给你当场表演一个手撕虫！还有些漫画家特别爱巨大虫类题材类的幻造种，简直就是噩梦哇…光聊到这些，我鸡皮疙瘩就起来了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "烦恼•二",
+        "voice_m": "一本漫画好不容易追更完，却发现惨遭腰斩…休刊不好吗？只要漫画家还活着，有生之年什么事都能发生……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "分享",
+        "voice_m": "只能在幻月游戏举行时现身人世，你懂那种十几天里，要把十几年以来好玩的好看的都集中过一遍的苦吗？与之相比，银河海淘周边已经算是一件小事了…不说了，请叫我时间管理大师！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "见闻•幻月游戏",
+        "voice_m": "最初，为了镇伏大地之下的邪祟，二相乐园的人们会举办娱神除祟的仪式。后来，它的形式几经变化，人们也逐渐淡忘了最初的目的，幻月游戏也像是变成了舞台剧…别误会，我更喜欢现在这样，那些噩梦般的日子，不应再降临了。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "关于{NICKNAME}",
+        "voice_m": "在二相乐园，能从那些恶意的愿望里回应善意的期盼，成为保护「欢愉」的英雄，不愧是球棒浣熊呀。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "关于火花",
+        "voice_m": "她说没有比我更适合给耳机带货的人了，如果靠这个直播，一定能风靡二相乐园——可惜，要不是时间紧张，我还真想试下。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "关于爻光",
+        "voice_m": "真想和她一起抓娃娃，刮彩票，抽卡…这可不是我瞎说——不信阿哈都没关系，一定要相信爻光的手气啊！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "关于不死途",
+        "voice_m": "表面上是一无所有的颓废侦探，背地里却是寰宇知名的游侠英雄——像不像漫画里的情节？二相乐园就是这样一个能容纳所有意外的地方。",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "关于银狼LV.<unbreak>999</unbreak>",
+        "voice_m": "她竟然是二相乐园第一款电子游戏的忠实粉丝，谁懂找到同好的幸福感？在游戏这一块，我永远拥护银狼大人！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "关于千冶•刃",
+        "voice_m": "把不死的丰饶之物封印在自己的身体里…别说，这个思路倒是挺新鲜的……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "关于姬子•启行",
+        "voice_m": "缘分真是妙不可言，当年那个仰望星空的女孩开启了《苍天航路绒绒号》的故事，如今她又像漫画里的英雄一样拯救了她的故乡——果然，还是人类的赞歌最能让我心潮澎湃！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "关于真珠",
+        "voice_m": "让我回忆下，历代二相乐园的领导者里，像她一样不摆架子的还真没几个！上次路过的时候，我还小小地点评了一下她的画作——嘻，我是敢教，没想到她也真敢学~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "关于星神★阿哈",
+        "voice_m": "什么叫现实比幻想更精彩？漫画家化身星神拯救世界，我的绒绒号果然不是白追的！二维马老师，我愿誓死追随你到宇宙尽头，没有你，就像吐司没有了果酱，就像嗑CP没有了粮……",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "星魂激活",
+        "voice_m": "落英一刹，缘结永恒~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "角色晋阶",
+        "voice_m": "封印解除，看我名刀出鞘！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "角色满级",
+        "voice_m": "终于可以用出那一招了！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "行迹激活",
+        "voice_m": "走过，笑过，哭过，就是我的每一天啦~",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "队伍编成•{NICKNAME}",
+        "voice_m": "十五年之期已到，尺刀狐狸恭迎球棒浣熊归位！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "队伍编成•火花",
+        "voice_m": "火花主播，友情提醒，别玩得太过火！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "队伍编成•爻光",
+        "voice_m": "再来一次，能看透我的命数吗？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "队伍编成•不死途",
+        "voice_m": "名侦探阁下…这次能推理出我的身份吗？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 109,
+        "voice_title": "队伍编成•银狼LV.<unbreak>999</unbreak>",
+        "voice_m": "大佬带我一起组队刷分！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 110,
+        "voice_title": "队伍编成•千冶•刃",
+        "voice_m": "这么看，我俩是不是比对面更危险？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 111,
+        "voice_title": "队伍编成•姬子•启行",
+        "voice_m": "和姬奇猫一起开大机器人？我不是在做梦吧！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 112,
+        "voice_title": "队伍编成•真珠",
+        "voice_m": "真珠女士，珠星财团下一期主推什么漫画？",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 113,
+        "voice_title": "队伍编成•星神★阿哈",
+        "voice_m": "放着我来！老师您的手要干更重要的事情！",
+        "unlock_desc": null,
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "战斗开始•弱点击破",
+        "voice_m": "头发越粉，打人越狠…你听过没？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "战斗开始•危险预警",
+        "voice_m": "经典套路呀，大反派登场~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "回合开始•一",
+        "voice_m": "让我量量，犯规程度…超标了！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "回合开始•二",
+        "voice_m": "真以为我是吉祥物咩？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "回合待机",
+        "voice_m": "犹豫就会失败哦？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "普攻",
+        "voice_m": "就是你了。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "战技•一",
+        "voice_m": "再见啦，各位！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "战技•二",
+        "voice_m": "代表幻月消灭你！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "轻受击",
+        "voice_m": "还没玩够呢？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "重受击",
+        "voice_m": "树大招风呐……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "欢愉技•一",
+        "voice_m": "踩到红线咯~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "欢愉技•二",
+        "voice_m": "已成定局啦~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "终结技•激活",
+        "voice_m": "一起上吧，狐狸老师——",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "终结技•施放",
+        "voice_m": "游戏的规则，我来裁定——你，out了！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "无法战斗",
+        "voice_m": "没到时间呢……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "重回战斗",
+        "voice_m": "剧情还没完呢。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "回复生命",
+        "voice_m": "被治愈到了，棒！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "战斗胜利",
+        "voice_m": "完结，撒花~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "开启战利品•一",
+        "voice_m": "我知道了，是你准备的惊喜？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 220,
+        "voice_title": "开启战利品•二",
+        "voice_m": "难道是…主角光环？",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "开启贵重战利品",
+        "voice_m": "许愿，星琼全收集~",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "解谜成功•一",
+        "voice_m": "我就说，看漫画能学到东西吧。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "解谜成功•二",
+        "voice_m": "无名客的思维方式，真有意思……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "发现敌方目标",
+        "voice_m": "根据战力学分析…这家伙很强！",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "返回城镇",
+        "voice_m": "让我看看今日潮流……",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "秘技",
+        "voice_m": "落英无痕。",
+        "unlock_desc": null,
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "evanescia",
@@ -116,6 +558,7 @@
       }
     }
   },
+  "ex_ranks": {},
   "skills": {
     "150501": {
       "id": 150501,
@@ -134,6 +577,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -215,6 +659,7 @@
         30
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000027": {
           "name": "笑点",
@@ -377,6 +822,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -533,6 +979,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000004": {
           "name": "追加攻击",
@@ -765,6 +1212,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {},
       "level": {
         "1": {
@@ -790,6 +1238,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000029": {
           "name": "好活当赏",
@@ -824,6 +1273,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10000028": {
           "name": "欢愉伤害",
@@ -948,8 +1398,8 @@
     "150529": {
       "id": 150529,
       "name": "欢愉万相★书中折花",
-      "desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，可积攒最多<color=#f29e38ff><unbreak>#3[i]</unbreak></color>点溢出能量，施放终结技后清空并恢复相应的能量值，本次恢复不会触发天赋的获得好活当赏效果。造成的伤害无视敌方目标<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>的防御力，每累计获得<unbreak>#4[i]</unbreak>点【<u>绝活共赏</u>】，使下一次终结技的伤害倍率提高原倍率的<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>。",
-      "simple_desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，可积攒溢出能量，施放终结技后清空并恢复相应的能量值。本次恢复不会触发天赋的获得好活当赏效果。造成的伤害无视敌方目标部分防御力，累计获得一定【<u>绝活共赏</u>】时，使下一次终结技的伤害倍率提高。",
+      "desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，可积攒最多<color=#f29e38ff><unbreak>#3[i]</unbreak></color>点溢出能量，施放终结技后清空并恢复相应的能量值，本次恢复不会触发天赋的获得<u>好活当赏</u>效果。造成的伤害无视敌方目标<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>的防御力，每累计获得<unbreak>#4[i]</unbreak>点【<u>绝活共赏</u>】，使下一次终结技的伤害倍率及本次终结技通过天赋造成的<u>欢愉伤害</u>倍率提高原倍率的<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，该效果无法叠加。",
+      "simple_desc": "当<color=#cb2f2f><u>「欢愉」命途升格</u></color>时，可积攒溢出能量，施放终结技后清空并恢复相应的能量值。本次恢复不会触发天赋的获得<u>好活当赏</u>效果。造成的伤害无视敌方目标部分防御力，累计获得一定【<u>绝活共赏</u>】时，使下一次终结技的伤害倍率及本次终结技通过天赋造成的<u>欢愉伤害</u>倍率提高，该效果无法叠加。",
       "type": null,
       "type_name": "固有行迹",
       "tag": "Enhance",
@@ -962,6 +1412,7 @@
         0
       ],
       "skill_combo_value_delta": null,
+      "related_ex_rank_id_list": [],
       "extra": {
         "10015111": {
           "name": "「欢愉」命途升格",
@@ -970,7 +1421,17 @@
         },
         "10015113": {
           "name": "绝活共赏",
-          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方欢愉命途角色的【固有行迹】效果。",
+          "desc": "获得【绝活共赏】状态时视为获得【好活当赏】状态，【绝活共赏】数值将影响我方「欢愉」命途角色的【固有行迹】效果。",
+          "param": []
+        },
+        "10000028": {
+          "name": "欢愉伤害",
+          "desc": "计入的笑点越多，欢愉度、角色等级越高，则造成的欢愉伤害越高。\\n欢愉伤害不受伤害提高类效果所影响。",
+          "param": []
+        },
+        "10000029": {
+          "name": "好活当赏",
+          "desc": "使参演阿哈时刻的角色获得【好活当赏】状态，并将本次阿哈时刻的笑点计入该状态，持续2回合。【好活当赏】状态产生的技能效果和欢愉伤害以【好活当赏】计入的笑点数计算。\\n多个【好活当赏】计入的笑点数合并计算。\\n各个【好活当赏】的持续时间各自独立计算。",
           "param": []
         }
       },
@@ -978,19 +1439,19 @@
         "1": {
           "level": 1,
           "param_list": [
-            0.5,
+            0.75,
             0.1,
             60,
-            500
+            480
           ]
         },
         "2": {
           "level": 2,
           "param_list": [
-            1,
+            1.5,
             0.24,
             240,
-            500
+            480
           ]
         }
       }
@@ -3514,17 +3975,18 @@
       "team_id": 1,
       "position": 1,
       "member_list": [
+        1511,
         1502,
-        1501,
         1503
       ],
       "backup_list1": [
+        1502,
         8009,
         1501
       ],
       "backup_list2": [
         8009,
-        1403,
+        1501,
         1313,
         1415,
         1306,
@@ -3556,5 +4018,7 @@
       ]
     }
   ],
-  "skin": {}
+  "skin": {
+    "1150501": ""
+  }
 }

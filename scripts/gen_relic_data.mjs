@@ -46,7 +46,7 @@ for (const id of [...need].sort()) {
   };
 }
 
-const js = '// 由 scripts/gen_relic_data.mjs 自动生成（数据源 hsr.nanoka.cc 4.6.51），请勿手改\n' +
+const js = '// 由 scripts/gen_relic_data.mjs 自动生成（数据源 hsr.nanoka.cc 4.7），请勿手改\n' +
   '// 2 件套 / 4 件套效果文本与参数（params 与 desc 中的 #1 #2 ... 一一对应）\n' +
   'export const RELICS = ' + JSON.stringify(relics, null, 1) + ';\n\n' +
   '// 站点给出的推荐顺序（首个为首选）；mainStats 为四个部位的主词条推荐\n' +

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Normalize nanoka.cc HSR data (v4.6.51) for the four target characters.
+"""Normalize nanoka.cc HSR data (v4.7) for the four target characters.
 
 Input : data/nanoka/raw/**   (produced by scripts/fetch_nanoka.sh)
 Output: data/nanoka/normalized/<id>_<slug>.json
@@ -16,7 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, 'data', 'nanoka', 'raw')
 NORM = os.path.join(ROOT, 'data', 'nanoka', 'normalized')
 REP = os.path.join(ROOT, 'reports')
-VERSION = '4.6.51'
+VERSION = '4.7'
 
 TARGETS = [(1506, 'silver_wolf_lv999'), (1501, 'sparxie'), (1503, 'pearl'), (1511, 'aeon_aha')]
 

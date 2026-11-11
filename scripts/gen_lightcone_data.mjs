@@ -61,7 +61,7 @@ for (const id of Object.values(SIGNATURE)) {
   };
 }
 
-const js = '// 由 scripts/gen_lightcone_data.mjs 自动生成（数据源 hsr.nanoka.cc 4.6.51 的专属光锥数据），请勿手改\n' +
+const js = '// 由 scripts/gen_lightcone_data.mjs 自动生成（数据源 hsr.nanoka.cc 4.7 的专属光锥数据），请勿手改\n' +
   '// levels[叠影-1] = 该叠影下的参数数组（与 desc 里的 #1 #2 ... 一一对应）\n' +
   'export const LIGHTCONES = ' + JSON.stringify(out, null, 1) + ';\n\n' +
   '// 角色 -> 专属光锥 ID\n' +

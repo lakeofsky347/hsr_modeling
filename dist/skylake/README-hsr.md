@@ -4,7 +4,7 @@
 
 ## 版本
 - 发布：v3.5
-- 数据版本：4.6.51（生成于 2026-10-10T12:33:34.005Z）
+- 数据版本：4.7（nanoka `https://static.nanoka.cc/hsr/4.7`，DimbreathBot/TurnBasedGameData `fe44559408d9f53700a5c236edfb64c3122d9449`）
 - 计算口径版本（engineVersion）：hsr-calc-3.4.1（v3.3 为 hsr-calc-3.2）。v3.4 加了逐乘区明细、4 处计算修正和希儿改版数据，所以升了版本；分享链接会记录这个版本。
 
 ## 数据来源

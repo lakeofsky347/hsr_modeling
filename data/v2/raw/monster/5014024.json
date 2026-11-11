@@ -1,6 +1,6 @@
 {
   "id": 5014024,
-  "name": "合金机铠•帕姆王",
+  "name": "含辛茹苦的列车长",
   "desc": "谁能驾驭星穹列车的洪荒之力？！失控的帕姆变成了「合金机铠•帕姆王」。\\n帕姆王是一台对干净整洁极为执着的强大机铠，按照它的标准，这里不干净了，必须进行全！面！打！扫！帕！",
   "monster_camp_id": 17,
   "attack_base": 18,
@@ -629,7 +629,7 @@
       "speed_modify_ratio": 1,
       "speed_modify_value": null,
       "stance_modify_ratio": 1,
-      "stance_modify_value": 120,
+      "stance_modify_value": 240,
       "stance_weak_list": [
         "Physical",
         "Fire",
@@ -806,6 +806,17 @@
       "monster_template_id": 5014024,
       "world_level": 6,
       "display_item_list": []
+    }
+  ],
+  "max_monster_phase": 2,
+  "phase_list": [
+    {
+      "phase_num": 1,
+      "phase_max_hp_ratio": 1.0
+    },
+    {
+      "phase_num": 2,
+      "phase_max_hp_ratio": 1.2
     }
   ]
 }

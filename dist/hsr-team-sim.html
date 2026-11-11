@@ -2720,7 +2720,9 @@ function executeAction(st, unit, action) {
         var lcJoke = lcParam(unit.lc, 1);
         gainJoke(st, unit, lcJoke);
         st.lcTeamDefIgnore = true;
-        st.lcAhaCd = lcParam(unit.lc, 2) || 2;
+        // 4.7 文案是「每间隔 #3 回合」。#3=1 表示两次触发之间空过 1 个回合，不是每个回合都触发。
+        // 冷却在下一次回合开始才减 1，所以计数要比间隔多 1，才会真正空过那一回合。
+        st.lcAhaCd = (lcParam(unit.lc, 2) || 0) + 1;
         entry.note = (entry.note ? entry.note + '；' : '') + '光锥·即兴巡演 +' + lcJoke + ' 笑点，全队无视防御 ' +
           Math.round(lcParam(unit.lc, 3) * 1000) / 10 + '%';
       }
@@ -2735,13 +2737,13 @@ function executeAction(st, unit, action) {
       unit.fervor = 0;
       st.ahaStanceTurnsLeft = unit.def.kit.ult.stanceTurns;
       st.upgraded = true;
-      if (unit.def.kit.ult.advance) advanceUnit(st, st.ahaMoment, unit.def.kit.ult.advance);
+      if (unit.def.kit.ult.advance) advanceAhaMoment(st, unit.def.kit.ult.advance);
       if (unit.eidolon >= 6 && !unit.__e6FirstUlt) {
         unit.__e6FirstUlt = true;
         var e6 = unit.def.eidolons[6];
         var joke6 = e6.firstUltJoke || 0;
         st.joke += joke6;
-        advanceUnit(st, st.ahaMoment, e6.firstUltAdvance || 1);
+        advanceAhaMoment(st, e6.firstUltAdvance || 1);
         entry.note = (entry.note ? entry.note + '；' : '') + '星魂6：首次终结技，阿哈行动提前 ' +
           Math.round((e6.firstUltAdvance || 1) * 100) + '%，笑点 +' + joke6;
       }
@@ -2800,11 +2802,18 @@ function healTick(st, entry) {
   }
 }
 
-// 行动提前
+// 行动提前（按剩余行动值的比例。原有调用保持这个口径）
 function advanceUnit(st, unit, ratio) {
   if (!ratio) return;
   var remaining = unit.nextAV - st.av;
   unit.nextAV = st.av + remaining * (1 - Math.min(1, ratio));
+}
+// 阿哈时刻的行动提前：减去「比例 × 10000/速度」，与 engine2 advanceTimer、tests/v2/rotation.test.mjs 一致
+function advanceAhaMoment(st, ratio) {
+  var m = st.ahaMoment;
+  if (!ratio || !m) return;
+  var cut = Math.min(1, ratio) * 10000 / Math.max(1, m.spd || 1);
+  m.nextAV = Math.max(st.av, m.nextAV - cut);
 }
 
 // 欢愉技（阿哈时刻内逐个施放）
